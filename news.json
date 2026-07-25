@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "جنگ ایران: شورشیان حوثی وعده پاسخ به حملات عربستان به الحدیده را دادند",
+        "title_en": "Iran war: Houthis vow response to Saudi strikes on Hodeida",
+        "summary": [
+            "بر اساس گزارش DW، شورشیان حوثی در پی حملات عربستان به بندر الحدیده در یمن اعلام کردند که «پاسخ» خواهند داد؛ این یعنی چرخه درگیری منطقه‌ای وارد فاز تشدیدی تازه می‌شود.",
+            "نکته راهبردی در همین گزارش این است که تهدید متقابل میان بازیگران درگیر در یمن، بدون پایان سیاسی، به احتمال افزایش حملات و اختلال بیشتر در مسیرهای حیاتی دریایی منجر می‌شود.",
+            "چون این روایت مستقیماً بر «حملات عربستان» و «پاسخ حوثی» تمرکز دارد، هرگونه اثر بر امنیت و اقتصاد منطقه‌ای می‌تواند زمینه‌ساز فشار بیشتر بر حامیان و هزینه‌های ادامه جنگ نیابتی باشد."
+        ],
+        "impact": "تشدید محتمل در یمن، خطر گسترش و طولانی‌شدن درگیری‌های نیابتی و افزایش هزینه‌های منطقه‌ای را بالا می‌برد.",
+        "tag": "یمن",
+        "urgency": 5,
+        "sentiment": -0.3,
+        "source": "DW.com",
+        "url": "https://www.msn.com/en-us/war-and-conflicts/war-events/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/ar-AA28E44D",
+        "clean_url": "https://www.msn.com/en-us/war-and-conflicts/war-events/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/ar-AA28E44D",
+        "image": null,
+        "timestamp": 1785017061.0
+    },
+    {
+        "title_fa": "حوثی‌ها یک جبهه تازه علیه آمریکا و ایران در عمل ایجاد کرده‌اند",
+        "title_en": "The Houthis Have Opened a New Front in the U.S.-Iran War",
+        "summary": [
+            "طبق گزارش WSJ، حوثی‌ها با گسترش حملات خود عملاً «جبهه جدیدی» را در جنگ غیرمستقیم آمریکا-ایران فعال کرده‌اند و این یعنی درگیری فقط به یک کانون محدود نیست.",
+            "این تحول می‌تواند فشار امنیتی و عملیاتی بیشتری بر نیروها و مسیرهای مرتبط با آمریکا وارد کند و هزینه مدیریت ریسک را برای واشنگتن بالا ببرد؛ نتیجه مستقیم، تشدید احتمال پاسخ‌های مقابله‌ای است.",
+            "برای تهران، این سناریو به معنای گسترش دامنه درگیری‌های نیابتی پیرامون منافع آمریکا است و می‌تواند محاسبات رژیم درباره زمان‌بندی تنش و کنترل پیامدها را پیچیده‌تر کند."
+        ],
+        "impact": "گشودن جبهه جدید، احتمال چرخه کنش-واکنش نظامی را بالا می‌برد و ریسک تشدید تنش میان آمریکا و شبکه‌های نیابتی ایران را افزایش می‌دهد.",
+        "tag": "جبهه‌جدید",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "WSJ",
+        "url": "https://www.msn.com/en-us/news/other/the-houthis-have-opened-a-new-front-in-the-us-iran-war/ar-AA28ykt4",
+        "clean_url": "https://www.msn.com/en-us/news/other/the-houthis-have-opened-a-new-front-in-the-us-iran-war/ar-AA28ykt4",
+        "image": null,
+        "timestamp": 1785015455.0
+    },
+    {
         "title_fa": "گزینه‌های دیگر ترامپ برای هدف‌گیری هسته‌ای ایران؛ فراتر از «پیک‌اکس»",
         "title_en": "It Isn’t Just Pickaxe: Trump’s Other Potential Nuclear Targets in Iran",
         "summary": [
@@ -5362,41 +5398,5 @@
         "clean_url": "https://www.msn.com/en-in/news/world/ghalibaf-calls-iran-us-mou-an-achievement-for-axis-of-resistance/ar-AA27i7PZ",
         "image": null,
         "timestamp": 1783282502.0
-    },
-    {
-        "title_fa": "تهدید مستقیم رئیس قوه قضاییه ایران علیه آمریکا و اسرائیل پس از ابقا",
-        "title_en": "Iran judiciary chief threatens US, Israel after reappointment",
-        "summary": [
-            "رئیس قوه قضاییه ایران پس از ابقا، تهدیدهای علنی علیه آمریکا و اسرائیل مطرح کرده است؛ نشانه‌ای از تداوم رویکرد تقابلی دستگاه قضایی برای افزایش هزینه سیاسی بر طرف مقابل.",
-            "این نوع ادبیات معمولاً به جای تغییر واقعی در ظرفیت‌ها، کارکرد داخلی دارد: تقویت انسجام درونی و انتقال هزینه‌های بن‌بست حکمرانی به «تهدید بیرونی»؛ اما اثر اجرایی آن در سیاست خارجی به‌صورت فوری در متن گزارش مستند نشده است.",
-            "با توجه به فقدان جزئیات درباره تحرکات عملیاتی یا اقدامات مشخص، این خبر بیشتر یک سیگنال سیاسی-روانی است تا سندی از تغییر سطح ریسک امنیتی؛ از منظر فشار خارجی هم ارتباط مستقیم و قابل راستی‌آزمایی در گزارش ارائه نشده است."
-        ],
-        "impact": "تهدیدهای تازه می‌تواند تنش لفظی را بالا ببرد، اما بدون شواهد اقدام عملی، احتمالاً اثر اصلی آن در مدیریت افکار عمومی و پوشش شکست‌های حکمرانی داخلی است.",
-        "tag": "تهدید",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The New Region",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yeVUyWE5zN2hlNW1IQ2twNlVvSENhVDJfcnlPS0V4dzJFQjdONy13VlBFUlFqT1laTjdwTm9xSS1aR3FjVGFxSmM2RQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yeVUyWE5zN2hlNW1IQ2twNlVvSENhVDJfcnlPS0V4dzJFQjdONy13VlBFUlFqT1laTjdwTm9xSS1aR3FjVGFxSmM2RQ",
-        "image": null,
-        "timestamp": 1783280496.0
-    },
-    {
-        "title_fa": "اسرائیل در پی دشمن بعدی؛ گزارش بدون جزئیات درباره هدف یا اقدامات",
-        "title_en": "Israel’s relentless quest for a next enemy",
-        "summary": [
-            "منبع «Middle East Monitor» تیتر «اسرائیل در پی دشمن بعدی» را مطرح می‌کند، اما متن قابل‌استفاده ارائه نشده و مشخص نیست این «دشمن» کدام کشور/گروه است یا چه رویدادی در حال رخ دادن است.",
-            "در نبود جزئیات، امکان ارزیابی مستقیم از اثرات فشار خارجی، تحرکات میدانی، یا پیامد اقتصادی/سیاسی برای ایران وجود ندارد؛ این بیشتر یک قاب‌بندی رسانه‌ای است تا گزارش رویداد.",
-            "به‌دلیل فقدان اطلاعات، نمی‌توان درباره نقش بازیگران خارجی یا ارتباط آن با روندهای داخلی ایران نتیجه‌گیری کرد و هر تحلیل فراتر از تیتر، خلاف الزام واقع‌گرایی است."
-        ],
-        "impact": "این گزارش فعلاً فقط یک روایت رسانه‌ای بدون داده مشخص ارائه می‌دهد و اثر قابل اندازه‌گیری بر روندهای ایران نمی‌توان تعیین کرد.",
-        "tag": "دیپلماسی",
-        "urgency": 1,
-        "sentiment": 0.0,
-        "source": "Middle East Monitor",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckh4cDR1QVpQLVlRZkZDeW95bFd6TGdyRElwTlBQcWxHWHVxaHBLR0QxYjRIY1RiZE5zSFV3X29tUkN1TC04XzBJajhjRF9jMkxKQi1hTFNteWtMWTQ3Vm8zZURYc3g2cFkzaWpIUWF4MTFEQTlRaVFQY21md0ZPM2ZGekNfUkxfcDY3aDVB?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckh4cDR1QVpQLVlRZkZDeW95bFd6TGdyRElwTlBQcWxHWHVxaHBLR0QxYjRIY1RiZE5zSFV3X29tUkN1TC04XzBJajhjRF9jMkxKQi1hTFNteWtMWTQ3Vm8zZURYc3g2cFkzaWpIUWF4MTFEQTlRaVFQY21md0ZPM2ZGekNfUkxfcDY3aDVB",
-        "image": null,
-        "timestamp": 1783279920.0
     }
 ]

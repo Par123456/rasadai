@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "گزینه‌های دیگر ترامپ برای هدف‌گیری هسته‌ای ایران؛ فراتر از «پیک‌اکس»",
+        "title_en": "It Isn’t Just Pickaxe: Trump’s Other Potential Nuclear Targets in Iran",
+        "summary": [
+            "گزارش WSJ می‌گوید در کنار «پیک‌اکس»، ترامپ گزینه‌های دیگری برای هدف‌گیری زیرساخت‌های هسته‌ای ایران نیز در نظر دارد؛ یعنی پیام تهدید صرفاً محدود به یک سناریوی واحد نیست.",
+            "این نوع فهرست‌برداری از «اهداف بالقوه» از منظر فشار خارجی، قابلیت اعمال شوک ساختاری بر محاسبات رژیم را بالا می‌برد: رژیم باید میان ادامه برنامه هسته‌ای و ریسک از بین رفتن زیرساخت‌های کلیدی انتخاب‌های سخت‌تری داشته باشد.",
+            "در سطح داخلی، چنین سیگنال‌هایی معمولاً به تشدید عدم‌اطمینان و ریسک‌پذیری دولت در مدیریت اقتصاد منجر می‌شود؛ اما چون متنِ ارائه‌شده جزئیات عملیات یا اقدامات اجرایی را تأیید نمی‌کند، نمی‌توان از وقوع ضربه یا فروپاشی فوری چیزی نتیجه گرفت."
+        ],
+        "impact": "اگر تهدیدهای چندلایه به مرحله اقدام برسند، هزینه حفظ و توسعه برنامه هسته‌ای به‌صورت جدی‌تر و چندمنبعی بالا می‌رود و ثبات تصمیم‌گیری رژیم را شکننده‌تر می‌کند.",
+        "tag": "هسته‌ای",
+        "urgency": 7,
+        "sentiment": -0.7,
+        "source": "WSJ",
+        "url": "https://www.wsj.com/world/middle-east/it-isnt-just-pickaxe-trumps-other-potential-nuclear-targets-in-iran-975e960e",
+        "clean_url": "https://www.wsj.com/world/middle-east/it-isnt-just-pickaxe-trumps-other-potential-nuclear-targets-in-iran-975e960e",
+        "image": null,
+        "timestamp": 1785013200.0
+    },
+    {
+        "title_fa": "حیرت اسرائیل از تصمیم لحظه‌اخیر ترامپ برای عدم حمله به ایران و بازگشت به مذاکرات",
+        "title_en": "Israel Caught Off Guard as Trump Decided Last Minute Not to Strike Iran, Return to Negotiations",
+        "summary": [
+            "به گزارش Haaretz، اسرائیل به‌دلیل تصمیم ناگهانی ترامپ در لحظه پایانی برای وارد نشدن به فاز حمله به ایران، از قبل غافلگیر شد.",
+            "این تصمیم در روایت رسانه‌ای به معنای تغییر مسیر از گزینه فشار نظامی به سمت از سرگیری روند مذاکره معرفی شده است.",
+            "همین «برگشت به مذاکرات» نشان می‌دهد محاسبات امنیتی و برنامه‌ریزی عملیاتی اسرائیل تحت‌تأثیر تصمیمات متغیر کاخ سفید قرار گرفته است."
+        ],
+        "impact": "این تغییر ناگهانی احتمالاً ریسک «سردرگمی راهبردی» را برای طرف‌های درگیر بالا می‌برد و زمان تنفس جدیدی برای طرف ایرانی در چارچوب مذاکرات فراهم می‌کند، اما نشانه‌ای از کاهش فشار سیاسی نیست.",
+        "tag": "مذاکره",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "Haaretz",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNRlNEOWpOT21acUE5ZEhVaGtiRXFNZXVDVmVYX2UyNzlKYlA2Yk50dHF3YWtzRC1zYV8yUkdsTDFmclZCWHptWXh1ZGtmaWxtX2tFakxXc3lfZUM3WDBoa3JqYjVqV3pTOEVGekRvd3R4ZEZNQV9MSEFjUjdadVN6WXRUSGstOVI1UlFNb3J2ZUtaMTRUc3VOY1hSZE5rWnMtYW1pSDZCNzRmdmdRRVQ4S0E5NW5GSHBhWmZ3clh6N0NZLVRrRDBETk8xcGtBVnFhQkdsV2p2b2hqbTAwVnVmRnNCSnVjWF9UV1FUS3N5dUpGOGwxcWNhcEFFZjZqVlFwbXVLdXlzcnQ0Yk9MT0g0QnpaQkFNOTRZR3Fr?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNRlNEOWpOT21acUE5ZEhVaGtiRXFNZXVDVmVYX2UyNzlKYlA2Yk50dHF3YWtzRC1zYV8yUkdsTDFmclZCWHptWXh1ZGtmaWxtX2tFakxXc3lfZUM3WDBoa3JqYjVqV3pTOEVGekRvd3R4ZEZNQV9MSEFjUjdadVN6WXRUSGstOVI1UlFNb3J2ZUtaMTRUc3VOY1hSZE5rWnMtYW1pSDZCNzRmdmdRRVQ4S0E5NW5GSHBhWmZ3clh6N0NZLVRrRDBETk8xcGtBVnFhQkdsV2p2b2hqbTAwVnVmRnNCSnVjWF9UV1FUS3N5dUpGOGwxcWNhcEFFZjZqVlFwbXVLdXlzcnQ0Yk9MT0g0QnpaQkFNOTRZR3Fr",
+        "image": null,
+        "timestamp": 1785012960.0
+    },
+    {
         "title_fa": "عقب‌نشینی ترامپ پس از عبور ایران از «خط قرمز»؛ پایان دو هفته حملات هوایی آمریکا",
         "title_en": "Trump pulls back after Iran crosses his red line as US military breaks two-week streak of airstrikes",
         "summary": [
@@ -5362,41 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckh4cDR1QVpQLVlRZkZDeW95bFd6TGdyRElwTlBQcWxHWHVxaHBLR0QxYjRIY1RiZE5zSFV3X29tUkN1TC04XzBJajhjRF9jMkxKQi1hTFNteWtMWTQ3Vm8zZURYc3g2cFkzaWpIUWF4MTFEQTlRaVFQY21md0ZPM2ZGekNfUkxfcDY3aDVB",
         "image": null,
         "timestamp": 1783279920.0
-    },
-    {
-        "title_fa": "ایران: ادعای عدم حضور رهبر عالی برای مراسم پدر و تأکید بر حمایت از حزب‌الله (طبق توییت/پست‌های خبری تورنتو سان)",
-        "title_en": "IRAN LATEST: Supreme leader no-show for father's funeral as Iran vows support for Hezbollah",
-        "summary": [
-            "تورنتو سان گزارش داده که «رهبر عالی» در مراسم تشییع/مراسم پدر حاضر نشده و این موضوع به‌عنوان نشانه‌ای از بی‌اعتنایی یا بحران در روایت رسمی مطرح شده است.",
-            "همزمان گزارش دیگری منتشر شده که ایران «حمایت از حزب‌الله» را ادامه می‌دهد؛ اما جزئیات عملی (نوع کمک، زمان‌بندی یا میزان) در متن ارائه‌شده مشخص نیست.",
-            "بخش دیگری از متن منبع به الکساندر/آل فونزو دیویس و حواشی جام جهانی اشاره می‌کند که ربط مستقیمی به موضوع ایران ندارد و نشان‌دهنده آشفتگی/ترکیب محتوا در همان صفحه است."
-        ],
-        "impact": "این رویداد بیشتر در سطح روایت سیاسی و سیگنال‌گذاری پیش می‌رود و تا وقتی جزئیات حمایت و پیامدهای داخلی روشن نشود، اثر مستقیم قابل اندازه‌گیری بر امنیت یا اقتصاد از متن فعلی استخراج نمی‌شود.",
-        "tag": "سیگنال",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "Toronto Sun",
-        "url": "https://torontosun.com/news/world/supreme-leader-no-show-fathers-funeral",
-        "clean_url": "https://torontosun.com/news/world/supreme-leader-no-show-fathers-funeral",
-        "image": "http://www.bing.com/th?id=ONUT.DS1Id88BZPu4CR1qzsK9Jg&pid=News",
-        "timestamp": 1783275120.0
-    },
-    {
-        "title_fa": "دولت اسرائیل اعلام کرد اجرای حکم دادگاه عالی درباره رگولاتور رسانه را به چالش می‌کشد",
-        "title_en": "Israel government says it will defy Supreme Court ruling on media regulator",
-        "summary": [
-            "دولت اسرائیل اعلام کرده است که با حکم دادگاه عالی درباره تنظیم‌گر رسانه‌ها مخالفت کرده و از اجرای آن سر باز خواهد زد.",
-            "این اقدام به‌طور مستقیم شکاف میان شاخه اجرایی و قضا را تشدید می‌کند و ریسک بی‌ثباتی سیاسی-نهادی را بالا می‌برد.",
-            "از نگاه راهبردی، چالش آشکار با تصمیم قضایی می‌تواند هزینه‌های داخلی (پولاریزاسیون، فشار افکار عمومی و تنش‌های حقوقی) را افزایش دهد، حتی اگر بحث همچنان محدود به حوزه مقررات رسانه باشد."
-        ],
-        "impact": "این پرونده بیشتر یک آزمون قدرت میان دولت و دادگاه عالی است تا یک تحول بیرونی، اما می‌تواند زمینه بی‌ثباتی نهادی در اسرائیل را تقویت کند.",
-        "tag": "تنش-حقوقی",
-        "urgency": 4,
-        "sentiment": -0.3,
-        "source": "Reuters",
-        "url": "https://www.msn.com/en-gb/politics/government/israel-government-says-it-will-defy-supreme-court-ruling-on-media-regulator/ar-AA27g0Zc",
-        "clean_url": "https://www.msn.com/en-gb/politics/government/israel-government-says-it-will-defy-supreme-court-ruling-on-media-regulator/ar-AA27g0Zc",
-        "image": null,
-        "timestamp": 1783274470.0
     }
 ]

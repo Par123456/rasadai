@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "ادعای ارتش آمریکا: شلیک به یک فروند کشتی در حین تلاش برای عبور از محاصره بنادر ایران",
+        "title_en": "U.S. military says it fired on another vessel trying to breach its blockade of Iranian ports",
+        "summary": [
+            "نیروهای نظامی آمریکا اعلام کردند به یک کشتی که «تلاش می‌کرد از محاصره بنادر ایران عبور کند» شلیک کرده‌اند؛ یعنی این اقدام در چارچوب ادامه کنترل دریایی واشنگتن قرار می‌گیرد.",
+            "این گزارش نشان می‌دهد محاصره و مداخله دریایی آمریکا صرفاً تهدید سیاسی نیست و با برخورد مستقیم میدانی همراه شده است، که ریسک خطای محاسباتی و تشدید تنش را بالا می‌برد.",
+            "به‌دلیل اینکه متن فقط به «شلیک» و «تلاش برای نقض محاصره» اشاره دارد، جزئیات درباره هویت کشتی یا نتیجه عملیات ارائه نشده و نمی‌توان فراتر از همین چارچوب، درباره ابعاد اقتصادی یا نظامی پیامدها حکم قطعی داد."
+        ],
+        "impact": "این رخداد، سطح درگیری مستقیم در آب‌های مرتبط با بنادر ایران را بالا می‌برد و می‌تواند به چرخه پاسخ‌گویی و تشدید تنش دریایی منجر شود.",
+        "tag": "آمریکا-دریایی",
+        "urgency": 8,
+        "sentiment": -0.4,
+        "source": "PBS",
+        "url": "https://www.msn.com/en-us/news/other/saudi-arabia-strikes-the-port-city-of-hodeida-in-yemen-coalition-says/ar-AA28zaiR",
+        "clean_url": "https://www.msn.com/en-us/news/other/saudi-arabia-strikes-the-port-city-of-hodeida-in-yemen-coalition-says/ar-AA28zaiR",
+        "image": null,
+        "timestamp": 1784933859.0
+    },
+    {
         "title_fa": "ترامپ در حال بررسی تشدید حملات علیه ایران با گسترش دامنه درگیری",
         "title_en": "Trump weighs harder Iran strikes as conflict widens",
         "summary": [
@@ -124,6 +142,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdDhfQzhEVFVaYzlrRmoyc3lUMXlTS1pLNXc1RVNxc3lFNU9CclhqMEs2Q3BBSFI1VW5CRFRMVC1WclEydlc3WFBDa1J2RTBkcEg4MGpTYms0Q0FxZ0oyaG5hRDNsRkg0V3RaN3k5OHVMYXYyZlNydm9EVjRMN1hTYThmbDVzUzAxRml2c2F1X0ZNcW1HRVdFMERnclYwNDc5bFZsX1BNdDFoU0NoTzQyNFExWFZ5TGMycThsQ0JpSUhsUQ",
         "image": null,
         "timestamp": 1784913000.0
+    },
+    {
+        "title_fa": "افت تعداد کشته‌های جنگ ایران در پنتاگون؛ اختلاف‌حسابداری و خشم قانونگذاران از «بازتعریف» عملیات",
+        "title_en": "Pentagon lowers count of Iran war dead, sparking questions and outrage",
+        "summary": [
+            "پایگاه عمومی پنتاگون برای ثبت تلفات جنگ ایران بیش از یک روز به‌روزرسانی نشده و طی روزهای اخیر هم‌زمان با تغییر ناگهانی شمار «زخمی و کشته»، مقام‌های وزارت دفاع آن را «خرابی فنی/خطای فنی» نسبت داده‌اند؛ این تناقض‌ها می‌تواند واقعیت تلفات را کمتر از مقدار واقعی نشان دهد.",
+            "بر اساس گزارش، این اختلال در ردیابی تلفات ممکن است با اعلام‌های قبلی دولت درباره پایان «Operation Epic Fury» در ماه می مرتبط باشد؛ حالا حملات هوایی علیه ایران از تاریخ مذکور با برچسب «overseas operations» نام‌گذاری می‌شود و این عنوان مبهم، شمارش تلفات را در سیستم‌های پیگیری دشوار یا نامشخص می‌کند.",
+            "قانونگذاران نسبت به «کتمان» و تلاش برای دور زدن سقف ۶۰ روزه اقدام نظامی بدون مجوز کنگره با تغییر نام/طبقه‌بندی جنگ اعتراض کرده‌اند؛ در عین حال، مسئله شفافیت تلفات به‌عنوان معیار اصلی هزینه واقعی جنگ مطرح شده است."
+        ],
+        "impact": "این وضعیت با تضعیف اعتبار گزارش‌دهی تلفات و ایجاد ابهام حقوقی/سیاسی درباره ادامه جنگ، هزینه سیاسی در واشنگتن را افزایش می‌دهد و می‌تواند به تشدید اختلافات داخلی و فشار برای پاسخ‌گویی منجر شود.",
+        "tag": "آمریکا",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/pentagon-lowers-count-iran-war-005533684.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/pentagon-lowers-count-iran-war-005533684.html",
+        "image": "http://www.bing.com/th?id=ONUT.rf8uJfvIHUe9CW92M4g_QQ&pid=News",
+        "timestamp": 1784912400.0
     },
     {
         "title_fa": "بازگشت ترس از جنگ در گرمای تابستانی اسرائیل؛ تعطیلی مدارس و موج‌سواری در سایه نگرانی امنیتی",
@@ -5362,41 +5398,5 @@
         "clean_url": "https://mynews4.com/news/nation-world/iranian-mourners-vow-revenge-on-us-israel-during-funeral-for-supreme-leader-ayatollah-ali-khamenei-united-states-war-conflict-strait-of-hormuz-gas-gasoline-oil-fuel-nuclear-weapon-president-donald-trump",
         "image": null,
         "timestamp": 1783183490.0
-    },
-    {
-        "title_fa": "واشنگتن پست: بقای رژیم و «سخت‌گیری بیشتر» به‌عنوان تحول راهبردی",
-        "title_en": "Iran’s regime survived the war and is now savvier, ruthless and more hard-line",
-        "summary": [
-            "واشنگتن پست مدعی است رژیم ایران «جنگ» را پشت سر گذاشته و اکنون از نظر مدیریتی «داناتر/باتجربه‌تر» و از نظر رفتاری «بی‌رحمانه‌تر» شده است؛ اما جزئیات رویداد مشخص (زمان، کنش، یا اقدامات عینی) ارائه نمی‌کند.",
-            "در چارچوب تفسیر مقاله، افزایش «خط‌مشی سخت‌گیرانه‌تر» به‌عنوان نتیجه‌گیری از دوره‌های فشار و بحران مطرح می‌شود، نه به‌عنوان گزارش یک تصمیم یا قانون مشخص در این متن کوتاه.",
-            "از متن ارائه‌شده نمی‌توان سیگنال‌های قابل راستی‌آزمایی درباره تحریم‌های جدید، نقش بازیگران خارجی، موج اعتراضات داخلی یا نشانه‌های اقتصادی استخراج کرد؛ بنابراین ارزیابی پیامدها باید محدود به ادعای کلی «تشدید سرکوب» بماند."
-        ],
-        "impact": "این روایت، اگرچه جزئیات ندارد، به افزایش قابلیت و احتمال تداوم سرکوب سازمان‌یافته اشاره می‌کند و می‌تواند ریسک تشدید فشار داخلی را بالا ببرد.",
-        "tag": "تحلیل",
-        "urgency": 4,
-        "sentiment": -0.35,
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclI0Z1JvNGdQQ3RjY2MxMWd5TXFaZUNDNmI4c09GMkpiTkJicHRWUGJMd0tsQjg0MVZPRnBIT2lKaFh1ck5UY0JDZnp5MUhnZXdOYTVac0NsTGUxQ3BCRXZSVV9JUC14LU90ZWR2QlF6eUhjTVpudEJsdUc1NWhIV0xkZzhfQ0ZQbHZ5MmpfU3EwdHd5R2FKZm9tYkFhZFA0OGRzSUx1V3VNOGg2Y3N4Y2RsYm1XVlU?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclI0Z1JvNGdQQ3RjY2MxMWd5TXFaZUNDNmI4c09GMkpiTkJicHRWUGJMd0tsQjg0MVZPRnBIT2lKaFh1ck5UY0JDZnp5MUhnZXdOYTVac0NsTGUxQ3BCRXZSVV9JUC14LU90ZWR2QlF6eUhjTVpudEJsdUc1NWhIV0xkZzhfQ0ZQbHZ5MmpfU3EwdHd5R2FKZm9tYkFhZFA0OGRzSUx1V3VNOGg2Y3N4Y2RsYm1XVlU",
-        "image": null,
-        "timestamp": 1783180057.0
-    },
-    {
-        "title_fa": "اردوغان: اسرائیل نباید مانع توافق آمریکا و ایران شود",
-        "title_en": "Turkey's Erdogan says Israel must not scupper US-Iran deal",
-        "summary": [
-            "رجب طیب اردوغان در اظهارنظر رسانه‌ای تأکید کرد که اسرائیل نباید مسیر «توافق آمریکا و ایران» را به هم بزند.",
-            "این موضع، یک پیام سیاسی مستقیم از آنکارا به تل‌آویو برای جلوگیری از اقداماتی است که می‌تواند روند مذاکرات یا اجرای هر توافق احتمالی میان واشنگتن و تهران را مختل کند.",
-            "با توجه به نقش ترکیه در پرونده‌های منطقه‌ای، این اظهارنظر نشان می‌دهد فشارهای دیپلماتیک منطقه‌ای در حال اثرگذاری بر محاسبات طرف‌های درگیر در چرخه تنش میان ایران و غرب است."
-        ],
-        "impact": "این اظهارنظر می‌تواند به عنوان تلاش برای مهار ریسک تشدید تنش و حفظ مسیر تعامل آمریکا-ایران عمل کند، اما ماهیت سیاسی‌بودن آن بدون تضمین اجرایی، اثر محدود و شکننده دارد.",
-        "tag": "دیپلماسی",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "Reuters",
-        "url": "https://www.msn.com/en-ca/news/world/turkey-s-erdogan-says-israel-must-not-scupper-us-iran-deal/ar-AA27cuHE",
-        "clean_url": "https://www.msn.com/en-ca/news/world/turkey-s-erdogan-says-israel-must-not-scupper-us-iran-deal/ar-AA27cuHE",
-        "image": null,
-        "timestamp": 1783178365.0
     }
 ]

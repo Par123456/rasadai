@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "حوثی‌ها موشک و پهپاد به عربستان شلیک کردند؛ واکنش به حملات علیه الحدیده",
+        "title_en": "Yemen’s Houthis fire missiles, drones at Saudi Arabia in response to strikes on Hodeida",
+        "summary": [
+            "طبق گزارش NBC News، نیروهای حوثی در واکنش به «حملات بر الحدیده» موشک و پهپاد به سمت عربستان شلیک کردند.",
+            "این رویداد نشان می‌دهد که جنگ یمن همچنان به شکل مستقیم به عمق سرزمین‌های منطقه‌ای (عربستان) سرایت می‌کند و چرخه تلافی‌جویانه فعال است.",
+            "تمرکز اقدام گزارش‌شده روی دو متغیر عملیاتی است: استفاده از پهپاد و موشک در حمله، و مبنای سیاسی-امنیتی آن یعنی انتقام از «حملات بر الحدیده»."
+        ],
+        "impact": "این حمله، ریسک بی‌ثباتی منطقه‌ای و تشدید درگیری‌های نیابتی را بالا می‌برد، چون هر موج پاسخ می‌تواند موج بعدی را سریع‌تر و شدیدتر کند.",
+        "tag": "منطقه‌ای",
+        "urgency": 5,
+        "sentiment": -0.4,
+        "source": "NBC News",
+        "url": "https://www.msn.com/en-us/news/world/houthis-fire-missiles-and-drones-at-saudi-arabia-in-response-to-strikes-on-a-yemeni-city/ar-AA28Ev54",
+        "clean_url": "https://www.msn.com/en-us/news/world/houthis-fire-missiles-and-drones-at-saudi-arabia-in-response-to-strikes-on-a-yemeni-city/ar-AA28Ev54",
+        "image": null,
+        "timestamp": 1784988392.0
+    },
+    {
         "title_fa": "«ایران زمان خرید»: اسرائیل برای حمله نمایشی آمریکا آماده شد اما رخ نداد",
         "title_en": "'Iran bought time': Israel braced for dramatic US strike that never came",
         "summary": [
@@ -52,6 +70,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hMXVnSDRCd2Q5VTdweGd0TlFaQWtYQTFtcHhMNmpDYmp0ZmNRWjRCNWVMRmhmSGhJTVBwMWtsQ0FnS21sZkRlR2VNWHFMeWVldDRUcm12UGpTQk5xMU9NOWlyV1VnRzg4LWZVTjNiMTY1SEdmalN4bGhPc9IBgAFBVV95cUxOOVF5S1pRbkcxWmhUaUtrR0hpdms1Tk9udHBPVU93aHB2cnNJSjNsSmNfMWZOLUd6YjRMakUxblhTZDFZeG9YaEJpQ0xfa2ZMeGV5YWFieUQwMC01aHBVSnduY09GeDJGaFByNjVuVHk5YjRnX2Vyekl3Y29NMkExMg",
         "image": null,
         "timestamp": 1784983920.0
+    },
+    {
+        "title_fa": "افت قیمت نفت در انتظار روشن شدن وضعیت پس از توقف حملات ایران و اسرائیل",
+        "title_en": "Oil Falls as Investors Await Clarity After Iran-Israel Halt Attacks",
+        "summary": [
+            "طبق EnergyNow.com، قیمت نفت به دلیل کاهش ریسک و انتظار بازار برای «شفافیت» پس از اعلام توقف حملات بین ایران و اسرائیل افت کرده است؛ یعنی معامله‌گران فعلاً روی عقب‌نشینی تنش یا چرخه بعدی آن شرط‌بندی می‌کنند.",
+            "این خبر بیشتر ماهیت «ادراک بازار» دارد تا اعلام یک تغییر ساختاری در عرضه یا تحریم‌ها: افت نفت ناشی از موقعیت کوتاه‌مدت سرمایه‌گذاران و عدم قطعیت ادامه‌دار است، نه یک داده اقتصادی/فنی جدید درباره تولید یا صادرات.",
+            "تا زمانی که مشخص نشود توقف حملات پایدار است یا صرفاً موقت، نوسان قیمت نفت محتمل می‌ماند؛ این به معنای باقی ماندن فشار روانی بر ریسک ژئوپلیتیک پیرامون برنامه‌های امنیتی و اختلال احتمالی زنجیره انرژی است."
+        ],
+        "impact": "کاهش قیمت نفت نشان می‌دهد بازار فعلاً از احتمال تشدید فوری تنش فاصله گرفته، اما چون «شفافیت» کامل وجود ندارد، ریسک نوسان و برگشت قیمت با هر خبر جدید باقی می‌ماند.",
+        "tag": "نفت",
+        "urgency": 4,
+        "sentiment": 0.2,
+        "source": "EnergyNow.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmZQTG5MYW5mNnVRTlZMenMzal82djYwWkszRHRUVlpWNkNvTThoRVk4ZjlpWVM2R2ZJM2UycUg2MFRiUS1ndnlqZ1dIVkN0V3NmM3owV2R4QjlDS2NNbGtiZmdIOTZHVUtpc0g1bjZ3Nk10SUc0R1pnLUgtS1pnYkJkVEkwZ0VUcnAyaUpCLTZ1dEFYQkFIWHNtSFJpR28?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmZQTG5MYW5mNnVRTlZMenMzal82djYwWkszRHRUVlpWNkNvTThoRVk4ZjlpWVM2R2ZJM2UycUg2MFRiUS1ndnlqZ1dIVkN0V3NmM3owV2R4QjlDS2NNbGtiZmdIOTZHVUtpc0g1bjZ3Nk10SUc0R1pnLUgtS1pnYkJkVEkwZ0VUcnAyaUpCLTZ1dEFYQkFIWHNtSFJpR28",
+        "image": null,
+        "timestamp": 1784983708.0
     },
     {
         "title_fa": "گزارش ایران از عدم وقوع حمله جدید آمریکا؛ وقفه‌ای کوتاه در چرخه تنش",
@@ -5362,41 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNNm5XMy1hZXZXRERjQXBLbGJRRGhkSkQtVUZFb2VWXzFCWmtCT2Ixa05QRldaV3hJc18yZndkdURPQnRibmxGNUR1VW1CVFN3MzVNejZ2My02YkRKeHNFM2JOSWczcTBvdnBiUlhhY3NtRWo4YVpTNA",
         "image": null,
         "timestamp": 1783250880.0
-    },
-    {
-        "title_fa": "مراسم تشییع علی خامنه‌ای؛ نمایش قدرت تهران زیر فشار عدم‌قطعیت",
-        "title_en": "As Iran’s Patriarch Is Mourned, Glimpses of a Changing Tehran",
-        "summary": [
-            "حکومت در سراسر تهران از مراسم تشییع علی خامنه‌ای برای «نمایش قدرت» استفاده می‌کند؛ اقدامی که نشان می‌دهد وضعیت کشور از نظر مدیریت و امنیت سیاسی با عدم‌قطعیت جدی همراه است.",
-            "این تیترِ تلاش برای کنترل روایت عمومی در شرایط نامطمئن قرار گرفته، اما مقاله به جز این هدف‌گذاری تبلیغاتی، نشانه‌های مشخص از سیاست جدید یا تغییرات واقعی حکمرانی ارائه نمی‌کند.",
-            "پیام مرکزی این گزارش این است که در لحظه حساس جانشینی/فضای سیاسی، رژیم به جای کاهش تنش، از مناسک رسمی برای انسجام‌بخشی و بازنمایی تداوم اقتدار استفاده می‌کند."
-        ],
-        "impact": "این نوع بهره‌برداری از تشییع، بیشتر ابزار مدیریت افکار عمومی برای تثبیت نظم موجود در برابر عدم‌قطعیت است تا نشانه اصلاح یا کاهش ریسک‌های داخلی.",
-        "tag": "رژیم",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/05/world/middleeast/iran-funeral-khamenei-tehran.html",
-        "clean_url": "https://www.nytimes.com/2026/07/05/world/middleeast/iran-funeral-khamenei-tehran.html",
-        "image": "http://www.bing.com/th?id=ONUT.W5SFpCz5bKeF9iuXu8lSfw&pid=News",
-        "timestamp": 1783248300.0
-    },
-    {
-        "title_fa": "ادامه رشد قیمت نفت به‌دلیل نگرانی از احتمال درگیری آمریکا و ایران",
-        "title_en": "Oil Prices Extend Gains on Concern Over Potential US-Iran Conflict",
-        "summary": [
-            "طبق گزارش EnergyNow.com، قیمت نفت پس از رشد قبلی نیز به افزایش ادامه داده است، محرک اصلی همین نگرانی بازار از احتمال درگیری میان آمریکا و ایران است.",
-            "این گزارش نشان می‌دهد که ریسک ژئوپلیتیک، مستقل از داده‌های بنیادی تولید یا تقاضا، به‌عنوان عامل تعیین‌کننده کوتاه‌مدت در قیمت نفت عمل می‌کند.",
-            "محدوده خبر در حد «نگرانی بازار» باقی می‌ماند و هیچ جزئیات قابل‌اتکا درباره عملیات، تصمیم رسمی یا اقدامات مشخص ارائه نمی‌کند."
-        ],
-        "impact": "افزایش قیمت نفت به‌واسطه ریسک درگیری، می‌تواند هزینه‌های اقتصادی و فشار روانی بر تصمیم‌گیری‌های اقتصادی را تشدید کند، اما متن خبر شواهد عملیاتی برای اثبات وقوع درگیری ارائه نمی‌دهد.",
-        "tag": "نفت",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQzBObHh2Z18wYkFCdldzRnJ1RzBJWHpRVmg4eUQyR25LckFMWjRjdE1RYUU0akdWemVnR1JjUE1ESC1VYmo0QUhFTmhvYTJPbVlieFMxSUowUzN6QVYtYXFET3NMNzRNa3h2NmRvMl9Ed0libEJJdlNWTVI0d3ZvQjdORnUtTFRwYUJFX0VnMEV4MjBzdlRqWlR6d1VLUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQzBObHh2Z18wYkFCdldzRnJ1RzBJWHpRVmg4eUQyR25LckFMWjRjdE1RYUU0akdWemVnR1JjUE1ESC1VYmo0QUhFTmhvYTJPbVlieFMxSUowUzN6QVYtYXFET3NMNzRNa3h2NmRvMl9Ed0libEJJdlNWTVI0d3ZvQjdORnUtTFRwYUJFX0VnMEV4MjBzdlRqWlR6d1VLUQ",
-        "image": null,
-        "timestamp": 1783248205.0
     }
 ]

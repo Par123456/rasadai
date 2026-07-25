@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "اعمال تحریم‌های تازه آمریکا علیه شبکه تامین مالی زنجانی",
+        "title_en": "US hits network of Iranian financier Zanjani with more sanctions",
+        "summary": [
+            "طبق گزارش whbl.com، آمریکا یک شبکه مالی مرتبط با «زنجانی» را هدف تحریم‌های جدید قرار داده است؛ یعنی فشار مستقیم روی کانال‌های تامین پول و نقل‌وانتقال‌های احتمالی برای فعالیت‌های برون‌مرزی/اقتصادی.",
+            "این نوع اقدام در چارچوب فشار خارجی، به‌صورت ساختاری توان عملیاتی شبکه‌های مالی را محدود می‌کند: ریسک مسدودی دارایی، اختلال در پرداخت‌ها و سخت‌تر شدن دسترسی به واسطه‌های بانکی و تجاری.",
+            "از نظر اثر داخلی، چون چنین شبکه‌هایی معمولاً به مدیریت نقدینگی و دور زدن محدودیت‌ها وابسته‌اند، افزایش هزینه و ریسک مالی می‌تواند نارضایتی و بی‌ثباتی اقتصادی را تشدید کند—به‌خصوص در شرایطی که خودِ اقتصاد ایران از پیش با تنگناهای تامین مالی روبه‌رو است."
+        ],
+        "impact": "تحریم تازه علیه شبکه زنجانی بیشتر از اینکه یک پیام سیاسی باشد، مسیرهای مالی را برای فعالیت‌های مرتبط با او پرهزینه‌تر و کم‌اثرتر می‌کند و فشار اقتصادی را افزایش می‌دهد.",
+        "tag": "تحریم",
+        "urgency": 7,
+        "sentiment": -0.55,
+        "source": "whbl.com",
+        "url": "https://www.msn.com/en-us/money/markets/us-hits-network-of-iranian-financier-zanjani-with-more-sanctions/ar-AA28D03L",
+        "clean_url": "https://www.msn.com/en-us/money/markets/us-hits-network-of-iranian-financier-zanjani-with-more-sanctions/ar-AA28D03L",
+        "image": null,
+        "timestamp": 1784973247.0
+    },
+    {
+        "title_fa": "چرا جنگ ایران و اسرائیل نتوانست خاورمیانه را دوپاره کند؟",
+        "title_en": "Why Didn’t the Iran–Israel War Divide the Middle East?",
+        "summary": [
+            "این متن، به‌صورت تحلیلی/پرسشی می‌کوشد توضیح دهد چرا یک درگیری ایران–اسرائیل به یک شکاف منطقه‌ای گسترده‌تر تبدیل نشد، اما جزئیات رویدادهای مشخص، فهرست کشورها یا اقدامات دیپلماتیک در خودِ داده‌ی ارائه‌شده نیامده است.",
+            "چون محتوای مقاله در اختیار نیست، نمی‌شود درباره اینکه کدام بازیگران عملاً موضع گرفتند، کدام‌ها از درگیر شدن مستقیم اجتناب کردند، یا چه مکانیسم‌هایی مانع «دو قطبی شدن» منطقه شد، اظهار دقیقی داشت.",
+            "در نتیجه، بر مبنای همین ورودی، فقط می‌توان گفت محور نوشته «عدم وقوعِ شکاف منطقه‌ای» است؛ اما ارزیابی قابل اتکا از اثرات اقتصادی/تحریمی، نقش روسیه/چین/کره‌شمالی، یا روندهای اعتراض داخلی بدون متن کامل ممکن نیست."
+        ],
+        "impact": "در نبود جزئیات مقاله، اثر واقعی این رویکرد صرفاً در سطح تبیینِ «چرا شکاف رخ نداد» باقی می‌ماند و نمی‌توان پیامد عملی یا سنجه امنیتی/اقتصادی مشخص استخراج کرد.",
+        "tag": "تحلیل",
+        "urgency": 4,
+        "sentiment": 0.0,
+        "source": "Modern Diplomacy",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHJsWHhOLXhRUkwyYmRPeU9GWlp1NDdNOXBTWmF5VXpRblVpMkFYQklLUUxWUHVGNWRseTZGMGRLWms0MHJmNFZIZlJmclNFTTBFMHdiaU1JX1ZKU0EycUtnYXJqTkx1LXp0RzR0T0FEaHczZjJUdmdIUnZKMU9EZW8yR3l5d0ROaDBzcW80bUNINnl6NFE?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHJsWHhOLXhRUkwyYmRPeU9GWlp1NDdNOXBTWmF5VXpRblVpMkFYQklLUUxWUHVGNWRseTZGMGRLWms0MHJmNFZIZlJmclNFTTBFMHdiaU1JX1ZKU0EycUtnYXJqTkx1LXp0RzR0T0FEaHczZjJUdmdIUnZKMU9EZW8yR3l5d0ROaDBzcW80bUNINnl6NFE",
+        "image": null,
+        "timestamp": 1784972275.0
+    },
+    {
         "title_fa": "ارزیابی اطلاعاتی آمریکا: رهبر جدید ایران راه هسته‌ای را بازتر می‌بیند",
         "title_en": "US intel sees Iran’s new leader as more open to nuclear path",
         "summary": [
@@ -16,6 +52,42 @@
         "clean_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3ZYczg4Q05MZHpWQzNrdTVod01lLW5hTjFfc0FjVlFxbU0tbDg0NFQ3Uk1obVQ4WFVON2RWTDVVZ2VoX3QydTJKTlk0dEx2Q0xSQ1hDSkpydVFaMFBiUW40Ym0tSEZDT0ZyWVBpZW4zMUR6aC1qTzk0SWJZR1gyM3kzb0Fidw",
         "image": null,
         "timestamp": 1784967944.0
+    },
+    {
+        "title_fa": "تقریباً نیمی از کاربران اینترنت ایران از قطعی‌های مرتبط با درگیری‌ها خشمگین‌اند (نظرسنجی ISPA)",
+        "title_en": "Nearly half of Iranian internet users angry over conflict outage, ISPA poll finds",
+        "summary": [
+            "نظرسنجی ISPA نشان می‌دهد نزدیک به نصف کاربران اینترنت ایران از قطعی ارتباطات در بازه‌های مرتبط با «درگیری» ناراضی و عصبانی هستند؛ یعنی اختلال، به‌طور مستقیم به تجربه روزمره مردم آسیب زده است.",
+            "گستردگی نارضایتی (حدود ۵۰٪) بیانگر یک پیام سیاسی-اجتماعی است: دولت و نهادهای مرتبط با حکمرانی شبکه، نتوانسته‌اند اعتماد عمومی و ثبات ارتباطات را حفظ کنند.",
+            "این سطح از خشم عمومی می‌تواند فشار داخلی بر تصمیم‌گیران ایجاد کند، چون قطعی‌های مکرر هزینه اجتماعی و اقتصادی برای کاربران و کسب‌وکارها دارد و نارضایتی را از حاشیه به مرکز می‌برد."
+        ],
+        "impact": "این گزارش، ناپایداری شبکه و پاسخ‌گویی ضعیف حکمرانی ارتباطات را به یک عامل مستقیم نارضایتی عمومی تبدیل می‌کند و زمینه فشار سیاسی داخلی را تشدید می‌نماید.",
+        "tag": "اقتصاد",
+        "urgency": 6,
+        "sentiment": -0.6,
+        "source": "ایران اینترنشنال",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11elBSNWtkTF9jWEtZOXg3UnFrZE9meUdJdGFRTGZPSEtVeS1fQTYzQ0I1OVlfTkV0MUZ0ZmE0SDhHUlU1eGxCbkx0ZzJEZFZqZVE?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11elBSNWtkTF9jWEtZOXg3UnFrZE9meUdJdGFRTGZPSEtVeS1fQTYzQ0I1OVlfTkV0MUZ0ZmE0SDhHUlU1eGxCbkx0ZzJEZFZqZVE",
+        "image": null,
+        "timestamp": 1784967326.0
+    },
+    {
+        "title_fa": "پنتاگون: نقص فنی وب‌سایت علت اختلاف در آمار تلفات جنگ ایران",
+        "title_en": "Pentagon says website issue caused discrepancy in Iran conflict death toll",
+        "summary": [
+            "پنتاگون اعلام کرده اختلاف در تعداد تلفات مرتبط با درگیری ایران ناشی از «مشکل وب‌سایت» بوده و نه تغییر در واقعیت میدانی یا تصمیم سیاسی.",
+            "این توضیح، اعتبار داده‌های منتشرشده قبلی را زیر سؤال نمی‌برد به‌صورت قطعی، اما نشان می‌دهد بخشی از شکاف اطلاع‌رسانی در سطح عملیات/گزارش‌گیری می‌تواند کاملاً فنی باشد.",
+            "برای تحلیل رژیم و رقبا، این خبر بیشتر پیامد امنیتی-اطلاعاتی دارد: روایت‌های رسانه‌ای و سیاسی درباره تلفات، می‌تواند با خطای سیستم گزارش‌دهی جابه‌جا شود و در فضای جنگ، جنگ روایت‌ها به همان اندازه مهم است."
+        ],
+        "impact": "اثر اصلی این رویداد، اصلاح/توضیح اختلاف آماری و محدود شدن اتکای تحلیل‌ها به اعداد بدون بررسی منبع و سازوکار انتشار است.",
+        "tag": "اطلاعات",
+        "urgency": 3,
+        "sentiment": -0.2,
+        "source": "WRTV",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa0ZpVF9DR1ZzTGxNSXZ2TlA4SVh4a2VIY29aZ292NFFoSkFlQjZxVGpBd3prbGpyaTBtYUMwSlkzOHBVa243azktS25yanZ2bzhXOE5rREJnczJKb05ONmpuZEhUcVdWYkpqZ1U3Rk9kWFlkbWNjbnFMTDNhSGtpZndOV0U3b2I5WEVXX0tnQTJ1UEpybVRsZkRUZUdYTlB3cDR0YU94T3ZWdERnaEwxNmRR?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa0ZpVF9DR1ZzTGxNSXZ2TlA4SVh4a2VIY29aZ292NFFoSkFlQjZxVGpBd3prbGpyaTBtYUMwSlkzOHBVa243azktS25yanZ2bzhXOE5rREJnczJKb05ONmpuZEhUcVdWYkpqZ1U3Rk9kWFlkbWNjbnFMTDNhSGtpZndOV0U3b2I5WEVXX0tnQTJ1UEpybVRsZkRUZUdYTlB3cDR0YU94T3ZWdERnaEwxNmRR",
+        "image": null,
+        "timestamp": 1784967278.0
     },
     {
         "title_fa": "ادعای حوثی‌های مورد حمایت ایران درباره حمله موشکی به عربستان؛ گسترش جنگ منطقه‌ای",
@@ -106,6 +178,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JX3ZyRi1XMzVIQm12S0ktOG9CaDlrVWNHUjEzZnQ0d0MzSFQyZXkteGRyNFhZb1VVNGpqTE1fUnRKMWVFWWFQekFTeHNoYi1KUTJ1MTU1cVU",
         "image": null,
         "timestamp": 1784954424.0
+    },
+    {
+        "title_fa": "همزمان با حمله به تانکر و شتاب ناوگان، تهران «هشدار موشکی/پهپادی» آمریکا را رد می‌کند و آمریکا از تداوم ضربه‌های هدفمند خبر می‌دهد",
+        "title_en": "Iran-US War LIVE: Iran’s envoy hails Indian crew’s swift rescue after tanker attack; Trump says Tehran has ‘very few drones left’",
+        "summary": [
+            "بر اساس گزارش، تنش‌های ایران و آمریکا بالا گرفته: ایران «تهدیدهای ضربه» از سوی آمریکا را رد می‌کند و هم‌زمان حملات در یمن و عملیات‌های آمریکا علیه اهداف ایرانی، خطر گسترش درگیری منطقه‌ای را تقویت کرده است.",
+            "در همین چارچوب، خبر «رزمایش/اقدام امدادی» مطرح می‌شود: فرستاده ایران از نجات سریع خدمه یک کشتی توسط نیروهای هندی پس از حمله به یک تانکر استقبال کرده؛ این بخش نشان می‌دهد که محور بحران، فقط سیاسی نیست و پیامدهای عملیاتی فوری در تجارت دریایی هم دارد.",
+            "از سوی دیگر، دونالد ترامپ ادعا کرده تهران «تعداد بسیار کمی پهپاد باقی مانده» دارد؛ چنین اظهارنظرهایی معمولاً برای مهار روحیه و ایجاد برتری روانی در کنار عملیات نظامی دنبال می‌شود، اما گزارش رسمی جزئیاتی برای صحت‌سنجی عددی ارائه نمی‌کند."
+        ],
+        "impact": "این ترکیب از عملیات‌های نظامی، حملات بر مسیرهای کشتیرانی و ادعاهای رقابتی درباره توان پهپادی، ریسک جهش به درگیری تمام‌عیار را افزایش می‌دهد و بازار نفت را در معرض شوک مستقیم قرار می‌دهد.",
+        "tag": "تنش_نظامی",
+        "urgency": 9,
+        "sentiment": -0.7,
+        "source": "The Financial Express",
+        "url": "https://www.financialexpress.com/world-news/iran-us-war-live-updates-trump-hormuz-blockade-oil-price-today-red-sea-attack-peace-deal/4299917/",
+        "clean_url": "https://www.financialexpress.com/world-news/iran-us-war-live-updates-trump-hormuz-blockade-oil-price-today-red-sea-attack-peace-deal/4299917",
+        "image": "http://www.bing.com/th?id=ONUT.w-5HDtOm9tOLrBrlwl3LnA&pid=News",
+        "timestamp": 1784949720.0
     },
     {
         "title_fa": "حوثی‌ها وعده تلافی بعد از حملات عربستان به یمن و گسترش جنگ در خاورمیانه",
@@ -5308,95 +5398,5 @@
         "clean_url": "https://www.msn.com/en-ca/news/world/three-sons-of-irans-slain-leader-khamenei-appear-at-funeral-not-his-successor/ar-AA27fsOf",
         "image": "http://www.bing.com/th?id=ONUT.BYgDvn-jAIsRAC47APTHEw&pid=News",
         "timestamp": 1783226395.0
-    },
-    {
-        "title_fa": "دیوید آلبرايت: توافق آمریکا-تهران به‌تنهایی برنامه هسته‌ای را متوقف نمی‌کند و فشار واشنگتن برای الزام به تعهدات ضروری است",
-        "title_en": "David Albright, nuclear expert: ‘The only way to stop a nuclear weapons program is for the country itself to decide to do so’",
-        "summary": [
-            "آلبرايت می‌گوید تجربه‌ «توافق‌نامه‌های تفاهم» گذشته میان ایران و نهادهای بازرسی (مثل IAEA) غالباً به بن‌بست ختم شده چون ایران دسترسی کافی به سایت‌ها و افراد را نمی‌داده؛ او معتقد است متن جدید الزام مستقلی برای «انطباق کامل با تعهدات معاهده عدم اشاعه» ایجاد نمی‌کند و آمریکا باید آن را با فشار فعال دنبال کند.",
-            "او احتمال جلوگیری از ساخت بمب را «به‌تنهایی» منتفی می‌داند: به‌زعم او آسیب جدی به مسیر توان‌سازی هسته‌ای وارد شده، اول به‌دلیل وضعیت غنی‌سازی اورانیوم (با این باور که سانتریفیوژهای عملیاتی برای رساندن به سطح تسلیحاتی وجود نداشته)، و دوم به‌خاطر آسیب به زیرساخت‌های مرتبط با ساخت خودِ سلاح که احتمالاً برای بازسازی بیش از یک سال زمان می‌خواهد.",
-            "برای بازرسی زمینی، به گفته آلبرايت «حیاتی» است، اما او نسبت به موافقت ایران ابراز تردید می‌کند؛ مسیر ارزیابی باید از همان ابتدا روشن کند ایران چه میزان از فعالیت‌های گذشته (و احتمالاً فعال) را می‌پذیرد و آیا دسترسی به سایت‌های نظامی و افراد مرتبط را می‌دهد یا نه."
-        ],
-        "impact": "اثر اصلی توافق، از دید آلبرايت بیشتر به‌شرط اجرای بازرسی‌های واقعی و پاسخ به الزام‌های حقوقی، و نه خودِ متن توافق، تعیین‌کننده است.",
-        "tag": "هسته‌ای",
-        "urgency": 7,
-        "sentiment": -0.4,
-        "source": "EL PAÍS English",
-        "url": "https://english.elpais.com/international/2026-07-05/david-albright-nuclear-expert-the-only-way-to-stop-a-nuclear-weapons-program-is-for-the-country-itself-to-decide-to-do-so.html",
-        "clean_url": "https://english.elpais.com/international/2026-07-05/david-albright-nuclear-expert-the-only-way-to-stop-a-nuclear-weapons-program-is-for-the-country-itself-to-decide-to-do-so.html",
-        "image": null,
-        "timestamp": 1783224000.0
-    },
-    {
-        "title_fa": "واکنش ایران به اظهارنظر ترامپ و تشدید تنش لفظی در محور آمریکا-اسرائیل-ایران",
-        "title_en": "US-Israel-Iran war latest news: Iran responds to Trump's 'one shot' comment, says 'ideals can't be killed' amid Khamenei funeral",
-        "summary": [
-            "طبق گزارش «The Sunday Guardian Live on MSN»، ایران در واکنش به اظهارنظر ترامپ درباره «one shot» موضع گرفت و عنوان کرد که «ideals can't be killed»؛ این یعنی بحث بیش از تهدید نظامی مشخص، در سطح پیام‌رسانی سیاسی/تهدید ضمنی در حال تشدید است.",
-            "گزارش همچنین می‌گوید این تنش لفظی در حالی رخ می‌دهد که فضای سیاسی داخلی تحت تأثیر برگزاری «Khamenei funeral» قرار دارد؛ بنابراین رژیم با کنترل روایت، در پی تثبیت قدرت نمادین و جذب مخاطب داخلی است.",
-            "با این حال، از متن ارسالی هیچ شواهدی درباره اقدام عملی، حمله، یا تصمیم تحریم/فشار جدید ارائه نشده و ارتباط دادن رویداد به سطح جنگ واقعی بدون داده قابل اتکا غیرواقعی خواهد بود."
-        ],
-        "impact": "این نوع واکنش‌ها بیشتر نشانه مدیریت جنگ روانی و تثبیت روایت داخلی است تا یک گام عملی قطعی، اما می‌تواند ریسک سوءمحاسبه میان طرف‌های درگیر را بالا ببرد.",
-        "tag": "تنش",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The Sunday Guardian Live on MSN",
-        "url": "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-iran-responds-to-trump-s-one-shot-comment-says-ideals-can-t-be-killed-amid-khamenei-funeral/ar-AA27fi3O",
-        "clean_url": "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-iran-responds-to-trump-s-one-shot-comment-says-ideals-can-t-be-killed-amid-khamenei-funeral/ar-AA27fi3O",
-        "image": "http://www.bing.com/th?id=ONUT.JWbYlGMU3SnHg-WAch2f5A&pid=News",
-        "timestamp": 1783221420.0
-    },
-    {
-        "title_fa": "عمان و چین «برندگان واقعی» توافق پیشنهادی ترامپ درباره ایران؛ تحلیل واقع‌گرایانه",
-        "title_en": "Opinion | Oman and China: the real winners of Trump’s Iran deal?",
-        "summary": [
-            "این یادداشت ادعایی است و نه گزارش خبری: بر مبنای چارچوب توافق/معامله مطرح‌شده در بحث رسانه‌ای، نویسنده نتیجه می‌گیرد که عمان و چین بیش از خود ایران سود عملی خواهند برد.",
-            "محور اصلی تحلیل، منافع اقتصادیِ قابل تحقق برای بازیگران منطقه‌ای و شرکت‌های چینی در قالب تجارت، دسترسی به مسیرها و فرصت‌های سرمایه‌گذاری است؛ بنابراین «سود ایران» در این روایت به‌عنوان مرکز ثقل دیده نمی‌شود.",
-            "چون متن ارائه‌شده صرفاً عنوان و منبع است و جزئیات دقیق درباره شروط توافق، کاهش/لغو تحریم‌ها یا مسیرهای اجرایی نیامده، نمی‌توان اثر مشخص بر اقتصاد ایران یا رفتار رژیم را به شکل قطعی به این نوشته نسبت داد."
-        ],
-        "impact": "این نوع تحلیل اگرچه سند قطعی نیست، اما سیگنال می‌دهد که هر چارچوب رفع‌وفصل می‌تواند به نفع طرف‌های دور از میدانِ تصمیم‌گیری ایران تمام شود و فشار رقابتی بر اقتصاد ایران را کاهش ندهد.",
-        "tag": "تحلیل",
-        "urgency": 3,
-        "sentiment": 0.0,
-        "source": "South China Morning Post",
-        "url": "https://www.msn.com/en-xl/news/other/oman-and-china-the-real-winners-of-trump-s-iran-deal/ar-AA27ecPj",
-        "clean_url": "https://www.msn.com/en-xl/news/other/oman-and-china-the-real-winners-of-trump-s-iran-deal/ar-AA27ecPj",
-        "image": null,
-        "timestamp": 1783220407.0
-    },
-    {
-        "title_fa": "مسیرها در تنگه هرمز تغییر کرد؛ هم‌زمان با تشییع جنگی علی خامنه‌ای و تهدیدهای امنیتی درباره جانشینی",
-        "title_en": "US-Iran War Live Updates: Iran's Khamenei buried amid war-tinged funeral, as ships avoid disputed Hormuz route",
-        "summary": [
-            "طبق گزارش Windward، چهار کشتی که می‌خواستند از مسیر جنوبی تنگه هرمز (کنار سواحل عمان) عبور کنند، منحرف شدند: دو کشتی برگشتند و دو کشتی به راهروی مرکزی هدایت شدند؛ تهران با این مسیر مخالفت می‌کند و پیش‌تر دست‌کم دو کشتی را هدف حمله قرار داده است.",
-            "ایران در چارچوب مخالفت با این مسیر و با استناد به ادعای «اختیار انحصاری ۶۰ روزه» بر تردد در تنگه، مراسم تشییع دولتی برای علی خامنه‌ای (کشته‌شده در حمله هوایی آمریکا-اسرائیل در آغاز جنگ) را برگزار می‌کند؛ این در حالی است که عمان، آمریکا و سازمان ملل مسیر جنوبی را اواخر ژوئن اعلام کردند و بحث دریافت عوارض پس از پایان پنجره زمانی مطرح است.",
-            "هم‌زمان، ایران کشور را تا روز دوشنبه تعطیل کرده تا مشارکت مراسم بالا برود (هدف اعلامی: حدود ۱۰ میلیون نفر). با وجود نصب «مجدتبا» به‌عنوان جانشین در مارس، گفته شده به‌دلیل نگرانی‌های امنیتی در مراسم حاضر نمی‌شود؛ همچنین اسرائیل کاتز مدعی شده او «نشان مرگ» دارد و مقامات ایرانی هم درباره خطر اقدام نظامی هشدار داده‌اند."
-        ],
-        "impact": "کاهش معنادار تردد در تنگه هرمز و تغییر مسیر کشتی‌ها، هم‌زمان با خلأ سیاسی ناشی از مرگ رهبر و تشدید ریسک امنیتی جانشینی، هزینه‌های عملیاتی و احتمال بی‌ثباتی دریایی را بالا می‌برد.",
-        "tag": "هرمز",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "CNBCTV18",
-        "url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-irans-khamenei-buried-amid-war-tinged-funeral-as-ships-avoid-disputed-hormuz-route-liveblog-19938721.htm",
-        "clean_url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-irans-khamenei-buried-amid-war-tinged-funeral-as-ships-avoid-disputed-hormuz-route-liveblog-19938721.htm",
-        "image": "http://www.bing.com/th?id=ONUT.uIHUKlJh3jODyQNIWukVPQ&pid=News",
-        "timestamp": 1783217280.0
-    },
-    {
-        "title_fa": "بازگشایی تنگه هرمز ریسک‌های حمل‌ونقل را از بین نمی‌برد",
-        "title_en": "Strait of Hormuz reopening won't end shipping risks",
-        "summary": [
-            "DW.com می‌گوید حتی با بازگشایی تنگه هرمز، خطر برای کشتیرانی همچنان پابرجاست و این اتفاق به‌تنهایی ریسک‌های مسیر را حذف نمی‌کند.",
-            "این یعنی تهدیدهای عملیاتی و نااطمینانی امنیتی روی برنامه‌ریزی شرکت‌های کشتیرانی و هزینه‌های بیمه/ریسک‌سنجی همچنان اثر می‌گذارند، نه اینکه با «باز شدن» مسیر پایان بگیرند.",
-            "نتیجه استراتژیک گزارش این است که بازیگران اقتصادی نمی‌توانند صرفاً به بازگشایی تنگه به‌عنوان علامت کاهش پایدار تنش اعتماد کنند و همچنان سناریوی اختلال‌های احتمالی در تردد را در نظر خواهند گرفت."
-        ],
-        "impact": "بازگشایی تنگه هرمز ممکن است مانع توقف کامل نشود، اما چون ریسک حمل‌ونقل باقی می‌ماند، هزینه و نااطمینانی تجاری برای تجارت منطقه‌ای و جهانی ادامه پیدا می‌کند.",
-        "tag": "کشتیرانی",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "DW.com",
-        "url": "https://www.msn.com/en-us/news/other/us-envoys-arrive-in-qatar-for-meetings-on-iran-with-tensions-high-over-hormuz/ar-AA26Tbiq",
-        "clean_url": "https://www.msn.com/en-us/news/other/us-envoys-arrive-in-qatar-for-meetings-on-iran-with-tensions-high-over-hormuz/ar-AA26Tbiq",
-        "image": null,
-        "timestamp": 1783213294.0
     }
 ]

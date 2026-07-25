@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "ایران آمریکا را عامل اختلاف تنگه هرمز معرفی می‌کند؛ همزمان طرفین از ادامه گفت‌وگوها خبر می‌دهند",
+        "title_en": "Iran blames US for Hormuz dispute as both sides confirm ongoing talks",
+        "summary": [
+            "طبق گزارش الجزیره، ایران آمریکا را مسئول اختلاف تنگه هرمز می‌داند، اما همزمان اعلام می‌شود که مذاکرات میان دو طرف همچنان ادامه دارد.",
+            "تأکید هم‌زمان بر «اتهام» علیه آمریکا و «تداوم گفت‌وگوها» نشان می‌دهد تهران در پی مدیریت ریسک تقابل مستقیم است، نه قطع کامل کانال‌های ارتباطی.",
+            "از منظر فشار خارجی، این چارچوب یعنی آمریکا همچنان به‌عنوان عامل بحران‌زا در روایت رسمی ایران برجسته می‌شود، در حالی که کانال مذاکره برای کاهش هزینه‌های فوری تنش فعال می‌ماند."
+        ],
+        "impact": "ادامه مذاکرات در کنار نسبت‌دادن اختلاف به آمریکا، احتمال تشدید فوری بحران را پایین می‌آورد اما منازعه بر سر هرمز همچنان به‌عنوان اهرم سیاسی و امنیتی باقی می‌ماند.",
+        "tag": "هرمز",
+        "urgency": 4,
+        "sentiment": 0.1,
+        "source": "Al Jazeera",
+        "url": "https://www.msn.com/en-us/news/world/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks/ar-AA28FwKF",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks/ar-AA28FwKF",
+        "image": null,
+        "timestamp": 1784983963.0
+    },
+    {
+        "title_fa": "گزارش ایران از عدم وقوع حمله جدید آمریکا؛ وقفه‌ای کوتاه در چرخه تنش",
+        "title_en": "Iran reports no U.S. strikes overnight as tensions remain high",
+        "summary": [
+            "طبق گزارش‌ها، ایران می‌گوید طی شب گذشته تا شنبه هیچ حمله جدید ایالات متحده رخ نداده و این موضوع ظاهراً «وقفه»‌ای در نزدیک به دو هفته حملات آمریکا به شمار می‌آید.",
+            "هم‌زمان، سطح تنش همچنان بالا توصیف می‌شود؛ یعنی نبودِ حمله شبانه به معنای کاهش ریسک نیست، بلکه می‌تواند نشانه تغییر فاز در عملیات/زمان‌بندی باشد.",
+            "در پس‌زمینه خبر، به حملات پهپادی منتسب به ایران علیه چند پایگاه و مرکز نظامی آمریکایی در بحرین و اردن به‌عنوان «پاسخ» به حملات اخیر آمریکا اشاره شده است؛ چرخه اقدام متقابل همچنان فعال است."
+        ],
+        "impact": "وقفه کوتاه‌مدت در حمله شبانه می‌تواند نشان‌دهنده موقت‌بودن تشدید باشد، اما تداوم تنش و سابقه دو هفته‌ای حملات احتمال ادامه نوسان خطر را بالا نگه می‌دارد.",
+        "tag": "امنیت",
+        "urgency": 9,
+        "sentiment": -0.3,
+        "source": "NBC News",
+        "url": "https://www.bostonglobe.com/2026/07/25/world/iran-reports-no-new-us-strikes-tensions-remain-high/",
+        "clean_url": "https://www.bostonglobe.com/2026/07/25/world/iran-reports-no-new-us-strikes-tensions-remain-high",
+        "image": null,
+        "timestamp": 1784980250.0
+    },
+    {
         "title_fa": "اقدام نیروهای آمریکا علیه یک نفتکش بعد از تلاش برای انسداد؛ اعلام CENTCOM",
         "title_en": "US forces disable tanker after blockade attempts, CENTCOM says",
         "summary": [
@@ -88,6 +124,24 @@
         "clean_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east",
         "image": null,
         "timestamp": 1784971518.0
+    },
+    {
+        "title_fa": "آخرین تحولات جنگی ایران: ادعای آماده‌بودن برای استفاده از «چیزی» که گفته می‌شود در اختیار ندارند",
+        "title_en": "Iran war latest: 'They would use it if they had it'",
+        "summary": [
+            "Sky News در قالب «گزارش آخرین وضعیت جنگ» یک گزاره خبری نقل می‌کند که مضمونش این است: اگر آن توان/دارایی را در اختیار داشتند، از آن استفاده می‌کردند؛ یعنی تمرکز روی بازدارندگی و توان واقعی طرف مقابل است، نه یک اقدام مشخص.",
+            "جزئیات فنی یا اعلامیه رسمی درباره نوع توان (موشکی/هسته‌ای/دیگر) و زمان/مکان استفاده در متن ارائه‌شده قابل مشاهده نیست؛ بنابراین نمی‌توان به شکل مستند از یک اقدام بالفعل یا تخریب/حمله صحبت کرد.",
+            "با توجه به فقدان اطلاعات دقیق در متن، این گزارش بیشتر در چارچوب ارزیابی تهدید و قدرت‌نمایی رسانه‌ای قرار می‌گیرد تا تأیید یک رخداد عملیاتی."
+        ],
+        "impact": "این نوع روایت بیشتر بر تصویر توان و بازدارندگی اثر می‌گذارد و تا زمانی که جزئیات قابل راستی‌آزمایی منتشر نشود، نشانه مستقیم از تشدید عملی جنگ نیست.",
+        "tag": "تهدید",
+        "urgency": 4,
+        "sentiment": -0.1,
+        "source": "Sky News",
+        "url": "https://news.sky.com/story/iran-war-latest-us-trump-attack-13509565",
+        "clean_url": "https://news.sky.com/story/iran-war-latest-us-trump-attack-13509565",
+        "image": "https://e3.365dm.com/26/07/1600x900/skynews-trump-white-house-dinner_7306278.jpg?20260725043035",
+        "timestamp": 1784968920.0
     },
     {
         "title_fa": "ارزیابی اطلاعاتی آمریکا: رهبر جدید ایران راه هسته‌ای را بازتر می‌بیند",
@@ -5344,59 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/news/world/iran-s-china-envoy-vows-special-hormuz-treatment-for-friendly-countries/ar-AA27ff9s",
         "image": null,
         "timestamp": 1783239300.0
-    },
-    {
-        "title_fa": "دومین روز مراسم عزای رهبر عالی کشته‌شده؛ جانشین همچنان غایب",
-        "title_en": "Mourning of slain Supreme Leader enters second day in Iran",
-        "summary": [
-            "بر اساس گزارش UPI، سه نفر از مقامات نزدیک به علی خامنه‌ای در دومین روز مراسم تشییع/عزا، در کنار پیکر حضور دارند اما روند مراسم بدون حضور جانشین در جریان است.",
-            "نکته محوری گزارش این است که جانشین اعلام‌شده/محتملِ خامنه‌ای در مراسم حاضر نشده و این غیبت می‌تواند نشانه‌ای از عدم‌قطعیت در فرآیند انتقال قدرت باشد.",
-            "این وضعیت «مراسمِ در حال تداوم» را به عامل فشار سیاسی داخلی تبدیل می‌کند؛ چون تا مشخص شدن فرد جایگزین، بخش‌هایی از بدنه حکومت و نیروهای امنیتی ممکن است منتظر دستورالعمل‌های نهایی بمانند."
-        ],
-        "impact": "غیبت جانشین در کنار تداوم مراسم عزاداری، احتمال کشمکش یا تاخیر در انتقال قدرت را بالا می‌برد و می‌تواند نظم اجرایی حکومت را در کوتاه‌مدت شکننده کند.",
-        "tag": "انتقال-قدرت",
-        "urgency": 8,
-        "sentiment": -0.2,
-        "source": "UPI on MSN",
-        "url": "https://www.msn.com/en-us/politics/government/mourning-of-slain-supreme-leader-enters-second-day-in-iran/ar-AA27fNr4",
-        "clean_url": "https://www.msn.com/en-us/politics/government/mourning-of-slain-supreme-leader-enters-second-day-in-iran/ar-AA27fNr4",
-        "image": "http://www.bing.com/th?id=ONUT.BNQsubs_l6NyhDvPWB780A&pid=News",
-        "timestamp": 1783233881.0
-    },
-    {
-        "title_fa": "تأیید می‌ری رِوِو: استقرار سامانه «گنبد آهنین» و تیم اسرائیلی در امارات پس از جنگ اخیر ایران",
-        "title_en": "Israel sent Iron Dome system, team to UAE during recent Iran war, Miri Regev confirms",
-        "summary": [
-            "طبق تأیید می‌ری رِوِو، اسرائیل در جریان جنگ اخیر با ایران، سامانه پدافند «گنبد آهنین» و یک تیم پشتیبانی/عملیاتی را به امارات ارسال کرده است.",
-            "این اقدام نشان می‌دهد که تهدیدات موشکی/پهپادی ناشی از درگیری اخیر ایران، از دید اسرائیل به سطح «دفاع منطقه‌ای» ارتقا یافته و امارات هم در برنامه تاب‌آوری دفاعی قرار گرفته است.",
-            "پیام ضمنی این است که رژیم ایران با تداوم بی‌ثباتی امنیتی، هزینه امنیتی‌اش را به کل منطقه منتقل می‌کند و سرمایه‌گذاری دفاعی متحدان اسرائیل را تسریع می‌نماید."
-        ],
-        "impact": "ارسال «گنبد آهنین» به امارات، گسترش عملی دفاع منطقه‌ای و کاهش حاشیه خطای حملات احتمالی را برای تهران سخت‌تر می‌کند.",
-        "tag": "بازدارندگی",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "The Jerusalem Post",
-        "url": "https://www.msn.com/en-my/war-and-conflicts/military/israel-sent-iron-dome-system-team-to-uae-during-recent-iran-war-miri-regev-confirms/ar-AA27esYV",
-        "clean_url": "https://www.msn.com/en-my/war-and-conflicts/military/israel-sent-iron-dome-system-team-to-uae-during-recent-iran-war-miri-regev-confirms/ar-AA27esYV",
-        "image": null,
-        "timestamp": 1783231939.0
-    },
-    {
-        "title_fa": "روایت اوکراین: روسیه در کمک به ایران علیه اسرائیل نقش دارد",
-        "title_en": "Russia aids Iran against Israel, says Ukraine",
-        "summary": [
-            "TVP World به نقل از اوکراین ادعا می‌کند که روسیه به ایران برای مقابله با اسرائیل کمک می‌رساند؛ یعنی اتهام متوجه هماهنگی/پشتیبانی روسیه در سطح اقدامات علیه اسرائیل است.",
-            "این نوع ادعا، اگرچه جزئیات اجرایی ارائه نمی‌دهد، اما در چارچوب فشار خارجی، تصویر از «چسبندگی» توانمندی‌های رژیم را تقویت می‌کند و می‌تواند محاسبات امنیتی غرب و اسرائیل را تغییر دهد.",
-            "در متن منتشرشده هیچ اطلاعاتی درباره شدت کمک، ابزارها، زمان‌بندی یا ارتباط مستقیم آن با عملیات مشخص نیامده است؛ بنابراین باید آن را در سطح «ادعای رسمی/رسانه‌ای» نگه داشت، نه یک واقعیت اثبات‌شده."
-        ],
-        "impact": "این گزارش، صرف‌نظر از فقدان جزئیات، می‌تواند به‌عنوان نشانه‌ای از تعامل راهبردی روسیه با ایران در پرونده تقابل با اسرائیل تلقی و ریسک درگیری منطقه‌ای را افزایش دهد.",
-        "tag": "دیپلماسی",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "TVP World",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc1YzUmlqdDBYT1hkZGFQZWliMWlERHhVb1NOZVBfZ3JtUG9CX29zamVXdlBMa040X256QTFmcEhfMHZFTTdWdmpWQk1YUDdoeURwQ2lYY3dQQWZKUl8tLXAxQTFXdm9DZklKa3ZQS0luNlFCZGI1ZEdZTFMtVXFQc1F3UWRtcHpCRnJJTHJpWk5iUFE?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc1YzUmlqdDBYT1hkZGFQZWliMWlERHhVb1NOZVBfZ3JtUG9CX29zamVXdlBMa040X256QTFmcEhfMHZFTTdWdmpWQk1YUDdoeURwQ2lYY3dQQWZKUl8tLXAxQTFXdm9DZklKa3ZQS0luNlFCZGI1ZEdZTFMtVXFQc1F3UWRtcHpCRnJJTHJpWk5iUFE",
-        "image": null,
-        "timestamp": 1783231589.0
     }
 ]

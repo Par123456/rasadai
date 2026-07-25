@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "تقابل درون‌حکومتی؛ سخت‌گیرها خواهان گسترش درگیری‌اند",
+        "title_en": "Iran’s leaders at war with each other as hardliners push for wider conflict",
+        "summary": [
+            "گزارش نیویورک‌پست می‌گوید رهبران ایران بر سر مسیر درگیری‌ها دچار جنگ قدرت داخلی شده‌اند و «سخت‌گیرها» می‌خواهند دامنه درگیری وسیع‌تر شود.",
+            "مضمون اصلی مطلب، رقابت جناحی در بالاترین سطح تصمیم‌گیری است؛ یعنی اختلاف بر سر میزان تشدید تنش، نه صرفاً تاکتیک‌های محدود.",
+            "این وضعیت به عنوان نشانه‌ای از بی‌ثباتی سیاست خارجی درون رژیم بازنمایی می‌شود، چون فشار برای گسترش تعارض می‌تواند تصمیم‌گیری را از کنترل مؤثر خارج کند."
+        ],
+        "impact": "اگر اختلاف درونی به تصمیم‌های عملی برای تشدید تبدیل شود، ریسک سرریز شدن درگیری و تشدید تنش منطقه‌ای بالا می‌رود.",
+        "tag": "intra-regime",
+        "urgency": 5,
+        "sentiment": -0.4,
+        "source": "New York Post",
+        "url": "https://www.msn.com/en-us/politics/international-relations/iran-s-leaders-at-war-with-each-other-as-hardliners-push-for-wider-conflict/ar-AA28FU6G",
+        "clean_url": "https://www.msn.com/en-us/politics/international-relations/iran-s-leaders-at-war-with-each-other-as-hardliners-push-for-wider-conflict/ar-AA28FU6G",
+        "image": null,
+        "timestamp": 1784996400.0
+    },
+    {
+        "title_fa": "مسئولیت جنایت جنگی در جنگ آمریکا-ایران؛ دوگانگی نقد قانونی",
+        "title_en": "Who should be accountable for war crimes during the U.S.-Iran conflict?",
+        "summary": [
+            "نویسنده با اشاره به تهدید آمریکا برای هدف گرفتن زیرساخت‌های غیرنظامی می‌گوید تا کنون چنین بمبارانی انجام نشده، اما در مقاله آمده که هدف قرار دادن تاسیسات حیاتی غیرنظامی مثل تصفیه‌خانه‌های آب می‌تواند «جنایت جنگی» محسوب شود.",
+            "هم‌زمان یادآوری می‌کند که ایران علیه کویت نیز حمله داشته (طبق متن درباره شلیک به کشورهایی که پایگاه‌های آمریکا دارند) و می‌پرسد چرا همان چارچوب «جنایت جنگی» برای حمله ایران به زیرساخت‌های کویت هم به کار نرفته است.",
+            "این نامه‌نویس عملاً اتهام «انتخابی/دوگانه» بودن معیارهای حقوقی را مطرح می‌کند: چرا «پژوهشگران حقوقی» و رسانه، نسبت به یک نوع هدف‌گیری (در برابر آمریکا) حساسیت دارند اما در برابر مشابه آن از سوی ایران، همان شدت انتقاد را نمی‌بینیم."
+        ],
+        "impact": "این بحث حقوقی، مشروعیت روایت‌ها را می‌کاهد و فضای جنگ را با منطق دوگانهِ «چه کسی هدف قرار گرفتن غیرنظامی را جنایت می‌داند» تیره‌تر می‌کند.",
+        "tag": "حقوقی",
+        "urgency": 4,
+        "sentiment": -0.4,
+        "source": "San Diego Union-Tribune",
+        "url": "https://www.sandiegouniontribune.com/2026/07/25/who-should-be-accountable-for-war-crimes-during-the-u-s-iran-conflict/",
+        "clean_url": "https://www.sandiegouniontribune.com/2026/07/25/who-should-be-accountable-for-war-crimes-during-the-u-s-iran-conflict",
+        "image": null,
+        "timestamp": 1784995630.0
+    },
+    {
         "title_fa": "حوثی‌ها موشک و پهپاد به عربستان شلیک کردند؛ واکنش به حملات علیه الحدیده",
         "title_en": "Yemen’s Houthis fire missiles, drones at Saudi Arabia in response to strikes on Hodeida",
         "summary": [
@@ -16,6 +52,24 @@
         "clean_url": "https://www.msn.com/en-us/news/world/houthis-fire-missiles-and-drones-at-saudi-arabia-in-response-to-strikes-on-a-yemeni-city/ar-AA28Ev54",
         "image": null,
         "timestamp": 1784988392.0
+    },
+    {
+        "title_fa": "هشدار ترامپ درباره آمادگی آمریکا برای تشدید جنگ با ایران",
+        "title_en": "'We're locked and loaded': Trump warns US is ready to escalate Iran war",
+        "summary": [
+            "ترامپ اعلام کرده که آمریکا «آمادهٔ تشدید» است؛ پیام مستقیمِ فشار و تهدید نظامی به تهران برای افزایش ریسک در محاسبات امنیتی رژیم است.",
+            "این نوع اظهارات معمولاً اهرم عملیاتِ روانی و مهار دیپلماتیک را بالا می‌برد و می‌تواند باعث محاسبه‌گری سخت‌تر در داخل و افزایش هزینه تصمیم‌گیری برای رژیم شود، اما متن منبع شواهد عملیاتی تازه (حمله/تحرک مشخص) ارائه نمی‌دهد.",
+            "چنین لحن هشداردهنده‌ای، حتی بدون جزئیات، می‌تواند نااطمینانی راهبردی ایجاد کند و هزینه‌های اقتصادی و امنیتی را بالا ببرد؛ در این گزارش، علت یا اثر اقتصادی مشخص یا گزارش اقدام میدانی ذکر نشده است."
+        ],
+        "impact": "این خبر بیشتر یک سیگنال تهدید و آماده‌باش است تا یک رویداد میدانی، و هدفش افزایش فشار و محدودکردن فضای مانور رژیم در آستانه تشدید تنش است.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "National News Desk",
+        "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNWlh1cTdXVDRUVnJpVVg0VEZ6eXVHcVZWTFU3M1lqX3RiRlBtUXhOZ3BMV3IxSC1jeWpsNlA5cDRaV2pUOXp4emN4R3lUdmUwUlJFemFEUmdlQjdzd190Tkltb3F5Q2dzX0tMYzBId01XQUluRkJzUFJUX09lbGZBZWJnSUF1bVd2OEJINkNwTnNUSS04aEk5RjFBczctdk9hV3h1RkhPUW9xMHM3Uk9FWXlFUzdfT0lwdGVQRDVxWmpUNHc3S2ZWRzJiY0paTEhMODUzek4xX293VFBDaU05TnBDWERvY21sck5UZlVkZXE0cFUwQXFtZ1NLblJYWjJ5MU5TeEZMeHlJeVBBcXhyQTFPV3JobnNhaDV6a0UwOVJ3Tl9nZ3huaXZyWS1Pcl9SaU5FXzh4al9LRW1admJ0bi15UVQteng5RXlHRFlLRHg3WEFpdFI5NE5ieVBDZG1HXzdNYnNfUF84RUYzMzMtcC00MldLVEdlbXhrZlhVNHNjZ0I2MS0wdTZ5TnlsM0xwZXpLeUNtckxoaUgyc0s0cEFVQkN6dw?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNWlh1cTdXVDRUVnJpVVg0VEZ6eXVHcVZWTFU3M1lqX3RiRlBtUXhOZ3BMV3IxSC1jeWpsNlA5cDRaV2pUOXp4emN4R3lUdmUwUlJFemFEUmdlQjdzd190Tkltb3F5Q2dzX0tMYzBId01XQUluRkJzUFJUX09lbGZBZWJnSUF1bVd2OEJINkNwTnNUSS04aEk5RjFBczctdk9hV3h1RkhPUW9xMHM3Uk9FWXlFUzdfT0lwdGVQRDVxWmpUNHc3S2ZWRzJiY0paTEhMODUzek4xX293VFBDaU05TnBDWERvY21sck5UZlVkZXE0cFUwQXFtZ1NLblJYWjJ5MU5TeEZMeHlJeVBBcXhyQTFPV3JobnNhaDV6a0UwOVJ3Tl9nZ3huaXZyWS1Pcl9SaU5FXzh4al9LRW1admJ0bi15UVQteng5RXlHRFlLRHg3WEFpdFI5NE5ieVBDZG1HXzdNYnNfUF84RUYzMzMtcC00MldLVEdlbXhrZlhVNHNjZ0I2MS0wdTZ5TnlsM0xwZXpLeUNtckxoaUgyc0s0cEFVQkN6dw",
+        "image": null,
+        "timestamp": 1784987422.0
     },
     {
         "title_fa": "«ایران زمان خرید»: اسرائیل برای حمله نمایشی آمریکا آماده شد اما رخ نداد",
@@ -196,6 +250,42 @@
         "clean_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east",
         "image": null,
         "timestamp": 1784971518.0
+    },
+    {
+        "title_fa": "تشدید جنگ با ایران می‌تواند مشارکت رأی‌دهندگان جمهوری‌خواه را در ایالت‌های تعیین‌کننده میانی کاهش دهد",
+        "title_en": "Iran war threatens to blunt GOP turnout in midterm battlegrounds",
+        "summary": [
+            "گزارش «The Hill» می‌گوید تشدید جنگ با ایران، طبق نظرسنجی‌های جدید، احتمالاً به کاهش مشارکت رأی‌دهندگان جمهوری‌خواه در انتخابات میان‌دوره‌ای منجر می‌شود؛ به‌خصوص در حوزه‌هایی که نتیجه به رقابت نزدیک وابسته است.",
+            "بر اساس متن، پایگاه «MAGA» به‌تدریج نسبت به روند جنگ دل‌سردتر شده و این تغییر نگرش می‌تواند به افت انگیزه رأی‌دادن ترجمه شود.",
+            "تمرکز گزارش روی اثر سیاسی در آمریکا است: «جنگ با ایران» نه فقط یک موضوع سیاست خارجی، بلکه عاملی تلقی می‌شود که می‌تواند انرژی انتخاباتی اردوگاه ترامپ را در نبردهای میانی تضعیف کند."
+        ],
+        "impact": "این روند نشان می‌دهد تشدید جنگ با ایران می‌تواند هزینه سیاسی داخلی برای جریان حامی ترامپ در آستانه میان‌دوره‌ای ایجاد کند و مشارکت را پایین بیاورد.",
+        "tag": "ایران",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "The Hill on MSN",
+        "url": "https://www.msn.com/en-us/news/other/iran-war-threatens-to-blunt-gop-turnout-in-midterm-battlegrounds/ar-AA28FZpn",
+        "clean_url": "https://www.msn.com/en-us/news/other/iran-war-threatens-to-blunt-gop-turnout-in-midterm-battlegrounds/ar-AA28FZpn",
+        "image": "http://www.bing.com/th?id=ONUT.2MYeWLTS5njF09ArpY7Q8A&pid=News",
+        "timestamp": 1784970000.0
+    },
+    {
+        "title_fa": "کاهش حملات شبانه آمریکا علیه جنوب ایران؛ همزمان تنش دریای سرخ بالا می‌ماند",
+        "title_en": "Iran War Live Updates: U.S. Strikes Abate, Even as Trump Considers Escalation",
+        "summary": [
+            "بر اساس گزارش، نیروهای آمریکا برای اولین‌بار در حدود دو هفته گذشته اعلام نکردند که حملات جدیدی را در شب انجام داده‌اند؛ یعنی روند فشار نظامی مستقیم موقتاً افت کرده است.",
+            "با وجود این وقفه، سطح تنش همچنان بالا توصیف می‌شود و در کنار موضوع ایران، جنگ نیابتی در منطقه از مسیر دیگری ادامه دارد: نیروهای ائتلاف به رهبری عربستان هدف‌های حوثی را در دریای سرخ هدف قرار دادند.",
+            "در همین چارچوب، گزارش اشاره می‌کند که ترامپ در حال بررسی تشدید است؛ یعنی کاهش حملات لحظه‌ای، به معنای پایان سناریوی تشدید نیست و احتمال بازگشت فشار نظامی وجود دارد."
+        ],
+        "impact": "وقفه در حملات جدید آمریکا فشار فوری را کم می‌کند، اما تصمیم‌گیری برای «تشدید» و استمرار عملیات علیه حوثی نشان می‌دهد ریسک چرخه جدید درگیری هنوز بالاست.",
+        "tag": "تشدید",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil",
+        "clean_url": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil",
+        "image": null,
+        "timestamp": 1784969760.0
     },
     {
         "title_fa": "آخرین تحولات جنگی ایران: ادعای آماده‌بودن برای استفاده از «چیزی» که گفته می‌شود در اختیار ندارند",
@@ -5308,95 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeWZFRzlkR2VIMGFTMm1WbkFhcFc4TGlUNFRWek1FUmdaTWJyMDlMYmF1bEpSWEczUkhZZTRsS1JUcDZ4MjIxSHJ3Q1dsOWpxaGlXMlZSOVV4R1UzUkE",
         "image": null,
         "timestamp": 1783257214.0
-    },
-    {
-        "title_fa": "اتهام جاسوسی علیه یک دانشجوی آمریکایی در یشیوای میر به نفع ایران",
-        "title_en": "US national studying at Jerusalem’s Mir yeshiva charged with spying for Iran",
-        "summary": [
-            "بر اساس گزارش، یک فرد با تابعیت آمریکا که در یشیوای میر در اورشلیم تحصیل می‌کند به اتهام جاسوسی برای ایران تحت پیگرد قرار گرفته است.",
-            "این پرونده از منظر فشار خارجی، نشانه دیگری از حساسیت امنیتی آمریکا و اسرائیل نسبت به نفوذ اطلاعاتی ایران در محیط‌های آموزشی/مذهبی است و می‌تواند به تشدید کنترل‌ها و محدودیت‌های رفت‌وآمد منجر شود.",
-            "این رویداد به‌طور مستقیم بحران اقتصادی یا اعتراض داخلی را پوشش نمی‌دهد، اما نشان‌دهنده الگوی عملیات نفوذی است که در صورت تداوم، هزینه‌های سیاسی و امنیتی برای رژیم ایران و حامیان شبکه‌هایش بالا می‌برد."
-        ],
-        "impact": "این اتهام می‌تواند سطح مقابله امنیتی و ریسک عملیات نفوذی ایران را در حوزه‌های حساس افزایش دهد و به طور غیرمستقیم توان رژیم در پنهان‌کاری اطلاعاتی را محدود کند.",
-        "tag": "جاسوسی",
-        "urgency": 6,
-        "sentiment": -0.3,
-        "source": "The Times of Israel",
-        "url": "https://www.msn.com/en-us/news/world/us-national-studying-at-jerusalem-s-mir-yeshiva-charged-with-spying-for-iran/ar-AA279BUa",
-        "clean_url": "https://www.msn.com/en-us/news/world/us-national-studying-at-jerusalem-s-mir-yeshiva-charged-with-spying-for-iran/ar-AA279BUa",
-        "image": null,
-        "timestamp": 1783256892.0
-    },
-    {
-        "title_fa": "نمایش علنی اطرافیان خامنه‌ای؛ رهبر جدید پشت‌پرده و احتمال بحران در سطح جانشینی",
-        "title_en": "Khamenei's other sons appear at his funeral as Iran's new supreme leader remains in hiding",
-        "summary": [
-            "اطلاع‌رسانی رسانه‌ای از حضور علنی «برادران» رهبر جدید و دیگر مقامات ارشد در مراسم نماز میت برای علی خامنه‌ای حکایت می‌کند؛ اما خودِ رهبر جدید همچنان در «مخفی‌بودن» توصیف شده است.",
-            "این شکاف بین حضور رسمی حلقه‌های قدرت و عدم حضور مستقیم شخص جانشین، می‌تواند نشانه بی‌ثباتی در فرآیند تثبیت فرماندهی و مدیریت ادراک عمومی از وضعیت رهبری باشد.",
-            "تا وقتی مشخص نیست چرا رهبر جدید در مراسم دیده نمی‌شود، سناریوهای درون‌نظامی درباره تمرکز کنترل، رقابت‌های جانشینی یا ملاحظات امنیتی تقویت می‌شود—بدون اینکه بتوان ارتباطی فراتر از متن خبر را ادعا کرد."
-        ],
-        "impact": "غیبت علنی رهبر جدید در مراسم، فشار بر اعتبار روند جانشینی را بالا می‌برد و می‌تواند شکاف‌های درون ساختار قدرت را در کوتاه‌مدت پررنگ‌تر کند.",
-        "tag": "جانشینی",
-        "urgency": 5,
-        "sentiment": -0.4,
-        "source": "Los Angeles Times on MSN",
-        "url": "https://www.msn.com/en-us/news/world/khamenei-s-other-sons-appear-at-his-funeral-as-iran-s-new-supreme-leader-remains-in-hiding/ar-AA27gvUm",
-        "clean_url": "https://www.msn.com/en-us/news/world/khamenei-s-other-sons-appear-at-his-funeral-as-iran-s-new-supreme-leader-remains-in-hiding/ar-AA27gvUm",
-        "image": "http://www.bing.com/th?id=ONUT.xcVG8Z9BKYzLyzeE5ZI_-g&pid=News",
-        "timestamp": 1783255546.0
-    },
-    {
-        "title_fa": "نیاز به «عادی‌سازی» با آمریکا برای نجات اقتصاد؛ اعتراف کارشناسانه به بن‌بست سیاست خارجی",
-        "title_en": "Iran needs to 'normalise relations with the US somehow' to save economy, expert says",
-        "summary": [
-            "فرانس۲۴ به نقل از یک کارشناس می‌گوید ایران برای «نجات اقتصاد» نیاز دارد به شکلی «روابط با آمریکا را عادی کند»؛ یعنی خودِ راه‌حل پیشنهادی بر خروج از فشار خارجی و گره‌خوردگی اقتصاد به مناقشه با واشینگتن استوار شده.",
-            "این گزاره نشان می‌دهد اقتصاد در روایت کارشناسی، بدون کاهش تنش/تحریم‌های مرتبط با آمریکا پایدار نمی‌ماند؛ بنابراین اهرم خارجی به جای صرفاً موضوع سیاسی، عامل تعیین‌کننده ثبات اقتصادی معرفی می‌شود.",
-            "از منظر حکومت، این نوع اظهارنظر اعتراف غیرمستقیم به ناکارآمدی سیاست‌های کنونی در تولید رشد اقتصادی است: اگر «عادی‌سازی» پیش‌شرط بقا باشد، مسیر فعلی نمی‌تواند نیازهای معیشتی کشور را پوشش دهد."
-        ],
-        "impact": "این پیام به معنای افزایش احتمال چرخش یا حداقل تلاش‌های پنهان/علنی برای کاهش اصطکاک با آمریکا است چون اقتصاد بدون آن «قابل نجات» توصیف نمی‌شود.",
-        "tag": "تحریم",
-        "urgency": 5,
-        "sentiment": -0.35,
-        "source": "France 24",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQblFMS3lfSHdFYXdVZlNiVEY0MWEtaTZLTGt5T0tVTzM4LXFFNUtCeWhYOEY2SGVkbVNLWEt3dW5wZ0l3UmZuTnd3VG83RVB1V1NOUEpUZGw1dWx0ekJ5NHNFc2pIbllWbXNJemNDT19ILVc4c1NUQlBGcFRfcXVUUlNQY3lqcVRscWhFcG9DUjB6WWF0T05DYlFoMExVY0lJVDVPcUdIR1FaNEVjc3c?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQblFMS3lfSHdFYXdVZlNiVEY0MWEtaTZLTGt5T0tVTzM4LXFFNUtCeWhYOEY2SGVkbVNLWEt3dW5wZ0l3UmZuTnd3VG83RVB1V1NOUEpUZGw1dWx0ekJ5NHNFc2pIbllWbXNJemNDT19ILVc4c1NUQlBGcFRfcXVUUlNQY3lqcVRscWhFcG9DUjB6WWF0T05DYlFoMExVY0lJVDVPcUdIR1FaNEVjc3c",
-        "image": null,
-        "timestamp": 1783255289.0
-    },
-    {
-        "title_fa": "ایران برای ازسرگیری صادرات نفت به ژاپن بعد از سال‌ها تحریم اقدام می‌کند",
-        "title_en": "Iran Moves to Resume Oil Exports to Japan After Years of Sanctions",
-        "summary": [
-            "طبق گزارش Caspian Post، ایران در حال پیگیری روند ازسرگیری صادرات نفت به ژاپن پس از سال‌های محدودیت ناشی از تحریم‌هاست؛ یعنی یک گام عملی برای باز کردن مسیر فروش خارجی.",
-            "این اقدام در سطح ساختاری نشان می‌دهد که رژیم برای کاهش فشار اقتصادی، به دنبال دور زدن اثر تحریم از طریق خریدارهای جدید/مستعدتر در آسیاست؛ هرچه این روند اجرایی‌تر شود، فشار مالی کوتاه‌مدت کمتر می‌گردد.",
-            "با توجه به اینکه متن تنها به «اقدام برای ازسرگیری» اشاره دارد (نه مقدار، تاریخ یا توافق نهایی)، ریسک می‌ماند: اگر فروش واقعی یا انتقال پول/بیمه/عملیات کشتیرانی با مانع مواجه شود، اثر آن روی ثبات اقتصادی محدود خواهد بود."
-        ],
-        "impact": "ازسرگیری احتمالی صادرات نفت به ژاپن می‌تواند بخشی از فشار تحریم را کاهش دهد، اما به‌دلیل نامشخص بودن سطح توافق و اجرای عملی، اثر آن بر ثبات رژیم قطعی نیست.",
-        "tag": "تحریم",
-        "urgency": 4,
-        "sentiment": -0.15,
-        "source": "Caspian Post",
-        "url": "https://www.msn.com/en-in/news/world/iran-in-talks-to-sell-oil-to-japan-as-us-sanctions-get-lifted/ar-AA279pPQ",
-        "clean_url": "https://www.msn.com/en-in/news/world/iran-in-talks-to-sell-oil-to-japan-as-us-sanctions-get-lifted/ar-AA279pPQ",
-        "image": null,
-        "timestamp": 1783255150.0
-    },
-    {
-        "title_fa": "وقفه سیاست ایران در دولت ترامپ؛ ابزار زمان‌بندی برای انتخابات",
-        "title_en": "Trump’s Iran pause is about elections",
-        "summary": [
-            "بر اساس گزارش The Times of Israel، «وقفه» در سیاست ایران از سوی ترامپ عمدتاً با هدف اثرگذاری بر روند انتخابات طراحی شده و نه صرفاً پیامدهای امنیتی یا دیپلماتیک.",
-            "این چارچوب نشان می‌دهد تصمیم‌های واشنگتن نسبت به ایران در کوتاه‌مدت تابع ملاحظات سیاسی داخلی است و می‌تواند برنامه‌ریزی و محاسبات طرف ایرانی را ناپایدار کند.",
-            "با توجه به اینکه دلیل اعلامی یا عملی «وقفه» در متن گزارش با انتخابات گره خورده، نتیجه راهبردی آن در عمل افزایش عدم‌قطعیت سیاسی-اقتصادی برای بازیگران منطقه و داخل ایران است."
-        ],
-        "impact": "وقفه سیاسیِ گره‌خورده به انتخابات می‌تواند بر ثبات تصمیم‌گیری و پیش‌بینی‌پذیری فشار خارجی علیه رژیم اثر بگذارد، اما به خودی خود یک اقدام ساختاری علیه ظرفیت‌های حکمرانی ایجاد نمی‌کند.",
-        "tag": "دیپلماسی",
-        "urgency": 3,
-        "sentiment": -0.2,
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNNm5XMy1hZXZXRERjQXBLbGJRRGhkSkQtVUZFb2VWXzFCWmtCT2Ixa05QRldaV3hJc18yZndkdURPQnRibmxGNUR1VW1CVFN3MzVNejZ2My02YkRKeHNFM2JOSWczcTBvdnBiUlhhY3NtRWo4YVpTNA?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNNm5XMy1hZXZXRERjQXBLbGJRRGhkSkQtVUZFb2VWXzFCWmtCT2Ixa05QRldaV3hJc18yZndkdURPQnRibmxGNUR1VW1CVFN3MzVNejZ2My02YkRKeHNFM2JOSWczcTBvdnBiUlhhY3NtRWo4YVpTNA",
-        "image": null,
-        "timestamp": 1783250880.0
     }
 ]

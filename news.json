@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "نتانیاهو با ترامپ دیدار می‌کند؛ همزمان آمریکا حملات علیه ایران را متوقف و بر شمار توان نظامی در اسرائیل می‌افزاید",
+        "title_en": "Netanyahu To Meet President Trump as US Pauses Iran Strikes, Expands Military Buildup in Israel",
+        "summary": [
+            "طبق گزارش «The Media Line»، بنیامین نتانیاهو قرار است با رئیس‌جمهور ترامپ دیدار کند و این هم‌زمان با «توقف» حملات علیه ایران از سوی آمریکا و در عین حال «افزایش» تدارکات نظامی در اسرائیل رخ می‌دهد.",
+            "این ترکیب پیام سیاسی-عملی روشنی دارد: آمریکا با مکث در ضربه‌زنی، وارد فاز مدیریت بحران می‌شود؛ اما با تقویت نظامی در اسرائیل، اهرم بازدارندگی/فشار را بالا می‌برد.",
+            "برای ایران، این وضعیت به معنای کاهش فوریتِ درگیری لحظه‌ای با حملات اعلام‌شده است، اما همزمان خطر محاسبه‌پذیری نوسانی بالا می‌رود؛ چون افزایش حضور/توان نظامی اسرائیل می‌تواند چرخه اقدامات متقابل را دوباره فعال کند."
+        ],
+        "impact": "به‌جای کاهش بلندمدت تنش، این روند یک مکث تاکتیکی با افزایش ظرفیت نظامی طرف دیگر است و می‌تواند به تشدید مجدد در کوتاه‌مدت منجر شود.",
+        "tag": "هشدار",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "The Media Line",
+        "url": "https://www.msn.com/en-us/news/world/netanyahu-to-meet-trump-at-white-house-next-week-amid-iran-war-escalation/ar-AA28Cj74",
+        "clean_url": "https://www.msn.com/en-us/news/world/netanyahu-to-meet-trump-at-white-house-next-week-amid-iran-war-escalation/ar-AA28Cj74",
+        "image": null,
+        "timestamp": 1785008252.0
+    },
+    {
+        "title_fa": "گزارش: ایران فرماندهان سپاه و تجهیزات موشکی به حوثی‌های یمن منتقل کرده است",
+        "title_en": "Report: Iran Flew IRGC Commanders, Missile Equipment to Yemen's Houthis",
+        "summary": [
+            "به گزارش politicstoday.org، ایران افراد وابسته به سپاه پاسداران را همراه با تجهیزات موشکی به حوثی‌های یمن منتقل کرده است؛ این یعنی انتقال عملیاتی نیرو و سخت‌افزار، نه صرفاً حمایت سیاسی.",
+            "چنین اقدامی می‌تواند فشار بین‌المللی را تشدید کند، چون انتقال فرمانده و تجهیزات موشکی معمولاً در ارزیابی‌های تحریمی به عنوان تشدید ریسک و حمایت مستقیم از توان نظامی بازیگران نیابتی دیده می‌شود.",
+            "در سطح داخلی، تداوم هزینه‌کرد امنیتی-نظامی برای شبکه‌های برون‌مرزی، همزمان با فرسایش اقتصادی، معمولا شکاف مدیریتی را عمیق‌تر می‌کند—اما متن داده‌های مستقیم درباره اعتراضات یا شاخص‌های اقتصادی ارائه نمی‌دهد."
+        ],
+        "impact": "انتقال فرماندهان و تجهیزات موشکی به حوثی‌ها می‌تواند هم قابلیت تهدید منطقه‌ای را بالا ببرد و هم اهرم‌های فشار خارجی علیه شبکه‌های مرتبط با سپاه را فعال‌تر کند.",
+        "tag": "یمن",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "politicstoday.org",
+        "url": "https://www.msn.com/en-us/news/other/iran-flew-commanders-missile-gear-to-houthi-rebels-in-yemen-report/ar-AA28y7u4",
+        "clean_url": "https://www.msn.com/en-us/news/other/iran-flew-commanders-missile-gear-to-houthi-rebels-in-yemen-report/ar-AA28y7u4",
+        "image": null,
+        "timestamp": 1785005625.0
+    },
+    {
+        "title_fa": "نتانیاهو برنامه‌ریزی می‌کند اطلاعات درباره «بازیابی هسته‌ای» ایران را در دیدار با ترامپ ارائه دهد",
+        "title_en": "Netanyahu planning to present Trump with intelligence on Iran's nuclear recovery at White House meeting - report",
+        "summary": [
+            "طبق گزارش «تایمز اسرائیل»، بنیامین نتانیاهو قرار است در دیدار خود با دونالد ترامپ در کاخ سفید، اطلاعاتی درباره «بازیابی هسته‌ای» ایران ارائه کند.",
+            "این اقدام در چارچوب فشار اطلاعاتی-دیپلماتیک عمل می‌کند و هدف آن شکل‌دهی به تصمیم‌های بعدی واشنگتن درباره مسیر برخورد با برنامه هسته‌ای ایران است.",
+            "چون متن گزارش به جزئیات فنی یا میزان صحت/ارزش داده‌ها اشاره نکرده، تاثیر واقعی این اطلاعات به این بستگی دارد که واشنگتن آن را معتبر و کافی برای اقدام عملی بداند."
+        ],
+        "impact": "این رویداد می‌تواند محاسبات سیاست‌گذاری آمریکا علیه بازیابی هسته‌ای ایران را تسریع کند، اما بدون جزئیات اطلاعاتیِ منتشرشده، اثر فوری هنوز قطعی نیست.",
+        "tag": "اطلاعات",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYml6UlpCbHZOc2FUMXVlc1RPTGhEOE5BN0dQNDBPZ29xN1pKMElDUThZUW9XSmQ4VGdJWVdieERvOG1pR01nUGliYVp0TUh5RHhlc0RDUWxhZVNzcFJraDRCU1owSzhaZTczYXNJZlk0czYtcjEyV2VXa3NSaXh1eXdSRUxxZVA4Ukc1NEhwcGZXTUkzMkM2QmQ4N29UWVZWYktSbXhSUXlnRWFNYlc5VzNLbmZEN0pWRDZJT0ZraXBCdnQ4SWU4dlNwOU9DQ2g2S2FLTkFJdjkxdXd4MXkwc01nQUJ1TnBtV0Z3?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYml6UlpCbHZOc2FUMXVlc1RPTGhEOE5BN0dQNDBPZ29xN1pKMElDUThZUW9XSmQ4VGdJWVdieERvOG1pR01nUGliYVp0TUh5RHhlc0RDUWxhZVNzcFJraDRCU1owSzhaZTczYXNJZlk0czYtcjEyV2VXa3NSaXh1eXdSRUxxZVA4Ukc1NEhwcGZXTUkzMkM2QmQ4N29UWVZWYktSbXhSUXlnRWFNYlc5VzNLbmZEN0pWRDZJT0ZraXBCdnQ4SWU4dlNwOU9DQ2g2S2FLTkFJdjkxdXd4MXkwc01nQUJ1TnBtV0Z3",
+        "image": null,
+        "timestamp": 1785004139.0
+    },
+    {
         "title_fa": "تحریم تازه آمریکا علیه بابک زنجانی؛ فشار مالی مستقیم بر شبکه‌های پول‌ساز رژیم",
         "title_en": "New US sanctions target billionaire Iranian financier Babak Zanjani",
         "summary": [
@@ -196,6 +250,24 @@
         "clean_url": "https://www.bostonglobe.com/2026/07/25/world/iran-reports-no-new-us-strikes-tensions-remain-high",
         "image": null,
         "timestamp": 1784980250.0
+    },
+    {
+        "title_fa": "حوثی‌های مورد حمایت ایران موشک و پهپاد به عربستان شلیک کردند؛ پاسخ به حملات هوایی سعودی در حدیده",
+        "title_en": "Iran-backed Houthis fire missiles at Saudi Arabia in response to airstrikes in Yemen",
+        "summary": [
+            "حوثی‌ها اعلام کردند به‌دنبال حملات هوایی سعودی به شهر راهبردی حدیده در یمن، موشک و پهپاد به عربستان شلیک کرده‌اند و این اقدام را به‌عنوان «تشدید» در چارچوب درگیری‌های جاری معرفی می‌کنند.",
+            "این رخداد نشان می‌دهد محور جنگ نیابتی در دریای سرخ همچنان فعال است و از عملیات‌های هوایی در یمن، به حمله مستقیم علیه خاک یا اهداف عربستان کشیده می‌شود.",
+            "با توجه به اینکه روایت خبر بر واکنش موشکی/پهپادی به حملات سعودی در حدیده متمرکز است، نتیجه فوری آن افزایش ریسک امنیتی منطقه و تداوم چرخه حمله-پاسخ میان طرف‌های درگیر است، نه یک روند سیاسی."
+        ],
+        "impact": "تشدید درگیری میان یمن و عربستان از مسیر حوثی‌ها، هزینه امنیتی و عملیاتی را برای کل منطقه دریای سرخ بالا می‌برد و احتمال گسترش بیشتر تنش را افزایش می‌دهد.",
+        "tag": "منطقه‌ای",
+        "urgency": 6,
+        "sentiment": -0.4,
+        "source": "Associated Press News on MSN",
+        "url": "https://www.msn.com/en-us/news/world/iran-backed-houthis-fire-missiles-at-saudi-arabia-in-response-to-airstrikes-in-yemen/ar-AA28Ev54",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-backed-houthis-fire-missiles-at-saudi-arabia-in-response-to-airstrikes-in-yemen/ar-AA28Ev54",
+        "image": "http://www.bing.com/th?id=ONUT.f2WbscHeEzPBuXohxRL1IA&pid=News",
+        "timestamp": 1784978051.0
     },
     {
         "title_fa": "اقدام نیروهای آمریکا علیه یک نفتکش بعد از تلاش برای انسداد؛ اعلام CENTCOM",
@@ -5326,77 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZnVBZi15R2ljdGNXYm52TEVQYnQ3RlRfNGdxdUctSTJOQ1hNUDJZN0t2UFNCbVJzeDh5M1hqTHd6dWQtaXZ0RmtSUFMya3g0UllkbDZDMkZGekFjQ1ctZWlmNS14aG1MNVZIeThxTzZEQnRHd0Q0Ny00WEQwRXdWRzNGX0k3UHZ2TVh5VlFOOEhtYUl0R2syWkY0a1NrVV9TWHVDM2c5S0bSAa4BQVVfeXFMTjJ6dnh1a2xncUlSQUdZcUVfQUZYaHJ0c1dNMTlUV1pJZDRYeXZ6MEtNYzNjMzBmVHBxcjRERnZuWFBpU2tzUDRkOEhMaFpXaUxkUVd1ek1wd2g0NUk1Y0hydU5UX2stSTVvVmo3TDNHODQwMFFsSjB6ckpteWMtUHRIbmRMQ0VYV1ZKWndLWUJPaDhUQktLXzFMdldGa0VTZ3ZCMWRVcDZPOTBkU01R",
         "image": null,
         "timestamp": 1783272995.0
-    },
-    {
-        "title_fa": "بازسازی مبنای هسته‌ای ایران",
-        "title_en": "Reconstructing Iran’s Nuclear Baseline",
-        "summary": [
-            "محتوای منبع «Lawfare» با عنوان «Reconstructing Iran’s Nuclear Baseline» صرفاً به بازسازی/بازطراحی «مبنای» (baseline) هسته‌ای ایران اشاره دارد، بدون ارائه جزئیات قابل اتکا در متن ارسالی.",
-            "بر اساس اطلاعاتی که در اختیار گذاشته شده، نمی‌توان مشخص کرد تمرکز گزارش روی کدام بخش است (اورانیوم، غنی‌سازی، ذخایر، زمان‌بندی، یا مدل‌سازی) و چه داده‌هایی برای بازسازی مبنا استفاده می‌شود.",
-            "همچنین در داده ارسالی، هیچ نشانه‌ای از اقدام عملی رژیم، تحرکات میدانی، تحریم‌های جدید یا اعتراضات داخلی دیده نمی‌شود؛ بنابراین فقط می‌توان آن را یک کار تحلیلی/بازسازی سنجه‌های هسته‌ای دانست."
-        ],
-        "impact": "این نوع بازسازی مبنا در سطح تحلیل می‌تواند برای ارزیابی دقیق‌تر ظرفیت هسته‌ای و رصد مسیر رژیم نقش داشته باشد، اما با متن فعلی هیچ اثر فوری یا اجرایی قابل استناد استخراج نمی‌شود.",
-        "tag": "هسته‌ای",
-        "urgency": 4,
-        "sentiment": 0.0,
-        "source": "Lawfare",
-        "url": "https://www.msn.com/en-nz/politics/government/internet-reacts-to-300b-reconstruction-fund-in-iran-deal/ar-AA25Iius",
-        "clean_url": "https://www.msn.com/en-nz/politics/government/internet-reacts-to-300b-reconstruction-fund-in-iran-deal/ar-AA25Iius",
-        "image": null,
-        "timestamp": 1783269669.0
-    },
-    {
-        "title_fa": "خواست انتقام همزمان با نمایش عمومی مقام‌های ارشد ایران در مراسم تشییع رهبر عالی",
-        "title_en": "Calls for revenge as senior Iranian officials appear in public for supreme leader's funeral",
-        "summary": [
-            "بر اساس گزارش PBS، مقام‌های ارشد ایران همزمان با مراسم تشییع رهبر عالی، در ملأ عام ظاهر شدند؛ نشانه‌ای از تلاش برای تثبیت اقتدار در لحظه‌ی انتقال سیاسی.",
-            "هم‌زمان، در فضای رسانه‌ای/اجتماعی «خواست انتقام» مطرح شده است؛ یعنی روایت رسمی و تبلیغی به سمت مشروع‌سازی اقدام‌های تلافی‌جویانه هدایت می‌شود.",
-            "این ترکیبِ نمایش علنی قدرت با پیام‌های تلافی‌جویانه، می‌تواند زمینه‌ی تشدید تنش منطقه‌ای و بالا رفتن احتمال برخوردهای نیابتی یا واکنش‌های زنجیره‌ای را فراهم کند، اما در متنِ ارائه‌شده جزئیات عملیاتی یا اقدام مشخص ذکر نشده است."
-        ],
-        "impact": "در این مرحله، اثر اصلی بیشتر سیاسی-روایی است: تلاش برای کنترل گذار قدرت با شعار انتقام که می‌تواند چرخه تنش را بالا ببرد، بدون اینکه شواهد اقدام مستقیم ارائه شود.",
-        "tag": "انتقام",
-        "urgency": 6,
-        "sentiment": -0.35,
-        "source": "PBS",
-        "url": "https://www.djournal.com/news/nation-world/calls-for-revenge-as-senior-iranian-officials-appear-in-public-for-supreme-leaders-funeral/article_38880901-f80e-5c72-9fe0-31682eda7113.html",
-        "clean_url": "https://www.djournal.com/news/nation-world/calls-for-revenge-as-senior-iranian-officials-appear-in-public-for-supreme-leaders-funeral/article_38880901-f80e-5c72-9fe0-31682eda7113.html",
-        "image": null,
-        "timestamp": 1783267934.0
-    },
-    {
-        "title_fa": "سکوت هگزِث درباره ایران همزمان با پیش‌برد «دیپلماسی» ترامپ",
-        "title_en": "Hegseth goes quiet on Iran as Trump pursues diplomacy",
-        "summary": [
-            "پیت هگزِث که در ماه‌های اخیر چهره اصلی تیم ترامپ در مسیر عملیات نظامی علیه ایران و تضعیف «تهدید هسته‌ای» معرفی می‌شد، پس از امضای ترامپ با ایران برای پایان جنگ (با وجود نبودِ امتیازهای مهم در حوزه موشک و ذخایر هسته‌ای) درباره تغییر راهبرد کمتر صحبت کرده است.",
-            "در روایت این گزارش، معاون ترامپ (ویِنس) مرکزیت بیشتری برای دفاع از دیپلماسی پیدا کرده و همین الگو نشان می‌دهد مشاوران ارشد عملاً نقش «بدِ کارِ عملیاتی» را برای هگزِث و نقش «خیرِ کارِ مذاکره/آرام‌سازی» را برای ویِنس تقسیم کرده‌اند.",
-            "در سطح مذاکرات میانجی‌گری‌شده توسط قطر و پاکستان، گفت‌وگوها درباره کنترل ایران بر تنگه هرمز گیر کرده و همین توقف می‌تواند اجرای هرگونه تفاهم شکننده را به تأخیر بیندازد؛ در نتیجه، بخشی از کاستی‌های مدیریت راهبردی همچنان روی میز است."
-        ],
-        "impact": "این جابه‌جایی بیانگر توازن فشار-مذاکره در آمریکا است، اما به‌دلیل نبودِ امتیازهای کلیدی و گره خوردن مسئله هرمز، دیپلماسی فعلاً ظرفیت تبدیل‌شدن به ثبات واقعی را ندارد.",
-        "tag": "دیپلماسی",
-        "urgency": 7,
-        "sentiment": -0.35,
-        "source": "The Hill",
-        "url": "https://www.yahoo.com/news/politics/articles/hegseth-goes-quiet-iran-trump-160117327.html",
-        "clean_url": "https://www.yahoo.com/news/politics/articles/hegseth-goes-quiet-iran-trump-160117327.html",
-        "image": null,
-        "timestamp": 1783267260.0
-    },
-    {
-        "title_fa": "اظهارات ارتش اسرائیل درباره «آمادگی برای آتش موشکی بیشتر» و ارزیابی آن از حمله ایران",
-        "title_en": "IDF: ‘Prepared for additional missile fire; Iran made a serious mistake’",
-        "summary": [
-            "رسانه Ynetnews می‌گوید رژیم ایران چندین موج شلیک موشکی به اسرائیل انجام داد و همین باعث به‌صدا درآمدن آژیرهای خطر و رفتن غیرنظامیان به پناهگاه‌ها شد؛ سپاه پاسداران این حمله را «هشدار» توصیف کرد.",
-            "ترامپ با اشاره به ضرورت جلوگیری از اقدام متقابل اضافی، گفت حمله موشکی ایران «برای مذاکرات» مفید نیست و در عین حال ابراز امیدواری کرد که «توافق» نزدیک است؛ هم‌زمان فشار سیاسی برای جمع‌بندی سریع پرونده ایران تا انتخابات میان‌دوره‌ای مطرح شده است.",
-            "ارتش اسرائیل (IDF) مدعی شد سامانه‌های دفاعی ایران را هدف قرار داده و در ادامه، با لحن اطمینان‌بخش اعلام کرد برای «آتش موشکی احتمالی بیشتر» آماده بوده و حمله ایران را «اشتباه جدی» خواند."
-        ],
-        "impact": "این چرخه حمله و پاسخ، به‌جای کاهش تنش، خطر تشدید نظامی و تداوم درگیری را بالا می‌برد، آن هم در شرایطی که واشنگتن هم‌زمان به دنبال مهار ریسک سیاسی و حفظ مسیر مذاکره است.",
-        "tag": "تنش",
-        "urgency": 8,
-        "sentiment": 0.2,
-        "source": "Ynetnews",
-        "url": "https://www.foxnews.com/live-news/us-airstrikes-iran-israel-lebanon-war-june-7",
-        "clean_url": "https://www.foxnews.com/live-news/us-airstrikes-iran-israel-lebanon-war-june-7",
-        "image": null,
-        "timestamp": 1783262284.0
     }
 ]

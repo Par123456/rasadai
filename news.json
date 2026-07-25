@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "عقب‌نشینی ترامپ پس از عبور ایران از «خط قرمز»؛ پایان دو هفته حملات هوایی آمریکا",
+        "title_en": "Trump pulls back after Iran crosses his red line as US military breaks two-week streak of airstrikes",
+        "summary": [
+            "بر اساس گزارش Fortune، با عبور ایران از «خط قرمز» مورد اشاره ترامپ، کاخ سفید ابتدا مسیر مقابله را تشدید کرده بود اما سپس تصمیم به عقب‌نشینی گرفت.",
+            "در همان چارچوب، آمریکا «سری دو هفته‌ای» حملات هوایی را شکست و به جای ادامه، روند را قطع یا کاهش داده است؛ این نشان می‌دهد محاسبات بازدارندگی و کنترل ریسک به‌طور جدی تغییر کرده است.",
+            "این تصمیم مستقیماً به فرماندهی و مدیریت بحران در سطح نظامی مربوط است: افزایش فشار تا نقطه‌ای پیش رفته، اما بعد با هدف جلوگیری از گسترش دامنه درگیری متوقف شده است."
+        ],
+        "impact": "عقب‌نشینی آمریکا همراه با توقف حملات هوایی، نشان‌دهنده تغییر فوری در محاسبات بازدارندگی و ریسک تشدید علیه تهران است، نه حل مسئله.",
+        "tag": "امنیت",
+        "urgency": 8,
+        "sentiment": 0.1,
+        "source": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWHFkX1FGZXAySE5HZmdPY0pYaGREc0hGWHRnOTRxVjNoS0lQVmpmSUNqMXZRYXBoNGtCTi1WakQ4SG1BUzd5TzFXaENhLXdWZGc0Y1lMM3I1NWRKYnhhYWtJaU9tYjdtTTF1WjVMVFJrLWN0cXkycE1hUjloVzZOa2ZMSzltM0tCR3lvUXJYMjBVWFZQMC1yd3FnR0lPRzEySWhRNw?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWHFkX1FGZXAySE5HZmdPY0pYaGREc0hGWHRnOTRxVjNoS0lQVmpmSUNqMXZRYXBoNGtCTi1WakQ4SG1BUzd5TzFXaENhLXdWZGc0Y1lMM3I1NWRKYnhhYWtJaU9tYjdtTTF1WjVMVFJrLWN0cXkycE1hUjloVzZOa2ZMSzltM0tCR3lvUXJYMjBVWFZQMC1yd3FnR0lPRzEySWhRNw",
+        "image": null,
+        "timestamp": 1785008760.0
+    },
+    {
         "title_fa": "نتانیاهو با ترامپ دیدار می‌کند؛ همزمان آمریکا حملات علیه ایران را متوقف و بر شمار توان نظامی در اسرائیل می‌افزاید",
         "title_en": "Netanyahu To Meet President Trump as US Pauses Iran Strikes, Expands Military Buildup in Israel",
         "summary": [
@@ -34,6 +52,24 @@
         "clean_url": "https://www.msn.com/en-us/news/other/iran-flew-commanders-missile-gear-to-houthi-rebels-in-yemen-report/ar-AA28y7u4",
         "image": null,
         "timestamp": 1785005625.0
+    },
+    {
+        "title_fa": "دستور ترامپ به نظامیان برای عدم انجام حمله به ایران در روز جمعه",
+        "title_en": "Trump ordered military not to conduct strikes in Iran Friday",
+        "summary": [
+            "طبق گزارش Axios، ترامپ به نیروهای نظامی دستور داده است در روز جمعه حملات علیه ایران را انجام ندهند؛ یعنی تصمیمی برای کاهش سطح درگیری در کوتاه‌مدت.",
+            "این دستور به‌طور مستقیم پیام می‌دهد که احتمال اجرای گزینه‌های نظامیِ فوری محدود شده، اما ماهیت تهدیدات همچنان می‌تواند به شکل بازدارندگی یا فشار سیاسی/عملیاتی باقی بماند.",
+            "از منظر ثبات رژیم، تأخیر یا عقب‌نشینی در اقدام نظامی می‌تواند به رژیم زمان بدهد تا روایت داخلی را مدیریت کند، شبکه‌های دفاعی/پدافندی را بازتنظیم کند و هزینه‌های تبلیغاتی ناشی از تهدید قریب‌الوقوع را کاهش دهد."
+        ],
+        "impact": "این تصمیم بیشتر یک «وقفه عملیاتی» است تا تغییر بنیادین در سیاست فشار، و می‌تواند چند روز زمان برای مدیریت بحران به رژیم بدهد.",
+        "tag": "امنیتی",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "Axios",
+        "url": "https://www.usnews.com/news/world/articles/2026-07-24/trump-vows-to-punish-iran-and-houthis-for-attacks-in-red-sea",
+        "clean_url": "https://www.usnews.com/news/world/articles/2026-07-24/trump-vows-to-punish-iran-and-houthis-for-attacks-in-red-sea",
+        "image": null,
+        "timestamp": 1785004882.0
     },
     {
         "title_fa": "نتانیاهو برنامه‌ریزی می‌کند اطلاعات درباره «بازیابی هسته‌ای» ایران را در دیدار با ترامپ ارائه دهد",
@@ -5362,41 +5398,5 @@
         "clean_url": "https://www.msn.com/en-gb/politics/government/israel-government-says-it-will-defy-supreme-court-ruling-on-media-regulator/ar-AA27g0Zc",
         "image": null,
         "timestamp": 1783274470.0
-    },
-    {
-        "title_fa": "تجمع احساسی و سیاسی در تشییع «رهبر پیشین» در تهران؛ پیوند عاطفه با مهندسی قدرت",
-        "title_en": "Watch: Emotion and politics merge in Tehran at funeral of former supreme leader",
-        "summary": [
-            "بی‌بی‌سی صحنه‌هایی از تشییع «رهبر پیشین» در تهران را گزارش می‌کند که در آن احساسات عمومی با مدیریت سیاسی مراسم امتزاج یافته است.",
-            "این رویداد نشان می‌دهد حکومت برای کنترل روایت عمومی و تقویت انسجام درون‌سیستمی، از مناسک سوگواری به عنوان ابزار سیاست استفاده می‌کند.",
-            "با توجه به تمرکز گزارش روی «ادغام احساس و سیاست»، پیام اصلی مراسم نه صرفاً سوگ، بلکه فعال‌سازی فضای سیاسی و اعتباردهی به ساختار قدرت در لحظه‌های حساس است."
-        ],
-        "impact": "این نوع مهندسی مراسم می‌تواند برای کوتاه‌مدت انسجام درونی رژیم را تقویت کند، اما همزمان زمینه برای تشدید شکاف میان روایت رسمی و واقعیت‌های اجتماعی را فراهم می‌سازد.",
-        "tag": "ایران",
-        "urgency": 3,
-        "sentiment": -0.2,
-        "source": "BBC",
-        "url": "https://www.msn.com/en-us/news/world/emotion-and-politics-merge-in-tehran-at-funeral-of-former-supreme-leader/vi-AA27fTA5",
-        "clean_url": "https://www.msn.com/en-us/news/world/emotion-and-politics-merge-in-tehran-at-funeral-of-former-supreme-leader/vi-AA27fTA5",
-        "image": null,
-        "timestamp": 1783274087.0
-    },
-    {
-        "title_fa": "نتانیاهو گزارش اختلاف با ترامپ را رد کرد و بر هم‌راستایی در قبال ایران تاکید گذاشت",
-        "title_en": "Netanyahu rejects reports of a rift with President Trump, says the two remain aligned on Iran",
-        "summary": [
-            "طبق گزارش فاکس نیوز، نتانیاهو ادعاهای مربوط به «اختلاف» با رئیس‌جمهور ترامپ را رد کرد و گفت دو طرف همچنان درباره ایران هم‌راستا هستند.",
-            "این موضع، پیام سیاسیِ حفظ انسجام در محور فشار بر ایران را منتقل می‌کند و مانع از شکل‌گیری روایت‌های تفرقه در سیاست آمریکا-اسرائیل می‌شود.",
-            "چنین اعلامی بیشتر در حوزه هماهنگی سیاسی است و در متن خبر به اقدام مشخص، تحریم جدید یا عملیات نظامی اشاره نشده است."
-        ],
-        "impact": "رد اختلاف و تاکید بر هم‌راستایی، ریسک تضعیف سیاست فشار خارجی علیه ایران را پایین می‌آورد و می‌تواند مسیر تصمیم‌گیری را یکپارچه‌تر کند.",
-        "tag": "دیپلماسی",
-        "urgency": 4,
-        "sentiment": 0.1,
-        "source": "Fox News",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZnVBZi15R2ljdGNXYm52TEVQYnQ3RlRfNGdxdUctSTJOQ1hNUDJZN0t2UFNCbVJzeDh5M1hqTHd6dWQtaXZ0RmtSUFMya3g0UllkbDZDMkZGekFjQ1ctZWlmNS14aG1MNVZIeThxTzZEQnRHd0Q0Ny00WEQwRXdWRzNGX0k3UHZ2TVh5VlFOOEhtYUl0R2syWkY0a1NrVV9TWHVDM2c5S0bSAa4BQVVfeXFMTjJ6dnh1a2xncUlSQUdZcUVfQUZYaHJ0c1dNMTlUV1pJZDRYeXZ6MEtNYzNjMzBmVHBxcjRERnZuWFBpU2tzUDRkOEhMaFpXaUxkUVd1ek1wd2g0NUk1Y0hydU5UX2stSTVvVmo3TDNHODQwMFFsSjB6ckpteWMtUHRIbmRMQ0VYV1ZKWndLWUJPaDhUQktLXzFMdldGa0VTZ3ZCMWRVcDZPOTBkU01R?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZnVBZi15R2ljdGNXYm52TEVQYnQ3RlRfNGdxdUctSTJOQ1hNUDJZN0t2UFNCbVJzeDh5M1hqTHd6dWQtaXZ0RmtSUFMya3g0UllkbDZDMkZGekFjQ1ctZWlmNS14aG1MNVZIeThxTzZEQnRHd0Q0Ny00WEQwRXdWRzNGX0k3UHZ2TVh5VlFOOEhtYUl0R2syWkY0a1NrVV9TWHVDM2c5S0bSAa4BQVVfeXFMTjJ6dnh1a2xncUlSQUdZcUVfQUZYaHJ0c1dNMTlUV1pJZDRYeXZ6MEtNYzNjMzBmVHBxcjRERnZuWFBpU2tzUDRkOEhMaFpXaUxkUVd1ek1wd2g0NUk1Y0hydU5UX2stSTVvVmo3TDNHODQwMFFsSjB6ckpteWMtUHRIbmRMQ0VYV1ZKWndLWUJPaDhUQktLXzFMdldGa0VTZ3ZCMWRVcDZPOTBkU01R",
-        "image": null,
-        "timestamp": 1783272995.0
     }
 ]

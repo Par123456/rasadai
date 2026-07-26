@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "گسترش جنگ ایران به دریای سرخ و دریای خزر؛ سکوت خلیج فارس با تصمیم آمریکا برای خودداری از ضربه",
+        "title_en": "Iran war spreads to Red Sea and Caspian, Gulf quiet as US forgoes strikes",
+        "summary": [
+            "طبق گزارش رویترز، درگیری‌ها به پهنه‌های دریای سرخ و دریای خزر کشیده شده که نشان‌دهنده توسعه جغرافیایی عملیات‌های مرتبط با جنگ است و فشار امنیتی را از مرزهای محدود فراتر می‌برد.",
+            "هم‌زمان «خلیج فارس» آرام گزارش شده؛ این یعنی اثر بازدارندگی یا کنترل ریسک در کوتاه‌مدت پابرجا مانده و فعالیت مستقیم میدانی گسترده در همان محدوده رخ نداده است.",
+            "کلید ماجرا در بخش واکنش آمریکا است: واشینگتن از اجرای «ضربه» صرف‌نظر کرده که به معنای عقب‌نشینی تاکتیکی/محاسبه پرهزینه‌بودن تشدید است و احتمالاً به موازات گسترش جنگ، از رسیدن آن به سطح رویارویی مستقیم جلوگیری کرده است."
+        ],
+        "impact": "این الگوی «گسترش میدان جنگ بدون اقدام مستقیم آمریکا» ریسک طولانی‌شدن و پراکنده‌شدن درگیری‌ها را بالا می‌برد، اما فعلاً از یک جهش به تقابل مستقیم نظامی جلوگیری می‌کند.",
+        "tag": "امنیت_منطقه‌ای",
+        "urgency": 6,
+        "sentiment": -0.4,
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYnVSWlhuMFM5LW94bUxZY2tSeDlTX3p1RC1yNk10aVJobG02aVpFeGc3bFowLVZIT01sQk5yekpRWHNUYmhiS3gxSmJTbF9YU2hROXlmQ3hSMVFvaVpDZlhuUXp6N0d4c2lERjlra2NFeXp6Y1Uwd3M2U3prWUp2LTNvMG5Zd05laVktTmJXaXFTNnp4V3U2RkUwV0FNM04yc0dsQWZKc1BtOFk2aDFKQlUwc21pdW9k?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYnVSWlhuMFM5LW94bUxZY2tSeDlTX3p1RC1yNk10aVJobG02aVpFeGc3bFowLVZIT01sQk5yekpRWHNUYmhiS3gxSmJTbF9YU2hROXlmQ3hSMVFvaVpDZlhuUXp6N0d4c2lERjlra2NFeXp6Y1Uwd3M2U3prWUp2LTNvMG5Zd05laVktTmJXaXFTNnp4V3U2RkUwV0FNM04yc0dsQWZKc1BtOFk2aDFKQlUwc21pdW9k",
+        "image": null,
+        "timestamp": 1785021480.0
+    },
+    {
+        "title_fa": "آمریکا حملات علیه ایران را متوقف می‌کند و «پنجره گفت‌وگو» را می‌بیند",
+        "title_en": "US halts strikes on Iran, sees opening for talks: What to know",
+        "summary": [
+            "بر اساس گزارش Al-Monitor، آمریکا در ادامه عملیات نظامی علیه ایران «حملات را متوقف کرده» و هم‌زمان مدعی است که فرصتی برای آغاز گفت‌وگو وجود دارد.",
+            "این تغییر لحن و رویکرد، فشار نظامی را از سطح اقدام فوری پایین می‌آورد؛ اما هم‌زمان پیام سیاسی می‌دهد که واشنگتن مایل است کانال مذاکره را به‌عنوان مسیر مدیریت ریسک فعال کند.",
+            "گزارش جزئیات دقیق از شروط یا محتوای احتمالی گفت‌وگو را ارائه نمی‌کند؛ بنابراین اثر فوری آن بیشتر در حوزه محاسبات امنیتی و کاهش احتمال درگیری مستقیم است تا در حل مسائل ساختاری."
+        ],
+        "impact": "توقف حملات، به‌طور کوتاه‌مدت احتمال تشدید سریع را کاهش می‌دهد، ولی «گفت‌وگو» بدون مشخص شدن چارچوب، تغییر بنیادین در وضعیت ایران ایجاد نمی‌کند.",
+        "tag": "diplomacy",
+        "urgency": 5,
+        "sentiment": 0.1,
+        "source": "Al-Monitor",
+        "url": "https://www.al-monitor.com/originals/2026/07/us-halts-strikes-iran-sees-opening-talks-what-know",
+        "clean_url": "https://www.al-monitor.com/originals/2026/07/us-halts-strikes-iran-sees-opening-talks-what-know",
+        "image": null,
+        "timestamp": 1785019924.0
+    },
+    {
         "title_fa": "جنگ ایران: شورشیان حوثی وعده پاسخ به حملات عربستان به الحدیده را دادند",
         "title_en": "Iran war: Houthis vow response to Saudi strikes on Hodeida",
         "summary": [
@@ -196,6 +232,42 @@
         "clean_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdENFLUN1cko1X1ptWEhmOVFPaW9GeWd5ZHZFSUZ4NDc5clprUkRxc3ByMWwzTTNiV3NzQkJCUEJXbnVJcE02MWRUWjRyNFJIeFg5X3ozQTU5ZmRKTTdoTHJVbVR4bkgydU1BcHYySFpDZ1Uwb09ZWEl3ZjJTREtxbHF2V2JlS0doYm1mZWswbW9Dbmh6TXU00gGcAUFVX3lxTFBhZGpLdUtRSEJlQWRwdnRySlUwWFBKWXczMUtGckFPeHByV21XUjhsTDlJcmlTMTNiZm90QjdMNExjV1FWU0s2MUgwVFp5RWYwdzBrVzdvWXFlUGEtTkZaZkF4anU1M25ReV9LbEFhcDJQVUgwWXlBQUNBeEhfOXE2akFtZWZBZ19KZGhmYmRycE14X1NIZWpEelF0ZA",
         "image": null,
         "timestamp": 1785000420.0
+    },
+    {
+        "title_fa": "وقف حملات هوایی آمریکا و تلاش برای «خروج اضطراری»؛ پرسش این است که آیا ایران و آمریکا می‌توانند مسیر تنش را قطع کنند",
+        "title_en": "Airstrikes have paused and talks are pressing forward. But can the US and Iran take the off-ramp?",
+        "summary": [
+            "طبق گزارش، نیروی نظامی آمریکا پس از حدود دو هفته تشدید حملات هوایی علیه ایران، حملات را متوقف کرده و هم‌زمان تلاش‌های دیپلماتیک برای جلوگیری از بازگشت به جنگ تمام‌عیار در جریان است.",
+            "چارچوب ماجرا بر «قطع دوباره چرخه حمله» می‌چرخد: توقف ضربات یک تخفیف تاکتیکی است، اما متن روشن می‌کند که اجرای مسیر کاهش تنش هنوز قطعی نیست.",
+            "چالش اصلی روی میزان قابلیت اعتماد به توافق و سازوکار عملی توقف/کنترل تشدید دوباره متمرکز است؛ یعنی اینکه آیا طرفین می‌توانند از افق جنگ‌محور خارج شوند یا نه."
+        ],
+        "impact": "توقف حملات به‌عنوان کاهش فوری خطر عمل می‌کند، اما چون قطع‌نامه نهایی و ضامن اجرایی روشن نیست، ریسک بازگشت به تشدید همچنان بالاست.",
+        "tag": "تنش",
+        "urgency": 8,
+        "sentiment": -0.2,
+        "source": "Associated Press News on MSN",
+        "url": "https://www.msn.com/en-us/news/other/airstrikes-have-paused-and-talks-are-pressing-forward-but-can-the-us-and-iran-take-the-off-ramp/ar-AA28H1xN",
+        "clean_url": "https://www.msn.com/en-us/news/other/airstrikes-have-paused-and-talks-are-pressing-forward-but-can-the-us-and-iran-take-the-off-ramp/ar-AA28H1xN",
+        "image": "http://www.bing.com/th?id=ONUT.JGkGEZO_x8XJBPYDl5XE0A&pid=News",
+        "timestamp": 1784999450.0
+    },
+    {
+        "title_fa": "تعلیق حملات شبانه آمریکا علیه ایران همزمان با تشدید درگیری حوثی‌ها و عربستان و هشدارهای تلافی تهران",
+        "title_en": "US-Iran war LIVE updates: US halts nightly strikes on Iran as Houthis and Saudis clash amid escalating conflict",
+        "summary": [
+            "گزارش شده آمریکا پس از حدود دو هفته، حملات شبانه علیه ایران را متوقف کرده؛ هم‌زمان درگیری میان حوثی‌های مورد حمایت ایران و عربستان تشدید شده و حوثی‌ها ادعا کرده‌اند موشک و پهپاد به تاسیسات مرتبط با آرامکو در جیزان و ینبع در دریای سرخ زده‌اند (تأیید فوری از سوی عربستان یا آرامکو منتشر نشده).",
+            "ایران حمله اوکراین به یک کشتی تجاری ایرانی در دریای خزر را شدیداً محکوم کرده و اعلام کرده تلافی در چارچوب حقوق بین‌الملل را در نظر می‌گیرد؛ بر اساس گزارش، انفجار روی کشتی یک نفر را کشته و یک نفر را زخمی کرده است.",
+            "سپاه پاسداران به بریتانیا هشدار داده در صورت گسترش حمایت از آمریکا در جنگ، ممکن است هدف قرار بگیرد؛ این هشدار همچنین در چارچوب این منطق است که هر کشوری که درگیری را پشتیبانی کند، در معرض تبدیل شدن به هدف قرار می‌گیرد."
+        ],
+        "impact": "تعلیق حملات شبانه آمریکا و هم‌زمانی آن با تشدید جبهه‌های منطقه‌ای، نشان می‌دهد جنگ فرسایشی و گسترش دامنه درگیری به جای یک خطِ ثابت، در حال تعیین محاسبات تهران و واشینگتن است.",
+        "tag": "جنگ",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Mint",
+        "url": "https://www.livemint.com/news/world/us-iran-war-news-latest-live-updates-donald-trump-abbas-araghchi-strait-of-hormuz-peace-talks-qatar-bahrain-kuwait-11785023471415.html",
+        "clean_url": "https://www.livemint.com/news/world/us-iran-war-news-latest-live-updates-donald-trump-abbas-araghchi-strait-of-hormuz-peace-talks-qatar-bahrain-kuwait-11785023471415.html",
+        "image": null,
+        "timestamp": 1784998800.0
     },
     {
         "title_fa": "ایران بهبود پیوسته موشک‌های بالستیک برای دور زدن پدافند هوایی؛ گزارش WSJ",
@@ -5326,77 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/money/economy/tracking-oil-prices-and-us-gas-prices-amid-iran-conflict/ar-AA1XQ9Py",
         "image": null,
         "timestamp": 1783296000.0
-    },
-    {
-        "title_fa": "انتظار برای تجمعات عظیم در مراسم تشییع رهبر ایران",
-        "title_en": "Massive crowds expected at Iran leader’s funeral procession",
-        "summary": [
-            "روزنامه «The New Arab» اعلام می‌کند که برای مراسم تشییع رهبر ایران، تجمعات بسیار گسترده‌ای در سطح شهرها انتظار می‌رود.",
-            "این پیامِ خبری به‌طور ضمنی نشان می‌دهد که دولت در تلاش است برای مدیریت افکار عمومی و نمایش قدرت اجتماعی، از مقیاس جمعیت در مراسم استفاده کند.",
-            "با توجه به نبود جزئیات درباره علت، میزان یا ترکیب جمعیت، فعلاً نمی‌توان شدت نارضایتی یا همبستگی عمومی را از این خبر به‌صورت دقیق سنجید، اما صرف «انبوهی جمعیت» خود یک شاخص حساس برای پایداری سیاسی است."
-        ],
-        "impact": "تجمعات گسترده در مراسم می‌تواند هم ابزار نمایش انسجام برای حکومت باشد و هم آزمون فشار خیابانی، اما ارزیابی اثر واقعی نیازمند جزئیات رسمی و میدانی است.",
-        "tag": "تجمع",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The New Arab",
-        "url": "https://www.straitstimes.com/world/middle-east/huge-crowds-expected-at-iran-leader-ali-khameneis-funeral-procession",
-        "clean_url": "https://www.straitstimes.com/world/middle-east/huge-crowds-expected-at-iran-leader-ali-khameneis-funeral-procession",
-        "image": null,
-        "timestamp": 1783295923.0
-    },
-    {
-        "title_fa": "بازگشت بورس‌ها و افت جزئی رشد قیمت نفت پس از اعلام «مکث» از سوی ایران و اسرائیل",
-        "title_en": "Stocks bounce back, oil pares gains as Iran and Israel signal a pause By Reuters",
-        "summary": [
-            "طبق گزارش رویترز، بعد از نوسان اولیه، بازار سهام به مسیر صعودی برگشت و رشد قیمت نفت کاهش یافت؛ علت اصلی، پیام‌های مرتبط با «توقف/مکث» در تنش میان ایران و اسرائیل عنوان شده است.",
-            "این خبر نشان می‌دهد ریسک ژئوپلیتیک در کوتاه‌مدت وارد فاز کنترل‌شده‌تر شده و معامله‌گران از تشدید فوری به سمت سناریوی توقف موقت حرکت کرده‌اند.",
-            "با این حال، متن صرفاً به سیگنال «مکث» اشاره دارد و جزئیات عملی (مثل توقف رسمی عملیات یا توافق اجرایی) ارائه نمی‌کند، بنابراین اثر آن بیشتر کوتاه‌مدت و روانیِ بازار است."
-        ],
-        "impact": "سیگنال مکث، فشار ریسک فوری را کاهش داده و به برگشت بورس‌ها و تعدیل رشد نفت کمک کرده، اما چون اجرایی بودن آن روشن نیست، اثر پایدار قابل اتکا نیست.",
-        "tag": "ژئوپلیتیک",
-        "urgency": 4,
-        "sentiment": 0.2,
-        "source": "Investing.com",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-07/",
-        "clean_url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-07",
-        "image": null,
-        "timestamp": 1783294512.0
-    },
-    {
-        "title_fa": "تصاویر «بنر ضدترامپ و نتانیاهو» در راهپیمایی مراسم تشییع رهبر جمهوری اسلامی؛ هشدار بی‌ثباتی خیابانی",
-        "title_en": "Iran War News Live Updates: 'There will be blood'- Anti-Trump, Netanyahu banners seen at Khamenei's funeral procession",
-        "summary": [
-            "طبق گزارش تایمز آو ایندیا، در مسیر مراسم تشییع رهبر جمهوری اسلامی، بنرهای ضدترامپ و نتانیاهو دیده شده که نشان می‌دهد مدیریت مراسم به ابزار تبلیغاتی و بسیج سیاسی تبدیل شده است.",
-            "این صحنه‌گردانی همراه با عبارت «There will be blood» که در تیتر آمده، ریسک تشدید لفاظی و تحریک در فضای عمومی را بالا می‌برد؛ یعنی احتمال برخوردهای خیابانی یا گسترش ناآرامی وجود دارد، نه صرفاً یک مراسم معمول.",
-            "ترکیب شعارهای ضد آمریکا و ضد اسرائیل در شرایط بحرانیِ پس از یک رویداد سیاسی/مذهبی، معمولاً به جای کاهش تنش، برای کنترل افکار عمومی و پوشاندن شکاف‌های داخلی به کار می‌رود؛ اما اگر بدنه جامعه هم‌صدا نشود، این نوع نمایش می‌تواند به ضدّخود بدل شود."
-        ],
-        "impact": "بازتاب بنرهای سیاسی در یک رویداد حساس و تیترِ تهدیدآمیز، می‌تواند به افزایش تنش خیابانی و شکنندگی مدیریت بحران در داخل کشور بینجامد.",
-        "tag": "بی‌ثباتی",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-ali-khamenei-funeral-west-asia-conflict-strait-of-hormuz-trump-latest-warning-news/liveblog/132190092.cms",
-        "clean_url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-ali-khamenei-funeral-west-asia-conflict-strait-of-hormuz-trump-latest-warning-news/liveblog/132190092.cms",
-        "image": "http://www.bing.com/th?id=ONUT.Z_59g3uMFo3p1pL9xMoUdw&pid=News",
-        "timestamp": 1783291620.0
-    },
-    {
-        "title_fa": "رسانه سپاه: ایران برای «حفظ آرامش» باید بمب هسته‌ای توسعه دهد؛ در تضاد با وعده به ترامپ",
-        "title_en": "Iran must develop nuclear bomb to protect ‘peace and calm,’ IRGC media says — despite pledge to Trump",
-        "summary": [
-            "رسانه وابسته به سپاه پاسخی دوگانه ارائه می‌کند: تأکید می‌شود ایران باید بمب هسته‌ای را توسعه دهد تا «آرامش» حفظ شود، در حالی که همزمان از «وعده به ترامپ» به‌عنوان نقطه مرجع سیاسی یاد شده است.",
-            "این پیام عملاً سیگنال‌سازی تهدیدمحور است و به‌جای کاهش تنش، روایت توان هسته‌ای را به ابزار مشروعیت‌بخشی برای فشار امنیتی تبدیل می‌کند.",
-            "با توجه به اینکه منبع این ادعا رسانه سپاه است، احتمال بالا می‌رود که این موضع بخشی از رقابت داخلی و تثبیت کنترل امنیتی باشد، نه یک تغییر واقعی در سیاست."
-        ],
-        "impact": "این موضع‌گیری، ریسک تشدید تنش خارجی و افزایش فشارهای دیپلماتیک/تحریمی را بالا می‌برد و مشروعیت وعده‌های قبلی را فرسایش می‌دهد.",
-        "tag": "هسته‌ای",
-        "urgency": 7,
-        "sentiment": -0.6,
-        "source": "AOL.com",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41OVpIaEFoSjBlT0FwWE5SY0tOdFJESS1KbDQwQUk1YndFbmtYTHlyUmZOZkl3YnJXcFFvZVF2aGZ5WXZzRG9VN2cxVUF2aVFsVGNvMjRLNEVSTXZueWsyaHZGTjhyZmtJM3dteGdUTldwU0ZSbUl6UHh3RUhjXzQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41OVpIaEFoSjBlT0FwWE5SY0tOdFJESS1KbDQwQUk1YndFbmtYTHlyUmZOZkl3YnJXcFFvZVF2aGZ5WXZzRG9VN2cxVUF2aVFsVGNvMjRLNEVSTXZueWsyaHZGTjhyZmtJM3dteGdUTldwU0ZSbUl6UHh3RUhjXzQ",
-        "image": null,
-        "timestamp": 1783289943.0
     }
 ]

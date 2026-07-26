@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "تعلیق حملات علیه ایران برای «جا باز کردن» به مذاکره؛ پیام سفیر آمریکا",
+        "title_en": "Trump paused attacks on Iran to make space for talks, US ambassador says",
+        "summary": [
+            "سفیر آمریکا اعلام کرده که ترامپ برای فراهم کردن زمینه مذاکرات، حملات علیه ایران را متوقف کرده است؛ یعنی رویکرد واشینگتن به شکل تاکتیکی از فشار نظامی به مسیر مذاکره تغییر موقت داده می‌شود.",
+            "این تغییر لزوماً به معنای کاهش ضعف ساختاری نیست: اگر فشار بیرونی ادامه یابد، رژیم همچنان با هزینه‌های امنیتی و بی‌ثباتی اقتصادی ناشی از تهدیدهای متناوب روبه‌رو می‌ماند، اما در کوتاه‌مدت فضای مانور برای مدیریت بحران داخلی بیشتر می‌شود.",
+            "در متن BBC اشاره‌ای به فعال‌سازی یا محورهای مشخص روسیه/چین/کره‌شمالی نشده است؛ بنابراین نمی‌توان ارتباطی خارج از گزارش درباره «حامیان» ادعا کرد."
+        ],
+        "impact": "تعلیق موقت حملات می‌تواند چند هفته فرصت تنفس به رژیم بدهد، اما از آنجا که هدف اعلام‌شده «مذاکره» است، ریسک ادامه یافتن فشار در قالب‌های دیگر باقی می‌ماند.",
+        "tag": "مذاکره",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "BBC",
+        "url": "https://www.seattletimes.com/nation-world/trump-meets-with-cabinet-over-whether-to-intensify-iran-strikes/",
+        "clean_url": "https://www.seattletimes.com/nation-world/trump-meets-with-cabinet-over-whether-to-intensify-iran-strikes",
+        "image": null,
+        "timestamp": 1785089093.0
+    },
+    {
+        "title_fa": "نتانیاهو: جنگ با ایران فقط با پایان رژیم یا جمع‌آوری برنامه هسته‌ای تمام می‌شود",
+        "title_en": "PM Benjamin Netanyahu: Iran war will conclude with end of regime or nuclear program",
+        "summary": [
+            "نتانیاهو اعلام کرده جنگ علیه ایران به نتیجه‌ای دوگانه ختم خواهد شد: یا پایان ساختار رژیم یا توقف برنامه هسته‌ای؛ این یعنی هدف‌گذاری از «فشار محدود» به «نتیجه‌محور» تغییر کرده است.",
+            "این گزاره در قالب تهدید مستقیم به قابلیت بقا/پایداری رژیم مطرح می‌شود و می‌تواند تصمیم‌گیری‌های داخلی و خارجی تهران را به سمت محاسبات پرهزینه‌تر سوق دهد.",
+            "از نظر پیامد راهبردی، چنین چارچوبی احتمال افزایش چرخه تنش را بالا می‌برد (چون طرف مقابل از قبل بر سر سرنوشت رژیم یا برنامه هسته‌ای قفل می‌کند)؛ اما در متن به اقدامات مشخص، زمان‌بندی، یا جزئیات توافق/تحریم اشاره نشده است."
+        ],
+        "impact": "این اظهارنظر، سطح انتظارات و هزینه‌های سیاسی-امنیتی را بالا می‌برد و می‌تواند به تشدید محاسبات تقابلی در هر دو طرف جنگ منجر شود، بدون اینکه هنوز شواهد اجرایی مشخصی ارائه شده باشد.",
+        "tag": "تهدید",
+        "urgency": 6,
+        "sentiment": -0.4,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91ajVjaFdOc0pFQVVzUTFGVmpNUUZ5R0dCcEU3OXJ6U0lkZlRFZFU3ZC1Jbk5sUllHYk5HQmpLQnFxaDJuVEtlZ250NFNaZTlWNTZEM0ZBUGxDQ05WSGpuTVBKOWloNkhZM1E?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91ajVjaFdOc0pFQVVzUTFGVmpNUUZ5R0dCcEU3OXJ6U0lkZlRFZFU3ZC1Jbk5sUllHYk5HQmpLQnFxaDJuVEtlZ250NFNaZTlWNTZEM0ZBUGxDQ05WSGpuTVBKOWloNkhZM1E",
+        "image": null,
+        "timestamp": 1785087524.0
+    },
+    {
+        "title_fa": "ارزیابی تلاش آمریکا و ایران برای تمدید آتش‌بس دو هفته‌ای",
+        "title_en": "US and Iran Weigh Extending Their Ceasefire by Two Weeks",
+        "summary": [
+            "طبق EnergyNow.com، آمریکا و ایران در حال بررسی تمدید آتش‌بس خود به مدت دو هفته دیگر هستند؛ یعنی تمرکز فعلاً بر مدیریت سطح تنش و زمان‌خرید سیاسی است، نه رفع ریشه‌ای اختلاف‌ها.",
+            "از منظر فشار خارجی، صرفِ مذاکره برای تمدید آتش‌بس می‌تواند موقتاً جلوی تشدید فوری هزینه‌ها را بگیرد، اما این تصمیم ساختارِ تحریم‌ها و محدودیت‌های اقتصادی را به‌صورت خودکار تغییر نمی‌دهد و اثرش بر ثبات رژیم هم عمدتاً کوتاه‌مدت خواهد بود.",
+            "در سطح داخلی، خبرِ تمدید آتش‌بس به‌تنهایی شاهدی برای کاهش واقعی نارضایتی یا بهبود حکمرانی نیست؛ بیشتر نشانه ناکامی/نیاز به کنترل ریسک است تا حل بحران‌های اقتصاد و مدیریت."
+        ],
+        "impact": "تمدید احتمالی آتش‌بس دو هفته‌ای بیشتر یک ابزار کنترل تنش و زمان‌خرید سیاسی است تا نشانه تغییر پایدار در ظرفیت یا سیاست‌های فشار اقتصادی و داخلی.",
+        "tag": "دیپلماسی",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "EnergyNow.com",
+        "url": "https://www.reuters.com/world/middle-east/iran-us-trade-air-strikes-after-trump-dismisses-report-hormuz-deal-2026-05-28/",
+        "clean_url": "https://www.reuters.com/world/middle-east/iran-us-trade-air-strikes-after-trump-dismisses-report-hormuz-deal-2026-05-28",
+        "image": null,
+        "timestamp": 1785086525.0
+    },
+    {
         "title_fa": "ایران اعلام می‌کند تا وقتی آمریکا وقفه را حفظ کند، حملات را متوقف می‌کند",
         "title_en": "Iran will halt attacks as long as US maintains pause, Iranian source says after Trump calls off strikes",
         "summary": [
@@ -268,6 +322,24 @@
         "clean_url": "https://www.newsweek.com/why-irans-kheibar-shekan-missile-is-drawing-attention-12245644",
         "image": "http://www.bing.com/th?id=ONUT.N85kqysRwCJWy5s_tU6VdQ&pid=News",
         "timestamp": 1785055140.0
+    },
+    {
+        "title_fa": "تغییر فهرست تلفات جنگی ایران از سوی پنتاگون؛ حذف ۴ نیروی کشته‌شده در جنگ‌های دوباره",
+        "title_en": "Pentagon's official Iran war death toll no longer lists 4 troops killed during renewed fighting",
+        "summary": [
+            "بر اساس گزارش WPLG Local 10، پنتاگون دیگر «۴ نیروی» کشته‌شده را در فهرست رسمی تلفات جنگی مربوط به ایران ارائه نمی‌کند، چون این رقم دیگر در فهرست جدیدِ تلفاتِ جنگ‌های ازسرگرفته دیده نمی‌شود.",
+            "این تغییر در فهرست رسمی تلفات، نشانه‌ای از بازنگری/تغییر روایت اداری درباره حادثه‌های اخیر است، بدون اینکه متن گزارش جزئیات علت حذف عدد ۴ را توضیح دهد.",
+            "از آنجا که علت دقیق این حذف در خبر ذکر نشده، پیام مستقیم سیاسی-عملی آن بیشتر به مدیریت اطلاعات جنگ و حساب‌و‌کتاب رسمی مربوط است تا یک تغییر روشن در واقعیت میدانی."
+        ],
+        "impact": "تغییر در فهرست تلفات رسمی، می‌تواند به بی‌اعتمادی عمومی نسبت به اطلاعات جنگی منجر شود و پیام سیاسی سخت‌تری برای مدیریت افکار عمومی داشته باشد.",
+        "tag": "اطلاعات",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "WPLG Local 10",
+        "url": "https://www.local10.com/news/politics/2026/07/26/pentagons-official-iran-war-death-toll-no-longer-lists-4-troops-killed-during-renewed-fighting/",
+        "clean_url": "https://www.local10.com/news/politics/2026/07/26/pentagons-official-iran-war-death-toll-no-longer-lists-4-troops-killed-during-renewed-fighting",
+        "image": "http://www.bing.com/th?id=ONUT.ibQBUYaSMvPFiIrVUJNmAQ&pid=News",
+        "timestamp": 1785053580.0
     },
     {
         "title_fa": "گسترش حمله به کشتی‌ها؛ افزایش تانکرهای هدف در سایه کشیده شدن درگیری آمریکا-ایران به کل منطقه",
@@ -5326,77 +5398,5 @@
         "clean_url": "https://www.pennlive.com/opinion/2026/07/ben-franklins-250-year-old-wisdom-offers-a-path-forward-on-iran-and-nuclear-weapons-opinion.html",
         "image": null,
         "timestamp": 1783368000.0
-    },
-    {
-        "title_fa": "تقویت مرز اسرائیل با اردن و تلاش ایران برای «مسیر جدید» فعالیت تروریستی",
-        "title_en": "Israel fortifies border with Jordan as Iran seeks new terror path",
-        "summary": [
-            "بر اساس گزارش فاکس‌نیوز، اسرائیل در امتداد مرز با اردن اقدام به تقویت حفاظتی کرده است؛ پیام روشن آن، آماده‌باش امنیتی در برابر تهدیدهای ادعایی است.",
-            "ادعا می‌شود که ایران به دنبال یافتن «مسیر جدید» برای فعالیت تروریستی است؛ این یعنی تمرکز تهران از شکل‌گیری مسیرهای سنتی به کانال‌های تازه تغییر کرده است.",
-            "این رخداد بیشتر در چارچوب فشار امنیتی و پیشگیری عمل می‌کند و سند مشخصی از تحریم، اعتراض داخلی، یا فروپاشی اقتصادی در متن وجود ندارد."
-        ],
-        "impact": "تقویت مرز اسرائیل با اردن احتمالاً سطح ریسک عملیات‌های فرامرزی را بالا نگه می‌دارد و هرگونه تغییر مسیر از سوی ایران می‌تواند به افزایش برخوردهای امنیتی و تشدید تنش منطقه‌ای منجر شود.",
-        "tag": "امنیت",
-        "urgency": 7,
-        "sentiment": -0.4,
-        "source": "Fox News",
-        "url": "https://www.msn.com/en-us/news/world/israel-fortifies-border-with-jordan-as-iran-seeks-new-terror-path/ar-AA27lEzC",
-        "clean_url": "https://www.msn.com/en-us/news/world/israel-fortifies-border-with-jordan-as-iran-seeks-new-terror-path/ar-AA27lEzC",
-        "image": null,
-        "timestamp": 1783367279.0
-    },
-    {
-        "title_fa": "آیا جنگ مشترک آمریکا-اسرائیل علیه ایران بقای جمهوری اسلامی را تضمین کرد؟",
-        "title_en": "Did the US-Israeli war against Iran save the Islamic Republic?",
-        "summary": [
-            "این متن منبع، در وضعیت قابل‌خواندن کامل نیست و تنها به درگاه اشتراک/ورود برای «خبر سازنده» اشاره می‌کند؛ بنابراین هیچ ادعای قابل راستی‌آزمایی درباره نتیجه جنگ، تحلیل‌ها یا داده‌های مشخص ارائه نشده است.",
-            "با توجه به نبودِ محتوای خبری/تحلیلی، نه می‌توان درباره اثر جنگ بر ثبات داخلی رژیم سخن گفت و نه امکان ارزیابی فشار خارجی، اقتصاد، یا واکنش جامعه فراهم است.",
-            "در نتیجه، این گزارش فعلاً قابل تحلیل استراتژیکِ مبتنی بر شواهد نیست و باید متن کامل مقاله یا پاراگراف‌های کلیدی برای ارزیابی ارائه شود."
-        ],
-        "impact": "در حال حاضر به‌دلیل عدم دسترسی به محتوای واقعی مقاله، نمی‌توان درباره اثر جنگ آمریکا-اسرائیل بر بقای جمهوری اسلامی نتیجه‌گیری مستند ارائه کرد.",
-        "tag": "تحلیل",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The Christian Science Monitor",
-        "url": "https://www.csmonitor.com/World/Middle-East/2026/0706/khamenei-funeral-iran-war-regime-strength",
-        "clean_url": "https://www.csmonitor.com/World/Middle-East/2026/0706/khamenei-funeral-iran-war-regime-strength",
-        "image": null,
-        "timestamp": 1783366822.0
-    },
-    {
-        "title_fa": "بازگشت قیمت نفت به سطوح پیش از منازعه با ایران",
-        "title_en": "Oil prices head back to pre-Iran conflict levels: report",
-        "summary": [
-            "گزارش KDBC می‌گوید قیمت نفت پس از دوره تنش‌های مرتبط با ایران، دوباره به «سطوح پیش از منازعه» نزدیک شده است.",
-            "این یعنی ریسک ژئوپلیتیکیِ سوختِ نوسان قیمت در بازار، دست‌کم در داده‌های گزارش‌شده، کاهش یافته و بازار انتظار شوک‌های جدید کوتاه‌مدت را کمتر کرده است.",
-            "در نتیجه، اهرم اقتصادیِ تنش برای افزایش درآمدها/هزینه‌های مرتبط با ایران، به‌صورت مستقیم می‌تواند تضعیف شود؛ چون قیمت‌ها به حالت کم‌تنش‌تر برمی‌گردند."
-        ],
-        "impact": "کاهش قیمت نفت به سطوح پیش از منازعه می‌تواند فشار درآمدی بر رژیم را کاهش دهد و همزمان اثر شوک ریسک ژئوپلیتیک را در بازار کم کند.",
-        "tag": "نفت",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "KDBC",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPa1RvMy1HeDk5Vi1UaGd2dDk3c29NbTh5SlUtMHp2d2luSThiV3JvS3hJeXZGZnNKNlR4RDhBeld0clNLZHdDX280VUJzbWstV3FxOEtWVkpndk01LUd4cDZzamdJUWtZOG9uUWZFVzdvT0N1alBfTjBBMlZmUnVaMkEwRmNFUVBsVVY3QXljMzNLdHF5aTR5NWlIdlZkYzRZSHV4WkhZV2h5WUlkQTNNUHlmN2xMUmhSWEIyLWtONkFURWoxenFtZjMzUll5cTFkSk43UU01N3FEX3BnVjRzaFlIT1gzdw?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPa1RvMy1HeDk5Vi1UaGd2dDk3c29NbTh5SlUtMHp2d2luSThiV3JvS3hJeXZGZnNKNlR4RDhBeld0clNLZHdDX280VUJzbWstV3FxOEtWVkpndk01LUd4cDZzamdJUWtZOG9uUWZFVzdvT0N1alBfTjBBMlZmUnVaMkEwRmNFUVBsVVY3QXljMzNLdHF5aTR5NWlIdlZkYzRZSHV4WkhZV2h5WUlkQTNNUHlmN2xMUmhSWEIyLWtONkFURWoxenFtZjMzUll5cTFkSk43UU01N3FEX3BnVjRzaFlIT1gzdw",
-        "image": null,
-        "timestamp": 1783365113.0
-    },
-    {
-        "title_fa": "چه شرکت‌هایی بعد از پایان جنگ ایران کارِ پاکسازی را بر عهده می‌گیرند؟ (مگوایر)",
-        "title_en": "Which Firms Will Clean Up After the Iran War is Finally Over?: Maguire",
-        "summary": [
-            "این گزارش در حد تیتر و عنوان به موضوع «پایان جنگ ایران» و بحث درباره اینکه چه شرکت‌هایی پس از آن وارد فاز «پاکسازی» می‌شوند می‌پردازد، اما هیچ نام شرکت، کشور، قرارداد یا جزئیات اجرایی ارائه نمی‌کند.",
-            "«مگوایر» به‌عنوان منبع/مطرح‌کننده آمده، ولی متن منتشرشده به انتشار یافته‌های مشخص، فهرست بازیگران صنعتی یا معیارهای انتخاب پیمانکار اشاره‌ای ندارد.",
-            "از آنجا که محتوای قابل استناد در متن فعلی وجود ندارد، نمی‌توان درباره آثار اقتصادی، تحریم‌ها یا نقش بازیگران خارجی و داخلی نتیجه‌گیری واقعی کرد؛ تنها برداشت ممکن همان طرح کلی یک بحث پساجنگ است."
-        ],
-        "impact": "در وضعیت فعلی، این منبع بیشتر یک اشاره کلی به بازار پساجنگ است و برای ارزیابی پیامدهای واقعی بر اقتصاد و ثبات سیاسی/امنیتی اطلاعات کافی نمی‌دهد.",
-        "tag": "پساجنگ",
-        "urgency": 4,
-        "sentiment": 0.0,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZktZaE05UVpOVGdLSlRYZDJMTkVCZDJBZ0ZuNnpHdEdEUFp6TGEwUTZpQVI4U3RvTmNuUnBZYjBNY2d1R01nbGUtMk8yS0c1YXlWZzV2YTRsQ1NiTlZlMUdCWHlibjJZNGlRRmFyU1B5bXdPei1CakhyczN6NG84SkF5S1lSOWxISzZuVVBUMmJsSUUwbFBhbmhEZC1OaGZT?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZktZaE05UVpOVGdLSlRYZDJMTkVCZDJBZ0ZuNnpHdEdEUFp6TGEwUTZpQVI4U3RvTmNuUnBZYjBNY2d1R01nbGUtMk8yS0c1YXlWZzV2YTRsQ1NiTlZlMUdCWHlibjJZNGlRRmFyU1B5bXdPei1CakhyczN6NG84SkF5S1lSOWxISzZuVVBUMmJsSUUwbFBhbmhEZC1OaGZT",
-        "image": null,
-        "timestamp": 1783363358.0
     }
 ]

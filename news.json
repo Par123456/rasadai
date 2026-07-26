@@ -54,6 +54,24 @@
         "timestamp": 1785078892.0
     },
     {
+        "title_fa": "پازِ دوم حملات؛ واشنگتن و تهران هم‌زمان توقف می‌دهند",
+        "title_en": "US pauses attacks on Iran for a second straight day and Tehran does too",
+        "summary": [
+            "طبق گزارش AP، آمریکا برای دومین روز پیاپی حملات علیه ایران را متوقف کرده و تهران نیز به‌طور هم‌زمان حملات خود را متوقف کرده است.",
+            "این توقف، نشانه‌ای از کاهش تنش عملیاتی و احتمالِ مدیریتِ مرحله‌ای بحران در کوتاه‌مدت است، اما هیچ تضمینی برای پایان درگیری یا حل ریشه‌ای اختلاف‌ها ارائه نمی‌کند.",
+            "از زاویه فشار خارجی، چنین وقفه‌هایی معمولاً به رژیم زمان می‌دهد برای بازتنظیم توان، پدافند و روایت داخلی؛ در عین حال، برای مردم و اقتصاد پیامد مستقیم و فوری اعلام نشده است چون خبر بر «ادامه/توقف عملیات» متمرکز است."
+        ],
+        "impact": "توقف هم‌زمان عملیات‌ها، ریسک تشدید فوری را کاهش می‌دهد ولی ماهیت ساختاری تهدیدها و فشارها بدون اعلام جزئیات جدید روشن نشده است.",
+        "tag": "تنش‌زدایی",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd1ZkcWRJbVdJX0lWSFo1TGFnSDdhUkFQbHZ1ZGlHVUp0b1BwbEZ0SHVPNGY2NS12NmQ3c3dpbjNVVG5qXzJvUDh6NGVSQnFkS2hEQ1BNbi1jUV9nN1lhUHF5MVlrRVpHdURweU9hTnZPTUYxSFVYaklYeWhlTURTQWJteG5acjYybFplamI2XzlJSW5RbktF?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd1ZkcWRJbVdJX0lWSFo1TGFnSDdhUkFQbHZ1ZGlHVUp0b1BwbEZ0SHVPNGY2NS12NmQ3c3dpbjNVVG5qXzJvUDh6NGVSQnFkS2hEQ1BNbi1jUV9nN1lhUHF5MVlrRVpHdURweU9hTnZPTUYxSFVYaklYeWhlTURTQWJteG5acjYybFplamI2XzlJSW5RbktF",
+        "image": null,
+        "timestamp": 1785078747.0
+    },
+    {
         "title_fa": "گفتگو در ABC: نماینده GOP می‌گوید برای ترامپ در ایران «گزینه‌های زیاد نیست»؛ فشار ادامه می‌یابد اما درباره جنگ و «راه‌رفتن» اختلاف است",
         "title_en": "GOP Rep. Turner: 'Not a lot of options' for Trump in Iran - ABC News",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://www.bbc.com/news/articles/c07yy3j3nljo",
         "image": "http://www.bing.com/th?id=ONUT.ZwOAihjZmn6yqIDbxTNKOA&pid=News",
         "timestamp": 1783360080.0
-    },
-    {
-        "title_fa": "شایعه مرگ خامنه‌ای و تشدید آشوب در منطقه",
-        "title_en": "Rumors of Khamenei's Death & The Chaos Splitting the Middle East",
-        "summary": [
-            "منبع خبری فقط به «شایعه مرگ» خامنه‌ای اشاره می‌کند و هیچ جزئیات قابل‌تأیید (زمان، منبع رسمی، وضعیت جانشینی) ارائه نمی‌دهد؛ بنابراین فعلاً با یک خبر بی‌پشتوانه طرفیم.",
-            "عنوان گزارش از «هرج‌ومرج» و «شکاف در خاورمیانه» سخن می‌گوید، اما در متن ارسالی هیچ حادثه مشخص، کشور/گروه درگیر، یا عملیات میدانی معین ذکر نشده است.",
-            "با توجه به خلأ اطلاعات در متن، نمی‌توان ادعا کرد که این شایعه مستقیماً به تغییرات سیاسی یا امنیتی مشخص منجر شده؛ تنها می‌شود گفت که چنین شایعات می‌تواند باعث بی‌ثباتی روانی و محاسبات غلط بازیگران منطقه‌ای شود."
-        ],
-        "impact": "چون خبر مرگ خامنه‌ای صرفاً شایعه است، اثر فوری آن بیشتر به شکل عدم‌قطعیت و تشدید بی‌ثباتی ادراکی در میان بازیگران منطقه‌ای دیده می‌شود، نه یک تغییر رسمی قابل اتکا.",
-        "tag": "شایعه",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "TV7 Israel News",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNbHdrRFhpeG9sN0ZJcDRHSUxrYV9zQ0ZCOGx1dTRQbTVmcFFfR2E3cjlWcGM4LS05aGxrQ0JyU1V5eXBxM09jOWJkcHhEN0dFZWVkRUc0dVZqRXUySi0tUFljMUxwLWRoZC1SNmNvaWFuZnhXSVF3?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNbHdrRFhpeG9sN0ZJcDRHSUxrYV9zQ0ZCOGx1dTRQbTVmcFFfR2E3cjlWcGM4LS05aGxrQ0JyU1V5eXBxM09jOWJkcHhEN0dFZWVkRUc0dVZqRXUySi0tUFljMUxwLWRoZC1SNmNvaWFuZnhXSVF3",
-        "image": null,
-        "timestamp": 1783357417.0
     }
 ]

@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "ایران اعلام می‌کند تا وقتی آمریکا وقفه را حفظ کند، حملات را متوقف می‌کند",
+        "title_en": "Iran will halt attacks as long as US maintains pause, Iranian source says after Trump calls off strikes",
+        "summary": [
+            "یک منبع ایرانی مدعی شده ایران «تا زمانی که آمریکا وقفه را حفظ کند» به حملات خود ادامه نخواهد داد؛ این موضع پس از لغو حملات توسط ترامپ مطرح شده است.",
+            "این اعلامیه بیشتر یک معامله‌ی رفتاری برای کنترل شدت درگیری است تا تغییر راهبرد؛ چون مشروط به «حفظ وقفه آمریکا» است و با هر تغییر در سیاست واشینگتن می‌تواند سریعاً معکوس شود.",
+            "در غیاب جزئیات اجرایی در گزارش، عمق این پیام در درجه اول سیاسی-امنیتی است و فعلاً نه به لغو ساختاری فشارها اشاره دارد و نه به نشانه‌های قابل راستی‌آزمایی از اصلاحات داخلی رژیم."
+        ],
+        "impact": "افزایش یا کاهش تنش در کوتاه‌مدت به تصمیم آمریکا درباره ادامه یا پایان وقفه وابسته می‌شود و خطر برگشت چرخه حملات با هر حرکت بعدی بالا می‌رود.",
+        "tag": "تنش",
+        "urgency": 7,
+        "sentiment": -0.4,
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT2hvLTRwU3J1WVZCTlA0WFVNRmhXdDVkTWhwQkdDTFZzbEVpYmRBUUppcjJudFY2M3JpQ3lzT0I0SkM4VFlmSk8xb0RuX192WjQ2dE9nbjJkUFFMTHFyZDh2c1ktdDJpSmtmdXJPYW5wNXRuM1hsQ0RqYkE4X3d1aDZ1SkpUM3ltc0h2NFNZbmpvZFhYa0ZJTlEyR0JkdDZvYWRUYXBRZE41YkVEdjV4VEZVb0hSSUxOQlFwT1U4X1FfNjJrbmhaSVkyT0w0Zw?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT2hvLTRwU3J1WVZCTlA0WFVNRmhXdDVkTWhwQkdDTFZzbEVpYmRBUUppcjJudFY2M3JpQ3lzT0I0SkM4VFlmSk8xb0RuX192WjQ2dE9nbjJkUFFMTHFyZDh2c1ktdDJpSmtmdXJPYW5wNXRuM1hsQ0RqYkE4X3d1aDZ1SkpUM3ltc0h2NFNZbmpvZFhYa0ZJTlEyR0JkdDZvYWRUYXBRZE41YkVEdjV4VEZVb0hSSUxOQlFwT1U4X1FfNjJrbmhaSVkyT0w0Zw",
+        "image": null,
+        "timestamp": 1785086180.0
+    },
+    {
         "title_fa": "دیدار سیلوان آدامز و رضا پهلوی؛ بحث درباره آینده روابط اسرائیل-ایران",
         "title_en": "Sylvan Adams, Reza Pahlavi discuss future Israel-Iran ties",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZktZaE05UVpOVGdLSlRYZDJMTkVCZDJBZ0ZuNnpHdEdEUFp6TGEwUTZpQVI4U3RvTmNuUnBZYjBNY2d1R01nbGUtMk8yS0c1YXlWZzV2YTRsQ1NiTlZlMUdCWHlibjJZNGlRRmFyU1B5bXdPei1CakhyczN6NG84SkF5S1lSOWxISzZuVVBUMmJsSUUwbFBhbmhEZC1OaGZT",
         "image": null,
         "timestamp": 1783363358.0
-    },
-    {
-        "title_fa": "نمایش سیاسی تشییع جنازه؛ تلفیق «مقاومت» و «انتقام» با شکاف اجتماعی و فشار اقتصادی",
-        "title_en": "Resistance and revenge",
-        "summary": [
-            "تشییع سه‌روزه در تهران برای علی خامنه‌ای و چهار عضو خانواده‌اش پس از پایان عزاداری عمومی، با یک راهپیمایی ۱۰ کیلومتری و متوقف‌شدن‌های مکرر توسط جمعیت عظیم، به «سازوکار نمایشی» بدل شد تا افراد جدیدِ قدرت به جهان پیام سیاسی بدهند. مراسم‌ها کاملاً چیدمان‌شده و آکنده از پیام‌رسانی «مقاومت و انتقام» توصیف شده است.",
-            "اما حضور گسترده با «غیبت قابل توجه» همراه بود؛ بخشی از مردم به‌دلیل تورم حدود ۸۰٪، فشار اقتصادی ناشی از دو جنگ در کمتر از یک سال و فرسایش روانی از اعتراضات ژانویه، از شرکت امتناع کردند. همچنین گفته شده بود سرکوب امنیتی پس از خامنه‌ای—به‌عنوان فرمانده کل—به کشته‌شدن هزاران نفر انجامیده است.",
-            "در مراسم تهران، شماری با شعارهای کلیدی جمهوری اسلامی («مرگ بر آمریکا» و «مرگ بر اسرائیل») دیده شدند و رئیس‌جمهور مسعود پزشکیان «ادعای بی‌اعتباری» اشک‌های عزاداران توسط دونالد ترامپ را رد کرد. تحلیل‌گر دانشگاه تهران هدف مراسم را تثبیت تصویری «فراتر از رهبری ملی» و فرقه‌ای-سیاسی معرفی کرد، در حالی که منتقدانی مثل کریم سجادپور آن را تداوم انقلاب در جهانی رو به تغییر می‌دانند."
-        ],
-        "impact": "این مراسم بیش از آن‌که فقط عزاداری باشد، تلاش برای تثبیت مشروعیت سیاسی است؛ اما شکاف اقتصادی و کاهش مشارکت عمومی ریسک ناپایداری اجتماعی و تضعیف انسجام در میان بدنه جامعه را بالا می‌برد.",
-        "tag": "ایران",
-        "urgency": 7,
-        "sentiment": -0.4,
-        "source": "BBC",
-        "url": "https://www.bbc.com/news/articles/c07yy3j3nljo",
-        "clean_url": "https://www.bbc.com/news/articles/c07yy3j3nljo",
-        "image": "http://www.bing.com/th?id=ONUT.ZwOAihjZmn6yqIDbxTNKOA&pid=News",
-        "timestamp": 1783360080.0
     }
 ]

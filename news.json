@@ -18,6 +18,24 @@
         "timestamp": 1785100292.0
     },
     {
+        "title_fa": "توقف دوباره حملات آمریکا و ایران؛ دومین روزِ وقفه",
+        "title_en": "US and Iran hit pause on strikes for second day",
+        "summary": [
+            "طبق گزارش الجزیره، آمریکا و ایران برای دومین روز متوالی حملات را متوقف کرده‌اند؛ یعنی سطح درگیری نظامی فعلی به‌طور موقت کاهش یافته است.",
+            "این وقفه بیشتر یک مکانیسم مدیریت ریسک است تا حل مسئله؛ چون هنوز خبری از چارچوب دائمی، توافق سیاسی مشخص یا لغو دستورکارهای تنش‌زا منتشر نشده است.",
+            "با توجه به اینکه خبر صرفاً «پاز» دوم روزه است، اثر فوری آن تثبیت کوتاه‌مدت وضعیت امنیتی است، اما احتمال بازگشت حملات در صورت شکست مذاکرات/هماهنگی همچنان بالاست."
+        ],
+        "impact": "وقفه دوم روزه احتمال تشدید فوری را کاهش می‌دهد، اما چون دائمی یا ساختاری اعلام نشده، در عمل بیشتر حالت مدیریت بحران دارد تا تغییر راهبرد.",
+        "tag": "تحرکات_نظامی",
+        "urgency": 5,
+        "sentiment": 0.1,
+        "source": "Al Jazeera",
+        "url": "https://www.msn.com/en-us/news/world/us-and-iran-hit-pause-on-strikes-for-second-day/ar-AA28J1uQ",
+        "clean_url": "https://www.msn.com/en-us/news/world/us-and-iran-hit-pause-on-strikes-for-second-day/ar-AA28J1uQ",
+        "image": null,
+        "timestamp": 1785099556.0
+    },
+    {
         "title_fa": "اظهار نماینده جمهوری‌خواه: ادعای «وظیفه غفلت‌کارانه» در صورت داشتن سلاح هسته‌ای ایران توسط ترامپ",
         "title_en": "GOP rep: Trump ‘would be derelict in his duty’ if Iran had nuclear weapon, despite war’s unpopularity",
         "summary": [
@@ -250,6 +268,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSlQ4LW5SNnhoNE03Wkh0eXg5RWdkREhtX3hrT0ZJd0xzb0xCOUJ3ay1UQjFDN2p6Q3VncFRvQkdkM3Z4UVZkWExPQUxCMW9DbENkSk1DR2M3X3VlSjRYTVZhM1pVaHJhSzdaa252MzRlQnhOMDdmdkVUc1VRdFVRemljby11Z2NiamNSU2t6QzVBUdIBlwFBVV95cUxOWmZJN1kzc0ZnUW8yMDJCcFpyOE83Sm5QQjJQLVd6aF9hdlUwalN3YW9tcC11b0J4dE9KRnRhSHc0azFXVFE5cnJXWk54NmJZQzZrYng5bTBNVm1HOFpVb3FwaXB6Q1ZrLXpDZXJGMVF4a0x6ekFEbHJ3WjV5b0RPdDhKYVlvTEtsY3diNjJCTkQ2TVQteERn",
         "image": null,
         "timestamp": 1785076221.0
+    },
+    {
+        "title_fa": "شکاف در پیش‌بینی جنگ: والْتز از تعیین پایان‌زمان برای جنگ ایران سرباز زد و تردید عمومی آمریکا بالا گرفت",
+        "title_en": "Majority of Americans think Trump’s Iran war will last months or even years, new poll shows",
+        "summary": [
+            "طبق نظرسنجی CBS، تنها درصد تک‌رقمی از آمریکایی‌ها پایان نزدیک جنگ ایران را باور دارند و «پیش‌بینی‌های ترامپ» در حال فرسایش اعتبار است؛ والْتز هم در NBC از ارائه هرگونه زمان‌بندی برای پایان جنگ خودداری کرد و گفت پایان قبل از ۲۰۲۶ را تضمین نمی‌کند.",
+            "هم‌زمان، ترامپ مذاکره‌های بیشتر را عملاً کنار گذاشته و پس از منحل شدن تمدید ۶۰روزه آتش‌بس، اجازه داده جنگ با «قدرت کامل» از سر گرفته شود؛ این یعنی حتی شکاف داخلی در دولت با تصمیم به تشدید/تداوم در تضاد است.",
+            "حساسیت اقتصادی هم شدت گرفته: گاز در آمریکا دوباره از ۴ دلار در گالن عبور کرده و ناامنی تنگه هرمز با انفجار یک نفتکشِ برخوردکننده با مین، ریسک حمل‌ونقل جهانی را بالا برده و هزینه‌های مصرف‌کننده و نگرانی سیاسیِ جمهوری‌خواهان برای انتخابات میان‌دوره‌ای را بیشتر کرده است."
+        ],
+        "impact": "این ترکیبِ «بی‌اعتمادی عمومی»، «عدم‌تعهد زمان‌بندی از سوی مشاور ارشد» و «از سرگیری جنگ» احتمال طولانی‌شدن درگیری را تقویت می‌کند و هزینه داخلی آن را برای واشنگتن افزایش می‌دهد.",
+        "tag": "تحلیل",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/majority-americans-think-trump-iran-210459931.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/majority-americans-think-trump-iran-210459931.html",
+        "image": "http://www.bing.com/th?id=ONUT.lSw03UeGqe6yG2e2xT_RYw&pid=News",
+        "timestamp": 1785074640.0
     },
     {
         "title_fa": "افزایش حس عدم‌قطعیت درباره جنگ ایران؛ اکثریت آن را سخت‌تر از انتظار می‌دانند",
@@ -5362,41 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/news/world/irgc-fires-missiles-at-ships-in-strait-of-hormuz/ar-AA27lSMs",
         "image": null,
         "timestamp": 1783385460.0
-    },
-    {
-        "title_fa": "اظهار سفیر اسرائیل: توافق اسرائیل-لبنان بر «اُم‌اُو» ایران اولویت دارد",
-        "title_en": "Israeli Ambassador Leiter says Israel, Lebanon agreement supersedes Iran MOU",
-        "summary": [
-            "سفیر اسرائیل، لیتر، اعلام کرد توافق اسرائیل-لبنان نسبت به «MOU» ایران جایگاه بالاتری دارد و عملاً آن را بی‌اثر/کم‌اثر می‌کند.",
-            "این موضع، از منظر فشار خارجی، به‌عنوان عقب‌نشینی از محورسازی ایران و کاهش اهرم دیپلماتیک تهران در سناریوی لبنان قابل خواندن است.",
-            "در نبود جزئیات بیشتر در گزارش، اثر فوری داخلی در ایران مستقیماً قابل اثبات نیست، اما پیام سیاسی آن تضعیف روایت ایران درباره کنترل/اثرگذاری توافق‌های منطقه‌ای است."
-        ],
-        "impact": "این اظهارات نشان می‌دهد اسرائیل در حال بازتعریف اولویت‌های حقوقی-سیاسی در لبنان است و امکان مانور دیپلماتیک ایران را محدود می‌کند.",
-        "tag": "دیپلماسی",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "Jewish Insider",
-        "url": "https://jewishinsider.com/2026/07/yechiel-leiter-israel-lebanon-supersedes-iran-mou-trump/",
-        "clean_url": "https://jewishinsider.com/2026/07/yechiel-leiter-israel-lebanon-supersedes-iran-mou-trump",
-        "image": null,
-        "timestamp": 1783375947.0
-    },
-    {
-        "title_fa": "اعتبار دادن دادستان‌های آمریکا به نقش یک تاجر طلا در پرونده تحریم‌های ایران پیش از صدور حکم",
-        "title_en": "US prosecutors credit gold trader in Iran sanctions case with key help ahead of sentencing",
-        "summary": [
-            "دادستان‌های آمریکا اعلام کرده‌اند که یک تاجر طلا در پرونده مرتبط با تحریم‌های ایران، با ارائه «کمک کلیدی» به تحقیقات، روند پرونده را پیش برده است و این موضوع در آستانه صدور حکم برجسته شده است.",
-            "این پرونده در چارچوب اجرای تحریم‌ها دنبال می‌شود و کمک این فرد به‌عنوان عامل مؤثر برای شکل‌گیری ادعاها/جمع‌بندی قضایی پیش از جلسه صدور حکم مطرح شده است.",
-            "دلیل اهمیت سیاسی-عملی این خبر این است که نشان می‌دهد سازوکارهای مالی و تجاری وابسته به طلا/بازارهای کالایی در مسیر تحریم‌ها، هم هدف فشار حقوقی آمریکا قرار دارند و هم می‌توانند به نقاط حساس برای افشای زنجیره‌های همکاری تبدیل شوند."
-        ],
-        "impact": "این اقدام قضایی، فشار حقوقی-تحریمی آمریکا را به سطح پرونده‌های فردی و زنجیره‌های مبادلاتی می‌کشد و می‌تواند هزینه ریسک برای فعالان مرتبط با تحریم را بالا ببرد.",
-        "tag": "تحریم",
-        "urgency": 4,
-        "sentiment": 0.1,
-        "source": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX09NRjNfVzY1UHZzZW1uZW9KQnRyN0VHVUtEVXFvMDhfTVYyV1BiU1h2WmMtS29vQXkyNnRZZ2VaSEstVEVLZmhMSEE3ZVJsOUplcF9ISHFVQU4xdzdNZ19IWlJfMlJnRXBCM2lPQzh3TDNYdWJiQXlTOXhrd2ZacVdlMVJGbjZzZ09fWTM3Zw?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX09NRjNfVzY1UHZzZW1uZW9KQnRyN0VHVUtEVXFvMDhfTVYyV1BiU1h2WmMtS29vQXkyNnRZZ2VaSEstVEVLZmhMSEE3ZVJsOUplcF9ISHFVQU4xdzdNZ19IWlJfMlJnRXBCM2lPQzh3TDNYdWJiQXlTOXhrd2ZacVdlMVJGbjZzZ09fWTM3Zw",
-        "image": null,
-        "timestamp": 1783374960.0
     }
 ]

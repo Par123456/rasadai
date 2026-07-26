@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "گسترش حمله به کشتی‌ها؛ افزایش تانکرهای هدف در سایه کشیده شدن درگیری آمریکا-ایران به کل منطقه",
+        "title_en": "More Tankers Come Under Attack as US-Iran Conflict Spreads in the Region",
+        "summary": [
+            "طبق گزارش EnergyNow، با گسترش تنش آمریکا-ایران، حملات جدید متوجه تانکرها شده و تعداد کشتی‌های در معرض هدف افزایش یافته است.",
+            "این روند نشان می‌دهد درگیری از سطح درگیری‌های محدود به یک الگوی امنیتی گسترده‌تر در مسیرهای دریایی تبدیل شده و ریسک عملیاتی برای تجارت انرژی بالا رفته است.",
+            "در نبود جزئیات بیشتر درباره طرف‌های درگیر، نوع حمله و کشور/بندرهای متاثر، جمع‌بندی اصلی این است که بی‌ثباتی مستقیم به زنجیره تامین سوخت و هزینه‌های بیمه و حمل منتقل می‌شود."
+        ],
+        "impact": "افزایش حملات به تانکرها، نااطمینانی و هزینه حمل‌ونقل انرژی را در منطقه بالا می‌برد و فشار غیرمستقیم اقتصادی بر هر طرف وابسته به صادرات/واردات انرژی ایجاد می‌کند.",
+        "tag": "امنیت_دریایی",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "EnergyNow",
+        "url": "https://www.ndtv.com/world-news/iran-us-war-news-live-updates-houthis-attack-saudi-tankers-red-sea-us-hits-iran-strait-of-hormuz-11808915",
+        "clean_url": "https://www.ndtv.com/world-news/iran-us-war-news-live-updates-houthis-attack-saudi-tankers-red-sea-us-hits-iran-strait-of-hormuz-11808915",
+        "image": null,
+        "timestamp": 1785052852.0
+    },
+    {
+        "title_fa": "به‌روزرسانی زنده: گزارش‌های لحظه‌ای درباره اسرائیل، ایران و تحولات خاورمیانه",
+        "title_en": "Live Updates: Latest from Israel, Iran, and Middle East",
+        "summary": [
+            "منبع اعلامی «The Jerusalem Post» با عنوان «Live Updates: Latest from Israel, Iran, and Middle East» صرفاً قالب خبر زنده است و در متن ارسالی هیچ رویداد مشخص (مذاکره، حمله، تحریم، اظهارنظر مسئولان، یا داده اقتصادی) ذکر نشده است.",
+            "با توجه به نبود جزئیات در محتوای ارائه‌شده، امکان تحلیل دقیق از فشار خارجی، نقش بازیگران خارجی، یا روندهای داخلی (اعتراضات/اقتصاد) وجود ندارد و هرگونه نتیجه‌گیری فراتر از همین عنوان، غیرقابل اتکا و غیرقابل راستی‌آزمایی است.",
+            "این صفحه/تیتر به‌تنهایی نشان‌دهنده احتمال پوشش مداوم خبرهاست، اما چون اطلاعات قابل استناد در درخواست شما نیامده، نمی‌توان برای سناریوسازی راهبردی به آن اتکا کرد."
+        ],
+        "impact": "در وضعیت فعلی، چون هیچ رویداد قابل‌مشاهده‌ای در متن ارائه‌شده نیست، اثر راهبردی قابل ارزیابی نیست.",
+        "tag": "بی‌جزئیات",
+        "urgency": 1,
+        "sentiment": 0.0,
+        "source": "The Jerusalem Post",
+        "url": "https://www.msn.com/en-in/news/other/us-israel-iran-war-latest-live-news-trump-says-netanyahu-to-visit-us-next-week-as-american-strikes-on-iran-continue/ar-AA28ENE0",
+        "clean_url": "https://www.msn.com/en-in/news/other/us-israel-iran-war-latest-live-news-trump-says-netanyahu-to-visit-us-next-week-as-american-strikes-on-iran-continue/ar-AA28ENE0",
+        "image": null,
+        "timestamp": 1785052805.0
+    },
+    {
         "title_fa": "گسترش فهرست اهداف احتمالی آمریکا در ایران فراتر از «پیککس ماونتین»؛ گزارش وال‌استریت ژورنال",
         "title_en": "Potential US targets in Iran extend beyond Pickaxe Mountain - WSJ",
         "summary": [
@@ -5362,41 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVVltWXM5b2FPWm9VUnBpLU95OWVlT2VGZzNWYWF1aVAxX01xQjVLblR6NkRIcVB1SE9yQkgxcFJTY0loMjNRTlo1bjJnTmd2VXVhd3kxTXY3OGN1UGF0d1ltUWRkaXB2WWhRMGtmcU15ZXYzcVdET1RHWWlNcjNRNlYtbTNxT0JBd0dEZWZKelZuTUF2VmlQZ0hkRzJsbHVzdnZlUS1MTnlnTU1nNzQ0X2JiTGM5Wkc2RVpIcw",
         "image": null,
         "timestamp": 1783317814.0
-    },
-    {
-        "title_fa": "تجمع میلیونی در تهران به مناسبت تشییع/مراسم رهبر عالی ایران علی خامنه‌ای",
-        "title_en": "Iran Live Updates: Hundreds of Thousands Attend Ayatollah’s Funeral Procession",
-        "summary": [
-            "بر اساس گزارش نیویورک‌تایمز، صدها هزار نفر در تهران در مراسم/روند سوگواری علی خامنه‌ای، رهبر عالی، شرکت کردند؛ این رویداد با حضور انبوه در پایتخت برگزار شده است.",
-            "حجم جمعیت و تمرکز تجمع در تهران، نشان‌دهنده تلاش برای نمایش انسجام سیاسی و تداوم مشروعیت در رأس نظام پس از یک شخصیت کلیدی است (بدون ارائه شواهد دقیق درباره میزان خودجوش بودن جمعیت).",
-            "این رخداد به‌طور ضمنی ریسک ناآرامی‌های اجتماعی را در دوره پس از خلأ رهبری برجسته می‌کند، زیرا جامعه در چنین لحظاتی معمولاً تحت فشار کنترل امنیتی و تبلیغات رسمی قرار می‌گیرد."
-        ],
-        "impact": "مراسم با جمعیت بسیار زیاد می‌تواند به‌صورت کوتاه‌مدت برای مهار شکاف‌های سیاسی مفید باشد، اما هم‌زمان فضا را برای افزایش تنش‌ها در دوره گذار آماده‌تر می‌کند.",
-        "tag": "داخلی",
-        "urgency": 5,
-        "sentiment": 0.0,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/live/2026/07/06/world/iran-funeral-khamenei/iran-funeral-khamenei-preparations",
-        "clean_url": "https://www.nytimes.com/live/2026/07/06/world/iran-funeral-khamenei/iran-funeral-khamenei-preparations",
-        "image": "http://www.bing.com/th?id=ONUT.GbTBeGFqxe8RNxfrAbY_zg&pid=News",
-        "timestamp": 1783316700.0
-    },
-    {
-        "title_fa": "چرا ایران حتی پس از لغو تحریم‌ها هم احتمالاً برای تخلیه ذخایر نفتی با مانع روبه‌رو می‌شود (CNBC)",
-        "title_en": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief",
-        "summary": [
-            "CNBC بر این نکته تکیه می‌کند که «لغو تحریم‌ها» به‌تنهایی تضمین نمی‌کند ایران بتواند سریع موجودی نفت خود را بفروشد و به همین دلیل می‌تواند در فروش/تسویه و جابجایی ذخایر کندی ایجاد شود.",
-            "محرک اصلی مانع‌تراشی، شکاف میان امکان حقوقی/روانیِ فروش و واقعیت عملی بازار است: خریداران، بانک‌ها، بیمه و شبکه حمل‌ونقل معمولاً نیازمند زمان برای بازگشایی کانال‌های امن و قابل‌اتکا هستند.",
-            "این وضعیت از منظر پایداری اقتصادی به معنای باقی ماندن فشار بر جریان نقدی و هزینه نگهداری ذخایر است؛ یعنی حتی با کاهش فشار خارجی، مشکلات ساختاری در تبدیل نفتِ روی کاغذ به پولِ قابل استفاده می‌تواند باقی بماند."
-        ],
-        "impact": "اگر فروش نفت با سرعت مورد انتظار همسو نشود، فشار نقدینگی و ریسک تشدید بی‌ثباتی اقتصادی می‌تواند برای حکومت استمرار پیدا کند.",
-        "tag": "تحریم",
-        "urgency": 6,
-        "sentiment": -0.35,
-        "source": "CNBC",
-        "url": "https://www.msn.com/en-us/money/investment/why-iran-may-find-it-difficult-to-clear-its-oil-inventories-even-after-sanctions-relief/ar-AA27ib6w",
-        "clean_url": "https://www.msn.com/en-us/money/investment/why-iran-may-find-it-difficult-to-clear-its-oil-inventories-even-after-sanctions-relief/ar-AA27ib6w",
-        "image": null,
-        "timestamp": 1783314367.0
     }
 ]

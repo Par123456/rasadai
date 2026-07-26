@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "دیدار سیلوان آدامز و رضا پهلوی؛ بحث درباره آینده روابط اسرائیل-ایران",
+        "title_en": "Sylvan Adams, Reza Pahlavi discuss future Israel-Iran ties",
+        "summary": [
+            "سیلوان آدامز و رضا پهلوی درباره چارچوب‌های آینده روابط میان اسرائیل و ایران گفت‌وگو کردند و محور اصلی، جهت‌گیری سیاست خارجی و امکان بازتعریف رابطه دو طرف است.",
+            "این گفت‌وگو به‌طور غیرمستقیم نشان می‌دهد که جریان‌های خارج از ساختار فعلی جمهوری اسلامی در حال پیگیری مسیرهای کاهش تنش و طراحی گزینه‌های جدید برای رابطه تهران-تل‌آویو هستند.",
+            "از منظر تحلیلی، چون جزئیات اجرایی (زمان‌بندی، مکانیزم‌های مذاکره، یا تعهدات مشخص) ارائه نشده، اثر آن در کوتاه‌مدت بیشتر «سیگنال‌سازی سیاسی» است تا تغییر ملموس در رفتار دولت ایران."
+        ],
+        "impact": "اثر فوری این رویداد بیشتر سیاسی و ارتباطی است و به‌تنهایی نشانه تغییر عملی در سیاست رژیم یا سطح تنش محسوب نمی‌شود.",
+        "tag": "دیپلماسی",
+        "urgency": 4,
+        "sentiment": 0.2,
+        "source": "The Jerusalem Post",
+        "url": "https://www.msn.com/en-my/politics/government/sylvan-adams-reza-pahlavi-meet-in-paris-voice-hope-for-renewed-israel-iran-ties/ar-AA28IL4K",
+        "clean_url": "https://www.msn.com/en-my/politics/government/sylvan-adams-reza-pahlavi-meet-in-paris-voice-hope-for-renewed-israel-iran-ties/ar-AA28IL4K",
+        "image": null,
+        "timestamp": 1785080918.0
+    },
+    {
+        "title_fa": "نتانیاهو برای پاسخ «خیلی، خیلی شدید» به هر حمله ایران به اسرائیل تهدید کرد",
+        "title_en": "Netanyahu vows ‘very, very forceful’ response if Iran attacks Israel",
+        "summary": [
+            "بنیامین نتانیاهو اعلام کرد اگر ایران به اسرائیل حمله کند، اسرائیل «خیلی، خیلی شدید» پاسخ خواهد داد؛ این یک پیام بازدارندگی و تهدید مستقیم برای تشدید سطح تنش است.",
+            "این موضع‌گیری، مسیر را برای اقدامات تلافی‌جویانه سریع هموار می‌کند و احتمال خطای محاسباتی در آستانه تقابل‌های احتمالی را بالا می‌برد.",
+            "در سطح سیاسی، این اظهارات فشار می‌آورد که تصمیم‌های امنیتی رژیم ایران و اسرائیل با منطق تقابل سخت‌گیرانه‌تر تنظیم شوند، نه مدیریت تنش؛ خروجی محتمل، افزایش ریسک درگیری منطقه‌ای است."
+        ],
+        "impact": "تهدید علنی نتانیاهو، آستانه بازدارندگی را بالا می‌برد اما همزمان احتمال تشدید فوری در صورت وقوع یک حمله را افزایش می‌دهد.",
+        "tag": "تنش",
+        "urgency": 9,
+        "sentiment": -0.7,
+        "source": "The Hill",
+        "url": "https://thehill.com/policy/international/5990966-netanyahu-warns-iran-mistake/",
+        "clean_url": "https://thehill.com/policy/international/5990966-netanyahu-warns-iran-mistake",
+        "image": null,
+        "timestamp": 1785080820.0
+    },
+    {
+        "title_fa": "نتانیاهو ادعا کرد حملات مشترک آمریکا-اسرائیل «بیش از حد» برنامه هسته‌ای ایران را مختل کرده است",
+        "title_en": "Netanyahu claims US-Israeli strikes crippled Iran’s nuclear program 'quite a bit'",
+        "summary": [
+            "بنیامین نتانیاهو در اظهاراتی ادعا کرد حملات مشترک آمریکا-اسرائیل «بیش از حد» و «تا حد قابل توجهی» برنامه هسته‌ای ایران را زمین‌گیر کرده است؛ ادعای او بر «قطع کارایی» تمرکز دارد نه عملیات سیاسی یا مذاکره.",
+            "این روایتِ خبری از خبرگزاری آناتولی ادعای یک مقام صهیونیستی درباره اثرگذاری مستقیم حملات نظامی را برجسته می‌کند، اما هیچ جزئیات فنی یا شواهد مستقل در متن ارائه نشده است.",
+            "در سطح پیام سیاسی، چنین ادعایی می‌تواند برای تشدید فشار خارجی و توجیه ادامه اقدامات تهاجمی استفاده شود، با این حال از نظر واقع‌گرایی باید تا ارائه اطلاعات قابل راستی‌آزمایی، آن را صرفاً «ادعا» دانست."
+        ],
+        "impact": "اگر ادعای نتانیاهو حتی تا حدی درست باشد، رژیم با فشار مضاعف بر برنامه هسته‌ای و هزینه‌های امنیتی-عملیاتی روبه‌رو می‌شود؛ اما چون متن سند مشخص ارائه نمی‌کند، شدت اثر قابل سنجش قطعی نیست.",
+        "tag": "هسته‌ای",
+        "urgency": 8,
+        "sentiment": -0.2,
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGhXYjZHeDFiLXg4OWpfa2RFek5vNmJldV8wTkNHMjhDajNYQmM0UVpRdWQ4eGVOajU0ek9zX1ZyQnlHOE1YcEhaam8ybmVrcVdvM0k1eFhDRG1VUEprMDBzMTU1ME03RmhTakRxQ1dmOUNDakctdlpUZjRFR2duWXBtVHhubW5XWDJGQjdVUmdoOEZxQVNKN2NjSGY0Y19ZVjF5MmhWbGZ1c2l6ellWZUpKWWphakhLYkhrLWliNWlPUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGhXYjZHeDFiLXg4OWpfa2RFek5vNmJldV8wTkNHMjhDajNYQmM0UVpRdWQ4eGVOajU0ek9zX1ZyQnlHOE1YcEhaam8ybmVrcVdvM0k1eFhDRG1VUEprMDBzMTU1ME03RmhTakRxQ1dmOUNDakctdlpUZjRFR2duWXBtVHhubW5XWDJGQjdVUmdoOEZxQVNKN2NjSGY0Y19ZVjF5MmhWbGZ1c2l6ellWZUpKWWphakhLYkhrLWliNWlPUQ",
+        "image": null,
+        "timestamp": 1785078892.0
+    },
+    {
         "title_fa": "گفتگو در ABC: نماینده GOP می‌گوید برای ترامپ در ایران «گزینه‌های زیاد نیست»؛ فشار ادامه می‌یابد اما درباره جنگ و «راه‌رفتن» اختلاف است",
         "title_en": "GOP Rep. Turner: 'Not a lot of options' for Trump in Iran - ABC News",
         "summary": [
@@ -142,6 +196,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HSEtPb2FZTmkwYXg1ekoxRWFEX3Q1VTlHaTFuemdJMFB1Y0FBMnRxY3BZLUFOdGp4QV80cXNxVmUyNFdiVmNhU3FtOHllWGg0RkxVODc0bVlSa1luckRhTGlYZlM3YnRZZHc",
         "image": null,
         "timestamp": 1785057753.0
+    },
+    {
+        "title_fa": "ایالات متحده حملات علیه ایران را برای دومین روز متوقف کرد؛ عمان وارد میانجی‌گری برای بازگرداندن آتش‌بس شد",
+        "title_en": "Iran, US pause strikes as Oman seeks to broker deal",
+        "summary": [
+            "طبق گزارش Australian Financial Review، آمریکا برای دومین روز پیاپی حملات علیه ایران را متوقف کرده است.",
+            "عمان همزمان تلاش دارد میانجی‌گری کند تا توافق آتش‌بس بین طرف‌های درگیر بازگردانده شود؛ یعنی روند کاهش تنش فعلاً از مسیر دیپلماتیک پیش می‌رود نه عملیات نظامی.",
+            "جزئیات بیشتری درباره منشأ توقف حملات یا محتوای پیشنهادیِ عمان ارائه نشده، اما همین «وقفه دوم‌روزه» نشان می‌دهد فشار خارجی و محاسبات میدانی می‌تواند رفتار جنگی را موقتاً مهار کند."
+        ],
+        "impact": "توقف پیاپی حملات آمریکا، حتی اگر موقت باشد، ریسک تشدید فوری را کاهش می‌دهد اما چون راه‌حل هنوز در قالب میانجی‌گری در جریان است، وضعیت همچنان شکننده و قابل برگشت به تنش نظامی است.",
+        "tag": "آتش‌بس",
+        "urgency": 6,
+        "sentiment": 0.1,
+        "source": "Australian Financial Review",
+        "url": "https://www.afr.com/world/middle-east/iran-us-pause-strikes-as-oman-seeks-to-broker-deal-20260727-p60ipp",
+        "clean_url": "https://www.afr.com/world/middle-east/iran-us-pause-strikes-as-oman-seeks-to-broker-deal-20260727-p60ipp",
+        "image": "http://www.bing.com/th?id=ONUT.ZoX0__hVbpnsBfA0PEqG7g&pid=News",
+        "timestamp": 1785057540.0
     },
     {
         "title_fa": "چرا موشک «خیبرشکن» ایران توجه‌ها را جلب می‌کند",
@@ -5326,77 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNbHdrRFhpeG9sN0ZJcDRHSUxrYV9zQ0ZCOGx1dTRQbTVmcFFfR2E3cjlWcGM4LS05aGxrQ0JyU1V5eXBxM09jOWJkcHhEN0dFZWVkRUc0dVZqRXUySi0tUFljMUxwLWRoZC1SNmNvaWFuZnhXSVF3",
         "image": null,
         "timestamp": 1783357417.0
-    },
-    {
-        "title_fa": "ترامپ: آمریکا «ترجیح» برای توافق هسته‌ای با ایران دارد، اما اقدام نظامی همچنان گزینه است",
-        "title_en": "Trump says US prefers nuclear deal with Iran but warns military action remains an option",
-        "summary": [
-            "ترامپ اعلام کرد واشینگتن توافق هسته‌ای با ایران را ترجیح می‌دهد، اما همزمان هشدار داد اقدام نظامی «همچنان گزینه است»؛ یعنی مسیر فشار-تهدید به موازات مذاکره فعال می‌ماند.",
-            "این پیام عملاً اهرم فشار را تقویت می‌کند: رژیم ایران اگر به سمت توافق نرود، باید ریسک تشدید عملیات نظامی/کنترلی را در معادلات خود لحاظ کند.",
-            "چنین موضعی معمولاً بر محاسبات بازار و سیاست داخلی هم اثر می‌گذارد (افزایش عدم‌قطعیت، فشار بر تصمیم‌گیری در حوزه سیاست خارجی)، ولی در متن خبری جزئیات درباره اقدام مشخص یا زمان‌بندی ارائه نشده است."
-        ],
-        "impact": "ترکیب «ترجیح توافق» با «باقی ماندن گزینه نظامی» احتمالاً اهرم مذاکره را برای واشینگتن بالا می‌برد و ریسک بی‌ثباتی را برای برنامه‌ریزی سیاسی و اقتصادی رژیم افزایش می‌دهد.",
-        "tag": "هسته‌ای",
-        "urgency": 7,
-        "sentiment": -0.35,
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUU5bWxPZGlQXzFKbXg1U2tERVEwY0QtdHcxYWNMbm16dU9QcXk4b0RoRDRUOTdlY3lVcVBTTk83TWg0V1BaWms0ZG1TMXNzX0MybEJkYnFEYkwtMnk0dEY1TENoM1N6dXQ1QjB1dlZFaFVoOHZQNmwwVGF1ZWs5WFBUZ1MxMGpBRGpKS1Q2dlJ3X1FlN3lKdlJtekRfam9BdjFFYno0X3dxM3EtT0dfYkFfVVFTam5NYkgweU82SGJodlpyZ1VlVVV3?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQUU5bWxPZGlQXzFKbXg1U2tERVEwY0QtdHcxYWNMbm16dU9QcXk4b0RoRDRUOTdlY3lVcVBTTk83TWg0V1BaWms0ZG1TMXNzX0MybEJkYnFEYkwtMnk0dEY1TENoM1N6dXQ1QjB1dlZFaFVoOHZQNmwwVGF1ZWs5WFBUZ1MxMGpBRGpKS1Q2dlJ3X1FlN3lKdlJtekRfam9BdjFFYno0X3dxM3EtT0dfYkFfVVFTam5NYkgweU82SGJodlpyZ1VlVVV3",
-        "image": null,
-        "timestamp": 1783356955.0
-    },
-    {
-        "title_fa": "نمایش عزای حکومتی در تهران؛ هم‌زمان با تشدید نبرد لبنان و بن‌بست در تنگه هرمز",
-        "title_en": "'The spectacle Iran wants the world to see': Lyse Doucet in Tehran",
-        "summary": [
-            "در تهران، جمعیت‌های بزرگ در راهپیمایی عزای عمومی برای علی خامنه‌ای به‌همراه پرچم‌های ایرانی و نمادهای «شهادت و انتقام» در میدان انقلاب حضور یافتند؛ گزارش بی‌بی‌سی همچنین محدودیت پخش از سوی رسانه‌های بین‌المللی در ایران را برجسته می‌کند.",
-            "در لبنانِ تحت اشغال اسرائیل، بی‌بی‌سی از دسترسی نادر همراه با یک کاروان کمک‌های بشردوستانه خبر می‌دهد و در عین حال ویدیوهای تأییدشده از «حملات» در محله‌های پرجمعیت جنوب لبنان گزارش می‌شود؛ همچنین گفته می‌شود اسرائیل و حزب‌الله با وجود آتش‌بسِ آغازشده ۱۲ روز پیش، همچنان درگیرند.",
-            "در صحنه منطقه‌ای، بی‌بی‌سی به وضعیت تنگه هرمز اشاره می‌کند: آمریکا عملی برای هدایت کشتی‌ها از این آبراه را تعلیق کرده و هم‌زمان، قدرت‌نمایی‌ها و رقابت‌های ایران و آمریکا در قالب «آزمون اراده» ادامه دارد؛ همچنین روایت‌های متضاد درباره سرنوشت «۸ زن ایرانی از اجرای حکم» مطرح شده است."
-        ],
-        "impact": "این ترکیبِ «نمایش داخلی عزاداری» با ادامه جنگ در لبنان و تشدید بن‌بست تنگه هرمز، ریسک بی‌ثباتی و خطای محاسبه را برای همه بازیگران منطقه‌ای بالا می‌برد.",
-        "tag": "ایران",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "BBC",
-        "url": "https://www.bbc.com/news/videos/c78yyyl2ev4o",
-        "clean_url": "https://www.bbc.com/news/videos/c78yyyl2ev4o",
-        "image": null,
-        "timestamp": 1783355024.0
-    },
-    {
-        "title_fa": "گزارش جدید از تاکتیک هدف‌گرفتن غیرنظامیان و فشار برای پاسخ‌گویی سپاه پاسداران",
-        "title_en": "Iran targeted civilians as tactic of war, new report pushes IRGC accountability - interview",
-        "summary": [
-            "این گزارش/مصاحبه ادعا می‌کند که ایران هدف‌گرفتن غیرنظامیان را به‌عنوان تاکتیک در جنگ به کار گرفته و موضوع را به‌عنوان یک مسأله پاسخ‌گویی مطرح می‌کند.",
-            "تمرکز اصلی «افزایش مسئولیت‌پذیری» سپاه پاسداران است؛ یعنی تلاش برای مستندسازی و فشار حقوقی/سیاسی برای نسبت‌دادن اقدامات به ساختارهای تصمیم‌گیر و اجرایی.",
-            "این چارچوب به‌جای پرداختن به ملاحظات صرفاً نظامی، مسیر سیاسی-عملی را دنبال می‌کند: تبدیل ادعاها درباره رفتار در جنگ به ابزار فشار بین‌المللی و هزینه‌سازی برای رژیم و نهادهای مرتبط."
-        ],
-        "impact": "اگر ادعاها مستند و پیگیری‌پذیر شوند، می‌تواند به افزایش فشار خارجی و محدودسازی فضای عملیاتی سپاه منجر شود و هزینه‌های سیاسی/حقوقی را برای رژیم بالا ببرد.",
-        "tag": "حقوقی",
-        "urgency": 6,
-        "sentiment": -0.7,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjc2Nod1lISElOa0NDQmp0QXMtcTN5N3BweXFBQjlBRm8xNkhEN2ZmOFFFTVBMQXVkNVp2emhPR0lGVW5rRE51bmV6Y1VRc3c5TjFsZmN4bDdZU1FR?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjc2Nod1lISElOa0NDQmp0QXMtcTN5N3BweXFBQjlBRm8xNkhEN2ZmOFFFTVBMQXVkNVp2emhPR0lGVW5rRE51bmV6Y1VRc3c5TjFsZmN4bDdZU1FR",
-        "image": null,
-        "timestamp": 1783353972.0
-    },
-    {
-        "title_fa": "تشییع خامنه‌ای؛ نمایش سرسختی برای تبدیل «بقا پس از جنگ» به اهرم در تنگه هرمز",
-        "title_en": "Khamenei funeral signals Iran's defiance and new regional order",
-        "summary": [
-            "تشییع خامنه‌ای در تهران از دید مقامات و تحلیلگران، پیام مستقیم به آمریکا و اسرائیل بود که «شکست‌پذیری» مورد انتظار آن‌ها رخ نداده و تهران می‌خواهد مسیر نظم منطقه‌ای بعد از جنگ را فعالانه تعیین کند.",
-            "طبق گزارش، تهران اهرم اصلی خود را نه پرونده هسته‌ای، بلکه موقعیت جغرافیایی و کنترل بر تنگه هرمز می‌داند و می‌خواهد با تبدیل دستاوردهای زمان جنگ به مزیت دائمی، هر مذاکره‌ای را به «پذیرش واقعیتِ کنترل ایران» گره بزند.",
-            "در حالی که آتش‌بس ۶۰ روزه برای بازگرداندن دیپلماسی هسته‌ای طراحی شده بود، خلأ زمانی و نبود شروع «نکات نهایی» باعث شده ایران روند را جلو ببرد و حتی صرف درآمدهای حق عبور را در اولویت پایین‌تر از «اعتبار سیاسی/پذیرش نمادین» قرار دهد."
-        ],
-        "impact": "این روایت نشان می‌دهد که تهران با اتکا به اهرم هرمز، می‌کوشد از توافق‌های موقت به عنوان سکوی چانه‌زنی برای تثبیت جایگاه خود در نظم منطقه‌ای استفاده کند.",
-        "tag": "ایران",
-        "urgency": 6,
-        "sentiment": 0.2,
-        "source": "Reuters",
-        "url": "https://www.reuters.com/3fec1b0a85a0/world/middle-east/khamenei-funeral-signals-irans-defiance-new-regional-order-2026-07-06/",
-        "clean_url": "https://www.reuters.com/3fec1b0a85a0/world/middle-east/khamenei-funeral-signals-irans-defiance-new-regional-order-2026-07-06",
-        "image": null,
-        "timestamp": 1783351644.0
     }
 ]

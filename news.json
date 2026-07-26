@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "توقف دوم حملات آمریکا علیه ایران همزمان با ادامه مذاکرات صلح",
+        "title_en": "US pauses attacks on Iran for a second day as peace talks continue",
+        "summary": [
+            "طبق گزارش گاردین، آمریکا برای دومین روز متوالی حملات علیه ایران را متوقف کرده، در حالی که مذاکرات صلح در جریان است؛ این یعنی اهرم فشار نظامی آمریکا به‌طور موقت برای دادن فضا به کانال دیپلماتیک کاهش یافته.",
+            "این مکث می‌تواند نشانه‌ای از جابه‌جایی موقت راهبرد از «فشار از مسیر حمله» به «فشار از مسیر مذاکره» باشد، اما چون محتوای توافق یا خواسته‌های طرفین مشخص نشده، اثر آن بیشتر حالت تاکتیکی دارد تا نتیجه‌دار.",
+            "نبود اطلاعات درباره‌ی هم‌زمانی تصمیمات داخلی ایران (در حوزه اقتصاد، سرکوب یا سازوکار مذاکرات) اجازه نمی‌دهد روند ناآرامی یا فروپاشی اقتصادی را به این خبر نسبت بدهیم؛ این گزارش فقط از تغییر فاز در عملیات آمریکا خبر می‌دهد."
+        ],
+        "impact": "توقف دوباره حملات آمریکا در زمان مذاکرات، به‌صورت موقت فشار نظامی را کاهش می‌دهد و می‌تواند بر چانه‌زنی اثر بگذارد، اما بدون جزئیات مذاکرات نمی‌توان از نتیجه پایدار یا عقب‌نشینی راهبردی حرف زد.",
+        "tag": "مذاکره",
+        "urgency": 6,
+        "sentiment": 0.1,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSXpRZUVKLWdPbXlybXhsRDdrOG9nLUMtVGg2RkFhdHF3SGxTZndLTDJ6M2xKaDRWd1JJY3VjMVd5bnMyUjhFT2JIbF8tY3lfM2tncUl5bjJTWlI2UjBpR3VlN2ZwbTc2cXRaNXJyZUJwbHN2OFI4cGw4djRJcHhNV0ZfNHNOaEpSdXl3cXdSM1RqRFhYV241NHRoRjVTd2tsRFE?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSXpRZUVKLWdPbXlybXhsRDdrOG9nLUMtVGg2RkFhdHF3SGxTZndLTDJ6M2xKaDRWd1JJY3VjMVd5bnMyUjhFT2JIbF8tY3lfM2tncUl5bjJTWlI2UjBpR3VlN2ZwbTc2cXRaNXJyZUJwbHN2OFI4cGw4djRJcHhNV0ZfNHNOaEpSdXl3cXdSM1RqRFhYV241NHRoRjVTd2tsRFE",
+        "image": null,
+        "timestamp": 1785064680.0
+    },
+    {
         "title_fa": "تهدید ایران برای گسترش جنگ در صورت از سرگیری حملات آمریکا؛ متهم‌کردن اسرائیل به تحریک",
         "title_en": "Iran threatens to expand war if US resumes strikes, which it says Israel is pushing for",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPdXFzQTJTa0hQNXJwaW1hN3JqT0g4NmxZaHBVQU85RGlEWG42NmdfNE9jbGQwRC1SQkVaU05HajF1dTBQTjIzVGNGT3YzWXFVa3c3S0g0LVpSbUdRNEFRNjlKbFU4Y3VnSVRzaElKZTJnNGp5RWY3RmZTTGw1RnliWko1NnJNQ0JrYkpITXVLU1AwRlV4aWRrVjhya2QxQ0hpOGdJY2lBOWYtS3FPZHlMeEFmclNIN1RudmZyS1VDVlJ3S3pyVHA1RHZlXzVOVWFwb2pHcUN2Ul9hckItMlFZV3lPY0lfSUl2RTdGMFhBU0xlenZ1dmYza0F6Z3BEdnBtZXdjOQ",
         "image": null,
         "timestamp": 1783335960.0
-    },
-    {
-        "title_fa": "اسرائیل از احتمال ازسرگیری جنگ‌ و درگیری‌ها در ایران همزمان با نظارت بر مراسم تشییع خامنه‌ای نگران است",
-        "title_en": "Israel fears renewed Iran fighting as it monitors Khamenei's funeral",
-        "summary": [
-            "به‌دنبال نظارت اسرائیل بر مراسم تشییع خامنه‌ای، این رژیم نگران «تجدید جنگ و درگیری» در ایران است؛ یعنی مقطع مراسم می‌تواند به ناآرامی‌های امنیتی یا درگیری‌های داخلی گره بخورد.",
-            "سیگنال اصلی گزارش این است که پایان‌ یک دوره قدرت می‌تواند فضا را برای حرکت‌های رقابتی/امنیتی باز کند؛ اسرائیل این احتمال را جدی می‌گیرد و پایش عملیات‌های ایران را همزمان افزایش داده است.",
-            "در گزارش، ارتباط مستقیم با اقتصاد یا اعتراضات داخلی یا میزان شدت فشار خارجی ذکر نشده؛ تمرکز کاملاً بر ریسک امنیتی و پویایی میدانی ایران در لحظه برگزاری مراسم است."
-        ],
-        "impact": "این نوع نگرانی خارجی نشان می‌دهد که بحران‌های مدیریتی و امنیتی پس از یک رویداد کلیدی می‌تواند به بی‌ثباتی عملیاتی و درگیری‌های تازه تبدیل شود.",
-        "tag": "امنیت",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UNi1RTUMwRFZrRTBwLV9qc09NYU52S1RCVERZUXNWVlh2NHQ1ZE1ETVJzTEkyX25hbHlBOWVESy1HbF95eHY1SmxhRl8zZGtYZDRQbjlfeFB5NnVfSTNETnRXTnp2eVVlakJVY2J3?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UNi1RTUMwRFZrRTBwLV9qc09NYU52S1RCVERZUXNWVlh2NHQ1ZE1ETVJzTEkyX25hbHlBOWVESy1HbF95eHY1SmxhRl8zZGtYZDRQbjlfeFB5NnVfSTNETnRXTnp2eVVlakJVY2J3",
-        "image": null,
-        "timestamp": 1783332774.0
     }
 ]

@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "گسترش فهرست اهداف احتمالی آمریکا در ایران فراتر از «پیککس ماونتین»؛ گزارش وال‌استریت ژورنال",
+        "title_en": "Potential US targets in Iran extend beyond Pickaxe Mountain - WSJ",
+        "summary": [
+            "طبق گزارش وال‌استریت ژورنال (بازتاب ایران اینترنشنال)، «اهداف احتمالی آمریکا در ایران» صرفاً به یک محل مشخص محدود نیست و دامنه آن فراتر از «پیککس ماونتین» اعلام شده است.",
+            "این نوع گزارش‌ها معمولاً نشان‌دهنده ارزیابی‌های عملیاتی گسترده‌تر از سوی واشنگتن است، اما متن حاضر جزئیاتِ هدف‌ها، زمان‌بندی یا نوع اقدام را مشخص نمی‌کند.",
+            "پیام سیاسی-امنیتی ماجرا این است که ریسک درگیری یا تشدید فشار خارجی بالاتر می‌رود، بدون اینکه در داده فعلی بتوان ارتباط مستقیم با عملیات مشخص یا اقدام تاییدشده را ثابت کرد."
+        ],
+        "impact": "گسترش ادعاشده فهرست اهداف احتمالی، می‌تواند عامل بی‌ثبات‌کننده برای تصمیم‌گیری امنیتی رژیم و افزایش هزینه‌های پنهان و آشکار امنیتی در داخل ایران باشد.",
+        "tag": "امنیت",
+        "urgency": 6,
+        "sentiment": -0.35,
+        "source": "ایران اینترنشنال",
+        "url": "https://www.msn.com/en-us/news/world/it-isn-t-just-pickaxe-trump-s-other-potential-nuclear-targets-in-iran/ar-AA28GOut",
+        "clean_url": "https://www.msn.com/en-us/news/world/it-isn-t-just-pickaxe-trump-s-other-potential-nuclear-targets-in-iran/ar-AA28GOut",
+        "image": null,
+        "timestamp": 1785050332.0
+    },
+    {
+        "title_fa": "آمریکا حمله به ایران را متوقف کرده؛ گزارش‌ها از کاهش ذخایر واشنگتن حکایت دارند",
+        "title_en": "US holds fire against Iran as media reports say Washington's stockpiles are dwindling",
+        "summary": [
+            "بر اساس گزارش‌ها، آمریکا به‌جای اقدام نظامی علیه ایران «آتش را نگه داشته» و دلیل محتملِ این تعویق، کاهش ذخایر عملیاتی در آمریکا عنوان شده است.",
+            "این وضعیت اگر واقعی باشد، مستقیماً ظرفیت فشار نظامی فوری را محدود می‌کند و زمان بیشتری به رژیم می‌دهد تا خود را برای سناریوهای بعدی آماده کند یا روایت سیاسی خود را تثبیت کند.",
+            "برای ارزیابی اثرات داخلی، خبر حاضر بیشتر یک سیگنال از محدودیت ابزار فشار آمریکا است تا یک تحول قطعی در سیاست ایران؛ بنابراین پیام اصلی آن، عقب‌نشینی از سطح اقدام سریع نظامی است."
+        ],
+        "impact": "کاهش ذخایر مطرح‌شده در آمریکا می‌تواند سرعت و شدت گزینه‌های نظامی علیه ایران را پایین بیاورد و فرصت مانور به رژیم برای ادامه پروژه‌های خود بدهد.",
+        "tag": "فشارخارجی",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd0lEQmZ3dGM4N09WM21sRU5YX3FhcFhBTjU4bXRQOGRpNEM5czRFMHRkMjVxd0dsbktZX1FJeVY1SGgzTW5WQjdXR2JKM1NncjI1aV9BRlRLRGNDNy1ZWWE5WjVfNGN4WVJmSE9IZEZCUEN2OTJ3QTlMb1JNeF8yNmQ1VVN0SHhxQTBwbi14UmIxVjFjeWJ6SVVOQ21oeXlkLWZqVEVGOGZjVG84Rl9YUmEtdEplTUpaeERVYno4Q1E3M0dhRlhVdE4zMFJfYXc?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd0lEQmZ3dGM4N09WM21sRU5YX3FhcFhBTjU4bXRQOGRpNEM5czRFMHRkMjVxd0dsbktZX1FJeVY1SGgzTW5WQjdXR2JKM1NncjI1aV9BRlRLRGNDNy1ZWWE5WjVfNGN4WVJmSE9IZEZCUEN2OTJ3QTlMb1JNeF8yNmQ1VVN0SHhxQTBwbi14UmIxVjFjeWJ6SVVOQ21oeXlkLWZqVEVGOGZjVG84Rl9YUmEtdEplTUpaeERVYno4Q1E3M0dhRlhVdE4zMFJfYXc",
+        "image": null,
+        "timestamp": 1785044829.0
+    },
+    {
+        "title_fa": "ترامپ تهدید به جنگ تمام‌عیار با ایران می‌کند؛ گزارش از شرط «صددرصد خواسته‌ها»",
+        "title_en": "Trump says full-scale war with Iran ‘if we don't get 100% of what we want’: Report",
+        "summary": [
+            "به گزارش آنادولو اجاسی، ترامپ اعلام کرده در صورت نرسیدن به «صددرصد خواسته‌ها»، گزینه جنگ تمام‌عیار با ایران مطرح است.",
+            "این نوع شرط‌گذاری نشان می‌دهد طرف آمریکایی نه به توافق حداقلی، بلکه به پذیرش کامل مطالبات خود چشم دارد و ریسک تشدید تنش مستقیم را بالا می‌برد.",
+            "چنین پیام‌هایی معمولاً به کاهش زمان برای مدیریت بحران و افزایش احتمال محاسبات غلط در دو سوی درگیری کمک می‌کند، حتی بدون ارائه جزئیات عملیاتی در همین گزارش."
+        ],
+        "impact": "تهدید جنگ تمام‌عیار با شرط «صددرصد خواسته‌ها» سطح ریسک درگیری را به‌طور فوری بالا می‌برد و می‌تواند چرخه تنش را تشدید کند.",
+        "tag": "تهدید",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOHcyOEZuQ2VWZlM4eXZwTWhpZU9FRVJVaDc1SGE5STBWSVNKSVZWeS1KRlJma2xpLVZySEY4cFV6RW1wNWdrMmNvbXkybVA1azlZSEtoZmlEZW5HUG1PZWhNUDZ0SEFZVmIzSFBFamkzT1E1SzRPblVCZWJ0UWJIYVYxbE5DUncteHdOQzF2VUVBQl9NWnp3WWpfVFU1NU5zZlMwbFhVbTRXR082c1c3U2NTZW0tRkxN?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOHcyOEZuQ2VWZlM4eXZwTWhpZU9FRVJVaDc1SGE5STBWSVNKSVZWeS1KRlJma2xpLVZySEY4cFV6RW1wNWdrMmNvbXkybVA1azlZSEtoZmlEZW5HUG1PZWhNUDZ0SEFZVmIzSFBFamkzT1E1SzRPblVCZWJ0UWJIYVYxbE5DUncteHdOQzF2VUVBQl9NWnp3WWpfVFU1NU5zZlMwbFhVbTRXR082c1c3U2NTZW0tRkxN",
+        "image": null,
+        "timestamp": 1785043687.0
+    },
+    {
         "title_fa": "اظهار وزیر خارجه ایران درباره «عدم راه‌حل نظامی» برای بحران یمن",
         "title_en": "Iran FM Says ‘No Military Solution’ to Yemen Conflict",
         "summary": [
@@ -5344,59 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/money/investment/why-iran-may-find-it-difficult-to-clear-its-oil-inventories-even-after-sanctions-relief/ar-AA27ib6w",
         "image": null,
         "timestamp": 1783314367.0
-    },
-    {
-        "title_fa": "مراسم سوگواری برای علی خامنه‌ای و غیبت مجتبی خامنه‌ای؛ شکاف در مرکز قدرت تشدید می‌شود",
-        "title_en": "Iran's new supreme leader remains out of sight as nation mourns his father",
-        "summary": [
-            "ایران مراسم رسمی و دولتی برای علی خامنه‌ای برگزار کرد، اما جانشین معرفی‌شده یعنی مجتبی خامنه‌ای در هیچ‌کدام از صحنه‌ها حاضر نشد و همین غیبت، گمانه‌زنی‌ها درباره روند انتقال قدرت را بالا برد.",
-            "این وضعیت «نامرئی بودن» رهبرِ جدید را تداوم می‌دهد؛ در عمل یعنی مرکز تصمیم‌گیری از نمایش اقتدار خودداری می‌کند و فضای عدم‌قطعیت درباره سازوکار جانشینی را گسترش می‌دهد.",
-            "به‌دلیل نبودِ شفافیت عمومی در بالاترین سطح رهبری، احتمال تشدید دودستگی و رقابت درون ساختار قدرت بیشتر می‌شود—حتی اگر اطلاعات رسمی جزئیات بیشتری ارائه نکند."
-        ],
-        "impact": "غیبت مجتبی خامنه‌ای در مراسم سوگواری، نشانه ضعف در مدیریت انتقال قدرت و افزایش ابهام سیاسی در راس نظام است.",
-        "tag": "انتقال‌قدرت",
-        "urgency": 4,
-        "sentiment": -0.35,
-        "source": "Reuters",
-        "url": "https://www.reuters.com/world/middle-east/who-is-mojtaba-khamenei-frontrunner-be-irans-supreme-leader-2026-03-04/",
-        "clean_url": "https://www.reuters.com/world/middle-east/who-is-mojtaba-khamenei-frontrunner-be-irans-supreme-leader-2026-03-04",
-        "image": "http://www.bing.com/th?id=ONUT.XEMGt31T1aWjtX_F-q0ghQ&pid=News",
-        "timestamp": 1783313760.0
-    },
-    {
-        "title_fa": "روز ۱۳۰ جنگ‌های آمریکا-اسرائیل: تشییع رهبر عالی ایران و ادامه فرسایش بازار نفت",
-        "title_en": "US-Israel Wars, Day 130: Funeral Procession for Iran’s Assassinated Supreme Leader",
-        "summary": [
-            "در تهران، مراسم تشییع چندروزه رهبر عالی ایران با حضور جمعیت گسترده در خیابان‌ها جریان دارد؛ هم‌زمان گزارش می‌دهد «مُجتبی خامنه‌ای» (پسر و جانشین) از زمان قتل پدرش هنوز در ملأعام ظاهر نشده است که شکاف در نمایش اقتدار و انتقال قدرت را برجسته می‌کند.",
-            "آینده نفت پایین آمد؛ علت اعلام افزایش تولید توسط اوپک‌پلاس و سپس کاهش قیمت‌ها پس از آن است که توافق آتش‌بس آمریکا-ایران امکان افزایش تردد در تنگه هرمز را فراهم کرده، هرچند قیمت‌ها همچنان پایین‌تر از سطح پیش از جنگ است.",
-            "هم‌زمان، نشست ناتو در ترکیه در دستور کار قرار دارد و قرار است امنیت تنگه هرمز یکی از محورهای گفت‌وگو باشد؛ با این حال طبق گزارش، تردد در گلوگاه تجارت نفت «ثابت» است و افزایش محسوسی نشان داده نمی‌شود."
-        ],
-        "impact": "قتل رهبر عالی و نبودِ حضور عمومی جانشین، ثبات سیاسی را در کوتاه‌مدت شکننده‌تر می‌کند، در حالی‌که نشانه‌های کاهش قیمت نفت و ثابت‌ماندن تردد تنگه هرمز، فشار اقتصادی ناشی از جنگ را تغییر شکل می‌دهد نه اینکه آن را رفع کند.",
-        "tag": "ایران",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "EA WorldView",
-        "url": "https://www.cnn.com/2026/07/06/world/live-news/iran-khamenei-funeral-war-trump",
-        "clean_url": "https://www.cnn.com/2026/07/06/world/live-news/iran-khamenei-funeral-war-trump",
-        "image": null,
-        "timestamp": 1783313530.0
-    },
-    {
-        "title_fa": "آیا تهران بعد از جنگ قوی‌تر شده؟ بررسی نظم سیاسی جدید",
-        "title_en": "Is Tehran Stronger After the War? Understanding Iran's New Political Order",
-        "summary": [
-            "متن منبع فقط به عنوان/برچسب‌های کلی در «Think Tank Journal» اشاره می‌کند و هیچ جزئیات قابل‌اتکا درباره تصمیمات، اصلاحات یا نتایج «جنگ» و همچنین مؤلفه‌های «نظم سیاسی جدید» ارائه نمی‌دهد.",
-            "از نظر تحلیلی، بدون متن گزارش (آمار، اقدامات مشخص، یا پیامدهای اقتصادی/سیاسی) نمی‌توان ارزیابی کرد آیا ساختار قدرت واقعاً تقویت شده یا صرفاً بازآرایی سیاسی رخ داده است؛ ادعای «قوی‌تر شدن» باید به شواهد اقتصادی و حکمرانی گره بخورد.",
-            "در چارچوب واقع‌گرایانه، تنها چیزی که فعلاً از همین صفحه قابل برداشت است «ادعای تحلیلی» است، نه داده؛ بنابراین بحث درباره اثر تحریم، نقش بازیگران خارجی (روسیه/چین/کره‌شمالی)، و روند نارضایتی داخلی از این متن قابل استنتاج نیست."
-        ],
-        "impact": "تا زمانی که متن کامل گزارش و داده‌های مشخص منتشر نشود، نتیجه‌گیری درباره قوت یا ضعف تهران صرفاً حدس خواهد بود.",
-        "tag": "ارزیابی",
-        "urgency": 3,
-        "sentiment": -0.2,
-        "source": "THINK TANK JOURNAL",
-        "url": "https://thinktank.pk/2026/07/06/is-tehran-stronger-after-the-war-understanding-irans-new-political-order/",
-        "clean_url": "https://thinktank.pk/2026/07/06/is-tehran-stronger-after-the-war-understanding-irans-new-political-order",
-        "image": "https://thinktank.pk/wp-content/uploads/2026/07/Is-Tehran-Stronger-After-the-War-Understanding-Irans-New-Political-Order-Photo-PID-MEDIA.webp",
-        "timestamp": 1783312620.0
     }
 ]

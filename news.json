@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "ترامپ: حملات آمریکا علیه ایران جلوی «متلاشی شدن» اسرائیل را گرفت",
+        "title_en": "Trump says U.S. strikes on Iran saved Israel from being ‘terminated’",
+        "summary": [
+            "ترامپ مدعی شده حملات آمریکا علیه ایران باعث شده اسرائیل از «terminated» شدن نجات پیدا کند؛ یعنی روایت رسمی واشینگتن بر بازدارندگی از مسیر عملیات نظامی استوار شده.",
+            "این اظهارات عملاً نشان می‌دهد فشار خارجی از حالت صرفاً سیاسی/دیپلماتیک خارج شده و به سطح ضربه امنیتی مستقیم به رژیم رسیده است؛ پیامد آن می‌تواند تشدید چرخه پاسخ‌دادن و افزایش هزینه‌های امنیتی برای تهران باشد.",
+            "در چارچوب تحلیل فشار خارجی، حتی اگر جزئیات عملیاتی در گزارش نیامده باشد، خودِ ادعای «نجات اسرائیل» بیانگر تایید و استمرار راهبرد حمله/مهار است و می‌تواند بر محاسبات رژیم در منطقه و توان مدیریت بحران اثر مستقیم بگذارد."
+        ],
+        "impact": "این نوع اعلامیه، نشانه تشدید الگوی فشار نظامی واشینگتن و پرریسک شدن فضای امنیتی برای رژیم را تقویت می‌کند.",
+        "tag": "فشارخارجی",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "MS NOW",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUHg4MDVWSlVuSnU4a1RvNFotSGhjR0ZjYm1RLWVqME5kR0JqQm0wRFZfVnFTRnlEcTY0dHAzZmMwNVZ0Zi1SOEpwZDQ2SlpPUnd1dlRkUzFrY2hTQXhZcDlRY2VtUHQtMG81NGNFaTltbkpOQmdNVHhwMDcteXBBeEwtVWtyOXM?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUHg4MDVWSlVuSnU4a1RvNFotSGhjR0ZjYm1RLWVqME5kR0JqQm0wRFZfVnFTRnlEcTY0dHAzZmMwNVZ0Zi1SOEpwZDQ2SlpPUnd1dlRkUzFrY2hTQXhZcDlRY2VtUHQtMG81NGNFaTltbkpOQmdNVHhwMDcteXBBeEwtVWtyOXM",
+        "image": null,
+        "timestamp": 1785190007.0
+    },
+    {
         "title_fa": "دفاع عربستان در برابر پهپادهای منتسب به گروه‌های «پشتیبانی‌شده از ایران»؛ نشانه تشدید جنگ نیابتی",
         "title_en": "Saudi Arabia defends against drone strikes from ‘Iran-backed’ groups",
         "summary": [
@@ -16,6 +34,24 @@
         "clean_url": "https://www.msn.com/en-us/politics/government/saudi-arabia-defends-against-drone-strikes-from-iran-backed-groups/ar-AA28NZOb",
         "image": null,
         "timestamp": 1785187822.0
+    },
+    {
+        "title_fa": "ترامپ: مذاکرات جنگ با ایران در فاصله بین حملات در جریان است",
+        "title_en": "Trump says Iran war talks taking place during lull in strikes",
+        "summary": [
+            "خبر به‌صورت مشخص می‌گوید ترامپ اعلام کرده مذاکرات درباره جنگ با ایران «در زمان وقفه» بین حملات انجام می‌شود؛ یعنی فضای دیپلماتیک همزمان با شدت عملیات نظامی مدیریت می‌گردد.",
+            "این الگو نشان می‌دهد فشار نظامی می‌تواند به‌عنوان اهرم مذاکره عمل کند، اما متن گزارش جزئیات روشن از دستورکار مذاکرات، طرف‌های ایرانی، یا خطوط توافق را ارائه نمی‌کند.",
+            "چون خبر تنها به «لُب درگیری/وقفه در حملات» اشاره دارد و داده‌ای درباره نتیجه یا میزان کاهش تهدید نمی‌دهد، فعلاً بیشتر یک پیام تاکتیکی برای تغییر فاز است تا نشانه مهار پایدار."
+        ],
+        "impact": "همزمانی «وقفه در حملات» با «گفت‌وگو درباره جنگ» می‌تواند هم ریسک تشدید سریع پس از وقفه را بالا ببرد و هم فشار برای امتیازگیری کوتاه‌مدت را تقویت کند.",
+        "tag": "مذاکره",
+        "urgency": 6,
+        "sentiment": -0.3,
+        "source": "BBC",
+        "url": "https://www.msn.com/en-us/news/world/trump-says-iran-war-talks-taking-place-during-lull-in-strikes/ar-AA28NR3q",
+        "clean_url": "https://www.msn.com/en-us/news/world/trump-says-iran-war-talks-taking-place-during-lull-in-strikes/ar-AA28NR3q",
+        "image": null,
+        "timestamp": 1785186656.0
     },
     {
         "title_fa": "بازنویسی تلفات نیروهای آمریکایی در پنتاگون؛ سنجش دوباره درباره شفافیت جنگی",
@@ -5362,41 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/news/world/oil-jumps-over-5-after-trump-says-deal-with-iran-over/ar-AA27sL4z",
         "image": "http://www.bing.com/th?id=ONUT.DHcplFA50w2rCo8DePXoDg&pid=News",
         "timestamp": 1783476335.0
-    },
-    {
-        "title_fa": "ترامپ اعلام کرد آتش‌بس با ایران پایان یافته و در بحبوحه حملات رو به تشدید، احتمال درگیری جدی افزایش یافته",
-        "title_en": "Trump says ceasefire with Iran is over, calling its leaders ‘scum’",
-        "summary": [
-            "ترامپ اعلام کرد آتش‌بس بین ایران و ایالات متحده «تمام شده» است و این موضع‌گیری هم‌زمان با چند روز حملات رو به افزایش مطرح شده؛ یعنی فاز بازدارندگی از حالت مدیریت‌شده خارج شده و مسیر به سمت تشدید می‌رود.",
-            "اظهارات تند علیه تهران نشان می‌دهد واشینگتن قصد دارد فشار سیاسی را هم‌پای افزایش تنش‌ها بالا ببرد، که معمولاً دست رژیم را برای مانور دیپلماتیک تنگ‌تر می‌کند.",
-            "این اعلامیه در کنار «بالا رفتن احتمال جنگ‌های بزرگ» مطرح شده و سناریوی ادامه یا گسترش عملیات نظامی می‌تواند مستقیم به بی‌ثباتی اقتصادی و تصمیم‌گیری‌های فوری داخل ایران دامن بزند."
-        ],
-        "impact": "پایان اعلامی آتش‌بس، ریسک تشدید نظامی و سقوط سریع‌تر به چرخه تلافی‌جویی را بالا می‌برد.",
-        "tag": "تشدید",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "The Washington Post",
-        "url": "https://www.washingtonpost.com/world/2026/07/08/trump-declares-ceasefire-with-iran-has-ended/",
-        "clean_url": "https://www.washingtonpost.com/world/2026/07/08/trump-declares-ceasefire-with-iran-has-ended",
-        "image": "http://www.bing.com/th?id=ONUT.7ymQ8d3xs8WCQo1zTS6x8w&pid=News",
-        "timestamp": 1783474800.0
-    },
-    {
-        "title_fa": "اتهام ایران به نقض توافق صلح پس از حملات در اطراف تنگه هرمز؛ سناریوی تشدید تنش با واشنگتن",
-        "title_en": "Iran accuses US of violating peace agreement after strikes target sites around strait of Hormuz",
-        "summary": [
-            "طبق گزارش گاردین، ایران می‌گوید حملات صورت‌گرفته در اطراف تنگه هرمز از سوی آمریکا «توافق صلح» را نقض کرده است؛ تمرکز حملات روی نقاطی در مسیر راهبردی هرمز، پیام سیاسی-امنیتی روشنی برای افزایش فشار می‌فرستد.",
-            "ایجاد «اتهام نقض توافق» به‌جای ارائه جزئیات حقوقی، نشان‌دهنده بن‌بست در مدیریت بحران است؛ تهران تلاش می‌کند روایت مسئولیت را به واشنگتن منتقل کند تا فضا برای واکنش بعدی را بسازد.",
-            "در غیاب داده‌های دقیق از خسارات یا اهداف مشخص، پیام اصلی این رخداد نه نتیجه فوری، بلکه افزایش ریسک بی‌ثباتی منطقه‌ای است: هر موج جدید حمله/پاسخ می‌تواند هزینه تجارت، بیمه و عملیات دریایی را بالا ببرد و فشار اقتصادی بر داخل را تشدید کند."
-        ],
-        "impact": "این پرونده می‌تواند مسیر تشدید نظامی و درگیری‌های پراکنده را به‌طور جدی جلو ببرد و هم‌زمان هزینه‌های اقتصادی برای ایران و منطقه را بالا بکشد.",
-        "tag": "تنش",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONlRxOVFtRHI1U3pmLWdYVHJoR2lMS2xZbFlFMzVjdzZUMXMwdl8ycXhGaTNsSEphNUxjbnZTWS0wNHN5ZjJfMEU0dmZrdEZvYU9TY1NPN0hBeTNWQ2h6Q3BaX18xd1ZRSDR0Q3hXS1NNWkdQc3RwZnYwb1h5bjdiVDBCWVpZSS1peU9zNk9jUnNnVFZNei10Z2hpTEJJb1BDSzNNcTg4S2xtbWNK?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONlRxOVFtRHI1U3pmLWdYVHJoR2lMS2xZbFlFMzVjdzZUMXMwdl8ycXhGaTNsSEphNUxjbnZTWS0wNHN5ZjJfMEU0dmZrdEZvYU9TY1NPN0hBeTNWQ2h6Q3BaX18xd1ZRSDR0Q3hXS1NNWkdQc3RwZnYwb1h5bjdiVDBCWVpZSS1peU9zNk9jUnNnVFZNei10Z2hpTEJJb1BDSzNNcTg4S2xtbWNK",
-        "image": null,
-        "timestamp": 1783473420.0
     }
 ]

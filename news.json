@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "بازنویسی تلفات نیروهای آمریکایی در پنتاگون؛ سنجش دوباره درباره شفافیت جنگی",
+        "title_en": "Pentagon relabels U.S. casualties caused by Iran amid scrutiny of wartime transparency",
+        "summary": [
+            "پنتاگون در چارچوب بازبینی‌ها، برچسب/طبقه‌بندی تلفات نیروهای آمریکایی را که به ایران نسبت داده شده بود تغییر داده است؛ اقدامی که زیر ذره‌بین «شفافیت در زمان جنگ» قرار گرفته.",
+            "این موضوع نشان می‌دهد روایت رسمیِ تلفات جنگی و نسبت‌دهی آن‌ها، محل مناقشه و نیازمند توضیح دوباره است؛ یعنی سازوکار اطلاع‌رسانی در جنگ مورد انتقاد قرار گرفته.",
+            "در سطح راهبردی، چنین تغییراتی می‌تواند به تضعیف اعتماد عمومی و سیاسی به مدیریت اطلاعات جنگی منجر شود و فضای تصمیم‌گیری را برای واشنگتن تحت فشار قرار دهد."
+        ],
+        "impact": "بازبرچسب‌زنی تلفات، هم اعتبار مدیریت اطلاعات جنگی را در آمریکا تحت فشار می‌گذارد و هم روایت جنگی درباره نقش ایران را وارد فاز مناقشه می‌کند.",
+        "tag": "اطلاعات",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "The Washington Post",
+        "url": "https://www.msn.com/en-us/news/world/pentagon-relabels-us-casualties-caused-by-iran-amid-scrutiny-of-wartime-transparency/ar-AA28NUoK",
+        "clean_url": "https://www.msn.com/en-us/news/world/pentagon-relabels-us-casualties-caused-by-iran-amid-scrutiny-of-wartime-transparency/ar-AA28NUoK",
+        "image": null,
+        "timestamp": 1785177758.0
+    },
+    {
         "title_fa": "اختلاف نتانیاهو با ترامپ؛ سفر به واشینگتن برای پیدا کردن «آخرین فرصت» توافق با ایران",
         "title_en": "At odds with Trump on Iran, Netanyahu heads to DC to seek agreement where he still can",
         "summary": [
@@ -180,6 +198,24 @@
         "timestamp": 1785154296.0
     },
     {
+        "title_fa": "تهدید ناگهانی ترامپ علیه «کوه معدن‌چکش»: امکان‌سنجی بمب‌های نفوذی زیرزمینی و ریسک تشدید تنش",
+        "title_en": "Why Trump is suddenly threatening Iran's last untouched nuclear site",
+        "summary": [
+            "فاکس‌نیوز (از طریق MSN) گزارش می‌کند که ترامپ تهدید کرده به تاسیسات هسته‌ای «Pickaxe Mountain» (کوه معدن‌چکش) ضربه بزند، اما ارزیابی‌های کارشناسان نظامی درباره قابلیت «بمب‌های نفوذی/نفوذ به سنگرهای عمیق» برای رسیدن به بخش‌های زیرزمینی با هم اختلاف دارد.",
+            "اختلاف نظر کارشناسان یعنی عدم قطعیت عملیاتی در مورد اثرگذاری «بونکر بس‌ترها» علیه یک سایت دست‌نخورده و احتمالاً سخت‌ساخت؛ این موضوع می‌تواند هم به شکل‌گیری محاسبات بازدارندگی و هم به افزایش ریسک خطای محاسبه منجر شود.",
+            "تا وقتی گزارش، به جز تهدید سیاسی، جزئیات فنیِ قابل راستی‌آزمایی درباره فناوری، مسیر حمله یا سطح دفاعی سایت ارائه نمی‌کند، پیام اصلی فشار روانی-استراتژیک است نه یک برنامه رزمی قطعی؛ بنابراین احتمال تشدید تنش منطقه‌ای بالا می‌رود بدون اینکه اثربخشی قطعی مشخص باشد."
+        ],
+        "impact": "عدم قطعیت درباره امکان‌پذیری نفوذ به بخش‌های زیرزمینی، تهدید را از «عملیات قطعی» به «اهرم فشار و ریسک تشدید» تبدیل می‌کند.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.3,
+        "source": "Fox News on MSN",
+        "url": "https://www.msn.com/en-us/news/world/why-trump-is-suddenly-threatening-iran-s-last-untouched-nuclear-site/ar-AA28O9O4",
+        "clean_url": "https://www.msn.com/en-us/news/world/why-trump-is-suddenly-threatening-iran-s-last-untouched-nuclear-site/ar-AA28O9O4",
+        "image": "http://www.bing.com/th?id=ONUT.8wn-gPb11NHI3TC32D4ZUQ&pid=News",
+        "timestamp": 1785151449.0
+    },
+    {
         "title_fa": "توقف موقت در درگیری آمریکا و ایران؛ ترامپ نسبت به کاهش ذخایر بازارطمینان می‌دهد",
         "title_en": "US and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles",
         "summary": [
@@ -196,6 +232,24 @@
         "clean_url": "https://www.msn.com/en-us/news/world/us-and-iran-pause-fighting-to-give-peace-talks-space-heres-where-negotiations-stand/ar-AA28Ldpc",
         "image": "http://www.bing.com/th?id=ONUT.HzJmHc4rkybmu2C_h9yqWw&pid=News",
         "timestamp": 1785149028.0
+    },
+    {
+        "title_fa": "اعتراف بحث‌برانگیز مقام ترامپ درباره جنگ با ایران و واکنش فوری منتقدان",
+        "title_en": "Trump official makes shocking admission about Iran war — and is immediately criticized for it",
+        "summary": [
+            "خبر NJ.com به «اعتراف تکان‌دهنده» یک مقام رسمی تیم ترامپ درباره جنگ علیه ایران اشاره می‌کند، اما متن گزارشِ ارسالی جزئیات محتوای آن اعتراف را ارائه نمی‌دهد.",
+            "همزمان با انتشار این اظهارات، «منتقدان» همان لحظه واکنش نشان داده‌اند؛ یعنی موضوع صرفاً سیاسی-تبلیغاتی نبوده و حساسیت امنیتی/عملی در پس آن وجود داشته است.",
+            "در چارچوب تحلیل امنیتی، چون محتوای دقیق ادعا و ارتباط آن با تصمیمات عملی (در حد قابل‌استناد همین متن) مشخص نشده، نمی‌توان ادعاهای اتصال‌زا ساخت؛ فقط می‌توان گفت این اظهارات می‌تواند فضای تصمیم‌گیری و محاسبات بازدارندگی را به‌هم بزند."
+        ],
+        "impact": "تا وقتی جزئیات اعتراف و عبارت‌های مشخص منتشر نشده، اثر واقعی آن بر توان عملی رژیم یا شدت فشار خارجی قابل راستی‌آزمایی نیست، اما خودِ انتشار آن به تنش در روایت‌های جنگی و محاسبات بازدارندگی دامن می‌زند.",
+        "tag": "دیپلماسی",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "NJ.com",
+        "url": "https://www.nj.com/politics/2026/07/trump-official-makes-shocking-admission-about-iran-war-and-immediately-takes-it-back.html",
+        "clean_url": "https://www.nj.com/politics/2026/07/trump-official-makes-shocking-admission-about-iran-war-and-immediately-takes-it-back.html",
+        "image": "http://www.bing.com/th?id=ONUT.rDbsDCpkmQ-EoQtk-XGPWQ&pid=News",
+        "timestamp": 1785148800.0
     },
     {
         "title_fa": "گزارش‌ها از تشدید هماهنگی امنیتی اسرائیل و دولت‌های عربی علیه ایران",
@@ -646,6 +700,24 @@
         "clean_url": "https://www.msn.com/en-us/news/other/khamenei-ties-us-iran-peace-deal-to-israel-ending-attacks-on-lebanon/ar-AA28JoGY",
         "image": null,
         "timestamp": 1785114021.0
+    },
+    {
+        "title_fa": "ایران شرط توقف «حملات» را به مکث بمباران آمریکا گره زد؛ تهران در پی مدیریت تشدید است",
+        "title_en": "Iran says it will halt strikes as long as US bombing pause holds",
+        "summary": [
+            "ایران اعلام کرده تا زمانی که «مکث بمباران» آمریکا برقرار باشد، حملات خود را متوقف می‌کند؛ این یعنی تهران مکانیزم جنگ را نه با کاهش تنش، بلکه با کنترل‌پذیر کردن آن از مسیر واشنگتن می‌خواهد.",
+            "پنتاگون جمعه عملیات هوایی را پس از ۱۳ شب تشدید تعلیق کرد و در گزارش‌ها هیچ حمله آمریکا در شنبه و یکشنبه ثبت نشده است؛ بنابراین مبنای شرط ایران، یک وقفه واقعی در فشار هوایی آمریکا است.",
+            "این موضع عملاً اعتراف می‌کند که سطح درگیری برای ایران قابل اداره است و پاسخ تهران تابع تصمیم آمریکا خواهد بود؛ یعنی ریسک رفتن به تشدید ناگهانی کاهش می‌یابد، اما تداوم تهدید به شکل «مشروط» باقی می‌ماند."
+        ],
+        "impact": "این چارچوب می‌تواند چند روزی از تشدید مستقیم بکاهد، اما چون توقف حملات به تصمیم آمریکا گره خورده، بحران همچنان در آستانه برگشت به سطح بالاتر باقی می‌ماند.",
+        "tag": "تحرکات_نظامی",
+        "urgency": 8,
+        "sentiment": -0.4,
+        "source": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/iran-will-halt-attacks-long-us-maintains-pause-iranian-source-says-after-trump-2026-07-26/",
+        "clean_url": "https://www.reuters.com/world/asia-pacific/iran-will-halt-attacks-long-us-maintains-pause-iranian-source-says-after-trump-2026-07-26",
+        "image": "http://www.bing.com/th?id=ONUT.xWTunx88atTJC2bONZYAhw&pid=News",
+        "timestamp": 1785113880.0
     },
     {
         "title_fa": "رسوایی شبکه «پول نفت» پنهان ایران؛ «میلیاردها» گم‌شده است",
@@ -5326,77 +5398,5 @@
         "clean_url": "https://www.bbc.com/news/live/c17y1vnn2qxt",
         "image": "http://www.bing.com/th?id=ONUT.7NfE0JL79tx7tOdI4S4J7Q&pid=News",
         "timestamp": 1783464360.0
-    },
-    {
-        "title_fa": "آغاز حملات تازه آمریکا علیه ایران به عنوان پاسخ به حملات علیه کشتی‌های تجاری",
-        "title_en": "U.S. launches new attacks on Iran in retaliation for attacks on commercial ships, U.S. military says",
-        "summary": [
-            "طبق گزارش NBC News، نیروی نظامی آمریکا اعلام کرده که حملات جدید علیه ایران را برای «انتقام/پاسخ» به حملات صورت‌گرفته علیه کشتی‌های تجاری آغاز کرده است.",
-            "این اقدام نشان‌دهنده تشدید مستقیم فشار نظامی واشنگتن در چارچوب درگیری‌های امنیت دریایی است، نه صرفاً اقدامات دیپلماتیک یا تحریمی.",
-            "با توجه به اینکه علت اعلام‌شده، «حملات علیه کشتی‌های تجاری» است، ریسک گسترش درگیری در مسیرهای کشتیرانی و افزایش احتمال رفت‌وبرگشت‌های نظامی بالا می‌رود."
-        ],
-        "impact": "این موج حملات می‌تواند توان واکنش و محاسبه‌گری تهران را تحت فشار قرار دهد و احتمال ادامه چرخه درگیری در دریا و پیرامون اهداف نظامی را افزایش دهد.",
-        "tag": "تنش‌نظامی",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc",
-        "image": null,
-        "timestamp": 1783463303.0
-    },
-    {
-        "title_fa": "آغاز عملیات ضربتی آمریکا علیه ایران پس از حمله به کشتی‌ها در تنگه هرمز",
-        "title_en": "U.S. launches strikes against Iran after ships hit in Strait of Hormuz",
-        "summary": [
-            "بر اساس گزارش PBS، آمریکا پس از «بخوردن کشتی‌ها» در تنگه هرمز، اقدام به اجرای حملات ضربتی علیه ایران کرده است؛ یعنی یک جابه‌جایی سریع از سطح تنش به سطح درگیری مستقیم.",
-            "این رخداد مستقیماً چرخه ریسک منطقه‌ای را بالا می‌برد: هرمز شاه‌راه تجاری است و هر تعرض یا حادثه در آن معمولاً به پاسخ‌های فوری نظامی و گسترش درگیری منجر می‌شود.",
-            "در چارچوب فشار خارجی، این اقدام عملاً رژیم را زیر تهدید فوری قرار می‌دهد و هزینه‌های عملیاتی و امنیتی را افزایش می‌دهد، اما متن ارائه‌شده جزئیات میزان خسارت یا اهداف دقیق حملات را مشخص نمی‌کند."
-        ],
-        "impact": "این رویداد می‌تواند به تشدید فوری و گسترده درگیری در خلیج فارس منجر شود و ریسک پاسخ‌های متقابل را به‌طور جدی بالا می‌برد.",
-        "tag": "درگیری",
-        "urgency": 10,
-        "sentiment": -0.8,
-        "source": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNTZzZDZIRGxhTEJNMnlBUGFub2IyU1dlaUJtZVJPZkFxQmoyT1dOVjQ0ektpSnpUM1dkWjZYYmR0cnNFSV9MRUVPN3g0aVR1ZHpXLTZvc0UweVdud0FPSTVrOUZMS2NtUXM4WUtGa0RValAyYzBvVjlLQW1IT0xoa2RZekp6SnJWUVJTQzhvbkxBcjJZSWk2LXRHdGZaalAwUURqNGM4VdIBrAFBVV95cUxOTVJmQ0tjOVhMdlVrWks4U3M2LWxheDc1RDUybWlEYW1lemNTcU1wSjRiTzJQVHR0djZzMGlYdjgwTV9vRGZCZm85eldlYlBvVXBJSm5BY2hkSENVQWxLZlFsdkg2TUwtdU1wNU1hVnhNanMxU2NUMXZsOHdOR1U2VEFwQ3lDR01jUnpQWlV6Q3RqbXlzaGhJMWxjQUxEMThnM1JhV2tUazY0c2lo?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNTZzZDZIRGxhTEJNMnlBUGFub2IyU1dlaUJtZVJPZkFxQmoyT1dOVjQ0ektpSnpUM1dkWjZYYmR0cnNFSV9MRUVPN3g0aVR1ZHpXLTZvc0UweVdud0FPSTVrOUZMS2NtUXM4WUtGa0RValAyYzBvVjlLQW1IT0xoa2RZekp6SnJWUVJTQzhvbkxBcjJZSWk2LXRHdGZaalAwUURqNGM4VdIBrAFBVV95cUxOTVJmQ0tjOVhMdlVrWks4U3M2LWxheDc1RDUybWlEYW1lemNTcU1wSjRiTzJQVHR0djZzMGlYdjgwTV9vRGZCZm85eldlYlBvVXBJSm5BY2hkSENVQWxLZlFsdkg2TUwtdU1wNU1hVnhNanMxU2NUMXZsOHdOR1U2VEFwQ3lDR01jUnpQWlV6Q3RqbXlzaGhJMWxjQUxEMThnM1JhV2tUazY0c2lo",
-        "image": null,
-        "timestamp": 1783461105.0
-    },
-    {
-        "title_fa": "ادعای سپاه: حمله به ۸۵ پایگاه نظامی آمریکا در بحرین و کویت؛ همزمان با از سرگیری حملات آمریکا پس از حمله به نفتکش‌ها و لغو مجوز فروش نفت",
-        "title_en": "US-Iran War Live Updates: Iran’s Revolutionary Guards say they targeted 85 US military sites in Bahrain, Kuwait",
-        "summary": [
-            "سپاه پاسداران می‌گوید در واکنش به «نقض آتش‌بس» از سوی آمریکا، ۸۵ سایت نظامی آمریکا در بحرین و کویت را هدف قرار داده است؛ هم‌زمان خبر از از سرگیری حملات آمریکا علیه ایران پس از برخورد/هدف‌گیری سه نفتکش در تنگه هرمز می‌دهد.",
-            "این چرخه ضربه-پاسخ با لغو مجوز فروش نفت توسط واشنگتن تشدید شده است؛ اقدامی که عملاً اهرم مالی رژیم را محدود می‌کند و هزینه سیاسی و اقتصادی ادامه تنش را بالا می‌برد.",
-            "آتش‌بس «شکننده» توصیف شده و متن نشان می‌دهد که حتی قبل از تثبیت واقعی، با رخدادهای میدانی (تنگه هرمز) و اقدامات اقتصادی (لغو مجوز نفت) وارد مرحله جدیدی از بی‌ثباتی منطقه‌ای شده است."
-        ],
-        "impact": "ترکیب حمله میدانی ادعاشده و فشار اقتصادی جدید، احتمال ادامه و گسترش درگیری میان آمریکا و ایران را بالا می‌برد.",
-        "tag": "ایران-آمریکا",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "The Indian Express",
-        "url": "https://indianexpress.com/article/world/us-iran-war-strait-of-hormuz-strikes-oil-prices-west-asia-crisis-10776538/",
-        "clean_url": "https://indianexpress.com/article/world/us-iran-war-strait-of-hormuz-strikes-oil-prices-west-asia-crisis-10776538",
-        "image": "http://www.bing.com/th?id=ONUT.il5hz9X2WnLFJ5dp6GJf3w&pid=News",
-        "timestamp": 1783460220.0
-    },
-    {
-        "title_fa": "تشدید درگیری ایران و آمریکا در خلیج فارس؛ حملات تازه نزدیک تنگه هرمز و پاسخ موشکی ایران",
-        "title_en": "Iran war: US military launches fresh strikes",
-        "summary": [
-            "آمریکا به‌دنبال سرنگونی یک بالگرد نظامی خود، به «پاسخ متناسب» اقدام کرده و پایگاه‌های پدافند هوایی، ایستگاه‌های کنترل زمینی و رادارهای شناسایی ایران را نزدیک تنگه هرمز هدف قرار داده است.",
-            "ایران نیز در واکنش، به‌گزارش رسانه‌های داخلی، پایگاه‌های آمریکا در منطقه و همچنین در اردن را با موشک‌های بالستیک هدف گرفته؛ هم‌زمان تهدید به حملات متقابل مطرح شده است.",
-            "با وجود این دور تازه حملات، رئیس‌جمهور آمریکا از امکان رسیدن به «توافق برای پایان جنگ» سخن گفته؛ در حالی که بر اساس گزارش، مذاکرات و تلاش‌ها برای بازگشایی مسیر حیاتی تنگه هرمز برای کشتیرانی برای هفته‌ها متوقف مانده است."
-        ],
-        "impact": "این دور تازه حملات، شکنندگی آتش‌بس و روند مذاکرات را عمیق‌تر می‌کند و ریسک گسترش درگیری را به‌خصوص در معبر حساس تنگه هرمز بالا می‌برد.",
-        "tag": "درگیری",
-        "urgency": 9,
-        "sentiment": -0.9,
-        "source": "DW.com",
-        "url": "https://www.yahoo.com/news/world/articles/us-iran-launch-fresh-attacks-045609740.html",
-        "clean_url": "https://www.yahoo.com/news/world/articles/us-iran-launch-fresh-attacks-045609740.html",
-        "image": null,
-        "timestamp": 1783459937.0
     }
 ]

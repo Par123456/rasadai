@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "ادعای آمریکا: حمله موشکی ایران به نیروهای آمریکایی در خاورمیانه با رهگیری کامل",
+        "title_en": "Iran launched multiple missiles at American forces, U.S. military says",
+        "summary": [
+            "واحد فرماندهی مرکزی آمریکا می‌گوید ایران «چندین» موشک بالستیک را در قالب یک «اقدام برای حمله غافلگیرانه» به نیروهای آمریکایی شلیک کرده است.",
+            "آماده‌سازی زمان حمله 17:45 EDT (21:45 GMT) اعلام شده و ادعا می‌شود همه موشک‌ها «موفقیت‌آمیز رهگیری» شده‌اند؛ محل احتمالی اهداف ذکر نشده است.",
+            "تهران هنوز اظهار نظری نکرده و این ادعا در فاصله‌ای از کاهش درگیری میان دو طرف مطرح شده است."
+        ],
+        "impact": "اگر این گزارش درست باشد، نشان می‌دهد حتی در دوره‌های کاهش تنش، ایران و آمریکا در معرض چرخه واکنش سریع و تشدید خطر برخورد مستقیم قرار دارند.",
+        "tag": "موشکی",
+        "urgency": 9,
+        "sentiment": -0.7,
+        "source": "PBS",
+        "url": "https://www.yahoo.com/news/us/articles/iran-launches-attempted-surprise-attack-232735626.html",
+        "clean_url": "https://www.yahoo.com/news/us/articles/iran-launches-attempted-surprise-attack-232735626.html",
+        "image": null,
+        "timestamp": 1785279295.0
+    },
+    {
         "title_fa": "گاردین: جنگِ بی‌پایان علیه ایران دردش را در آمریکا به شکل گرانی و فشار اجتماعی نشان می‌دهد",
         "title_en": "Americans feel pinch of continued Iran war: ‘It’s screwed everything up’",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://www.newsweek.com/why-the-us-and-irans-first-step-deal-was-doomed-to-fail-12173268",
         "image": "http://www.bing.com/th?id=ONUT.RD924Dw5GuEltR2b2zk_uQ&pid=News",
         "timestamp": 1783518540.0
-    },
-    {
-        "title_fa": "پایان آتش‌بس در گلف و چرخه تشدید: دستور ترامپ برای حملات تازه پس از هدف‌گیری پایگاه‌های آمریکا",
-        "title_en": "Iran ceasefire is 'over,' Trump says, and orders additional strikes",
-        "summary": [
-            "طبق گزارش، پس از آنکه آمریکا چند محل در ایران را هدف حمله قرار داد و تحریم‌های مربوط به فروش نفت ایران را دوباره برقرار کرد، ایران نیز «پایگاه‌های نظامی آمریکا» را در خلیج هدف گرفت و همین روند باعث شد ترامپ اعلام کند آتش‌بس «تمام شده» و دستور حملات اضافی صادر می‌کند.",
-            "این زنجیره اقدام-پاسخ، عملاً مکانیزم کنترل تنش را از بین می‌برد: هر عملیات جدید با احتمال بالا به پاسخ متقابل منجر می‌شود و ریسک درگیری مستقیم‌تر در حوزه خلیج را افزایش می‌دهد.",
-            "بازگشت تحریم‌های نفتی به عنوان اهرم خارجی، هم فشار اقتصادی ساختاری ایجاد می‌کند و هم می‌تواند محاسبات امنیتی رژیم را به سمت تشدید عملیاتی سوق دهد، چون منبع اصلی درآمد ارزی دوباره در معرض محدودیت قرار می‌گیرد."
-        ],
-        "impact": "تشدید فوری عملیات‌ها و بازتعریف تحریم‌های نفتی، احتمال ادامه چرخه حمله و کاهش فضای مدیریت بحران را بالا می‌برد.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "Los Angeles Times on MSN",
-        "url": "https://www.msn.com/en-us/news/other/iran-ceasefire-is-over-trump-says-and-orders-additional-strikes/ar-AA27t6QZ",
-        "clean_url": "https://www.msn.com/en-us/news/other/iran-ceasefire-is-over-trump-says-and-orders-additional-strikes/ar-AA27t6QZ",
-        "image": "http://www.bing.com/th?id=ONUT.C4FhsI-1bscTlJCeEW2Idw&pid=News",
-        "timestamp": 1783517520.0
     }
 ]

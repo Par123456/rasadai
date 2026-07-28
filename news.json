@@ -18,6 +18,42 @@
         "timestamp": 1785253429.0
     },
     {
+        "title_fa": "کاهش اعتماد آمریکایی‌ها به اقتصاد آمریکا در پی افزایش قیمت گاز ناشی از تشدید تنش با ایران",
+        "title_en": "Americans’ confidence in US economy falls as Iran conflict sends gas prices higher",
+        "summary": [
+            "AP می‌گوید «اعتماد آمریکایی‌ها» به اقتصاد آمریکا کاهش یافته، و علت آن به افزایش قیمت بنزین/گاز نسبت داده می‌شود که در چارچوب تشدید درگیری با ایران رخ داده است.",
+            "این روایت نشان می‌دهد پیامد مستقیم تنش خارجی، به‌صورت ملموس از کانال هزینه انرژی وارد زندگی اقتصادی مردم شده و بر ادراک عمومی از وضعیت اقتصاد اثر گذاشته است.",
+            "با توجه به اینکه خبر صرفاً به اثر اقتصادی تنش بر قیمت انرژی و سپس بر اعتماد مصرف‌کننده/عمومی اشاره می‌کند، تمرکز گزارش بر هزینه‌های فوری و روانی بحران است نه بر جزئیات تصمیمات سیاسی یا نظامی."
+        ],
+        "impact": "افزایش قیمت انرژی ناشی از تنش با ایران به کاهش اعتماد اقتصادی در آمریکا دامن می‌زند و می‌تواند فشار هزینه‌ای را به کل افق مصرف و رشد اقتصادی منتقل کند.",
+        "tag": "اقتصاد",
+        "urgency": 4,
+        "sentiment": -0.35,
+        "source": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQjFKSGphQTNUbkk2ZHZucHVwSzRxZm9ULXZDT2NJT0M4LUZfeW83MEU5S2tGZkhLMG95S0RfX21pR0FaS3hKaDBQWXZnQ0t2VkM0UEh6WkVzaUJ0OU13R1JkU210WVpRSHVuSG5Ebzg2ZUdzenNXemMySUtDS0VxT0ZNZkFwNDFITlRvSFRQRkZ0U1FVYVJYMzBRMGlNcC1BTm9LYQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQjFKSGphQTNUbkk2ZHZucHVwSzRxZm9ULXZDT2NJT0M4LUZfeW83MEU5S2tGZkhLMG95S0RfX21pR0FaS3hKaDBQWXZnQ0t2VkM0UEh6WkVzaUJ0OU13R1JkU210WVpRSHVuSG5Ebzg2ZUdzenNXemMySUtDS0VxT0ZNZkFwNDFITlRvSFRQRkZ0U1FVYVJYMzBRMGlNcC1BTm9LYQ",
+        "image": null,
+        "timestamp": 1785251760.0
+    },
+    {
+        "title_fa": "دیدار نخست ترامپ و نتانیاهو پس از آغاز جنگ ایران",
+        "title_en": "Trump will meet with Netanyahu for the first time since Iran war began",
+        "summary": [
+            "این خبر فقط بر یک نکته تمرکز دارد: ترامپ قرار است برای نخستین بار از زمان شروع جنگ ایران، با بنیامین نتانیاهو دیدار کند؛ یعنی یک گام سیاسی-دیپلماتیک جدید در سطح عالی بین واشنگتن و تل‌آویو.",
+            "چون جزئیات سیاستی (مثل توافق عملیاتی، زمان‌بندی اقدام یا میزان فشار اقتصادی/نظامی) در متن ذکر نشده، نمی‌توان آن را به تشدید یا کاهش فشار نسبت داد؛ اما نفس نشست می‌تواند نشانه هماهنگی دوباره در مسئله ایران باشد.",
+            "در چارچوب واقع‌گرایانه، اثر احتمالی بیشتر از جنس «هماهنگی تصمیم‌گیری» است نه اثبات اقدام مشخص؛ بنابراین تحلیل باید محدود به احتمال افزایش وزن این موضوع در دستور کار آمریکا/اسرائیل باقی بماند."
+        ],
+        "impact": "دیدار سطح‌بالا احتمال هم‌راستاسازی سیاست‌های آمریکا و اسرائیل درباره ایران را تقویت می‌کند، اما تا وقتی محتوای تصمیم روشن نشود، از نتیجه‌گیری قطعی درباره تشدید عملیاتی نباید فراتر رفت.",
+        "tag": "دیپلماسی",
+        "urgency": 5,
+        "sentiment": 0.1,
+        "source": "PBS",
+        "url": "https://www.msn.com/en-us/news/other/trump-and-netanyahu-meet-for-the-first-time-since-launching-the-iran-war/ar-AA28Pp1L",
+        "clean_url": "https://www.msn.com/en-us/news/other/trump-and-netanyahu-meet-for-the-first-time-since-launching-the-iran-war/ar-AA28Pp1L",
+        "image": null,
+        "timestamp": 1785248714.0
+    },
+    {
         "title_fa": "معامله سناتورها برای لایحه جدید تحریم انرژی روسیه و ایران در مسیر حمایت از ترامپ",
         "title_en": "US Senators Announce Deal on New Russia, Iran Sanctions Bill",
         "summary": [
@@ -124,6 +160,24 @@
         "clean_url": "https://www.msn.com/en-us/politics/government/iran-hosts-hormuz-calls-with-saudi-arabia-oman-as-trump-hails-good-talks/ar-AA28QAKQ",
         "image": null,
         "timestamp": 1785221976.0
+    },
+    {
+        "title_fa": "افول حمایت عمومی آمریکا از جنگ علیه ایران؛ بلاتکلیفی هدف‌ها و افزایش تلفات، مشروعیت داخلی را فرسایش می‌دهد",
+        "title_en": "Just 1 in 3 support Iran war: Survey",
+        "summary": [
+            "یک نظرسنجی Reuters/Ipsos نشان می‌دهد فقط ۳۳٪ آمریکایی‌ها با حملات آمریکا علیه ایران موافق‌اند و ۶۲٪ مخالف‌اند؛ همچنین حدود ۷۰٪ می‌گویند ترامپ اهداف درگیری را «به‌وضوح توضیح نداده» است.",
+            "حمایت از جنگ به‌طور مداوم زیر ۴۰٪ بوده و اختلاف حزبی شدید است: جمهوری‌خواهان عمدتاً موافق (۷۱٪) اما دموکرات‌ها بسیار مخالف (۹۳٪) و مستقل‌ها نیز غالباً مخالف (۶۷٪).",
+            "هم‌زمان با ادامه جنگ پنج‌ماهه، آمار تلفات رسمی‌تر شده: فهرست کشته‌شدگان از ۶۰۰ عبور کرده و وزارت دفاع چهار نیروی پیش‌تر ثبت‌شده را به طبقه «Overseas Operations» برگردانده؛ جمع کشته‌ها ۱۸ نفر و مجروح‌ها ۶۲۴ نفر گزارش شده است."
+        ],
+        "impact": "کاهش حمایت عمومی و ناتوانی در توضیح روشن اهداف، هزینه سیاسی ادامه عملیات را بالا می‌برد و زمینه فشار برای تغییر مسیر یا توقف را بیشتر می‌کند.",
+        "tag": "تحلیل",
+        "urgency": 7,
+        "sentiment": -0.35,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/just-1-3-support-iran-132510820.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/just-1-3-support-iran-132510820.html",
+        "image": "http://www.bing.com/th?id=ONUT.5SO8zauVCyNWiw2ZDr57dQ&pid=News",
+        "timestamp": 1785219900.0
     },
     {
         "title_fa": "تهدید ازسرگیری بمباران علیه ایران سایه می‌اندازد؛ ترامپ با نتانیاهو دیدار می‌کند همزمان با تلاش برای معامله درباره تنگه هرمز",
@@ -5344,59 +5398,5 @@
         "clean_url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-says-ceasefire-over",
         "image": "http://www.bing.com/th?id=ONUT.nyuVcv0w_Ty3iOxq5ZdHow&pid=News",
         "timestamp": 1783509600.0
-    },
-    {
-        "title_fa": "نتانیاهو: ایران «قطعاً» سلاح شیمیایی دارد؛ اظهارات در رسانه آمریکا",
-        "title_en": "Iran 'definitely' possesses chemical weapons, PM Benjamin Netanyahu tells US media",
-        "summary": [
-            "بنابر گزارش «The Jerusalem Post»، بنیامین نتانیاهو به رسانه‌های آمریکا گفته ایران «قطعاً» دارای سلاح شیمیایی است؛ ادعا در سطح اظهارنظر سیاسی مطرح شده و متن مقاله شواهد فنی یا جزئیات قابل راستی‌آزمایی ارائه نمی‌کند.",
-            "اگر این ادعا مبنای تصمیم‌گیری واشینگتن قرار بگیرد، فشار خارجی می‌تواند از کانال‌های حقوقی/تحریمی و اجماع‌سازی بین‌المللی بر رژیم تهران افزایش یابد؛ اما در چارچوب این گزارش، اثر مستقیم بر اقتصاد یا سیاست داخلی ایران هنوز اثبات نشده است.",
-            "از آنجا که مقاله صرفاً به نقل اظهارات نتانیاهو محدود است، اتصال مشخصی به تشدید فعالیت‌های منطقه‌ای یا وقوع رخدادهای میدانی (مثل حمله یا استفاده) ارائه نمی‌شود و بنابراین باید آن را «تهدید/اتهام» سیاسی با پتانسیل اثرگذاری دانست، نه گزارش عملیات."
-        ],
-        "impact": "این اظهارات می‌تواند چراغ افزایش فشار خارجی علیه رژیم تهران را روشن کند، اما بدون شواهد ارائه‌شده در متن، سطح اعتبار و پیامدهای فوری قابل تعیین نیست.",
-        "tag": "تحریم",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TaXZLYzRpOFlHMk1kb2IzREp3MWJxd1hDUUY5dXhWeHpGVTRpS1RlcVAydjNWSFZzTnhaQnFEWTRDQmoteGlIRWtkN000WkpxaXVKWkxEQ0JETlRONjJOSXcxbHFOankyWUE?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TaXZLYzRpOFlHMk1kb2IzREp3MWJxd1hDUUY5dXhWeHpGVTRpS1RlcVAydjNWSFZzTnhaQnFEWTRDQmoteGlIRWtkN000WkpxaXVKWkxEQ0JETlRONjJOSXcxbHFOankyWUE",
-        "image": null,
-        "timestamp": 1783508047.0
-    },
-    {
-        "title_fa": "افزایش قیمت بنزین در آمریکا هم‌زمان با پایان آتش‌بس ادعایی ایران از نگاه ترامپ",
-        "title_en": "Map Shows Gas Prices in Each State as Iran Ceasefire Ends",
-        "summary": [
-            "خبر می‌گوید پس از اظهارات دونالد ترامپ مبنی بر اینکه آتش‌بس جنگی ایران «تمام شده»، بهای بنزین در سراسر آمریکا بالا رفته است.",
-            "عامل پیونددهنده به این جهش، افزایش تنش‌ها در تنگه هرمز معرفی می‌شود؛ تنگه‌ای که در گزارش به‌عنوان مسیر حیاتی عبور نفت/گاز برای بازار جهانی ذکر شده است.",
-            "این تغییر قیمت‌ها نشان می‌دهد حتی بدون گزارش جزئیات از درگیری مستقیم جدید، اعلام پایان آتش‌بس و تشدید نگرانی بازار درباره مسیرهای انرژی، اثر فوری اقتصادی روی مصرف‌کننده آمریکایی گذاشته است."
-        ],
-        "impact": "افزایش قیمت بنزین به‌عنوان شاخص واکنش سریع بازار، فشار انتظاریِ ناشی از بالا رفتن ریسک ژئوپلیتیک مرتبط با تنگه هرمز را به اقتصاد وارد می‌کند.",
-        "tag": "انرژی",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "Newsweek",
-        "url": "https://www.newsweek.com/map-gas-prices-each-state-iran-ceasefire-ends-12172881",
-        "clean_url": "https://www.newsweek.com/map-gas-prices-each-state-iran-ceasefire-ends-12172881",
-        "image": null,
-        "timestamp": 1783507320.0
-    },
-    {
-        "title_fa": "رویترک‌برداشت آمریکا: ترامپ «مطمئن نیست» هنوز دنبال توافق با ایران هست",
-        "title_en": "Iran live updates: Trump 'not sure' he still wants a deal with Iran",
-        "summary": [
-            "ترامپ بعد از دور جدید حملات تلافی‌جویانه بین آمریکا و ایران اعلام کرد که آتش‌بس را پایان‌یافته می‌داند و عملاً مسیر تنش را ادامه‌دار تلقی می‌کند.",
-            "هم‌زمان ترامپ گفت مطمئن نیست هنوز تمایل دارد به «توافق» با ایران ادامه بدهد؛ یعنی اهرم مذاکره در آمریکا در حال تضعیف شدن است.",
-            "این موضع مستقیماً به معنی کاهش احتمال ثبات ناشی از آتش‌بس و افزایش ریسک دورهای بعدی عملیات است، نه صرفاً یک تغییر لحن سیاسی."
-        ],
-        "impact": "با تضعیف اعتبار آتش‌بس و مبهم شدن مسیر مذاکرات، احتمال تکرار چرخه ضربه‌تلافی و فشار خارجی بر اقتصاد و تصمیم‌گیری داخلی ایران بالا می‌رود.",
-        "tag": "تنش",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "USA TODAY on MSN",
-        "url": "https://www.msn.com/en-us/news/other/iran-live-updates-trump-not-sure-he-still-wants-a-deal-with-iran/ar-AA27t7CZ",
-        "clean_url": "https://www.msn.com/en-us/news/other/iran-live-updates-trump-not-sure-he-still-wants-a-deal-with-iran/ar-AA27t7CZ",
-        "image": "http://www.bing.com/th?id=ONUT.aF8YOiz0_z9GtnEJogYlow&pid=News",
-        "timestamp": 1783505974.0
     }
 ]

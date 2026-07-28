@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "گاردین: جنگِ بی‌پایان علیه ایران دردش را در آمریکا به شکل گرانی و فشار اجتماعی نشان می‌دهد",
+        "title_en": "Americans feel pinch of continued Iran war: ‘It’s screwed everything up’",
+        "summary": [
+            "گزارش می‌گوید پنج ماه پس از آغاز جنگ آمریکا و اسرائیل علیه ایران—که قرار بود «چند هفته‌ای» تمام شود—نه به پیروزی/شکست روشن رسیده و نه به صلح؛ حتی با وجود کشته شدن رهبر عالی ایران در آغاز حملات، آتش‌بس‌ها فرو ریخته و تنگه هرمز دوباره بسته و باز شده است.",
+            "اثر مستقیم برای مردم آمریکا در هزینه‌های روزمره دیده می‌شود: قیمت بنزین از سال‌های قبل بالاتر رفته و میانگین آن طبق AAA از ۴ دلار عبور کرده؛ هم‌زمان فشار روی سبد کالا (از جمله مواد غذایی) و هزینه‌های سوخت به شکل «دوطرفه» به کسب‌وکارهایی مثل صنعت چوب فشار می‌آورد.",
+            "این نارضایتی فقط اقتصادی نیست؛ افراد از تضاد هزینه‌کرد مالیات‌ها برای جنگ و هم‌زمان کاهش خدمات اجتماعی/کمک‌های تغذیه (Snap) و طولانی‌تر شدن صف پناهگاه‌های غذایی می‌گویند، همچنین نمونه‌هایی از اعزام ناگهانی نزدیکان به جبهه گزارش شده است."
+        ],
+        "impact": "ادامه جنگ بدون نتیجه نظامی یا سیاسی روشن، با تشدید فشار تورمی و هزینه‌های سوخت، فرسایش اعتماد عمومی و خشم نسبت به سیاست خارجی را در آمریکا عمیق‌تر می‌کند.",
+        "tag": "اقتصاد",
+        "urgency": 7,
+        "sentiment": -0.8,
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/jul/28/us-iran-war-cost-of-living",
+        "clean_url": "https://www.theguardian.com/us-news/2026/jul/28/us-iran-war-cost-of-living",
+        "image": null,
+        "timestamp": 1785264960.0
+    },
+    {
         "title_fa": "وزیر دفاع اسرائیل: نیروی هوایی آمریکا از اسرائیل برای حمله به ایران بلند شده است",
         "title_en": "US Air Force took off from Israel to strike Iran, Defense Minister Katz says",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/news/other/iran-ceasefire-is-over-trump-says-and-orders-additional-strikes/ar-AA27t6QZ",
         "image": "http://www.bing.com/th?id=ONUT.C4FhsI-1bscTlJCeEW2Idw&pid=News",
         "timestamp": 1783517520.0
-    },
-    {
-        "title_fa": "استفراغ تبلیغاتی و خشم خیابانی پس از اعلام آتش‌بس ترامپ با ایران؛ جدی‌بودن یا ابزار فشار؟",
-        "title_en": "Is Donald Trump serious in declaring the ceasefire with Iran over?",
-        "summary": [
-            "مردم سوگوار، تصاویر دونالد ترامپ را هدف سنگ‌پرانی قرار دادند و پیکره‌های رئیس‌جمهور آمریکا را آویختند؛ نشانه‌ای روشن از بی‌اعتمادی عمومی نسبت به اعلام آتش‌بس و نیت آن.",
-            "در روز سوم و چهارمِ سوگواری، سپاه پاسداران—به‌عنوان بازوی امنیتی-سیاسی رژیم—وارد صحنه شد (طبق گزارش)، که می‌تواند نشان دهد رژیم در تلاش است روایت «آشتی/آتش‌بس» را مدیریت و کنترل کند.",
-            "کل گزارش حول این پرسش می‌چرخد که آیا ترامپ «جدی» است یا این اعلام آتش‌بس بیشتر یک حرکت تاکتیکی برای فشار سیاسی-امنیتی است؛ واکنش خیابانی و ورود سپاه این تردید را پررنگ می‌کند."
-        ],
-        "impact": "اگر اعلام آتش‌بس واقعاً جدی و قابل‌اجرا نباشد، شکاف میان ادعای خروج از تنش و کنترل‌گری داخلی رژیم، به بی‌ثباتی روانی-سیاسی دامن می‌زند.",
-        "tag": "ایران-آمریکا",
-        "urgency": 5,
-        "sentiment": -0.4,
-        "source": "The Economist",
-        "url": "https://www.economist.com/interactive/middle-east-and-africa/2026/07/08/is-donald-trump-serious-in-declaring-the-ceasefire-with-iran-over",
-        "clean_url": "https://www.economist.com/interactive/middle-east-and-africa/2026/07/08/is-donald-trump-serious-in-declaring-the-ceasefire-with-iran-over",
-        "image": "http://www.bing.com/th?id=ONUT.jZpaHnokPlOwH9eYDZuNjg&pid=News",
-        "timestamp": 1783516080.0
     }
 ]

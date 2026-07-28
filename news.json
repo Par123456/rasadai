@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "وزیر دفاع اسرائیل: نیروی هوایی آمریکا از اسرائیل برای حمله به ایران بلند شده است",
+        "title_en": "US Air Force took off from Israel to strike Iran, Defense Minister Katz says",
+        "summary": [
+            "بر اساس گفته «یوآو گالانت کاتس» (وزیر دفاع اسرائیل)، نیروی هوایی آمریکا از خاک اسرائیل برای هدف‌گیری ایران پرواز کرده است؛ یعنی یک سطح جدید از مواجهه مستقیم وارد فاز عملیاتی می‌شود.",
+            "این اعلامیه، فشار خارجی را از سطح تهدید سیاسی به سطح اقدام نظامی نزدیک‌تر می‌کند و می‌تواند زنجیره واکنش‌های سریع و غیرقابل‌پیش‌بینی را در منطقه فعال کند.",
+            "گزارش هیچ جزئیات عملیاتی (زمان، نوع مأموریت، هدف مشخص یا میزان قطعیت اقدام) ارائه نمی‌دهد؛ اما صرف «بلند شدن برای حمله» ریسک تشدید را بالا می‌برد."
+        ],
+        "impact": "اگر این پرواز به حمله عملی منجر شود، احتمال چرخه انتقام و گسترش درگیری منطقه‌ای به‌طور محسوسی افزایش پیدا می‌کند.",
+        "tag": "نظامی",
+        "urgency": 10,
+        "sentiment": -0.7,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB",
+        "image": null,
+        "timestamp": 1785262558.0
+    },
+    {
         "title_fa": "گراهام «تقریباً با اشک شادی» از جنگ با ایران/ویدئوهای منتشرشده",
         "title_en": "Lindsey Graham ‘almost cried’ tears of joy over war on Iran, footage shows",
         "summary": [
@@ -16,6 +34,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdzlYblZmc3VEYTdUN29pNkhDYUs1T2pqc2FIVE5Xb3gwNnlOS2dpWVUwNXpnNGxXck1NNk9BcFFaSzEycVNsa1V4OXVDeFo2dDNpbG5yandJMW1VRHpBRjZfOEQyWHpYVzZhTjEtdEswWEo1SG9YcjRfQUg2N2psUGZhbUUtUEhFMzFQOWhSVW9xdUhXaHdDd0FoNVVaQkJLWUlobmk4aTFDWXRWZ0gzTGxn0gG3AUFVX3lxTE1iZlEzcE4tRHBXcDR6TWp4SUVnek9yYmZFQ1J2Q1hzQWFuWC1zMkQ2aG5BTDdiUkVUbXduMFBZMW5GbHlzWnk3aDcxdnVsanBJU2RiUWlSSlZNRE5JcXJ2ZGtUWEZZRW1EaXJpZjI2Nm42cTRZLTduVGZxMDB1RmYtWTliVklXQ3pUbFVJaG9KckFwQVdpX050clhBSnNuM1duRkNWdHhCU3FiNUZETkVKbml4bmpoOA",
         "image": null,
         "timestamp": 1785261902.0
+    },
+    {
+        "title_fa": "گزینه‌های نظامی ترامپ برای مالی: شکاف در تصمیم‌گیری آمریکا و تمرکز بر JNIM",
+        "title_en": "What are Trump’s military options?",
+        "summary": [
+            "طبق گزارش، دولت ترامپ در حال بررسی اقدام نظامی علیه گروه وابسته به القاعده «JNIM» در مالی است؛ در صورت تصویب، این حمله می‌تواند هشتمین کشور هدف حملات بعد از آغاز دوره دوم ترامپ باشد.",
+            "با این حال، اختلاف جدی میان مقام‌های ارشد آمریکا وجود دارد: بخشی خواهان عملیات است و «سباستین گورکا» به‌عنوان مدافع پرقدرت استفاده از زور مطرح شده، در حالی‌که پنتاگون از اظهار نظر خودداری کرده و کاخ سفید نیز درباره تصمیم نهایی شفافیت نداده است.",
+            "حساب کار دولت آمریکا بیشتر روی فشار برای خرید تجهیزات و خدمات آمریکایی توسط دولت‌های شمال و غرب آفریقا گذاشته شده و تاکید شده تروریسم در صحرای آفریقا (ساحِل) یک مسئله چندملیتی است؛ همچنین از حمایت از ائتلاف‌های منطقه‌ای علیه JNIM و داعش نام برده شده است."
+        ],
+        "impact": "این روند می‌تواند با تشدید فشار امنیتی در ساحِل، فضای عملیاتی گروه‌های جهادی را مختل کند، اما چون اجماع داخلی آمریکا هنوز شکل نگرفته، احتمال تغییر مسیر یا تعویق تصمیم نظامی بالا می‌ماند.",
+        "tag": "آمریکا",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "Al Jazeera",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-administration-weighing-military-options-in-mali-officials-say-160303007.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/trump-administration-weighing-military-options-in-mali-officials-say-160303007.html",
+        "image": null,
+        "timestamp": 1785257458.0
     },
     {
         "title_fa": "بازگشت نتانیاهو به ترامپِ بدبین در حالی‌که جنگ با ایران فرسایشی ادامه دارد",
@@ -88,6 +124,24 @@
         "clean_url": "https://www.yahoo.com/news/politics/articles/u-senators-vote-russia-iran-140804200.html",
         "image": null,
         "timestamp": 1785245265.0
+    },
+    {
+        "title_fa": "توقف جنگ و تلاش برای معامله؛ «شلنگ‌تخلیه» ترامپ برای زمان‌خریدن در بحران ایران",
+        "title_en": "Donald Trump is stalling for time in the war with Iran",
+        "summary": [
+            "بن‌بست جنگی موقت اعلام شده: «جنگ بین آمریکا و ایران متوقف شده اما پایان نیافته» و کانال استراتژیک هرمز همچنان بسته است، یعنی فشار دریایی برای مهار ادامه دارد.",
+            "کشورهای حاشیه خلیج فارس در حال رایزنی برای بازگشایی موقت تنگه‌اند؛ این نشان می‌دهد بحران وارد فاز مدیریت ریسک شده، نه حل ریشه‌ای.",
+            "متن تأکید می‌کند ترامپ عمداً برای «زمان‌خریدن» دست به تعویق می‌زند؛ یعنی حتی با کاهش عملیات، تصمیم‌گیری قطعی یا مسیر خروج از فشار، به عقب افتاده است."
+        ],
+        "impact": "این وضعیتِ توقفِ عملیاتی همراه با بسته‌بودن هرمز، ادامه فشار اقتصادی-امنیتی را تضمین می‌کند و هر «توافق موقت» هم بیشتر نقش کاهش ضربه تا تغییر توازن واقعی دارد.",
+        "tag": "تحلیل",
+        "urgency": 7,
+        "sentiment": -0.35,
+        "source": "The Economist",
+        "url": "https://www.economist.com/middle-east-and-africa/2026/07/28/donald-trump-is-stalling-for-time-in-the-war-with-iran",
+        "clean_url": "https://www.economist.com/middle-east-and-africa/2026/07/28/donald-trump-is-stalling-for-time-in-the-war-with-iran",
+        "image": "http://www.bing.com/th?id=ONUT.-gPSUbKLxTe0SSVuDlSkXg&pid=News",
+        "timestamp": 1785242160.0
     },
     {
         "title_fa": "چرا اقتصاد ایران با فشار جنگی آمریکا فرو نپاشید؟",
@@ -502,6 +556,24 @@
         "clean_url": "https://www.msn.com/en-us/news/world/trump-says-iran-war-talks-taking-place-during-lull-in-strikes/ar-AA28NR3q",
         "image": null,
         "timestamp": 1785186656.0
+    },
+    {
+        "title_fa": "پکت «سنی» ترکیه و عربستان برای تغییر توازن منطقه‌ای علیه نقش ایران",
+        "title_en": "Erdogan And Sunni Pact Vying To Displace Iran In Mideast Power Role",
+        "summary": [
+            "بر اساس گزارش Forbes، با تشدید آشوب و نبود افق روشن در خاورمیانه، تمرکز روی این است که در پایان توازن قدرت به کجا می‌چرخد؛ هم‌زمان واشنگتن گفته «فنّاوری هسته‌ای» برای سعودی‌ها فراهم می‌کند ولی در عمل نتوانسته امنیت متحدان خلیج را از آسیب حفظ کند.",
+            "نویسنده تأکید می‌کند جنگ یمن علیه حوثی‌ها با وجود حملات مکرر سعودی ادامه دارد و حوثی‌ها همچنان قادرند موشک‌های بالستیک به زیرساخت نفتی عربستان شلیک کنند؛ بنابراین «جایگزین هرمز» یعنی باب‌الmandeb کارآمدی پایدار از نگاه امنیتی نشان نداده است.",
+            "Forbes مدعی است «R4» (پاکستان، ترکیه، مصر، عربستان) قرار است خلأ اتحاد شیعه را پر کند و نقش ایران را تضعیف کند؛ همچنین پاکستان به عنوان مسیر بالقوه انتقال فناوری هسته‌ای به عربستان مطرح می‌شود، اما با تغییر شرایط علنی ترامپ و پس‌گرفتن برخی تعهدات از سوی سعودی‌ها، این مسیر عملاً محدود/متزلزل شده است؛ اختلاف ترکیه و عربستان هم بر سر رهبری جهان سنی برجسته است."
+        ],
+        "impact": "تقویت ائتلاف‌های سنی با محور ترکیه و عربستان می‌تواند توازن منطقه‌ای را از «محور ایران» به سمت رقابت‌های جدید سوق دهد، اما محدودیت‌های هسته‌ای و اختلافات رهبری داخل این ائتلاف ریسک بی‌ثباتی را بالا می‌برد.",
+        "tag": "ایران‌ستیزی",
+        "urgency": 6,
+        "sentiment": -0.6,
+        "source": "Forbes",
+        "url": "https://www.forbes.com/sites/melikkaylan/2026/07/28/erdogan-and-sunni-pact-vying-to-displace-iran-in-mideast-power-role/",
+        "clean_url": "https://www.forbes.com/sites/melikkaylan/2026/07/28/erdogan-and-sunni-pact-vying-to-displace-iran-in-mideast-power-role",
+        "image": "http://www.bing.com/th?id=ONUT.ZOBjU2GT5Rth6U_FV3K6VQ&pid=News",
+        "timestamp": 1785186000.0
     },
     {
         "title_fa": "بازنویسی تلفات نیروهای آمریکایی در پنتاگون؛ سنجش دوباره درباره شفافیت جنگی",
@@ -5326,77 +5398,5 @@
         "clean_url": "https://www.economist.com/interactive/middle-east-and-africa/2026/07/08/is-donald-trump-serious-in-declaring-the-ceasefire-with-iran-over",
         "image": "http://www.bing.com/th?id=ONUT.jZpaHnokPlOwH9eYDZuNjg&pid=News",
         "timestamp": 1783516080.0
-    },
-    {
-        "title_fa": "چگونه ایران تنگه هرمز را به اهرم فشار علیه آمریکا تبدیل می‌کند و کجا ممکن است نتیجه برعکس شود",
-        "title_en": "How Iran uses the Strait of Hormuz to pressure the US",
-        "summary": [
-            "DW می‌گوید «حملات جدید» ایران نشان می‌دهد تهران از نظر عملیاتی قادر است کشتیرانی و بازارهای انرژی را مختل کند و هم‌زمان بازیگران حاشیه خلیج فارس را وارد معادله کند.",
-            "با این حال، گزارش درباره «میزان اهرم واقعی» ایران بر واشینگتن تردید دارد و بر این نکته تمرکز می‌کند که فشار از مسیر تهدید مسیرهای تجاری لزوماً به معنای موفقیت سیاسی برای تهران نیست؛ بلکه می‌تواند به تشدید مقابله و هزینه‌سازی منجر شود.",
-            "DW همچنین استراتژی «پرریسک» تهران را به‌عنوان عامل بالقوهِ برگشت‌پذیری ارزیابی می‌کند: اختلال در مسیرهای حیاتی می‌تواند حساسیت بین‌المللی را بالا ببرد و واکنش‌های امنیتی/اقتصادی بزرگ‌تری را علیه ایران تحریک کند."
-        ],
-        "impact": "اختلال‌پذیر نشان دادن تنگه هرمز می‌تواند آمریکا را تحت فشار فوری قرار دهد، اما احتمال واکنش‌های گسترده و افزایش هزینه برای ایران نیز جدی است.",
-        "tag": "هرمز",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "DW",
-        "url": "https://www.msn.com/en-us/news/world/how-iran-uses-the-strait-of-hormuz-to-pressure-the-us/ar-AA27thrq",
-        "clean_url": "https://www.msn.com/en-us/news/world/how-iran-uses-the-strait-of-hormuz-to-pressure-the-us/ar-AA27thrq",
-        "image": "https://s.yimg.com/ny/api/res/1.2/.cvjYPFh7cEsFah8.HbK_Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/deutsche_welle_articles_124/20079416e6fb810d8ea497cb18821e7a",
-        "timestamp": 1783515300.0
-    },
-    {
-        "title_fa": "ایران در مدیریت جنگ پیشگام است، نه ترامپ",
-        "title_en": "Iran, Not Trump, Is in Control of This War",
-        "summary": [
-            "مطلب با محوریت «اداره جنگ توسط ایران» چارچوب‌بندی شده و ادعا می‌کند تعیین‌گری عملی در میدان از سوی تهران انجام می‌شود، نه صرفاً تصمیم‌گیری سیاسیِ آمریکا تحت رهبری ترامپ.",
-            "با توجه به متن ارائه‌شده (فقط عنوان و معرفی نویسنده) هیچ جزئیات قابل‌استناد درباره اقدامات مشخص ایران، واکنش آمریکا یا رخدادهای میدانی درج نشده است؛ بنابراین نمی‌توان درباره زمان‌بندی، تاکتیک‌ها یا نتایج دقیق قضاوت کرد.",
-            "نکته تحلیلی اصلی این است که نویسنده، نقش آمریکا را بیشتر در سطح «کنترل/هدایت سیاسی» محدود می‌کند و تاکید می‌گذارد که روند جنگ از مسیرهای دیگری (کنترل عملیاتی/مدیریتی) پیش می‌رود."
-        ],
-        "impact": "اگر روایت عنوان درست باشد، کنترل عملیاتیِ تهران می‌تواند توان محاسباتی آمریکا را در تغییر مسیر جنگ محدود کند—اما چون متن ارائه‌شده جزئیات ندارد، اثرگذاری واقعی باید با گزارش‌های تکمیلی سنجیده شود.",
-        "tag": "جنگ",
-        "urgency": 4,
-        "sentiment": -0.1,
-        "source": "The Atlantic",
-        "url": "https://www.theatlantic.com/ideas/2026/07/iran-controls-war-trump/687848/",
-        "clean_url": "https://www.theatlantic.com/ideas/2026/07/iran-controls-war-trump/687848",
-        "image": "http://www.bing.com/th?id=ONUT.7Ui_VYV2kwLII2UkDLAfBw&pid=News",
-        "timestamp": 1783513080.0
-    },
-    {
-        "title_fa": "ترامپ آتش‌بس با ایران را «تمام‌شده» اعلام کرد؛ تبادل آتش میان دو طرف گزارش شد",
-        "title_en": "Trump says ceasefire with Iran 'over' after both sides exchanged fire",
-        "summary": [
-            "براساس گزارش Euronews، ترامپ اعلام کرده که آتش‌بس با ایران «تمام شده» است و این جمع‌بندی را به دنبال تبادل آتش میان دو طرف مطرح کرده است.",
-            "این رخداد نشان می‌دهد کانال‌های کنترل تنش (در عمل) کارآمد نبوده‌اند و ورود مجدد به چرخه درگیری، هزینه سیاسی و امنیتی برای تهران و واشنگتن را هم‌زمان بالا می‌برد.",
-            "در چارچوب فشار خارجی، هرگونه سقوط یا بی‌اعتباری توافق‌های مهار بحران، می‌تواند زمینه برای افزایش فشارهای مالی/سیاسی و تشدید اثرات اقتصادی بر ثبات رژیم را فراهم کند، اما در متن خبر جزئیات مربوط به تحریم یا اقدامات مشخص ذکر نشده است."
-        ],
-        "impact": "پایان اعلامی آتش‌بس و گزارش تبادل آتش، احتمال تشدید تنش و فشارهای بیرونی را بالا می‌برد و ریسک بی‌ثباتی داخلی را نیز افزایش می‌دهد.",
-        "tag": "تنش",
-        "urgency": 7,
-        "sentiment": -0.6,
-        "source": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkFxXzBhSUQ2el9YSGpKdTRWaThUdDBiTHloeUV0WW41cnFfandpN3FVN3RsazE1T1lrSjZDNWRLYmpKbmZpLVJZZzNxRE9sWXFFM09BbklJU0ZRX1hhZUc4bmV5bEtBa2ZXMERJZjBaT1lFc3NIRG1YVlZHQUxVOE5NZ29kWU54Vm9KVkpGYUdodkdWS3ZsMkpyM0pMa2d3LVpCYjBVRGVpTjFqbmJN?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkFxXzBhSUQ2el9YSGpKdTRWaThUdDBiTHloeUV0WW41cnFfandpN3FVN3RsazE1T1lrSjZDNWRLYmpKbmZpLVJZZzNxRE9sWXFFM09BbklJU0ZRX1hhZUc4bmV5bEtBa2ZXMERJZjBaT1lFc3NIRG1YVlZHQUxVOE5NZ29kWU54Vm9KVkpGYUdodkdWS3ZsMkpyM0pMa2d3LVpCYjBVRGVpTjFqbmJN",
-        "image": null,
-        "timestamp": 1783511489.0
-    },
-    {
-        "title_fa": "ترامپ: توافق ایران عملاً تمام شد؛ هم‌زمان IRGC در مذاکرات با آمریکا نقش غالب می‌گیرد",
-        "title_en": "Trump says 'Iran lies and cheats' as IRGC emerges as dominant force in negotiations with US",
-        "summary": [
-            "ترامپ می‌گوید توافق هسته‌ای عملاً پایان یافته است، زیرا تهران به گفته او به سایت‌های نظامی آمریکا در بحرین و کویت حمله کرده و تهدید به حملات زیرساختی جدید را مطرح کرده است.",
-            "گزارش از «ظهور سپاه پاسداران» به‌عنوان نیروی غالب در مذاکرات با آمریکا سخن می‌گوید؛ یعنی کانال‌های تصمیم‌گیری و چانه‌زنی، به سمت بازیگری نظامی-امنیتی متمرکزتر می‌شوند.",
-            "پیام سیاسی-امنیتی این وضعیت روشن است: درگیری‌های فرامنطقه‌ای/عملیات‌های برون‌مرزی، شکاف اعتماد را تشدید می‌کند و مسیر دیپلماسی را به سمت اقدامات تلافی‌جویانه و تشدید فشار می‌برد."
-        ],
-        "impact": "این ترکیب از تشدید تهدیدات میدانی و «غلبه بازیگر امنیتی» احتمال بن‌بست و چرخه اقدام متقابل را بالا می‌برد و قدرت مانور سیاسی را کاهش می‌دهد.",
-        "tag": "تحریک",
-        "urgency": 8,
-        "sentiment": -0.4,
-        "source": "Fox News on MSN",
-        "url": "https://www.msn.com/en-us/news/world/trump-says-iran-lies-and-cheats-as-irgc-emerges-as-dominant-force-in-negotiations-with-us/ar-AA27v97t",
-        "clean_url": "https://www.msn.com/en-us/news/world/trump-says-iran-lies-and-cheats-as-irgc-emerges-as-dominant-force-in-negotiations-with-us/ar-AA27v97t",
-        "image": "http://www.bing.com/th?id=ONUT.3TlwgM-MH2rsm4ZfWwIGKA&pid=News",
-        "timestamp": 1783510059.0
     }
 ]

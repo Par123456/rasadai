@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "کاهش حمایت عمومی آمریکا از جنگ با ایران؛ ابهام درباره اهداف ترامپ در نظرسنجی رویترز/ایپسوس",
+        "title_en": "Just one in three Americans back Iran war, most unsure of Trump’s goals, Reuters/Ipsos poll finds",
+        "summary": [
+            "طبق نظرسنجی رویترز/ایپسوس، تنها حدود یک‌سوم آمریکایی‌ها از جنگ علیه ایران حمایت می‌کنند و اکثریت در برابر این گزینه موضع منفی یا مردد دارند.",
+            "بخش بزرگی از پاسخ‌دهندگان نسبت به اهداف ترامپ در قبال ایران «مطمئن نیستند»؛ یعنی حتی اگر بحث اقدام نظامی مطرح شود، چارچوب اهداف روشن نیست.",
+            "این وضعیت می‌تواند هزینه سیاسی هرگونه تشدید تنش را برای کاخ سفید بالا ببرد و به تردید افکار عمومی در حمایت از سیاست جنگی دامن بزند."
+        ],
+        "impact": "کاهش حمایت و افزایش ابهام درباره اهداف، توان بسیج سیاسی واشنگتن برای گزینه جنگ را محدود می‌کند و احتمال هزینه‌سازی داخلی را برای هر مسیر تشدید تنش بالا می‌برد.",
+        "tag": "public-opinion",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "Y100 WNCY",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkNLczBvQy11X1FtNWFUdXJuYjFZSmI4MmRIVUlmWGhyeW5TV3dCVWp4aGZTSndVNHhxVUxYZGJuZWE4ODczWncwdTUwWEhabjlmVWhtY0FJMU9ORFBtM09MblJfc2t3NVNRc2RDSUhTbFhwTWxqcmxWNXVfQ3V0blpITFV0cnRlVnYyaWdoa3JNTUxSd0NKdkdWRXNZb3lLQUh6dXJtYndQeGxFVko1M2lRYUVvbXU3LTZucGFPMnA?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkNLczBvQy11X1FtNWFUdXJuYjFZSmI4MmRIVUlmWGhyeW5TV3dCVWp4aGZTSndVNHhxVUxYZGJuZWE4ODczWncwdTUwWEhabjlmVWhtY0FJMU9ORFBtM09MblJfc2t3NVNRc2RDSUhTbFhwTWxqcmxWNXVfQ3V0blpITFV0cnRlVnYyaWdoa3JNTUxSd0NKdkdWRXNZb3lLQUh6dXJtYndQeGxFVko1M2lRYUVvbXU3LTZucGFPMnA",
+        "image": null,
+        "timestamp": 1785205496.0
+    },
+    {
+        "title_fa": "مصاحبه نامزدهای ناحیه ۷ کنگره میسوری درباره درگیری در ایران",
+        "title_en": "August Primary: Missouri U.S. District 7 candidates discuss the conflict in Iran",
+        "summary": [
+            "KY3 گزارش می‌دهد که در آستانه انتخابات مقدماتی آگوست، نامزدهای انتخابات ناحیه ۷ دادگاه فدرال ایالات متحده (میسوری) درباره «درگیری در ایران» صحبت کرده‌اند.",
+            "این خبر محتوای دقیق مواضع یا جزئیات درباره نوع درگیری، اهداف سیاستی، یا اقدامات مشخص دولت آمریکا را ارائه نمی‌کند و صرفاً به گفت‌وگوهای انتخاباتی پیرامون موضوع ایران اشاره دارد.",
+            "بنابراین، از این گزارش نمی‌توان نتیجه قابل‌اتکا درباره تشدید تحریم‌ها، تصمیمات نظامی، یا تغییر سیاست رسمی ایالات متحده استخراج کرد؛ محور فعلی در سطح داخلی آمریکا و رقابت انتخاباتی است."
+        ],
+        "impact": "این گزارش بیشتر نشان‌دهنده ورود موضوع ایران به رقابت انتخاباتی است و نشانه مستقیمِ تغییر سیاست یا فشار خارجی جدید علیه رژیم ارائه نمی‌دهد.",
+        "tag": "انتخابات",
+        "urgency": 2,
+        "sentiment": 0.0,
+        "source": "KY3",
+        "url": "https://www.msn.com/en-us/news/politics/august-primary-missouri-us-house-district-7-candidates-answer-questions/ar-AA28kihy",
+        "clean_url": "https://www.msn.com/en-us/news/politics/august-primary-missouri-us-house-district-7-candidates-answer-questions/ar-AA28kihy",
+        "image": null,
+        "timestamp": 1785204960.0
+    },
+    {
+        "title_fa": "ایالات متحده می‌گوید تحریم‌ها می‌تواند از بمب اثرگذاری بیشتری بر ایران داشته باشد",
+        "title_en": "U.S. officials believe sanctions could hurt Iran more than bombs",
+        "summary": [
+            "این گزارش بر مبنای دیدگاه مقامات آمریکایی است و ادعا می‌کند فشار اقتصادی ناشی از تحریم‌ها نسبت به گزینه‌های نظامی «اثرگذاری بیشتری» خواهد داشت، نه اینکه صرفاً مکمل تبلیغاتی باشد.",
+            "چارچوب گزارش، تحریم را ابزار اصلی برای تضعیف ساختاری می‌بیند؛ یعنی کاهش توان رژیم برای تامین مالی، مدیریت هزینه‌های داخلی و ادامه برنامه‌های پرهزینه.",
+            "این موضع، در عمل بر واقعیت سیاسی تاکید دارد: اگر تحریم‌ها به‌عنوان اهرم برتر تلقی شوند، احتمال اتکا به اقدامات مستقیم نظامی پایین‌تر می‌رود—ولی ریسک تشدید بحران اقتصادی و پیامدهای اجتماعی در داخل ایران بیشتر می‌شود."
+        ],
+        "impact": "اگر منطق مقامات آمریکایی درست از آب دربیاید، فشار اقتصادی به‌صورت مستقیم بر ظرفیت حکمرانی و تاب‌آوری رژیم اثر می‌گذارد و احتمال بحران‌های داخلی را بالا می‌برد.",
+        "tag": "تحریم",
+        "urgency": 7,
+        "sentiment": -0.4,
+        "source": "Axios",
+        "url": "https://www.msn.com/en-us/news/other/us-officials-believe-sanctions-could-hurt-iran-more-than-bombs/ar-AA28P7zE",
+        "clean_url": "https://www.msn.com/en-us/news/other/us-officials-believe-sanctions-could-hurt-iran-more-than-bombs/ar-AA28P7zE",
+        "image": null,
+        "timestamp": 1785197847.0
+    },
+    {
         "title_fa": "ترامپ: حملات آمریکا علیه ایران جلوی «متلاشی شدن» اسرائیل را گرفت",
         "title_en": "Trump says U.S. strikes on Iran saved Israel from being ‘terminated’",
         "summary": [
@@ -70,6 +124,24 @@
         "clean_url": "https://www.msn.com/en-us/news/world/pentagon-relabels-us-casualties-caused-by-iran-amid-scrutiny-of-wartime-transparency/ar-AA28NUoK",
         "image": null,
         "timestamp": 1785177758.0
+    },
+    {
+        "title_fa": "ایران و عمان برای توافق درباره هرمز تلاش می‌کنند تا راه را برای آغاز دوباره گفت‌وگوهای صلح هموار کنند",
+        "title_en": "Iran and Oman seek agreement on the Hormuz in bid to jumpstart peace talks",
+        "summary": [
+            "بر اساس گزارش، میانجی‌ها از «وقفه در درگیری‌ها» استفاده می‌کنند تا یک راه‌حل سریع برای بازگشایی تنگه هرمز آماده کنند؛ هدف، ایجاد شرایط برای ورود به گفت‌وگوهای جدی‌تر است.",
+            "این روند نشان می‌دهد که بازیگران منطقه‌ای دنبال کاهش تنش عملیاتی و بازکردن مسیر تجارت/عبور‌ومرور هستند، اما خودِ متن بر «توافق مرحله‌ای» تاکید دارد نه حل ریشه‌ای اختلافات.",
+            "پیام ضمنی این اقدام، مدیریت بحران به‌جای توافق پایدار است: یعنی تمرکز روی رفع مانع فوری برای ادامه مذاکرات، در حالی است که مشخص نیست طرف‌ها به مسیر «گفت‌وگوهای ملموس» رسیده‌اند یا نه."
+        ],
+        "impact": "توافق احتمالی برای بازگشایی هرمز می‌تواند شدت بحران را موقتاً پایین بیاورد، اما احتمالاً تا زمان روشن شدن خطوط اختلاف اصلی، اثر پایداری بر روند سیاسی نخواهد داشت.",
+        "tag": "دیپلماسی",
+        "urgency": 5,
+        "sentiment": 0.1,
+        "source": "The Wall Street Journal on MSN",
+        "url": "https://www.msn.com/en-us/news/other/iran-and-oman-seek-agreement-on-the-hormuz-in-bid-to-jumpstart-peace-talks/ar-AA28OXQP",
+        "clean_url": "https://www.msn.com/en-us/news/other/iran-and-oman-seek-agreement-on-the-hormuz-in-bid-to-jumpstart-peace-talks/ar-AA28OXQP",
+        "image": "http://www.bing.com/th?id=ONUT.Srz6ponn0FUYK-44xXVV7A&pid=News",
+        "timestamp": 1785175200.0
     },
     {
         "title_fa": "اختلاف نتانیاهو با ترامپ؛ سفر به واشینگتن برای پیدا کردن «آخرین فرصت» توافق با ایران",
@@ -214,6 +286,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTnVrOU1jcjcyYWw0R19hcjhSVTRXNjUwbXZEZ1c4UE00SG1OallfakVXM29hc1FCMGVDZWFGOG80OUhxMGxDS0ltbExZY3U4Z3ZxZGdHejRvMkV0NndBdFVtYklTQUxfU0kzdGRub01yVEV4bFh6Xzh6NF85XzVpaUVRRDZRTUFaNVdtLWxoRzRLVjdrN2N3eGxVbElZdEFUaFZn",
         "image": null,
         "timestamp": 1785159438.0
+    },
+    {
+        "title_fa": "ترامپ از «گفت‌وگوهای خوب» با تهران می‌گوید؛ همزمان پهپادها به همسایگان ایران حمله کرده‌اند",
+        "title_en": "Trump says US and Tehran having 'good talks' as drones hit Iran's neighbours",
+        "summary": [
+            "ایران اعلام کرده دنبال از سرگیری مذاکرات صلح با آمریکا نیست، اما حاضر است حملات خود را تا زمانی که آتش‌بسِ خودتحمیلی ترامپ برقرار باشد، متوقف کند؛ این یعنی ابزار فشار تهران «شرط‌گذاری بر توقف عملیات» است نه توافق سیاسی واقعی.",
+            "ادعای ترامپ درباره «گفت‌وگوهای خوب» با موضع تهران در تضاد است: یکی از مسیر ارتباط سیاسی حرف می‌زند، دیگری بر حفظ اهرم میدانی و زمان‌بندی توقف حملات تاکید دارد؛ نتیجه آن، استمرار بلاتکلیفی و احتمال سوءبرداشت است.",
+            "گزارش روتِرز همزمان با خبر «موارد هدف‌گیری» علیه همسایگان ایران می‌آورد که با وجود ادعای کانال گفت‌وگو، اقدام نظامی/امنیتی در منطقه قطع نشده و چرخه تشدید-توقف می‌تواند دوباره فعال شود."
+        ],
+        "impact": "این ترکیبِ «گفت‌وگوی لفظی» در واشینگتن و «توقف مشروط حملات» در تهران، عملاً آتش‌بس را وابسته به اراده سیاسی و زمان‌بندی می‌کند و خطر ازسرگیری حملات را بالا نگه می‌دارد.",
+        "tag": "منطقه",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/iran-says-it-still-controls-strait-not-seeking-talks-after-trump-halts-bombing-2026-07-27/",
+        "clean_url": "https://www.reuters.com/world/middle-east/iran-says-it-still-controls-strait-not-seeking-talks-after-trump-halts-bombing-2026-07-27",
+        "image": null,
+        "timestamp": 1785159120.0
     },
     {
         "title_fa": "بیش از ۶۰۰ نیروی نظامی آمریکا از زمان آغاز جنگ علیه ایران در فوریه زخمی شدند (طبق گزارش بی‌بی‌سی)",
@@ -5308,95 +5398,5 @@
         "clean_url": "https://www.newsweek.com/trump-iran-war-ceasefire-hormuz-scenarios-12170087",
         "image": "http://www.bing.com/th?id=ONUT.z3Le23XKH1xlTpDTV25wNg&pid=News",
         "timestamp": 1783480800.0
-    },
-    {
-        "title_fa": "از سرگیری ضربات آمریکا علیه ایران؛ پیامد فوری برای مذاکرات و خطر بازگشت به جنگ همه‌جانبه",
-        "title_en": "Why have US-Iran strikes resumed and what does it mean for peace?",
-        "summary": [
-            "آمریکا بامداد چهارشنبه «ده‌ها» حمله علیه ایران انجام داد و آن را تلافی حملات تهران به کشتی‌های تجاری در تنگه هرمز دانست؛ این اقدام ترس از گسترش دوباره جنگ در خاورمیانه را بالا برد.",
-            "ترامپ در نشست ناتو در آنکارا گفت به‌نظرش «موافقت‌نامه همکاری/MoU» با ایران «تمام شده» و مذاکرات صلح را در بهترین حالت «اتلاف وقت» می‌داند؛ با وجود این، افزود که ممکن است فعلاً گفت‌وگوها ادامه پیدا کند. گزارش همچنین می‌گوید بازارها پس از این اظهارنظر نوسانی/ریسک‌محور شدند: افزایش برنت به حدود ۶٪، افت سهام اروپا، تقویت دلار و بالا رفتن بازده اوراق دولتی.",
-            "همزمان با ادامه مذاکرات صلح در جریان عزاداری چندروزه، سپاه پاسداران اعلام کرد به حملات پاسخ داده و به «دارایی‌های آمریکا در کشورهای همسایه» حمله کرده؛ یک عضو سپاه هم بر اثر «پهپادهای دشمن» کشته شده است. این حمله‌ها بزرگ‌ترین مورد از زمان آوریل هستند و «بار سوم» است که آمریکا حملات بزرگ اجرا می‌کند در حالی که گفت‌وگوها هنوز جریان دارد؛ تهران می‌گوید این روند اعتماد را از بین برده و طرفین یکدیگر را به نقض توافق‌های MoU متهم می‌کنند."
-        ],
-        "impact": "بازگشت حملات سنگین در بحبوحه مذاکرات، عملاً MoU را از کارکرد بازدارنده خالی می‌کند و احتمال فروپاشی عملی روند گفت‌وگو و تشدید چرخه تلافی را بالا می‌برد.",
-        "tag": "نظامی",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks",
-        "clean_url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks",
-        "image": null,
-        "timestamp": 1783479240.0
-    },
-    {
-        "title_fa": "ترامپ اعلام کرد آتش‌بس با ایران «تمام شده» و حملات تازه علیه ایران ادامه یافته است",
-        "title_en": "West Asia War LIVE: Trump says Iran ceasefire ‘is over’",
-        "summary": [
-            "ترامپ گفت «مذاکره‌نامه/میثاق» امضا شده با ایران برای پایان درگیری «از بین رفته» و ابراز کرد نمی‌خواهد با تهران گفت‌وگو کند؛ هم‌زمان گفته شد پنجره ۶۰ روزه برای توافق دائمی عملاً متوقف شده چون گفت‌وگوهای غیرمستقیم در قطر هفته قبل بدون پیشرفت پایان یافته است.",
-            "پس از اعلام حمله ایران به سه کشتی در تنگه هرمز، آمریکا موج جدیدی از حملات را علیه ایران آغاز کرد؛ در پاسخ، ایران حملاتی علیه بحرین و کویت انجام داد که نشان‌دهنده باز شدن چرخه تلافی در سطح منطقه‌ای است.",
-            "این تشدید در روزهای برگزاری مراسم تشییع/ترحیم علی خامنه‌ای رخ داد؛ با وجود انتظار برای کاهش تنش، مراسم با شعارهای تهاجمی علیه ترامپ و بنیامین نتانیاهو همراه بوده و برای همین، احتمال ادامه فشارهای میدانی بیشتر است؛ همچنین اردوغان از موضع ترامپ در تلاش برای صلح «تعریف مثبت» کرد و از حمایت پدافند هوایی اروپا و آمریکا به ترکیه در چارچوب جنگ ایران یاد کرد."
-        ],
-        "impact": "قطع عملیِ چارچوب آتش‌بس و تبدیل مستقیم حملات به چرخه تلافی در هرمز، ریسک گسترش درگیری و تضعیف مسیر هر توافق پایدار را بالا می‌برد.",
-        "tag": "تنش",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Hindu",
-        "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
-        "clean_url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
-        "image": "http://www.bing.com/th?id=ONUT.RVjTejw6nV0ZsMiKmp_DZQ&pid=News",
-        "timestamp": 1783479120.0
-    },
-    {
-        "title_fa": "اوج‌گیری جنگ: حملات آمریکا به سامانه‌های پدافند و بنادر ایران پس از حمله به ۳ کشتی در تنگه هرمز",
-        "title_en": "US-Iran War Live Updates: US Prez Trump says 'US wasted a lot of time with Iran'",
-        "summary": [
-            "طبق گزارش، آمریکا پس از حمله ایران به سه کشتی تجاری در تنگه هرمز، به‌صورت ضربتی به سامانه‌های پدافند هوایی و زیرساخت‌های بندری/مرتبط با عملیات ساحلی ایران حمله کرد و ترامپ هم گفت آمریکا «زمان زیادی» را با ایران تلف کرده و تهران را عامل اقدامات «پلید/کثیف» می‌داند.",
-            "ایران در پاسخ، عملیات مشترک موشکی-پهپادی IRGC علیه ۸۵ سایت را «پاسخ اولیه» به نقض آتش‌بس معرفی کرد و به حمله به پایگاه ناوگان پنجم آمریکا در بحرین و پایگاه هوایی علی‌السالم در کویت اشاره شد؛ هم‌زمان ایران آمریکا را مسئول تشدید و نقض آتش‌بس دانست.",
-            "CENTCOM اعلام کرد در ۷ ژوئیه بیش از ۸۰ هدف ایرانی هدف قرار گرفته و حملات شامل سامانه‌های پدافند، شبکه‌های فرماندهی-کنترل، رادارهای ساحلی و توان موشک‌های ضدکشتی بوده، همچنین بیش از ۶۰ قایق کوچک سپاه در اطراف/در تنگه هدف قرار گرفته تا توان ایران برای ادامه حمله به تجارت بین‌المللی تضعیف شود."
-        ],
-        "impact": "این چرخه حمله-پاسخ مستقیماً توان عملیاتی رژیم و ریسک آسیب به کریدور حیاتی تجارت (تنگه هرمز) را تشدید می‌کند و احتمال گسترش درگیری به سطح گسترده‌تر را بالا می‌برد.",
-        "tag": "جنگ",
-        "urgency": 10,
-        "sentiment": -0.9,
-        "source": "CNBCTV18",
-        "url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-us-strikes-iran-after-vessel-attacks-sanctions-waiver-revoked-liveblog-19940544.htm",
-        "clean_url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-us-strikes-iran-after-vessel-attacks-sanctions-waiver-revoked-liveblog-19940544.htm",
-        "image": "http://www.bing.com/th?id=ONUT.jckIT2j0Hx-63RurNfOH9A&pid=News",
-        "timestamp": 1783479120.0
-    },
-    {
-        "title_fa": "تنش‌های جنگی آمریکا-ایران تشدید شد؛ لغو سفر پنتاگون به اسرائیل و اعلام پایان آتش‌بس توسط ترامپ",
-        "title_en": "US Iran War Live Updates: Tehran says US strikes kill one after Trump declares ceasefire 'over'",
-        "summary": [
-            "طبق گزارش فرست‌پست، پیت هگست در مقام وزیر دفاع آمریکا سفر برنامه‌ریزی‌شده به اسرائیل را لغو کرده؛ دلیل آن «تشدید تنش‌ها» میان آمریکا و ایران پس از تبادل‌های نظامی تازه ذکر شده است.",
-            "هم‌زمان گزارش می‌دهد دونالد ترامپ آتش‌بس با ایران را «تمام‌شده/غیرفعال» اعلام کرده؛ این اعلام بلافاصله بعد از درگیری‌های نظامی جدید مطرح شده است.",
-            "در ادامه، تهران مدعی شده حملات آمریکا یک کشته برجای گذاشته؛ این ادعا نشان می‌دهد چرخه درگیری می‌تواند از سطح تهدید به خسارت مستقیم تبدیل شود."
-        ],
-        "impact": "لغو سفر وزیر دفاع به اسرائیل و اعلام پایان آتش‌بس، احتمال تشدید عملیات و نزدیک‌شدن به یک چرخه خطرناک پاسخ‌به‌پاسخ را بالا می‌برد، در حالی که ادعای تلفات، هزینه سیاسی و امنیتی را هم بیشتر می‌کند.",
-        "tag": "جنگ",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "Firstpost",
-        "url": "https://www.firstpost.com/world/us-iran-war-live-updates-us-strikes-iran-hormuz-ship-attacks-tehran-strait-of-hormuz-attacks-middle-east-war-liveblog-14029737.html",
-        "clean_url": "https://www.firstpost.com/world/us-iran-war-live-updates-us-strikes-iran-hormuz-ship-attacks-tehran-strait-of-hormuz-attacks-middle-east-war-liveblog-14029737.html",
-        "image": "http://www.bing.com/th?id=ONUT.lcJGAmUKerKvz3r5Ju7Whg&pid=News",
-        "timestamp": 1783479000.0
-    },
-    {
-        "title_fa": "ایران و آمریکا وارد چرخه «آتش‌بس مورد تردید»؛ ضربه‌های متقابل و بازگشت فشار نفتی",
-        "title_en": "Iran and US trade fire and Trump calls the ceasefire into question",
-        "summary": [
-            "طبق گزارش، ایران در روز چهارشنبه به «سایت‌های نظامی آمریکا در خلیج فارس» حمله کرد؛ هم‌زمان آمریکا چند نقطه در ایران را هدف حملات هوایی قرار داد.",
-            "واشنگتن در همان دوره، تحریم‌های مربوط به فروش نفت ایران را «باز reinstated» کرد؛ اقدام تحریمی به‌عنوان اهرم فشار اقتصادی در کنار عملیات نظامی مطرح است.",
-            "هم‌زمان، ترامپ «آتش‌بس» را زیر سؤال برد؛ یعنی پیام سیاسی آمریکا عملاً ثبات توافق را شکننده می‌کند و احتمال تداوم یا تشدید درگیری را بالا می‌برد."
-        ],
-        "impact": "ترکیب حملات نظامی و بازگشت تحریم نفت، هم ظرفیت مانور اقتصادی رژیم را محدود می‌کند و هم خطر گسترش درگیری را با تضعیف جدیت «آتش‌بس» افزایش می‌دهد.",
-        "tag": "تحریم",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "Associated Press News on MSN",
-        "url": "https://www.msn.com/en-us/news/world/iran-targets-bahrain-and-kuwait-after-us-launches-strikes-and-limits-the-sale-of-iranian-oil/ar-AA27rEW2",
-        "clean_url": "https://www.msn.com/en-us/news/world/iran-targets-bahrain-and-kuwait-after-us-launches-strikes-and-limits-the-sale-of-iranian-oil/ar-AA27rEW2",
-        "image": "http://www.bing.com/th?id=ONUT.d0FDZIbrXxKdGfEeLEhLIQ&pid=News",
-        "timestamp": 1783478123.0
     }
 ]

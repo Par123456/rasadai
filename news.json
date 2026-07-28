@@ -108,6 +108,24 @@
         "timestamp": 1785171600.0
     },
     {
+        "title_fa": "افزایش محدود محبوبیت ترامپ همزمان با مخالفت گسترده با جنگ در ایران",
+        "title_en": "Trump sees approval rating boost amid unpopular Iran war, poll shows",
+        "summary": [
+            "طبق نظرسنجی جدید Reuters/Ipsos (منتشرشده 27 جولای)، محبوبیت ترامپ به 37% رسیده (3 واحد بالاتر از ژوئن)، اما فقط 33% از آمریکایی‌ها با جنگ علیه ایران موافق‌اند؛ این کمترین سطح حمایت ثبت‌شده از آغاز درگیری در اواخر فوریه است.",
+            "با وجود رشد جزئی در عدد کلی محبوبیت رئیس‌جمهور، مخالفت اجتماعی نسبت به خود جنگ همچنان پایین و رو به بحرانی ماندن دارد و شکاف «محبوبیت ترامپ» با «پذیرش جنگ» برجسته‌تر شده است.",
+            "همزمان با این فضای سیاسی، تلفات نظامی آمریکا در چارچوب درگیری با ایران افزایش یافته: دو سرباز آمریکایی در حمله در اردن کشته شدند و شمار تلفات نیروهای آمریکا در این جنگ به 17 نفر رسیده است."
+        ],
+        "impact": "نوسان مثبت محدود در محبوبیت سیاسی ترامپ اثر جنگ‌زدایی/فشار عمومی را خنثی نمی‌کند و افزایش تلفات، هزینه سیاسی ادامه جنگ را تشدید می‌کند.",
+        "tag": "ایران",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-sees-approval-rating-boost-233540067.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/trump-sees-approval-rating-boost-233540067.html",
+        "image": "http://www.bing.com/th?id=ONUT.BOYOQ1RyKpb5U8742jeu9Q&pid=News",
+        "timestamp": 1785171360.0
+    },
+    {
         "title_fa": "احضار سفیر فرانسه در تهران؛ پاسخ ایران به بازداشت کارکنان سفارت فرانسه",
         "title_en": "سخنگوی وزارت خارجه ایران از احضار سفیر فرانسه در تهران خبر داد",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/news/world/iran-targets-bahrain-and-kuwait-after-us-launches-strikes-and-limits-the-sale-of-iranian-oil/ar-AA27rEW2",
         "image": "http://www.bing.com/th?id=ONUT.d0FDZIbrXxKdGfEeLEhLIQ&pid=News",
         "timestamp": 1783478123.0
-    },
-    {
-        "title_fa": "جهش ۵+ درصدی نفت پس از اظهارات ترامپ درباره پایان «توافق با ایران»؛ بازگشت ترس از اختلال در عرضه",
-        "title_en": "Oil jumps over 5% after Trump says deal with Iran 'over'",
-        "summary": [
-            "پس از اظهارات ترامپ مبنی بر «تمام شدن» توافق با ایران، قیمت نفت بیش از ۵٪ رشد کرد و به بالاترین سطح دو هفته اخیر رسید؛ نشانه‌ای مستقیم از افزایش ریسک اختلال در عرضه خاورمیانه.",
-            "بازار این پیام را به‌عنوان احتمال تشدید تنش تلقی کرده و بنابراین همان نگرانی‌های قبلی درباره اختلال در مسیرهای فروش و تولید منطقه دوباره فعال شده است، بدون اینکه در متن خبر جزئیات تازه‌ای از اقدام مشخص ارائه شود.",
-            "این حرکت قیمتی می‌تواند هزینه‌های تأمین انرژی و انتظارات تورمی را در اقتصادهای وابسته به نفت بالا ببرد و فشار روانی-اقتصادی روی بازیگران منطقه‌ای را افزایش دهد، چون عدم قطعیت سیاسی به سرعت به ریسک قیمتی تبدیل می‌شود."
-        ],
-        "impact": "این خبر بیشتر یک شوک انتظاری به بازار نفت است که با افزایش ریسک اختلال، مستقیماً نوسان و احتمال فشار هزینه‌ای را تشدید می‌کند.",
-        "tag": "تحریم",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "HuffPost on MSN",
-        "url": "https://www.msn.com/en-us/news/world/oil-jumps-over-5-after-trump-says-deal-with-iran-over/ar-AA27sL4z",
-        "clean_url": "https://www.msn.com/en-us/news/world/oil-jumps-over-5-after-trump-says-deal-with-iran-over/ar-AA27sL4z",
-        "image": "http://www.bing.com/th?id=ONUT.DHcplFA50w2rCo8DePXoDg&pid=News",
-        "timestamp": 1783476335.0
     }
 ]

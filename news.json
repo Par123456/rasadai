@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "حمله مشترک آمریکا و عربستان به شبه‌نظامیان عراقی پشتیبانی‌شده از ایران",
+        "title_en": "Iran war: US, Saudi Arabia strike Iran-backed Iraqi militias",
+        "summary": [
+            "بنابر گزارش DW.com، نیروهای آمریکا و عربستان دست به حملات علیه شبه‌نظامیان عراقی زده‌اند که به عنوان نیروهای «پشتیبانی‌شده از ایران» معرفی می‌شوند.",
+            "این اقدام مستقیماً نشان می‌دهد که محور درگیری از جنگ نیابتی صرف به سطح عملیات ضربتی علیه شبکه‌های مرتبط با نفوذ ایران در عراق کشیده شده است.",
+            "در چارچوب واقع‌گرایی، اثر فوری چنین حملاتی معمولاً اختلال در توان عملیاتی، جابه‌جایی نیروها و تشدید چرخه مقابله‌به‌مثل است—اما متن ارائه‌شده جزئیات بیشتری درباره محل، زمان، یا میزان خسارت نمی‌دهد."
+        ],
+        "impact": "این حمله، نفوذ عملیاتی ایران در عراق را هدف می‌گیرد و احتمال تشدید تنش‌های نیابتی و اقدامات تلافی‌جویانه را بالا می‌برد.",
+        "tag": "جنگ‌نیابتی",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "DW.com",
+        "url": "https://www.aa.com.tr/en/us-israel-iran-war/saudi-arabia-warns-of-further-strikes-in-iraq-if-iran-backed-groups-launch-new-attacks/4012228",
+        "clean_url": "https://www.aa.com.tr/en/us-israel-iran-war/saudi-arabia-warns-of-further-strikes-in-iraq-if-iran-backed-groups-launch-new-attacks/4012228",
+        "image": null,
+        "timestamp": 1785306185.0
+    },
+    {
+        "title_fa": "جزئیات پنتاگون از تلاش برای حمله غافلگیرانه به نیروهای آمریکایی",
+        "title_en": "Pentagon details attempted surprise attack on US forces",
+        "summary": [
+            "پنتاگون اعلام کرده که یک «تلاش برای حمله غافلگیرانه» علیه نیروهای آمریکا رخ داده و جزئیاتی از این اقدام را منتشر کرده است.",
+            "این گزارش مستقیم، سطح تهدید علیه نیروهای مستقر آمریکا را بالا می‌برد و نشان می‌دهد برنامه‌ریزی برای غافلگیری مدنظر بوده، اما طبق متن ارائه‌شده نمی‌توان درباره عامل مشخص یا پیامد عملی آن حکم قطعی داد.",
+            "با توجه به اینکه منبع صرفاً به جزئیات پنتاگون اشاره کرده و هیچ ادعای قابل راستی‌آزمایی درباره شبکه‌های نیابتی یا بازیگران ایرانی/منطقه‌ای در متن نیامده، تحلیل باید محدود به واقعیت «تلاش برای حمله غافلگیرانه» و پیامد امنیتی آن برای نیروهای آمریکا بماند."
+        ],
+        "impact": "انتشار این جزئیات احتمال تشدید آمادگی‌های امنیتی و اعمال تدابیر ضدحمله برای نیروهای آمریکایی را افزایش می‌دهد.",
+        "tag": "امنیت",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "NewsNation",
+        "url": "https://www.msn.com/en-us/news/other/iran-launched-attempted-surprise-attack-on-us-forces-centcom-says/ar-AA28UvxV",
+        "clean_url": "https://www.msn.com/en-us/news/other/iran-launched-attempted-surprise-attack-on-us-forces-centcom-says/ar-AA28UvxV",
+        "image": null,
+        "timestamp": 1785301395.0
+    },
+    {
         "title_fa": "حمله آمریکا و عربستان به گروه‌های موردحمایت ایران در عراق؛ تهدید به تشدید تنش",
         "title_en": "US, Saudis attack Iran-backed groups in Iraq, threatening to intensify conflict",
         "summary": [
@@ -16,6 +52,24 @@
         "clean_url": "https://www.msn.com/en-us/news/other/us-saudis-attack-iran-backed-groups-in-iraq-threatening-to-intensify-conflict/ar-AA28WL4U",
         "image": null,
         "timestamp": 1785299155.0
+    },
+    {
+        "title_fa": "توقف حملات علیه ایران: توان نظامی آمریکا به‌تنهایی کفایت نمی‌کند",
+        "title_en": "Trump pausing Iran attacks shows US military power is not enough on its own",
+        "summary": [
+            "گاردین گزارش می‌کند که تصمیم ترامپ برای مکث در حملات علیه ایران، نشان می‌دهد قدرت نظامی آمریکا بدون ابزارهای سیاسی-عملیاتی دیگر، قادر نیست به‌تنهایی به نتیجه پایدار برسد.",
+            "این تحلیل ضمنی بر این نکته استوار است که محاسبه هزینه-فایده و ملاحظات بازدارندگی/کنترل ریسک، می‌تواند از ادامه یا تشدید عملیات جلوگیری کند؛ یعنی صرفِ توان رزمی تضمین‌کننده نیست.",
+            "نتیجه‌گیری رسانه‌ای این است که معادله ایران فقط با نیروی نظامی حل نمی‌شود و نیاز به اهرم‌های مکمل در سطح سیاست خارجی و مدیریت بحران وجود دارد."
+        ],
+        "impact": "مکث در حملات، پیام ضعفِ «راه‌حل صرفاً نظامی» را تقویت می‌کند و احتمالاً فشار بر واشنگتن را برای ترکیب ابزارهای غیرنظامی و محدودکننده بیشتر می‌کند.",
+        "tag": "ایالات-متحده",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQS3NoUEVwZmd3bkhmSTZGdEVDOGNEOVFaY3RnUFZTRjJLdmdPMjFmNU5UTzhXS3h5MEZmdlp6b0dScHlKcUJhUmNSU3hqTnM5TEJsbXQ1dlE3elFiVjNfNXprVnVvdDVTVDk2VVpldHhJLTFFRDdheXlqYWFodFF0bHVRR202UFhRZUE?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQS3NoUEVwZmd3bkhmSTZGdEVDOGNEOVFaY3RnUFZTRjJLdmdPMjFmNU5UTzhXS3h5MEZmdlp6b0dScHlKcUJhUmNSU3hqTnM5TEJsbXQ1dlE3elFiVjNfNXprVnVvdDVTVDk2VVpldHhJLTFFRDdheXlqYWFodFF0bHVRR202UFhRZUE",
+        "image": null,
+        "timestamp": 1785298380.0
     },
     {
         "title_fa": "ادعای سپاه درباره توقف ۳ نفتکش در تنگه هرمز؛ سیگنال تشدید ریسک برای تجارت و امنیت منطقه",
@@ -5344,59 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYWdYR1VkVzd1UlFXLXdtN3RjOEZ2ZEF4cnVzVkF2czBHM1lCZFlXWU9wcENKanhIRExadEw2M3k0eUpuNHpyczJtTTlwOV9MOEZDcGdjMEZ6Mk9yZGRkTkJUSUwtbEs0blFXUDFKVC1PbGNCOGNmeDlNVm51WmQ0VldWUTdseW1oai1aY2RVVTJ2ODAtR2hSandfOHRXYVAtSVI3WjYwMElSejZQSGUxU3R5WXkyWTBjQjFVemtZWXB2Wk5pTGpINUZmSlk4X2JuTFFTX0Q3WHpvM2ZFb1otbVRDNA",
         "image": null,
         "timestamp": 1783537620.0
-    },
-    {
-        "title_fa": "ترامپ پایان «توافق آتش‌بس» با ایران را مطرح کرد؛ هم‌زمان با افزایش ضربات و تهدیدهای هدف‌گیری زیرساخت",
-        "title_en": "Trump rejects Iran war restart after calling peace agreement ‘waste’",
-        "summary": [
-            "ترامپ در نشست ناتو در آنکارا گفت «مطمئن نیست» دنبال معامله با ایران باشد و صراحتاً پرسش درباره آغاز دوباره جنگ را رد کرد؛ او همچنین مذاکره درباره وضعیت آتش‌بس را «اتلاف وقت» خواند و گفت هر اتفاقی «خیلی سریع» تمام می‌شود.",
-            "این موضع‌گیری ساعاتی بعد از «سری ضربات قدرتمند» آمریکا علیه ایران مطرح شد؛ هم‌زمان آمریکا مجوز فروش نفت ایران را در واکنش به حملات علیه نفتکش‌ها در تنگه هرمز لغو کرد و ایران هم در پاسخ به‌طور متقابل به بحرین و کویت حمله کرد و خطر فروپاشی یک آتش‌بس شکننده بالا رفت.",
-            "ترامپ در همان چارچوب دوباره تهدید کرد زیرساخت‌های ایران مثل پل‌ها، برق و آب‌شیرین‌کن را هدف قرار دهد؛ در پس‌زمینه نیز قرار بود بعد از چندروزه مراسم تشییع علی خامنه‌ای درباره موضوعات سخت‌تر از جمله بازگشایی تنگه و برنامه هسته‌ای گفت‌وگو شود، اما روشن نیست این روند ادامه پیدا کند."
-        ],
-        "impact": "این ترکیب از لغو مجوز نفتی، ضربات متقابل و تهدیدهای مستقیم علیه زیرساخت، ریسک گسترش چرخه درگیری را بالا می‌برد و احتمال احیای کانال مذاکره را تضعیف می‌کند.",
-        "tag": "تنش-منطقه‌ای",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "NewsNation",
-        "url": "https://www.aol.com/articles/trump-says-iran-memorandum-understand-084501000.html",
-        "clean_url": "https://www.aol.com/articles/trump-says-iran-memorandum-understand-084501000.html",
-        "image": null,
-        "timestamp": 1783534967.0
-    },
-    {
-        "title_fa": "آغاز دور جدید حملات هوایی آمریکا علیه ایران و پاسخ تهران؛ تهران هدف آتش علیه بحرین، کویت و قطر",
-        "title_en": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states",
-        "summary": [
-            "بر اساس گزارش Associated Press، آمریکا صبح پنجشنبه حملات هوایی جدیدی علیه ایران انجام داد و بلافاصله با پاسخ آتش ایران مواجه شد؛ این چرخه نشان می‌دهد که مدیریت تنش میان واشنگتن و تهران عملاً فروپاشیده است.",
-            "طبق متن گزارش، ایران در واکنش به حملات آمریکا، آتش را علیه سه دولت عرب حاشیه خلیج فارس یعنی بحرین، کویت و قطر هدف گرفت؛ این اقدام عملاً ریسک گسترش درگیری به سطح منطقه‌ای را بالا می‌برد.",
-            "AP تصریح می‌کند که تبادل آتش «دوباره» یک توافق/دورنمای توافق موقت را تهدید کرده است؛ یعنی هزینه سیاسی این تشدید، مستقیم به تضعیف مسیر مذاکره و سازوکارهای کاهش تنش می‌خورد."
-        ],
-        "impact": "این تشدید نظامی، هم احتمال شکست توافق موقت را بالا می‌برد و هم هزینه‌های فوری امنیتی و اقتصادی برای کشورهای همسایه را افزایش می‌دهد.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.9,
-        "source": "Associated Press News on MSN",
-        "url": "https://www.msn.com/en-us/news/other/us-carries-out-another-round-of-strikes-on-iran-after-trump-says-ceasefire-is-over/ar-AA27qYmg",
-        "clean_url": "https://www.msn.com/en-us/news/other/us-carries-out-another-round-of-strikes-on-iran-after-trump-says-ceasefire-is-over/ar-AA27qYmg",
-        "image": "http://www.bing.com/th?id=ONUT.Cwgdvm_-VAspKDOQBFqyWg&pid=News",
-        "timestamp": 1783534603.0
-    },
-    {
-        "title_fa": "ترامپ: قطعیت نسبت به توافق با ایران ندارم؛ هم‌زمان با تشدید تنش در تنگه هرمز",
-        "title_en": "Trump says he's 'not sure' he wants Iran deal as Hormuz Strait strife deepens",
-        "summary": [
-            "ترامپ اعلام کرده «مطمئن نیست» که بخواهد به توافق با ایران تن بدهد؛ پیام سیاسیِ مشخصی برای پیچیده‌تر شدن مسیر مذاکرات و افزایش ریسک تصمیم‌گیری برای تهران است.",
-            "این تردید هم‌زمان با «عمیق‌تر شدن درگیری‌ها/تنش‌ها» در تنگه هرمز مطرح شده؛ یعنی اهرم امنیتی-اقتصادی واشنگتن و ایران به‌جای مسیر دیپلماسی، بیشتر در کانال بحران دریایی فعال می‌شود.",
-            "اگر رویکرد توافق‌محور تضعیف شود، فشار خارجی به‌صورت غیرمستقیم تشدید می‌گردد: هزینه بیمه و حمل‌ونقل بالا می‌رود، صادرات انرژی در معرض اخلال قرار می‌گیرد و شکاف اقتصادیِ رژیم که به مدیریت داخلی و ثبات بودجه وابسته است، افزایش پیدا می‌کند."
-        ],
-        "impact": "تردید ترامپ درباره توافق، همراه با تشدید تنش در هرمز، احتمال افزایش فشار اقتصادی و بی‌ثباتی بازارهای انرژی و در نتیجه تضعیف ظرفیت مدیریت بحران در داخل را بالا می‌برد.",
-        "tag": "تحریم",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOclV6TVN4c2RNazFjVFJuczhJN3Y0bGp0alRJMEk2VVpITDlOTWtMS2lRTFZiaVBSVDFIS3RaN2t3NktGVDBHYWVmRDVwMXpiZDZ6RjBVaUZsbkM4b2JGdlJDTElFRVc5SmZJalJoTS1fMzhVZTFKYVloZm5GRmhTaW50cFFLaVXSAYwBQVVfeXFMTnVsMWxYUDhpQ1Z6U2liVXc3SGZVc2RtVGJnTHhFU3RrZFVWamdBak9BdlBkS05URHlQdE9wZ0l2OTU5OWhVdE9nNkx2a0szQ2hqLUFhMWVEYWNKZ1Z4UXBNajQ5c0hGSnctWld4RGRvZmVWQWVwMzZSak9abWkwZTI5ZFpiYUM2MmttcDc?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOclV6TVN4c2RNazFjVFJuczhJN3Y0bGp0alRJMEk2VVpITDlOTWtMS2lRTFZiaVBSVDFIS3RaN2t3NktGVDBHYWVmRDVwMXpiZDZ6RjBVaUZsbkM4b2JGdlJDTElFRVc5SmZJalJoTS1fMzhVZTFKYVloZm5GRmhTaW50cFFLaVXSAYwBQVVfeXFMTnVsMWxYUDhpQ1Z6U2liVXc3SGZVc2RtVGJnTHhFU3RrZFVWamdBak9BdlBkS05URHlQdE9wZ0l2OTU5OWhVdE9nNkx2a0szQ2hqLUFhMWVEYWNKZ1Z4UXBNajQ5c0hGSnctWld4RGRvZmVWQWVwMzZSak9abWkwZTI5ZFpiYUM2MmttcDc",
-        "image": null,
-        "timestamp": 1783533988.0
     }
 ]

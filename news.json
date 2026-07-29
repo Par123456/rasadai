@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "تغییر معادله امنیتی خاورمیانه در سایه جنگ ایران (بر اساس گزارش رادیو فردا/رادیو آزادی)",
+        "title_en": "How The Iran War Is Changing Security Dynamics In The Middle East",
+        "summary": [
+            "این گزارش به‌طور کلی توضیح می‌دهد جنگ ایران دارد «پویایی‌های امنیتی» خاورمیانه را تغییر می‌دهد، یعنی الگوی تهدیدها و واکنش بازیگران منطقه‌ای در حال بازتنظیم است.",
+            "با توجه به متن موجود، جزئیات مشخصی درباره نوع عملیات، زمان‌بندی یا مکان‌های دقیق ارائه نشده و بنابراین نمی‌توان ادعاهای قابل راستی‌آزمایی درباره شدت درگیری‌ها یا هدف‌های عملیاتی استخراج کرد.",
+            "در سطح راهبردی، چنین تغییری معمولاً به تشدید رقابت امنیتی، افزایش احتمال درگیری‌های نیابتی و سخت‌تر شدن هماهنگی میان دولت‌ها منجر می‌شود؛ اما چون متن فقط تیتر را تکرار کرده، داده‌های حمایتی در دسترس نیست."
+        ],
+        "impact": "تا زمانی که متن کامل گزارش منتشر نشود، فقط می‌توان گفت جنگ ایران در حال بازتولید معادلات تهدید و پاسخ در خاورمیانه است، بدون امکان سنجش دقیق پیامدهای فوری.",
+        "tag": "امنیت",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "Radio Free Europe/Radio Liberty",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGVaandXM1dwZlU3LXFneEFORFA2dVBFY3dCWGFLaXBwY0xrOEpocHpXQVhSTFpscUVJcGhWRnpZZ0FIX0ZsUk5hVlBLTGtXY053RE5BNlZXNjZZYzZLS3djeDdqdVR1N01QNno2NHJkMDBOV083cS1XSEs1SHdtb0JyMU1FQThEcl9kRWx5aXnSAZABQVVfeXFMTVBlWmp3VzNXcGZVNy1xZ3hBTkRQNnVQRWN3QlhhS2lwcGNMazhKaHB6V0FYUkxabHFFSXBoVkZ6WWdBSF9GbFJOYVZQS0xrV2NOd0ROQTZWVzY2WWM2S0t3Y3g3anVUdTdNUDZ6NjRyZDAwTldPN3EtV0hLNUh3bW9CcjFNRUE4RHJfZEVseWl5?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGVaandXM1dwZlU3LXFneEFORFA2dVBFY3dCWGFLaXBwY0xrOEpocHpXQVhSTFpscUVJcGhWRnpZZ0FIX0ZsUk5hVlBLTGtXY053RE5BNlZXNjZZYzZLS3djeDdqdVR1N01QNno2NHJkMDBOV083cS1XSEs1SHdtb0JyMU1FQThEcl9kRWx5aXnSAZABQVVfeXFMTVBlWmp3VzNXcGZVNy1xZ3hBTkRQNnVQRWN3QlhhS2lwcGNMazhKaHB6V0FYUkxabHFFSXBoVkZ6WWdBSF9GbFJOYVZQS0xrV2NOd0ROQTZWVzY2WWM2S0t3Y3g3anVUdTdNUDZ6NjRyZDAwTldPN3EtV0hLNUh3bW9CcjFNRUE4RHJfZEVseWl5",
+        "image": null,
+        "timestamp": 1785352971.0
+    },
+    {
         "title_fa": "بن‌بست عربستان؛ تلاش برای خروج از آتش جنگ احتمالی آمریکا و ایران",
         "title_en": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CZkpONGZvV1laQnEtOXM5SG9MNVN5czZEc1Y0eWpYV0NiazltSnhzckN4OUt5akZpaDBfOEw2akp4dWFYTVFvcFVla1BCR3d0c3ppVGdZZ1h5d3l3TkRHbVdnbWxqUFlDMGJRZ1lpa1B6cEN10gF6QVVfeXFMT2ozbENocnhwX1hBejJGa2hQelJac25oWHc2SEs2SnNGUi02cTZ0TVVoN3lsc3gtVmswRDVDcEY2S1FkUE0wQzFSenRUTW4yeEVNLXVqdGV3UG9PTGtoWG9JVEYtUXNmMXltS01JT3hqSkc1eHRCcGlzU1E",
         "image": null,
         "timestamp": 1783591218.0
-    },
-    {
-        "title_fa": "ادامه دادوستد ضربه‌های موشکی/پهپادی آمریکا و ایران؛ تهران هدف‌گیری کویت، بحرین و قطر را در دستور دارد",
-        "title_en": "US and Iran trade strikes for second night in a row as Tehran aims at Kuwait, Bahrain, and Qatar",
-        "summary": [
-            "طبق گزارش BBC، حمله‌ها میان آمریکا و ایران برای دومین شب پیاپی رد و بدل شده و نشان می‌دهد چرخه تنش وارد فاز پایدار و تلافی‌محور شده است.",
-            "در همین چارچوب، تهران «کویت، بحرین و قطر» را به‌عنوان اهداف پیگیری می‌کند؛ یعنی ریسک سرایت مستقیم در خلیج فارس بالا رفته و دامنه درگیری از سطح مناقشه دو طرف به محیط منطقه‌ای کشیده می‌شود.",
-            "اهمیت سیاسی-امنیتی ماجرا در این است که انتخاب اهداف چندکشوری، هرگونه کنترل‌پذیری تنش را کاهش می‌دهد و احتمال تشدید متقابل و خطای محاسباتی را بالا می‌برد."
-        ],
-        "impact": "این روند با تمرکز تهران بر چند کشور عربی حاشیه خلیج فارس و تداوم ضربه‌ها، احتمال گسترش درگیری به سطح منطقه‌ای و افزایش سرعت تشدید را بالا می‌برد.",
-        "tag": "escalation",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "BBC",
-        "url": "https://www.nbcnews.com/world/iran/us-iran-new-attacks-trump-ceasefire-over-gulf-hormuz-rcna353615",
-        "clean_url": "https://www.nbcnews.com/world/iran/us-iran-new-attacks-trump-ceasefire-over-gulf-hormuz-rcna353615",
-        "image": null,
-        "timestamp": 1783589143.0
     }
 ]

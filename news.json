@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "ایران حمله موشکی غافلگیرکننده به نیروهای آمریکا در خاورمیانه انجام داد",
+        "title_en": "Iran Launches Surprise Missile Attack on U.S. Forces in the Middle East",
+        "summary": [
+            "بر اساس گزارش WSJ، ایران یک حمله موشکی «غافلگیرکننده» علیه نیروهای آمریکا در خاورمیانه اجرا کرده است؛ یعنی اقدام مستقیم و میدانی، نه عملیات صرفاً نمادین یا محدود.",
+            "این رخداد نشان می‌دهد رژیم حاضر است ریسک تشدید را بپذیرد و هزینه‌های امنیتی را به ایالات متحده منتقل کند؛ از منظر راهبردی، این می‌تواند پاسخ‌محور برای فشارهای بیرونی و نمایش قدرت باشد، اما همزمان احتمال واکنش سریع و گسترده را بالا می‌برد.",
+            "با توجه به ماهیت مستقیم حمله به نیروهای آمریکا، پیامد اصلی برای ثبات بیرونی رژیم «تشدید احتمال هدف‌گیری» و برای نیروهای منطقه‌ای «بالا رفتن سطح درگیری میان‌متنی» است؛ نه هیچ نشانه‌ای از کاهش تنش یا کنترل از بالا برای جلوگیری از سرایت بحران."
+        ],
+        "impact": "این حمله احتمال چرخه پاسخ-انتقام و تشدید نظامی مستقیم با ایالات متحده را به‌طور جدی بالا می‌برد و می‌تواند فشار امنیتی و هزینه‌های سیاسی رژیم را فوراً افزایش دهد.",
+        "tag": "تشدید",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "WSJ",
+        "url": "https://www.msn.com/en-us/news/other/iran-launches-surprise-ballistic-missile-attack-on-us-forces-in-the-middle-east/ar-AA28UaY4",
+        "clean_url": "https://www.msn.com/en-us/news/other/iran-launches-surprise-ballistic-missile-attack-on-us-forces-in-the-middle-east/ar-AA28UaY4",
+        "image": null,
+        "timestamp": 1785288660.0
+    },
+    {
+        "title_fa": "ایران برای اولین‌بار از زمان توقف حملات توسط ترامپ، به پایگاه آمریکا موشک شلیک کرد",
+        "title_en": "Iran launches missiles at U.S. base for first time since Trump paused strikes",
+        "summary": [
+            "طبق گزارش Axios، ایران یک بار دیگر شلیک موشکی به پایگاه آمریکا انجام داده؛ رویدادی که به‌عنوان نخستین مورد پس از توقف حملات در دوره ترامپ توصیف شده و نشان‌دهنده تغییر یا ازسرگیری مستقیم الگوی فشار نظامی علیه منافع آمریکا است.",
+            "این اقدام مستقیماً به «سکوت/توقف» نسبت داده می‌شود و از نظر راهبردی، پیام می‌دهد که محاسبه‌گری تهران نسبت به هزینه-فایدهِ عملیات علیه آمریکا، از حالت مهار خارج شده است.",
+            "چون متن خبر بر شلیک مشخص و چراییِ توقف قبلی تمرکز دارد، نتیجه عملی برای رژیم و محیط منطقه‌ای این است که ریسک پاسخ متقابل و تشدید چرخه درگیری بالا می‌رود؛ در نتیجه، فضای اقتصادی-سیاسی نیز با خطر عدم‌قطعیت امنیتی بیشتر تحت فشار قرار می‌گیرد."
+        ],
+        "impact": "شلیک موشکی علیه پایگاه آمریکا می‌تواند شکاف بین بازدارندگی و تشدید را به سرعت پر کند و احتمال درگیری مستقیم یا حملات تلافی‌جویانه را افزایش دهد.",
+        "tag": "نظامی",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nWDMyNnhqaERiaVJhaTJCa1NweVpqd3U1V20wcVlNWmdTOE1lUk5PaWxENjlMNjU2dDhUcS12Nlk1cGpWYURmQWlPclc2djdGNmgxUDl2X3lKcjlvTmgwSWFBaXF4NFZaTEpjUVpoeFYtaVpNaUE?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nWDMyNnhqaERiaVJhaTJCa1NweVpqd3U1V20wcVlNWmdTOE1lUk5PaWxENjlMNjU2dDhUcS12Nlk1cGpWYURmQWlPclc2djdGNmgxUDl2X3lKcjlvTmgwSWFBaXF4NFZaTEpjUVpoeFYtaVpNaUE",
+        "image": null,
+        "timestamp": 1785288306.0
+    },
+    {
         "title_fa": "ادعای آمریکا: حمله موشکی ایران به نیروهای آمریکایی در خاورمیانه با رهگیری کامل",
         "title_en": "Iran launched multiple missiles at American forces, U.S. military says",
         "summary": [
@@ -34,6 +70,24 @@
         "clean_url": "https://www.theguardian.com/us-news/2026/jul/28/us-iran-war-cost-of-living",
         "image": null,
         "timestamp": 1785264960.0
+    },
+    {
+        "title_fa": "حمله موشکی غافلگیرکننده ایران علیه نیروهای آمریکا؛ هم‌زمانی با عملیات مشترک ادعایی واشینگتن و ریاض",
+        "title_en": "Iran launches surprise missile attack on US forces",
+        "summary": [
+            "وال‌استریت ژورنال گزارش می‌دهد ایران یک حمله موشکی غافلگیرکننده علیه نیروهای آمریکایی انجام داده است؛ اقدام نظامی مستقیم که می‌تواند محاسبات واشینگتن را برای پاسخ فوری سخت‌تر کند.",
+            "زمان‌بندی حمله «قبل از» تأیید نیروی نظامی آمریکا از عملیات مشترک با نیروهای سعودی علیه گروه‌های مورد حمایت ایران در عراق بوده است؛ یعنی تهران عملاً هم‌زمانی را به نفع خود مدیریت کرده یا دست‌کم وقوع عملیات را در یک بازه حساس قرار داده است.",
+            "اگرچه جزئیات ماهیت اهداف و میزان خسارت در متن ارائه نشده، اما تقارن حمله با درگیری‌های منطقه‌ای نشان می‌دهد رقابت عملیاتی میان طرفین، از کنترل رسمی خبر تا میدان نبرد، سریع و غیرقابل پیش‌بینی در حال تشدید است."
+        ],
+        "impact": "این حمله می‌تواند چرخه پاسخ‌گویی سریع میان ایران و نیروهای آمریکا را فعال کند و خطر تشدید ناگهانی در عراق و پیرامون آن را بالا ببرد.",
+        "tag": "نظامی",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "The Wall Street Journal on MSN",
+        "url": "https://www.msn.com/en-us/news/world/iran-launches-surprise-missile-attack-on-us-forces/ar-AA28Uq4X",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-launches-surprise-missile-attack-on-us-forces/ar-AA28Uq4X",
+        "image": "http://www.bing.com/th?id=ONUT.wBeX6z3lbMrcVvY6rK5PGg&pid=News",
+        "timestamp": 1785263460.0
     },
     {
         "title_fa": "وزیر دفاع اسرائیل: نیروی هوایی آمریکا از اسرائیل برای حمله به ایران بلند شده است",
@@ -72,6 +126,24 @@
         "timestamp": 1785261902.0
     },
     {
+        "title_fa": "نویسنده آمریکایی در حال توجیه‌گری برای ایران در واشنگتن",
+        "title_en": "The American Commentator Making Excuses for Iran",
+        "summary": [
+            "«مکس بلومنثال» قرار است در واشنگتن درباره سفر اخیرش به ایران سخن بگوید و محتوای خبر حول تلاش یک تحلیل‌گر/نویسنده آمریکایی برای توضیح و توجیه روایت‌های مربوط به ایران می‌چرخد.",
+            "این رویداد به‌جای پرداختن به فشارهای مشخص یا اقدامات سیاستی، بیشتر در سطح مناظره و شکل‌دهی به افکار عمومی آمریکا عمل می‌کند و نشان می‌دهد بخشی از جریان رسانه‌ای آمریکا در حال نرم‌کردن نگاه به ایران است.",
+            "چون متن منبع صرفاً به معرفی برنامه و چارچوب رسانه‌ای اشاره دارد، هیچ داده‌ای درباره تشدید تحریم‌ها، ضربه به دارایی‌های رژیم یا رخداد مستقیم امنیتی ارائه نمی‌شود."
+        ],
+        "impact": "این اتفاق عمدتاً یک رویداد رسانه‌ای/گفتمانی است که می‌تواند بر ادراک عمومی و فضای سیاست‌گذاری آمریکا اثر بگذارد، نه یک تغییر ملموس در فشارهای خارجی یا وضعیت میدانی.",
+        "tag": "رسانه‌ای",
+        "urgency": 2,
+        "sentiment": -0.3,
+        "source": "The Atlantic",
+        "url": "https://www.theatlantic.com/ideas/2026/07/iran-apologists-blumenthal/688068/",
+        "clean_url": "https://www.theatlantic.com/ideas/2026/07/iran-apologists-blumenthal/688068",
+        "image": "http://www.bing.com/th?id=ONUT.zklr-Wvfl9UOU3y6wgTaDA&pid=News",
+        "timestamp": 1785258000.0
+    },
+    {
         "title_fa": "گزینه‌های نظامی ترامپ برای مالی: شکاف در تصمیم‌گیری آمریکا و تمرکز بر JNIM",
         "title_en": "What are Trump’s military options?",
         "summary": [
@@ -106,6 +178,24 @@
         "clean_url": "https://www.msn.com/en-us/news/politics/netanyahu-returns-to-a-skeptical-trump-as-iran-war-grinds-on/ar-AA28RDB3",
         "image": null,
         "timestamp": 1785253429.0
+    },
+    {
+        "title_fa": "ایران به دنبال ضربه تلافی‌جویانه به بندر اوکراین؛ هشدار برای گسترش درگیری به اروپا",
+        "title_en": "Iran Considered Retaliatory Strike on Ukrainian Seaport",
+        "summary": [
+            "عباس عراقچی، وزیر امور خارجه ایران، حمله اوکراین را «نقض منشور سازمان ملل» خواند و ادعا کرد هدف آن کشاندن اروپا به جنگ ایران علیه ایالات متحده است.",
+            "در گزارش نیویورک‌تایمز، موضوع «در نظر گرفتن ضربه تلافی‌جویانه» علیه یک بندر اوکراینی مطرح شده که نشان می‌دهد تهران در حال سنجش پیامدهای مستقیمِ واکنش فراتر از صحنه اوکراین است.",
+            "استدلال عراقچی بر مبنای پیوند دادن رخداد اوکراین به رقابت/درگیری ایران و آمریکا، سیگنال سیاسی-روانی برای مدیریت افکار عمومی و فشار به اروپا ارزیابی می‌شود."
+        ],
+        "impact": "اگر تهران واکنش عملی انجام دهد، احتمال تعمیق درگیری فرامرزی و افزایش فشار سیاسی-امنیتی بر اروپا و کاهش حاشیه امنیت فعالیت‌های دریایی در منطقه بالا می‌رود.",
+        "tag": "بازدارندگی",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/2026/07/28/us/politics/iran-ukraine-tensions.html",
+        "clean_url": "https://www.nytimes.com/2026/07/28/us/politics/iran-ukraine-tensions.html",
+        "image": "http://www.bing.com/th?id=ONUT.N74rZGF1-cHuJZfA5HDFig&pid=News",
+        "timestamp": 1785253140.0
     },
     {
         "title_fa": "کاهش اعتماد آمریکایی‌ها به اقتصاد آمریکا در پی افزایش قیمت گاز ناشی از تشدید تنش با ایران",
@@ -5308,95 +5398,5 @@
         "clean_url": "https://www.nytimes.com/2026/07/08/world/middleeast/iran-divisions-us-leaders.html",
         "image": "http://www.bing.com/th?id=ONUT.5KhYY8f1blD0wyYrNOU6zw&pid=News",
         "timestamp": 1783526400.0
-    },
-    {
-        "title_fa": "بازگشت جنگ در تنگه هرمز: پایان آتش‌بس، حملات گسترده آمریکا و لغو معافیت‌های نفتی ایران",
-        "title_en": "Trump Says Ceasefire With Iran Is Over After Latest Attacks",
-        "summary": [
-            "تهران پس از حملات به کشتی‌های تجاری در تنگه هرمز، عملاً آتش‌بس را کنار گذاشت و آمریکا با موجی از حملات علیه نزدیک به ۹۰ هدف در داخل ایران واکنش داد؛ دونالد ترامپ رسماً اعلام کرد آتش‌بس با ایران از روز چهارشنبه پایان یافته است.",
-            "همزمان با تشدید نظامی، آمریکا معافیت‌های تحریمی نفتی ایران که در جریان مذاکرات صلح اعطا شده بود را نیز لغو کرد؛ یعنی فشار اقتصادیِ مستقیم همراه با فشار نظامی به‌صورت هم‌زمان اعمال می‌شود.",
-            "در سطح عملیاتی، ترامپ در نشست ناتو در آنکارا گفت چند کشور اروپایی برای اعزام ناوهای مین‌روب به تنگه هرمز متعهد شده‌اند و هشدار داد ایران احتمالاً در روزهای آینده مین‌گذاری بیشتری انجام می‌دهد."
-        ],
-        "impact": "ترکیب حملات گسترده و لغو معافیت‌های نفتی، شکاف منابع و توان مانور حکومت را سریع‌تر می‌کند و ریسک ادامه چرخه درگیری در تنگه هرمز را بالا می‌برد.",
-        "tag": "تحریم-جنگ",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "WSJ",
-        "url": "https://www.foxnews.com/live-news/trump-iran-war-peace-ended-israel-hormuz-july-8",
-        "clean_url": "https://www.foxnews.com/live-news/trump-iran-war-peace-ended-israel-hormuz-july-8",
-        "image": null,
-        "timestamp": 1783522560.0
-    },
-    {
-        "title_fa": "تغییرات رأی‌تخمینی ترامپ هم‌زمان با فروپاشی و تداوم آتش‌بس ایران در ۲۰۲۶",
-        "title_en": "How Donald Trump’s Approval Rating Has Changed During Iran Ceasefire",
-        "summary": [
-            "این گزارش می‌گوید هر بار که آتش‌بس ایران در ۲۰۲۶ فرو ریخته، اقبال عمومی ترامپ کاهش پیدا کرده است؛ یعنی شکست توافق به‌عنوان عامل فشار سیاسی در آمریکا عمل کرده.",
-            "هم‌زمان، هر بار که آتش‌بس برقرار مانده، امتیاز ترامپ دوباره رشد کرده؛ بنابراین افکار عمومی به «پایداری آتش‌بس» واکنش مستقیم نشان می‌دهد.",
-            "نکته راهبردی این است که پویایی داخلی آمریکا نه از عملیات‌های نظامی به‌تنهایی، بلکه از نتیجه سیاسیِ کنترل‌پذیری تنش‌ها (فروپاشی یا استمرار آتش‌بس) تغذیه می‌شود."
-        ],
-        "impact": "پیوند مستقیم میان وضعیت آتش‌بس و رتبه رأی ترامپ نشان می‌دهد که استمرار یا شکست آن، اهرم مهمی برای محاسبات سیاسی آمریکا در قبال پرونده ایران بوده است.",
-        "tag": "دیپلماسی",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "Newsweek",
-        "url": "https://www.newsweek.com/how-donald-trump-approval-rating-changed-iran-ceasefire-12173837",
-        "clean_url": "https://www.newsweek.com/how-donald-trump-approval-rating-changed-iran-ceasefire-12173837",
-        "image": null,
-        "timestamp": 1783521900.0
-    },
-    {
-        "title_fa": "تلاش برای معامله و همزمانی با چرخش تهدید؛ خط زمانی مناقشه و گفت‌وگوها در ABC News",
-        "title_en": "Is an Iran deal ‘over’ and war back on? A timeline of the conflict and talks - ABC News",
-        "summary": [
-            "عنوان ABC News محور را بر این می‌گذارد که «توافق ایران» ممکن است عملاً در حال پایان‌یافتن باشد و همزمان بحث بازگشت «جنگ» دوباره روی میز قرار گرفته است؛ یعنی وضعیت از مسیر مذاکره به سمت تشدید تهدید گرایش پیدا کرده است.",
-            "این گزارش با ارائه «خط زمانی» تلاش می‌کند نشان دهد که گفت‌وگوها و تنش‌ها به‌صورت رفت‌وبرگشتی پیش رفته‌اند و تعیین‌کننده بودن گام‌های متقابل/ناتمام‌ماندن آن‌ها می‌تواند تصمیم را به سمت برخورد نظامی سوق دهد.",
-            "با توجه به اینکه متن ارسالی فقط عنوان را در اختیار می‌گذارد و جزئیات رویدادها نیامده، نمی‌توان ادعا کرد کدام تحرکات مشخص رخ داده؛ اما چارچوب خبری واضح است: ابهام در وضعیت «deal» به‌عنوان عامل محرک بازتعریف ریسک جنگ مطرح شده است."
-        ],
-        "impact": "ابهام درباره سرنوشت توافق و احتمال فعال‌شدن دوباره سناریوی درگیری، می‌تواند تصمیم‌گیری امنیتی را از مسیر مدیریت‌شده خارج و هزینه‌های منطقه‌ای را بالا ببرد.",
-        "tag": "تحلیل",
-        "urgency": 6,
-        "sentiment": -0.35,
-        "source": "ABC News - Breaking News, Latest News and Videos",
-        "url": "https://www.msn.com/en-us/news/world/is-an-iran-deal-over-and-war-back-on-a-timeline-of-the-conflict-and-talks/ar-AA27usK9",
-        "clean_url": "https://www.msn.com/en-us/news/world/is-an-iran-deal-over-and-war-back-on-a-timeline-of-the-conflict-and-talks/ar-AA27usK9",
-        "image": null,
-        "timestamp": 1783521251.0
-    },
-    {
-        "title_fa": "تداوم دور جدید حملات آمریکا به‌دنبال تهدید ترامپ و اعلام پایان آتش‌بس",
-        "title_en": "Iran live updates: US conducts new strikes after Trump threats",
-        "summary": [
-            "طبق گزارش USA TODAY، ترامپ بعد از ادامه چرخه «اقدام متقابل» حملات میان آمریکا و ایران اعلام کرد آتش‌بس میان دو کشور از نظر او تمام شده است.",
-            "هم‌زمان خبر از «حملات جدید» آمریکا در پی این ارزیابی منتشر شده که نشان می‌دهد واشنگتن مسیر را از حالت توقف به سمت تشدید عملیاتی تغییر داده است.",
-            "این رویداد مستقیماً ریسک محاسبه‌نادرست و پاسخ متقابل را بالا می‌برد، چون چارچوب سیاسیِ آتش‌بس عملاً کنار گذاشته شده و کنش-واکنش نظامی می‌تواند سریع‌تر از کنترل خارج شود."
-        ],
-        "impact": "اگر چرخه حملات بر پایه اعلام پایان آتش‌بس پیش برود، احتمال تشدید و گسترده‌تر شدن تقابل نظامی آمریکا و ایران به‌صورت فوری افزایش پیدا می‌کند.",
-        "tag": "تحریم",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "USA TODAY on MSN",
-        "url": "https://www.msn.com/en-us/news/world/iran-live-updates-us-conducts-new-strikes-after-trump-threats/ar-AA27t7CZ",
-        "clean_url": "https://www.msn.com/en-us/news/world/iran-live-updates-us-conducts-new-strikes-after-trump-threats/ar-AA27t7CZ",
-        "image": "http://www.bing.com/th?id=ONUT.lZBxDnaBC8Tzwe_t0LkPoQ&pid=News",
-        "timestamp": 1783520960.0
-    },
-    {
-        "title_fa": "چرا «توافق گام اول» آمریکا-ایران از ابتدا محکوم به شکست بود",
-        "title_en": "Why the US and Iran’s First-Step Deal Was Doomed to Fail",
-        "summary": [
-            "Newsweek به نقل از یک دیپلمات سابق آمریکا می‌گوید دستیابی به هر نوع توافق هسته‌ای بین ایران و آمریکا «به‌شدت نامحتمل» است؛ یعنی چارچوب مذاکره از منظر واشینگتن اساساً ظرفیت توافق پایدار ندارد.",
-            "چنین ارزیابی ضمنی می‌تواند نشان‌دهنده عمق شکاف‌های ساختاری میان دو طرف باشد: اعتماد سیاسی محدود، اختلاف بر سر الزامات اجرایی و نبود تضمین‌های قابل راستی‌آزمایی که برای تبدیل توافق به راهبردی بلندمدت لازم است.",
-            "در نبود یک مسیر توافق‌محور، پیامد عملی آن تداوم فضای عدم‌قطعیت است: اقتصاد و برنامه هسته‌ای همچنان در مدار فشار و ریسک می‌مانند و هر «گام اول» بدون توافق نهایی، صرفاً تأخیر در بن‌بست محسوب می‌شود."
-        ],
-        "impact": "این جمع‌بندی به معنای استمرار بن‌بست هسته‌ای و تضعیف امکان شکل‌گیری یک راه‌حل پایدار به جای «توافق مرحله‌ای» است.",
-        "tag": "هسته‌ای",
-        "urgency": 4,
-        "sentiment": -0.4,
-        "source": "Newsweek",
-        "url": "https://www.newsweek.com/why-the-us-and-irans-first-step-deal-was-doomed-to-fail-12173268",
-        "clean_url": "https://www.newsweek.com/why-the-us-and-irans-first-step-deal-was-doomed-to-fail-12173268",
-        "image": "http://www.bing.com/th?id=ONUT.RD924Dw5GuEltR2b2zk_uQ&pid=News",
-        "timestamp": 1783518540.0
     }
 ]

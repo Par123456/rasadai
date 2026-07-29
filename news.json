@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "حمله آمریکا و عربستان به گروه‌های موردحمایت ایران در عراق؛ تهدید به تشدید تنش",
+        "title_en": "US, Saudis attack Iran-backed groups in Iraq, threatening to intensify conflict",
+        "summary": [
+            "بر اساس گزارش رویترز، آمریکا و عربستان به گروه‌های موردحمایت ایران در عراق حمله کرده‌اند و همین اقدام عملاً ریسک چرخه تلافی‌جویانه را بالا می‌برد.",
+            "این رخداد مستقیماً در چارچوب رقابت نیابتی-منطقه‌ای معنا دارد: هر حمله‌ای به بازیگران نزدیک به تهران در عراق، فشار عملی بر شبکه‌های نفوذ و توان اختلال آن‌ها وارد می‌کند، اما در عین حال، محرک تشدید تنش را هم فعال می‌کند.",
+            "اثر فوری سیاسی-امنیتی آن، افزایش احتمال حملات متقابل و بی‌ثباتی بیشتر در عراق است؛ یعنی هزینه امنیتی برای دولت و نیروهای محلی بالا می‌رود و فضای مانور دیپلماسی محدودتر می‌شود."
+        ],
+        "impact": "این حملات، احتمال تبدیل رقابت نیابتی به درگیری گسترده‌تر در عراق را افزایش می‌دهد و می‌تواند امنیت منطقه‌ای و محاسبات تهران را برای ادامه نفوذ پرهزینه‌تر کند.",
+        "tag": "عراق",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Reuters",
+        "url": "https://www.msn.com/en-us/news/other/us-saudis-attack-iran-backed-groups-in-iraq-threatening-to-intensify-conflict/ar-AA28WL4U",
+        "clean_url": "https://www.msn.com/en-us/news/other/us-saudis-attack-iran-backed-groups-in-iraq-threatening-to-intensify-conflict/ar-AA28WL4U",
+        "image": null,
+        "timestamp": 1785299155.0
+    },
+    {
+        "title_fa": "ادعای سپاه درباره توقف ۳ نفتکش در تنگه هرمز؛ سیگنال تشدید ریسک برای تجارت و امنیت منطقه",
+        "title_en": "IRGC Navy says it 'targeted and stopped' 3 oil tankers over alleged violations in Strait of Hormuz",
+        "summary": [
+            "خبرگزاری آنادولو به نقل از نیروی دریایی سپاه می‌گوید این نیرو ۳ نفتکش را در تنگه هرمز «هدف قرار داده و متوقف کرده» است؛ دلیل اعلام‌شده، «نقض مقررات» از سوی این شناورهاست.",
+            "این اقدام یک پیام عملی از کنترل سخت‌گیرانه بر کریدور حیاتی عبور نفت است و می‌تواند به سرعت به افزایش ریسک بیمه، اختلال در مسیرهای دریایی و تشدید تنش‌های منطقه‌ای منجر شود.",
+            "از منظر راهبردی، چنین اقدامات ضبط‌محور بدون شفافیت قابل راستی‌آزمایی، معمولاً هزینه‌های فوری برای اقتصاد و اعتبار عملیاتی کشور ایجاد می‌کند و به ناپایداری محیط تجاری دامن می‌زند."
+        ],
+        "impact": "توقف نفتکش‌ها در تنگه هرمز، ریسک درگیری و اخلال در جریان تجارت انرژی را بالا می‌برد و فشار اقتصادی-امنیتی بر کل منطقه را تشدید می‌کند.",
+        "tag": "هرمز",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaHc2eFZUb1h3Tlp6ODMxMlpId3NUM01ybVZlSXEyRFFXVGplZDMtMXFLUHoxWGNWaVo2MkFvaUoyTnhQVlJ3VXYtXzg5cG1SaHpPWEtDVWxpeVlpOHZoSlRSS3FBd1BHbGVHZGducXEwenpHaHVKTnY3dUpUTEpRQ0hFa05lU1Z1VzRRVDN3MEhrSkdBNzRmc25PWmw4bS1fRzdqclNDM2hPOFF1N0dwZVpFREE3aGtkRTBITW9PQXRMNUFQM1NxSDFETzl4Z3p2QkxUTzJDZUlKSVFNbkVhNUpR?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaHc2eFZUb1h3Tlp6ODMxMlpId3NUM01ybVZlSXEyRFFXVGplZDMtMXFLUHoxWGNWaVo2MkFvaUoyTnhQVlJ3VXYtXzg5cG1SaHpPWEtDVWxpeVlpOHZoSlRSS3FBd1BHbGVHZGducXEwenpHaHVKTnY3dUpUTEpRQ0hFa05lU1Z1VzRRVDN3MEhrSkdBNzRmc25PWmw4bS1fRzdqclNDM2hPOFF1N0dwZVpFREE3aGtkRTBITW9PQXRMNUFQM1NxSDFETzl4Z3p2QkxUTzJDZUlKSVFNbkVhNUpR",
+        "image": null,
+        "timestamp": 1785294956.0
+    },
+    {
+        "title_fa": "ادعای آمریکا درباره رهگیری حمله موشکی «غافلگیرکننده» ایران پس از یک وقفه در درگیری‌ها",
+        "title_en": "US says it intercepted ‘surprise’ Iran missile attack on its forces in Middle East after lull in fighting",
+        "summary": [
+            "طبق گزارش گاردین، آمریکا می‌گوید پس از یک «لُع» درگیری‌ها، یک حمله موشکی غافلگیرکننده از سوی ایران به نیروهایش در منطقه رخ داده و سپس توسط پدافند رهگیری شده است.",
+            "این روایت نشان می‌دهد تاکتیک‌های ایران برای ایجاد اختلال در برنامه‌ریزی و کاهش آمادگی عملیاتی نیروهای آمریکایی همچنان فعال است، حتی وقتی سطح درگیری ظاهراً پایین می‌آید.",
+            "در چارچوب واقع‌گرایانه، پیام سیاسی این اقدام بیشتر از خودِ درگیری، متوجه فشار و عدم‌اطمینان مستمر روی نیروهای آمریکا و شرکای منطقه‌ای آن است؛ اما بدون جزئیات مستقل، میزان اثرگذاری واقعی حمله قابل سنجش نیست."
+        ],
+        "impact": "این نوع «حمله پس از وقفه» می‌تواند هزینه محاسباتی آمریکا را بالا ببرد و احتمال تداوم چرخه رویارویی محدود اما پرریسک در منطقه را افزایش دهد.",
+        "tag": "مداخله",
+        "urgency": 8,
+        "sentiment": -0.4,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUnhldC1JdU5femNoX1VfRUkycHJIWE00Q1hqR1dhV2tpX0JWbm9pMmJjWUdod2Jib01KRjhzNTRNUU5tQ0UxZkN3eTZhcl9pVFJtYzUxRUQwcVNjWk8tb21BS2t0c0drM1hGRU9TMUlLWGtpb2RrNmFhS3ZoYVEweHZaNjM5SE0?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUnhldC1JdU5femNoX1VfRUkycHJIWE00Q1hqR1dhV2tpX0JWbm9pMmJjWUdod2Jib01KRjhzNTRNUU5tQ0UxZkN3eTZhcl9pVFJtYzUxRUQwcVNjWk8tb21BS2t0c0drM1hGRU9TMUlLWGtpb2RrNmFhS3ZoYVEweHZaNjM5SE0",
+        "image": null,
+        "timestamp": 1785289426.0
+    },
+    {
         "title_fa": "ایران حمله موشکی غافلگیرکننده به نیروهای آمریکا در خاورمیانه انجام داد",
         "title_en": "Iran Launches Surprise Missile Attack on U.S. Forces in the Middle East",
         "summary": [
@@ -36,6 +90,24 @@
         "timestamp": 1785288306.0
     },
     {
+        "title_fa": "سعودی اعلام کرد حملات مشترک با آمریکا علیه شبه‌نظامیان مورد حمایت ایران در عراق آغاز شده است",
+        "title_en": "Saudi Arabia says it launched joint strikes with US on Iran-backed militias in Iraq",
+        "summary": [
+            "بر اساس گزارش Dunya News، عربستان سعودی اعلام کرده حملات مشترک با آمریکا را علیه «شبه‌نظامیان مورد حمایت ایران» در عراق شروع کرده است؛ یعنی وارد فاز عملیات نظامی مستقیم‌تر برای مهار این شبکه‌ها شده‌اند.",
+            "این خبر در ادامه همان روند تشدید تنش‌هاست که در متن به «جنگ آمریکا-ایران» و نیز راهبردهای شکست/بازگشت آتش‌بس اشاره می‌کند و نشان می‌دهد آتش‌بس‌ها شکننده و قابل برگشت‌اند.",
+            "در همان چارچوب، متن به بی‌اعتنایی ایران به برنامه‌های غیرعملیاتی عمان برای مدیریت مشترک تنگه هرمز و همچنین رد «طرح‌های غیرواقعی» اشاره دارد که هم‌زمان با عملیات‌های منطقه‌ای، فضای مذاکره و مدیریت بحران را محدود می‌کند."
+        ],
+        "impact": "ورود رسمی عربستان به عملیات مشترک با آمریکا در عراق، ریسک درگیری‌های نیابتی را به سطح عملیات هماهنگ‌تر می‌برد و می‌تواند چرخه تشدید را سریع‌تر از کانال‌های سیاسی پیش ببرد.",
+        "tag": "عراق",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Dunya News",
+        "url": "https://dunyanews.tv/en/Event-Reporting/268",
+        "clean_url": "https://dunyanews.tv/en/Event-Reporting/268",
+        "image": "https://img.dunyanews.tv/live_event/268_88001876.jpg",
+        "timestamp": 1785283200.0
+    },
+    {
         "title_fa": "ادعای آمریکا: حمله موشکی ایران به نیروهای آمریکایی در خاورمیانه با رهگیری کامل",
         "title_en": "Iran launched multiple missiles at American forces, U.S. military says",
         "summary": [
@@ -52,6 +124,24 @@
         "clean_url": "https://www.yahoo.com/news/us/articles/iran-launches-attempted-surprise-attack-232735626.html",
         "image": null,
         "timestamp": 1785279295.0
+    },
+    {
+        "title_fa": "ایران در هفته‌های آینده میزبان سامانه‌های موشکی دوش‌پرتاب چینی می‌شود",
+        "title_en": "Exclusive-Iran to get Chinese shoulder-launched missile systems in weeks, sources say",
+        "summary": [
+            "بر اساس گزارش رویترز (به نقل از سه منبع)، ایران قرار است ظرف چند هفته نخستین محموله از مجموع تا ۴۰۰ سامانه موشکی پدافند هوایی دوش‌پرتاب ساخت چین را دریافت کند؛ یعنی یک انتقال تسلیحاتی مرحله‌ای در حال شکل‌گیری است.",
+            "این خبر نشان می‌دهد برنامه نوسازی یا تکمیل ظرفیت پدافند هوایی/افزایش قابلیت‌های ضدپروژکتیل برای نیروهای زمینی با اتکا به تامین خارجی، بدون اتکا به تولید داخلی پایدار، پیش می‌رود.",
+            "چنین خریدی فشار خارجی و محدودیت‌های مالی را به‌جای توقف برنامه‌ها، تبدیل به آزمون «ادامه بقا» می‌کند: وقتی سخت‌گیری‌ها باعث کاهش منابع می‌شود، رژیم با قراردادهای خارجی تلاش می‌کند شکاف توان را با تجهیزات آماده پر کند."
+        ],
+        "impact": "دریافت قریب‌الوقوع لانچرهای دوش‌پرتاب چینی می‌تواند کارایی سامانه‌های دفاع هوایی رژیم را در کوتاه‌مدت افزایش داده و ریسک عملیاتی را برای هر قدرت خارجیِ درگیر کاهش‌ناپذیر کند.",
+        "tag": "تسلیحات",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "Reuters on MSN",
+        "url": "https://www.msn.com/en-us/news/other/exclusive-iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/ar-AA28VyRo",
+        "clean_url": "https://www.msn.com/en-us/news/other/exclusive-iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/ar-AA28VyRo",
+        "image": "http://www.bing.com/th?id=ONUT.4lapT7D-RuStx40CsdmHdQ&pid=News",
+        "timestamp": 1785269188.0
     },
     {
         "title_fa": "گاردین: جنگِ بی‌پایان علیه ایران دردش را در آمریکا به شکل گرانی و فشار اجتماعی نشان می‌دهد",
@@ -124,6 +214,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdzlYblZmc3VEYTdUN29pNkhDYUs1T2pqc2FIVE5Xb3gwNnlOS2dpWVUwNXpnNGxXck1NNk9BcFFaSzEycVNsa1V4OXVDeFo2dDNpbG5yandJMW1VRHpBRjZfOEQyWHpYVzZhTjEtdEswWEo1SG9YcjRfQUg2N2psUGZhbUUtUEhFMzFQOWhSVW9xdUhXaHdDd0FoNVVaQkJLWUlobmk4aTFDWXRWZ0gzTGxn0gG3AUFVX3lxTE1iZlEzcE4tRHBXcDR6TWp4SUVnek9yYmZFQ1J2Q1hzQWFuWC1zMkQ2aG5BTDdiUkVUbXduMFBZMW5GbHlzWnk3aDcxdnVsanBJU2RiUWlSSlZNRE5JcXJ2ZGtUWEZZRW1EaXJpZjI2Nm42cTRZLTduVGZxMDB1RmYtWTliVklXQ3pUbFVJaG9KckFwQVdpX050clhBSnNuM1duRkNWdHhCU3FiNUZETkVKbml4bmpoOA",
         "image": null,
         "timestamp": 1785261902.0
+    },
+    {
+        "title_fa": "از سرگیری حملات میان ایران و آمریکا؛ شلیک موشکی بالستیک و ضربه متقابل بر روی پهنه‌های منطقه‌ای",
+        "title_en": "Iran and US trade strikes, shattering brief lull in fighting",
+        "summary": [
+            "نظامیان آمریکا (سنتکام) اعلام کردند ایران «چندین» موشک بالستیک را برای «حمله غافلگیرانه» به نیروهای آمریکایی در خاورمیانه پرتاب کرده و هر موشک‌ها «موفقیت‌آمیز رهگیری» شده‌اند؛ هم‌زمان ایران مدعی هدف‌گیری یک پایگاه آمریکایی در اردن است.",
+            "سنتکام در چارچوب پاسخ متقابل، از حمله به «تروریست‌های همسو با ایران» در عراق خبر داد و هم‌زمان اعلام کرد این اقدام واکنش به بیش از ۳۰ حمله پهپادی هدایت‌شده از سوی سپاه در ۷۲ ساعت گذشته بوده است؛ از سوی دیگر نیروهای سعودی نیز از رهگیری و انهدام پهپادهای هدف‌گیری تأسیسات نفتی در شرق عربستان سخن گفتند.",
+            "با پایان یک وقفه کوتاه درگیری—که برای بازگرداندن مذاکرات طراحی شده بود—آژیر جنگ دوباره بالا رفته است؛ در همین گزارش همچنین ادعاهایی از اصابت سپاه به سه نفتکش در تنگه هرمز مطرح شده و دسترسی و کنترل هرمز همچنان گره اصلی در مذاکرات عنوان شده است."
+        ],
+        "impact": "این چرخه «حمله/پاسخ» با محوریت هرمز و تأسیسات انرژی، ریسک تشدید سریع‌تر درگیری را بالا می‌برد و هر مسیر مذاکره را بی‌ثبات می‌کند.",
+        "tag": "جنگ",
+        "urgency": 9,
+        "sentiment": -0.9,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/us/articles/iran-and-us-trade-strikes-shattering-brief-lull-in-fighting-004230626.html",
+        "clean_url": "https://www.yahoo.com/news/us/articles/iran-and-us-trade-strikes-shattering-brief-lull-in-fighting-004230626.html",
+        "image": "http://www.bing.com/th?id=ONUT.PGBZJSP-pSHsgDDvsADpwA&pid=News",
+        "timestamp": 1785258000.0
     },
     {
         "title_fa": "نویسنده آمریکایی در حال توجیه‌گری برای ایران در واشنگتن",
@@ -5290,113 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOclV6TVN4c2RNazFjVFJuczhJN3Y0bGp0alRJMEk2VVpITDlOTWtMS2lRTFZiaVBSVDFIS3RaN2t3NktGVDBHYWVmRDVwMXpiZDZ6RjBVaUZsbkM4b2JGdlJDTElFRVc5SmZJalJoTS1fMzhVZTFKYVloZm5GRmhTaW50cFFLaVXSAYwBQVVfeXFMTnVsMWxYUDhpQ1Z6U2liVXc3SGZVc2RtVGJnTHhFU3RrZFVWamdBak9BdlBkS05URHlQdE9wZ0l2OTU5OWhVdE9nNkx2a0szQ2hqLUFhMWVEYWNKZ1Z4UXBNajQ5c0hGSnctWld4RGRvZmVWQWVwMzZSak9abWkwZTI5ZFpiYUM2MmttcDc",
         "image": null,
         "timestamp": 1783533988.0
-    },
-    {
-        "title_fa": "آمریکا از «تشدید ضربات» تازه علیه ایران خبر داد؛ ادعای پاسخ سپاه به حملات در بحرین و کویت",
-        "title_en": "US military says it is carrying out fresh strikes on Iran, after Trump says accord is 'over'",
-        "summary": [
-            "رویترز می‌گوید آمریکا موجی از حملات نظامی علیه ایران را آغاز کرده و هم‌زمان «اعزام/اجرای ضربات تازه» را نیز در چارچوب عملیات اعلام کرده است؛ این روند پس از سخنان دونالد ترامپ مبنی بر اینکه توافق «تمام شده» شدت گرفته است.",
-            "سپاه پاسداران در واکنش، هدف‌گیری سایت‌های نظامی آمریکا را در بحرین و کویت اعلام کرده است؛ این یعنی بازیِ بازدارندگی وارد فاز تبادل مستقیم ادعاهای عملیاتی شده، نه صرفاً تهدیدهای سیاسی.",
-            "ریشه فوری تنش در گزارش رویترز «حمله به نفتکش‌ها» عنوان شده؛ اما چون جزئیات و اثبات‌پذیری عملیاتی در متن شما نیامده، تنها می‌توان نتیجه گرفت که محرک آغازین مناقشه همین پرونده امنیت دریایی بوده و اکنون به درگیری گسترده‌تر میان طرف‌ها کشیده شده است."
-        ],
-        "impact": "با تداوم چرخه حمله-پاسخ و تبدیل تهدیدها به ادعاهای عملیاتی در چند کشور منطقه، ریسک گسترش درگیری و درگیر شدن بیشتر نیروهای آمریکا در خلیج فارس به‌طور جدی افزایش می‌یابد.",
-        "tag": "escalation",
-        "urgency": 9,
-        "sentiment": -0.9,
-        "source": "Reuters",
-        "url": "https://www.reuters.com/world/middle-east/iran-targets-sites-bahrain-kuwait-after-wave-us-strikes-2026-07-08/",
-        "clean_url": "https://www.reuters.com/world/middle-east/iran-targets-sites-bahrain-kuwait-after-wave-us-strikes-2026-07-08",
-        "image": null,
-        "timestamp": 1783530060.0
-    },
-    {
-        "title_fa": "ترامپ: احتمال شروع دوباره درگیری با ایران را بعید می‌دانم",
-        "title_en": "Trump says he doesn't think Iran conflict will start again",
-        "summary": [
-            "رویترز گزارش می‌کند دونالد ترامپ گفته است درگیری ایران «از نو شروع نخواهد شد» و نگاه او به تشدید فوری تنش‌ها منفی/نگران‌کننده نیست.",
-            "این اظهارنظر بیشتر یک سیگنال سیاسی-بازدارنده است تا خبرِ عملیاتی؛ یعنی ادعای آغاز یا عدم آغاز درگیری، بدون ارائه شواهد میدانی در گزارش مطرح شده است.",
-            "با توجه به اینکه خبر به اقدامات مشخص تحریمی یا عملیات نظامی اشاره نمی‌کند، اثر مستقیم فوری بر اقتصاد یا وضعیت داخلی ایران از جنس این خبرِ اظهارنظر نیست."
-        ],
-        "impact": "این اظهارنظر می‌تواند موقتاً انتظارات بازار و محاسبات طرف‌ها برای تشدید را کاهش دهد، اما از نظر عملیاتی تغییری در وضعیت رژیم یا فشارهای ساختاری ایجاد نمی‌کند.",
-        "tag": "دیپلماسی",
-        "urgency": 3,
-        "sentiment": 0.1,
-        "source": "Reuters",
-        "url": "https://www.reuters.com/video/watch/idRW638308072026RP1/",
-        "clean_url": "https://www.reuters.com/video/watch/idRW638308072026RP1",
-        "image": null,
-        "timestamp": 1783529819.0
-    },
-    {
-        "title_fa": "آژیرهای هشدار موشکی در بحرین و قطر همزمان با دور جدید حملات هوایی آمریکا علیه ایران",
-        "title_en": "Missile alerts sound in Bahrain and Qatar after US launches new round of airstrikes against Iran",
-        "summary": [
-            "خبرگزاری آسوشیتدپرس گزارش می‌کند که همزمان با آغاز دور جدید حملات هوایی آمریکا علیه ایران، هشدارهای موشکی در بحرین و قطر به صدا درآمد و پیامد مستقیم این تشدید برای امنیت منطقه ثبت شد.",
-            "دونالد ترامپ در ابتدا با اشاره به اینکه حملات ایران پایان آتش‌بس را نشان می‌دهد، تهدید کرد که حملات نظامی بیشتری را علیه ایران انجام خواهد داد؛ سپس در ادامه گزارش، گفته‌های او درباره جزئیات/ادامه حملات تعدیل یا تکمیل شده است (متن در اختیار ما ناقص است).",
-            "این رویداد نشان می‌دهد هرچند هدف اعلامی عملیات آمریکا «ایران» است، هزینه راهبردی آن با ورود خطر در کشورهای هم‌پشتوانه آمریکا در خلیج فارس—مانند بحرین و قطر—به‌صورت فوری قابل مشاهده است."
-        ],
-        "impact": "تشدید چرخه حملات و هشدارهای موشکی در پیرامون خلیج فارس احتمال بی‌ثباتی سریع‌تر منطقه‌ای و فرسایش بیشتر هرگونه چارچوب آتش‌بس را بالا می‌برد.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "Associated Press News on MSN",
-        "url": "https://www.msn.com/en-us/news/world/trump-threatens-iran-with-more-strikes-but-says-recent-fighting-does-not-mean-a-return-to-war/ar-AA27qYmg",
-        "clean_url": "https://www.msn.com/en-us/news/world/trump-threatens-iran-with-more-strikes-but-says-recent-fighting-does-not-mean-a-return-to-war/ar-AA27qYmg",
-        "image": "http://www.bing.com/th?id=ONUT.Iva6yS5JFJe83XHquNYLEw&pid=News",
-        "timestamp": 1783529104.0
-    },
-    {
-        "title_fa": "هشدار ترامپ به ایران: آماده‌سازی برای حملات بیشتر پس از پایان آتش‌بس",
-        "title_en": "Trump warns Iran that US is preparing for more strikes after saying ceasefire is over",
-        "summary": [
-            "ترامپ اعلام کرده که آتش‌بس به پایان رسیده و آمریکا خود را برای حملات بیشتر علیه ایران آماده می‌کند.",
-            "این پیام به‌عنوان تشدید فشار نظامی و ایجاد بازدارندگی از مسیر تهدید عملیاتی مطرح شده، نه توافق سیاسی جدید.",
-            "گزارش نشان می‌دهد تصمیم‌گیری واشنگتن از حالت «توقف درگیری» خارج شده و وارد فاز «افزایش کنش نظامی» شده است."
-        ],
-        "impact": "این حرکت ریسک تشدید مستقیم و چرخه انتقام‌جویی را بالا می‌برد و می‌تواند محاسبات امنیتی و تصمیم‌سازی ایران را به سمت اقدامات فوری و تلافی‌جویانه سوق دهد.",
-        "tag": "escalation",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeVJsdUxKczZqX0ZXQjktQ0Q4V3o0WV9MTHNMNWtLSlFsNkNPaDUybW82cWFQMTdMc0p2SGZJdVdscE9NempFRHZKbjRXUEl0bnoyRnNFelFhcGxyV2QwZVZvX1FhTUl2U3N5V1UxUXVROUNlUmVOMVhtZi1PSlU5MGNpM0RpeGlLQ2RMU2c2dlNGNmhWY3dxOC1YcXlWaV9seGg2NlRSNmlJQXBqMVJkZmt4czdvY2FHTmFHNDI3SWU2Z0ZGSWNBR1otQWNOQQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeVJsdUxKczZqX0ZXQjktQ0Q4V3o0WV9MTHNMNWtLSlFsNkNPaDUybW82cWFQMTdMc0p2SGZJdVdscE9NempFRHZKbjRXUEl0bnoyRnNFelFhcGxyV2QwZVZvX1FhTUl2U3N5V1UxUXVROUNlUmVOMVhtZi1PSlU5MGNpM0RpeGlLQ2RMU2c2dlNGNmhWY3dxOC1YcXlWaV9seGg2NlRSNmlJQXBqMVJkZmt4czdvY2FHTmFHNDI3SWU2Z0ZGSWNBR1otQWNOQQ",
-        "image": null,
-        "timestamp": 1783528412.0
-    },
-    {
-        "title_fa": "آرامش بازار نفت با تشدید تنش‌های تازه از هم پاشید",
-        "title_en": "Oil Market Calm Is Shattered by Fresh Hostilities",
-        "summary": [
-            "گزارش تأکید می‌کند که قیمت نفت تا زمانی که آمریکا و ایران درباره وضعیت تنگه هرمز به توافق نرسند، نوسانی و بی‌ثبات خواهد ماند.",
-            "«درگیری‌های تازه» به‌عنوان عامل اصلی برهم‌زننده آرامش بازار معرفی شده‌اند و نشان می‌دهند بازار وارد فاز ریسک‌پذیری بالا شده است.",
-            "عدم‌حل‌وفصل اختلاف امنیتی-تجاری پیرامون هرمز، به‌طور مستقیم به عنوان گلوگاه ثبات در زنجیره عرضه و انتظارات سرمایه‌گذاران مطرح می‌شود."
-        ],
-        "impact": "بی‌ثباتی تنگه هرمز ریسک عملیاتی و روانی برای عرضه نفت را بالا می‌برد و هزینه‌های اقتصادی را در هر دو سوی بازار تشدید می‌کند.",
-        "tag": "نفت",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/08/business/energy-environment/iran-war-oil-prices.html",
-        "clean_url": "https://www.nytimes.com/2026/07/08/business/energy-environment/iran-war-oil-prices.html",
-        "image": "https://static01.nyt.com/images/2026/07/08/multimedia/2026-july-biz-promos-july-8-oil/2026-july-biz-promos-july-8-oil-facebookJumbo.png",
-        "timestamp": 1783527540.0
-    },
-    {
-        "title_fa": "شکاف‌های درونی در ایران با حمله فیزیکی به رئیس‌جمهور و وزیرخارجه در جریان مذاکرات با آمریکا شعله‌ور شد",
-        "title_en": "Divisions Festered Within Iran Over Talks With the U.S.",
-        "summary": [
-            "حامیان یک جناح تندرو که با هرگونه معامله با آمریکا مخالفت دارد، این هفته رئیس‌جمهور و وزیر امور خارجه را مورد حمله فیزیکی قرار دادند؛ نشانه مستقیم از فروپاشی کنترل سیاسی در رأس ساختار تصمیم‌گیری.",
-            "این رخداد نشان می‌دهد اختلاف بر سر مسیر مذاکره با آمریکا نه‌تنها سیاسی، بلکه امنیتی و خشونت‌بار شده و هزینه‌های داخلی هر امتیاز یا سازش احتمالی را بالا می‌برد.",
-            "در غیاب سازوکارهای بازدارنده برای حل اختلاف، فضا برای افزایش بی‌ثباتی داخلی فراهم می‌شود؛ هر تصمیم درباره گفت‌وگو با واشنگتن می‌تواند به واکنش‌های سازمان‌یافته یا همدست‌محور تبدیل شود."
-        ],
-        "impact": "حمله فیزیکی به مقامات عالی، به‌طور مستقیم مشروعیت اجرایی و توان مدیریت اختلافات داخلی را تضعیف می‌کند و احتمال تشدید درگیری‌های درون‌نظام را بالا می‌برد.",
-        "tag": "اتحادشکنی",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/08/world/middleeast/iran-divisions-us-leaders.html",
-        "clean_url": "https://www.nytimes.com/2026/07/08/world/middleeast/iran-divisions-us-leaders.html",
-        "image": "http://www.bing.com/th?id=ONUT.5KhYY8f1blD0wyYrNOU6zw&pid=News",
-        "timestamp": 1783526400.0
     }
 ]

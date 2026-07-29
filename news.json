@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "حمله ایران به پایگاه‌های آمریکا همزمان با دیدار ترامپ و نتانیاهو (الجزیره)",
+        "title_en": "Iran attacks US bases in Middle East as Trump meets Netanyahu",
+        "summary": [
+            "گزارش ال‌جزیره از «حمله ایران به پایگاه‌های آمریکا در منطقه» هم‌زمان با «دیدار ترامپ و نتانیاهو» خبر می‌دهد، اما متن ارسالی هیچ جزئیات فنی/زمانی درباره نوع حمله یا تلفات ارائه نمی‌کند.",
+            "هم‌زمانی رویداد با نشست رهبری آمریکا و اسرائیل نشان می‌دهد تهران پیام سیاسی-امنیتی را به‌صورت همزمان با فاز تصمیم‌گیری واشنگتن/تل‌آویو ارسال کرده، بدون اینکه در متن ارسالی بتوان ارتباط علّی دقیق‌تر را اثبات کرد.",
+            "با توجه به نبود اطلاعات تکمیلی در متن، اثر فوری قابل اتکا بیشتر در سطح «افزایش ریسک تقابل مستقیم» در منطقه قابل تحلیل است تا ارزیابی قطعی از پیامدهای اقتصادی یا فروپاشی داخلی."
+        ],
+        "impact": "این رخداد، صرف‌نظر از جزئیات منتشرشده، سطح تنش میان ایران و آمریکا را بالا می‌برد و خطر چرخه پاسخ‌متقابل را افزایش می‌دهد.",
+        "tag": "تنش",
+        "urgency": 9,
+        "sentiment": -0.7,
+        "source": "Al Jazeera",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-28/trump-netanyahu-meet-at-white-house-us-dials-back-iran-threats",
+        "clean_url": "https://www.bloomberg.com/news/articles/2026-07-28/trump-netanyahu-meet-at-white-house-us-dials-back-iran-threats",
+        "image": null,
+        "timestamp": 1785328871.0
+    },
+    {
         "title_fa": "سعودی عربستان به حملات نظامی آمریکا علیه نیروهای نیابتی ایران می‌پیوندد",
         "title_en": "Saudi Arabia joins U.S. military strikes on Iranian proxies",
         "summary": [
@@ -286,6 +304,24 @@
         "clean_url": "https://www.msn.com/en-us/news/other/exclusive-iran-to-get-chinese-shoulder-launched-missile-systems-in-weeks-sources-say/ar-AA28VyRo",
         "image": "http://www.bing.com/th?id=ONUT.4lapT7D-RuStx40CsdmHdQ&pid=News",
         "timestamp": 1785269188.0
+    },
+    {
+        "title_fa": "پرش قیمت نفت و گسترش درگیری: حمله هوایی مشترک آمریکا و عربستان علیه نیروهای نیابتی ایران در عراق",
+        "title_en": "Iran War Live Updates: U.S. and Saudi Airstrikes Drag More Countries Into Fighting",
+        "summary": [
+            "به گزارش نیویورک‌تایمز، آمریکا و عربستان اعلام کرده‌اند که حملات هوایی مشترک علیه نیروهای نیابتی ایران در عراق انجام داده‌اند و همین خبر به جهش قیمت جهانی نفت منجر شده است.",
+            "درگیری مستقیمِ محور ایران با یک جبهه جدید (عراق) و واکنش بازار انرژی، نشان می‌دهد که هزینه‌های ژئوپلیتیک فوراً به اقتصاد بیرونی رژیم و شبکه‌هایش فشار می‌آورد.",
+            "گسترش دامنه جنگ به «کشورهای بیشتر» که در تیتر آمده، یعنی ریسک درگیر شدن بازیگران منطقه‌ای افزایش یافته و این می‌تواند محیط امنیتی و محاسبات عملیاتی تهران را بی‌ثبات‌تر کند."
+        ],
+        "impact": "این رخداد از مسیر نااطمینانی انرژی، فشار فوری بر درآمد و ثبات اقتصادی بلندمدت می‌آورد و همزمان احتمال تعمیق درگیری منطقه‌ای علیه شبکه‌های نیابتی ایران را بالا می‌برد.",
+        "tag": "هواپیما",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/live/2026/07/28/world/iran-us-strikes-iraq-trump",
+        "clean_url": "https://www.nytimes.com/live/2026/07/28/world/iran-us-strikes-iraq-trump",
+        "image": "http://www.bing.com/th?id=ONUT.46UAcgvxnERswcrNrg62zw&pid=News",
+        "timestamp": 1785268080.0
     },
     {
         "title_fa": "گاردین: جنگِ بی‌پایان علیه ایران دردش را در آمریکا به شکل گرانی و فشار اجتماعی نشان می‌دهد",
@@ -5362,41 +5398,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX1RXNG9BN3ZEcXM5NjJmM01RaG13YzJqTVg5RFZIbTlHYTd6UzZjTDFXeG9MckpEUjZLRXJLM19FS3l6U25zR2xyaTFrb0hLeW5mNUhfSWJHYzl2WW1rQlNqSzRMd1ZZM3dsMW9wTkMxUHUwWW5RZjBnLWZfOFQ5T1piT0dtVnlfOGJjZ3RRNGhfSVBjUFZxT0lSMm1yTUNsQkVyYTlRUGJtd0pRT3c",
         "image": null,
         "timestamp": 1783547100.0
-    },
-    {
-        "title_fa": "تشدید حملات آمریکا علیه ایران هم‌زمان با فروپاشی «توافق موقت»",
-        "title_en": "US carries out another wave of strikes on Iran",
-        "summary": [
-            "آمریکا موج جدیدی از حملات را در روز چهارشنبه آغاز کرد؛ فرماندهی مرکزی آمریکا اعلام کرد این حملات با هدف کاهش توان ایران برای تهدید «آزادی کشتیرانی» در تنگه هرمز انجام شده و به‌عنوان پاسخ به «پرخاشگری علیه کشتیرانی تجاری و خدمه غیرنظامی» مطرح شده است.",
-            "رسانه‌های دولتی ایران از انفجارهایی در بندرعباس، سریک و استان بوشهر (محل مجموعه نیروگاه هسته‌ای) خبر دادند و تلویزیون دولتی همچنین از انفجارهای بیشتر در جزیره ابوموسی گفت؛ جزیره‌ای که به‌عنوان بخشی از اسکلت کنترل ایران بر تنگه هرمز توصیف می‌شود.",
-            "این حملات چند ساعت پس از آن انجام شد که ترامپ گفت توافق موقت برای پایان جنگ «تمام شده»؛ او در نشست ناتو در آنکارا احتمال حمله «سخت‌تر» در همان شب را مطرح کرد و وعده داد اقدام آمریکا «بلندمدت» نخواهد بود، اما در عین حال از احتمال «تمام کردن کار» هم سخن گفت."
-        ],
-        "impact": "با توجه به تمرکز حملات بر بنادر و مناطق کلیدی تنگه هرمز، احتمال افزایش چرخه تلافی‌جویانه و آشوب عملیاتی در کشتیرانی بین‌المللی بالاست و هزینه امنیتی-اقتصادی برای تهران و بازیگران منطقه‌ای بیشتر می‌شود.",
-        "tag": "تنش",
-        "urgency": 9,
-        "sentiment": -0.9,
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/jul/08/us-carries-out-another-wave-of-strikes-on-iran",
-        "clean_url": "https://www.theguardian.com/world/2026/jul/08/us-carries-out-another-wave-of-strikes-on-iran",
-        "image": null,
-        "timestamp": 1783546560.0
-    },
-    {
-        "title_fa": "حملات نفتکش‌ها؛ سناریوی ایران‌هراسی یا محاسبه دوباره؟",
-        "title_en": "Tanker Attacks Risk Overplaying Iran’s Hand, Not a First, and Rekindling a War",
-        "summary": [
-            "مطلب با تکیه بر سابقه رفتاری ایران هشدار می‌دهد که بازی دادن بیش از حد «دست ایران» در واکنش‌ها می‌تواند به محاسبات غلط و تشدید خطر جنگ منجر شود؛ نکته کلیدی این است که حمله یا درگیری الزاماً اولین یا قابل‌پیش‌بینی‌ترین رخداد در این الگو نیست.",
-            "به‌جای فرض‌کردن پیروزی یا کنترل سریع، این متن روی این ریسک تمرکز دارد که ایران در صورت فشار خارجی «سر جای خودش می‌ایستد» حتی اگر متحمل زیان‌های جدی شود؛ یعنی چرخه اقدام-پاسخ می‌تواند از کنترل خارج شود.",
-            "هم‌زمان، موضوع «نفوذ تازه ایران بر گذرگاه‌های حیاتی تنگه هرمز» به‌عنوان عامل بازدارنده/محاسباتی مطرح می‌شود: بازیگران مقابل ممکن است برای مهار این نفوذ وسوسه شوند، اما همین وسوسه می‌تواند خطر درگیری گسترده‌تر را بالا ببرد."
-        ],
-        "impact": "این گزارش نشان می‌دهد که تحلیل‌های مبتنی بر بزرگ‌نمایی اثرگذاری ایران ممکن است واکنش‌های تهاجمی را تسریع کند و احتمال بازگشت به جنگ را بالا ببرد.",
-        "tag": "هشدار",
-        "urgency": 8,
-        "sentiment": -0.4,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/09/world/middleeast/iran-us-war-strait-of-hormuz.html",
-        "clean_url": "https://www.nytimes.com/2026/07/09/world/middleeast/iran-us-war-strait-of-hormuz.html",
-        "image": "http://www.bing.com/th?id=ONUT.ffbjE1LDa31AfeumtGLShw&pid=News",
-        "timestamp": 1783544400.0
     }
 ]

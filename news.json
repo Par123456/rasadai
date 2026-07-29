@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "بن‌بست عربستان؛ تلاش برای خروج از آتش جنگ احتمالی آمریکا و ایران",
+        "title_en": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
+        "summary": [
+            "BBC وضعیت عربستان سعودی را به‌عنوان یک بازیگر «بین دو خطر» توصیف می‌کند: نزدیک‌شدن به آمریکا می‌تواند آن را در معرض درگیری با ایران قرار دهد، در حالی‌که فاصله گرفتن هم می‌تواند هزینه‌های سیاسی و امنیتی برای ریاض داشته باشد.",
+            "طبق گزارش، عربستان در چارچوب سیاست‌های احتیاطی خود می‌کوشد از هرگونه اقدام مستقیم یا ناگزیر که آن را در جنگ آمریکا و ایران درگیر کند، دور بماند؛ اما همین احتیاط، عملاً فضای تصمیم‌گیری را برایش محدود می‌کند.",
+            "این گزارش نشان می‌دهد که رقابت‌ها و ائتلاف‌های منطقه‌ای، حتی بدون ورود مستقیم عربستان به جنگ، می‌تواند آن را به عرصه پیامدهای امنیتی و ریسک‌های متقابل بکشاند."
+        ],
+        "impact": "بن‌بست عربستان یعنی تشدید ریسک‌های امنیتی برای کل منطقه، حتی قبل از آن‌که درگیری مستقیم شکل بگیرد.",
+        "tag": "منطقه",
+        "urgency": 8,
+        "sentiment": -0.4,
+        "source": "BBC",
+        "url": "https://www.msn.com/en-us/news/world/saudi-arabia-s-dilemma-as-it-tries-to-stay-out-of-us-iran-war/ar-AA28ZXVP",
+        "clean_url": "https://www.msn.com/en-us/news/world/saudi-arabia-s-dilemma-as-it-tries-to-stay-out-of-us-iran-war/ar-AA28ZXVP",
+        "image": null,
+        "timestamp": 1785350491.0
+    },
+    {
+        "title_fa": "ترامپ و نتانیاهو «همه گزینه‌ها»، از جمله حمله به ایران را بررسی کردند",
+        "title_en": "Trump and Netanyahu explored all Iran options including attack, Israeli official says",
+        "summary": [
+            "به گفته یک مقام اسرائیلی، ترامپ و نتانیاهو درباره طیفی از گزینه‌ها علیه ایران از جمله امکان حمله گفت‌وگو کرده‌اند؛ یعنی سطح تصمیم‌گیری وارد فاز سناریومحور و عملیاتی شده است.",
+            "این نوع چارچوب‌ریزی به‌جای تمرکز صرف بر فشار سیاسی، نشان می‌دهد که مسیر نظامی در محاسبات نزدیک به سطح سیاست رسمی قرار گرفته است (حداقل در سطح هماهنگی واشنگتن-تل‌آویو).",
+            "با توجه به گزارش رویترز، اطلاعات مشخصی درباره زمان، هدف، یا نوع اقدام ارائه نشده؛ بنابراین ارزیابی اثرگذاری باید بر «بالا رفتن احتمال اقدام» در کنار نبود جزئیات اجرایی متمرکز بماند."
+        ],
+        "impact": "بررسی صریح گزینه‌های نظامی، احتمال تشدید تنش و خطای محاسباتی در سطح منطقه را بالا می‌برد، حتی اگر جزئیات عملیات اعلام نشده باشد.",
+        "tag": "تهدید",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNGRMX1g5X0U3ckZtQjhIMHFGMHVjWmZoNlU5bDBydGRabk5LR1dGUUNSaXFHWUQyWnJqd2VJS09KSmU3ZXVtVjBqemVDdTJJNE9JVDkxTm5udWZ1bVRYYmxUdmExbHFsdENjc2N3Yi15R0tEVUxuRXJiQUk4akd2dy1ZU3g5S21wNjhTX29NODVtaUNRU2JoSi04T29pUzNFMGtKR3cyZUN1RF8zZEVTZTFxSkhXZU9ESHphSWhhR1R4ZUlMSnNsVlNQTUxwRTg?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNGRMX1g5X0U3ckZtQjhIMHFGMHVjWmZoNlU5bDBydGRabk5LR1dGUUNSaXFHWUQyWnJqd2VJS09KSmU3ZXVtVjBqemVDdTJJNE9JVDkxTm5udWZ1bVRYYmxUdmExbHFsdENjc2N3Yi15R0tEVUxuRXJiQUk4akd2dy1ZU3g5S21wNjhTX29NODVtaUNRU2JoSi04T29pUzNFMGtKR3cyZUN1RF8zZEVTZTFxSkhXZU9ESHphSWhhR1R4ZUlMSnNsVlNQTUxwRTg",
+        "image": null,
+        "timestamp": 1785349825.0
+    },
+    {
+        "title_fa": "ترکیب «تمام‌کردن کار» در ادبیات ترامپ علیه ایران: سیگنال تشدید فشار یا اقدام نهایی",
+        "title_en": "What does Trump mean by 'finish the job' in Iran?",
+        "summary": [
+            "خبر، بدون ارائه جزئیات مشخص، بر ابهام جمله «finish the job» ترامپ تمرکز دارد و می‌کوشد معنی آن را در چارچوب سیاست آمریکا علیه ایران روشن کند.",
+            "فشار خارجیِ محتمل، به‌طور ساختاری می‌تواند به بی‌ثباتی اقتصادی و سیاسی داخلی رژیم دامن بزند؛ حتی اگر نوع اقدام دقیق هنوز اعلام نشده باشد، افزایش عدم‌قطعیت برای فعالان اقتصادی اثر دارد.",
+            "چون متن منبع فقط عنوان را تکرار کرده و داده‌ای درباره عملیات نظامی، تحریم جدید، یا واکنش رسمی ارائه نمی‌دهد، نمی‌توان ادعاهای مشخص درباره مسیر «اقدام نهایی» را به صورت قطعی متصل کرد."
+        ],
+        "impact": "ابهام در پیام ترامپ خود به یک عامل بی‌ثبات‌کننده تبدیل می‌شود، چون برنامه‌پذیری داخلی و اقتصاد را کاهش می‌دهد؛ اما بدون جزئیات، نمی‌توان شدت یا شکل اقدام را دقیق برآورد کرد.",
+        "tag": "تحلیل",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "ایران اینترنشنال",
+        "url": "https://www.msn.com/en-us/news/world/trump-threatens-iran-with-more-strikes-but-says-recent-fighting-does-not-mean-a-return-to-war/ar-AA27uWDl",
+        "clean_url": "https://www.msn.com/en-us/news/world/trump-threatens-iran-with-more-strikes-but-says-recent-fighting-does-not-mean-a-return-to-war/ar-AA27uWDl",
+        "image": null,
+        "timestamp": 1785346387.0
+    },
+    {
         "title_fa": "ایران پس از توقف اقدام آمریکا، روند درگیری را از سر گرفت و سطح ریسک‌پذیری را بالا برد",
         "title_en": "Iran chose to restart the fight after the US stopped – and showed a new appetite for risk",
         "summary": [
@@ -108,6 +162,24 @@
         "timestamp": 1785328871.0
     },
     {
+        "title_fa": "پایان آتش‌بس آمریکا-ایران پس از «حمله غافلگیرانه» تهران",
+        "title_en": "Iran’s ‘surprise attack’ ends US ceasefire. What it means for the war",
+        "summary": [
+            "به گزارش USA TODAY، توقف موقت در درگیری‌ها میان آمریکا و ایران بعد از آن به هم خورده که تهران حمله‌ای را انجام داده که دولت ترامپ آن را «حمله غافلگیرانه» به نیروهای آمریکایی توصیف می‌کند.",
+            "این رویداد عملاً آتش‌بس/وقفه درگیری را لغو کرده و پیام مستقیم آن تشدید چرخه تلافی و کاهش ظرفیت مدیریت بحران است، چون اعتبار هر نوع توقف عملیاتی در کوتاه‌مدت از بین می‌رود.",
+            "از منظر راهبردی، «پایان آتش‌بس» یعنی میدان دوباره به سمت جنگ فرسایشی و افزایش ریسک خطاهای محاسباتی می‌رود؛ چون طرفین انتظار دارند پاسخ نظامی بدهند و مانور سیاسی جایگزین کنترل عملیاتی نمی‌شود."
+        ],
+        "impact": "حذف توقف درگیری، مسیر را از کنترل بحران به سمت تشدید عملیاتی و احتمال تداوم حملات متقابل سوق می‌دهد.",
+        "tag": "escalation",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "USA TODAY on MSN",
+        "url": "https://www.msn.com/en-us/news/world/iran-s-surprise-attack-ends-us-ceasefire-what-it-means-for-the-war/ar-AA28Z6xX",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-s-surprise-attack-ends-us-ceasefire-what-it-means-for-the-war/ar-AA28Z6xX",
+        "image": "http://www.bing.com/th?id=ONUT.xh_uthhJrVocnbPpb870_g&pid=News",
+        "timestamp": 1785328102.0
+    },
+    {
         "title_fa": "یمن زیر فشار: اختلال در تجارت، قیمت‌ها و نقدینگی ناشی از تنش ایران-آمریکا",
         "title_en": "Yemen Under Pressure: How the Iran-US Conflict Is Disrupting Trade, Prices, and Cash Assess - May 2026",
         "summary": [
@@ -124,6 +196,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHRBWE5JVmZaRGRtaXZvYTVjek8tbkdoR21KUV9EUVhieUFSaDhlZk1tYXljWVo2YmczcEUyZ052QVpaRVZsVEo4aHQ1MkhXSnZWZ3JYeHNNaTJSeFlwS3VjT1JRZU9iZUpOM2Iwb0JsSUlzRzFFdUdLZEc0dmdIWlRxeFhlM0pNSHhBdG9PZzdJUGZmZ3FvUjBWS1ZrcTBZNGg3WUhLdHBrNngtRGlVVDY5b0NiOU93S3NzM0owM0lkcFk",
         "image": null,
         "timestamp": 1785326301.0
+    },
+    {
+        "title_fa": "هفته‌ها پس از اعتراف تلویحی به دستِ بالای ایران، ترامپ دوباره روایت «عاجز بودن برای معامله» را تکرار می‌کند",
+        "title_en": "Trump Keeps Claiming Iran Is Desperate For A Deal Weeks After Explaining Why It's Not",
+        "summary": [
+            "ترامپ مدعی می‌شود رهبران ایران برای پایان جنگی که خود آغاز کرده «desperate» هستند و می‌خواهد مذاکره انجام شود، اما همزمان اعتراف کرده بود که ایران خود خواهان گفت‌وگو بوده و «دست‌کم صحبت‌هایی» در جریان است؛ در عمل روایت‌ها با هم همخوان نیستند.",
+            "وقتی از ترامپ پرسیده شد دقیقاً با چه کسی در ایران ارتباط داشته، او از پاسخ مشخص طفره رفت و فقط گفت «گفت‌وگوهای خوبی» انجام شده؛ نتیجه برای افکار عمومی آمریکا این است که اطلاعات قابل اتکا از مسیر پایان جنگ همچنان مبهم مانده است.",
+            "جان بولتون می‌گوید ایران به‌طور مؤثر «دولتِ منسجم» برای مذاکره ندارد و مهم‌تر اینکه «سپاه» به‌عنوان بخش تعیین‌کننده، علاقه‌ای به معامله ندارد؛ او همچنین نبودِ استراتژی روشن را به ترامپ نسبت می‌دهد."
+        ],
+        "impact": "این شکاف میان ادعاهای ترامپ درباره «عاجز بودن ایران» و گفته‌های منتقدان درباره نبودِ ظرفیت مذاکره، نشانه نداشتن نقشه راه و افزایش ریسک فرسایش بدون خروجی روشن برای جنگ است.",
+        "tag": "ایران-ایالات-متحده",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "HuffPost",
+        "url": "https://www.huffpost.com/entry/trump-iran-not-desperate_n_6a67a8d9e4b00feba846bc96",
+        "clean_url": "https://www.huffpost.com/entry/trump-iran-not-desperate_n_6a67a8d9e4b00feba846bc96",
+        "image": "http://www.bing.com/th?id=ONUT.oRnug5FHwQ1WOM7_c5uLUA&pid=News",
+        "timestamp": 1785323280.0
     },
     {
         "title_fa": "واکنش تند ترامپ به حمله موشکی ایران؛ تهدید به «ضربه»",
@@ -178,6 +268,24 @@
         "clean_url": "https://www.msn.com/en-us/news/other/saudi-arabia-joins-us-military-strikes-on-iranian-proxies/ar-AA28Ut4f",
         "image": null,
         "timestamp": 1785320878.0
+    },
+    {
+        "title_fa": "الکس جونز خواستار استیضاح ترامپ به دلیل «جنگ ایران خارج از کنترل»",
+        "title_en": "Ex-MAGA loyalist demands Trump removal from office over ‘out of control’ Iran war",
+        "summary": [
+            "منبع NJ.com گزارش می‌کند الکس جونز، چهره مشهور جریان راست‌افراطی، ترامپ را بابت «جنگ ایران خارج از کنترل» به استیضاح و برکناری از قدرت فراخوانده است.",
+            "این اقدام بیشتر در چارچوب فشار سیاسی-رسانه‌ای و ادعاهای توطئه‌محور است، نه یک گزارش مستند از اقدامات مشخص یا خطای رسمیِ قابل راستی‌آزمایی در متن.",
+            "وجود چنین مطالبه‌ای نشان‌دهنده شکاف در میان بخشی از محافل راست‌افراطی آمریکا درباره مدیریت مسئله ایران است، اما شواهدی از تشدید مستقیم عملیاتی در متن ارائه نشده است."
+        ],
+        "impact": "این خبر در کوتاه‌مدت بیشتر یک سیگنال از تنش سیاسی داخلی در آمریکا درباره جنگ/تنش با ایران است تا نشانه‌ای قطعی از تغییر سیاست یا عملیات فوری.",
+        "tag": "آمریکا",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "NJ.com",
+        "url": "https://www.nj.com/politics/2026/07/ex-maga-loyalist-demands-trump-removal-from-office-over-out-of-control-iran-war.html",
+        "clean_url": "https://www.nj.com/politics/2026/07/ex-maga-loyalist-demands-trump-removal-from-office-over-out-of-control-iran-war.html",
+        "image": "http://www.bing.com/th?id=ONUT.CYzyfW91xZ85yXKB4UaBuw&pid=News",
+        "timestamp": 1785319920.0
     },
     {
         "title_fa": "گزارش رویترز: رضا پهلوی خود را «پلی» برای تغییر رژیم معرفی می‌کند",
@@ -5290,113 +5398,5 @@
         "clean_url": "https://www.nbcnews.com/world/iran/us-iran-new-attacks-trump-ceasefire-over-gulf-hormuz-rcna353615",
         "image": null,
         "timestamp": 1783589143.0
-    },
-    {
-        "title_fa": "تبادل حملات آمریکا و ایران برای دومین شب؛ ضربه دوباره به توافق ژوئن",
-        "title_en": "Latest in Iran: US and Iran exchange strikes for second night in a row",
-        "summary": [
-            "طبق گزارش Deseret News (از طریق MSN)، آمریکا و ایران «برای دومین شب» یکدیگر را با حمله متقابل هدف گرفته‌اند که نشان می‌دهد چرخه تنش دوباره به سطح نظامی برگشته است.",
-            "این حملات «بیشتر تهدید می‌کنند» توافقی را که در ژوئن میان دونالد ترامپ و رهبران ایران امضا شد؛ خود ترامپ بعدتر آن را «اتلاف وقت» خواند، اما اکنون واقعیت میدانی خلاف آن را نشان می‌دهد.",
-            "ادامه حملات در پی ماجرای توافق، یعنی کانال‌های مهار تنش عملاً کارکرد ندارند و خطر گسترش دامنه درگیری بالا می‌ماند."
-        ],
-        "impact": "تداوم حملات متقابل، اعتبار هر نوع چارچوب توافقی را فرسوده و احتمال تشدید سریع‌تر تنش را افزایش می‌دهد.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "Deseret News on MSN",
-        "url": "https://www.msn.com/en-us/news/world/latest-in-iran-us-and-iran-exchange-strikes-for-second-night-in-a-row/ar-AA27ztzX",
-        "clean_url": "https://www.msn.com/en-us/news/world/latest-in-iran-us-and-iran-exchange-strikes-for-second-night-in-a-row/ar-AA27ztzX",
-        "image": "http://www.bing.com/th?id=ONUT.4dK-f00cPHkGA2M8_mIGlg&pid=News",
-        "timestamp": 1783589117.0
-    },
-    {
-        "title_fa": "سیکل خطرناک حملات بیشتر: آمریکا و ایران چندین دهه حمله متقابل را ادامه می‌دهند",
-        "title_en": "U.S., Iran trade dozens more strikes in dangerous cycle",
-        "summary": [
-            "طبق گزارش Washington Post، آمریکا و ایران در ادامه یک چرخه پرخطر، «ده‌ها» حمله دیگر را رد و بدل کرده‌اند؛ یعنی الگوی کنونی به‌جای فروکش‌کردن، شدت و تداوم یافته است.",
-            "این وضعیت در عمل نشان‌دهنده بالا رفتن هزینه‌های محاسبه‌نشده است: هر موج حمله، به‌طور مکانیکی زمینه را برای پاسخ بعدی فراهم می‌کند و ریسک خطای محاسباتی و گسترش دامنه را بیشتر می‌کند.",
-            "از متن گزارش، موضوع به‌صورت «عملیات متقابل» در چارچوب فشار امنیتی و نه یک مسیر مذاکره/توافق فوری توصیف می‌شود؛ بنابراین فشار خارجی و تنش نظامی به‌صورت مستقیم به پایداری منافع و تصمیم‌گیری حکومت‌داری ضربه می‌زند."
-        ],
-        "impact": "ادامه حملات متقابل احتمال ورود به سطح بالاتر تنش و فراتر رفتن از کنترل سیاسی را افزایش می‌دهد و هزینه‌های اقتصادی/امنیتی را هم‌زمان بالا می‌برد.",
-        "tag": "تنش",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Washington Post",
-        "url": "https://www.msn.com/en-us/news/world/trump-orders-new-round-of-strikes-after-calling-iranian-leaders-scum/ar-AA27s6PM",
-        "clean_url": "https://www.msn.com/en-us/news/world/trump-orders-new-round-of-strikes-after-calling-iranian-leaders-scum/ar-AA27s6PM",
-        "image": null,
-        "timestamp": 1783589104.0
-    },
-    {
-        "title_fa": "تشدید تبادل آتش میان آمریکا و ایران در خلیج فارس، ضربه به «توافق موقت پایان جنگ»",
-        "title_en": "US and Iran exchange intensifying fire across the Gulf, threatening the interim deal to end war",
-        "summary": [
-            "خبر AP از افزایش تبادل آتش میان آمریکا و ایران در خلیج فارس می‌گوید؛ روندی که مستقیماً «توافق موقت» برای پایان جنگ را زیر تهدید قرار می‌دهد.",
-            "این تشدید، از منظر فشار خارجی، نشانه‌ای از شکنندگی کانال‌های کنترل بحران است: هر گام در این مسیر هزینه سیاسی و عملیاتی توافق را بالا می‌برد و امکان لغزش به درگیری گسترده‌تر را بیشتر می‌کند.",
-            "با توجه به اینکه متن روی «افزایش شدت آتش» تمرکز دارد، این وضعیت بیشتر یک آزمونِ اجرای آتش‌بس/توافق از سوی بازیگران نظامی است تا یک تحول دیپلماتیک؛ نتیجه محتمل، بی‌ثباتی بیشتر و ریسک محاسبه‌نادرست در سطح منطقه است."
-        ],
-        "impact": "افزایش درگیری در خلیج فارس می‌تواند به سرعت اعتبار «توافق موقت پایان جنگ» را فرسوده و مسیر را به سمت تشدید خطرناک‌تر ببرد.",
-        "tag": "تنش-منطقه‌ای",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "AP News",
-        "url": "https://apnews.com/article/iran-us-israel-war-oil-july-9-2026-0472764b119d7aa204de4f7f5e44a9bf",
-        "clean_url": "https://apnews.com/article/iran-us-israel-war-oil-july-9-2026-0472764b119d7aa204de4f7f5e44a9bf",
-        "image": null,
-        "timestamp": 1783588320.0
-    },
-    {
-        "title_fa": "ایرانِ دوپاره؛ بدرقه جسد خامنه‌ای و تشدید شکاف میان اقشار جامعه پس از ضربه اسرائیل و کشتار ژانویه",
-        "title_en": "A bitterly divided Iran grapples with Khamenei’s legacy as he is laid to rest",
-        "summary": [
-            "مراسم تشییع و خاکسپاری خامنه‌ای در تهران و دیگر شهرها برگزار شد؛ در کنار نمایش قدرت هواداران سخت‌گیر، تصاویر و شعارهای تند علیه ترامپ (از جمله پیام «We will kill Trump») نشان می‌دهد بخش‌هایی از جناح حاکم هم‌زمان به دنبال تحریک و انتقام‌اند.",
-            "گفته‌های یک کارمند تکنولوژی ساکن تهران و دیگر مصاحبه‌شوندگان (با نام مستعار به دلیل ترس از امنیت) بر «شکاف عمیق» حتی میان مخالفان جمهوری اسلامی تاکید دارد؛ شکافی که به سرکوب خشن، تحریم‌های بین‌المللی، و سوءمدیریت اقتصادی طی دهه‌ها نسبت داده می‌شود.",
-            "مقاله تصریح می‌کند که نارضایتی اجتماعی از زمان کشته‌شدن هزاران نفر از معترضان ضدحکومت در ژانویه گسترش یافته و «شکاف» در خانه‌های سراسر کشور محسوس شده است؛ هم‌زمان، برخی شرکت‌کنندگان در مراسم خواستار انتقام‌جویی علیه ایالات متحده‌اند."
-        ],
-        "impact": "هم‌زمانی مرگ خامنه‌ای با ضربه اسرائیل و تداوم سرکوب داخلی، مراسم تشییع را از یک آیین مذهبی به سکوی تشدید قطب‌بندی اجتماعی و رادیکالیزه‌کردن بخشی از افکار عمومی تبدیل کرده است.",
-        "tag": "ایران",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "Orlando Sentinel",
-        "url": "https://www.orlandosentinel.com/2026/07/09/iran-ali-khamenei-legacy-funeral/",
-        "clean_url": "https://www.orlandosentinel.com/2026/07/09/iran-ali-khamenei-legacy-funeral",
-        "image": "http://www.bing.com/th?id=ONUT.LbGHeqTfx1xs5M3W0tyuEg&pid=News",
-        "timestamp": 1783584660.0
-    },
-    {
-        "title_fa": "فرسایش توافق آتش‌بس و ازسرگیری «زد و خوردهای تجاری/تجاری-تحریمی» میان ایران و آمریکا",
-        "title_en": "Iran and US trade strikes as ceasefire agreement crumbles",
-        "summary": [
-            "این گزارش فقط در سطح کلی می‌گوید که توافق آتش‌بس «در حال فروپاشی» است و هم‌زمان، اقدامات تنبیهی/تجاری از سوی آمریکا علیه ایران یا در چارچوب روابط اقتصادی دوطرف آغاز یا تشدید شده‌اند؛ جزئیات دقیق از نوع تحریم‌ها یا کانال‌های تجاری ارائه نشده است.",
-            "وقتی آتش‌بس فرو می‌ریزد، اثر اصلی آن معمولاً تشدید بی‌ثباتی در تصمیم‌گیری اقتصادی است: شرکت‌ها و شبکه‌های واردات/صادرات با ریسک بالاتر و هزینه مبادله بیشتر مواجه می‌شوند، اما این متن به ارقام یا شاخص‌های مشخص اشاره نمی‌کند.",
-            "متن داده‌ای درباره نقش روسیه/چین/کره‌شمالی و همچنین داده‌ای درباره اعتراض‌های داخلی یا نرخ‌های کلیدی اقتصادی ارائه نمی‌دهد؛ بنابراین نمی‌توان ارتباط‌های بدون پشتوانه ساخت یا روند اعتراضات را به این خبر نسبت داد."
-        ],
-        "impact": "فروپاشی توافق آتش‌بس در کنار تشدید اقدامات تجاری/تنبیهی می‌تواند در کوتاه‌مدت فشار اقتصادی و ریسک عملیاتی را بالا ببرد، اما چون جزئیات در متن نیست، اندازه و مسیر دقیق اثر قابل ارزیابی نیست.",
-        "tag": "تحریم",
-        "urgency": 6,
-        "sentiment": -0.4,
-        "source": "The Indianapolis Star",
-        "url": "https://www.indystar.com/story/news/world/2026/07/09/iran-war-strikes-donald-trump-ceasefire-updates--live/90857127007/",
-        "clean_url": "https://www.indystar.com/story/news/world/2026/07/09/iran-war-strikes-donald-trump-ceasefire-updates--live/90857127007",
-        "image": "http://www.bing.com/th?id=ONUT.vZ0DRneta-tmaMFzeSWEgA&pid=News",
-        "timestamp": 1783584120.0
-    },
-    {
-        "title_fa": "تنگه هرمز هنوز «اهرم» واقعی تهران است یا فقط یک تهدید پرهزینه؟",
-        "title_en": "Is the Strait of Hormuz still Iran's trump card?",
-        "summary": [
-            "DW با تکیه بر «حملات اخیر» ایران نتیجه می‌گیرد که تهران توان مختل‌کردن کشتیرانی و به‌هم‌زدن بازارهای انرژی را دارد و می‌تواند همسایگان خلیج را هم درگیر بازی امنیتی-اقتصادی کند.",
-            "مبحث اصلی گزارش این است که میزان اهرم‌بودن تنگه هرمز نسبت به واشینگتن چقدر است: یعنی آیا توان اختلال کافی است تا به سیاست آمریکا جهت بدهد یا صرفاً هزینه و خطر را برای ایران افزایش می‌دهد.",
-            "گزارش همچنین روی ریسکِ راهبرد پرهزینه تهران مکث می‌کند: احتمال «بازگشت ضربه» وجود دارد، یعنی تشدید پاسخ منطقه‌ای/بین‌المللی که می‌تواند منافع اقتصادی و امنیتی تهران را آسیب‌پذیرتر کند."
-        ],
-        "impact": "این روایت نشان می‌دهد اهرم تهران در تنگه هرمز در عمل می‌تواند بازار را تکان بدهد، اما همین قدرت می‌تواند با پاسخ سخت‌تر، به تضعیف موقعیت خودش منجر شود.",
-        "tag": "هرمز",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "DW",
-        "url": "https://www.msn.com/en-us/news/other/is-the-strait-of-hormuz-still-iran-s-trump-card/ar-AA27thrq",
-        "clean_url": "https://www.msn.com/en-us/news/other/is-the-strait-of-hormuz-still-iran-s-trump-card/ar-AA27thrq",
-        "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA27ts8K.img?w=940&h=529&m=4&q=74",
-        "timestamp": 1783583460.0
     }
 ]

@@ -1,5 +1,41 @@
 [
     {
+        "title_fa": "تهدید ترامپ برای حمله «سخت» به ایران پس از حمله موشکی به دارایی‌های آمریکا",
+        "title_en": "Trump threatens to hit Iran ‘hard’ following missile attack on U.S. assets",
+        "summary": [
+            "طبق گزارش واشنگتن پست، ترامپ بعد از حمله موشکی به دارایی‌های آمریکا تهدید کرده که ایران را «سخت» هدف قرار می‌دهد؛ این یعنی رژیم با سناریوی تشدید سریع تنش روبه‌رو است.",
+            "این تهدید بیشتر بر فشار خارجی و هزینه‌سازی احتمالی برای بازیگران ایرانی تکیه دارد و می‌تواند اهرم ریسک امنیتی را برای مهار گزینه‌های آینده تهران بالا ببرد.",
+            "محتوای گزارش صرفاً در سطح تهدید و واکنش سیاسی باقی می‌ماند و جزئیات مربوط به اقدام مشخص، زمان‌بندی یا نوع پاسخ ارائه نشده است؛ بنابراین اثرگذاری اصلی آن فعلاً از جنس انتظار تشدید تنش است."
+        ],
+        "impact": "این تهدید، احتمال مرحله بعدی از فشار و درگیری مستقیم/غیرمستقیم را افزایش می‌دهد و نااطمینانی راهبردی برای تصمیم‌گیری داخل ایران را بیشتر می‌کند.",
+        "tag": "تهدید",
+        "urgency": 7,
+        "sentiment": -0.55,
+        "source": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc",
+        "image": null,
+        "timestamp": 1785337078.0
+    },
+    {
+        "title_fa": "ترامپ در دیدار با نتانیاهو وعده حمله سخت به ایران داد",
+        "title_en": "Trump vows to hit Iran hard as he meets with Netanyahu",
+        "summary": [
+            "طبق گزارش الجزیره، دونالد ترامپ در دیدار با بنیامین نتانیاهو وعده «زدن محکم» به ایران را مطرح کرده است؛ این پیام، سطح تهدید مستقیم را بالا می‌برد.",
+            "این نوع اظهارات معمولاً با آماده‌سازی برای فشار یا اقدام خارجی هم‌زمان می‌شود، اما متن گزارش جزئیات عملیات، زمان‌بندی یا نوع اقدام را ارائه نمی‌کند؛ بنابراین نمی‌توان فراتر از تهدید لفظی نتیجه‌سازی کرد.",
+            "هم‌پوشانی پیام‌های ترامپ و نتانیاهو نشان می‌دهد هماهنگی سیاسی میان واشینگتن و تل‌آویو برای تشدید فشار روی تهران در دستور کار است و می‌تواند به افزایش ریسک امنیتی منطقه‌ای منجر شود."
+        ],
+        "impact": "افزایش لحن تهدیدآمیز واشینگتن/تل‌آویو می‌تواند فضای ریسک را بالا ببرد و زمینه تشدید فشارهای خارجی و بی‌ثباتی محیطی برای تصمیم‌گیری در ایران را فراهم کند.",
+        "tag": "تهدید",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjBFSGpuMjV3TGl0TUtZdlRCWERoc29wQU03XzJYbC1LWktVZks2ZGdpMGpUM1JFbmJLa05yQXU5QTE3WU80b1dTU18wUWdldFE4dGRTSlItYWlnNVB0TGpEa2ZGTWVCVGlJbWI4ZjVLVU5hVUtrX09OOEpacFczU1kzaDUwMThxcUR4eUZLenZaanJDODlFT2F1bk9rNGxyemtjddIBqgFBVV95cUxQOEkyVFAxd2oycDhpYVM1ZDdUYmVSaTVWMTFIQ3RZb0NZWXBmTWtFRWg2cmJrX01ISVVZSjloX3lvV2g0a3pXZTFQTDU3Z0wyTmNEOFJNd3ZiSWMtNTE1anJlMXU0SHJ1blctOFkyaFVvYVJ6UVJhQldxZG1ESzZFWllEYmFLbkRYbHg3UE9rWmdvcGY1c0s4ZHdlRERIdHUweldFM0NFd0VMZw?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjBFSGpuMjV3TGl0TUtZdlRCWERoc29wQU03XzJYbC1LWktVZks2ZGdpMGpUM1JFbmJLa05yQXU5QTE3WU80b1dTU18wUWdldFE4dGRTSlItYWlnNVB0TGpEa2ZGTWVCVGlJbWI4ZjVLVU5hVUtrX09OOEpacFczU1kzaDUwMThxcUR4eUZLenZaanJDODlFT2F1bk9rNGxyemtjddIBqgFBVV95cUxQOEkyVFAxd2oycDhpYVM1ZDdUYmVSaTVWMTFIQ3RZb0NZWXBmTWtFRWg2cmJrX01ISVVZSjloX3lvV2g0a3pXZTFQTDU3Z0wyTmNEOFJNd3ZiSWMtNTE1anJlMXU0SHJ1blctOFkyaFVvYVJ6UVJhQldxZG1ESzZFWllEYmFLbkRYbHg3UE9rWmdvcGY1c0s4ZHdlRERIdHUweldFM0NFd0VMZw",
+        "image": null,
+        "timestamp": 1785335574.0
+    },
+    {
         "title_fa": "حمله ایران به پایگاه‌های آمریکا همزمان با دیدار ترامپ و نتانیاهو (الجزیره)",
         "title_en": "Iran attacks US bases in Middle East as Trump meets Netanyahu",
         "summary": [
@@ -16,6 +52,24 @@
         "clean_url": "https://www.bloomberg.com/news/articles/2026-07-28/trump-netanyahu-meet-at-white-house-us-dials-back-iran-threats",
         "image": null,
         "timestamp": 1785328871.0
+    },
+    {
+        "title_fa": "یمن زیر فشار: اختلال در تجارت، قیمت‌ها و نقدینگی ناشی از تنش ایران-آمریکا",
+        "title_en": "Yemen Under Pressure: How the Iran-US Conflict Is Disrupting Trade, Prices, and Cash Assess - May 2026",
+        "summary": [
+            "گزارش می‌گوید تشدید درگیری ایران و آمریکا، زنجیره‌های تجاری یمن را مختل کرده و همین اختلال به افزایش هزینه‌ها در بازارهای داخلی دامن زده است.",
+            "اختلال ناشی از تنش بیرونی در مسیرهای حمل‌ونقل و دادوستد، به بی‌ثباتی قیمت‌ها و فشار مستقیم بر قدرت خرید مردم منجر شده است.",
+            "در سطح مالی، کاهش گردش نقدی و دشوار شدن دسترسی به پول/وجوه لازم برای خرید و پرداخت‌ها، به تنگنای نقدینگی دامن زده و توان اقتصاد محلی برای کارکرد روزمره را پایین آورده است."
+        ],
+        "impact": "تشدید تنش ایران-آمریکا با کند کردن تجارت و ایجاد شوک قیمتی و نقدینگی، زمینه ناپایداری اقتصادی یمن را تشدید می‌کند.",
+        "tag": "اقتصاد",
+        "urgency": 6,
+        "sentiment": -0.7,
+        "source": "ReliefWeb",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHRBWE5JVmZaRGRtaXZvYTVjek8tbkdoR21KUV9EUVhieUFSaDhlZk1tYXljWVo2YmczcEUyZ052QVpaRVZsVEo4aHQ1MkhXSnZWZ3JYeHNNaTJSeFlwS3VjT1JRZU9iZUpOM2Iwb0JsSUlzRzFFdUdLZEc0dmdIWlRxeFhlM0pNSHhBdG9PZzdJUGZmZ3FvUjBWS1ZrcTBZNGg3WUhLdHBrNngtRGlVVDY5b0NiOU93S3NzM0owM0lkcFk?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHRBWE5JVmZaRGRtaXZvYTVjek8tbkdoR21KUV9EUVhieUFSaDhlZk1tYXljWVo2YmczcEUyZ052QVpaRVZsVEo4aHQ1MkhXSnZWZ3JYeHNNaTJSeFlwS3VjT1JRZU9iZUpOM2Iwb0JsSUlzRzFFdUdLZEc0dmdIWlRxeFhlM0pNSHhBdG9PZzdJUGZmZ3FvUjBWS1ZrcTBZNGg3WUhLdHBrNngtRGlVVDY5b0NiOU93S3NzM0owM0lkcFk",
+        "image": null,
+        "timestamp": 1785326301.0
     },
     {
         "title_fa": "سعودی عربستان به حملات نظامی آمریکا علیه نیروهای نیابتی ایران می‌پیوندد",
@@ -36,6 +90,24 @@
         "timestamp": 1785320878.0
     },
     {
+        "title_fa": "گزارش رویترز: رضا پهلوی خود را «پلی» برای تغییر رژیم معرفی می‌کند",
+        "title_en": "گزارش تحقیقی رویترز درباره «تلاش متزلزل رضا پهلوی برای رهبری ایران»",
+        "summary": [
+            "رادیو فردا به گزارش تحقیقی رویترز اشاره می‌کند که در آن رضا پهلوی در گفت‌وگو با رویترز، تلاش خود را در چارچوب «تغییر رژیم» در ایران مطرح کرده است.",
+            "او در همین چارچوب ادعا می‌کند «نه مقصد، بلکه پلی است برای رسیدن به مقصد»، یعنی خود را مرحله‌ای در یک مسیر سیاسی نه‌چندان مشخص معرفی می‌کند.",
+            "این روایت بیشتر بر تصویرسازی سیاسی و چارچوب‌سازی برای رهبری آینده تمرکز دارد و نشانه‌ای از اقدام عملی، برنامه اجرایی یا هماهنگی نهادی در متن ارائه‌شده ذکر نمی‌شود."
+        ],
+        "impact": "این نوع اظهارات می‌تواند برای بسیج گفتمانی و جذب سرمایه سیاسی اثر داشته باشد، اما بدون اطلاعات اجرایی، وزن تاثیر فوری آن محدود است.",
+        "tag": "رهبری",
+        "urgency": 3,
+        "sentiment": 0.1,
+        "source": "رادیو فردا",
+        "url": "https://www.radiofarda.com/a/us-reza-pahlavi-iran-reuters-investigative-report-faltering-bid-to-lead/33817485.html",
+        "clean_url": "https://www.radiofarda.com/a/us-reza-pahlavi-iran-reuters-investigative-report-faltering-bid-to-lead/33817485.html",
+        "image": "https://gdb.rferl.org/34237971-f5a8-43c0-a37e-cbe85ed2a5a5_cx0_cy6_cw0_w1200_h630.jpg",
+        "timestamp": 1785319860.0
+    },
+    {
         "title_fa": "جنگِ انتخابی ترامپ علیه ایران و «افشای» قدرت هسته‌ایِ آب",
         "title_en": "Trump’s war of choice against Iran has revealed Tehran’s most powerful nuclear weapon to be water",
         "summary": [
@@ -52,6 +124,42 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTGRScF9URUpNYmhZSWZGLVJQd3BGdThaNmJ0LWtGMUxEb19LWjFVVnhoSk9VMlNMMHVUVDJST0ttWk5UcDNWMTBESXlyZ1o3MjdmY1d4cFlzWHVJRzdUbGtwVk5XeWcxWHo3REM3MTExOHF2c0Y3YzZYVlYzLVFpcTQ4NTVoSlhnU3ozVHBiLWdWMVZDWkhKNTBPMEJ4aXFuUTk0THpPWmg3YktwVFRNRjIwdVJfS3Nk",
         "image": null,
         "timestamp": 1785319225.0
+    },
+    {
+        "title_fa": "رونمایی «مدل جدید قراردادهای نفتی» و برنامه واگذاری بیش از ۵۰ میدان به شرکت‌های خارجی",
+        "title_en": "جنگ ایران و عراق",
+        "summary": [
+            "در کنفرانس تهران با حضور ۱۵۳ شرکت خارجی از ۴۵ کشور، از «مدل جدید قراردادهای نفتی» رونمایی شد؛ اقدامی برای جذب سرمایه و تکنولوژی از خارج.",
+            "طبق گزارش، ایران قصد دارد بیش از ۵۰ میدان نفت و گاز خود را با همین چارچوب قراردادی به شرکت‌های خارجی ارائه کند که نشان‌دهنده فشار عملی برای افزایش تولید و درآمد ارزی است.",
+            "تمرکز این رویداد بر چارچوب قراردادی، بیانگر تلاش برای رفع موانع همکاری بین‌المللی و قابل‌سرمایه‌کردن دارایی‌های نفتی ایران برای مشارکت خارجی است."
+        ],
+        "impact": "این حرکت می‌تواند کوتاه‌مدت فرصت‌های سرمایه‌گذاری خارجی ایجاد کند، اما هم‌زمان وابستگی اقتصاد نفتی به پذیرش ریسک‌های قراردادی و محدودیت‌های بیرونی را تشدید می‌کند.",
+        "tag": "نفت",
+        "urgency": 4,
+        "sentiment": -0.1,
+        "source": "en.radiofarda.com",
+        "url": "https://www.radiofarda.com/iran-iraq-war",
+        "clean_url": "https://www.radiofarda.com/iran-iraq-war",
+        "image": null,
+        "timestamp": 1785316620.0
+    },
+    {
+        "title_fa": "حضور معترضان در صحنه اعدام؛ مانع صحنه‌آرایی حکومت در پرونده «میدان علیخانی»",
+        "title_en": "حسن نایبهاشم: حضور معترضان در صحنه اعدام مانع استفاده حکومت از صحنهآرایی شد",
+        "summary": [
+            "حسن نایبهاشم اعلام کرد حضور معترضان در صحنه اعدام دو متهم پرونده «میدان علیخانی» در ملکشهر اصفهان، مانع بهره‌برداری حکومت از اعدام به‌عنوان ابزار نمایشی شد.",
+            "در سحرگاه سه‌شنبه ششم مرداد، ابوالفضل سپاهی بادجانی و امیرحسین صفری حسین‌آبادی در ارتباط با اعتراضات دی‌ماه ۱۴۰۴ اصفهان اعدام شدند؛ این اقدام در ادامه روند سرکوب قضایی علیه معترضان مطرح است.",
+            "این گزارش به‌صورت مستقیم نشان می‌دهد که حکومت با وجود اجرای حکم، نتوانسته کنترل کامل رواییِ رویداد را به دست بگیرد و بخشی از جامعه توانسته در لحظه به میدان بیاید."
+        ],
+        "impact": "این تحول یعنی ابزار تبلیغاتی حکومت از اعدام‌ها با اختلال میدانی معترضان مواجه شده و پیام سرکوب یک‌طرفه را از نظر روانی و رسانه‌ای تضعیف می‌کند.",
+        "tag": "اعتراضات",
+        "urgency": 6,
+        "sentiment": -0.4,
+        "source": "رادیو فردا",
+        "url": "https://www.radiofarda.com/a/33816922.html",
+        "clean_url": "https://www.radiofarda.com/a/33816922.html",
+        "image": "https://gdb.rferl.org/ac548f4f-00ee-4391-b66f-08dd4a80fec4_cx0_cy23_cw60_w1200_h630.jpg",
+        "timestamp": 1785315960.0
     },
     {
         "title_fa": "آمریکا حمله موشکی ایران به نیروهایش را دفع کرد و با حمایت سعودی، نیروهای نیابتی ایران در عراق را هدف گرفت",
@@ -88,6 +196,42 @@
         "clean_url": "https://www.aa.com.tr/en/us-israel-iran-war/saudi-arabia-warns-of-further-strikes-in-iraq-if-iran-backed-groups-launch-new-attacks/4012228",
         "image": null,
         "timestamp": 1785306185.0
+    },
+    {
+        "title_fa": "سپاه پس از وقفه پنج‌شبه، حمله موشکی به پایگاه‌های آمریکا در اردن را انجام داد",
+        "title_en": "سپاه، پس از پنج شب توقف حملات سنتکام، به پایگاههای آمریکا در اردن حمله موشکی کرد",
+        "summary": [
+            "سنتکام اعلام کرد نیروهای سپاه پاسداران با هدف «حملات غافلگیرانه» علیه نیروهای آمریکایی مستقر در خاورمیانه، چند موشک بالستیک از خاک ایران شلیک کردند.",
+            "این اقدام پس از پنج شب توقف حملات سنتکام رخ داده و نشان می‌دهد الگوی تهدید و عملیات موشکی رژیم، چرخه‌ای و قابل‌تکرار است نه تصادفی.",
+            "از منظر راهبردی، تمرکز روی نیروهای آمریکا در منطقه (نه صرفاً اهداف داخلی یا پراکسی‌ها) ریسک تشدید مستقیم را بالا می‌برد و می‌تواند واکنش‌های امنیتی/عملیاتی واشنگتن و هم‌پیمانانش را در پی داشته باشد."
+        ],
+        "impact": "این حمله، تشدید مستقیم ریسک درگیری آمریکا-ایران را بالا می‌برد و هزینه امنیتی و عملیاتی برای رژیم و نیروهایش در منطقه ایجاد می‌کند.",
+        "tag": "نظامی",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "رادیو فردا",
+        "url": "https://www.radiofarda.com/a/33817299.html",
+        "clean_url": "https://www.radiofarda.com/a/33817299.html",
+        "image": "https://gdb.rferl.org/13aa9416-8754-4dcc-9c70-0e92a4554895_cx0_cy10_cw0_w1200_h630.jpg",
+        "timestamp": 1785305940.0
+    },
+    {
+        "title_fa": "پیوند بحران خلیج فارس و جنگ اوکراین؛ روسیه تا چه حد پشت حکومت ایران می‌ایستد؟",
+        "title_en": "پیوند بحران خلیج فارس با جنگ اوکراین؛ روسیه تا کجا حاضر است از حکومت ایران حمایت کند؟",
+        "summary": [
+            "رادیو فردا با طرح محور «درهمتنیدگی جنگ اوکراین و درگیری‌های خلیج فارس»، این پرسش را برجسته می‌کند که حمایت روسیه از حکومت ایران تا چه سطحی قابل دوام است.",
+            "نیکول گراجوسکی (پژوهشگر روابط روسیه و ایران) به ارتباط این دو جبهه می‌پردازد و عملاً نشان می‌دهد تصمیم‌گیری روسیه می‌تواند تابع فشارهای جنگ اوکراین و اولویت‌های راهبردی‌اش باشد.",
+            "این چارچوب، پیامد مستقیم برای محاسبات ثبات حکومت ایران دارد: هرچه هزینه‌های اوکراین برای روسیه بیشتر شود، ظرفیت یا تمایل برای حمایت فراتر از سطحی مشخص کاهش می‌یابد (بدون اینکه در متن، رقم یا سند مشخصی ارائه شود)."
+        ],
+        "impact": "هم‌زمانی دو بحران به عنوان اهرم فشار بر استمرار حمایت روسیه از حکومت ایران عمل می‌کند و در نتیجه امکان تغییر سقف حمایت و ریسک محاسبات غلط داخلی را بالا می‌برد.",
+        "tag": "روسیه",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "رادیو فردا",
+        "url": "https://www.radiofarda.com/a/russia-iran-partnership-ukraine-persian-gulf-nicole-grajewski/33816943.html",
+        "clean_url": "https://www.radiofarda.com/a/russia-iran-partnership-ukraine-persian-gulf-nicole-grajewski/33816943.html",
+        "image": "https://gdb.rferl.org/A58C41E0-A303-4A4F-B828-C67AE39475FA.jpg",
+        "timestamp": 1785301800.0
     },
     {
         "title_fa": "جزئیات پنتاگون از تلاش برای حمله غافلگیرانه به نیروهای آمریکایی",
@@ -250,6 +394,24 @@
         "clean_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nWDMyNnhqaERiaVJhaTJCa1NweVpqd3U1V20wcVlNWmdTOE1lUk5PaWxENjlMNjU2dDhUcS12Nlk1cGpWYURmQWlPclc2djdGNmgxUDl2X3lKcjlvTmgwSWFBaXF4NFZaTEpjUVpoeFYtaVpNaUE",
         "image": null,
         "timestamp": 1785288306.0
+    },
+    {
+        "title_fa": "زلنسکی: ترامپ با مجوز تولید موشک‌های پاتریوت در اوکراین موافقت کرد",
+        "title_en": "زلنسکی: ترامپ با اعطای مجوز تولید موشکهای پاتریوت به اوکراین موافقت کرد",
+        "summary": [
+            "ولودیمیر زلنسکی اعلام کرده دونالد ترامپ با اعطای مجوزهای لازم برای تولید موشک‌های سامانه پاتریوت در اوکراین موافقت کرده است.",
+            "این تصمیم، در چارچوب تقویت ظرفیت دفاعی اوکراین، می‌تواند وابستگی به تأمین خارجی را کاهش دهد و زنجیره پشتیبانی سامانه پاتریوت را پایدارتر کند.",
+            "خبر به‌صورت مستقیم به مرحله اجرایی و جزئیات فنی/زمان‌بندی اشاره نمی‌کند، اما ماهیت آن به‌عنوان «مجوز تولید» نشان می‌دهد هدف، گسترش توان عملیاتی در داخل اوکراین است."
+        ],
+        "impact": "اگر تولید موشک‌های پاتریوت واقعاً فعال شود، اوکراین از نظر توان مقابله دفاعی در کوتاه‌مدت و میان‌مدت ظرفیت بیشتری خواهد داشت.",
+        "tag": "اوکراین",
+        "urgency": 5,
+        "sentiment": 0.2,
+        "source": "رادیو فردا",
+        "url": "https://www.radiofarda.com/a/trump-agreed-to-give-ukraine-licenses-for-patriot-missiles-zelenskiy-says/33817265.html",
+        "clean_url": "https://www.radiofarda.com/a/trump-agreed-to-give-ukraine-licenses-for-patriot-missiles-zelenskiy-says/33817265.html",
+        "image": "https://gdb.rferl.org/be7b6023-7f4f-45cc-6265-08decd277110_w1200_h630.jpg",
+        "timestamp": 1785283200.0
     },
     {
         "title_fa": "سعودی اعلام کرد حملات مشترک با آمریکا علیه شبه‌نظامیان مورد حمایت ایران در عراق آغاز شده است",
@@ -5236,167 +5398,5 @@
         "clean_url": "https://www.nytimes.com/live/2026/07/09/world/iran-war-us-trump/war-weary-gulf-arab-countries-hit-by-new-iranian-attacks",
         "image": "http://www.bing.com/th?id=ONUT.Szc2umSnSeU34r60tvRpEA&pid=News",
         "timestamp": 1783570740.0
-    },
-    {
-        "title_fa": "پایان‌گذاری با خاکسپاری: رژیم ایران از تشییع انبوه برای مدیریت بحران جانشینی استفاده می‌کند",
-        "title_en": "Iran to bury slain Supreme Leader in culmination of mass funeral",
-        "summary": [
-            "خبرگزاری رویترز گزارش می‌دهد ایران روز پنج‌شنبه «رهبر عالی» کشته‌شده، علی خامنه‌ای، را در «مقدس‌ترین مکان مذهبی» کشور دفن می‌کند؛ اجرای مراسم به‌عنوان نقطه‌اوج یک تشییع گسترده طراحی شده است.",
-            "هم‌زمان، رویترز تأکید می‌کند مجتبی خامنه‌ای (فرزند و جانشین ادعایی) همچنان از دید عموم پنهان مانده که نشانه‌ای مستقیم از بلاتکلیفی/کنترل‌نشده بودن روند جانشینی در لحظه پس از حذف رهبر است.",
-            "در غیاب اطلاعات روشن از ارائه عمومیِ جانشین و با تمرکز شدید بر مراسم، هدف عملی رژیم مدیریت ادراک عمومی و کنترل شکاف‌های قدرت در کوتاه‌مدت است، نه ایجاد ثبات واقعی."
-        ],
-        "impact": "این رویداد نشان می‌دهد رژیم با تکیه بر مراسم و مدیریت رسانه‌ای می‌کوشد خلأ ناشی از حذف رهبر و ابهام جانشینی را پوشش دهد، اما پنهان‌بودن جانشین، ریسک بی‌ثباتی داخلی را بالا می‌برد.",
-        "tag": "ایران",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "Reuters",
-        "url": "https://www.reuters.com/world/middle-east/iran-bury-slain-supreme-leader-culmination-mass-funeral-2026-07-09/",
-        "clean_url": "https://www.reuters.com/world/middle-east/iran-bury-slain-supreme-leader-culmination-mass-funeral-2026-07-09",
-        "image": null,
-        "timestamp": 1783570140.0
-    },
-    {
-        "title_fa": "اعلام ایران از حمله آمریکا نزدیک نیروگاه بوشهر؛ همزمان سردرگمی درباره تلفات و هشدار به تداوم مداخله در تنگه هرمز",
-        "title_en": "Trump says truce ‘over’ as Iran reports US attack near nuclear plant – Middle East crisis live",
-        "summary": [
-            "خبرگزاری نیمه‌رسمی مهر گزارش داد حملاتی در چند نقطه استان بوشهر رخ داده که شامل مناطق نظامی و غیرنظامی بوده؛ همچنین گفته شد حمله‌ها نزدیک نیروگاه اتمی بوشهر و در بندر ماهیگیری شهر عسلویه گزارش شده‌اند. مقام محلی، ا‏حسان جهان‌آ‏ن، تلفات را اعلام نکرده و وعده داده اطلاعات تکمیلی از مسیر رسمی منتشر شود؛ هنوز اظهار نظر فوری از طرف آمریکا وجود ندارد.",
-            "هم‌زمان، نیروی دریایی سپاه مدعی شد حملات آمریکا روند «بازگشایی تدریجی» تنگه هرمز را مختل کرده است: ظرفیت ترانزیت تحت نظارت ایران به حدود ۵۰٪ سطح پیش از جنگ رسیده و توسعه ظرفیت فقط برای کشتی‌های دارای مجوز طبق مسیرهای تعیین‌شده ایران انجام می‌شود؛ در عین حال هشدار داد هرگونه مداخله بیشتر با «پاسخ کوبنده» روبه‌رو می‌شود.",
-            "طبق همین گزارش، آمریکا بامداد گذشته حملات هوایی علیه ایران انجام داد که دست‌کم ۱۴ کشته برجای گذاشته و تهران در پاسخ به کشورهای حوزه خلیج فارس حمله کرد؛ این چرخه درگیر‌ی شدیدترین تبادل آتش از زمان تمدید یک آتش‌بسِ شکننده بعد از توافق/گام‌های اخیر برای مذاکره بر سر «آتش‌بس پایدار» توصیف شده است."
-        ],
-        "impact": "این رخداد، ریسک جهش فوری تنش را به‌ویژه در محور تنگه هرمز و نزدیکی به زیرساخت اتمی بالا می‌برد و عملاً کانال آتش‌بس را شکننده‌تر می‌کند.",
-        "tag": "ایران-آمریکا",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/live/2026/jul/09/iran-us-middle-east-strikes-centcom-bahrain-kuwait-qatar-strait-of-hormuz-latest-news-updates",
-        "clean_url": "https://www.theguardian.com/world/live/2026/jul/09/iran-us-middle-east-strikes-centcom-bahrain-kuwait-qatar-strait-of-hormuz-latest-news-updates",
-        "image": null,
-        "timestamp": 1783569060.0
-    },
-    {
-        "title_fa": "تشدید تبادل آتش آمریکا و ایران در خلیج فارس همزمان با تهدید شکست توافق میان‌بر",
-        "title_en": "US and Iran exchange intensifying fire across the Persian Gulf as interim deal to end war threatened",
-        "summary": [
-            "خبرگزاری AP گزارش می‌کند که روز پنج‌شنبه برای سومین بار در بحرین آژیرهای موشکی به صدا درآمد؛ این رخداد با پاسخ ایران به حملات هوایی آمریکا مرتبط شده است.",
-            "بحرین از مردم خواست برای پناه‌گیری اقدام کنند و این پیام، نشان‌دهنده وضعیت اضطراری ناشی از افزایش ریسک در فضای منطقه است.",
-            "کویت و قطر نیز در گزارش به عنوان کشورهایی که درگیر موج هشدارها بوده‌اند مطرح شده‌اند، اما جزئیات بیشتر در متن ارسالی نیامده است."
-        ],
-        "impact": "تهدید «توافق میان‌بر» در کنار افزایش تبادل آتش، احتمال لغزش سریع بحران به سطحی بالاتر و گسترده‌تر در خلیج فارس را بالا می‌برد.",
-        "tag": "تنش",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "Associated Press News on MSN",
-        "url": "https://www.msn.com/en-us/news/world/us-launches-new-airstrikes-on-iran-and-tehran-fires-back-at-3-gulf-arab-states/ar-AA27wBNJ",
-        "clean_url": "https://www.msn.com/en-us/news/world/us-launches-new-airstrikes-on-iran-and-tehran-fires-back-at-3-gulf-arab-states/ar-AA27wBNJ",
-        "image": "http://www.bing.com/th?id=ONUT.6JYCvpYK8tOzBHkQloo4yw&pid=News",
-        "timestamp": 1783559421.0
-    },
-    {
-        "title_fa": "ضربات تازه، اعتبار «آتش‌بس برای توافق هسته‌ای» ایران-آمریکا را از بین می‌برد",
-        "title_en": "The Iran ceasefire was meant to pave the way for a grand nuclear deal. New strikes expose its flaws",
-        "summary": [
-            "ترامپ روز پس از امضای تفاهم‌نامه ۶۰ روزه با ایران برای مذاکره درباره برنامه هسته‌ای، وعده «پایه‌ریزی یک توافق بزرگ» داد؛ اما متن ۱۴ ماده‌ای مبهم و قابل تفسیر بود و در واشنگتن نگرانی ایجاد کرد که چه امتیازهایی داده شده و روند دقیق چیست.",
-            "کوشنر و ویتکاف پس از توافق تلاش کردند با توصیف سفر محرمانه به آزمایشگاه هسته‌ای اوک‌ریج و آمادگی کارشناسان فنی، مخالفان جمهوری‌خواه را آرام کنند؛ با این حال سه هفته بعد «مذاکرات فنی» فقط به‌صورت بسیار محدود شروع شده و کل تفاهم‌نامه عملاً از هم گسیخته تلقی می‌شود.",
-            "گزارش می‌گوید پس از شلیک ایران به کشتی‌ها در تنگه هرمز، آمریکا تلافی کرد و یک دور دیگر حمله چند ساعت بعد از وعده ترامپ برای انجام ضربات انجام شد؛ تهران نیز اعلام آمادگی برای پاسخ داده و شخص ترامپ هم عملاً گفت توافق «تمام شده» است."
-        ],
-        "impact": "این چرخه ضربات جدید نشان می‌دهد تفاهم‌نامه مبهم و زودشکن، بدون سازوکارهای سخت‌کننده امنیتی نتوانسته مسیر توافق هسته‌ای را حفظ کند و ریسک تشدید مستقیم بالا می‌رود.",
-        "tag": "هسته‌ای",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "CNN",
-        "url": "https://www.cnn.com/2026/07/09/politics/iran-strikes-kushner-witkoff-flawed-ceasefire",
-        "clean_url": "https://www.cnn.com/2026/07/09/politics/iran-strikes-kushner-witkoff-flawed-ceasefire",
-        "image": "http://www.bing.com/th?id=ONUT.Td2va0E3Ilve6fHGZ_maVw&pid=News",
-        "timestamp": 1783558860.0
-    },
-    {
-        "title_fa": "ادامه حملات مبادله‌ای آمریکا و ایران، خطر فروپاشی آتش‌بس شکننده",
-        "title_en": "US, Iran trade attacks for second day, testing fragile ceasefire",
-        "summary": [
-            "بنابر گزارش، حملات نظامی آمریکا به ایران برای دومین روز ادامه یافته و تهران نیز در واکنش، به متحدان آمریکا در خلیج فارس ضربه زده است؛ الگوی «تلافی‌به‌تلافی» عملاً در حال تست‌کردن مرزهای آتش‌بس است.",
-            "این رفت‌وبرگشت‌ها همزمان با مذاکره برای یک توافق دائمی صلح مطرح شده‌اند و نگرانی اصلی این است که چرخه حمله و تلافی روند گفت‌وگوها را از مسیر خارج کند.",
-            "گستره واکنش ایران به «آمریکا و متحدانش در خلیج فارس» نشان می‌دهد جنگ نیابتی/عملیات منطقه‌ای از کنترل کامل خارج نشده و می‌تواند دامنه درگیری را سریع‌تر از مذاکرات پیش ببرد."
-        ],
-        "impact": "اگر این حملات دومینووار ادامه پیدا کند، احتمال شکست مذاکرات و بازگشت به درگیری گسترده‌تر در کوتاه‌مدت بالا می‌رود.",
-        "tag": "تنش-نظامی",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "Bloomberg on MSN",
-        "url": "https://www.msn.com/en-us/news/world/us-iran-trade-attacks-for-second-day-testing-fragile-ceasefire/ar-AA27wQBn",
-        "clean_url": "https://www.msn.com/en-us/news/world/us-iran-trade-attacks-for-second-day-testing-fragile-ceasefire/ar-AA27wQBn",
-        "image": "http://www.bing.com/th?id=ONUT.ig5cS9ruRXLMImKqybtVag&pid=News",
-        "timestamp": 1783556929.0
-    },
-    {
-        "title_fa": "آیا آمریکا با ضربه‌ دوباره می‌تواند «ضربه نهایی» به ایران بزند؟",
-        "title_en": "The US is striking Iran again. Can it ever deliver a knockout blow?",
-        "summary": [
-            "طبق گزارش CNN، از زمان توافق آوریل بر سر آتش‌بس و سپس امضای MoU در ژوئن، در ۴۸ ساعت گذشته موج جدیدی از حملات متقابل با پهپاد، موشک و حملات هوایی ثبت شده؛ هم آمریکا «ده‌ها هدف» را زده و هم ایران اعلام کرده به اهداف آمریکایی حمله کرده است.",
-            "ترامپ اعلام کرده MoU «تمام شده» و با انتقاد تند از «بی‌اعتباری» طرف ایرانی، بی‌صبری سیاسی خود را برجسته کرده؛ در برابر، تهران هم هشدار داده که اگر حمله شود پاسخ داده می‌شود.",
-            "با وجود «کوفتن چند هدف عمدتاً ساحلی» توسط آمریکا، توان ایران برای شلیک موشک و پهپاد علیه پایگاه‌های آمریکا در کویت و بحرین همچنان پابرجاست و خبرها از تداوم ریسک در تنگه هرمز حکایت می‌کند؛ بنابراین کارشناسان می‌گویند این حملات احتمالاً توان تهدید کشتیرانی را از بین نمی‌برد."
-        ],
-        "impact": "این وضعیت نشان می‌دهد حتی تشدید ضربات هوایی به‌تنهایی قادر به حذف قابلیت‌های تهاجمی ایران نیست و چرخه تلافی می‌تواند به جنگ ساییده‌وار و پرریسک ادامه دهد.",
-        "tag": "تحلیل",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "CNN",
-        "url": "https://www.cnn.com/2026/07/09/middleeast/iran-us-ceasefire-attacks-resume-intl-hnk",
-        "clean_url": "https://www.cnn.com/2026/07/09/middleeast/iran-us-ceasefire-attacks-resume-intl-hnk",
-        "image": "http://www.bing.com/th?id=ONUT.gC6P_fwQN8wZxpGYk7CHYA&pid=News",
-        "timestamp": 1783556220.0
-    },
-    {
-        "title_fa": "بازگشت خطر جنگ مستقیم آمریکا-ایران و تشدید شوک بازار نفت در تنگه هرمز",
-        "title_en": "Is the US at war with Iran again?",
-        "summary": [
-            "طبق گزارش، پس از تبادل «حملات جدید» بین آمریکا و ایران، بازارهای جهانی و قیمت نفت دوباره نوسانی شده‌اند و ترامپ نیز گفته مذاکرات شکننده ممکن است «تمام شده باشد».",
-            "هم‌زمان، خبر از «شروع/اعمال محاصره بنادر ایران» توسط آمریکا برای فشار به تهران جهت دست کشیدن از کنترل تنگه هرمز آمده؛ موضوعی که روی عبور و خروج هزاران ملوان و نیروهای نظامی مستقر در چند کشور اثر می‌گذارد.",
-            "این رویدادها در ادامه یک چرخه جنگ از حمله اسرائیل و آمریکا به ایران در ۲۸ فوریه و پاسخ‌های ایران در سطح منطقه (از جمله ادعاهای کنترل تنگه هرمز) و ورود حزب‌الله به درگیری در ۲ مارس رخ داده است."
-        ],
-        "impact": "تشدید حملات و فشار دریایی می‌تواند مسیر تنگه هرمز را برای کشتیرانی پرریسک‌تر کند و هم‌زمان شوک‌های قیمتی به اقتصاد جهانی و ثبات سیاسی منطقه تزریق کند.",
-        "tag": "جنگ",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "vox.com",
-        "url": "https://www.baltimoresun.com/2026/07/08/iran-war-timeline/",
-        "clean_url": "https://www.baltimoresun.com/2026/07/08/iran-war-timeline",
-        "image": null,
-        "timestamp": 1783548300.0
-    },
-    {
-        "title_fa": "بازگشت «خواب‌زده» به جنگ؛ هشدار راهبردی در نبودِ مهار جدی",
-        "title_en": "‘We May Sleepwalk Our Way Back to War’",
-        "summary": [
-            "این گزارش بر خطرِ لغزش تدریجی به سمت جنگ تأکید می‌کند؛ یعنی سناریویی که طی آن تصمیم‌ها و اقداماتِ پراکنده بدون کنترل مؤثر، مسیر را به سمت رویارویی می‌برد.",
-            "محور اصلی متن، تحلیل شکاف میان محاسبات سیاسی و سازوکارهای واقعیِ بازدارندگی است: اگر مهار، قواعد ارتباط بحران، و کانال‌های مدیریت تنش جدی نباشد، احتمال تشدید از مسیرهای غیرمستقیم بالا می‌رود.",
-            "متن فعلاً به‌جای ارائه جزئیاتِ اقتصادی یا اقدامات مشخص علیه دارایی‌های رژیم/کشورهای هدف، یک چارچوب هشداردهنده می‌دهد و تمرکز آن بر «فرایند» است نه «یک حادثه مشخص»."
-        ],
-        "impact": "اثر این نوع هشدار، افزایش احتمال تصمیم‌گیری‌های شتاب‌زده در محیطی است که مهار و مدیریت بحران کم‌اثر شده و مسیر تشدید را هموار می‌کند.",
-        "tag": "جنگ",
-        "urgency": 5,
-        "sentiment": -0.4,
-        "source": "The Atlantic",
-        "url": "https://www.theatlantic.com/national-security/2026/07/trump-iran-airstrikes-ceasefire-hormuz/687851/",
-        "clean_url": "https://www.theatlantic.com/national-security/2026/07/trump-iran-airstrikes-ceasefire-hormuz/687851",
-        "image": null,
-        "timestamp": 1783548265.0
-    },
-    {
-        "title_fa": "ایران ادامه فعالیت در سایت هسته‌ای کلیدی را پیش می‌برد و توافق با آمریکا را نقض می‌کند",
-        "title_en": "Iran Continues Work at Key Nuclear Site, Violating U.S.-Iran Agreement",
-        "summary": [
-            "طبق گزارش Foundation for Defense of Democracies، ایران روند کاری در یک سایت هسته‌ای مهم را ادامه می‌دهد؛ اقدامی که به‌عنوان نقض توافق آمریکا-ایران مطرح شده است.",
-            "این وضعیت، در چارچوب فشار خارجی، نشانه تضعیف کارکرد بازدارندگی اقتصادی-سیاسی توافق است: رژیم می‌تواند هزینه‌های سیاسی عدم‌تطابق را مدیریت کند، اما همزمان ریسک تشدید فشارهای هدفمندتر علیه برنامه هسته‌ای افزایش می‌یابد.",
-            "از منظر داخل، استمرار کار در سایت کلیدی با وجود ادعای توافق، الگوی حکمرانی مبتنی بر اولویت دادن به پروژه هسته‌ای بر تعهدات بیرونی را تقویت می‌کند؛ پیامد آن می‌تواند تداوم بی‌ثباتی اقتصادی ناشی از انتظار تحریم‌های سخت‌تر در آینده باشد."
-        ],
-        "impact": "ادامه فعالیت در سایت هسته‌ای کلیدی، هم اعتبار سازوکار توافق را می‌کاهد و هم احتمال اعمال فشارهای شدیدتر خارجی را بالا می‌برد.",
-        "tag": "هسته‌ای",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "Foundation for Defense of Democracies",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX1RXNG9BN3ZEcXM5NjJmM01RaG13YzJqTVg5RFZIbTlHYTd6UzZjTDFXeG9MckpEUjZLRXJLM19FS3l6U25zR2xyaTFrb0hLeW5mNUhfSWJHYzl2WW1rQlNqSzRMd1ZZM3dsMW9wTkMxUHUwWW5RZjBnLWZfOFQ5T1piT0dtVnlfOGJjZ3RRNGhfSVBjUFZxT0lSMm1yTUNsQkVyYTlRUGJtd0pRT3c?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX1RXNG9BN3ZEcXM5NjJmM01RaG13YzJqTVg5RFZIbTlHYTd6UzZjTDFXeG9MckpEUjZLRXJLM19FS3l6U25zR2xyaTFrb0hLeW5mNUhfSWJHYzl2WW1rQlNqSzRMd1ZZM3dsMW9wTkMxUHUwWW5RZjBnLWZfOFQ5T1piT0dtVnlfOGJjZ3RRNGhfSVBjUFZxT0lSMm1yTUNsQkVyYTlRUGJtd0pRT3c",
-        "image": null,
-        "timestamp": 1783547100.0
     }
 ]

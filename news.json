@@ -1,5 +1,77 @@
 [
     {
+        "title_fa": "واکنش آمریکا به «حمله غافلگیرانه» ایران در اردن",
+        "title_en": "U.S. retaliates against ‘surprise attack’ by Iran in Jordan",
+        "summary": [
+            "NPR گزارش می‌دهد آمریکا در واکنش به حمله‌ای که از سوی ایران به‌عنوان «حمله غافلگیرانه» در اردن توصیف شده، اقدام تلافی‌جویانه انجام داده است.",
+            "مضمون خبر حول محور این است که این رخداد مستقیماً به یک عملیات فراتر از چارچوب معمولِ تهدیدات نیابتی رسیده و منجر به پاسخ نظامی/امنیتی آمریکا شده است.",
+            "جزئیات بیشتر درباره ابعاد حمله یا محل/هدف دقیق پاسخ آمریکا در متن ارائه‌شده نیامده و بنابراین فقط می‌توان بر اصلِ «تلافی» و «ارتباط رویداد در اردن» اتکا کرد."
+        ],
+        "impact": "این اقدام نشان‌دهنده ورود بحران ایران-آمریکا به سطح ریسک بالاترِ برخورد مستقیم در سرزمین‌های ثالث مانند اردن است.",
+        "tag": "escalation",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OY1JhT0ZDaDFtbWNIX2VYSHBGUGRISXF0dGNRa2VQR19pYzVsODZJOXNYcWgxTnJPRl9faUdpMEtTU2RTWWZBZEdMYlN3UHJjVjgySEIyS3Z3aTNZczd4YzlUS2R1eFF6VldyMg?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OY1JhT0ZDaDFtbWNIX2VYSHBGUGRISXF0dGNRa2VQR19pYzVsODZJOXNYcWgxTnJPRl9faUdpMEtTU2RTWWZBZEdMYlN3UHJjVjgySEIyS3Z3aTNZczd4YzlUS2R1eFF6VldyMg",
+        "image": null,
+        "timestamp": 1785411444.0
+    },
+    {
+        "title_fa": "تهدید تهران به «تنبیه متجاوز» پس از «موج سنگین» حملات آمریکا",
+        "title_en": "Iran vows to ‘punish the aggressor today’ after U.S. unleashes ‘heavy wave’ of strikes",
+        "summary": [
+            "تهران در واکنش به «موج سنگین» حملات آمریکا، اعلام کرده «امروز متجاوز را تنبیه می‌کند»؛ یعنی رژیم عمداً دنبال تشدید تقابل لفظی و عملی است، نه کاهش تنش.",
+            "این پیام نشان می‌دهد محاسبه اصلی در تهران، حفظ بازدارندگی داخلی-خارجی از طریق پاسخ‌دادن سریع است؛ اما همزمان ریسک درگیری مستقیم و خطای محاسباتی را بالا می‌برد.",
+            "با توجه به اینکه خبر صرفاً بر واکنش سیاسی رژیم و توصیف حمله آمریکا تمرکز دارد، اثر فوری آن فعلاً بیشتر روانی-امنیتی است تا قابل سنجش در اقتصاد یا تظاهرات؛ اما از نظر راهبردی می‌تواند چرخه حملات متقابل را فعال کند."
+        ],
+        "impact": "احتمال تداوم و تشدید حملات متقابل بالا می‌رود و فضای تصمیم‌گیری برای هر دو طرف به سمت رویارویی پرریسک‌تر حرکت می‌کند.",
+        "tag": "escalation",
+        "urgency": 9,
+        "sentiment": -0.7,
+        "source": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTnN0M1BBZmhESEUzUk12VFVZck5SUHJ3RVRVeS02WkVfZ3pEN3lOalM1YzlTWkZXbE9LSk1HY3JmaEs1bVNOTXlpY1ZFMW1HRzd4VFMwWWk0WHJPMTR5NUIwZ1c4MTJnTVFuZjRJSHVzbndGaE04OVh6R3J2SU9RaGpiVVlYSHFLa1lCLTZVek5VRWF0QnFqUnZIczJ2RklIYnAwQjJDdzZDZXNJazZIMA?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTnN0M1BBZmhESEUzUk12VFVZck5SUHJ3RVRVeS02WkVfZ3pEN3lOalM1YzlTWkZXbE9LSk1HY3JmaEs1bVNOTXlpY1ZFMW1HRzd4VFMwWWk0WHJPMTR5NUIwZ1c4MTJnTVFuZjRJSHVzbndGaE04OVh6R3J2SU9RaGpiVVlYSHFLa1lCLTZVek5VRWF0QnFqUnZIczJ2RklIYnAwQjJDdzZDZXNJazZIMA",
+        "image": null,
+        "timestamp": 1785407985.0
+    },
+    {
+        "title_fa": "ایران در کانون جنگ با اسرائیل و آمریکا؛ ردیابی تعارضات در «Global Conflict Tracker»",
+        "title_en": "Iran’s War With Israel and the United States | Global Conflict Tracker",
+        "summary": [
+            "این صفحه از «Global Conflict Tracker» چارچوب کلیِ درگیری ایران با اسرائیل و آمریکا را دنبال می‌کند، اما در متنِ ارائه‌شده هیچ جزئیات قابل راستی‌آزمایی درباره زمان، مکان، نوع حمله یا طرف‌های درگیر ارائه نشده است.",
+            "چنین ردیابی‌های بیرونی معمولاً نشانگر این است که منازعه به سطحی رسیده که نیازمند پایش مستمر است؛ با این حال، در محتوای فعلی هیچ داده‌ای درباره شدت، پیامد اقتصادی یا وضعیت تحریم‌ها ذکر نشده است.",
+            "در غیاب اطلاعات مشخص از این متن، نمی‌توان درباره سازوکارهای «فشار خارجی»، نقش روسیه/چین/کره‌شمالی، یا موج‌های اعتراض داخلی و اثر اقتصادی نتیجه‌گیری مستند انجام داد."
+        ],
+        "impact": "تا زمانی که متن گزارش‌شده جزئیات عملیاتی (حمله/پاسخ/تلفات/زمان) ندهد، اثر دقیق بر ثبات رژیم یا سطح خطر قابل اندازه‌گیری نیست.",
+        "tag": "جنگ",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Council on Foreign Relations",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw",
+        "image": null,
+        "timestamp": 1785405461.0
+    },
+    {
+        "title_fa": "گزارش‌ها از تشدید درگیری؛ پهپاد ناشناس در مصر و اعتراف مستقیم عربستان",
+        "title_en": "Iran War Live Updates: Middle East Faces Expanded War as Iran and U.S. Reignite Attacks",
+        "summary": [
+            "مصر اعلام کرده که هدف حمله یک پهپاد ناشناس قرار گرفته است؛ منبع حمله مشخص نشده اما وقوع آن به گسترش دامنه درگیری در منطقه اشاره می‌کند.",
+            "عربستان برای نخستین بار رسماً از «دخالت مستقیم» در جنگ خبر داده؛ این یعنی ریختن خطوط مشارکت کشورها از سطح حمایت پنهان به سطح درگیری علنی.",
+            "هم‌زمان با «ریج‌ِنیت شدن» حملات میان ایران و آمریکا، گزارش‌ها از افزایش خطر درگیری گسترده‌تر در خاورمیانه حکایت دارند؛ جزئیات بیشتر از سوی متن ارائه نشده است."
+        ],
+        "impact": "اعتراف عربستان به مشارکت مستقیم و حمله پهپادی علیه مصر، احتمال درگیر شدن بیشتر بازیگران منطقه‌ای و افزایش ریسک برخوردهای گسترده‌تر را بالا می‌برد.",
+        "tag": "تشدید",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/live/2026/07/30/world/iran-war-strikes-trump",
+        "clean_url": "https://www.nytimes.com/live/2026/07/30/world/iran-war-strikes-trump",
+        "image": "https://static01.nyt.com/images/2026/07/30/multimedia/30mideast-live-promo-gcht/30mideast-live-promo-gcht-facebookJumbo.jpg",
+        "timestamp": 1785404700.0
+    },
+    {
         "title_fa": "حمله‌های تازه آمریکا به ایران و گسترش دامنه درگیری در منطقه",
         "title_en": "US launches more strikes on Iran as conflict spreads across region",
         "summary": [
@@ -5326,77 +5398,5 @@
         "clean_url": "https://www.tbsnews.net/worldbiz/middle-east/slain-iranian-leader-buried-successor-remains-out-sight-1484421",
         "image": null,
         "timestamp": 1783633980.0
-    },
-    {
-        "title_fa": "واشینگتن از «طرح تازه» برای ترور ترامپ توسط ایران باخبر شد؛ اسرائیل به آمریکا اطلاع داد",
-        "title_en": "Exclusive | Iran Hatched Fresh Plot to Kill Trump, Israel Told U.S.",
-        "summary": [
-            "طبق گزارش انحصاری WSJ، ایران «طرح تازه»‌ای را برای ترور دونالد ترامپ طراحی کرده است و اسرائیل این موضوع را به آمریکا اطلاع داده است.",
-            "این روایت نشان می‌دهد دشمنی رژیم با رقبای غربی صرفاً لفظی نیست و به شکل عملیاتی وارد فازهای جدید امنیتی شده است.",
-            "در سطح سیاسی-امنیتی، هرگونه اقدام برای خنثی‌سازی چنین طرحی می‌تواند به تشدید چرخه بی‌اعتمادی و افزایش فشارهای خارجی علیه تهران بینجامد."
-        ],
-        "impact": "اطلاع‌رسانی اسرائیل به آمریکا درباره طرح ترور، احتمال افزایش فشار امنیتی و عملیات‌های ضدتروریستی علیه رژیم را بالا می‌برد.",
-        "tag": "امنیت",
-        "urgency": 9,
-        "sentiment": -0.75,
-        "source": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQWVBTGtjNzFjM3FMMl9IaDBmRHhTQUlGWTFpclhRR2xqeWYwYlExeW1aU1h6UlBVbFdJMlhSdzZVRFFmbEpYNU1QMkRucmZDMzJwcWFTc3l2aUdjZlpYaDl6NTJMMnA1cThRRzU3LW1oRGpPbzBINlduakFuVGxaN1U3S3A1dXZ1Vm5uZ0VycE4tdlBCWUtZZ2s1YXRILVZGZXc?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQWVBTGtjNzFjM3FMMl9IaDBmRHhTQUlGWTFpclhRR2xqeWYwYlExeW1aU1h6UlBVbFdJMlhSdzZVRFFmbEpYNU1QMkRucmZDMzJwcWFTc3l2aUdjZlpYaDl6NTJMMnA1cThRRzU3LW1oRGpPbzBINlduakFuVGxaN1U3S3A1dXZ1Vm5uZ0VycE4tdlBCWUtZZ2s1YXRILVZGZXc",
-        "image": null,
-        "timestamp": 1783632660.0
-    },
-    {
-        "title_fa": "تعویق حمله آمریکا همزمان با ادامه ضربه‌ها به جنوب ایران و تهدید دوباره اسرائیل",
-        "title_en": "US-Iran War Live Updates:US held off attacking Iran Thursday amid deescalation push",
-        "summary": [
-            "طبق گزارش، از سرگیری حملات در جنوب ایران ثبت شده؛ از جمله مناطقی نزدیک به بوشهر و همچنین گزارش انفجارها در بندرعباس، در حالی که آمریکا نقش خود را رد کرده است.",
-            "هم‌زمان یک مقام آمریکایی به الجزیره گفته نیروی نظامی آمریکا مسئول ضربه‌های تازه نیست و با وجود سه روز تبادل تشدیدشونده، «گفت‌وگوهای فنی» با تهران ادامه دارد، هرچند ترامپ گفته بود آتش‌بس «تمام شده» است.",
-            "اسرائیل در کنار ادامه عملیات علیه غزه و لبنان، با تهدید صریح به اقدام دوباره علیه ایران، توسط وزیر دفاع اسرائیل، اسرائیل کاتس، اعلام کرده که نیروها برای ازسرگیری جنگ و بازپس‌گیری برتری هوایی آماده‌اند."
-        ],
-        "impact": "حتی اگر آمریکا حمله مستقیم را عقب انداخته باشد، ابهام درباره عامل ضربه‌ها و تداوم تهدید اسرائیل، آتش‌بس اعلامی را شکننده می‌کند و خطر جهش مجدد را بالا می‌برد.",
-        "tag": "جنگ",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "CNBCTV18",
-        "url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-trump-drone-strikes-gulf-strait-of-hormuz-crude-prices-talks-west-asia-peace-deal-liveblog-19942367.htm",
-        "clean_url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-trump-drone-strikes-gulf-strait-of-hormuz-crude-prices-talks-west-asia-peace-deal-liveblog-19942367.htm",
-        "image": "http://www.bing.com/th?id=ONUT.uIHUKlJh3jODyQNIWukVPQ&pid=News",
-        "timestamp": 1783631100.0
-    },
-    {
-        "title_fa": "تبادل حملات آمریکا و ایران در خاورمیانه؛ تهدید مستقیم برای آتش‌بس",
-        "title_en": "US and Iran exchange more attacks across the Mideast, threatening ceasefire deal",
-        "summary": [
-            "طبق گزارش AP، آمریکا و ایران بار دیگر در چند نقطه از خاورمیانه به تبادل حملات پرداختند و همین روند عملاً آتش‌بس را در معرض فرسایش و شکست قرار می‌دهد.",
-            "این تشدید، هزینه سیاسی و عملی اجرای هر توافق را بالا می‌برد: هر طرف می‌تواند شکست آتش‌بس را به «اقدام متقابل» نسبت بدهد و کانال‌های کنترل تشدید را تضعیف کند.",
-            "از منظر راهبردی، افزایش درگیری‌های پراکنده نشان می‌دهد که نظم امنیتی مبتنی بر آتش‌بس هنوز پایدار نشده و نیروهای نیابتی/وابسته و زنجیره‌های تصمیم‌گیری خارج از یک چارچوب قابل‌مهار عمل می‌کنند (بدون اتکا به ادعاهای فراتر از گزارش)."
-        ],
-        "impact": "تبادل حملات جدید احتمالاً فشار فوری برای بازتعریف یا لغو آتش‌بس را بالا می‌برد و ریسک سرایت درگیری به نقاط بیشتر را افزایش می‌دهد.",
-        "tag": "خاورمیانه",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "AP News",
-        "url": "https://www.chron.com/news/world/article/us-says-it-has-ended-strikes-on-iran-after-22338370.php",
-        "clean_url": "https://www.chron.com/news/world/article/us-says-it-has-ended-strikes-on-iran-after-22338370.php",
-        "image": null,
-        "timestamp": 1783625340.0
-    },
-    {
-        "title_fa": "تشديد حملات آمريکا در سواحل ايران در امتداد تنگه هرمز",
-        "title_en": "U.S. intensifies strikes on Iran’s coast along Strait of Hormuz",
-        "summary": [
-            "واشنگتن با «تشديد» حملات، فشار نظامي مستقيم را عليه زيرساخت‌ها و حضور ايران در امتداد تنگه هرمز بالا برده؛ هدف روشن اين اقدام تضعيف ظرفيت عملياتي ايران در يک گلوگاه کليدي دريايي است.",
-            "اين سطح از درگيري مي‌تواند محاسبات بازدارندگي تهران را از حالت مديريت‌شده خارج کند و چرخه پاسخ‌گيري/پاداش‌گيري را محتمل‌تر سازد، چون هر موج حمله، ريسک خطاي محاسباتي و برخورد ناخواسته را افزايش مي‌دهد.",
-            "صرف‌نظر از ادعاهاي تبليغاتي، تشديد ضربات در منطقه، هزينه‌هاي اقتصادي و امنيتي را بالا مي‌برد و فرصت‌هاي فروش نفت و تجارت دريايي را تحت فشار بيشتر قرار مي‌دهد؛ نتيجه عملي آن فرسودگي توان حکمراني از مسير اقتصاد و امنيت است."
-        ],
-        "impact": "تشديد حملات در هرمز، يک مرحله جديد از فشار نظامي مستقيم را فعال مي‌کند و خطر تشديد سريع‌تر در منطقه را بالا مي‌برد.",
-        "tag": "هشدار",
-        "urgency": 9,
-        "sentiment": -0.85,
-        "source": "The Washington Post",
-        "url": "https://www.msn.com/en-us/news/world/us-intensifies-strikes-on-iran-s-coast-along-strait-of-hormuz/ar-AA27xQOJ",
-        "clean_url": "https://www.msn.com/en-us/news/world/us-intensifies-strikes-on-iran-s-coast-along-strait-of-hormuz/ar-AA27xQOJ",
-        "image": null,
-        "timestamp": 1783624832.0
     }
 ]

@@ -1,5 +1,59 @@
 [
     {
+        "title_fa": "حمله‌های تازه آمریکا به ایران و گسترش دامنه درگیری در منطقه",
+        "title_en": "US launches more strikes on Iran as conflict spreads across region",
+        "summary": [
+            "طبق گزارش South China Morning Post، آمریکا «حمله‌های بیشتری» علیه اهداف در ایران انجام داده است؛ نشانه‌ای از تشدید مستقیم فشار نظامی از سوی واشینگتن.",
+            "گسترش «دامنه درگیری در منطقه» به عنوان چارچوب خبر مطرح شده که احتمال کشیده‌شدن بحران به بازیگران و جبهه‌های متعدد را بالا می‌برد و ریسک محاسبات اشتباه را افزایش می‌دهد.",
+            "با توجه به اینکه گزارش صرفاً به «حملات تازه» اشاره می‌کند و جزئیات عملیاتی/اهداف را ارائه نمی‌دهد، نمی‌توان درباره پیامدهای دقیق داخلی یا میزان تلفات/اختلال زیرساختی نتیجه‌گیری کرد، اما خودِ افزایش حملات می‌تواند برای رژیم هزینه و فشار فوری تولید کند."
+        ],
+        "impact": "تشدید حملات آمریکا می‌تواند فشار فوری بر ظرفیت‌های دفاعی و تصمیم‌گیری تهران را بالا ببرد و ریسک ورود منطقه به چرخه تشدید-پاسخ را افزایش دهد.",
+        "tag": "درگیری_منطقه‌ای",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "South China Morning Post",
+        "url": "https://www.msn.com/en-xl/news/other/us-launches-more-strikes-on-iran-as-conflict-spreads-across-region/ar-AA29145I",
+        "clean_url": "https://www.msn.com/en-xl/news/other/us-launches-more-strikes-on-iran-as-conflict-spreads-across-region/ar-AA29145I",
+        "image": null,
+        "timestamp": 1785395029.0
+    },
+    {
+        "title_fa": "اظهار رسمی سپاه: بستن‌بودن تنگه هرمز به «تهدیدهای آمریکا» گره خورده است",
+        "title_en": "Iran's IRGC says Strait of Hormuz cannot reopen while US 'threats' continue",
+        "summary": [
+            "سپاه پاسداران اعلام کرده تنگه هرمز «نمی‌تواند» دوباره باز شود، و شرط از منظر تهران را ادامه «تهدیدهای آمریکا» عنوان کرده است؛ یعنی سیاست بازدارندگی/فشار، به یک چارچوب سیاسی-امنیتی وابسته می‌ماند.",
+            "این موضع به‌طور مستقیم یک ریسک عملیاتی برای تجارت و کشتیرانی منطقه ایجاد می‌کند: هرگونه تشدید لفظی یا سوءتفاهم در سطح فرماندهی می‌تواند به اختلال‌های واقعی در عبور کشتی‌ها منجر شود (بدون اینکه در متن، اقدام اجرایی مشخصی گزارش شده باشد).",
+            "از منظر فشار خارجی و سنجش‌پذیری تحرکات رژیم، این پیام بیشتر برای مدیریت ادراک داخلی و خارجی استفاده می‌شود تا راه‌حل؛ چون همزمان «امنیت» را پیش‌شرط می‌گذارد، اما مشخص نمی‌کند چه اقدام قابل راستی‌آزمایی از سوی آمریکا باید انجام شود تا مسیر باز شدن تنگه روشن شود."
+        ],
+        "impact": "این اظهارات احتمال تداوم عدم‌قطعیت در تنگه هرمز را بالا می‌برد و هزینه ریسک برای بازار و کشتیرانی منطقه‌ای را بیشتر می‌کند.",
+        "tag": "هرمز",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Anadolu Ajansı",
+        "url": "https://www.aa.com.tr/en/middle-east/irans-irgc-says-strait-of-hormuz-cannot-reopen-while-us-threats-continue/4013306",
+        "clean_url": "https://www.aa.com.tr/en/middle-east/irans-irgc-says-strait-of-hormuz-cannot-reopen-while-us-threats-continue/4013306",
+        "image": null,
+        "timestamp": 1785391827.0
+    },
+    {
+        "title_fa": "آغاز حملات سنگین آمریکا به ایران پس از اقدام منتسب به ایران علیه نیروهای آمریکایی",
+        "title_en": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+        "summary": [
+            "طبق گزارش BBC، آمریکا پس از یک اقدام/تلاش برای حمله به نیروهای آمریکایی، حملات «سنگین» علیه ایران را آغاز کرده است.",
+            "این خبر بر منطق بازدارندگی و پاسخ مستقیم آمریکا به تهدید علیه نیروهایش تکیه دارد و نشان می‌دهد انتقال پرونده از فضای ادعای تهدید به عملیات نظامی رخ داده است.",
+            "جزئیات فنی درباره اهداف، زمان‌بندی، میزان خسارت یا واکنش رسمی ایران در متن ارائه‌شده ذکر نشده، بنابراین ارزیابی اثرات فوری باید محدود به تأیید وقوع حملات باشد."
+        ],
+        "impact": "ورود به فاز حمله مستقیم، ریسک تشدید سریع در سطح منطقه‌ای را بالا می‌برد و می‌تواند چرخه «پاسخ‌به‌پاسخ» را فعال کند.",
+        "tag": "تنش‌نظامی",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "BBC",
+        "url": "https://www.msn.com/en-us/news/world/us-launches-powerful-strikes-on-iran-a-day-after-attempted-attack-on-american-troops/ar-AA2913hC",
+        "clean_url": "https://www.msn.com/en-us/news/world/us-launches-powerful-strikes-on-iran-a-day-after-attempted-attack-on-american-troops/ar-AA2913hC",
+        "image": null,
+        "timestamp": 1785389787.0
+    },
+    {
         "title_fa": "از سرگیری حملات آمریکا علیه ایران؛ نگرانی از گسترش جنگ",
         "title_en": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening",
         "summary": [
@@ -70,6 +124,42 @@
         "clean_url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313",
         "image": null,
         "timestamp": 1785374340.0
+    },
+    {
+        "title_fa": "تکمیل موج سنگین حملات تلافی‌جویانه آمریکا علیه اهداف سپاه در ایران",
+        "title_en": "US military completes 'heavy wave' of retaliatory strikes on Iran",
+        "summary": [
+            "طبق گزارش، فرماندهی مرکزی آمریکا (CENTCOM) اعلام کرده نیروهای آمریکایی «موج سنگین» حملات را علیه ایران در پاسخ به هدف قرار دادن پایگاه‌های آمریکا در اردن توسط تهران تکمیل کرده‌اند؛ جنگ پس از یک وقفه نزدیک به یک هفته دوباره تشدید شده است.",
+            "این حملات «ده‌ها» هدف از جمله مراکز فرماندهی مرتبط با سپاه را دربر گرفته و خبرگزاری ایران (IRNA) از اصابت به چند شهر در استان خوزستان و همچنین جزیره قشم در خلیج فارس خبر داده است؛ مناطقی مانند آبادان، شادگان، اروندکنار و اهواز ذکر شده‌اند.",
+            "در سطح منطقه‌ای نیز هم‌زمانی تشدید در جریان بوده: عربستان و آمریکا در روز قبل اعلام کردند پایگاه‌های گروه‌های مسلح در عراق هدف قرار گرفته است، اسرائیل ادعا کرده که حزب‌الله توافق را نقض کرده و حملات پهپادی/موشکی میان جبهه‌ها ادامه دارد."
+        ],
+        "impact": "تشدید مستقیم و منطقه‌ای حملات، مسیر هر نوع مذاکره سریع را تضعیف کرده و خطر گسترش چرخه تلافی را بالا می‌برد.",
+        "tag": "escalation",
+        "urgency": 9,
+        "sentiment": -0.9,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/us-saudi-strike-iraq-alliance-100046122.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/us-saudi-strike-iraq-alliance-100046122.html",
+        "image": "http://www.bing.com/th?id=ONUT.rdbRLVVll_QU7i2rnQC2LQ&pid=News",
+        "timestamp": 1785363840.0
+    },
+    {
+        "title_fa": "گزارش: ایران ظرف چند هفته سامانه‌های موشکی دوش‌پرتاب چینی دریافت می‌کند؛ پیامد مستقیم برای قابلیت‌های ضدنیرو",
+        "title_en": "US Iran War Live Updates: Iran to receive Chinese shoulder-fired missile systems within weeks, report says",
+        "summary": [
+            "بر اساس گزارشِ Firstpost، ایران طی چند هفته آینده سامانه‌های موشکی دوش‌پرتاب ساخت چین دریافت خواهد کرد؛ یعنی یک تقویت ملموس در توان دفاعی/درگیری‌های کوتاه‌برد، نه یک وعده مبهم سیاسی.",
+            "این نوع دریافت تسلیحات از کانال چین، در چارچوب فشار خارجی آمریکا می‌تواند شکاف‌های موجود در زنجیره تأمین را برای رژیم پر کند و از فرسایش توان عملیاتی جلوگیری کند.",
+            "با توجه به اینکه جزئیات در متن ارائه نشده (مدل دقیق، تعداد، نوع استقرار)، ارزیابی اثر نهایی به قابلیت‌های عملیاتی و نحوه یکپارچه‌سازی این سامانه‌ها با ساختار نیروهای رژیم وابسته است، اما اصل «تقویت ظرفیت» گزارش شده."
+        ],
+        "impact": "ورود قریب‌الوقوع سامانه‌های موشکی دوش‌پرتاب چینی می‌تواند توان پاسخ سریع و درگیری علیه اهداف هوایی/زمینی در میدان را برای رژیم افزایش دهد و هزینه اقدام نظامی را بالا ببرد.",
+        "tag": "بازدارندگی",
+        "urgency": 7,
+        "sentiment": -0.4,
+        "source": "Firstpost",
+        "url": "https://www.firstpost.com/world/us-iran-war-live-updates-us-hits-iranian-sites-after-jordan-base-attack-targets-qeshm-and-bandar-abbas-liveblog-14034834.html",
+        "clean_url": "https://www.firstpost.com/world/us-iran-war-live-updates-us-hits-iranian-sites-after-jordan-base-attack-targets-qeshm-and-bandar-abbas-liveblog-14034834.html",
+        "image": "http://www.bing.com/th?id=ONUT.iNjwnkXYR4b6MuFDGcioYQ&pid=News",
+        "timestamp": 1785363240.0
     },
     {
         "title_fa": "نتانیاهو بعد از گفت‌وگو با ترامپ، «فشارمحور» علیه ایران را پیش می‌برد",
@@ -5308,95 +5398,5 @@
         "clean_url": "https://news.abplive.com/news/world/iran-war-hormuz-us-iran-ceasefire-collapse-vessels-1855513",
         "image": "https://feeds.abplive.com/images/dw/77875149_607.jpg?impolicy=abp_cdn&imwidth=1200",
         "timestamp": 1783624380.0
-    },
-    {
-        "title_fa": "آیا آمریکا وارد جنگ با ایران شده؟ پاسخ به پرسش‌های اصلی درباره درگیری آمریکا-ایران",
-        "title_en": "Is the US at war? Answering your questions about the US-Iran conflict",
-        "summary": [
-            "این متن تاکید می‌کند جنگ به‌صورت رسمی اعلام نشده، اما «درگیری نظامی» میان آمریکا و ایران برقرار است؛ تبادل آتش و تهدیدها از چند ماه قبل ادامه دارد و یک وقفه کوتاه سه‌هفته‌ای هم در قالب آتش‌بس بوده است.",
-            "علت درگیری طبق ادعای دولت ترامپ از فوریه شروع شده؛ حملات آمریکا و اسرائیل به ایران با ادعای حذف رهبران کلیدی و هدف جلوگیری از دست‌یابی ایران به سلاح هسته‌ای و تضعیف توان نظامی، در ابتدا قرار بود حدود چهار هفته دوام داشته باشد اما بیش از چهار ماه ادامه یافته است.",
-            "در پاسخ، ایران به حمله به پایگاه‌های آمریکا در منطقه و نیز حمله به کشتی‌ها در تنگه هرمز دست زده و متن می‌گوید تنگه هرمز عملاً از ابتدای این درگیری مختل شده است؛ پیامد مستقیم آن افزایش فشار روی قیمت سوخت است (ذکر شده حدود ۲۰٪ نفت جهان معمولاً از این مسیر خارج می‌شود)."
-        ],
-        "impact": "ادامه چندماهه تبادل آتش، در کنار اختلال عملی تنگه هرمز، هم ریسک تشدید مستقیم را بالا می‌برد و هم هزینه‌های اقتصادی فوری از مسیر قیمت انرژی به‌دنبال دارد.",
-        "tag": "درگیری",
-        "urgency": 9,
-        "sentiment": -0.4,
-        "source": "WXII",
-        "url": "https://www.kcci.com/article/is-us-at-war-iran-again/71886606",
-        "clean_url": "https://www.kcci.com/article/is-us-at-war-iran-again/71886606",
-        "image": null,
-        "timestamp": 1783622880.0
-    },
-    {
-        "title_fa": "نتانیاهو: ایران حتی با یا بدون توافق هم به سلاح هسته‌ای نخواهد رسید",
-        "title_en": "Benjamin Netanyahu says Iran will never have nuclear weapons 'with or without a deal'",
-        "summary": [
-            "بنیامین نتانیاهو در اظهارنظری اعلام کرد که ایران «با یا بدون توافق» قادر نخواهد شد به سلاح هسته‌ای دست پیدا کند.",
-            "این موضع به‌طور ضمنی بر رویکرد فشار/بازدارندگی علیه برنامه هسته‌ای ایران تأکید می‌گذارد و فرمول «توافق» را به‌عنوان تضمین کافی نمی‌پذیرد.",
-            "در سطح راهبردی، پیام او برای رژیم ایران و بازیگران خارجی این است که سطح ریسک ناشی از هر سناریوی سیاسی-دیپلماتیک همچنان بالا باقی می‌ماند."
-        ],
-        "impact": "این اظهارنظر، بدون ارائه جزئیات اجرایی، سیگنال سیاسی سخت‌گیرانه‌ای برای تداوم فشار راهبردی و احتمال افزایش ریسک‌های تنش پیرامون پرونده هسته‌ای ارسال می‌کند.",
-        "tag": "هسته‌ای",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KcU1JMWxieGlLQklieFR2ZlNobHdmSVNranN0STdOeGFVNzZJRzY4bnB4Q0U4dV9rVXFSLTFqTW1qUkFlV3M5QmxvV1F2X0RBLXJjWVIxdVZuV3FONGkyNjVVTy0tbXp4Z0QtMnV3?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KcU1JMWxieGlLQklieFR2ZlNobHdmSVNranN0STdOeGFVNzZJRzY4bnB4Q0U4dV9rVXFSLTFqTW1qUkFlV3M5QmxvV1F2X0RBLXJjWVIxdVZuV3FONGkyNjVVTy0tbXp4Z0QtMnV3",
-        "image": null,
-        "timestamp": 1783621134.0
-    },
-    {
-        "title_fa": "اسرائیل به واشنگتن: اطلاعاتی درباره برنامه ترور ترامپ؛ هم‌زمان فرسایش آتش‌بس بر سر تنگه هرمز",
-        "title_en": "Iran plotting to kill Trump, according to Israeli intelligence",
-        "summary": [
-            "طبق گزارش وال‌استریت ژورنال، مقامات اسرائیلی اخیراً به واشنگتن گفته‌اند اطلاعاتی دارند که نشان می‌دهد برنامه‌ای برای ترور دونالد ترامپ طراحی شده است.",
-            "هم‌زمان با امضای آتش‌بس و بازگشایی تنگه هرمز، در روزهای اخیر «زیر فشار بودن» توافق مشاهده شده و ادعا می‌شود تهدید حملات از سوی ایران برای کشتی‌های عبوری همچنان ادامه دارد.",
-            "ترامپ اعلام کرده آتش‌بس را «تمام‌شده» می‌داند و احتمال «تمام کردن کار» را مطرح کرده؛ او همچنین گفته تهران می‌خواهد رهبر آمریکا را حذف کند، با اشاره به اینکه هدف‌گذاری‌های متعدد را دیده است (جزئیات دقیق ارتباط او با اطلاعات اسرائیل در متن روشن نیست)."
-        ],
-        "impact": "این ادعا اگر عملیاتی یا حتی جدی تلقی شود، آتش‌بس را به سمت رویارویی مستقیم و افزایش ریسک اقدامات تلافی‌جویانه می‌برد.",
-        "tag": "ترور",
-        "urgency": 9,
-        "sentiment": -0.9,
-        "source": "Yahoo",
-        "url": "https://www.yahoo.com/news/politics/articles/iran-plotting-kill-trump-according-232114882.html",
-        "clean_url": "https://www.yahoo.com/news/politics/articles/iran-plotting-kill-trump-according-232114882.html",
-        "image": "http://www.bing.com/th?id=ONUT.K5wCJEi6Ymbe39ZQXihaSw&pid=News",
-        "timestamp": 1783614060.0
-    },
-    {
-        "title_fa": "گسترش درگیری آمریکا و ایران به ۴ کشور؛ جهش ریسک منطقه‌ای",
-        "title_en": "U.S.-Iran Conflict Spreads Across Middle East as Strikes Hit 4 Countries",
-        "summary": [
-            "ایران‌وایر گزارش می‌دهد در ادامه تنش میان آمریکا و ایران، حمله‌ها به چند کشور در منطقه گسترش یافته و «۴ کشور» هدف ضربه قرار گرفته‌اند.",
-            "این یعنی تقابل فقط به سطح تنش‌های محدود یا نیابتی نمانده و وارد فاز عملیات مستقیم‌تر/قابل‌مشاهده‌تر شده است، که معمولاً رژیم‌ها و بازیگران منطقه‌ای را با فشار فوری امنیتی-سیاسی مواجه می‌کند.",
-            "گسترش جغرافیایی ضربه‌ها—طبق گزارش—به طور مستقیم توان مدیریت بحران و پیش‌بینی‌پذیری وضعیت برای ایران را کاهش می‌دهد و ریسک اختلال در زنجیره‌های اقتصادی و امنیتی را بالا می‌برد."
-        ],
-        "impact": "گسترش حمله‌ها به چند کشور، احتمال درگیری‌های بیشتر و فشارهای متقابل را افزایش می‌دهد و فضای اقتصادی-امنیتی ایران را شکننده‌تر می‌کند.",
-        "tag": "منطقه",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "IranWire",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb1hQZjhjbG5KZHRKVkVVTkV5Y1JoaVVOLWczLTQ0NTlPMUdhTkY1U1dTRjJoNkM5Mlk5b3VReDJOa3Vpa013QlhUVGRWVGtnNl9KYlRFR0d1cjBPLUt2UkVCRzF1MG9Lb1pjYnBBZm1Db0VDNXFTZFRuOEZUUklhZ1BYS2hNVm1tVnpIeWU5dFBhbHRXZ2R2VTMtSzVPQ25vUG9kSmlaQ1RJMEk?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb1hQZjhjbG5KZHRKVkVVTkV5Y1JoaVVOLWczLTQ0NTlPMUdhTkY1U1dTRjJoNkM5Mlk5b3VReDJOa3Vpa013QlhUVGRWVGtnNl9KYlRFR0d1cjBPLUt2UkVCRzF1MG9Lb1pjYnBBZm1Db0VDNXFTZFRuOEZUUklhZ1BYS2hNVm1tVnpIeWU5dFBhbHRXZ2R2VTMtSzVPQ25vUG9kSmlaQ1RJMEk",
-        "image": null,
-        "timestamp": 1783610627.0
-    },
-    {
-        "title_fa": "اختلاف داخلی رسانه‌ای بر سر «تسکین اقتصادی» برای ایران بعد از پیش‌نویس توافق با آمریکا",
-        "title_en": "Trump agreed to economic relief for Iran. In response, some Fox personalities are defending what they spent years attacking — while others are trashing the deal.",
-        "summary": [
-            "پیش‌نویس توافق برای پایان درگیری میان آمریکا و ایران که جزئیاتش در ۱۷ ژوئن منتشر شده، «تسکین اقتصادی» برای ایران را از مسیرهایی مثل معافیت‌های تحریمی، دسترسی به دارایی‌های بلوکه‌شده و یک صندوق توسعه ۳۰۰ میلیارد دلاری پیش‌بینی می‌کند.",
-            "این موضوع برخی چهره‌های فاکس را در موضع دشوار قرار داده: عده‌ای یا باید این توافق را رد کنند یا از ایده‌ای دفاع کنند که سال‌ها علیه آن تبلیغ می‌کردند؛ چون همان تسکین اقتصادی را قبلاً با ادعای تأمین مالی تروریسم و ناکامی در مهار برنامه هسته‌ای نقد می‌کردند.",
-            "گزارش می‌گوید برخی دیگر در فاکس سعی کرده‌اند اثرات تسکین اقتصادی را کم‌رنگ کنند یا تمایز بگذارند میان مذاکرات ترامپ و برجام ۲۰۱۵ (JCPOA)؛ همان معامله‌ای که در پوشش‌های گذشته فاکس به‌عنوان «پول‌دهی» به ایران به آن حمله می‌شد."
-        ],
-        "impact": "تبدیل موضع رسانه‌ای از «رد هرگونه تسکین مالی» به «یا تخطئه یا توجیه» احتمالاً نشان می‌دهد توافق جدید در لایه‌های سیاسی-روانی داخل جریان حامی جنگ‌محور، شکاف جدی ایجاد کرده است.",
-        "tag": "تحریم",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "Media Matters for America",
-        "url": "https://www.mediamatters.org/us-iran-relations/trump-agreed-economic-relief-iran-response-some-fox-personalities-are-defending",
-        "clean_url": "https://www.mediamatters.org/us-iran-relations/trump-agreed-economic-relief-iran-response-some-fox-personalities-are-defending",
-        "image": null,
-        "timestamp": 1783608660.0
     }
 ]

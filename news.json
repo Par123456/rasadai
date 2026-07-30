@@ -1,5 +1,23 @@
 [
     {
+        "id": "14804422cb",
+        "title_fa": "زمزمه نزدیکی اسرائیل و اوکراین زیر سایه تهدید ایران و روسیه",
+        "title_en": "Israel, Ukraine may join together amid Iranian and Russian threats",
+        "summary": [
+            "گزارش از احتمال هماهنگی نزدیک‌تر میان اسرائیل و اوکراین می‌گوید؛ سناریویی که بیشتر روی «بازدارندگی» و تبادل توان در برابر تهدیدهای مشترک حساب می‌کند تا صرفاً همکاری سیاسی.",
+            "ترکیب ادعاییِ «تهدید ایران و روسیه» یعنی اسرائیل به دنبال یک خط دفاعی چندلایه است: هم علیه مسیرهای پهپادی/موشکی، هم علیه بازیگری که در خاک اوکراین و پیرامونش به روسیه کمک می‌کند."
+        ],
+        "impact": "اگر این هماهنگی جدی شود، سرعت واکنش به تهدیدهای پهپادی و موشکی در جبهه اوکراین می‌تواند بالا برود و ریسک درگیری غیرمستقیم بیشتر شود.",
+        "tag": "سیاسی",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XbVJaR1lVN1hLd2NRemVqejJXekVWUEV6YkE2SHFjMnpwc1dJdThrRENwOU41UHhVLUs0b210QjFqYUpjLTdEZjJXLWh1STl0NC1xOEh5NUdhNDl2dHJv?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XbVJaR1lVN1hLd2NRemVqejJXekVWUEV6YkE2SHFjMnpwc1dJdThrRENwOU41UHhVLUs0b210QjFqYUpjLTdEZjJXLWh1STl0NC1xOEh5NUdhNDl2dHJv",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "timestamp": 1785429126.0
+    },
+    {
         "title_fa": "حمله‌های آمریکا به ده‌ها هدف در ایران؛ دامنه خشونت بالا گرفت",
         "title_en": "U.S. hits dozens more targets in Iran as violence widens",
         "summary": [
@@ -113,6 +131,24 @@
         "id": "1909542dfe"
     },
     {
+        "id": "1319b8ed52",
+        "title_fa": "ایران از جنگ محدود، فشار می‌گیرد نه آتش تمام‌عیار",
+        "title_en": "Why limited war with the US may suit Iran better than peace",
+        "summary": [
+            "ایران می‌خواهد تنش را «قابل مدیریت» نگه دارد: فشار به آمریکا، بدون ورود به جنگی که کنترلش از دست برود.",
+            "اگر برگ برنده ایران دیپلماسی و چانه‌زنی است، جنگ محدود ابزار تنظیم دما می‌شود تا پای میز مذاکره دست بالا داشته باشد و هزینه‌ها را بالا نبرد."
+        ],
+        "impact": "با فرض مدیریت‌پذیر بودن درگیری، احتمال ادامه بازی فشار–کنترل بالا می‌رود و مسیر مذاکره باز می‌ماند، اما ریسک خطای محاسباتی هم جدی است.",
+        "tag": "سیاسی",
+        "urgency": 6,
+        "sentiment": -0.1,
+        "source": "BBC",
+        "url": "https://www.bbc.com/news/articles/c78gnyq3wvdo",
+        "clean_url": "https://www.bbc.com/news/articles/c78gnyq3wvdo",
+        "image": "http://www.bing.com/th?id=ONUT.WbZlnQLE5YiJPzFoQYNq8g&pid=News",
+        "timestamp": 1785407160.0
+    },
+    {
         "title_fa": "ایران در کانون جنگ با اسرائیل و آمریکا؛ ردیابی تعارضات در «Global Conflict Tracker»",
         "title_en": "Iran’s War With Israel and the United States | Global Conflict Tracker",
         "summary": [
@@ -167,6 +203,24 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785401567.0,
         "id": "d6c0949b95"
+    },
+    {
+        "id": "1d5bd9f6b8",
+        "title_fa": "آمریکایی‌ها جنگ با ایران را به پای بنزین نمی‌خرند",
+        "title_en": "Is the Iran war worth the gas prices? Many Americans say no.",
+        "summary": [
+            "افزایش فشار هزینه‌های زندگی باعث شده بخش بزرگی از مردم آمریکا با ادامه جنگ علیه ایران همراهی نکنند.",
+            "این نارضایتی اجتماعی برای دولت هزینه‌ساز می‌شود: هر گزینه نظامی جدید در واشنگتن باید همزمان توجیه اقتصادی هم پیدا کند."
+        ],
+        "impact": "هر موج تشدید تنش با ایران می‌تواند به بی‌پشتوانی داخلی در آمریکا دامن بزند و دست سیاست‌گذار را محدود کند.",
+        "tag": "سیاسی",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "USA TODAY on MSN",
+        "url": "https://www.msn.com/en-us/money/general/is-the-iran-war-worth-the-gas-prices-many-americans-say-no/ar-AA294zSv",
+        "clean_url": "https://www.msn.com/en-us/money/general/is-the-iran-war-worth-the-gas-prices-many-americans-say-no/ar-AA294zSv",
+        "image": "http://www.bing.com/th?id=ONUT.tDQEczpQIgJwooaTfaHSmQ&pid=News",
+        "timestamp": 1785400081.0
     },
     {
         "title_fa": "ریزش حمایت آمریکا از حمله به ایران همزمان با موج ضربات",
@@ -337,6 +391,24 @@
         "image": "http://www.bing.com/th?id=ONUT.Ab_LkfKdGE-m9TnDpyi3iw&pid=News",
         "timestamp": 1785377220.0,
         "id": "fd192ddc1e"
+    },
+    {
+        "id": "679aa9112f",
+        "title_fa": "نظر آمریکایی‌ها درباره مدیریت ترامپ از ایران سرد شد",
+        "title_en": "How views on Trump's handling of Iran have shifted, according to a new AP-NORC poll",
+        "summary": [
+            "طبق نظرسنجی AP-NORC، بیشتر آمریکایی‌ها می‌گویند جنگ با ایران ارزش درگیری ندارد؛ یعنی افکار عمومی از مسیر «هزینه‌-فایده» به سمت تردید رفته است.",
+            "امتیاز تأیید ترامپ درباره ایران نسبت به ماه قبل کمی افت کرده؛ افت کوچک اما معنی‌دار، یعنی روایت رسمی سیاست فشار هنوز نتوانسته حمایت پایدار بسازد."
+        ],
+        "impact": "افزایش تردید افکار عمومی می‌تواند دست دولت آمریکا را برای تشدید فشار یا ادامه خط‌مشی پرریسک علیه ایران محدود کند.",
+        "tag": "سیاسی",
+        "urgency": 4,
+        "sentiment": -0.35,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/us--ap-poll-trump-iran-090624946.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/us--ap-poll-trump-iran-090624946.html",
+        "image": "http://www.bing.com/th?id=ONUT.OvRxPOATI2IWALBjVoOocQ&pid=News",
+        "timestamp": 1785377160.0
     },
     {
         "title_fa": "گسترش «جبهه‌های جدید» جنگ ایران در خاورمیانه (گزارش WSJ)",
@@ -5619,81 +5691,5 @@
         "image": "http://www.bing.com/th?id=ONUT.JDckSs4cdfBNJIL9kaZA1A&pid=News",
         "timestamp": 1784811000.0,
         "id": "3ff58e7a05"
-    },
-    {
-        "title_fa": "مجلس نمایندگان آمریکا با رأی‌گیری، اختیارات جنگی ترامپ علیه ایران را محدود کرد",
-        "title_en": "House rebukes Trump in vote to restrict his Iran war powers",
-        "summary": [
-            "مجلس نمایندگان آمریکا با ابتکار «پرمیلا جایاپال» رأی داد تا ادامه جنگ علیه ایران بدون تأیید کنگره متوقف شود؛ نتیجه ۲۱۴ به ۲۰۸ بود و چهار جمهوری‌خواه همراه دموکرات‌ها رأی دادند، که یک طرد جدی از رویکرد ترامپ محسوب می‌شود.",
-            "این قطع‌نامه اگرچه حتی در صورت عبور از سنا الزام‌آورِ اجرایی برای دولت ایجاد نمی‌کند، چون «قطع‌نامه‌های همزمان» به رئیس‌جمهور ارائه نمی‌شوند و نیروی قانون ندارند؛ با این حال، نشانه سیاسیِ سنگین از شکاف کنگره با کاخ سفید است.",
-            "پس از پایان یک آتش‌بسِ اخیر و تشدید دوباره درگیری، سنا هم تلاش مشابه برای مهار اختیارات جنگی را انجام داد اما با شکست ۴۷ به ۴۹ روبه‌رو شد؛ «سوزان کالینز» با دموکرات‌ها رأی داد، اما «جان فترمن» همراه جمهوری‌خواهان برای رد طرح رأی داد."
-        ],
-        "impact": "این روند رأی‌گیری نشان می‌دهد که حتی درون ساختار قدرت آمریکا هم نسبت به ادامه جنگ، فشار سیاسی رو به افزایش است؛ هرچند از نظر حقوقی به‌تنهایی فرمان توقف جنگ صادر نمی‌کند.",
-        "tag": "اقتصادی",
-        "urgency": 7,
-        "sentiment": -0.2,
-        "source": "CNN",
-        "url": "https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers",
-        "clean_url": "https://www.cnn.com/2026/07/23/politics/trump-iran-war-powers",
-        "image": "http://www.bing.com/th?id=ONUT.WcV_HevQP7di0Pnpsv8-lw&pid=News",
-        "timestamp": 1784803500.0,
-        "id": "0d9ee68b51"
-    },
-    {
-        "title_fa": "جنگ آمریکا-اسرائیل علیه ایران؛ خطر تشدید مستقیم و فروپاشی کنترل بحران",
-        "title_en": "US-Israel war on Iran",
-        "summary": [
-            "گزارش گاردین با عنوان «US-Israel war on Iran» صراحتاً بر چارچوب «جنگ» میان آمریکا و اسرائیل علیه ایران تأکید می‌کند، اما در متن ارائه‌شده هیچ جزئیات قابل راستی‌آزمایی از عملیات، اهداف یا زمان‌بندی منتشر نشده است.",
-            "با اتکا به همین عنوان، محور فشار خارجی می‌تواند به شکل شوک امنیتی-اقتصادی خودش را نشان دهد؛ یعنی احتمال اختلال در تجارت، ریسک جهش نرخ ارز و فشار بر شبکه مالی دولت، بدون اینکه در این متن عدد یا سندی آمده باشد.",
-            "از آنجا که متن فقط عنوان را تکرار کرده، نمی‌توان درباره نقش روسیه/چین/کره‌شمالی یا شکل‌گیری اعتراضات داخلی، «واقعیت» ادعا کرد؛ هر تحلیل فراتر از عنوان در اینجا ساختگی می‌شود."
-        ],
-        "impact": "صرفِ طرح «جنگ» علیه ایران، حتی بدون جزئیات ارائه‌شده، بیشترین ریسک را برای تشدید بحران مستقیم، فرسایش توان حکمرانی و شوک اقتصادی-امنیتی ایجاد می‌کند.",
-        "tag": "نظامی",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "The Guardian",
-        "url": "https://www.timesnownews.com/world/middle-east/us-iran-israel-war-live-updates-donald-trump-benjamin-netanyahu-pezeshkian-strikes-middle-east-israel-iran-news-liveblog-155041323",
-        "clean_url": "https://www.timesnownews.com/world/middle-east/us-iran-israel-war-live-updates-donald-trump-benjamin-netanyahu-pezeshkian-strikes-middle-east-israel-iran-news-liveblog-155041323",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1783757946.0,
-        "id": "16b8721456"
-    },
-    {
-        "title_fa": "آمادگی اسرائیل برای کمک به آمریکا علیه ایران؛ اما بدون برنامه ورود به جنگ",
-        "title_en": "Israel willing to assist US against Iran if Trump requests, despite no plans to join war - report",
-        "summary": [
-            "گزارش می‌گوید اسرائیل اعلام آمادگی کرده در صورت درخواست دونالد ترامپ به آمریکا برای اقدام علیه ایران کمک کند، با این شرط که اسرائیل برنامه‌ای برای ورود مستقیم به جنگ ندارد.",
-            "این یعنی محور تصمیم‌گیری به درخواست آمریکا گره خورده و فعلاً «عملیات مشترک» به‌صورت رسمی در دستور اسرائیل قرار نگرفته است؛ بنابراین احتمالاً مرحله کنونی بیشتر ارزیابی، هماهنگی و آماده‌باش است نه آغاز درگیری مستقیم.",
-            "برای تهران، پیام سیاسی-امنیتی روشن است: محدودیت مانور از سوی یک جبهه بالقوه فعال‌تر می‌شود، اما چون ورود مستقیم اسرائیل قطعی گزارش نشده، شدت تهدید فوری به یک «تابع خواست آمریکا» تبدیل می‌گردد."
-        ],
-        "impact": "این وضعیت می‌تواند فشار روانی و امنیتی بر رژیم را افزایش دهد، ولی چون ورود مستقیم اسرائیل گزارش نشده، احتمالاً فعلاً به جای جنگ، بر سناریوسازی و آماده‌سازی عملیاتی تمرکز خواهد شد.",
-        "tag": "امنیت",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WcWctSXdUTkhhU3p1cEV0REFseHZpTGVyOTBRQUxFM005WkcxV0c3cEU3R1pQb3VkT0ZqeHdwY0wtSG45b21sbm5RM0FRODV4dHFCTUNGdUh5dkI0eEtTTkU5WVMwTm1jT0E?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WcWctSXdUTkhhU3p1cEV0REFseHZpTGVyOTBRQUxFM005WkcxV0c3cEU3R1pQb3VkT0ZqeHdwY0wtSG45b21sbm5RM0FRODV4dHFCTUNGdUh5dkI0eEtTTkU5WVMwTm1jT0E",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1783666833.0,
-        "id": "a70e334b40"
-    },
-    {
-        "title_fa": "اشتراک اطلاعات اسرائیل با آمریکا درباره طرح جدید ایران برای ترور ترامپ",
-        "title_en": "Israel shares intel with the US about new Iran plot to kill President Trump",
-        "summary": [
-            "بر اساس گزارش NewsNation، اسرائیل اطلاعاتی درباره یک «طرح جدید ایران» برای ترور رئیس‌جمهور ترامپ با آمریکا به اشتراک گذاشته است؛ یعنی محور خبر، ادعای فعال بودن عملیات تروریستی علیه یک مقام عالی‌رتبه آمریکایی است.",
-            "این نوع تبادل اطلاعات می‌تواند به تشدید فشار امنیتی و عملیاتی دولت آمریکا منجر شود و هزینه‌های پنهان‌کاری و اجرای عملیات برای شبکه‌های مرتبط با رژیم را بالا ببرد، بدون اینکه هنوز جزئیات اجرایی یا نتیجه نهایی تأیید شده باشد.",
-            "خبر حاضر مستقیماً به سیاست داخلی ایران یا اقتصاد نمی‌پردازد، اما پیامد سیاسی-امنیتی آن برای رژیم بالقوه «ریسک بالاتر مواجهه مستقیم» و افزایش محدودیت‌های بین‌المللی پیرامون دسترسی، ارتباطات و تحرک عوامل می‌تواند باشد."
-        ],
-        "impact": "اشتراک‌گذاری اطلاعات امنیتی درباره ترور یک مقام عالی‌رتبه آمریکا، می‌تواند چرخه اقدام پیشگیرانه و تشدید مهار امنیتی علیه رژیم را فعال کند، هرچند نتیجه یا جزئیات عملیات در خبر تأیید نشده است.",
-        "tag": "ترور",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "NewsNation",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqcFhDeVBQV3BQaEk0aktEQU9BcFdETnNOeGtQZzZ4YXVvbFJJMXd3WTc2enFVQ05KZExHNG1LVzEwVEhhQndWVXJkblFLRmNnYTNjTHVfaWtVaVhSMWtyNGNLd0FQZEtEVndVLW5XZFdnNU9rY3fSAXtBVV95cUxONTY2MkFnWW9uZ19raDlTa01KT2pXc3JKUlJVZHN5MWZYWEw5V3FTRXdKTG1henJWcHItSHRZLUM0dW5ITDN1NFp2NG9rem9xMUlnQkdRMGFodDE3YnlIcndNdDlJSGlNSmlzT1lFLTRORlA3TDBrNWdVem8?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqcFhDeVBQV3BQaEk0aktEQU9BcFdETnNOeGtQZzZ4YXVvbFJJMXd3WTc2enFVQ05KZExHNG1LVzEwVEhhQndWVXJkblFLRmNnYTNjTHVfaWtVaVhSMWtyNGNLd0FQZEtEVndVLW5XZFdnNU9rY3fSAXtBVV95cUxONTY2MkFnWW9uZ19raDlTa01KT2pXc3JKUlJVZHN5MWZYWEw5V3FTRXdKTG1henJWcHItSHRZLUM0dW5ITDN1NFp2NG9rem9xMUlnQkdRMGFodDE3YnlIcndNdDlJSGlNSmlzT1lFLTRORlA3TDBrNWdVem8",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1783660740.0,
-        "id": "c49dda155d"
     }
 ]

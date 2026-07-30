@@ -646,40 +646,51 @@ PREVIOUS SUMMARY:
     def send_digest_to_telegram(self, items):
         token = CONFIG['TELEGRAM']['BOT_TOKEN']
         chat_id = CONFIG['TELEGRAM']['CHANNEL_ID']
-        if not token or not chat_id or not items: return
+        if not token or not chat_id or not items: 
+            return
 
-        # 1. Fetch Market Data
+        # 1. Sort items by urgency (highest urgency first)
+        items.sort(key=lambda x: x.get('urgency', 3), reverse=True)
+
+        # 2. Build Rich Market Data Table
+        market_html = ""
         try:
-            with open(CONFIG['FILES']['MARKET'], 'r') as f: mkt = json.load(f)
-            market_text = f"💵 <b>دلار:</b> {mkt.get('usd')} | 🛢 <b>نفت:</b> {mkt.get('oil')}"
-        except: market_text = ""
+            with open(CONFIG['FILES']['MARKET'], 'r') as f: 
+                mkt = json.load(f)
+            market_html = (
+                f"<table bordered striped>\n"
+                f"  <tr><th>💵 دلار</th><th>🛢 نفت</th><th>⏱ زمان</th></tr>\n"
+                f"  <tr><td align='center'>{mkt.get('usd', '---')}</td>"
+                f"<td align='center'>{mkt.get('oil', '---')}</td>"
+                f"<td align='center'>{mkt.get('updated', '--:--')}</td></tr>\n"
+                f"</table>\n\n"
+            )
+        except Exception: 
+            market_html = ""
 
-        # 2. Setup Proxies as Text (Limited to 6 to save text space)
+        # 3. Build Active Proxies List
         proxies = self.fetch_best_proxies()[:4] 
-        proxy_text = ""
+        proxy_html = ""
         if proxies:
-            proxy_text = "\n\n🌐 <b>پروکسی‌های فعال تلگرام:</b>\n"
-            names_pool = random.sample(PROXY_NAMES, min(len(proxies), len(PROXY_NAMES)))
             proxy_items = []
-            
+            names_pool = random.sample(PROXY_NAMES, min(len(proxies), len(PROXY_NAMES)))
             for i, p in enumerate(proxies):
                 proxy_name = names_pool[i]
                 latency = p.get('latency', '?')
                 tg_url = p.get('tg_url', '#')
-                proxy_items.append(f"🛡 <a href='{tg_url}'>{proxy_name}</a> ({latency}ms)")
+                proxy_items.append(f"<li>🛡 <a href='{tg_url}'>{proxy_name}</a> (<code>{latency}ms</code>)</li>")
             
-            # Group by 2 per line
-            for i in range(0, len(proxy_items), 2):
-                proxy_text += " | ".join(proxy_items[i:i+2]) + "\n"
+            proxy_html = (
+                "<details>\n"
+                "<summary>🌐 <b>پروکسی‌های فعال تلگرام (کلیک کنید)</b></summary>\n"
+                "<ul>" + "".join(proxy_items) + "</ul>\n"
+                "</details>\n\n"
+            )
 
-        # 3. Sort items by urgency
-        items.sort(key=lambda x: x['urgency'], reverse=True)
-
-        # 4. Find the best image for the Telegram Link Preview
+        # 4. Find Link Preview Image
         preview_url = ""
         for item in items:
             img = item.get('image', '')
-            # Ensure we don't accidentally embed a massive Base64 data string
             if img and isinstance(img, str) and not img.startswith('data:'):
                 preview_url = img
                 break
@@ -688,94 +699,99 @@ PREVIOUS SUMMARY:
 
         hidden_preview = f"<a href='{preview_url}'>&#8205;</a>" if preview_url else ""
 
-        # 5. Time & Headers
+        # 5. Header Section
         utc_now = datetime.now(timezone.utc)
         ir_time = utc_now.astimezone(timezone(timedelta(hours=3, minutes=30))).strftime("%H:%M")
         
-        header = f"{hidden_preview}🚨 <b>رادار اخبار مهم ایران</b> | ⏱ {ir_time}\n{market_text}\n➖➖➖➖➖➖➖➖➖➖\n\n"
-        footer = "\n🆔 @RasadAIOfficial\n📊 <a href='https://itsyebekhe.github.io/rasadai/'>مشاهده اخبار بیشتر در سایت</a>"
+        header = (
+            f"{hidden_preview}"
+            f"<h1>🚨 رادار اخبار مهم ایران</h1>\n"
+            f"<p>⏱ <b>زمان بروزرسانی:</b> {ir_time}</p>\n"
+            f"{market_html}"
+            f"<hr/>\n\n"
+        )
 
+        # Helper function for Farsi Numbers
         def to_farsi_num(num):
             return str(num).translate(str.maketrans('0123456789', '۰۱۲۳۴۵۶۷۸۹'))
 
-        # --- PART A: Generate Headlines (سر خط خبرها) ---
-        headlines_text = "📌 <b>سر خط خبرها:</b>\n\n"
+        # 6. Build Collapsible Analysis Blocks (<details><summary>)
+        items_html = ""
+        all_tags = set()
+
         for i, item in enumerate(items, 1):
             title = html.escape(str(item.get('title_fa', item.get('title_en'))))
-            url = item.get('url', '')
+            url = item.get('url', '#')
             source = html.escape(str(item.get('source', 'Unknown')))
             
             is_regime = any(x in source.lower() for x in ['tasnim', 'fars', 'irna', 'presstv', 'mehr'])
-            if is_regime: source += " (رسانه حکومتی 🚫)"
+            if is_regime: 
+                source += " 🚫"
 
             urgency = item.get('urgency', 3)
-            icon = "🔹"
-            if urgency >= 9: icon = "🔥"
-            elif urgency >= 7: icon = "🚨"
+            icon = "🔥" if urgency >= 9 else ("🚨" if urgency >= 7 else "🔹")
 
-            headlines_text += f"{to_farsi_num(i)}. {icon} <a href='{url}'>{title}</a> (<i>{source}</i>)\n"
-
-        # --- PART B: Generate Analysis (تحلیل و بررسی) ---
-        analysis_blocks = []
-        all_tags = set()
-        
-        for i, item in enumerate(items, 1):
             impact = html.escape(str(item.get('impact', '')))
             
             summary_raw = item.get('summary', [])
-            if isinstance(summary_raw, str): summary_raw = [summary_raw]
-            safe_summary = "\n".join([f"▪️ {html.escape(str(s))}" for s in summary_raw])
+            if isinstance(summary_raw, str): 
+                summary_raw = [summary_raw]
+            
+            safe_summary = "".join([f"<li>{html.escape(str(s))}</li>" for s in summary_raw])
             
             tag = str(item.get('tag', 'General')).replace(' ', '_')
             all_tags.add(f"#{html.escape(tag)}")
 
-            block = (
-                f"🔻 <b>درباره خبر {to_farsi_num(i)}:</b>\n"
-                f"📝 <b>تحلیل:</b>\n{safe_summary}\n\n"
-                f"🎯 <b>اثرگذاری:</b> {impact}\n"
-                f"〰️〰️〰️〰️〰️〰️〰️\n\n"
+            # First item expanded (<details open>), remaining items collapsed (<details>)
+            is_open = " open" if i == 1 else ""
+
+            items_html += (
+                f"<details{is_open}>\n"
+                f"  <summary>{icon} <b>{to_farsi_num(i)}. {title}</b> (<i>{source}</i>)</summary>\n"
+                f"  <p><b>📝 تحلیل خبر:</b></p>\n"
+                f"  <ul>{safe_summary}</ul>\n"
+                f"  <p>🎯 <b>اثرگذاری:</b> {impact}</p>\n"
+                f"  <p>🔗 <a href='{url}'>مشاهده منبع خبر</a></p>\n"
+                f"</details>\n"
+                f"<hr/>\n"
             )
-            analysis_blocks.append(block)
 
-        tags_text = " ".join(all_tags) + "\n"
+        # 7. Tags & Footer
+        tags_html = f"<p>{' '.join(all_tags)}</p>\n"
+        footer = (
+            f"<footer>"
+            f"{proxy_html}"
+            f"🆔 @RasadAIOfficial<br/>"
+            f"📊 <a href='https://itsyebekhe.github.io/rasadai/'>مشاهده پایگاه داده رادار</a>"
+            f"</footer>"
+        )
 
-        # --- PART C: Message Chunking ---
-        messages_to_send = []
-        current_msg = header + headlines_text + "\n➖➖➖➖➖➖➖➖➖➖\n📝 <b>تحلیل و بررسی:</b>\n\n"
+        full_rich_html = header + items_html + tags_html + footer
 
-        for i, block in enumerate(analysis_blocks):
-            # FIXED LOGIC: Only calculate proxy text weight if we are on the very last block
-            is_last_block = (i == len(analysis_blocks) - 1)
-            suffix_len = len(tags_text) + len(proxy_text) + len(footer) if is_last_block else len(footer)
-
-            # Max Telegram limit is 4096. 4000 is a safe threshold.
-            if len(current_msg) + len(block) + suffix_len > 4000:
-                messages_to_send.append(current_msg + footer)
-                current_msg = f"📝 <b>ادامه تحلیل و بررسی:</b>\n\n" + block
-            else:
-                current_msg += block
-
-        # Add tags and proxies safely to the final chunk
-        current_msg += tags_text + proxy_text
-        messages_to_send.append(current_msg + footer)
-
-        # --- PART D: Send Messages ---
-        api_url = f"https://api.telegram.org/bot{token}/sendMessage"
-        sc = cloudscraper.create_scraper()
+        # 8. Send Rich Message Payload via API
+        api_url = f"https://api.telegram.org/bot{token}/sendRichMessage"
         
-        for msg in messages_to_send:
-            payload = {
-                "chat_id": chat_id, 
-                "text": msg, 
-                "parse_mode": "HTML", 
-                "disable_web_page_preview": False 
+        # Max limit for sendRichMessage is 32,768 UTF-8 characters
+        if len(full_rich_html) > 30000:
+            logger.warning("Rich message exceeds 30k chars, truncating old items...")
+            full_rich_html = full_rich_html[:30000] + "<footer>...</body>"
+
+        payload = {
+            "chat_id": chat_id,
+            "rich_message": {
+                "html": full_rich_html,
+                "is_rtl": True  # Enforces Persian Right-To-Left Rendering!
             }
-            
-            try:
-                sc.post(api_url, json=payload)
-                time.sleep(1.5)
-            except Exception as e:
-                logger.error(f"TG Send Error: {e}")
+        }
+
+        try:
+            resp = self.scraper.post(api_url, json=payload, timeout=20)
+            if resp.status_code == 200:
+                logger.info(">>> Rich Message successfully posted to Telegram.")
+            else:
+                logger.error(f"Telegram Rich Message Failed: Status {resp.status_code} | {resp.text}")
+        except Exception as e:
+            logger.error(f"TG Send Error: {e}")
 
     def _atomic_json_dump(self, file_path, data):
         """Safely writes JSON to a temp file first, then atomically replaces target file."""

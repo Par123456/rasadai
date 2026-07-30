@@ -3,78 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>رصد هوشمند | RASAD Intelligence</title>
+    <title>رصد نیوز | مرکز فرماندهی و رصد هوشمند اخبار</title>
     
     <!-- Fonts -->
     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@33.003/misc/Farsi-Digits/Vazirmatn-FD-font-face.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-            darkMode: 'class',
             theme: {
                 extend: {
                     fontFamily: {
                         sans: ['"Vazirmatn FD"', 'sans-serif'],
-                        mono: ['"Vazirmatn FD"', 'sans-serif'],
-                        display: ['"Vazirmatn FD"', 'sans-serif'],
+                        fox: ['"Roboto Condensed"', '"Vazirmatn FD"', 'sans-serif'],
+                        mono: ['"Vazirmatn FD"', 'monospace'],
                     },
                     colors: {
-                        void: {
-                            950: '#030305',
-                            900: '#070709',
-                            800: '#0c0c10',
-                            700: '#121218',
-                            600: '#1a1a24',
-                        },
-                        cyber: {
-                            cyan: '#00f0ff',
-                            magenta: '#ff00aa',
-                            yellow: '#ffd000',
-                            green: '#00ff88',
-                            red: '#ff2255',
-                            blue: '#0088ff',
-                        }
-                    },
-                    animation: {
-                        'glow-pulse': 'glow-pulse 2s ease-in-out infinite',
-                        'scan-line': 'scan-line 3s linear infinite',
-                        'ticker-scroll': 'ticker-scroll 60s linear infinite',
-                        'fade-up': 'fade-up 0.4s ease-out',
-                        'border-flow': 'border-flow 3s linear infinite',
-                        'float': 'float 6s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        'glow-pulse': {
-                            '0%, 100%': { opacity: '1', filter: 'brightness(1)' },
-                            '50%': { opacity: '0.7', filter: 'brightness(1.3)' }
-                        },
-                        'scan-line': {
-                            '0%': { transform: 'translateY(-100%)' },
-                            '100%': { transform: 'translateY(100vh)' }
-                        },
-                        'ticker-scroll': {
-                            '0%': { transform: 'translateX(0)' },
-                            '100%': { transform: 'translateX(50%)' }
-                        },
-                        'fade-up': {
-                            '0%': { opacity: '0', transform: 'translateY(20px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' }
-                        },
-                        'border-flow': {
-                            '0%': { backgroundPosition: '0% 50%' },
-                            '100%': { backgroundPosition: '200% 50%' }
-                        },
-                        'float': {
-                            '0%, 100%': { transform: 'translateY(0)' },
-                            '50%': { transform: 'translateY(-10px)' }
-                        },
-                        'progress': {
-                            '0%': { transform: 'translateX(-100%)' },
-                            '100%': { transform: 'translateX(100%)' }
+                        fox: {
+                            navy: '#003366',
+                            darknavy: '#001a35',
+                            red: '#C20017',
+                            brightred: '#E5001C',
+                            graybg: '#F4F5F7',
+                            border: '#E2E8F0',
+                            text: '#111827',
+                            subtext: '#4B5563',
                         }
                     }
                 }
@@ -83,522 +39,360 @@
     </script>
 
     <style>
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
-        ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #00f0ff20; border-radius: 3px; }
-        ::-webkit-scrollbar-thumb:hover { background: #00f0ff40; }
+        body { background-color: #F4F5F7; color: #111827; }
         
-        /* Hide scrollbar for ticker */
+        @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(50%); } }
+        .animate-ticker { animation: ticker-scroll 50s linear infinite; }
+        .animate-ticker:hover { animation-play-state: paused; }
+
+        .fox-kicker {
+            color: #C20017;
+            font-weight: 900;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .fox-card {
+            background: #ffffff;
+            border: 1px solid #E2E8F0;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .fox-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            transform: translateY(-2px);
+        }
+
+        .chip-active {
+            background-color: #003366 !important;
+            color: #ffffff !important;
+            border-color: #003366 !important;
+            box-shadow: 0 2px 6px rgba(0, 51, 102, 0.3);
+        }
+
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #003366; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #C20017; }
         .scrollbar-hide::-webkit-scrollbar { display: none; }
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
-        
-        /* Grid Background */
-        .grid-bg {
-            background-image: 
-                linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
-            background-size: 50px 50px;
-        }
-        
-        /* Glow Effects */
-        .glow-cyan { box-shadow: 0 0 20px rgba(0, 240, 255, 0.3), inset 0 0 20px rgba(0, 240, 255, 0.05); }
-        .glow-magenta { box-shadow: 0 0 20px rgba(255, 0, 170, 0.3), inset 0 0 20px rgba(255, 0, 170, 0.05); }
-        .glow-red { box-shadow: 0 0 20px rgba(255, 34, 85, 0.3); }
-        .glow-green { box-shadow: 0 0 20px rgba(0, 255, 136, 0.3); }
-        
-        /* Gradient Border */
-        .gradient-border {
-            position: relative;
-            background: linear-gradient(135deg, #0c0c10, #121218);
-        }
-        .gradient-border::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            padding: 1px;
-            border-radius: inherit;
-            background: linear-gradient(135deg, rgba(0, 240, 255, 0.5), rgba(255, 0, 170, 0.5), rgba(0, 240, 255, 0.5));
-            background-size: 200% 200%;
-            animation: border-flow 3s linear infinite;
-            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: xor;
-            mask-composite: exclude;
-        }
-        
-        /* Card Styles */
-        .intel-card {
-            background: linear-gradient(135deg, rgba(12, 12, 16, 0.9), rgba(18, 18, 24, 0.9));
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(0, 240, 255, 0.1);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .intel-card:hover {
-            border-color: rgba(0, 240, 255, 0.3);
-            transform: translateY(-2px);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 240, 255, 0.1);
-        }
-        
-        /* Hexagon Pattern */
-        .hex-pattern {
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill='none' stroke='%2300f0ff' stroke-width='0.5' opacity='0.05'/%3E%3C/svg%3E");
-        }
-        
-        /* Scan Line Effect */
-        .scan-effect::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(transparent 50%, rgba(0, 240, 255, 0.02) 50%);
-            background-size: 100% 4px;
-            pointer-events: none;
-        }
-        
-        /* Text Gradient */
-        .text-gradient {
-            background: linear-gradient(135deg, #00f0ff, #ff00aa);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        /* Chip Active State */
-        .chip-active {
-            background: linear-gradient(135deg, #00f0ff, #0088ff);
-            color: #030305;
-            border-color: transparent;
-            box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
-        }
-        
-        /* Corner Decorations */
-        .corner-decor::before,
-        .corner-decor::after {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            border: 2px solid rgba(0, 240, 255, 0.3);
-        }
-        .corner-decor::before {
-            top: -1px;
-            right: -1px;
-            border-left: none;
-            border-bottom: none;
-        }
-        .corner-decor::after {
-            bottom: -1px;
-            left: -1px;
-            border-right: none;
-            border-top: none;
-        }
     </style>
 </head>
 
-<body class="bg-void-950 text-gray-200 font-sans min-h-screen overflow-x-hidden grid-bg hex-pattern selection:bg-cyber-cyan/20 selection:text-cyber-cyan">
+<body class="font-sans antialiased text-fox-text selection:bg-fox-red selection:text-white">
 
-    <!-- Ambient Background Effects -->
-    <div class="fixed inset-0 pointer-events-none overflow-hidden">
-        <div class="absolute top-0 left-1/4 w-[600px] h-[600px] bg-cyber-cyan/5 rounded-full blur-[150px] animate-float"></div>
-        <div class="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-cyber-magenta/5 rounded-full blur-[150px] animate-float" style="animation-delay: -3s;"></div>
+    <!-- ═══════════════ TOP NETWORK RAIL ═══════════════ -->
+    <div class="bg-fox-darknavy text-white text-[11px] font-mono border-b border-white/10 hidden md:block">
+        <div class="max-w-[1450px] mx-auto px-4 flex justify-between items-center h-8">
+            <div class="flex items-center gap-6">
+                <span class="font-bold text-fox-red flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-fox-red animate-ping"></span> مرکز عملیات رصد NEWS
+                </span>
+                <a href="#" onclick="showHomeView()" class="hover:text-amber-400 transition-colors">اخبار و گزارش‌ها</a>
+                <a href="#" onclick="openDailySummaryModal()" class="hover:text-amber-400 transition-colors text-yellow-300 font-bold"><i class="fas fa-file-alt"></i> بولتن ویژه راهبردی</a>
+                <a href="https://itsyebekhe.github.io/MTProtoNexus/" target="_blank" class="hover:text-amber-400 transition-colors">پروکسی تلگرام</a>
+            </div>
+            <div class="flex items-center gap-4 text-gray-300">
+                <span>تهران: <strong id="clock-teh" class="text-white font-bold">--:--</strong></span>
+                <span class="text-gray-600">|</span>
+                <span>تل‌آویو: <span id="clock-tlv">--:--</span></span>
+                <span class="text-gray-600">|</span>
+                <span>واشنگتن: <span id="clock-dc">--:--</span></span>
+            </div>
+        </div>
     </div>
 
-    <!-- Scan Line -->
-    <div class="fixed inset-0 pointer-events-none overflow-hidden opacity-30">
-        <div class="absolute w-full h-px bg-gradient-to-r from-transparent via-cyber-cyan to-transparent animate-scan-line"></div>
-    </div>
-
-    <div class="relative z-10 max-w-[1800px] mx-auto p-2 md:p-4 lg:p-6">
-        
-        <!-- ═══════════════ HEADER ═══════════════ -->
-        <header class="gradient-border rounded-2xl mb-3 lg:mb-6 overflow-hidden">
-            <div class="relative p-3 lg:p-5 flex flex-row justify-between items-center gap-3 bg-void-800/90 backdrop-blur-xl">
-                
-                <!-- Logo -->
-                <div class="flex items-center gap-3 lg:gap-4">
-                    <div class="relative">
-                        <div class="w-10 h-10 lg:w-14 lg:h-14 rounded-xl bg-gradient-to-br from-cyber-cyan to-cyber-blue flex items-center justify-center glow-cyan">
-                            <i class="fas fa-radar text-lg lg:text-3xl text-void-950"></i>
-                        </div>
-                        <span class="absolute -top-1 -right-1 w-2.5 h-2.5 lg:w-3 lg:h-3 bg-cyber-red rounded-full animate-glow-pulse"></span>
-                    </div>
-                    <div>
-                        <h1 class="font-display font-black text-lg lg:text-3xl tracking-wider leading-none">
-                            <span class="text-gradient">RASAD</span>
-                            <span class="text-gray-600 text-sm lg:text-xl">.AI</span>
-                        </h1>
-                        <p class="text-[8px] lg:text-xs text-gray-500 font-mono tracking-widest hidden sm:block">سامانه رصد هوشمند اخبار</p>
-                    </div>
-                </div>
-
-                <!-- Status & Time -->
-                <div class="flex items-center gap-3 lg:gap-6">
-                    <!-- Live Clocks -->
-                    <div class="hidden md:flex items-center gap-4 px-4 py-2 rounded-xl bg-void-700/50 border border-white/5">
-                        <div class="text-center">
-                            <span class="text-[8px] text-gray-500 font-mono block">تهران</span>
-                            <span id="clock-teh" class="font-mono font-bold text-lg text-cyber-cyan">--:--</span>
-                        </div>
-                        <div class="w-px h-8 bg-gradient-to-b from-transparent via-cyber-cyan/30 to-transparent"></div>
-                        <div class="text-center">
-                            <span class="text-[8px] text-gray-500 font-mono block">تل‌آویو</span>
-                            <span id="clock-tlv" class="font-mono font-bold text-lg text-gray-400">--:--</span>
-                        </div>
-                        <div class="w-px h-8 bg-gradient-to-b from-transparent via-cyber-cyan/30 to-transparent"></div>
-                        <div class="text-center">
-                            <span class="text-[8px] text-gray-500 font-mono block">واشنگتن</span>
-                            <span id="clock-dc" class="font-mono font-bold text-lg text-gray-400">--:--</span>
-                        </div>
-                    </div>
-
-                    <!-- System Status -->
-                    <div id="sys-status" class="flex items-center gap-2 px-3 py-1.5 lg:px-4 lg:py-2 rounded-xl bg-cyber-cyan/10 border border-cyber-cyan/30 glow-cyan">
-                        <div class="relative flex w-1.5 h-1.5 lg:w-2 lg:h-2">
-                            <span class="absolute inline-flex h-full w-full rounded-full bg-cyber-cyan opacity-75 animate-ping"></span>
-                            <span class="relative inline-flex rounded-full h-1.5 w-1.5 lg:h-2 lg:w-2 bg-cyber-cyan"></span>
-                        </div>
-                        <span class="text-cyber-cyan text-[10px] lg:text-xs font-mono font-bold tracking-wider">در حال اتصال</span>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <!-- ═══════════════ MOBILE STATS BAR ═══════════════ -->
-        <div class="md:hidden flex gap-2 overflow-x-auto scrollbar-hide pb-2 mb-2">
-            <div class="flex-shrink-0 intel-card rounded-xl px-4 py-2 flex items-center gap-3">
-                <i class="fas fa-clock text-cyber-cyan text-sm"></i>
-                <div>
-                    <span class="text-[8px] text-gray-500 block">تهران</span>
-                    <span id="mob-clock-teh" class="font-mono font-bold text-sm text-cyber-cyan">--:--</span>
-                </div>
-            </div>
-            <div class="flex-shrink-0 intel-card rounded-xl px-4 py-2 flex items-center gap-3">
-                <i class="fas fa-dollar-sign text-cyber-green text-sm"></i>
-                <div>
-                    <span class="text-[8px] text-gray-500 block">دلار</span>
-                    <span id="mob-usd" class="font-mono font-bold text-sm text-cyber-green">...</span>
-                </div>
-            </div>
-            <div class="flex-shrink-0 intel-card rounded-xl px-4 py-2 flex items-center gap-3">
-                <i class="fab fa-bitcoin text-cyber-yellow text-sm"></i>
-                <div>
-                    <span class="text-[8px] text-gray-500 block">بیت‌کوین</span>
-                    <span id="mob-btc" class="font-mono font-bold text-sm text-cyber-yellow">...</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- ═══════════════ TICKER ═══════════════ -->
-        <div class="relative mb-3 lg:mb-6 rounded-xl overflow-hidden bg-void-800/80 border border-cyber-cyan/10">
-            <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-void-800 to-transparent z-10"></div>
-            <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-void-800 to-transparent z-10"></div>
-            <div class="flex items-center h-10 lg:h-12">
-                <div class="flex-shrink-0 px-4 py-2 bg-cyber-red/20 border-l border-cyber-red/30 flex items-center gap-2">
-                    <span class="w-2 h-2 bg-cyber-red rounded-full animate-glow-pulse"></span>
-                    <span class="text-cyber-red text-xs font-mono font-bold">زنده</span>
-                </div>
-                <div id="ticker-content" class="flex whitespace-nowrap animate-ticker-scroll">
-                    <span class="px-8 text-sm text-gray-500">در حال دریافت داده‌های زنده...</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- ═══════════════ DESKTOP TABS ═══════════════ -->
-        <div class="hidden lg:flex justify-center mb-6">
-            <div class="bg-void-800/50 p-1.5 rounded-xl border border-white/5 backdrop-blur-sm flex gap-2">
-                <button onclick="switchTab('news')" id="desk-tab-news" class="px-8 py-2.5 rounded-lg text-sm font-bold font-mono transition-all bg-cyber-cyan/10 text-cyber-cyan border border-cyber-cyan/30 shadow-[0_0_15px_rgba(0,240,255,0.2)]">
-                    <i class="fas fa-newspaper ml-2"></i>اخبار
-                </button>
-                <button onclick="switchTab('dashboard')" id="desk-tab-dashboard" class="px-8 py-2.5 rounded-lg text-sm font-bold font-mono transition-all text-gray-400 hover:text-gray-200 hover:bg-white/5 border border-transparent">
-                    <i class="fas fa-chart-pie ml-2"></i>داشبورد
-                </button>
-            </div>
-        </div>
-
-        <!-- ═══════════════ CONTENT VIEWS ═══════════════ -->
-        <div class="relative min-h-[50vh]">
+    <!-- ═══════════════ MAIN BRANDING HEADER ═══════════════ -->
+    <header class="bg-white border-b-4 border-fox-navy shadow-md sticky top-0 z-40">
+        <div class="max-w-[1450px] mx-auto px-4 py-3 flex justify-between items-center gap-4">
             
-            <!-- ═══════════════ DASHBOARD VIEW ═══════════════ -->
-            <div id="view-dashboard" class="hidden animate-fade-up">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                
-                <!-- TENSION METER -->
-                <div class="intel-card rounded-2xl p-4 corner-decor overflow-hidden relative">
-                    <div class="flex items-center justify-between mb-2">
-                        <div class="flex items-center gap-2">
-                            <div class="w-8 h-8 rounded-lg bg-cyber-red/20 flex items-center justify-center">
-                                <i class="fas fa-heartbeat text-cyber-red"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-xs font-bold text-gray-400 font-mono tracking-widest">سطح تهدید</h3>
-                                <span id="tension-text" class="text-lg font-display font-bold text-gray-300">در حال تحلیل...</span>
-                            </div>
-                        </div>
-                        <div id="tension-percent" class="text-2xl font-display font-black text-gray-600">0%</div>
-                    </div>
-                    
-                    <!-- Gauge -->
-                    <div class="relative h-3 bg-void-600 rounded-full overflow-hidden">
-                        <div id="tension-fill" class="absolute inset-y-0 left-0 w-0 rounded-full transition-all duration-1000 ease-out" 
-                             style="background: linear-gradient(90deg, #00ff88, #ffd000, #ff2255);"></div>
-                        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
-                    </div>
-                    
-                    <!-- Scale -->
-                    <div class="flex justify-between mt-2 text-[10px] font-mono text-gray-600">
-                        <span>عادی</span>
-                        <span>حساس</span>
-                        <span>بحرانی</span>
-                    </div>
-                </div>
-
-                <!-- MARKET DATA -->
-                <div class="intel-card rounded-2xl p-4">
-                    <div class="flex items-center gap-2 mb-2">
-                        <div class="w-8 h-8 rounded-lg bg-cyber-green/20 flex items-center justify-center">
-                            <i class="fas fa-chart-line text-cyber-green"></i>
-                        </div>
-                        <h3 class="text-xs font-bold text-gray-400 font-mono tracking-widest">رصد بازار</h3>
-                    </div>
-                    
-                    <div class="space-y-0 divide-y divide-white/5 border border-white/5 rounded-xl bg-void-700/20 overflow-hidden">
-                        <div class="flex justify-between items-center p-2 hover:bg-white/5 transition-colors">
-                            <div class="flex items-center gap-3">
-                                <div class="w-6 h-6 rounded bg-green-500/20 flex items-center justify-center text-green-500 font-bold text-[10px]">$</div>
-                                <div>
-                                    <span class="text-xs text-gray-300">دلار آمریکا</span>
-                                </div>
-                            </div>
-                            <span id="price-usd" class="font-mono font-bold text-sm text-gray-200">...</span>
-                        </div>
-                        
-                        <div class="flex justify-between items-center p-2 hover:bg-white/5 transition-colors">
-                            <div class="flex items-center gap-3">
-                                <div class="w-6 h-6 rounded bg-yellow-500/20 flex items-center justify-center text-yellow-500 font-bold text-[10px]">₿</div>
-                                <div>
-                                    <span class="text-xs text-gray-300">بیت‌کوین</span>
-                                </div>
-                            </div>
-                            <span id="price-btc" class="font-mono font-bold text-sm text-gray-200">...</span>
-                        </div>
-                        
-                        <div class="flex justify-between items-center p-2 hover:bg-white/5 transition-colors">
-                            <div class="flex items-center gap-3">
-                                <div class="w-6 h-6 rounded bg-cyan-500/20 flex items-center justify-center text-cyan-500 font-bold text-[10px]">₮</div>
-                                <div>
-                                    <span class="text-xs text-gray-300">تتر</span>
-                                </div>
-                            </div>
-                            <span id="price-usdt" class="font-mono font-bold text-sm text-gray-200">...</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- INTEL TOOLS -->
-                <div class="intel-card rounded-2xl p-4 md:col-span-2 lg:col-span-1">
-                    <div class="flex items-center gap-2 mb-2">
-                        <div class="w-8 h-8 rounded-lg bg-cyber-magenta/20 flex items-center justify-center">
-                            <i class="fas fa-satellite text-cyber-magenta"></i>
-                        </div>
-                        <h3 class="text-xs font-bold text-gray-400 font-mono tracking-widest">ابزارهای رصد</h3>
-                    </div>
-                    
-                    <div class="grid grid-cols-3 gap-2">
-                        <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" 
-                           class="group p-2 rounded-xl bg-void-700/50 border border-white/5 hover:border-cyber-red/50 hover:bg-cyber-red/10 transition-all flex flex-col items-center gap-1">
-                            <div class="w-10 h-10 rounded-xl bg-cyber-red/20 flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="fas fa-fire text-cyber-red"></i>
-                            </div>
-                            <span class="text-[10px] font-mono text-gray-500 group-hover:text-cyber-red transition-colors">آتش‌سوزی‌ها</span>
-                        </a>
-                        
-                        <a href="https://www.flightradar24.com/" target="_blank" 
-                           class="group p-2 rounded-xl bg-void-700/50 border border-white/5 hover:border-cyber-yellow/50 hover:bg-cyber-yellow/10 transition-all flex flex-col items-center gap-1">
-                            <div class="w-10 h-10 rounded-xl bg-cyber-yellow/20 flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="fas fa-plane text-cyber-yellow"></i>
-                            </div>
-                            <span class="text-[10px] font-mono text-gray-500 group-hover:text-cyber-yellow transition-colors">رادار پرواز</span>
-                        </a>
-                        
-                        <a href="https://twitter.com/search?q=Iran&f=live" target="_blank" 
-                           class="group p-2 rounded-xl bg-void-700/50 border border-white/5 hover:border-cyber-cyan/50 hover:bg-cyber-cyan/10 transition-all flex flex-col items-center gap-1">
-                            <div class="w-10 h-10 rounded-xl bg-cyber-cyan/20 flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="fab fa-twitter text-cyber-cyan"></i>
-                            </div>
-                            <span class="text-[10px] font-mono text-gray-500 group-hover:text-cyber-cyan transition-colors">رصد اجتماعی</span>
-                        </a>
-                        
-                        <a href="https://netblocks.org/" target="_blank" 
-                           class="group p-2 rounded-xl bg-void-700/50 border border-white/5 hover:border-cyber-green/50 hover:bg-cyber-green/10 transition-all flex flex-col items-center gap-1">
-                            <div class="w-10 h-10 rounded-xl bg-cyber-green/20 flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="fas fa-network-wired text-cyber-green"></i>
-                            </div>
-                            <span class="text-[10px] font-mono text-gray-500 group-hover:text-cyber-green transition-colors">اینترنت</span>
-                        </a>
-                        
-                        <a href="https://www.marinetraffic.com/" target="_blank" 
-                           class="group p-2 rounded-xl bg-void-700/50 border border-white/5 hover:border-cyber-blue/50 hover:bg-cyber-blue/10 transition-all flex flex-col items-center gap-1">
-                            <div class="w-10 h-10 rounded-xl bg-cyber-blue/20 flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="fas fa-ship text-cyber-blue"></i>
-                            </div>
-                            <span class="text-[10px] font-mono text-gray-500 group-hover:text-cyber-blue transition-colors">کشتی‌رانی</span>
-                        </a>
-                        
-                        <a href="https://earthquake.usgs.gov/" target="_blank" 
-                           class="group p-2 rounded-xl bg-void-700/50 border border-white/5 hover:border-cyber-magenta/50 hover:bg-cyber-magenta/10 transition-all flex flex-col items-center gap-1">
-                            <div class="w-10 h-10 rounded-xl bg-cyber-magenta/20 flex items-center justify-center group-hover:scale-110 transition-transform">
-                                <i class="fas fa-globe text-cyber-magenta"></i>
-                            </div>
-                            <span class="text-[10px] font-mono text-gray-500 group-hover:text-cyber-magenta transition-colors">زلزله‌نگاری</span>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- QUICK STATS -->
-                <div class="intel-card rounded-2xl p-4">
-                    <div class="flex items-center gap-2 mb-2">
-                        <div class="w-8 h-8 rounded-lg bg-cyber-blue/20 flex items-center justify-center">
-                            <i class="fas fa-chart-pie text-cyber-blue"></i>
-                        </div>
-                        <h3 class="text-xs font-bold text-gray-400 font-mono tracking-widest">آمار گزارش‌ها</h3>
-                    </div>
-                    
-                    <div class="grid grid-cols-2 gap-3">
-                        <div class="text-center p-2 rounded-xl bg-void-700/50">
-                            <span id="stat-total" class="block text-2xl font-display font-bold text-cyber-cyan">0</span>
-                            <span class="text-[10px] text-gray-500 font-mono">کل اخبار</span>
-                        </div>
-                        <div class="text-center p-2 rounded-xl bg-void-700/50">
-                            <span id="stat-critical" class="block text-2xl font-display font-bold text-cyber-red">0</span>
-                            <span class="text-[10px] text-gray-500 font-mono">اخبار مهم</span>
-                        </div>
-                    </div>
-                </div>
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <a href="#" onclick="showHomeView()" class="bg-fox-navy text-white font-fox font-black px-3.5 py-1.5 text-2xl md:text-4xl tracking-tighter rounded-sm flex items-center gap-2 shadow-inner">
+                    <span>RASAD</span>
+                    <span class="bg-fox-red px-2 py-0.5 text-xs font-mono uppercase tracking-normal">COMMAND</span>
+                </a>
+                <div class="hidden lg:block border-r border-gray-300 pr-3">
+                    <h1 class="text-xs font-bold text-fox-navy leading-none">سامانه هوشمند رصد اخبار و امنیت ملی</h1>
+                    <p class="text-[10px] text-fox-subtext mt-1">پایش ۲۴ ساعته تحرکات نظامی، هسته‌ای و بازار</p>
                 </div>
             </div>
 
-            <!-- ═══════════════ NEWS VIEW ═══════════════ -->
-            <div id="view-news" class="space-y-4 lg:space-y-6 animate-fade-up">
-                
-                <!-- DATA SYNC BAR -->
-                <div id="sync-loader" class="h-0.5 w-full bg-void-800/50 overflow-hidden rounded-full opacity-0 transition-opacity">
-                    <div class="h-full bg-cyber-cyan w-full animate-[progress_2s_infinite]"></div>
-                </div>
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-2 md:gap-3">
+                <button onclick="openDailySummaryModal()" class="bg-fox-navy hover:bg-fox-darknavy text-white text-xs font-bold px-3.5 py-2 rounded-sm transition-all flex items-center gap-2 shadow-sm border border-fox-navy">
+                    <i class="fas fa-shield-alt text-amber-400"></i>
+                    <span class="hidden sm:inline">بولتن ارزیابی روزانه</span>
+                </button>
 
-                <!-- CONTROLS BAR -->
-                <div class="flex flex-col gap-3 bg-void-800/50 p-3 rounded-2xl border border-white/5 backdrop-blur-sm sticky top-2 lg:top-4 z-20 shadow-xl shadow-void-950/50">
-                    <!-- Top Row: Search & Sort -->
-                    <div class="flex flex-col md:flex-row gap-3 justify-between">
-                        <div class="relative w-full md:w-1/2">
-                            <i class="fas fa-search absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs"></i>
-                            <input type="text" 
-                                   placeholder="جستجو در اخبار..." 
-                                   oninput="handleSearch(this.value)"
-                                   class="w-full bg-void-950 border border-white/10 rounded-xl py-2.5 pr-9 pl-4 text-xs text-gray-300 focus:outline-none focus:border-cyber-cyan/50 transition-colors font-mono">
-                        </div>
-                        
-                        <div class="flex gap-2">
-                            <select onchange="handleSort(this.value)" class="bg-void-950 border border-white/10 rounded-xl py-2 px-3 text-xs text-gray-300 focus:outline-none focus:border-cyber-cyan/50 font-mono flex-grow md:flex-grow-0">
-                                <option value="newest">جدیدترین</option>
-                                <option value="oldest">قدیمی‌ترین</option>
-                                <option value="urgency">فوریت</option>
-                            </select>
-                            <button onclick="loadData()" class="p-2.5 rounded-xl border border-white/10 text-gray-400 hover:text-cyber-cyan hover:border-cyber-cyan/50 transition-all bg-void-950" title="Refresh">
-                                <i class="fas fa-sync-alt"></i>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Bottom Row: Filter Chips -->
-                    <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
-                        <button onclick="filterFeed('all', this)" 
-                                class="chip chip-active flex-shrink-0 px-4 py-2 rounded-lg text-[10px] font-bold font-mono tracking-wider border border-cyber-cyan/30 transition-all">
-                            همه
-                        </button>
-                        <button onclick="filterFeed('نظامی', this)" class="chip flex-shrink-0 px-4 py-2 rounded-lg text-[10px] font-bold font-mono tracking-wider border border-white/10 text-gray-400 hover:border-cyber-red/50 hover:text-cyber-red hover:bg-cyber-red/10 transition-all">
-                            نظامی
-                        </button>
-                        <button onclick="filterFeed('هسته‌ای', this)" class="chip flex-shrink-0 px-4 py-2 rounded-lg text-[10px] font-bold font-mono tracking-wider border border-white/10 text-gray-400 hover:border-cyber-yellow/50 hover:text-cyber-yellow hover:bg-cyber-yellow/10 transition-all">
-                            هسته‌ای
-                        </button>
-                        <button onclick="filterFeed('اقتصادی', this)" class="chip flex-shrink-0 px-4 py-2 rounded-lg text-[10px] font-bold font-mono tracking-wider border border-white/10 text-gray-400 hover:border-cyber-green/50 hover:text-cyber-green hover:bg-cyber-green/10 transition-all">
-                            اقتصادی
-                        </button>
-                        <button onclick="filterFeed('سیاسی', this)" class="chip flex-shrink-0 px-4 py-2 rounded-lg text-[10px] font-bold font-mono tracking-wider border border-white/10 text-gray-400 hover:border-cyber-blue/50 hover:text-cyber-blue hover:bg-cyber-blue/10 transition-all">
-                            سیاسی
-                        </button>
-                    </div>
-                </div>
-
-                <!-- NEWS FEED -->
-                <div id="feed-container" class="flex flex-col">
-                    <!-- Skeleton Loaders -->
-                    <div class="p-6 animate-pulse border-b border-white/5">
-                        <div class="flex justify-between mb-4">
-                            <div class="h-6 w-20 bg-void-600 rounded-lg"></div>
-                            <div class="h-4 w-24 bg-void-600 rounded-lg"></div>
-                        </div>
-                        <div class="h-6 w-3/4 bg-void-600 rounded-lg mb-3"></div>
-                        <div class="h-4 w-1/2 bg-void-600 rounded-lg mb-4"></div>
-                        <div class="flex justify-between">
-                            <div class="h-4 w-20 bg-void-600 rounded-lg"></div>
-                            <div class="h-8 w-28 bg-void-600 rounded-lg"></div>
-                        </div>
-                    </div>
-                    <div class="p-6 animate-pulse border-b border-white/5">
-                        <div class="flex justify-between mb-4">
-                            <div class="h-6 w-20 bg-void-600 rounded-lg"></div>
-                            <div class="h-4 w-24 bg-void-600 rounded-lg"></div>
-                        </div>
-                        <div class="h-6 w-3/4 bg-void-600 rounded-lg mb-3"></div>
-                        <div class="h-4 w-1/2 bg-void-600 rounded-lg mb-4"></div>
-                        <div class="flex justify-between">
-                            <div class="h-4 w-20 bg-void-600 rounded-lg"></div>
-                            <div class="h-8 w-28 bg-void-600 rounded-lg"></div>
-                        </div>
-                    </div>
-                </div>
+                <button onclick="switchTab('dashboard')" class="bg-fox-red hover:bg-fox-brightred text-white text-xs font-bold px-3.5 py-2 rounded-sm transition-all flex items-center gap-2 shadow-sm">
+                    <i class="fas fa-broadcast-tower text-[11px] animate-pulse"></i>
+                    <span>وضعیت زنده</span>
+                </button>
             </div>
         </div>
 
-        <!-- ═══════════════ FOOTER ═══════════════ -->
-        <footer class="mt-8 pb-20 lg:pb-8 text-center">
-            <div class="flex items-center justify-center gap-4 text-gray-600 text-xs font-mono">
-                <span>RASAD.AI v2.0</span>
-                <span class="w-1 h-1 bg-gray-700 rounded-full"></span>
-                <span>سامانه رصد هوشمند</span>
-                <span class="w-1 h-1 bg-gray-700 rounded-full"></span>
-                <span id="footer-time">--</span>
+        <!-- PRIMARY NAV MENU -->
+        <nav class="bg-fox-navy text-white text-xs md:text-sm font-bold shadow-inner">
+            <div class="max-w-[1450px] mx-auto px-4 flex items-center justify-between overflow-x-auto scrollbar-hide">
+                <div class="flex items-center space-x-reverse space-x-1 md:space-x-3 py-1">
+                    <button onclick="showHomeView(); filterFeed('all', this)" id="desk-tab-news" class="px-3 py-2 text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">صفحه اصلی</button>
+                    <button onclick="showHomeView(); filterFeed('نظامی', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">نظامی و دفاعی</button>
+                    <button onclick="showHomeView(); filterFeed('نیابتی', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">تحرکات نیابتی</button>
+                    <button onclick="showHomeView(); filterFeed('تشدید', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">هشدار تشدید</button>
+                    <button onclick="showHomeView(); filterFeed('هسته‌ای', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">پرونده هسته‌ای</button>
+                    <button onclick="showHomeView(); filterFeed('اقتصادی', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">بازار و تحریم</button>
+                    <button onclick="showHomeView(); filterFeed('سیاسی', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">دیپلماسی</button>
+                </div>
             </div>
-        </footer>
+        </nav>
+    </header>
+
+    <!-- HOT TOPICS STRIP -->
+    <div class="bg-white border-b border-gray-200 text-xs py-2">
+        <div class="max-w-[1450px] mx-auto px-4 flex items-center gap-3 overflow-x-auto scrollbar-hide">
+            <span class="fox-kicker whitespace-nowrap flex items-center gap-1">
+                <i class="fas fa-fire text-fox-red"></i> سرخط موضوعات:
+            </span>
+            <div class="flex items-center gap-2 text-fox-subtext whitespace-nowrap">
+                <a href="#" onclick="showHomeView(); handleSearch('حمله')" class="hover:text-fox-red font-medium"># درگیری نظامی</a>
+                <span class="text-gray-300">•</span>
+                <a href="#" onclick="showHomeView(); handleSearch('دلار')" class="hover:text-fox-red font-medium"># جهش دلار</a>
+                <span class="text-gray-300">•</span>
+                <a href="#" onclick="showHomeView(); handleSearch('پهپاد')" class="hover:text-fox-red font-medium"># عملیات پهپادی</a>
+                <span class="text-gray-300">•</span>
+                <a href="#" onclick="showHomeView(); handleSearch('تحریم')" class="hover:text-fox-red font-medium"># فشار تحریمی</a>
+            </div>
+        </div>
     </div>
 
-    <!-- ═══════════════ MOBILE NAV ═══════════════ -->
-    <nav class="lg:hidden fixed bottom-0 inset-x-0 bg-void-900/95 backdrop-blur-xl border-t border-white/5 z-50">
-        <div class="grid grid-cols-2 h-16">
-            <button onclick="switchTab('news')" id="mob-tab-news" class="flex flex-col items-center justify-center gap-1 text-cyber-cyan hover:bg-white/5 transition-colors">
-                <i class="fas fa-home text-lg"></i>
-                <span class="text-[10px] font-mono">خانه</span>
-            </button>
-            <button onclick="switchTab('dashboard')" id="mob-tab-dashboard" class="flex flex-col items-center justify-center gap-1 text-gray-500 hover:text-gray-300 hover:bg-white/5 transition-colors">
-                <i class="fas fa-chart-pie text-lg"></i>
-                <span class="text-[10px] font-mono">داشبورد</span>
-            </button>
+    <!-- MARKET TICKER -->
+    <div class="bg-fox-darknavy text-white text-xs border-b border-gray-800">
+        <div class="max-w-[1450px] mx-auto px-4 flex items-center h-9">
+            <div class="bg-fox-red text-white font-bold px-3 py-1 text-[11px] flex items-center gap-1.5 flex-shrink-0">
+                <i class="fas fa-chart-line"></i> بازار در یک نگاه
+            </div>
+            <div class="flex items-center gap-6 px-4 overflow-x-auto scrollbar-hide font-mono text-xs w-full">
+                <div>USD/TMN: <span id="price-usd" class="font-bold text-green-400">در حال دریافت...</span></div>
+                <div class="text-gray-700">|</div>
+                <div>BTC/USD: <span id="price-btc" class="font-bold text-yellow-400">...</span></div>
+                <div class="text-gray-700">|</div>
+                <div>USDT: <span id="price-usdt" class="font-bold text-cyan-400">...</span></div>
+            </div>
         </div>
-    </nav>
+    </div>
 
+    <!-- SCROLLING NEWS TICKER -->
+    <div class="bg-white border-b border-fox-border overflow-hidden relative shadow-inner">
+        <div class="flex items-center h-10">
+            <div class="bg-fox-navy text-white text-xs font-bold px-4 py-2.5 flex items-center gap-2 z-10 flex-shrink-0">
+                <span class="w-2 h-2 bg-fox-red rounded-full animate-ping"></span>
+                <span>پخش فوری</span>
+            </div>
+            <div id="ticker-content" class="flex whitespace-nowrap animate-ticker text-xs font-medium text-fox-text">
+                <span class="px-8 text-gray-500">در حال دریافت آخرین بولتن‌های امنیتی...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <main class="max-w-[1450px] mx-auto px-4 py-6">
+
+        <div id="sync-loader" class="h-1 w-full bg-gray-200 overflow-hidden rounded mb-4 opacity-0 transition-opacity">
+            <div class="h-full bg-fox-red w-full animate-[progress_2s_infinite]"></div>
+        </div>
+
+        <!-- ═══════════════ VIEW 1: SINGLE ARTICLE DEDICATED PAGE (DEEP-LINK) ═══════════════ -->
+        <div id="view-single-article" class="hidden max-w-4xl mx-auto space-y-6">
+            <!-- Rendered dynamically by JS -->
+        </div>
+
+        <!-- ═══════════════ VIEW 2: MAIN NEWS FEED & HERO ═══════════════ -->
+        <div id="view-news" class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- LEFT MAIN STREAM (8 COLUMNS) -->
+            <section class="lg:col-span-8 space-y-6">
+                
+                <!-- 1. FOX NEWS "BIG TOP" HERO LEAD STORY -->
+                <div id="hero-lead-container" class="bg-white rounded-sm border-2 border-fox-red p-5 shadow-md relative overflow-hidden">
+                    <div class="animate-pulse space-y-3">
+                        <div class="h-4 w-32 bg-gray-200"></div>
+                        <div class="h-8 w-3/4 bg-gray-300"></div>
+                        <div class="h-48 w-full bg-gray-200"></div>
+                    </div>
+                </div>
+
+                <!-- 2. SEARCH & FILTER TOOLBAR -->
+                <div class="bg-white p-4 rounded-sm border border-fox-border shadow-sm flex flex-col sm:flex-row justify-between gap-3 items-center">
+                    <div class="relative w-full sm:w-2/3">
+                        <i class="fas fa-search absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
+                        <input type="text" 
+                               placeholder="جستجو در آرشیو گزارش‌ها..." 
+                               oninput="handleSearch(this.value)"
+                               class="w-full bg-fox-graybg border border-gray-300 rounded-sm py-2 pr-9 pl-4 text-xs text-fox-text focus:outline-none focus:border-fox-navy transition-colors">
+                    </div>
+                    
+                    <div class="flex gap-2 w-full sm:w-auto justify-end">
+                        <select onchange="handleSort(this.value)" class="bg-fox-graybg border border-gray-300 rounded-sm py-2 px-3 text-xs text-fox-text focus:outline-none focus:border-fox-navy">
+                            <option value="newest">جدیدترین اخبار</option>
+                            <option value="oldest">قدیمی‌ترین</option>
+                            <option value="urgency">ترتیب بر اساس فوریت</option>
+                        </select>
+                        <button onclick="loadData()" class="px-3 py-2 bg-fox-navy hover:bg-fox-darknavy text-white rounded-sm text-xs transition-colors" title="بروزرسانی">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 3. DYNAMIC CATEGORY CHIPS -->
+                <div id="category-chips" class="flex gap-2 overflow-x-auto pb-1 scrollbar-hide"></div>
+
+                <!-- 4. DYNAMIC NEWS RIVER FEED (WITH PHOTO THUMBNAILS ON EVERY CARD) -->
+                <div id="feed-container" class="space-y-4"></div>
+            </section>
+
+            <!-- RIGHT SIDEBAR COMMAND PANEL (4 COLUMNS) -->
+            <aside class="lg:col-span-4 space-y-6">
+                
+                <!-- 1. FOX ON-AIR BROADCAST BOX -->
+                <div class="bg-fox-darknavy text-white p-4 rounded-sm border-t-4 border-fox-red shadow-md">
+                    <div class="relative bg-black rounded-sm overflow-hidden mb-3 border border-gray-800 group">
+                        <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=600&q=80" alt="Broadcast Stream" class="w-full h-44 object-cover opacity-60 group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40"></div>
+                        
+                        <div class="absolute top-3 right-3 bg-fox-red text-white text-[10px] font-bold px-2 py-0.5 rounded-sm flex items-center gap-1 shadow">
+                            <span class="w-2 h-2 rounded-full bg-white animate-ping"></span> پخش زنده
+                        </div>
+
+                        <div class="absolute bottom-3 right-3 left-3">
+                            <p class="text-xs font-bold text-white leading-tight">اتاق تحلیل و رصد هوشمند پدافندی</p>
+                            <p class="text-[10px] text-gray-400 mt-1 font-mono">وضعیت سیستم: آنلاین</p>
+                        </div>
+                    </div>
+
+                    <button onclick="openDailySummaryModal()" class="w-full bg-fox-navy hover:bg-fox-red text-white text-xs font-bold py-2.5 rounded-sm transition-colors flex items-center justify-center gap-2">
+                        <i class="fas fa-file-invoice"></i> دریافت بولتن راهبردی روزانه
+                    </button>
+                </div>
+
+                <!-- 2. URGENCY THREAT GAUGE PANEL -->
+                <div class="bg-white p-5 rounded-sm border border-fox-border shadow-sm">
+                    <div class="flex items-center justify-between border-b border-gray-200 pb-3 mb-3">
+                        <span class="fox-kicker flex items-center gap-1.5"><i class="fas fa-shield-alt"></i> شاخص فوریت امنیتی</span>
+                        <span id="tension-percent" class="text-2xl font-black font-fox text-fox-red">0%</span>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center text-xs">
+                            <span class="text-gray-500">سطح هشدار:</span>
+                            <span id="tension-text" class="font-bold text-yellow-600">در حال محاسبه...</span>
+                        </div>
+                        
+                        <div class="h-3 bg-gray-200 rounded-full overflow-hidden p-0.5 border border-gray-300">
+                            <div id="tension-fill" class="h-full bg-gradient-to-r from-green-500 via-yellow-500 to-fox-red w-0 transition-all duration-1000"></div>
+                        </div>
+
+                        <div class="flex justify-between text-[10px] text-gray-500 font-mono">
+                            <span>عادی</span>
+                            <span>هشدار</span>
+                            <span>بحرانی</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. GEOPOLITICAL REGIONAL FLASHPOINTS -->
+                <div class="bg-white p-4 rounded-sm border border-fox-border shadow-sm">
+                    <h3 class="fox-kicker border-b border-gray-200 pb-2 mb-3 flex items-center gap-2">
+                        <i class="fas fa-map-marker-alt"></i> کانون‌های تنش منطقه‌ای
+                    </h3>
+
+                    <div class="space-y-2 text-xs">
+                        <div class="flex justify-between items-center p-2 bg-fox-graybg rounded-sm border border-gray-200">
+                            <span class="font-bold text-fox-navy">تنگه هرمز و خلیج فارس</span>
+                            <span class="px-2 py-0.5 bg-red-100 text-fox-red font-bold text-[10px] rounded-sm">هشدار بالا</span>
+                        </div>
+                        <div class="flex justify-between items-center p-2 bg-fox-graybg rounded-sm border border-gray-200">
+                            <span class="font-bold text-fox-navy">شبه‌جزیره سینا و مصر</span>
+                            <span class="px-2 py-0.5 bg-orange-100 text-orange-700 font-bold text-[10px] rounded-sm">تحرکات پهپادی</span>
+                        </div>
+                        <div class="flex justify-between items-center p-2 bg-fox-graybg rounded-sm border border-gray-200">
+                            <span class="font-bold text-fox-navy">مرزهای لبنان و اسرائیل</span>
+                            <span class="px-2 py-0.5 bg-red-100 text-fox-red font-bold text-[10px] rounded-sm">درگیری فعال</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. STATS SUMMARY -->
+                <div class="bg-white p-4 rounded-sm border border-fox-border shadow-sm">
+                    <h3 class="fox-kicker border-b border-gray-200 pb-2 mb-3 flex items-center gap-2">
+                        <i class="fas fa-chart-pie"></i> آمار رصد ۲۴ ساعت اخیر
+                    </h3>
+                    <div class="grid grid-cols-2 gap-3 text-center">
+                        <div class="p-3 bg-fox-graybg rounded-sm border border-gray-200">
+                            <span id="stat-total" class="block text-2xl font-black font-fox text-fox-navy">0</span>
+                            <span class="text-[11px] text-fox-subtext font-medium">کل گزارش‌ها</span>
+                        </div>
+                        <div class="p-3 bg-red-50 rounded-sm border border-red-200">
+                            <span id="stat-critical" class="block text-2xl font-black font-fox text-fox-red">0</span>
+                            <span class="text-[11px] text-fox-red font-medium">اخبار فوریت بالا</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. INTEL MONITORING TOOLS -->
+                <div class="bg-white p-4 rounded-sm border border-fox-border shadow-sm">
+                    <h3 class="fox-kicker border-b border-gray-200 pb-2 mb-3 flex items-center gap-2">
+                        <i class="fas fa-satellite text-fox-navy"></i> ابزارهای پایش ماهواره‌ای
+                    </h3>
+                    
+                    <div class="grid grid-cols-2 gap-2 text-xs">
+                        <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" class="p-2.5 bg-fox-graybg hover:bg-fox-navy hover:text-white transition-colors rounded-sm border border-gray-200 flex items-center gap-2">
+                            <i class="fas fa-fire text-fox-red"></i> <span>حرارتی ناسا</span>
+                        </a>
+                        <a href="https://www.flightradar24.com/" target="_blank" class="p-2.5 bg-fox-graybg hover:bg-fox-navy hover:text-white transition-colors rounded-sm border border-gray-200 flex items-center gap-2">
+                            <i class="fas fa-plane text-blue-600"></i> <span>رادار پرواز</span>
+                        </a>
+                        <a href="https://www.marinetraffic.com/" target="_blank" class="p-2.5 bg-fox-graybg hover:bg-fox-navy hover:text-white transition-colors rounded-sm border border-gray-200 flex items-center gap-2">
+                            <i class="fas fa-ship text-teal-600"></i> <span>ترافیک دریایی</span>
+                        </a>
+                        <a href="https://netblocks.org/" target="_blank" class="p-2.5 bg-fox-graybg hover:bg-fox-navy hover:text-white transition-colors rounded-sm border border-gray-200 flex items-center gap-2">
+                            <i class="fas fa-network-wired text-purple-600"></i> <span>پایش اینترنت</span>
+                        </a>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+
+        <div id="view-dashboard" class="hidden"></div>
+    </main>
+
+    <!-- DAILY SUMMARY MODAL -->
+    <div id="daily-summary-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-sm border-t-8 border-fox-red max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl p-6 relative">
+            <button onclick="closeDailySummaryModal()" class="absolute top-4 left-4 text-gray-400 hover:text-fox-red text-lg"><i class="fas fa-times"></i></button>
+            <div id="modal-summary-content"></div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-fox-darknavy text-gray-300 text-xs mt-12 border-t-4 border-fox-red">
+        <div class="max-w-[1450px] mx-auto px-4 py-8 text-center text-gray-500">
+            <p>© ۲۰۲۶ مرکز رصد هوشمند اخبار. تمام حقوق محفوظ است.</p>
+            <p class="mt-1 font-mono text-[10px]" id="footer-time">UTC: --:--</p>
+        </div>
+    </footer>
+
+<!-- JS LOGIC WITH FULL FEATURES & ROUTING -->
 <script>
-/* ═══════════════════════════════════════════════════
-   STATE MANAGEMENT
-═══════════════════════════════════════════════════ */
 let newsData = [];
+let dailySummaryData = null;
 let currentFilter = 'all';
 let currentSearch = '';
 let currentSort = 'newest';
 let itemsToShow = 10;
 
-// Fallback Data Configuration
-const GITHUB_USER = 'itsyebekhe'; // Replace with your actual GitHub username
+const GITHUB_USER = 'itsyebekhe';
 const GITHUB_REPO = 'rasadai';
 const FALLBACKS = [
     `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/`,
@@ -608,260 +402,327 @@ const FALLBACKS = [
 async function smartFetch(filename) {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 8000);
-
-    // Try 1: Local/Relative (github.io)
     try {
         const response = await fetch(`${filename}?t=${Date.now()}`, { signal: controller.signal });
         clearTimeout(timeoutId);
         if (response.ok) return response;
-    } catch (e) {
-        console.warn(`Primary fetch failed for ${filename}`);
-    }
+    } catch (e) {}
     clearTimeout(timeoutId);
 
-    // Try Fallbacks: raw.githubusercontent.com then github.com
     for (const base of FALLBACKS) {
         try {
             const response = await fetch(`${base}${filename}`);
             if (response.ok) return response;
-        } catch (e) {
-            console.warn(`Fallback failed for ${base}${filename}`);
-        }
+        } catch (e) {}
     }
 }
 
-function switchTab(tab) {
-    const newsView = document.getElementById('view-news');
-    const dashView = document.getElementById('view-dashboard');
-    
-    // Desktop Tabs
-    const dNews = document.getElementById('desk-tab-news');
-    const dDash = document.getElementById('desk-tab-dashboard');
-    
-    // Mobile Tabs
-    const mNews = document.getElementById('mob-tab-news');
-    const mDash = document.getElementById('mob-tab-dashboard');
-
-    if (tab === 'news') {
-        newsView.classList.remove('hidden');
-        dashView.classList.add('hidden');
-        
-        updateTabStyles(dNews, dDash, true);
-        updateTabStyles(mNews, mDash, false);
-    } else {
-        newsView.classList.add('hidden');
-        dashView.classList.remove('hidden');
-        
-        updateTabStyles(dDash, dNews, true);
-        updateTabStyles(mDash, mNews, false);
-    }
-    window.scrollTo({top: 0, behavior: 'smooth'});
-}
-
-function updateTabStyles(active, inactive, isDesktop) {
-    if (isDesktop) {
-        active.className = "px-8 py-2.5 rounded-lg text-sm font-bold font-mono transition-all bg-cyber-cyan/10 text-cyber-cyan border border-cyber-cyan/30 shadow-[0_0_15px_rgba(0,240,255,0.2)]";
-        inactive.className = "px-8 py-2.5 rounded-lg text-sm font-bold font-mono transition-all text-gray-400 hover:text-gray-200 hover:bg-white/5 border border-transparent";
-    } else {
-        active.classList.add('text-cyber-cyan');
-        active.classList.remove('text-gray-500');
-        inactive.classList.add('text-gray-500');
-        inactive.classList.remove('text-cyber-cyan');
-    }
-}
-
-/* ═══════════════════════════════════════════════════
-   CLOCKS
-═══════════════════════════════════════════════════ */
+/* CLOCKS & MARKETS */
 function updateClocks() {
     const now = new Date();
-    const format = (tz) => new Intl.DateTimeFormat('en-GB', { 
-        timeZone: tz, 
-        hour: '2-digit', 
-        minute: '2-digit', 
-        second: '2-digit',
-        hour12: false 
-    }).format(now);
-    
-    const formatShort = (tz) => new Intl.DateTimeFormat('en-GB', { 
-        timeZone: tz, 
-        hour: '2-digit', 
-        minute: '2-digit', 
-        hour12: false 
-    }).format(now);
-
-    // Desktop clocks
-    const tehEl = document.getElementById('clock-teh');
-    const tlvEl = document.getElementById('clock-tlv');
-    const dcEl = document.getElementById('clock-dc');
-    
-    if(tehEl) tehEl.innerText = formatShort('Asia/Tehran');
-    if(tlvEl) tlvEl.innerText = formatShort('Asia/Jerusalem');
-    if(dcEl) dcEl.innerText = formatShort('America/New_York');
-
-    // Mobile clock
-    const mobTeh = document.getElementById('mob-clock-teh');
-    if(mobTeh) mobTeh.innerText = formatShort('Asia/Tehran');
-
-    // Footer time
-    const footerTime = document.getElementById('footer-time');
-    if(footerTime) footerTime.innerText = format('UTC') + ' UTC';
+    const formatShort = (tz) => new Intl.DateTimeFormat('en-GB', { timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false }).format(now);
+    document.getElementById('clock-teh').innerText = formatShort('Asia/Tehran');
+    document.getElementById('clock-tlv').innerText = formatShort('Asia/Jerusalem');
+    document.getElementById('clock-dc').innerText = formatShort('America/New_York');
+    document.getElementById('footer-time').innerText = now.toUTCString();
 }
-setInterval(updateClocks, 1000);
-updateClocks();
+setInterval(updateClocks, 1000); updateClocks();
 
-/* ═══════════════════════════════════════════════════
-   MARKET DATA
-═══════════════════════════════════════════════════ */
 async function fetchMarket() {
     try {
         const res = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,tether&vs_currencies=usd');
         const data = await res.json();
-        
-        const btcPrice = `$${(data.bitcoin.usd/1000).toFixed(1)}K`;
-        document.getElementById('price-btc').innerText = btcPrice;
-        const mobBtc = document.getElementById('mob-btc');
-        if(mobBtc) mobBtc.innerText = btcPrice;
-        
+        document.getElementById('price-btc').innerText = `$${(data.bitcoin.usd/1000).toFixed(1)}K`;
         document.getElementById('price-usdt').innerText = `$${data.tether.usd.toFixed(3)}`;
-    } catch(e) {
-        console.error('Market fetch error:', e);
-    }
-
+    } catch(e) {}
     try {
         const res = await smartFetch('market.json');
         const data = await res.json();
-        const price = data.usd + " T";
-        document.getElementById('price-usd').innerText = price;
-        const mobUsd = document.getElementById('mob-usd');
-        if(mobUsd) mobUsd.innerText = price;
-    } catch(e) { 
-        document.getElementById('price-usd').innerText = "N/A"; 
-        const mobUsd = document.getElementById('mob-usd');
-        if(mobUsd) mobUsd.innerText = "N/A";
-    }
+        document.getElementById('price-usd').innerText = data.usd + " تومان";
+    } catch(e) {}
 }
 fetchMarket();
-setInterval(fetchMarket, 60000);
+
+function getTagConfig(tag) {
+    const configs = {
+        'تشدید': { kicker: 'خبر فوری / تشدید تنش', icon: 'fa-bolt', badgeBg: 'bg-red-100 text-fox-red border-red-300', border: 'border-r-fox-red' },
+        'نیابتی': { kicker: 'تحرکات منطقه‌ای / نیابتی', icon: 'fa-user-shield', badgeBg: 'bg-orange-100 text-orange-700 border-orange-300', border: 'border-r-orange-600' },
+        'نظامی': { kicker: 'اقدام نظامی / دفاعی', icon: 'fa-crosshairs', badgeBg: 'bg-red-50 text-fox-red border-red-200', border: 'border-r-fox-red' },
+        'هسته‌ای': { kicker: 'پرونده هسته‌ای', icon: 'fa-radiation', badgeBg: 'bg-amber-100 text-amber-800 border-amber-300', border: 'border-r-amber-500' },
+        'اقتصادی': { kicker: 'بازار و تحریم‌ها', icon: 'fa-chart-line', badgeBg: 'bg-green-100 text-green-800 border-green-300', border: 'border-r-green-600' },
+        'سیاسی': { kicker: 'تحولات سیاسی', icon: 'fa-landmark', badgeBg: 'bg-blue-50 text-fox-navy border-blue-200', border: 'border-r-fox-navy' },
+        'دیپلماسی': { kicker: 'روابط بین‌الملل', icon: 'fa-globe-americas', badgeBg: 'bg-sky-100 text-sky-800 border-sky-300', border: 'border-r-blue-500' }
+    };
+    return configs[tag] || { kicker: tag || 'گزارش رصد', icon: 'fa-newspaper', badgeBg: 'bg-gray-100 text-gray-700 border-gray-300', border: 'border-r-fox-navy' };
+}
+
+/* DEEP-LINK ROUTER SYSTEM */
+function checkDeepLink() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const newsId = urlParams.get('id') || window.location.hash.replace('#id=', '');
+
+    if (newsId && newsData.length > 0) {
+        const article = newsData.find(n => n.id === newsId || (n.clean_url && n.clean_url.includes(newsId)));
+        if (article) {
+            renderSingleArticlePage(article);
+            return true;
+        }
+    }
+    return false;
+}
+
+function renderSingleArticlePage(item) {
+    const singleView = document.getElementById('view-single-article');
+    const newsView = document.getElementById('view-news');
+    const dashView = document.getElementById('view-dashboard');
+
+    newsView.classList.add('hidden');
+    dashView.classList.add('hidden');
+    singleView.classList.remove('hidden');
+
+    const tagConfig = getTagConfig(item.tag);
+    const summaryHTML = Array.isArray(item.summary) 
+        ? item.summary.map(s => `<li class="mb-2 leading-relaxed">${s}</li>`).join('') 
+        : `<li>${item.summary || ''}</li>`;
+
+    const imgURL = item.image || 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80';
+
+    singleView.innerHTML = `
+        <div class="bg-white rounded-sm border border-fox-border shadow-md p-6 md:p-8 space-y-6">
+            <div class="flex justify-between items-center border-b border-gray-200 pb-4">
+                <button onclick="showHomeView()" class="px-4 py-2 bg-fox-navy text-white text-xs font-bold rounded-sm hover:bg-fox-red transition-colors flex items-center gap-2">
+                    <i class="fas fa-arrow-right"></i> بازگشت به صفحه اصلی
+                </button>
+                <span class="fox-kicker"><i class="fas ${tagConfig.icon}"></i> ${tagConfig.kicker}</span>
+            </div>
+
+            <h1 class="text-2xl md:text-3xl font-black text-fox-navy leading-tight">${item.title_fa}</h1>
+            <p class="text-xs text-gray-500 font-mono dir-ltr text-left opacity-80">${item.title_en}</p>
+
+            <div class="relative w-full h-72 md:h-96 rounded-sm overflow-hidden border border-gray-200">
+                <img src="${imgURL}" alt="Article Photo" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between text-xs text-gray-600 bg-fox-graybg p-3 rounded-sm border border-gray-200 gap-3">
+                <div class="flex items-center gap-4">
+                    <span><i class="fas fa-university text-fox-navy"></i> منبع: <strong>${item.source}</strong></span>
+                    <span><i class="fas fa-clock text-fox-navy"></i> انتشار: <strong>${timeAgo(item.timestamp * 1000)}</strong></span>
+                </div>
+                
+                <button onclick="speakText('${item.title_fa}. ${item.impact}')" class="px-3 py-1.5 bg-fox-red text-white font-bold rounded-sm flex items-center gap-1.5">
+                    <i class="fas fa-volume-up"></i> شنیدن گزارش صوتی
+                </button>
+            </div>
+
+            <div class="p-4 bg-red-50 rounded-sm border-r-4 border-fox-red space-y-2">
+                <h3 class="font-bold text-fox-red text-sm"><i class="fas fa-bullseye"></i> اثرگذاری راهبردی:</h3>
+                <p class="text-xs leading-relaxed text-gray-800">${item.impact || '---'}</p>
+            </div>
+
+            <div class="space-y-3 pt-2">
+                <h3 class="font-bold text-fox-navy text-sm border-b border-gray-200 pb-2"><i class="fas fa-list-ul"></i> نکات کلیدی گزارش:</h3>
+                <ul class="list-disc pr-5 text-xs text-gray-700 space-y-2 leading-relaxed">${summaryHTML}</ul>
+            </div>
+
+            <div class="pt-6 border-t border-gray-200 flex flex-wrap items-center justify-between gap-3">
+                <a href="${item.url}" target="_blank" class="px-5 py-2.5 bg-fox-navy text-white text-xs font-bold rounded-sm hover:bg-fox-darknavy transition-colors flex items-center gap-2">
+                    <i class="fas fa-external-link-alt"></i> مطالعه گزارش در منبع اصلی (${item.source})
+                </a>
+
+                <button onclick="copyDeepLink('${item.id || ''}')" class="px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-fox-navy text-xs font-bold rounded-sm transition-colors border border-gray-300 flex items-center gap-2">
+                    <i class="fas fa-link"></i> کپی لینک اختصاصی این خبر
+                </button>
+            </div>
+        </div>
+    `;
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
 
 /* ═══════════════════════════════════════════════════
-   NEWS FEED
+   DAILY SUMMARY MODAL FUNCTIONS (FIX)
 ═══════════════════════════════════════════════════ */
+function openDailySummaryModal() {
+    const modal = document.getElementById('daily-summary-modal');
+    const content = document.getElementById('modal-summary-content');
+    if (!modal || !content) return;
+    
+    modal.classList.remove('hidden');
+
+    if (!dailySummaryData) {
+        content.innerHTML = `<p class="text-xs text-gray-500 text-center py-8">در حال دریافت یا عدم وجود بولتن راهبردی امروز...</p>`;
+        return;
+    }
+
+    const d = dailySummaryData;
+    const vulnerabilitiesHTML = d.regime_vulnerabilities 
+        ? Object.values(d.regime_vulnerabilities).map(v => `<li class="mb-1">${v}</li>`).join('') 
+        : '---';
+
+    content.innerHTML = `
+        <div class="border-b border-gray-200 pb-3 mb-4 flex justify-between items-center">
+            <div>
+                <span class="fox-kicker"><i class="fas fa-file-alt"></i> ارزیابی راهبردی ویژه روزانه</span>
+                <h2 class="text-lg font-bold text-fox-navy mt-1">${d.executive_tldr || 'گزارش تحلیلی'}</h2>
+            </div>
+            <span class="text-xs font-mono font-bold px-3 py-1 bg-red-100 text-fox-red rounded-sm">سطح ریسک: ${d.risk_level || '8'}/10</span>
+        </div>
+
+        <div class="space-y-4 text-xs text-fox-text">
+            <div class="p-3 bg-fox-graybg rounded-sm border border-gray-200">
+                <p class="font-bold text-fox-navy mb-1"><i class="fas fa-brain"></i> تحلیل جامع راهبردی:</p>
+                <p class="leading-relaxed text-gray-700">${d.strategic_assessment || '---'}</p>
+            </div>
+
+            <div class="p-3 bg-red-50 rounded-sm border border-red-200">
+                <p class="font-bold text-fox-red mb-1"><i class="fas fa-exclamation-triangle"></i> آسیب‌پذیری‌های حاکمیتی:</p>
+                <ul class="list-disc pr-4 text-gray-700 space-y-1">${vulnerabilitiesHTML}</ul>
+            </div>
+
+            <div class="p-3 bg-blue-50 rounded-sm border border-blue-200">
+                <p class="font-bold text-fox-navy mb-1"><i class="fas fa-chart-line"></i> چشم‌انداز اقتصادی و بازار:</p>
+                <p class="leading-relaxed text-gray-700">${d.market_impact || '---'}</p>
+            </div>
+        </div>
+    `;
+}
+
+function closeDailySummaryModal() {
+    const modal = document.getElementById('daily-summary-modal');
+    if (modal) modal.classList.add('hidden');
+}
+
+function showHomeView() {
+    window.history.pushState({}, '', window.location.pathname);
+    document.getElementById('view-single-article').classList.add('hidden');
+    document.getElementById('view-dashboard').classList.add('hidden');
+    document.getElementById('view-news').classList.remove('hidden');
+}
+
+function loadMore() {
+    itemsToShow += 15; // Increments visible news count by 15 items per click
+    renderFeed();
+}
+
+function copyDeepLink(id) {
+    if(!id) return;
+    const deepURL = `${window.location.origin}${window.location.pathname}?id=${id}`;
+    navigator.clipboard.writeText(deepURL).then(() => {
+        alert(`لینک اختصاصی این خبر کپی شد:\n${deepURL}`);
+    });
+}
+
+function speakText(text) {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'fa-IR'; utterance.rate = 0.9;
+        window.speechSynthesis.speak(utterance);
+    }
+}
+
 async function loadData() {
     const loader = document.getElementById('sync-loader');
     if (loader) loader.classList.remove('opacity-0');
 
-    // 1. Instant UI: Load from cache first for speed
-    if ('caches' in window && newsData.length === 0) {
-        try {
-            const cache = await caches.open('rasad-cache-v1');
-            const cachedResponse = await cache.match('news.json');
-            if (cachedResponse) {
-                const data = await cachedResponse.json();
-                processDataUpdate(data);
-            }
-        } catch (e) { console.warn('Cache load failed', e); }
-    }
-
-    // 2. Network Sync: Constantly fetch in the background
     try {
         const res = await smartFetch('news.json');
         const data = await res.json();
-        processDataUpdate(data, true);
-    } catch (e) { 
-        console.error('Feed error:', e);
-    } finally {
+        newsData = data;
+
+        if (!checkDeepLink()) {
+            renderHeroLead();
+            renderFeed();
+        }
+
+        updateTicker();
+        updateTension(data);
+        updateStats(data);
+    } catch (e) {} finally {
         if (loader) loader.classList.add('opacity-0');
     }
 }
 
-function processDataUpdate(data, isOnline = false) {
-    // Only re-render if data has actually changed to save mobile CPU/Battery
-    if (JSON.stringify(data) !== JSON.stringify(newsData)) {
-        newsData = data;
-        renderFeed();
-        updateTicker();
-        updateTension(data);
-        updateStats(data);
-    }
-    
-    if (isOnline) {
-        const status = document.getElementById('sys-status');
-        status.innerHTML = `
-            <div class="relative flex w-1.5 h-1.5 lg:w-2 lg:h-2">
-                <span class="absolute inline-flex h-full w-full rounded-full bg-cyber-green opacity-75 animate-ping"></span>
-                <span class="relative inline-flex rounded-full h-1.5 w-1.5 lg:h-2 lg:w-2 bg-cyber-green"></span>
+function renderHeroLead() {
+    const heroContainer = document.getElementById('hero-lead-container');
+    if (!newsData.length || !heroContainer) return;
+
+    const hero = [...newsData].sort((a, b) => b.urgency - a.urgency)[0];
+    const tagConfig = getTagConfig(hero.tag);
+    const imgURL = hero.image || 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80';
+
+    heroContainer.innerHTML = `
+        <div class="flex flex-col gap-3">
+            <div class="flex justify-between items-center border-b border-gray-200 pb-2">
+                <span class="fox-kicker flex items-center gap-1.5"><i class="fas ${tagConfig.icon}"></i> ${tagConfig.kicker}</span>
+                <span class="text-xs font-mono font-bold text-fox-red bg-red-100 px-2 py-0.5 rounded-sm">ویژه</span>
             </div>
-            <span class="text-cyber-green text-[10px] lg:text-xs font-mono font-bold tracking-wider">آنلاین</span>
+
+            <h2 class="text-xl md:text-2xl font-black text-fox-navy leading-snug hover:text-fox-red transition-colors">
+                <a href="?id=${hero.id || ''}" onclick="event.preventDefault(); renderSingleArticlePage(hero);">${hero.title_fa}</a>
+            </h2>
+
+            <div class="relative w-full h-64 md:h-80 rounded-sm overflow-hidden border border-gray-200 my-1 group">
+                <img src="${imgURL}" alt="Hero Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div class="absolute bottom-3 right-3 left-3 text-white text-xs leading-relaxed font-medium backdrop-blur-sm bg-black/40 p-3 rounded-sm border border-white/10">
+                    <p class="font-bold text-amber-300 mb-1"><i class="fas fa-bullseye"></i> اثرگذاری راهبردی:</p>
+                    <p>${hero.impact || '---'}</p>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between text-xs text-gray-500 pt-1">
+                <span>منبع: <strong class="text-fox-navy">${hero.source}</strong></span>
+                <div class="flex items-center gap-2">
+                    <button onclick="copyDeepLink('${hero.id || ''}')" class="px-2.5 py-1 bg-gray-100 hover:bg-gray-200 text-fox-navy font-bold rounded-sm border border-gray-300" title="کپی لینک اختصاصی">
+                        <i class="fas fa-link"></i>
+                    </button>
+                    <button onclick="speakText('${hero.title_fa}. ${hero.impact}')" class="px-3 py-1 bg-fox-navy text-white hover:bg-fox-red transition-colors rounded-sm flex items-center gap-1.5 font-bold">
+                        <i class="fas fa-volume-up"></i> صوتی
+                    </button>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function renderCategoryChips() {
+    const chipsContainer = document.getElementById('category-chips');
+    if (!chipsContainer) return;
+
+    const presentTags = new Set();
+    newsData.forEach(n => { if (n.tag) presentTags.add(n.tag.trim()); });
+
+    let chipsHTML = `
+        <button onclick="filterFeed('all', this)" class="chip chip-active px-4 py-1.5 rounded-sm text-xs font-bold border border-fox-navy text-white transition-all whitespace-nowrap">
+            همه اخبار (${newsData.length})
+        </button>
+    `;
+
+    presentTags.forEach(tag => {
+        const config = getTagConfig(tag);
+        const count = newsData.filter(n => n.tag === tag).length;
+        const isActive = currentFilter === tag ? 'chip-active' : '';
+
+        chipsHTML += `
+            <button onclick="filterFeed('${tag}', this)" class="chip ${isActive} px-4 py-1.5 rounded-sm text-xs font-bold border border-gray-300 bg-white text-fox-subtext hover:border-fox-navy transition-all whitespace-nowrap flex items-center gap-1.5">
+                <i class="fas ${config.icon} text-[10px]"></i>
+                <span>${tag}</span>
+                <span class="text-[10px] opacity-60">(${count})</span>
+            </button>
         `;
-        status.className = "flex items-center gap-2 px-3 py-1.5 lg:px-4 lg:py-2 rounded-xl bg-cyber-green/10 border border-cyber-green/30 glow-green";
-    }
-}
+    });
 
-function getTagConfig(tag) {
-    const configs = {
-        'نظامی': { 
-            color: 'cyber-red', 
-            icon: 'fa-crosshairs',
-            bg: 'bg-cyber-red/10',
-            border: 'border-cyber-red/30',
-            text: 'text-cyber-red'
-        },
-        'هسته‌ای': { 
-            color: 'cyber-yellow', 
-            icon: 'fa-radiation',
-            bg: 'bg-cyber-yellow/10',
-            border: 'border-cyber-yellow/30',
-            text: 'text-cyber-yellow'
-        },
-        'اقتصادی': { 
-            color: 'cyber-green', 
-            icon: 'fa-chart-bar',
-            bg: 'bg-cyber-green/10',
-            border: 'border-cyber-green/30',
-            text: 'text-cyber-green'
-        },
-        'سیاسی': { 
-            color: 'cyber-blue', 
-            icon: 'fa-landmark',
-            bg: 'bg-cyber-blue/10',
-            border: 'border-cyber-blue/30',
-            text: 'text-cyber-blue'
-        }
-    };
-    return configs[tag] || { 
-        color: 'gray', 
-        icon: 'fa-info-circle',
-        bg: 'bg-white/5',
-        border: 'border-white/10',
-        text: 'text-gray-400'
-    };
-}
-
-function handleSearch(val) {
-    currentSearch = val.toLowerCase();
-    itemsToShow = 10;
-    renderFeed();
-}
-
-function handleSort(val) {
-    currentSort = val;
-    itemsToShow = 10;
-    renderFeed();
-}
-
-function loadMore() {
-    itemsToShow += 10;
-    renderFeed();
+    chipsContainer.innerHTML = chipsHTML;
 }
 
 function renderFeed() {
     const container = document.getElementById('feed-container');
+    renderCategoryChips();
+
     let filtered = currentFilter === 'all' 
         ? newsData 
-        : newsData.filter(n => n.tag && n.tag.includes(currentFilter));
+        : newsData.filter(n => n.tag && n.tag.trim() === currentFilter);
 
-    // Search Filter
     if (currentSearch) {
         filtered = filtered.filter(n => 
             (n.title_fa && n.title_fa.toLowerCase().includes(currentSearch)) ||
@@ -870,7 +731,6 @@ function renderFeed() {
         );
     }
 
-    // Sorting
     filtered.sort((a, b) => {
         if (currentSort === 'newest') return b.timestamp - a.timestamp;
         if (currentSort === 'oldest') return a.timestamp - b.timestamp;
@@ -881,11 +741,11 @@ function renderFeed() {
     const totalItems = filtered.length;
     const visibleItems = filtered.slice(0, itemsToShow);
 
-    if(visibleItems.length === 0) {
+    if (visibleItems.length === 0) {
         container.innerHTML = `
-            <div class="col-span-full intel-card rounded-2xl p-12 text-center">
-                <i class="fas fa-inbox text-4xl text-gray-700 mb-4"></i>
-                <p class="text-gray-500 font-mono">موردی یافت نشد</p>
+            <div class="bg-white p-12 text-center rounded-sm border border-fox-border">
+                <i class="fas fa-inbox text-4xl text-gray-400 mb-3"></i>
+                <p class="text-gray-500 font-medium text-xs">هیچ گزارشی یافت نشد.</p>
             </div>
         `;
         return;
@@ -895,207 +755,137 @@ function renderFeed() {
     visibleItems.forEach((item, index) => {
         const tagConfig = getTagConfig(item.tag);
         const summaryHTML = Array.isArray(item.summary) 
-            ? item.summary.map(s => `<li class="mb-1.5">${s}</li>`).join('') 
-            : `<li>${item.summary || 'در حال پردازش...'}</li>`;
-        
-        // Sentiment indicator
-        let sentimentColor = 'bg-gray-500';
-        let sentimentText = 'خنثی';
-        if(item.sentiment > 0.2) {
-            sentimentColor = 'bg-cyber-green';
-            sentimentText = 'مثبت';
-        } else if(item.sentiment < -0.2) {
-            sentimentColor = 'bg-cyber-red';
-            sentimentText = 'منفی';
-        }
+            ? item.summary.map(s => `<li class="mb-1">${s}</li>`).join('') 
+            : `<li>${item.summary || ''}</li>`;
+
+        const imgURL = item.image || 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=600&q=80';
 
         html += `
-        <article class="group relative py-3 md:py-5 border-b border-white/5 hover:bg-white/[0.02] transition-colors animate-fade-up px-2" style="animation-delay: ${index * 0.05}s">
-            <!-- Sentiment Indicator -->
-            <div class="absolute right-0 top-6 bottom-6 w-0.5 rounded-full ${sentimentColor} opacity-30 group-hover:opacity-100 transition-opacity"></div>
-            
-            <div class="pr-4 md:pr-5 pl-1 md:pl-2 flex flex-col gap-1.5 md:gap-2">
-                <!-- Header -->
-                <div class="flex justify-between items-start gap-4">
-                    <h3 class="font-bold text-gray-200 text-sm md:text-base leading-relaxed group-hover:text-cyber-cyan transition-colors">${item.title_fa}</h3>
-                    <span class="text-[10px] text-gray-500 font-mono whitespace-nowrap flex-shrink-0 mt-1">${timeAgo(item.timestamp * 1000)}</span>
+        <article class="fox-card p-4 md:p-5 rounded-sm shadow-sm relative border-r-4 ${tagConfig.border} mb-4">
+            <div class="flex flex-col sm:flex-row gap-4">
+                <div class="w-full sm:w-48 h-32 flex-shrink-0 rounded-sm overflow-hidden border border-gray-200">
+                    <img src="${imgURL}" alt="Photo" class="w-full h-full object-cover">
                 </div>
 
-                <!-- Subtitle -->
-                <p class="text-[11px] text-gray-500 font-mono dir-ltr text-left line-clamp-1 opacity-60 group-hover:opacity-100 transition-opacity">${item.title_en}</p>
-
-                <!-- Meta Row -->
-                <div class="flex items-center gap-3 mt-1">
-                    <span class="text-[10px] font-mono text-cyber-cyan/70 flex items-center gap-1">
-                        <i class="fas fa-satellite-dish text-[8px]"></i> ${item.source}
-                    </span>
-                    <span class="w-0.5 h-2 bg-gray-700 rounded-full"></span>
-                    <span class="text-[10px] ${tagConfig.text} opacity-80 font-bold">${item.tag || 'INFO'}</span>
-                    
-                    <!-- Actions (Visible on Hover) -->
-                    <div class="mr-auto flex items-center gap-4 lg:gap-2 opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity">
-                        <button onclick="toggleAnalysis(${index})" class="text-gray-500 hover:text-cyber-magenta transition-colors p-2 lg:p-0" title="AI Analysis"><i class="fas fa-robot text-base lg:text-sm"></i></button>
-                        <a href="${item.url}" target="_blank" class="text-gray-500 hover:text-cyber-cyan transition-colors p-2 lg:p-0" title="Open Link"><i class="fas fa-external-link-alt text-base lg:text-sm"></i></a>
-                        <button onclick="shareItem('${item.title_fa}', '${item.url}')" class="text-gray-500 hover:text-cyber-green transition-colors p-2 lg:p-0" title="Share"><i class="fas fa-share-alt text-base lg:text-sm"></i></button>
-                    </div>
-                </div>
-
-                <!-- AI Analysis (Hidden by default) -->
-                <div id="analysis-${index}" class="hidden mt-4 animate-fade-up">
-                    <div class="bg-void-800/50 rounded-lg p-4 border-r-2 border-cyber-magenta text-xs">
-                        <div class="flex items-center gap-2 mb-3">
-                            <i class="fas fa-robot text-cyber-magenta"></i>
-                            <span class="font-mono font-bold text-cyber-magenta tracking-widest">تحلیل هوشمند</span>
+                <div class="flex-grow flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start gap-4 mb-1.5">
+                            <div class="flex items-center gap-2">
+                                <span class="fox-kicker flex items-center gap-1"><i class="fas ${tagConfig.icon}"></i> ${tagConfig.kicker}</span>
+                                <span class="text-[10px] font-bold px-2 py-0.5 rounded-sm border ${tagConfig.badgeBg}">${item.tag}</span>
+                            </div>
+                            <span class="text-[11px] text-gray-400 font-mono">${timeAgo(item.timestamp * 1000)}</span>
                         </div>
-                        <p class="text-gray-300 leading-relaxed mb-3"><span class="text-gray-500 font-mono block mb-1">تأثیر:</span>${item.impact || 'در حال تحلیل...'}</p>
-                        <span class="text-gray-500 font-mono block mb-1">خلاصه:</span>
-                        <ul class="text-gray-400 list-disc pr-4 leading-relaxed space-y-1">${summaryHTML}</ul>
+
+                        <h3 class="text-base font-bold text-fox-text leading-snug hover:text-fox-red transition-colors mb-1">
+                            <a href="?id=${item.id || ''}" onclick="event.preventDefault(); renderSingleArticlePage(newsData[${index}]);">${item.title_fa}</a>
+                        </h3>
+
+                        <p class="text-[11px] text-gray-500 dir-ltr text-left font-mono opacity-80 line-clamp-1">${item.title_en}</p>
+                    </div>
+
+                    <div class="mt-3 pt-2 border-t border-gray-100 flex items-center justify-between text-xs text-gray-600">
+                        <span class="font-bold text-fox-navy"><i class="fas fa-university"></i> ${item.source}</span>
+                        
+                        <div class="flex items-center gap-3">
+                            <button onclick="copyDeepLink('${item.id || ''}')" class="text-gray-400 hover:text-fox-navy font-bold text-xs" title="کپی لینک اختصاصی">
+                                <i class="fas fa-link"></i>
+                            </button>
+                            <button onclick="speakText('${item.title_fa}')" class="text-gray-400 hover:text-fox-red font-bold text-xs" title="شنیدن صوتی">
+                                <i class="fas fa-volume-up"></i>
+                            </button>
+                            <button onclick="toggleAnalysis(${index})" class="text-fox-navy hover:text-fox-red font-bold text-xs flex items-center gap-1">
+                                <i class="fas fa-brain"></i> تحلیل هوشمند <i class="fas fa-chevron-down text-[10px]"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div id="analysis-${index}" class="hidden bg-fox-graybg p-4 rounded-sm border border-gray-200 mt-3 text-xs text-fox-text">
+                <p class="font-bold text-fox-navy mb-1.5"><i class="fas fa-bullseye"></i> اثرگذاری راهبردی:</p>
+                <p class="mb-3 leading-relaxed text-gray-700">${item.impact || '---'}</p>
+                
+                <p class="font-bold text-fox-navy mb-1"><i class="fas fa-list-ul"></i> نکات کلیدی:</p>
+                <ul class="list-disc pr-4 space-y-1 text-gray-600">${summaryHTML}</ul>
             </div>
         </article>
         `;
     });
 
-    // Load More Button
+    // APPEND "LOAD MORE" BUTTON FOR LARGE DATASETS (300 ITEMS)
     if (totalItems > itemsToShow) {
+        const remaining = totalItems - itemsToShow;
         html += `
-            <div class="col-span-full text-center pt-4">
-                <button onclick="loadMore()" class="px-6 py-3 rounded-xl bg-void-800 border border-cyber-cyan/30 text-cyber-cyan font-mono text-xs hover:bg-cyber-cyan/10 transition-all">
-                    بارگذاری بیشتر (+${totalItems - itemsToShow})
+            <div class="text-center pt-4 pb-2">
+                <button onclick="loadMore()" class="px-8 py-3 bg-fox-navy hover:bg-fox-darknavy text-white text-xs font-bold rounded-sm shadow-md transition-all flex items-center gap-2 mx-auto">
+                    <i class="fas fa-plus-circle"></i>
+                    <span>بارگذاری اخبار بیشتر (باقیمانده: ${remaining})</span>
                 </button>
             </div>
         `;
     }
-    
+
     container.innerHTML = html;
 }
 
-function toggleAnalysis(index) {
-    const analysis = document.getElementById(`analysis-${index}`);
-    
-    if(analysis.classList.contains('hidden')) {
-        analysis.classList.remove('hidden');
-    } else {
-        analysis.classList.add('hidden');
-    }
-}
-
-function shareItem(title, url) {
-    if (navigator.share) {
-        navigator.share({ title: 'RASAD Intelligence', text: title, url: url }).catch(console.error);
-    } else {
-        navigator.clipboard.writeText(`${title}\n${url}`).then(() => alert('Link copied to clipboard!'));
-    }
-}
+function toggleAnalysis(index) { document.getElementById(`analysis-${index}`).classList.toggle('hidden'); }
 
 function updateTicker() {
     const ticker = document.getElementById('ticker-content');
     let html = '';
-    
-    newsData.slice(0, 12).forEach(n => {
-        const tagConfig = getTagConfig(n.tag);
-        html += `
-            <div class="px-6 flex items-center gap-3 text-sm">
-                <i class="fas ${tagConfig.icon} ${tagConfig.text}"></i>
-                <span class="text-gray-300">${n.title_fa}</span>
-                <span class="text-gray-600 text-xs font-mono">${n.source}</span>
-            </div>
-        `;
-    });
-    
-    ticker.innerHTML = html + html; // Duplicate for seamless scroll
+    newsData.slice(0, 10).forEach(n => { html += `<span class="px-6 border-l border-gray-200"><strong class="text-fox-red">🔴</strong> ${n.title_fa}</span>`; });
+    ticker.innerHTML = html + html;
 }
 
 function updateTension(data) {
-    const recent = data.slice(0, 15);
-    if(!recent.length) return;
-    
+    const recent = data.slice(0, 15); if(!recent.length) return;
     let score = 0;
     recent.forEach(n => {
-        if(n.tag === 'نظامی') score += 12;
-        if(n.tag === 'هسته‌ای') score += 15;
-        if(n.sentiment < -0.3) score += 8;
-        if(n.sentiment < -0.5) score += 5;
+        if(n.tag === 'نظامی' || n.tag === 'تشدید') score += 15;
+        if(n.tag === 'هسته‌ای') score += 12;
+        if(n.urgency >= 8) score += 10;
     });
-    
     const pct = Math.min(score, 100);
-    const fill = document.getElementById('tension-fill');
-    const text = document.getElementById('tension-text');
-    const percent = document.getElementById('tension-percent');
-    
-    fill.style.width = `${pct}%`;
-    percent.innerText = `${pct}%`;
-    
-    if(pct < 30) {
-        text.innerText = "عادی";
-        text.className = "text-lg font-display font-bold text-cyber-green";
-        percent.className = "text-2xl font-display font-black text-cyber-green";
-    } else if(pct < 65) {
-        text.innerText = "حساس";
-        text.className = "text-lg font-display font-bold text-cyber-yellow";
-        percent.className = "text-2xl font-display font-black text-cyber-yellow";
-    } else {
-        text.innerText = "بحرانی";
-        text.className = "text-lg font-display font-bold text-cyber-red animate-pulse";
-        percent.className = "text-2xl font-display font-black text-cyber-red animate-pulse";
-    }
+    document.getElementById('tension-fill').style.width = `${pct}%`;
+    document.getElementById('tension-percent').innerText = `${pct}%`;
 }
 
 function updateStats(data) {
-    const total = document.getElementById('stat-total');
-    const critical = document.getElementById('stat-critical');
-    
-    if(total) total.innerText = data.length;
-    if(critical) {
-        const criticalCount = data.filter(n => n.tag === 'نظامی' || n.tag === 'هسته‌ای').length;
-        critical.innerText = criticalCount;
-    }
+    document.getElementById('stat-total').innerText = data.length;
+    document.getElementById('stat-critical').innerText = data.filter(n => n.urgency >= 7 || n.tag === 'نظامی' || n.tag === 'تشدید').length;
 }
 
 function filterFeed(tag, btn) {
     currentFilter = tag;
-    itemsToShow = 10;
-    
-    // Reset all chips
-    document.querySelectorAll('.chip').forEach(chip => {
-        chip.classList.remove('chip-active');
-        chip.classList.add('border-white/10', 'text-gray-400');
-    });
-    
-    // Activate selected chip
-    btn.classList.add('chip-active');
-    btn.classList.remove('border-white/10', 'text-gray-400');
-    
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('chip-active'));
+    if(btn) btn.classList.add('chip-active');
     renderFeed();
+}
+
+function handleSearch(val) { currentSearch = val.toLowerCase(); renderFeed(); }
+function handleSort(val) { currentSort = val; renderFeed(); }
+
+function switchTab(tab) {
+    document.getElementById('view-single-article').classList.add('hidden');
+    document.getElementById('view-news').classList.toggle('hidden', tab !== 'news');
+    document.getElementById('view-dashboard').classList.toggle('hidden', tab !== 'dashboard');
+    window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 function timeAgo(ms) {
     const diff = (Date.now() - new Date(ms)) / 1000;
-    
     if(diff < 60) return "لحظاتی پیش";
     if(diff < 3600) return Math.floor(diff/60) + " دقیقه پیش";
     if(diff < 86400) return Math.floor(diff/3600) + " ساعت پیش";
     return Math.floor(diff/86400) + " روز پیش";
 }
 
-/* ═══════════════════════════════════════════════════
-   INITIALIZATION
-═══════════════════════════════════════════════════ */
+/* INITIALIZATION */
 loadData();
+async function initDailySummary() { try { const res = await smartFetch('daily_summary.json'); if (res) dailySummaryData = await res.json(); } catch(e){} }
+initDailySummary();
 setInterval(loadData, 30000);
-
-// Add some visual polish on load
-document.addEventListener('DOMContentLoaded', () => {
-    document.body.classList.add('loaded');
-
-    // Register Service Worker
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js')
-            .then(() => console.log('Rasad Service Worker Registered'))
-            .catch(err => console.error('SW Registration Failed', err));
-    }
-});
 </script>
 
 </body>

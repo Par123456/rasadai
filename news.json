@@ -18,6 +18,24 @@
         "timestamp": 1785395029.0
     },
     {
+        "title_fa": "ادعای وزارت دفاع آمریکا: حمله به ده‌ها هدف مرتبط با سپاه پاسداران",
+        "title_en": "US military says it hit dozens of Iran's IRGC targets",
+        "summary": [
+            "طبق گزارش رویترز، نیروی نظامی آمریکا اعلام کرده ده‌ها هدف «مرتبط با سپاه پاسداران» را هدف قرار داده است.",
+            "این عملیات مستقیماً به بازوی نظامی جمهوری اسلامی گره خورده و بنابراین نشانه‌ای از تشدید فشار امنیتی واشنگتن علیه زیرساخت‌های عملیاتی سپاه است.",
+            "خبر، به‌دلیل نبود جزئیات درباره زمان/مکان دقیق و میزان خسارت، فعلاً در سطح «اقدام نظامی» باقی می‌ماند و هرگونه ارزیابی دقیق‌تر از پیامد میدانی نیازمند اطلاعات تکمیلی است."
+        ],
+        "impact": "چنین حمله‌ای می‌تواند توان مانور و عملیات‌های برون‌مرزی سپاه را محدود کند و همزمان ریسک چرخه تقابل و پاسخ متقابل را بالا ببرد.",
+        "tag": "حمله_نظامی",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "Reuters",
+        "url": "https://www.msn.com/en-ca/politics/international-relations/us-military-says-it-hit-dozens-of-iran-s-irgc-targets/ar-AA292l9d",
+        "clean_url": "https://www.msn.com/en-ca/politics/international-relations/us-military-says-it-hit-dozens-of-iran-s-irgc-targets/ar-AA292l9d",
+        "image": null,
+        "timestamp": 1785393000.0
+    },
+    {
         "title_fa": "اظهار رسمی سپاه: بستن‌بودن تنگه هرمز به «تهدیدهای آمریکا» گره خورده است",
         "title_en": "Iran's IRGC says Strait of Hormuz cannot reopen while US 'threats' continue",
         "summary": [
@@ -5380,23 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/news/world/us-intensifies-strikes-on-iran-s-coast-along-strait-of-hormuz/ar-AA27xQOJ",
         "image": null,
         "timestamp": 1783624832.0
-    },
-    {
-        "title_fa": "تهدید آتش‌بس آمریکا-ایران به‌دلیل حملات در هرمز و لغو معافیت تحریمی نفت ایران",
-        "title_en": "US-Iran Ceasefire Under Threat As Hormuz Attacks Spark Fresh Conflict",
-        "summary": [
-            "حملات در تنگه هرمز به یک نفتکش سعودی و یک حامل LNG قطر باعث شد واشنگتن «معافیت موقت» برای صادرات نفت ایران را لغو کند؛ یعنی فشار خارجی به‌صورت مستقیم به حوزه درآمدهای نفتی رژیم گره خورده است.",
-            "هم‌زمان با این تصمیم، آتش‌بس آمریکا-ایران عملاً زیر تهدید قرار گرفت؛ چون لغو معافیت تحریمی واکنش تنبیهی محسوب می‌شود و سیگنال تشدید بحران امنیتی را به طرف ایرانی می‌فرستد.",
-            "این رخداد، اهرم اقتصادی آمریکا علیه رژیم را فعال‌تر می‌کند: تنگ شدن مسیر فروش نفت می‌تواند کسری بودجه، نوسان ارز و فشار اجتماعی را تشدید کند (اثر داخلی به‌صورت ساختاری از همین قطع/کاهش درآمد نفتی می‌آید)."
-        ],
-        "impact": "لغو معافیت صادرات نفت، اهرم فشار اقتصادی را سریع و ملموس فعال می‌کند و احتمال فرسایش آتش‌بس را افزایش می‌دهد.",
-        "tag": "تحریم",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "ABP News",
-        "url": "https://news.abplive.com/news/world/iran-war-hormuz-us-iran-ceasefire-collapse-vessels-1855513",
-        "clean_url": "https://news.abplive.com/news/world/iran-war-hormuz-us-iran-ceasefire-collapse-vessels-1855513",
-        "image": "https://feeds.abplive.com/images/dw/77875149_607.jpg?impolicy=abp_cdn&imwidth=1200",
-        "timestamp": 1783624380.0
     }
 ]

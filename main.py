@@ -21,7 +21,6 @@ import hashlib
 # --- CONFIGURATION ---
 CONFIG = {
     'SEARCH_QUERY': 'Iran AND (Israel OR USA OR nuclear OR conflict OR sanctions OR currency OR IRGC)',
-    # Focused queries (cleaner signal than one mega-query)
     'SEARCH_QUERIES': [
         'Iran (Israel OR Gaza OR Hezbollah OR Houthis) (attack OR strike OR missile OR drone)',
         'Iran (nuclear OR IAEA OR enrichment OR sanctions)',
@@ -31,7 +30,6 @@ CONFIG = {
         'iranintl.com', 'bbc.com/persian', 'radiofarda.com', 'independentpersian.com',
         'dw.com/fa', 'presstv.ir', 'tasnimnews.com', 'farsnews.ir', 'irna.ir', 'mehrnews.com'
     ],
-    # Prefer quality Persian/intel sources first
     'PRIORITY_SITES': [
         'bbc.com/persian', 'radiofarda.com', 'iranintl.com',
         'independentpersian.com', 'dw.com/fa'
@@ -54,20 +52,34 @@ CONFIG = {
         'CHANNEL_ID': os.environ.get('TG_CHANNEL_ID')
     },
     'PROXY_URL': 'https://raw.githubusercontent.com/itsyebekhe/MTProtoNexus/refs/heads/gh-pages/extracted_proxies.json',
-    'TIMEOUT': 12,              # scrape timeout
+    'TIMEOUT': 12,
     'AI_TIMEOUT': 45,
-    'MAX_WORKERS': 3,           # safer for scrape + AI rate limits
-    'MAX_CANDIDATES': 15,       # hard cap before process_item
-    'MAX_TEXT_CHARS': 1800,     # enough for AI, cheaper to extract
+    'MAX_WORKERS': 3,
+    'MAX_CANDIDATES': 15,
+    'MAX_TEXT_CHARS': 1800,
     'MIN_TEXT_LEN': 100,
-    'MIN_AI_URGENCY_HINT': 5,   # skip AI if cheap hint below this
+    'MIN_AI_URGENCY_HINT': 5,
     'POLLINATIONS_KEY': os.environ.get('POLLINATIONS_API_KEY'),
     'AI_RETRIES': 3,
     'MIN_TELEGRAM_URGENCY': 7,
     'MAX_NEWS_AGE_HOURS': 18,
     'HISTORY_SIZE': 300,
-    'RESOLVE_GOOGLE_URLS': False,  # True = try redirect; False = drop Google links
+    'RESOLVE_GOOGLE_URLS': False,
 }
+
+BAD_IMAGE_HOSTS = (
+    'lh3.googleusercontent.com',
+    'lh4.googleusercontent.com',
+    'lh5.googleusercontent.com',
+    'lh6.googleusercontent.com',
+    'encrypted-tbn0.gstatic.com',
+    'encrypted-tbn1.gstatic.com',
+    'encrypted-tbn2.gstatic.com',
+    'encrypted-tbn3.gstatic.com',
+    'news.google.com',
+    'www.google.com',
+    'google.com',
+)
 
 PROXY_NAMES = [
     "کوروش", "داریوش", "کاوه", "رستم", "آرش", "سیاوش", "بابک",
@@ -100,16 +112,11 @@ class IranNewsRadar:
         for item in self.existing_news:
             if item.get('url'):
                 self.seen_urls.add(self._clean_url(item['url']))
-            if item.get('title_en'):
-                nt = self._normalize_text(item['title_en'])
-                self.seen_titles.add(nt)
-                self.recent_title_hashes.add(self._title_hash(item['title_en']))
-            if item.get('title_fa'):
-                nt = self._normalize_text(item['title_fa'])
-                self.seen_titles.add(nt)
-                self.recent_title_hashes.add(self._title_hash(item['title_fa']))
+            for key in ('title_en', 'title_fa'):
+                if item.get(key):
+                    self.seen_titles.add(self._normalize_text(item[key]))
+                    self.recent_title_hashes.add(self._title_hash(item[key]))
 
-        # keep recent hashes bounded
         if len(self.recent_title_hashes) > 200:
             self.recent_title_hashes = set(list(self.recent_title_hashes)[-150:])
 
@@ -167,7 +174,6 @@ class IranNewsRadar:
         new_tokens = self._get_tokens(new_title)
         if len(new_tokens) < 3:
             return False
-        # Only compare against recent items (faster)
         pool = comparison_pool[:60] if len(comparison_pool) > 60 else comparison_pool
         for item in pool:
             existing_title = item.get('title_en') or item.get('title_fa') or item.get('title', '')
@@ -226,6 +232,25 @@ class IranNewsRadar:
     def _generate_news_id(self, clean_url):
         return hashlib.md5((clean_url or str(time.time())).encode('utf-8')).hexdigest()[:10]
 
+    def _is_valid_image_url(self, url):
+        """Reject Google placeholders, data URIs, empty, non-http links."""
+        if not url or not isinstance(url, str):
+            return False
+        u = url.strip()
+        if not u.startswith(('http://', 'https://')):
+            return False
+        if u.startswith('data:'):
+            return False
+        try:
+            host = urlparse(u).netloc.lower().replace('www.', '')
+            if any(bad in host for bad in BAD_IMAGE_HOSTS):
+                return False
+            if 'googleusercontent.com' in host and ('=s0' in u or 'w300' in u or '-rw' in u):
+                return False
+        except Exception:
+            return False
+        return True
+
     def _get_fallback_image(self, text_or_tag):
         t = str(text_or_tag).lower()
         if any(w in t for w in ['ship', 'navy', 'sea', 'strait', 'hormuz', 'دریایی', 'کشتی', 'خلیج']):
@@ -237,6 +262,12 @@ class IranNewsRadar:
         if any(w in t for w in ['currency', 'dollar', 'economy', 'تومان', 'دلار', 'تحریم', 'ارز']):
             return 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80'
         return 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'
+
+    def _pick_image(self, *candidates, fallback_text=''):
+        for c in candidates:
+            if self._is_valid_image_url(c):
+                return c
+        return self._get_fallback_image(fallback_text)
 
     # ───────────────────────── proxies & market ─────────────────────────
 
@@ -330,7 +361,10 @@ class IranNewsRadar:
                 try:
                     if hasattr(entry, 'news_image'):
                         raw_url = entry.news_image
-                        image_url = raw_url.replace('{0}', '700').replace('{1}', '400') if '{0}' in raw_url else raw_url
+                        image_url = (
+                            raw_url.replace('{0}', '700').replace('{1}', '400')
+                            if '{0}' in raw_url else raw_url
+                        )
                 except Exception:
                     pass
 
@@ -375,31 +409,25 @@ class IranNewsRadar:
             return []
 
     def get_combined_news(self):
-        """Parallel multi-source search."""
         all_entries = []
         futs = []
-
         with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
             futs.append(ex.submit(self.fetch_gnews))
             futs.append(ex.submit(self.fetch_bing_rss, CONFIG['SEARCH_QUERY']))
-
             for q in CONFIG.get('SEARCH_QUERIES', [CONFIG['SEARCH_QUERY']]):
                 futs.append(ex.submit(self.fetch_duckduckgo, q, 'wt-wt', 6))
-
             for domain in CONFIG.get('PRIORITY_SITES', [])[:5]:
                 if any(x in domain for x in ['bbc', 'radiofarda', 'dw', 'iranintl', 'independent']):
                     q = f"site:{domain} ایران"
                 else:
                     q = f"site:{domain} Iran"
                 futs.append(ex.submit(self.fetch_duckduckgo, q, 'wt-wt', 5))
-
             for fut in concurrent.futures.as_completed(futs):
                 try:
                     batch = fut.result() or []
                     all_entries.extend(batch)
                 except Exception as e:
                     logger.warning(f"Search worker failed: {e}")
-
         logger.info(f"Raw search hits: {len(all_entries)}")
         return all_entries
 
@@ -410,11 +438,8 @@ class IranNewsRadar:
             return None
         if "news.google.com" not in url:
             return url
-
         if not CONFIG.get('RESOLVE_GOOGLE_URLS', False):
-            # Prefer dropping fragile Google links; other sources already give real URLs
             return None
-
         try:
             resp = self.scraper.head(url, allow_redirects=True, timeout=5)
             if "news.google.com" not in resp.url and "consent.google.com" not in resp.url:
@@ -426,16 +451,16 @@ class IranNewsRadar:
     # ───────────────────────── content grab ─────────────────────────
 
     def scrape_article_data(self, final_url, fallback_snippet, raw_image=None):
-        """Trafilatura-first, soup only as last resort. Shorter text for AI."""
+        """Extract text + a REAL photo (never Google placeholder thumbs)."""
         if not final_url or final_url.lower().endswith('.pdf'):
             return fallback_snippet, self._get_fallback_image(fallback_snippet)
 
         host = urlparse(final_url).netloc.lower()
         if host in self.failed_hosts:
-            return fallback_snippet, self._get_fallback_image(fallback_snippet)
+            return fallback_snippet, self._pick_image(raw_image, fallback_text=fallback_snippet)
 
         extracted_text = fallback_snippet
-        extracted_image = raw_image
+        extracted_image = raw_image if self._is_valid_image_url(raw_image) else None
         max_chars = CONFIG.get('MAX_TEXT_CHARS', 1800)
 
         try:
@@ -449,27 +474,26 @@ class IranNewsRadar:
                 )
                 if text and len(text.strip()) > CONFIG.get('MIN_TEXT_LEN', 100):
                     extracted_text = re.sub(r'\s+', ' ', text).strip()[:max_chars]
-
                 try:
                     meta = trafilatura.extract_metadata(downloaded)
-                    if meta and not extracted_image and getattr(meta, 'image', None):
-                        extracted_image = meta.image
+                    if meta and getattr(meta, 'image', None) and self._is_valid_image_url(meta.image):
+                        extracted_image = extracted_image or meta.image
                 except Exception:
                     pass
         except Exception as e:
             logger.warning(f"trafilatura failed {final_url}: {e}")
             self.failed_hosts.add(host)
 
-        # Soup only if text still weak or image missing
         need_soup = (
-            extracted_text == fallback_snippet
+            not extracted_image
+            or extracted_text == fallback_snippet
             or len(extracted_text) < CONFIG.get('MIN_TEXT_LEN', 100)
-            or not extracted_image
         )
         if need_soup:
             try:
                 resp = self.scraper.get(final_url, timeout=CONFIG['TIMEOUT'])
                 soup = BeautifulSoup(resp.text, 'lxml')
+
                 if extracted_text == fallback_snippet or len(extracted_text) < CONFIG.get('MIN_TEXT_LEN', 100):
                     for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside', 'iframe']):
                         tag.decompose()
@@ -481,17 +505,49 @@ class IranNewsRadar:
                     clean = ' '.join(paras[:12])
                     if len(clean) > CONFIG.get('MIN_TEXT_LEN', 100):
                         extracted_text = clean[:max_chars]
+
                 if not extracted_image:
-                    og = soup.find('meta', property='og:image') or soup.find('meta', attrs={'name': 'twitter:image'})
-                    if og and og.get('content'):
-                        extracted_image = og['content']
+                    for prop in (
+                        ('property', 'og:image'),
+                        ('property', 'og:image:secure_url'),
+                        ('name', 'twitter:image'),
+                        ('name', 'twitter:image:src'),
+                        ('itemprop', 'image'),
+                    ):
+                        tag = soup.find('meta', attrs={prop[0]: prop[1]})
+                        if tag and tag.get('content') and self._is_valid_image_url(tag['content']):
+                            extracted_image = tag['content'].strip()
+                            break
+
+                    if not extracted_image:
+                        for img in soup.find_all('img', src=True):
+                            src = img.get('src') or ''
+                            if src.startswith('//'):
+                                src = 'https:' + src
+                            if not src.startswith('http'):
+                                continue
+                            if not self._is_valid_image_url(src):
+                                continue
+                            w = img.get('width') or img.get('data-width') or ''
+                            h = img.get('height') or img.get('data-height') or ''
+                            try:
+                                if w and int(str(w).replace('px', '')) < 120:
+                                    continue
+                                if h and int(str(h).replace('px', '')) < 80:
+                                    continue
+                            except Exception:
+                                pass
+                            extracted_image = src
+                            break
             except Exception as e:
                 logger.warning(f"Soup fallback failed {final_url}: {e}")
                 self.failed_hosts.add(host)
 
-        if not extracted_image or not isinstance(extracted_image, str) or extracted_image.startswith('data:'):
-            extracted_image = self._get_fallback_image(extracted_text)
-
+        extracted_image = self._pick_image(
+            extracted_image,
+            raw_image,
+            fallback_text=extracted_text or fallback_snippet
+        )
         return extracted_text, extracted_image
 
     # ───────────────────────── AI analysis ─────────────────────────
@@ -552,7 +608,10 @@ class IranNewsRadar:
                         "model": "openai",
                         "messages": [
                             {"role": "system", "content": system_prompt},
-                            {"role": "user", "content": f"{regime_instruction}SOURCE: {source_name}\nHEADLINE: {headline}\nTEXT: {current_text}"}
+                            {
+                                "role": "user",
+                                "content": f"{regime_instruction}SOURCE: {source_name}\nHEADLINE: {headline}\nTEXT: {current_text}"
+                            }
                         ],
                         "temperature": 0.25
                     },
@@ -690,14 +749,17 @@ STRICT OUTPUT JSON:
             if self._is_duplicate_fuzzy(raw_title, self.existing_news):
                 return None
 
-        # Cheap urgency gate – skip heavy AI for weak items (still scrape lightly if needed)
         hint = self._cheap_urgency_hint(raw_title, publisher)
-        logger.info(f"Processing (hint={hint}, score={self._domain_score(final_url, publisher)}): {publisher} | {raw_title[:40]}...")
+        logger.info(
+            f"Processing (hint={hint}, score={self._domain_score(final_url, publisher)}): "
+            f"{publisher} | {raw_title[:40]}..."
+        )
 
         snippet = entry.get('description', raw_title)
-        text, photo_url = self.scrape_article_data(final_url, snippet, raw_image=entry.get('image'))
+        text, photo_url = self.scrape_article_data(
+            final_url, snippet, raw_image=entry.get('image')
+        )
 
-        # Skip AI if hint too low and text is thin
         if hint < CONFIG.get('MIN_AI_URGENCY_HINT', 5) and len(text) < 200:
             logger.info(f"Skip AI (low hint/thin text): {raw_title[:40]}")
             return None
@@ -715,7 +777,9 @@ STRICT OUTPUT JSON:
         except Exception:
             ts = time.time()
 
+        photo_url = self._pick_image(photo_url, entry.get('image'), fallback_text=raw_title)
         news_id = self._generate_news_id(clean_final_url)
+
         return {
             "id": news_id,
             "title_fa": ai.get('title_fa', raw_title),
@@ -735,6 +799,7 @@ STRICT OUTPUT JSON:
     # ───────────────────────── telegram ─────────────────────────
 
     def send_digest_to_telegram(self, items):
+        """Send digest via Telegram Rich Messages with real photo blocks."""
         token = CONFIG['TELEGRAM']['BOT_TOKEN']
         chat_id = CONFIG['TELEGRAM']['CHANNEL_ID']
         if not token or not chat_id or not items:
@@ -742,51 +807,11 @@ STRICT OUTPUT JSON:
 
         items.sort(key=lambda x: x.get('urgency', 3), reverse=True)
 
-        market_html = ""
-        try:
-            with open(CONFIG['FILES']['MARKET'], 'r') as f:
-                mkt = json.load(f)
-            market_html = (
-                f"<table bordered striped>\n"
-                f" <tr><th>💵 دلار</th><th>🛢 نفت</th><th>⏱ زمان</th></tr>\n"
-                f" <tr><td align='center'>{mkt.get('usd', '---')}</td>"
-                f"<td align='center'>{mkt.get('oil', '---')}</td>"
-                f"<td align='center'>{mkt.get('updated', '--:--')}</td></tr>\n"
-                f"</table>\n\n"
-            )
-        except Exception:
-            market_html = ""
-
-        proxies = self.fetch_best_proxies()[:4]
-        proxy_html = ""
-        if proxies:
-            proxy_items = []
-            names_pool = random.sample(PROXY_NAMES, min(len(proxies), len(PROXY_NAMES)))
-            for i, p in enumerate(proxies):
-                proxy_name = names_pool[i]
-                latency = p.get('latency', '?')
-                raw_tg_url = p.get('tg_url', '#')
-                clean_tg_url = html.unescape(raw_tg_url).replace('&amp;', '&')
-                proxy_items.append(f"<li>🛡 <a href='{clean_tg_url}'>{proxy_name}</a> (<code>{latency}ms</code>)</li>")
-            proxy_html = (
-                "<details>\n"
-                "<summary>🌐 <b>پروکسی‌های فعال تلگرام (کلیک کنید)</b></summary>\n"
-                "<ul>" + "".join(proxy_items) + "</ul>\n"
-                "</details>\n\n"
-            )
-
-        preview_url = ""
-        for item in items:
-            img = item.get('image', '')
-            if img and isinstance(img, str) and not img.startswith('data:'):
-                preview_url = img
-                break
-        if not preview_url and items:
-            preview_url = items[0].get('url', '')
-        hidden_preview = f"<a href='{preview_url}'>&#8205;</a>" if preview_url else ""
-
         def to_farsi_num(num):
             return str(num).translate(str.maketrans('0123456789', '۰۱۲۳۴۵۶۷۸۹'))
+
+        def esc(s):
+            return html.escape(str(s or ''), quote=False)
 
         try:
             from zoneinfo import ZoneInfo
@@ -795,78 +820,223 @@ STRICT OUTPUT JSON:
             ir_tz = timezone(timedelta(hours=3, minutes=30))
         now_ir = datetime.now(ir_tz)
         ir_time_str = to_farsi_num(now_ir.strftime("%H:%M"))
-
-        header = (
-            f"{hidden_preview}"
-            f"<h1>🚨 رادار اخبار مهم ایران</h1>\n"
-            f"<p>⏱ <b>زمان بروزرسانی:</b> {ir_time_str} (به وقت تهران)</p>\n"
-            f"{market_html}"
-            f"<hr/>\n\n"
-        )
+        ir_date_str = to_farsi_num(now_ir.strftime("%Y/%m/%d"))
 
         base_site = "https://itsyebekhe.github.io/rasadai/"
-        headlines_text = "<p>📌 <b>سرخط مهم‌ترین اخبار:</b></p>\n<ul>"
-        for i, item in enumerate(items, 1):
-            title = html.escape(str(item.get('title_fa', item.get('title_en'))))
-            source = html.escape(str(item.get('source', 'Unknown')))
-            news_id = item.get('id', '')
-            deep_link = f"{base_site}?id={news_id}" if news_id else item.get('url', '#')
+
+        # ── Collect valid images (max 8 for collage / slideshow) ──
+        photo_urls = []
+        for item in items:
+            img = item.get('image')
+            if self._is_valid_image_url(img) and img not in photo_urls:
+                photo_urls.append(img)
+            if len(photo_urls) >= 8:
+                break
+        if not photo_urls:
+            photo_urls = [self._get_fallback_image(items[0].get('title_en', 'news'))]
+
+        # ── Market table ──
+        market_html = ""
+        try:
+            with open(CONFIG['FILES']['MARKET'], 'r', encoding='utf-8') as f:
+                mkt = json.load(f)
+            market_html = (
+                "<table bordered striped>\n"
+                "<tr><th>💵 دلار</th><th>🛢 نفت</th><th>⏱ زمان</th></tr>\n"
+                f"<tr>"
+                f"<td align='center'>{esc(mkt.get('usd', '---'))}</td>"
+                f"<td align='center'>{esc(mkt.get('oil', '---'))}</td>"
+                f"<td align='center'>{esc(mkt.get('updated', '--:--'))}</td>"
+                f"</tr>\n"
+                "</table>\n"
+            )
+        except Exception:
+            market_html = ""
+
+        # ── Media block(s) ──
+        # Single photo → <figure><img>…</figure>
+        # Multiple → <tg-collage> or <tg-slideshow>
+        media_html = ""
+        if len(photo_urls) == 1:
+            media_html = (
+                f"<figure>"
+                f"<img src=\"{esc(photo_urls[0])}\"/>"
+                f"<figcaption>رادار رصد — {ir_time_str}</figcaption>"
+                f"</figure>\n"
+            )
+        elif len(photo_urls) <= 4:
+            imgs = "".join(f"<img src=\"{esc(u)}\"/>" for u in photo_urls)
+            media_html = (
+                f"<tg-collage>{imgs}"
+                f"<figcaption>تصاویر مرتبط با اخبار مهم</figcaption>"
+                f"</tg-collage>\n"
+            )
+        else:
+            imgs = "".join(f"<img src=\"{esc(u)}\"/>" for u in photo_urls)
+            media_html = (
+                f"<tg-slideshow>{imgs}"
+                f"<figcaption>گالری اخبار رصد</figcaption>"
+                f"</tg-slideshow>\n"
+            )
+
+        # ── Headlines list ──
+        headlines_li = []
+        for item in items[:10]:
+            title = esc(item.get('title_fa') or item.get('title_en'))
+            source = esc(item.get('source', ''))
             urgency = item.get('urgency', 3)
             icon = "🔥" if urgency >= 9 else ("🚨" if urgency >= 7 else "🔹")
-            headlines_text += f"<li>{icon} <a href='{deep_link}'>{title}</a> (<i>{source}</i>)</li>"
-        headlines_text += "</ul>\n<hr/>\n\n"
-
-        items_html = ""
-        all_tags = set()
-        for i, item in enumerate(items, 1):
-            title = html.escape(str(item.get('title_fa', item.get('title_en'))))
-            source = html.escape(str(item.get('source', 'Unknown')))
-            impact = html.escape(str(item.get('impact', '')))
             news_id = item.get('id', '')
-            deep_link = f"{base_site}?id={news_id}" if news_id else item.get('url', '#')
+            deep = f"{base_site}?id={news_id}" if news_id else (item.get('url') or '#')
+            headlines_li.append(
+                f"<li>{icon} <a href=\"{esc(deep)}\">{title}</a> <i>({source})</i></li>"
+            )
+        headlines_html = "<ul>\n" + "\n".join(headlines_li) + "\n</ul>\n"
+
+        # ── Per-item analysis (details blocks) ──
+        details_parts = []
+        all_tags = set()
+        for i, item in enumerate(items[:6], 1):
+            title = esc(item.get('title_fa') or item.get('title_en'))
+            source = esc(item.get('source', 'Unknown'))
+            impact = esc(item.get('impact', ''))
+            news_id = item.get('id', '')
+            deep = f"{base_site}?id={news_id}" if news_id else (item.get('url') or '#')
+            src_url = item.get('url') or '#'
+
             summary_raw = item.get('summary', [])
             if isinstance(summary_raw, str):
                 summary_raw = [summary_raw]
-            safe_summary = "".join([f"<li>{html.escape(str(s))}</li>" for s in summary_raw])
-            tag = str(item.get('tag', 'General')).replace(' ', '_')
-            all_tags.add(f"#{html.escape(tag)}")
-            is_open = " open" if i == 1 else ""
-            items_html += (
-                f"<details{is_open}>\n"
-                f" <summary><b>{to_farsi_num(i)}. {title}</b></summary>\n"
-                f" <p>📝 <b>تحلیل خبر:</b></p>\n"
-                f" <ul>{safe_summary}</ul>\n"
-                f" <p>🎯 <b>اثرگذاری:</b> {impact}</p>\n"
-                f" <p>🔗 <a href='{deep_link}'>مطالعه گزارش کامل در داشبورد</a> | "
-                f"<a href='{item.get('url')}'>منبع اصلی ({source})</a></p>\n"
-                f"</details>\n<hr/>\n"
-            )
+            safe_summary = "".join(f"<li>{esc(s)}</li>" for s in summary_raw if s)
 
-        tags_html = f"<p>{' '.join(all_tags)}</p>\n"
-        footer = f"<footer>{proxy_html}🆔 @RasadAIOfficial</footer>"
-        full_rich_html = header + headlines_text + items_html + tags_html + footer
+            tag = str(item.get('tag', 'General')).replace(' ', '_')
+            all_tags.add(f"#{esc(tag)}")
+
+            # Optional per-item thumbnail if valid and not already used as main
+            item_img = item.get('image')
+            item_media = ""
+            if self._is_valid_image_url(item_img) and item_img not in photo_urls[:1]:
+                item_media = f"<img src=\"{esc(item_img)}\"/>\n"
+
+            open_attr = " open" if i == 1 else ""
+            details_parts.append(
+                f"<details{open_attr}>\n"
+                f"<summary><b>{to_farsi_num(i)}. {title}</b></summary>\n"
+                f"{item_media}"
+                f"<p>📝 <b>تحلیل خبر:</b></p>\n"
+                f"<ul>{safe_summary}</ul>\n"
+                f"<p>🎯 <b>اثرگذاری:</b> {impact}</p>\n"
+                f"<p>🔗 <a href=\"{esc(deep)}\">گزارش در داشبورد</a> | "
+                f"<a href=\"{esc(src_url)}\">منبع اصلی ({source})</a></p>\n"
+                f"</details>\n"
+                f"<hr/>\n"
+            )
+        details_html = "".join(details_parts)
+
+        # ── Proxies ──
+        proxy_html = ""
+        try:
+            proxies = self.fetch_best_proxies()[:4]
+            if proxies:
+                proxy_items = []
+                names_pool = random.sample(PROXY_NAMES, min(len(proxies), len(PROXY_NAMES)))
+                for i, p in enumerate(proxies):
+                    name = names_pool[i]
+                    latency = p.get('latency', '?')
+                    raw_tg = p.get('tg_url', '#')
+                    clean_tg = html.unescape(raw_tg).replace('&amp;', '&')
+                    proxy_items.append(
+                        f"<li>🛡 <a href=\"{esc(clean_tg)}\">{esc(name)}</a> "
+                        f"(<code>{esc(latency)}ms</code>)</li>"
+                    )
+                proxy_html = (
+                    "<details>\n"
+                    "<summary>🌐 <b>پروکسی‌های فعال تلگرام (کلیک کنید)</b></summary>\n"
+                    "<ul>" + "".join(proxy_items) + "</ul>\n"
+                    "</details>\n"
+                )
+        except Exception:
+            pass
+
+        tags_html = f"<p>{' '.join(sorted(all_tags))}</p>\n" if all_tags else ""
+
+        # ── Assemble full rich HTML ──
+        # Media MUST be its own block (not inside <p>)
+        full_html = (
+            f"<h1>🚨 رصد اخبار مهم ایران</h1>\n"
+            f"<p>⏱ <b>زمان بروزرسانی:</b> {ir_time_str} — {ir_date_str} (تهران)</p>\n"
+            f"{market_html}"
+            f"<hr/>\n"
+            f"{media_html}"
+            f"<h2>📌 سرخط مهم‌ترین اخبار</h2>\n"
+            f"{headlines_html}"
+            f"<hr/>\n"
+            f"<h2>📋 تحلیل و جزئیات</h2>\n"
+            f"{details_html}"
+            f"{tags_html}"
+            f"<footer>\n"
+            f"{proxy_html}"
+            f"<p>📊 <a href=\"{base_site}\">داشبورد زنده رصد</a> | 🆔 @RasadAIOfficial</p>\n"
+            f"</footer>\n"
+        )
+
+        # Stay under rich message limit (32768 chars)
+        if len(full_html) > 30000:
+            full_html = full_html[:30000]
 
         inline_keyboard = {
             "inline_keyboard": [[
-                {"text": "📊 مشاهده داشبورد و رادار زنده", "url": base_site},
-                {"text": "🛡 پروکسی‌های فعال تلگرام", "url": "https://itsyebekhe.github.io/MTProtoNexus/"}
+                {"text": "📊 داشبورد و رادار زنده", "url": base_site},
+                {"text": "🛡 پروکسی‌های فعال", "url": "https://itsyebekhe.github.io/MTProtoNexus/"}
             ]]
         }
 
         api_url = f"https://api.telegram.org/bot{token}/sendRichMessage"
         payload = {
             "chat_id": chat_id,
-            "rich_message": {"html": full_rich_html[:30000], "is_rtl": True},
-            "reply_markup": inline_keyboard
+            "rich_message": {
+                "html": full_html,
+                "is_rtl": True,
+            },
+            "reply_markup": inline_keyboard,
         }
+
         try:
-            resp = self.scraper.post(api_url, json=payload, timeout=20)
+            resp = self.scraper.post(api_url, json=payload, timeout=30)
             if resp.status_code == 200:
-                logger.info(">>> Rich Message & Deep Links successfully posted to Telegram.")
+                logger.info(">>> Rich Message with media blocks sent to Telegram.")
+                return
+
+            logger.error(f"sendRichMessage failed: {resp.status_code} | {resp.text[:500]}")
+
+            # Fallback: classic sendPhoto + short caption if rich API unavailable
+            photo_api = f"https://api.telegram.org/bot{token}/sendPhoto"
+            caption_lines = [
+                "🚨 <b>رادار اخبار مهم ایران</b>",
+                f"⏱ {ir_time_str} (تهران)",
+                "",
+            ]
+            for item in items[:5]:
+                t = esc(item.get('title_fa') or item.get('title_en'))
+                u = item.get('urgency', 3)
+                icon = "🔥" if u >= 9 else ("🚨" if u >= 7 else "🔹")
+                caption_lines.append(f"{icon} {t}")
+            caption_lines.append(f"\n<a href=\"{base_site}\">📊 داشبورد</a>")
+            caption = "\n".join(caption_lines)[:1024]
+
+            resp2 = self.scraper.post(photo_api, json={
+                "chat_id": chat_id,
+                "photo": photo_urls[0],
+                "caption": caption,
+                "parse_mode": "HTML",
+                "reply_markup": inline_keyboard,
+            }, timeout=20)
+            if resp2.status_code == 200:
+                logger.info(">>> Fallback sendPhoto succeeded.")
             else:
-                logger.error(f"Telegram Rich Message Failed: Status {resp.status_code} | {resp.text}")
+                logger.error(f"sendPhoto fallback failed: {resp2.status_code} | {resp2.text[:300]}")
         except Exception as e:
-            logger.error(f"TG Send Error: {e}")
+            logger.error(f"TG Rich Message send error: {e}")
 
     # ───────────────────────── save ─────────────────────────
 
@@ -892,6 +1062,11 @@ STRICT OUTPUT JSON:
                 u = self._clean_url(item.get('url'))
                 if u and u not in seen_u:
                     seen_u.add(u)
+                    # sanitize image on save too
+                    item['image'] = self._pick_image(
+                        item.get('image'),
+                        fallback_text=item.get('title_en') or item.get('title_fa') or ''
+                    )
                     unique_news.append(item)
             unique_news.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
             final_list = unique_news[:CONFIG['HISTORY_SIZE']]
@@ -980,7 +1155,8 @@ STRICT OUTPUT JSON:
             return None
 
         cluster_context = "\n---\n".join([
-            f"منبع: {i.get('source')}\nتیتر: {i.get('title_fa')}\nتحلیل: {i.get('impact')}\nخلاصه: {' '.join(i.get('summary', []))}"
+            f"منبع: {i.get('source')}\nتیتر: {i.get('title_fa')}\n"
+            f"تحلیل: {i.get('impact')}\nخلاصه: {' '.join(i.get('summary', []))}"
             for i in cluster_items[:6]
         ])
         system_prompt = """
@@ -1027,14 +1203,13 @@ STRICT OUTPUT JSON:
     # ───────────────────────── main run ─────────────────────────
 
     def run(self):
-        logger.info(">>> Radar Started (optimized search + extract)...")
+        logger.info(">>> Radar Started (optimized search + extract + photos)...")
 
         with open(CONFIG['FILES']['MARKET'], 'w', encoding='utf-8') as f:
             json.dump(self.fetch_market_rates(), f, ensure_ascii=False)
 
         manual_url = os.environ.get('MANUAL_URL')
 
-        # --- 1. FETCH ---
         if manual_url and manual_url.strip():
             logger.info(f"!!! MANUAL MODE: {manual_url} !!!")
             results = self.fetch_manual_url(manual_url)
@@ -1046,7 +1221,6 @@ STRICT OUTPUT JSON:
             cutoff_date = datetime.now(timezone.utc) - timedelta(hours=CONFIG['MAX_NEWS_AGE_HOURS'])
 
             for item in results:
-                # Age filter
                 try:
                     p_date = item.get('published date')
                     if p_date:
@@ -1077,7 +1251,6 @@ STRICT OUTPUT JSON:
                 seen_batch_titles.add(norm_t)
                 candidates.append(item)
 
-            # Source priority + hard cap
             candidates.sort(
                 key=lambda x: self._domain_score(
                     x.get('url'),
@@ -1091,7 +1264,6 @@ STRICT OUTPUT JSON:
             f"Total Fetched: {len(results)} | Candidates (new/recent/capped): {len(candidates)}"
         )
 
-        # --- 2. PROCESS (high-score first already ordered) ---
         new_processed_items = []
         if candidates:
             with concurrent.futures.ThreadPoolExecutor(max_workers=CONFIG['MAX_WORKERS']) as exc:
@@ -1106,7 +1278,6 @@ STRICT OUTPUT JSON:
                     except Exception as e:
                         logger.error(f"process_item worker error: {e}")
 
-        # --- 3. SAVE & TELEGRAM ---
         if new_processed_items:
             self.existing_news = self.save_news(new_processed_items)
 
@@ -1130,7 +1301,6 @@ STRICT OUTPUT JSON:
         else:
             logger.info(">>> No valid new items found.")
 
-        # --- 4. DAILY / BULLETIN / SPECIAL ---
         daily_summary = self.generate_daily_summary()
         if daily_summary:
             self.save_daily_summary(daily_summary)

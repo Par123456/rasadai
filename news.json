@@ -1,5 +1,23 @@
 [
     {
+        "title_fa": "ایران جنگ را دوباره شعله‌ور می‌کند همزمان با سفر نتانیاهو به واشنگتن",
+        "title_en": "Iran Re-ignites War as Netanyahu Visits Washington",
+        "summary": [
+            "طبق گزارش Soufan Center، هم‌زمان با سفر نتانیاهو به واشنگتن، ایران «جنگ را دوباره» فعال کرده است؛ یعنی یک جابجایی یا تشدید عملیاتی در کارزار منطقه‌ای در همین بازه زمانی رخ داده.",
+            "این هم‌زمانی، از نگاه راهبردی، نشانه تلاش تهران برای فشار هم‌زمان بر فضای تصمیم‌گیری واشنگتن و مدیریت پیام سیاسی-امنیتی پیش از یا در خلال رایزنی‌های نتانیاهو است.",
+            "با توجه به متن محدودِ گزارش (فقط اعلام «ری‌اِگنایْت/شعله‌ور کردن جنگ» در زمان سفر)، هیچ جزئیاتی درباره نوع اقدام، هدف‌ها یا خسارت‌ها ارائه نشده و بنابراین ارزیابی دقیقِ شدت و کانال عملیات فقط در چارچوب همین تشدید زمانی قابل طرح است."
+        ],
+        "impact": "تشدید هم‌زمان با حضور نتانیاهو در واشنگتن می‌تواند احتمال یک چرخش سریع در محاسبات امنیتی طرف‌های درگیر را بالا ببرد، حتی اگر ماهیت دقیق عملیات در همین متن مشخص نشده باشد.",
+        "tag": "تشدید",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "The Soufan Center",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wTnlLTi1aUjJ2aVBTcXZfWWJNR2tFZy0ta09pdV9TNF81RXR0emZyYUUyTWRMQWE4Q3JrejdHQ2FzRzl0b2xpQl9nQ0RwUWhUTWduZE5GLUFlZ1Z1cTVTWi13?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wTnlLTi1aUjJ2aVBTcXZfWWJNR2tFZy0ta09pdV9TNF81RXR0emZyYUUyTWRMQWE4Q3JrejdHQ2FzRzl0b2xpQl9nQ0RwUWhUTWduZE5GLUFlZ1Z1cTVTWi13",
+        "image": null,
+        "timestamp": 1785420225.0
+    },
+    {
         "title_fa": "آغاز «موج سنگین» حملات جدید آمریکا علیه ایران؛ تهدید مستقیم اما بدون جزئیات در متن",
         "title_en": "US launches ‘heavy wave’ of new attacks on Iran",
         "summary": [
@@ -232,6 +250,24 @@
         "clean_url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo",
         "image": null,
         "timestamp": 1785378775.0
+    },
+    {
+        "title_fa": "افزایش ریسک جنگ تمام‌عیار؛ حملات موشکی متقابل آمریکا و ایران دوباره تشدید شد و چند کشور هم درگیر شدند",
+        "title_en": "Risk Of All-Out War Surges As U.S. And Iran Trade More Missile Strikes",
+        "summary": [
+            "آمریکا و ایران در پنج‌شنبه هر کدام «بَرج‌های» موشکی شلیک کردند و با بازگشت الگوی حملات تلافی‌جویانه، احتمال گسترش جنگ بار دیگر بالا رفت؛ امید به حل سریع مسئله عملاً کم‌رنگ شد.",
+            "دامنه درگیری منطقه‌ای شد: اردن برای دومین روز پیاپی موشک‌های ایرانی را رهگیری کرد؛ کویت از اصابت موشک در شمال کشور و یک کشته خبر داد؛ همچنین پهپادها در بندر مصر آتش‌سوزی ایجاد کردند و عربستان از شلیک گروه‌های شبه‌نظامی مورد حمایت ایران در عراق گفت.",
+            "حملات پس از آن رخ داد که فرماندهی مرکزی آمریکا از پایان یک «موج سنگین» حملات علیه ایران خبر داد؛ این عملیات در پاسخ به حمله موشکی ایران به یک پایگاه آمریکا در اردن انجام شد و واشنگتن مدعی شد ده‌ها هدف از جمله مراکز فرماندهی سپاه و تأسیسات موشک/پهپاد و نیز سایت‌های دیده‌بانی و دفاع ساحلی هدف گرفته شده‌اند."
+        ],
+        "impact": "بازگشت حملات موشکی متقابل و درگیری چند کشور، ریسک جهش به درگیری گسترده‌تر و درگیر شدن مستقیم دارایی‌های آمریکا و متحدانش را بالا می‌برد.",
+        "tag": "جنگ",
+        "urgency": 9,
+        "sentiment": -0.9,
+        "source": "HuffPost",
+        "url": "https://www.huffpost.com/entry/middle-east-flare-ups_n_6a6b0f6ce4b098352c30d0ba?origin=home-latest-news-unit",
+        "clean_url": "https://www.huffpost.com/entry/middle-east-flare-ups_n_6a6b0f6ce4b098352c30d0ba",
+        "image": "http://www.bing.com/th?id=ONUT.Ab_LkfKdGE-m9TnDpyi3iw&pid=News",
+        "timestamp": 1785377220.0
     },
     {
         "title_fa": "گسترش «جبهه‌های جدید» جنگ ایران در خاورمیانه (گزارش WSJ)",
@@ -5362,41 +5398,5 @@
         "clean_url": "https://www.msn.com/en-us/politics/government/us-to-continue-technical-talks-with-iran-after-trump-said-ceasefire-was-over/ar-AA27BGpQ",
         "image": null,
         "timestamp": 1783646940.0
-    },
-    {
-        "title_fa": "نیویورک‌تایمز: «بمباران و توافقِ نیمه‌جان» نتیجه نداد؛ ترامپ «طرح C» برای ایران دارد؟",
-        "title_en": "Bombing and a Tentative Accord Didn't Work. Does Trump Have a Plan C for Iran?",
-        "summary": [
-            "مقاله می‌گوید دولت آمریکا عملاً در حال بازگشت به سیاست «تماماً فشار سخت» است: بمباران و جنگ‌افروزی اقتصادی، بدون بسته مشوق (چیزی که به‌عنوان کارِ دیپلماتیکِ واقعی و روشن ارائه شود).",
-            "نقطه‌ضعف راهبردی اینجاست: آمریکا هنوز توضیح قانع‌کننده‌ای ارائه نکرده که چرا «جنگ اقتصادی» و بمباران قرار است این بار نتیجه متفاوتی نسبت به گذشته بدهد؛ یعنی منطق اثرگذاری سیاست روی رفتار رژیم شفاف نیست.",
-            "جمع‌بندی مقاله این است که صرفاً تکرار ابزارهای شکست‌خورده («stick-only») بدون پاسخ به سؤال اصلیِ برنامه‌ریزی راهبردی، ریسک تشدید هزینه‌ها و بی‌نتیجه‌بودن را بالا می‌برد."
-        ],
-        "impact": "بازگشت به رویکرد فشار یک‌طرفه بدون ارائه «طرح جایگزین/برنامه خروج» می‌تواند فشار را افزایش دهد اما احتمال دستاورد سیاسی قابل‌سنجش را کاهش می‌دهد.",
-        "tag": "تحریم",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/09/us/politics/trump-iran-war.html",
-        "clean_url": "https://www.nytimes.com/2026/07/09/us/politics/trump-iran-war.html",
-        "image": "https://static01.nyt.com/images/2026/07/07/multimedia/09dc-prexy/07trump-news-header2-qzbg-facebookJumbo.jpg",
-        "timestamp": 1783645500.0
-    },
-    {
-        "title_fa": "تهدید نتانیاهو و گزارش حمله سپاه به پایگاه‌های آمریکا در کویت و بحرین؛ تشدید خطر رویارویی مستقیم",
-        "title_en": "US-Iran War LIVE Updates: 'War is not over yet,' Netanyahu warns Iran",
-        "summary": [
-            "بر اساس گزارش رویترز، سپاه پاسداران اعلام کرده دو پایگاه آمریکا در کویت و یک پایگاه آمریکا در بحرین را هدف حمله قرار داده است؛ این یعنی یک گام دیگر در تشدید تنش منطقه‌ای فراتر از تهدیدهای کلامی.",
-            "نتانیاهو هشدار داده «جنگ هنوز تمام نشده»؛ این پیام می‌تواند سیگنالِ آماده‌سازی برای تداوم یا افزایش فشار/عملیات باشد، در حالی که طرف ایران همان سطح «اقدام عملی» را گزارش می‌کند.",
-            "هم‌زمان، تمرکز گزارش بر روی پایگاه‌های آمریکا در دو کشور حاشیه خلیج فارس است؛ یعنی ریسک گسترش درگیری به مسیرهای مستقیم‌تر با هزینه بالاتر برای منطقه و بازیگران غیرمستقیم افزایش می‌یابد."
-        ],
-        "impact": "با ثبت ادعای حملات به پایگاه‌های آمریکا در کویت و بحرین، احتمال پاسخ متقابل و جهش از درگیری نیابتی به مواجهه مستقیم به شکل جدی بالا می‌رود.",
-        "tag": "escalation",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Economic Times",
-        "url": "https://economictimes.indiatimes.com/news/newsblogs/us-iran-war-live-updates-trump-iran-news-ceasefire-strait-of-hormuz-middle-east-conflict-khamenei-latest-news/liveblog/132275190.cms",
-        "clean_url": "https://economictimes.indiatimes.com/news/newsblogs/us-iran-war-live-updates-trump-iran-news-ceasefire-strait-of-hormuz-middle-east-conflict-khamenei-latest-news/liveblog/132275190.cms",
-        "image": "http://www.bing.com/th?id=ONUT.k0ql4FqZXBCRXMgMS7X9ug&pid=News",
-        "timestamp": 1783644960.0
     }
 ]

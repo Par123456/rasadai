@@ -1,5 +1,77 @@
 [
     {
+        "title_fa": "از سرگیری حملات آمریکا علیه ایران؛ نگرانی از گسترش جنگ",
+        "title_en": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening",
+        "summary": [
+            "طبق گزارش گاردین، آمریکا پس از یک وقفه چندروزه، حملات تازه علیه ایران را شروع کرده است؛ این پیام مستقیم برای کاهش یا مهار تنش نیست، بلکه ادامه/تشدید اقدام نظامی محسوب می‌شود.",
+            "این حملات در چارچوب «ترس از گسترش جنگ» مطرح شده‌اند؛ یعنی هدف‌گذاری و پیامدهای میدانی می‌تواند از سطح محدود به سمت دامنه گسترده‌تر حرکت کند.",
+            "توضیح مشخصی از اهداف یا نوع سامانه‌های درگیر در متن ارائه نشده، بنابراین ارزیابی اثرگذاری فوری به شکل دقیق فقط بر اساس واقعیت «از سرگیری حمله پس از وقفه» ممکن است."
+        ],
+        "impact": "بازگشت حملات پس از وقفه چندروزه ریسک تشدید سریع را بالا می‌برد و می‌تواند چرخه پاسخ‌متقابل منطقه‌ای را فعال کند.",
+        "tag": "درگیری",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw",
+        "image": null,
+        "timestamp": 1785381900.0
+    },
+    {
+        "title_fa": "حمله هوایی آمریکا به ایران پس از گزارش تهدید جدید ترامپ",
+        "title_en": "U.S. strikes Iran after Trump reportedly issues menacing new threat",
+        "summary": [
+            "طبق گزارش NBC News، آمریکا در پی یک تهدید «جدی و تهدیدآمیز» که گفته می‌شود ترامپ مطرح کرده، به ایران حمله هوایی انجام داده است.",
+            "این خبر به پیوند مستقیم میان تشدید لحن و اقدام نظامی اشاره می‌کند و نشان می‌دهد واشینگتن حاضر است فاصله بین تهدید سیاسی و ضربه عملی را کوتاه کند.",
+            "چون متن فقط به «ضربات» اشاره کرده و جزئیات هدف، میزان خسارت یا تلفات را ارائه نمی‌کند، ارزیابی دقیق از اثر عملیاتی آن فعلاً محدود است."
+        ],
+        "impact": "این اقدام، نشانه تشدید فوری سطح تقابل آمریکا و ایران است و ریسک چرخه پاسخ متقابل و بی‌ثباتی منطقه‌ای را بالا می‌برد.",
+        "tag": "تحرکات_نظامی",
+        "urgency": 9,
+        "sentiment": -0.7,
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/world/middle-east/us-thwarts-iranian-missile-attack-launches-strikes-saudi-arabia-rcna589773",
+        "clean_url": "https://www.nbcnews.com/world/middle-east/us-thwarts-iranian-missile-attack-launches-strikes-saudi-arabia-rcna589773",
+        "image": null,
+        "timestamp": 1785379440.0
+    },
+    {
+        "title_fa": "سنتکام: حملات سنگین آمریکا به اهداف سپاه پاسداران پس از تلاش برای حمله موشکی بالستیک ایران به نیروهای آمریکایی",
+        "title_en": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks",
+        "summary": [
+            "سنتکام اعلام کرد آمریکا چهارشنبه «حملات سنگین» را در واکنش به تلاش برای حمله موشکی بالستیک ایران به نیروهای آمریکایی انجام داد و گفت «ده‌ها» هدف سپاه پاسداران را هدف گرفت؛ این حملات در پی شلیک‌های سه‌شنبه ایران به پایگاه‌های آمریکا در اردن و همچنین حمله به کشتی‌ها در تنگه هرمز صورت گرفت.",
+            "آمریکا تأکید کرد همه موشک‌های ایران رهگیری شدند و اهداف مورد اصابت شامل «مراکز فرماندهی نظامی، تأسیسات موشک و پهپاد، سامانه‌های رصد ساحلی و دفاع، و توانمندی‌های دریایی» بوده است؛ هم‌زمان، شدت درگیری‌ها یک روز قبل‌تر با «حملات مشترک آمریکا و عربستان» علیه نیروهای نیابتی ایران در عراق گسترش یافته بود.",
+            "با وجود ادعاهای مربوط به ازسرگیری گفت‌وگوها و توقف چند روزه حملات، درگیری دوباره شعله‌ور شد؛ ترامپ از «مذاکرات بسیار دوستانه» سخن گفت (تهران گفت گفت‌وگویی در کار نیست) و خبرگزاری Axios نیز از پیام عربستان برای تمایل به کاهش تنش خبر داد، اما حملات چهارشنبه نشان داد مانعِ عملی برای ادامه چرخه انتقام وجود ندارد."
+        ],
+        "impact": "این موج ضربات مستقیم و «سنگین» به زیرساخت‌های موشکی، پهپادی و فرماندهی سپاه، توان واکنش سریع و پیوستگی عملیات فرامرزی آن را در کوتاه‌مدت محدود می‌کند و ریسک تشدید دوباره را بالا می‌برد.",
+        "tag": "درگیری_نظامی",
+        "urgency": 10,
+        "sentiment": -0.6,
+        "source": "centcom.mil",
+        "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo",
+        "clean_url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo",
+        "image": null,
+        "timestamp": 1785378775.0
+    },
+    {
+        "title_fa": "گسترش «جبهه‌های جدید» جنگ ایران در خاورمیانه (گزارش WSJ)",
+        "title_en": "See the New Fronts of the Iran War Erupting Across the Middle East",
+        "summary": [
+            "WSJ از «جبهه‌های جدید» جنگ ایران در سراسر خاورمیانه خبر می‌دهد، اما در متن ارائه‌شده جزئیات مکان، زمان و نوع عملیات‌ها مشخص نیست.",
+            "این نوع روایت نشان‌دهنده تغییر الگوی درگیری فراتر از خطوط کلاسیک است و می‌تواند فشار امنیتی و سیاسی روی دولت‌های منطقه را افزایش دهد، بدون آنکه در همین داده، ادعای مشخصی درباره بازیگران یا عملیات‌ها تأیید شود.",
+            "چون متن فقط عنوان منبع را تکرار می‌کند، نمی‌توان ارتباط مستقیم با اقتصاد، تحریم‌ها یا درگیری‌های داخلی ایران را از همین اطلاعات نتیجه گرفت."
+        ],
+        "impact": "گسترش ادعاشده «جبهه‌های جدید» اگر با عملیات‌های واقعی همراه شود، هزینه مدیریت امنیتی و ریسک محاسبه‌نادرست برای رژیم را در منطقه بالا می‌برد؛ اما داده فعلی برای ارزیابی دقیق پیامدها کافی نیست.",
+        "tag": "منطقه‌ای",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "WSJ",
+        "url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313",
+        "clean_url": "https://www.wsj.com/world/middle-east/see-the-new-fronts-of-the-iran-war-erupting-across-the-middle-east-dda24313",
+        "image": null,
+        "timestamp": 1785374340.0
+    },
+    {
         "title_fa": "نتانیاهو بعد از گفت‌وگو با ترامپ، «فشارمحور» علیه ایران را پیش می‌برد",
         "title_en": "Netanyahu backs pressure-first strategy on Iran after Trump talks",
         "summary": [
@@ -72,6 +144,24 @@
         "timestamp": 1785350491.0
     },
     {
+        "title_fa": "پایان آتش‌بس میان آمریکا و ایران؛ ادعای «حمله غافلگیرانه» تهران و پاسخ واشینگتن",
+        "title_en": "Iran 'surprise attack' ends ceasefire; US retaliates. What's next in the war",
+        "summary": [
+            "طبق گزارش USA TODAY، درگیری مستقیم آمریکا و ایران پس از اجرای یک آتش‌بس، دوباره متوقف‌نشدنِ آن با «حمله غافلگیرانه» تهران علیه نیروهای آمریکایی پایان یافته است؛ ترامپ این رخداد را «surprise attack» توصیف کرده است.",
+            "در پی این اقدام، واشینگتن اقدام تلافی‌جویانه انجام داده است؛ گزارش بر این محور است که چرخه توقف/از سرگیری جنگ به‌طور مستقیم به همین رویداد گره خورده است.",
+            "متن با عنوان «What's next in the war» بر مرحله بعدی درگیری تأکید دارد، اما جزئیات بیشتر درباره نوع پاسخ، اهداف یا ابعاد عملیاتی ارائه نمی‌کند و فقط چارچوب کلی تشدید را نشان می‌دهد."
+        ],
+        "impact": "این رخداد یعنی هر سازوکار آتش‌بس تا اطلاع بعدی قابلیت اتکا ندارد و احتمال تشدید سریع تبادل حملات افزایش می‌یابد.",
+        "tag": "جنگ",
+        "urgency": 10,
+        "sentiment": -0.9,
+        "source": "USA TODAY on MSN",
+        "url": "https://www.msn.com/en-us/news/world/iran-surprise-attack-ends-ceasefire-us-retaliates-what-s-next-in-the-war/ar-AA28Z6xX",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-surprise-attack-ends-ceasefire-us-retaliates-what-s-next-in-the-war/ar-AA28Z6xX",
+        "image": "http://www.bing.com/th?id=ONUT.xh_uthhJrVocnbPpb870_g&pid=News",
+        "timestamp": 1785350471.0
+    },
+    {
         "title_fa": "ترامپ و نتانیاهو «همه گزینه‌ها»، از جمله حمله به ایران را بررسی کردند",
         "title_en": "Trump and Netanyahu explored all Iran options including attack, Israeli official says",
         "summary": [
@@ -124,6 +214,42 @@
         "clean_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd21mTkRVSzhnanlTelhtLUNpNmhVTFA5Z3hIWDNldGd6UGk5ZU5oeVFESGg3YkRDRmNyWHlvSzZKU0ZnM1BHdzJoQkh4OGFiSUVHem95SWZ2UVRZM3VOR2VjR2NSaGZlUnBCYnB2Q0MtR3Rsc2VBX1Q1SzdNRy1vTnNTdTBVMDh4cjFSZUV3",
         "image": null,
         "timestamp": 1785344425.0
+    },
+    {
+        "title_fa": "آغاز دوباره حملات آمریکا به ایران پس از حمله موشکی تهاجمی سپاه؛ فرار از مسیر کاهش تنش",
+        "title_en": "U.S. strikes Iran after surprise missile attack, dashing hopes of de-escalation",
+        "summary": [
+            "نیروهای آمریکایی ساعت ۸ شب چهارشنبه به وقت واشنگتن آغاز به حمله کردند و تا حدود ۱۰ شب یک «موج سنگین» را تکمیل نمودند؛ پاسخ مستقیم به حمله موشکی بالستیک سپاه به نیروهای آمریکا در منطقه خلیج در اواخر سه‌شنبه بود که همگی در گزارش‌ها رهگیری/رهگیری شدند.",
+            "سنتکام این عملیات را «پاسخ قدرتمند» توصیف کرد و گفت در بازه حدود دو ساعته ده‌ها هدف سپاه در ایران از جمله مراکز فرماندهی، تأسیسات موشکی و پهپادی، سامانه‌های پایش/پدافند ساحلی و توانمندی‌های دریایی هدف قرار گرفت تا تهدیدها برای نیروهای آمریکا، کشتیرانی تجاری و کشورهای همسایه خلیج تضعیف شود.",
+            "این دور از حمله بعد از یک وقفه کوتاه و پس از «شکستن الگوی» رفتاری طرف ایرانی مطرح شد؛ کارشناسان امنیتی می‌گویند تهران احتمالاً به سمت اقدام‌های تهاجمی‌تر و فاصله گرفتن از دیپلماسی حرکت می‌کند و در سناریوهای بعدی ریسک هدف‌گرفتن زیرساخت‌های غیرنظامی مثل فرودگاه‌ها، شبکه برق، تأسیسات آب‌شیرین‌کن و مراکز انرژی خلیج مطرح است."
+        ],
+        "impact": "ازسرگیری حملات می‌تواند زنجیره واکنش متقابل را تشدید کند و هم‌زمان ریسک اختلال بیشتر در حمل‌ونقل و بازار نفت از تنگه هرمز را بالا ببرد.",
+        "tag": "تقابل",
+        "urgency": 9,
+        "sentiment": -0.9,
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html",
+        "clean_url": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html",
+        "image": null,
+        "timestamp": 1785344400.0
+    },
+    {
+        "title_fa": "ترامپ در باتلاق جنگ ایران گیر کرده؛ «راه خروج» پیشنهادی اما بدون تضمین",
+        "title_en": "Trump is stuck in Iran. Here’s one idea that could offer a way out",
+        "summary": [
+            "با وجود انجام حملات جدید آمریکا در روز چهارشنبه، ترامپ هنوز نتوانسته تهران را به سمت مذاکره «برگرداند»؛ علاوه بر این، یک تفاهم‌نامه مبهم که قرار بود راه دیپلماسی را باز کند، فروپاشید.",
+            "گزینه‌های اعلام‌شده برای تغییر معادله نیز یا بسیار پرهزینه‌اند (خطر درگیری زمینی با تهدید جان صدها نیروی آمریکایی) یا سیاسی-امنیتی بسیار بدی دارند (پذیرش عملی کنترل ایران بر تنگه هرمز)، بنابراین نتیجه عملاً «بدون گزینه خوب» توصیف می‌شود.",
+            "درهم‌ریختگی فراتر از طرفین جنگ است: اگر تنگه هرمز برای کشتی‌های غیرنظامی عملاً بسته بماند، فرسایش ذخایر نفت، جهش قیمت فرآورده‌هایی مثل دیزل و کود، و احتمال کمبود LNG در اروپا در زمستان تشدید می‌شود؛ همچنین پایگاه گردشگری و مهاجرتی کشورهای حاشیه خلیج فارس ضربه خورده و دولت‌های اروپایی زیر فشار هزینه‌های زندگی ضعیف‌تر می‌شوند."
+        ],
+        "impact": "این وضعیت هم اهرم فشار اقتصادی را به اروپا و آمریکا منتقل می‌کند و هم ریسک فرسایش سیاسی داخلی را بالا می‌برد، در حالی‌که مسیر رسیدن به مذاکره همچنان مسدود است.",
+        "tag": "ایران-جنگ",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "CNN",
+        "url": "https://www.cnn.com/2026/07/30/politics/trump-iran-strait-of-hormuz-tolls",
+        "clean_url": "https://www.cnn.com/2026/07/30/politics/trump-iran-strait-of-hormuz-tolls",
+        "image": null,
+        "timestamp": 1785344400.0
     },
     {
         "title_fa": "ازسرگیری حملات موشکی ایران هم‌زمان با عملیات آمریکا و عربستان علیه شبه‌نظامیان موردحمایت تهران در عراق",
@@ -5272,131 +5398,5 @@
         "clean_url": "https://www.mediamatters.org/us-iran-relations/trump-agreed-economic-relief-iran-response-some-fox-personalities-are-defending",
         "image": null,
         "timestamp": 1783608660.0
-    },
-    {
-        "title_fa": "شکاف رهبری و جنگ روایت‌ها: ناپدیدیِ «مُجتبی» در مراسم تشییعِ پدرش و نشانه‌گیری اجتماعی",
-        "title_en": "Iran’s supreme leader missed his father’s momentous funeral – now what?",
-        "summary": [
-            "در مراسم تشییع پیکر علی خامنه‌ای در تهران، ویدیویی در شبکه‌های اجتماعی از مردی با ردای روحانی در بالکن منتشر شد که کاربران آن را شبیه «مُجتبی خامنه‌ای» می‌دانستند؛ اما هویت قطعی اعلام نشد و روحانی‌ای به نام «رضا موسوی واعظ» بعداً گفت خودش همان فرد در ویدیو بوده است.",
-            "این ماجرا در فضای عمومی تبدیل به تمرکز اصلی شد و طرفداران بیشتر به دنبال «نشانه‌ها» درباره جانشین احتمالی رفتند تا خودِ مراسم؛ موضوعی که CNN آن را به شکل‌گیری روایت‌های غیررسمی و بی‌اعتمادی ضمنی گره می‌زند.",
-            "طبق گزارش، مُجتبی خامنه‌ای به‌دلیل باورِ آسیب‌دیدگی در حمله فوریه (که گفته می‌شود پدرش، مادر و همسرش را هم کشته) از آغاز جنگ در مخفی‌بودن بوده و فقط از طریق بیانیه‌های مکتوب با هواداران ارتباط گرفته؛ هم‌زمان مقامات رسمی تلاش کرده‌اند آسیب‌ها را کم‌اهمیت جلوه دهند و حتی ادعا کرده‌اند او مذاکرات با واشنگتن را هدایت کرده است."
-        ],
-        "impact": "ناپیدابودن و مدیریتِ پرتنشِ روایت رهبری، هم مشروعیت اجرایی را تضعیف می‌کند و هم احتمال بی‌ثباتی در صف‌بندی‌های درون حاکمیت را بالا می‌برد.",
-        "tag": "قدرت",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "CNN",
-        "url": "https://www.cnn.com/2026/07/09/middleeast/irans-supreme-leader-missed-public-funeral-intl",
-        "clean_url": "https://www.cnn.com/2026/07/09/middleeast/irans-supreme-leader-missed-public-funeral-intl",
-        "image": "http://www.bing.com/th?id=ONUT.P0liEAQaMou9scxtR6E2DQ&pid=News",
-        "timestamp": 1783608540.0
-    },
-    {
-        "title_fa": "ادعای تهران درباره حمله به اهداف نظامی آمریکا در خلیج و تشییع رهبر کشته‌شده",
-        "title_en": "Iran says it hits US military targets in Gulf, lays slain leader to rest",
-        "summary": [
-            "تهران اعلام کرده که به «اهداف نظامی آمریکا» در منطقه خلیج حمله کرده است؛ یک ادعای عملیاتی با پیام بازدارندگی/نمایشی علیه حضور آمریکا در همان حوزه.",
-            "هم‌زمان، خبر مربوط به «تشییع رهبر کشته‌شده» منتشر شده که نشان می‌دهد این رخداد بخشی از چرخه تشدید درگیری‌هاست و مدیریت ضربه به شبکه‌های قدرت در دستور کار قرار دارد.",
-            "این گزارش، با اتکا به ادعای ایران، سطح ریسک درگیری مستقیم را بالا می‌برد؛ اما متن Reuters جزئیات قابل‌سنجش از تلفات، میزان خسارت یا واکنش آمریکا ارائه نمی‌دهد."
-        ],
-        "impact": "این دو محور—ادعای حمله به نیروهای آمریکا و مرگ/تشییع یک چهره کلیدی—نشانه تشدید تنش نظامی و افزایش احتمال پاسخ متقابل است.",
-        "tag": "درگیری",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU",
-        "image": null,
-        "timestamp": 1783607796.0
-    },
-    {
-        "title_fa": "به‌روزرسانی‌های ایران-آمریکا: مراسم دفن و ماندن ۶۰۰۰ ملوان در خلیج فارس",
-        "title_en": "Iran-US updates: Ayatollah to be buried; 6,000 sailors stranded in Persian Gulf",
-        "summary": [
-            "این گزارش به‌روزرسانی‌های رویدادهای مرتبط با ایران و آمریکا را کنار هم می‌آورد، اما متن ارسالی تنها به اشاره به «آیت‌الله/مراسم دفن» و جزئیات عملیاتی درباره وضعیت نیروها بسنده می‌کند.",
-            "طبق تیتر، «۶۰۰۰ ملوان» در خلیج فارس گرفتار/بلاتکلیف شده‌اند؛ این یعنی اختلال جدی در تدارکات، مسیرهای دریایی یا هماهنگی عملیاتی رخ داده است.",
-            "در متن ارسالی هیچ داده‌ای درباره علت دقیق حادثه، طرف‌های درگیر، یا ارتباط مستقیم با فشار خارجی ارائه نشده و بنابراین نمی‌توان درباره چرایی یا نقش آمریکا بدون اطلاعات تکمیلی نتیجه‌گیری کرد."
-        ],
-        "impact": "بلاتکلیفی ۶۰۰۰ ملوان در خلیج فارس یک شاخص فوری از اختلال عملیاتی و ضعف مدیریت بحران در حوزه دریایی است، حتی اگر دلیل آن در متن ارائه نشده باشد.",
-        "tag": "دریایی",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "The Tennessean",
-        "url": "https://www.tennessean.com/story/news/world/2026/07/09/iran-war-strikes-donald-trump-ceasefire-updates--live/90857127007/",
-        "clean_url": "https://www.tennessean.com/story/news/world/2026/07/09/iran-war-strikes-donald-trump-ceasefire-updates--live/90857127007",
-        "image": null,
-        "timestamp": 1783604520.0
-    },
-    {
-        "title_fa": "اعلام پایان آتش‌بس ایران توسط ترامپ، جمهوری‌خواهان را در تنگنای سیاسی قرار داده است",
-        "title_en": "Trump's renewed Iran strikes put Republicans in a bind",
-        "summary": [
-            "ترامپ با اعلام پایان آتش‌بس با ایران، سطح تنش را بالا می‌برد و جمهوری‌خواهان را مجبور می‌کند میان همراهی با رئیس‌جمهور یا مخالفت با درگیری احتمالی انتخاب کنند.",
-            "مسئله اصلی برای حزب، هزینه سیاسی است: مقاله به این اشاره می‌کند که ادامه/گسترش درگیری می‌تواند به ضرر جمهوری‌خواهان تمام شود و جایگاه آن‌ها را در آستانه انتخابات تضعیف کند.",
-            "بن‌بست درون‌حزبی به‌طور مستقیم از تضاد بین منطق سیاست‌گذاری امنیتی دولت و ریسک‌های انتخاباتی حزب شکل می‌گیرد؛ یعنی تهدید «غرق شدن» حزب در نتیجه تشدید بحران، محرک اصلی اختلاف است."
-        ],
-        "impact": "اعلام پایان آتش‌بس، ریسک تشدید عملیات علیه ایران و در نتیجه تشدید فشارهای سیاسی-انتخاباتی بر جمهوری‌خواهان را بالا می‌برد.",
-        "tag": "آمریکا",
-        "urgency": 8,
-        "sentiment": -0.3,
-        "source": "Politico",
-        "url": "https://www.politico.com/news/2026/07/09/trump-iran-republican-conflict-00992208",
-        "clean_url": "https://www.politico.com/news/2026/07/09/trump-iran-republican-conflict-00992208",
-        "image": "http://www.bing.com/th?id=ONUT.jXVrX0F3uDulnDyA7QWVlg&pid=News",
-        "timestamp": 1783603800.0
-    },
-    {
-        "title_fa": "ایران حملات بیشتری را پس از اتهام به آمریکا برای حمله نزدیک تاسیسات هسته‌ای آغاز کرد",
-        "title_en": "Iran launches more strikes after accusing US of striking near nuclear plant",
-        "summary": [
-            "طبق گزارش BBC، ایران در پی اتهام به آمریکا مبنی بر حمله در نزدیکی یک تاسیسات هسته‌ای، موجی از حملات جدید را اجرا کرده است.",
-            "این اقدام نشان می‌دهد تهران جنگ روانی و عملیات میدانی را همزمان پیش می‌برد تا مسئولیت‌پذیری را به واشنگتن نسبت دهد و هزینه سیاسی برای آمریکا ایجاد کند.",
-            "با توجه به موضوع «نزدیکی تاسیسات هسته‌ای»، این مرحله می‌تواند ریسک محاسبه‌گری غلط و تشدید سریع‌تر را بالا ببرد، چون نقاط تماس احتمالی میان نیروها/سامانه‌ها مبهم می‌ماند."
-        ],
-        "impact": "با بالا رفتن احتمال اشتباه محاسباتی و تبدیل اتهام به درگیری واقعی، این روند می‌تواند تنش مستقیم میان ایران و آمریکا را تشدید کند.",
-        "tag": "تنش",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaTGtsQ2ZvNmhWSHd1Q25Xbm41VVpnS1ZpZWJOc0lieTZYVWotbVRwUmE5NHloMWlYVjZpVmRkNUpQZjVsbi1sZWZUTTJTR1RaRWMzRHVuWkxiZw?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaTGtsQ2ZvNmhWSHd1Q25Xbm41VVpnS1ZpZWJOc0lieTZYVWotbVRwUmE5NHloMWlYVjZpVmRkNUpQZjVsbi1sZWZUTTJTR1RaRWMzRHVuWkxiZw",
-        "image": null,
-        "timestamp": 1783603796.0
-    },
-    {
-        "title_fa": "بازارهای جهانی دوگانه؛ بالا رفتن قیمت نفت هم‌زمان با آغاز حملات تازه ایران و آمریکا",
-        "title_en": "Global markets are mixed and oil prices rise as Iran and US launch new attacks",
-        "summary": [
-            "طبق گزارش رویترز-ایسوشیتدپرس، بازارهای جهانی «مختلط» است و هم‌زمان قیمت نفت افزایش یافته؛ این یعنی ریسک تشدید جنگ در خاورمیانه به قیمت انرژی منتقل شده است.",
-            "همزمان با «حملات جدید» ایران و آمریکا، تبادل آتش در منطقه تشدید شده و چشم‌انداز یک «توافق موقت برای پایان جنگ» زیر تهدید قرار گرفته است.",
-            "خبر اصلی بر اثر مستقیم تنش تازه روی متغیرهای بازار (به‌ویژه نفت) و احتمال بی‌ثبات شدن مسیر مذاکرات/توافق موقت تاکید می‌کند؛ پیوندهای دیگر بدون داده صریح از متن مطرح نمی‌شود."
-        ],
-        "impact": "افزایش قیمت نفت و مختلط بودن بازارها نشان می‌دهد که ریسک امنیتیِ جنگِ مستقیم یا گسترش آن، به سرعت تبدیل به فشار اقتصادی می‌شود.",
-        "tag": "تحریم",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "Associated Press News",
-        "url": "https://apnews.com/article/stock-markets-oil-iran-ai-ebb040b1377034108cfd55adfa94ecd1",
-        "clean_url": "https://apnews.com/article/stock-markets-oil-iran-ai-ebb040b1377034108cfd55adfa94ecd1",
-        "image": "https://dims.apnews.com/dims4/default/f94bf4b/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https://assets.apnews.com/fb/7a/6a0f742aef0967f9fc0ecb1c096e/c7fa4771d743425b959ee46cb5640604",
-        "timestamp": 1783597380.0
-    },
-    {
-        "title_fa": "تشدید حملات در جنگ ایران؛ ابهام درباره گام بعدی و ضربه به توافق میان‌بر",
-        "title_en": "New attacks raise questions about what comes next in the Iran war",
-        "summary": [
-            "گزارش 6abc Philadelphia می‌گوید حملات جدید در خاورمیانه نگرانی درباره «گام بعدی» را افزایش داده و نشان می‌دهد چرخه تشدید می‌تواند هر توافق موقت را بی‌ثبات کند.",
-            "در متن به «تبادل/روابط ایالات متحده و ایران» اشاره شده که با «شدت گرفتن آتش در سراسر خاورمیانه» هم‌زمان شده و عملاً تهدیدی برای «توافق میان‌بر» جهت پایان جنگ تلقی شده است.",
-            "پیوند روایت با «جنگ ایران» در کنار سایر پوشش‌های منطقه‌ای (از جمله جنگ روسیه-اوکراین) نشان می‌دهد این رویداد به‌عنوان بخش مهمی از دینامیک امنیتی جاری و شکننده دیده می‌شود، نه یک مسئله فرعی یا مدیریت‌شده."
-        ],
-        "impact": "تشدید حملات، ریسک فروپاشی توافق میان‌بر را بالا می‌برد و می‌تواند مسیر مذاکرات را به سمت گسترش درگیری هل دهد.",
-        "tag": "جنگ",
-        "urgency": 8,
-        "sentiment": -0.4,
-        "source": "6abc Philadelphia",
-        "url": "https://apnews.com/article/trump-iran-war-ceasefire-strikes-c45111ed270afa7dac285016ce07362f",
-        "clean_url": "https://apnews.com/article/trump-iran-war-ceasefire-strikes-c45111ed270afa7dac285016ce07362f",
-        "image": null,
-        "timestamp": 1783595700.0
     }
 ]

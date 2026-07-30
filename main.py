@@ -446,7 +446,7 @@ class IranNewsRadar:
             '  "title_fa": "تیتر جذاب، روان، غیرتکراری و بدون کلمات خنثی (حداکثر ۱۰ کلمه)",\n'
             '  "summary": ["نکته تحلیلی ۱ به فارسی روان و بدون کلمات اضافه", "نکته تحلیلی ۲ با تمرکز بر واقعیت پشت خبر"],\n'
             '  "impact": "تأثیر عملیاتی یا اقتصادی خبر در یک جمله کوتاه، روان و ضربتی",\n'
-            '  "tag": "یکی از موارد استاندارد: نظامی | نیابتی | تشدید | هسته‌ای | اقتصادی | سیاسی | دیپلماسی",\n'
+            '  "tag": "کلمه کلیدی اصلی (مثلاً: نظامی، ارز، تحریم، نیابتی)",\n'
             '  "urgency": عدد بین 1 تا 10,\n'
             '  "sentiment": عدد بین -1.0 تا 1.0\n'
             "}"
@@ -684,10 +684,10 @@ PREVIOUS SUMMARY:
         if not token or not chat_id or not items: 
             return
 
-        # 1. Sort items by urgency (highest urgency first)
+        # 1. Sort items by urgency
         items.sort(key=lambda x: x.get('urgency', 3), reverse=True)
 
-        # 2. Build Rich Market Data Table
+        # 2. Fetch Market Data Table
         market_html = ""
         try:
             with open(CONFIG['FILES']['MARKET'], 'r') as f: 
@@ -703,7 +703,7 @@ PREVIOUS SUMMARY:
         except Exception: 
             market_html = ""
 
-        # 3. Build Active Proxies List (FIXED LINK FORMATTING)
+        # 3. Active Proxies List
         proxies = self.fetch_best_proxies()[:4] 
         proxy_html = ""
         if proxies:
@@ -712,14 +712,9 @@ PREVIOUS SUMMARY:
             for i, p in enumerate(proxies):
                 proxy_name = names_pool[i]
                 latency = p.get('latency', '?')
-                
-                # FIX: Unescape &amp; back to literal & for Telegram deep links
                 raw_tg_url = p.get('tg_url', '#')
                 clean_tg_url = html.unescape(raw_tg_url).replace('&amp;', '&')
-                
-                proxy_items.append(
-                    f"<li>🛡 <a href='{clean_tg_url}'>{proxy_name}</a> (<code>{latency}ms</code>)</li>"
-                )
+                proxy_items.append(f"<li>🛡 <a href='{clean_tg_url}'>{proxy_name}</a> (<code>{latency}ms</code>)</li>")
             
             proxy_html = (
                 "<details>\n"
@@ -728,7 +723,7 @@ PREVIOUS SUMMARY:
                 "</details>\n\n"
             )
 
-        # 4. Find Link Preview Image
+        # 4. Find Preview Photo
         preview_url = ""
         for item in items:
             img = item.get('image', '')
@@ -740,107 +735,113 @@ PREVIOUS SUMMARY:
 
         hidden_preview = f"<a href='{preview_url}'>&#8205;</a>" if preview_url else ""
 
-        # 5. Header Section
-        # --- TIME CALCULATOR (Iran Standard Time: Asia/Tehran) ---
+        # 5. Persian Time & Date Calculation
+        def to_farsi_num(num):
+            return str(num).translate(str.maketrans('0123456789', '۰۱۲۳۴۵۶۷۸۹'))
+
         try:
             from zoneinfo import ZoneInfo
             ir_tz = ZoneInfo("Asia/Tehran")
         except ImportError:
-            # Fallback if zoneinfo is not available (Iran is permanently at UTC+3:30)
             ir_tz = timezone(timedelta(hours=3, minutes=30))
 
         now_ir = datetime.now(ir_tz)
-        
-        # Format time and convert digits to Farsi (e.g. 14:30 -> ۱۴:۳۰)
         ir_time_str = to_farsi_num(now_ir.strftime("%H:%M"))
-        ir_date_str = to_farsi_num(now_ir.strftime("%Y/%m/%d"))
 
-        # 5. Header Section with Iran Time
         header = (
             f"{hidden_preview}"
             f"<h1>🚨 رادار اخبار مهم ایران</h1>\n"
-            f"<p>⏱ <b>زمان بروزرسانی:</b> {ir_time_str} (به وقت تهران) | 📅 {ir_date_str}</p>\n"
+            f"<p>⏱ <b>زمان بروزرسانی:</b> {ir_time_str} (به وقت تهران)</p>\n"
             f"{market_html}"
             f"<hr/>\n\n"
         )
 
-        # Helper function for Farsi Numbers
-        def to_farsi_num(num):
-            return str(num).translate(str.maketrans('0123456789', '۰۱۲۳۴۵۶۷۸۹'))
+        # 6. FEATURE 1: DEEP-LINKED HEADLINES TO WEBSITE ARTICLES
+        base_site = "https://itsyebekhe.github.io/rasadai/"
+        headlines_text = "<p>📌 <b>سرخط مهم‌ترین اخبار:</b></p>\n<ul>"
+        
+        for i, item in enumerate(items, 1):
+            title = html.escape(str(item.get('title_fa', item.get('title_en'))))
+            source = html.escape(str(item.get('source', 'Unknown')))
+            news_id = item.get('id', '')
+            
+            # Deep-link URL to your dashboard
+            deep_link = f"{base_site}?id={news_id}" if news_id else item.get('url', '#')
+            
+            urgency = item.get('urgency', 3)
+            icon = "🔥" if urgency >= 9 else ("🚨" if urgency >= 7 else "🔹")
 
-        # 6. Build Collapsible Analysis Blocks (<details><summary>)
+            headlines_text += f"<li>{icon} <a href='{deep_link}'>{title}</a> (<i>{source}</i>)</li>"
+
+        headlines_text += "</ul>\n<hr/>\n\n"
+
+        # 7. Analysis Section (<details> Accordions)
         items_html = ""
         all_tags = set()
 
         for i, item in enumerate(items, 1):
             title = html.escape(str(item.get('title_fa', item.get('title_en'))))
-            url = item.get('url', '#')
             source = html.escape(str(item.get('source', 'Unknown')))
-            
-            is_regime = any(x in source.lower() for x in ['tasnim', 'fars', 'irna', 'presstv', 'mehr'])
-            if is_regime: 
-                source += " 🚫"
-
-            urgency = item.get('urgency', 3)
-            icon = "🔥" if urgency >= 9 else ("🚨" if urgency >= 7 else "🔹")
-
             impact = html.escape(str(item.get('impact', '')))
+            news_id = item.get('id', '')
+            deep_link = f"{base_site}?id={news_id}" if news_id else item.get('url', '#')
             
             summary_raw = item.get('summary', [])
-            if isinstance(summary_raw, str): 
-                summary_raw = [summary_raw]
-            
+            if isinstance(summary_raw, str): summary_raw = [summary_raw]
             safe_summary = "".join([f"<li>{html.escape(str(s))}</li>" for s in summary_raw])
             
             tag = str(item.get('tag', 'General')).replace(' ', '_')
             all_tags.add(f"#{html.escape(tag)}")
 
-            # First item expanded (<details open>), remaining items collapsed (<details>)
             is_open = " open" if i == 1 else ""
 
             items_html += (
                 f"<details{is_open}>\n"
-                f"  <summary>{icon} <b>{to_farsi_num(i)}. {title}</b> (<i>{source}</i>)</summary>\n"
-                f"  <p><b>📝 تحلیل خبر:</b></p>\n"
+                f"  <summary><b>{to_farsi_num(i)}. {title}</b></summary>\n"
+                f"  <p>📝 <b>تحلیل خبر:</b></p>\n"
                 f"  <ul>{safe_summary}</ul>\n"
                 f"  <p>🎯 <b>اثرگذاری:</b> {impact}</p>\n"
-                f"  <p>🔗 <a href='{url}'>مشاهده منبع خبر</a></p>\n"
+                f"  <p>🔗 <a href='{deep_link}'>مطالعه گزارش کامل در داشبورد</a> | <a href='{item.get('url')}'>منبع اصلی ({source})</a></p>\n"
                 f"</details>\n"
                 f"<hr/>\n"
             )
 
-        # 7. Tags & Footer
         tags_html = f"<p>{' '.join(all_tags)}</p>\n"
         footer = (
             f"<footer>"
             f"{proxy_html}"
-            f"🆔 @RasadAIOfficial<br/>"
-            f"📊 <a href='https://itsyebekhe.github.io/rasadai/'>مشاهده پایگاه داده رادار</a>"
+            f"🆔 @RasadAIOfficial"
             f"</footer>"
         )
 
-        full_rich_html = header + items_html + tags_html + footer
+        full_rich_html = header + headlines_text + items_html + tags_html + footer
 
-        # 8. Send Rich Message Payload via API
+        # 8. FEATURE 2: INLINE KEYBOARD BUTTONS
+        inline_keyboard = {
+            "inline_keyboard": [
+                [
+                    {"text": "📊 مشاهده داشبورد و رادار زنده", "url": base_site},
+                    {"text": "🛡 پروکسی‌های فعال تلگرام", "url": "https://itsyebekhe.github.io/MTProtoNexus/"}
+                ]
+            ]
+        }
+
+        # 9. Send Payload via API
         api_url = f"https://api.telegram.org/bot{token}/sendRichMessage"
         
-        # Max limit for sendRichMessage is 32,768 UTF-8 characters
-        if len(full_rich_html) > 30000:
-            logger.warning("Rich message exceeds 30k chars, truncating old items...")
-            full_rich_html = full_rich_html[:30000] + "<footer>...</body>"
-
         payload = {
             "chat_id": chat_id,
             "rich_message": {
-                "html": full_rich_html,
-                "is_rtl": True  # Enforces Persian Right-To-Left Rendering!
-            }
+                "html": full_rich_html[:30000],
+                "is_rtl": True
+            },
+            "reply_markup": inline_keyboard  # Attach Inline Buttons
         }
 
         try:
             resp = self.scraper.post(api_url, json=payload, timeout=20)
             if resp.status_code == 200:
-                logger.info(">>> Rich Message successfully posted to Telegram.")
+                logger.info(">>> Rich Message & Deep Links successfully posted to Telegram.")
             else:
                 logger.error(f"Telegram Rich Message Failed: Status {resp.status_code} | {resp.text}")
         except Exception as e:

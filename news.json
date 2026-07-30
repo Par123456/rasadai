@@ -143,6 +143,23 @@
         "timestamp": 1785404700.0
     },
     {
+        "title_fa": "پرواز پهپادها از مصر: جبهه تازه علیه ایران",
+        "title_en": "War in Iran: The latest",
+        "summary": [
+            "حمله پهپادی به مصر یعنی جنگ فقط داخل مرزهای ایران/محورهای نیابتی نمی‌ماند؛ پای بازیگران منطقه‌ای دیگر وسط آمده.",
+            "ایجاد «جبهه مصر» معمولاً برای کم‌کردن فشار روی یک گره مشخص است: یا تهران/نیابتی‌ها دنبال پراکندن تمرکز هستند یا طرف مقابل می‌خواهد روایتِ تهدید را به کل منطقه تعمیم دهد."
+        ],
+        "impact": "تهدید پرنده علیه مصر ریسک درگیری مستقیم و تغییر محاسبات امنیتیِ کل مدیترانه شرقی را بالا می‌برد.",
+        "tag": "نیابتی",
+        "urgency": 7,
+        "sentiment": -0.4,
+        "source": "Deseret News on MSN",
+        "url": "https://www.msn.com/en-us/news/world/war-in-iran-the-latest/ar-AA27UXFJ",
+        "clean_url": "https://www.msn.com/en-us/news/world/war-in-iran-the-latest/ar-AA27UXFJ",
+        "image": null,
+        "timestamp": 1785401567.0
+    },
+    {
         "title_fa": "ریزش حمایت آمریکا از حمله به ایران همزمان با موج ضربات",
         "title_en": "Trump Losing US Support on Iran Amid Renewed Heavy Strikes",
         "summary": [
@@ -5378,23 +5395,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqcFhDeVBQV3BQaEk0aktEQU9BcFdETnNOeGtQZzZ4YXVvbFJJMXd3WTc2enFVQ05KZExHNG1LVzEwVEhhQndWVXJkblFLRmNnYTNjTHVfaWtVaVhSMWtyNGNLd0FQZEtEVndVLW5XZFdnNU9rY3fSAXtBVV95cUxONTY2MkFnWW9uZ19raDlTa01KT2pXc3JKUlJVZHN5MWZYWEw5V3FTRXdKTG1henJWcHItSHRZLUM0dW5ITDN1NFp2NG9rem9xMUlnQkdRMGFodDE3YnlIcndNdDlJSGlNSmlzT1lFLTRORlA3TDBrNWdVem8",
         "image": null,
         "timestamp": 1783660740.0
-    },
-    {
-        "title_fa": "گزارش: اسرائیل آماده پیوستن به حملات آمریکا علیه ایران است و منتظر چراغ سبز ترامپ",
-        "title_en": "Reports: Israel willing to join US strikes on Iran, waiting for Trump okay",
-        "summary": [
-            "طبق گزارش The Times of Israel، اسرائیل از نظر عملی گزینه ورود به حملات آمریکا علیه ایران را آماده می‌داند و اجرای آن در گرو «تأیید ترامپ» توصیف شده است.",
-            "این یعنی یک سطح از وابستگی مستقیم تصمیم‌گیری اسرائیل به اراده کاخ سفید شکل گرفته و احتمال هماهنگی نظامی از حالت اعلامی به حالت اجرایی نزدیک‌تر می‌شود.",
-            "با توجه به اینکه متن خبر بر «اجازه رئیس‌جمهور آمریکا» به عنوان شرط نهایی تمرکز دارد، فاکتور زمان و محاسبه سیاسی در واشنگتن به محرک اصلی تشدید تبدیل می‌شود."
-        ],
-        "impact": "اگر «تأیید ترامپ» صادر شود، سناریوی ورود اسرائیل به عملیات می‌تواند سطح درگیری را سریعاً از تهدید به کنش نظامی تبدیل کند و ریسک‌های متقابل را بالا ببرد.",
-        "tag": "حملات",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd2F6eU5jcXFpWlVlUzBoa0pxT0xvTHNZR2plQjlkaHNyZFVBaUFncWpzMUF1a19OZWZRUjJaSnFPQXhVV2VMVFNraENUUmlBZXJNdEhGWXY4bWpoSjdIRnZjNllxblJCUHQxMTRoTm1JNGFaSEFYVldlek16R2xLckZ5MFdXTFJGY08xOU9zcXg0TGtQclk3Y2dzM182WS1LdkdYaC1JVFF3VnRJdmRZYnVTVGZZNWFXYkE?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd2F6eU5jcXFpWlVlUzBoa0pxT0xvTHNZR2plQjlkaHNyZFVBaUFncWpzMUF1a19OZWZRUjJaSnFPQXhVV2VMVFNraENUUmlBZXJNdEhGWXY4bWpoSjdIRnZjNllxblJCUHQxMTRoTm1JNGFaSEFYVldlek16R2xLckZ5MFdXTFJGY08xOU9zcXg0TGtQclk3Y2dzM182WS1LdkdYaC1JVFF3VnRJdmRZYnVTVGZZNWFXYkE",
-        "image": null,
-        "timestamp": 1783660647.0
     }
 ]

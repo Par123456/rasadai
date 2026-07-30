@@ -108,6 +108,43 @@
         "id": "64844af7d8"
     },
     {
+        "id": "59a981f819",
+        "title_fa": "فشار هزینه انرژی رشد اقتصادی را کند کرد",
+        "title_en": "Energy Costs Squeezed Lower-Income Families Out of Q2 GDP While AI Propped Investment",
+        "summary": [
+            "رشد اقتصادی سه‌ماهه دوم ۲۰۲۶ حدود ۱.۵٪ (سالانه‌شده) ثبت شد؛ پایین‌تر از پیش‌بینی ۲.۱٪ و یعنی مصرف و تولید واقعی نفس کشیده‌اند.",
+            "سرمایه‌گذاری تجهیزات هوش مصنوعی مثل یک لایه پوششی عمل کرده و اثر افت پیوسته کارخانه‌ها را موقتاً پنهان کرده؛ ولی جنگ‌محور شدن هزینه انرژی قدرت خرید خانوارهای کم‌درآمد را می‌خورد.",
+            "ترکیب «فرسایش مصرف» و «ضعف تولید» یعنی حتی اگر سرمایه‌گذاری فناورانه بالا باشد، موتور اقتصاد روی مردم و بنگاه‌های غیرهوش مصنوعی گیر می‌کند."
+        ],
+        "impact": "اقتصاد زیر فشار هزینه‌های انرژی، از نیمه دوم وارد چرخه کندی مصرف و رکود صنعتی می‌شود؛ تنها بخشی مثل هوش مصنوعی تا حدی سرپا نگهش می‌دارد.",
+        "tag": "اقتصاد",
+        "urgency": 6,
+        "sentiment": -0.4,
+        "source": "Tech Times",
+        "url": "https://www.msn.com/en-us/money/economy/energy-costs-squeezed-lower-income-families-out-of-q2-gdp-while-ai-propped-investment/ar-AA294Myd",
+        "clean_url": "https://www.msn.com/en-us/money/economy/energy-costs-squeezed-lower-income-families-out-of-q2-gdp-while-ai-propped-investment/ar-AA294Myd",
+        "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA294gex.img?w=2647&h=1699&m=4&q=94",
+        "timestamp": 1785422853.0
+    },
+    {
+        "id": "7096f0adbb",
+        "title_fa": "اولین حمله به مصر؛ جنگ آمریکا و ایران دامنه‌دار شد",
+        "title_en": "Egypt struck for first time as US-Iran conflict pulls in more countries",
+        "summary": [
+            "گزارش آتش‌سوزی بندری مصر به‌خاطر «حمله پهپادی» است و چون مسئولیتش برعهده هیچ طرفی نیست، فعلاً روی میز یک ریسک بزرگ قرار دارد: مصر وارد فاز درگیری مستقیم شده یا حداقل زیر فشار امنیتی می‌رود.",
+            "هم‌زمان آمریکا با موج سنگین حملات تازه به ایران پاسخ داده؛ ایران هم تهدید «بستن تنگه هرمز» و تنبیه مهاجم را تکرار کرده. این یعنی هر حمله کوچک در دریا می‌تواند به درگیری چندکشوری تبدیل شود."
+        ],
+        "impact": "اگر ادعای پهپادی بودن حمله به مصر تأیید شود، امنیت کشتیرانی و ریسک صادرات-واردات در مسیرهای خلیج فارس جهشی بالا می‌رود.",
+        "tag": "نیابتی-دریایی",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "CNN International",
+        "url": "https://edition.cnn.com/2026/07/30/world/live-news/iran-war-trump?post-id=cms7r68wa00003b6ttdcw0mzo",
+        "clean_url": "https://edition.cnn.com/2026/07/30/world/live-news/iran-war-trump",
+        "image": "http://www.bing.com/th?id=ONUT.gchfh5tSesHkA8-rmsfT9w&pid=News",
+        "timestamp": 1785420840.0
+    },
+    {
         "title_fa": "ایران جنگ را دوباره شعله‌ور می‌کند همزمان با سفر نتانیاهو به واشنگتن",
         "title_en": "Iran Re-ignites War as Netanyahu Visits Washington",
         "summary": [
@@ -5647,43 +5684,5 @@
         "image": "http://www.bing.com/th?id=ONUT.E18Wve5EPNme-e8jiD6xEw&pid=News",
         "timestamp": 1784854440.0,
         "id": "1111a4588c"
-    },
-    {
-        "title_fa": "ایران قطع‌ آتش را رد کرد و خود را برای «حمله گسترده» آماده می‌کند؛ ادامه بن‌بست مذاکره در تنگه هرمز",
-        "title_en": "US-Iran War Update: Iran Rejects Ceasefire, Prepares for Trump’s ‘Massive Attack’",
-        "summary": [
-            "ایران پیشنهاد قطع‌ آتش آمریکا را که توسط علی‌الیزیدی مطرح شده بود رد کرد؛ دلیل اعلامی این است که هیچ توافق موقت، بدون روشن شدن کنترل تنگه هرمز پذیرفته نمی‌شود.",
-            "وزیر خارجه ایران، عراقچی، رد این پیشنهاد را به «رویکرد غیرمنطقی، طمع‌کارانه و کنترل‌گرانه» آمریکا نسبت داد و گفت مشکل از «پیام‌رسانی» نیست، بلکه از نگاه ایالات متحده است.",
-            "طبق گزارش، ایران در صورت حمله آمریکا به زیرساخت‌های «حساس»، آماده گسترش جدی جنگ معرفی شده: هدف‌گیری تل‌آویو، درخواست از حوثی‌ها برای بستن کامل باب‌المندب، و حتی تلاش برای ترور مشاوران ارشد ترامپ مطرح شده است؛ همزمان تنش‌ها قیمت نفت را بالا برده و فشار روانی بر بازارها ایجاد کرده است."
-        ],
-        "impact": "رد قطع‌ آتش همراه با شرط‌گذاری بر تنگه هرمز، ریسک تشدید سریع درگیری را بالا می‌برد و نشان می‌دهد تهران به دنبال معامله «کنترل‌نشده» نیست بلکه به ماندن در مدار جنگ و اهرم بازدارندگی روی زیرساخت‌ها تکیه می‌کند.",
-        "tag": "نظامی",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "Yahoo",
-        "url": "https://www.yahoo.com/news/politics/articles/us-iran-war-iran-rejects-054000265.html",
-        "clean_url": "https://www.yahoo.com/news/politics/articles/us-iran-war-iran-rejects-054000265.html",
-        "image": "http://www.bing.com/th?id=ONUT.TAOjVi03ezXkwmfMZs_uRw&pid=News",
-        "timestamp": 1784846400.0,
-        "id": "2f405be097"
-    },
-    {
-        "title_fa": "جنگ با ایران و تعرفه‌های جدید، دوباره تهدیدی برای اقتصاد آمریکا",
-        "title_en": "War and Tariffs Threaten a Resilient U.S. Economy Again",
-        "summary": [
-            "گزارش می‌گوید از سرگیری درگیری‌ها با ایران باعث جهش قیمت نفت و گاز شده است؛ پیامد مستقیم آن فشار هزینه‌ای بر اقتصاد جهانی و زنجیره انرژی است.",
-            "همزمان، ترامپ تعرفه‌های جدیدی بر سطح جهانی اعمال کرده که می‌تواند قیمت‌ها را بیشتر بالا ببرد و اثر گرانی انرژی را تقویت کند.",
-            "ترکیب دو شوک—افزایش قیمت انرژی ناشی از جنگ و فشار قیمتی ناشی از تعرفه‌ها—ریسک تضعیف رشد و افزایش تورم را برای اقتصاد آمریکا و بازارهای وابسته بالا می‌برد."
-        ],
-        "impact": "این همزمانی می‌تواند تورم‌زا عمل کند و هزینه‌های انرژی و کالاها را در کوتاه‌مدت افزایش دهد.",
-        "tag": "اقتصادی",
-        "urgency": 7,
-        "sentiment": -0.6,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/24/business/iran-war-tariffs-economy.html",
-        "clean_url": "https://www.nytimes.com/2026/07/24/business/iran-war-tariffs-economy.html",
-        "image": "https://static01.nyt.com/images/2026/07/24/multimedia/24DC-TRUMP-ECON-01-ghwp/24DC-TRUMP-ECON-01-ghwp-facebookJumbo.jpg",
-        "timestamp": 1784837160.0,
-        "id": "246f2198fc"
     }
 ]

@@ -110,7 +110,7 @@
             <div class="flex items-center gap-3">
                 <a href="#" onclick="showHomeView()" class="bg-fox-navy text-white font-fox font-black px-3.5 py-1.5 text-2xl md:text-4xl tracking-tighter rounded-sm flex items-center gap-2 shadow-inner">
                     <span>RASAD</span>
-                    <span class="bg-fox-red px-2 py-0.5 text-xs font-mono uppercase tracking-normal">NEWS</span>
+                    <span class="bg-fox-red px-2 py-0.5 text-xs font-mono uppercase tracking-normal">COMMAND</span>
                 </a>
                 <div class="hidden lg:block border-r border-gray-300 pr-3">
                     <h1 class="text-xs font-bold text-fox-navy leading-none">سامانه هوشمند رصد اخبار و امنیت ملی</h1>
@@ -887,17 +887,45 @@ function updateTicker() {
     ticker.innerHTML = html + html;
 }
 
+/* ═══════════════════════════════════════════════════
+   FIXED URGENCY THREAT GAUGE ENGINE
+═══════════════════════════════════════════════════ */
 function updateTension(data) {
-    const recent = data.slice(0, 15); if(!recent.length) return;
-    let score = 0;
+    const txt = document.getElementById('tension-text');
+    const fill = document.getElementById('tension-fill');
+    const percent = document.getElementById('tension-percent');
+
+    if (!data || !data.length || !txt || !fill || !percent) return;
+
+    // Calculate realistic average urgency across the 20 most recent news items
+    const recent = data.slice(0, 20);
+    let totalUrgency = 0;
+    
     recent.forEach(n => {
-        if(n.tag === 'نظامی' || n.tag === 'تشدید') score += 15;
-        if(n.tag === 'هسته‌ای') score += 12;
-        if(n.urgency >= 8) score += 10;
+        let u = parseInt(n.urgency, 10) || 5;
+        // Give slight extra weight to active conflict tags
+        if (['نظامی', 'تشدید'].includes(n.tag)) u = Math.min(u + 1, 10);
+        totalUrgency += u;
     });
-    const pct = Math.min(score, 100);
-    document.getElementById('tension-fill').style.width = `${pct}%`;
-    document.getElementById('tension-percent').innerText = `${pct}%`;
+
+    const avgUrgency = totalUrgency / recent.length; // Scale of 1 to 10
+    const pct = Math.min(Math.round(avgUrgency * 10), 100); // Convert to percentage (e.g. 85%)
+
+    // Update Bar and Percentage Text
+    fill.style.width = `${pct}%`;
+    percent.innerText = `${pct}%`;
+
+    // Update Status Text and Colors Immediately
+    if (pct < 45) {
+        txt.innerText = "عادی / با ثبات";
+        txt.className = "font-bold text-green-600";
+    } else if (pct < 75) {
+        txt.innerText = "حساس / سطح هشدار";
+        txt.className = "font-bold text-amber-600";
+    } else {
+        txt.innerText = "بحرانی / سطح حاد";
+        txt.className = "font-bold text-fox-red animate-pulse";
+    }
 }
 
 function updateStats(data) {

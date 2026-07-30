@@ -1,5 +1,22 @@
 [
     {
+        "title_fa": "حمله‌های آمریکا به ده‌ها هدف در ایران؛ دامنه خشونت بالا گرفت",
+        "title_en": "U.S. hits dozens more targets in Iran as violence widens",
+        "summary": [
+            "واشنگتن در حال گسترش یک عملیات چندمرحله‌ای است؛ «ده‌ها هدف» یعنی صرفاً پاسخ محدود نبوده و فشار گسترده‌تری اعمال می‌شود.",
+            "وقتی شدت خشونت همزمان زیاد می‌شود، معمولاً هدف مهندسی بازار تصمیم‌گیری طرف مقابل است: ایجاد اختلال، بالا بردن هزینه واکنش و تقویت دست بالای واشنگتن در فاز بعدی تنش."
+        ],
+        "impact": "احتمال تشدید چرخه تلافی را بالا می‌برد و ریسک اختلال امنیتی و اقتصادی در کوتاه‌مدت را بیشتر می‌کند.",
+        "tag": "نیابتی",
+        "urgency": 9,
+        "sentiment": -0.7,
+        "source": "The Washington Post",
+        "url": "https://www.msn.com/en-us/news/world/us-strikes-iran-in-response-to-surprise-ballistic-missile-launch/ar-AA291fCs",
+        "clean_url": "https://www.msn.com/en-us/news/world/us-strikes-iran-in-response-to-surprise-ballistic-missile-launch/ar-AA291fCs",
+        "image": null,
+        "timestamp": 1785427215.0
+    },
+    {
         "title_fa": "ایران جنگ را دوباره شعله‌ور می‌کند همزمان با سفر نتانیاهو به واشنگتن",
         "title_en": "Iran Re-ignites War as Netanyahu Visits Washington",
         "summary": [
@@ -124,6 +141,23 @@
         "clean_url": "https://www.nytimes.com/live/2026/07/30/world/iran-war-strikes-trump",
         "image": "https://static01.nyt.com/images/2026/07/30/multimedia/30mideast-live-promo-gcht/30mideast-live-promo-gcht-facebookJumbo.jpg",
         "timestamp": 1785404700.0
+    },
+    {
+        "title_fa": "ریزش حمایت آمریکا از حمله به ایران همزمان با موج ضربات",
+        "title_en": "Trump Losing US Support on Iran Amid Renewed Heavy Strikes",
+        "summary": [
+            "بر اساس نظرسنجی کوئینی‌پیاک، فقط ۳۴٪ از رأی‌دهندگان از اقدام نظامی آمریکا علیه ایران حمایت می‌کنند؛ ۶۰٪ مخالف‌اند؛ پایین‌ترین سطح از شروع این پرسش‌ها.",
+            "در همین بازه که «موج سنگین» ضربات تازه اعلام شده، نگرانی از جنگ طولانی بالا رفته: ۵۵٪ می‌گویند درگیری حدود یک سال یا بیشتر می‌کشد؛ بدون خروج روشن، هزینه سیاسی برای دولت سنگین‌تر می‌شود."
+        ],
+        "impact": "کاهش حمایت داخلی، مانور کاخ سفید برای ادامه عملیات را قبل از انتخابات میان‌دوره‌ای پرهزینه‌تر می‌کند.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Newsweek",
+        "url": "https://www.newsweek.com/trump-losing-us-support-on-iran-amid-renewed-heavy-strikes-12264025",
+        "clean_url": "https://www.newsweek.com/trump-losing-us-support-on-iran-amid-renewed-heavy-strikes-12264025",
+        "image": "http://www.bing.com/th?id=ONUT.Gau13_vQn9GwCW_SzBzjDQ&pid=News",
+        "timestamp": 1785397920.0
     },
     {
         "title_fa": "حمله‌های تازه آمریکا به ایران و گسترش دامنه درگیری در منطقه",
@@ -5362,41 +5396,5 @@
         "clean_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd2F6eU5jcXFpWlVlUzBoa0pxT0xvTHNZR2plQjlkaHNyZFVBaUFncWpzMUF1a19OZWZRUjJaSnFPQXhVV2VMVFNraENUUmlBZXJNdEhGWXY4bWpoSjdIRnZjNllxblJCUHQxMTRoTm1JNGFaSEFYVldlek16R2xLckZ5MFdXTFJGY08xOU9zcXg0TGtQclk3Y2dzM182WS1LdkdYaC1JVFF3VnRJdmRZYnVTVGZZNWFXYkE",
         "image": null,
         "timestamp": 1783660647.0
-    },
-    {
-        "title_fa": "بر اساس گزارش اسرائیل: ایران برای ترور ترامپ برنامه‌ریزی کرده است",
-        "title_en": "Iran recently plotted to kill Trump, per Israel",
-        "summary": [
-            "این گزارش ادعا می‌کند ایران «به‌تازگی» طرحی برای ترور دونالد ترامپ داشته است؛ اما در متن خبر جزئیات قابل راستی‌آزمایی ارائه نشده است.",
-            "اگر این ادعا از سوی کانال‌های رسمی آمریکا یا شرکای منطقه‌ای پیگیری شود، می‌تواند به تشدید فشار خارجی و افزایش ریسک حقوقی-امنیتی علیه شبکه‌های عملیاتی رژیم منجر شود، چون پرونده مستقیماً به یک مقام بلندپایه آمریکایی گره می‌خورد.",
-            "از آنجا که منبع خبر «طبق اسرائیل» ذکر شده، برای ارزیابی دقیق پیوندهای داخلی/عملیاتی باید منتظر اسناد، جزئیات زمانی و معرفی افراد/مسیرهای اجرایی بود و تا آن زمان نمی‌توان اتصال قطعی به ساختارهای مشخص رژیم را ادعا کرد."
-        ],
-        "impact": "این نوع اتهام، حتی بدون ارائه جزئیات، می‌تواند به فعال شدن چرخه فشار امنیتی و سیاسی علیه رژیم و افزایش ریسک پاسخ‌های محدود یا گسترده منجر شود.",
-        "tag": "امنیت",
-        "urgency": 8,
-        "sentiment": -0.9,
-        "source": "The Hill",
-        "url": "https://www.msn.com/en-us/news/politics/iran-recently-plotted-to-kill-trump-per-israel/ar-AA27Bmfl",
-        "clean_url": "https://www.msn.com/en-us/news/politics/iran-recently-plotted-to-kill-trump-per-israel/ar-AA27Bmfl",
-        "image": null,
-        "timestamp": 1783648080.0
-    },
-    {
-        "title_fa": "ادامه «مذاکرات فنی» آمریکا با ایران پس از اعلام پایان آتش‌بس توسط ترامپ",
-        "title_en": "U.S. to continue 'technical talks' with Iran after Trump said ceasefire was 'over'",
-        "summary": [
-            "طبق گزارش CNBC، آمریکا اعلام کرده ادامه «مذاکرات فنی» با ایران را دنبال می‌کند؛ هم‌زمان با اظهارنظر ترامپ که گفته آتش‌بس «تمام شده» است.",
-            "این شکاف بین پیام سیاسی (تمام‌شدن آتش‌بس) و مسیر اجرایی (ادامه گفت‌وگوهای فنی) نشان می‌دهد واشنگتن هنوز روی مدیریت عملی بحران و کنترل پیامدها تمرکز دارد، نه یک چرخش کامل به سمت قطع رابطه.",
-            "نتیجه مستقیم چنین رویکردی، حفظ کانال‌های ارتباطی برای جلوگیری از تشدید ناگهانی است؛ اما تا زمانی که خروجی مشخص و قابل راستی‌آزمایی اعلام نشود، ثبات اقتصادی-سیاسی داخل ایران هم بهبود پایدار پیدا نمی‌کند."
-        ],
-        "impact": "ادامه مذاکرات فنی یعنی آمریکا هنوز برای مهار ریسک تشدید درگیر است، اما «تمام‌شدن آتش‌بس» بدون توافق مشخص می‌تواند هزینه‌های عدم‌قطعیت را برای اقتصاد و تصمیم‌گیری داخلی ایران بالا نگه دارد.",
-        "tag": "مذاکره",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "CNBC",
-        "url": "https://www.msn.com/en-us/politics/government/us-to-continue-technical-talks-with-iran-after-trump-said-ceasefire-was-over/ar-AA27BGpQ",
-        "clean_url": "https://www.msn.com/en-us/politics/government/us-to-continue-technical-talks-with-iran-after-trump-said-ceasefire-was-over/ar-AA27BGpQ",
-        "image": null,
-        "timestamp": 1783646940.0
     }
 ]

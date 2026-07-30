@@ -221,6 +221,25 @@
         "id": "db14e2ac53"
     },
     {
+        "id": "79d0a6fb0c",
+        "title_fa": "توافق هسته‌ای آمریکا-عربستان؛ گیر واشنگتن در باتلاق منع اشاعه",
+        "title_en": "The US-Saudi nuclear deal isn't dead—It's dragging Washington into nonproliferation quicksand",
+        "summary": [
+            "این توافق «مرده» نشده؛ فقط با شرط‌گذاری تازه ترامپ و فشار به نرمال‌سازی با اسرائیل، از مسیرش خارج و به تعویق افتاده است.",
+            "مسیر قبلی هم بی‌راه نبود: حتی دولت بایدن نیز همکاری هسته‌ای با عربستان را به شناسایی اسرائیل و ایده‌هایی برای قابلیت غنی‌سازی گره زده بود؛ حمله اکتبر ۲۰۲۳ فقط سرعت را کم کرده، نه اصل ماجرا را.",
+            "جزئیات مذاکره نشان می‌دهد گزینه غنی‌سازی روی میز بوده: مطالعه دو‌ساله برای امکان‌سنجی در خاک عربستان و استفاده از «جعبه سیاه» برای محافظت از فناوری آمریکا، یعنی مشکل اصلی هنوز رفع نشده."
+        ],
+        "impact": "واشنگتن به جای پیشبرد کنترل اشاعه، با هر رفت‌وبرگشت در توافق، اعتبار رژیم منع اشاعه را بیشتر در معرض ریسک قرار می‌دهد.",
+        "tag": "هسته‌ای",
+        "urgency": 6,
+        "sentiment": -0.35,
+        "source": "Bulletin of the Atomic Scientists",
+        "url": "https://thebulletin.org/2026/07/the-us-saudi-nuclear-deal-isnt-dead-its-dragging-washington-into-nonproliferation-quicksand/",
+        "clean_url": "https://thebulletin.org/2026/07/the-us-saudi-nuclear-deal-isnt-dead-its-dragging-washington-into-nonproliferation-quicksand",
+        "image": "https://thebulletin.org/wp-content/uploads/2026/07/P20251118MR-0443.jpg.optimal.jpg",
+        "timestamp": 1785410940.0
+    },
+    {
         "title_fa": "تهدید تهران به «تنبیه متجاوز» پس از «موج سنگین» حملات آمریکا",
         "title_en": "Iran vows to ‘punish the aggressor today’ after U.S. unleashes ‘heavy wave’ of strikes",
         "summary": [
@@ -256,6 +275,24 @@
         "clean_url": "https://www.bbc.com/news/articles/c78gnyq3wvdo",
         "image": "http://www.bing.com/th?id=ONUT.WbZlnQLE5YiJPzFoQYNq8g&pid=News",
         "timestamp": 1785407160.0
+    },
+    {
+        "id": "15f2d9ee39",
+        "title_fa": "ترامپ و نتانیاهو روی سه سناریوی ایران می‌چرخند",
+        "title_en": "Trump and Netanyahu weigh 3 Iran strategies: Which way will the war go next?",
+        "summary": [
+            "بحث سه مسیر برای ایران یعنی آمریکا و اسرائیل دنبال گزینه‌های قابل‌مدیریت‌اند: فشار ترکیبی، مهار عملیاتی، یا تشدید مرحله‌ای؛ نه یک تصمیم احساسی یک‌شبه.",
+            "چرخش بین سناریوها نشان می‌دهد اختلاف یا حداقل اختلاف‌نظر تاکتیکی وجود دارد: چه چیزی «قابل کنترل» است و چه چیزی هزینه بازدارندگی را بالا می‌برد."
+        ],
+        "impact": "در کوتاه‌مدت احتمال افزایش هماهنگی‌های اطلاعاتی/فشارهای غیرمستقیم بیشتر می‌شود و مسیر جنگی نامعلوم‌تر از قبل می‌ماند.",
+        "tag": "دیپلماتیک",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "Firstpost",
+        "url": "https://www.firstpost.com/explainers/trump-and-netanyahu-weigh-three-iran-strategies-what-next-for-iran-war-14034921.html",
+        "clean_url": "https://www.firstpost.com/explainers/trump-and-netanyahu-weigh-three-iran-strategies-what-next-for-iran-war-14034921.html",
+        "image": "https://images.firstpost.com/uploads/2026/07/Netanyahu-Trump-Reuters-2026-07-38ef0a196384f1525a7b95572ed1ba36.jpg?im=FitAndFill=(1200,675)",
+        "timestamp": 1785407100.0
     },
     {
         "title_fa": "ایران در کانون جنگ با اسرائیل و آمریکا؛ ردیابی تعارضات در «Global Conflict Tracker»",
@@ -5646,43 +5683,5 @@
         "image": "http://www.bing.com/th?id=ONUT.5l3igUHElAbtktxvSaYFRQ&pid=News",
         "timestamp": 1784862000.0,
         "id": "927b871def"
-    },
-    {
-        "title_fa": "نشست کابینه ترامپ درباره تشدید حملات علیه ایران؛ آستانه دیدار با نتانیاهو و تداوم تبادل ضربات",
-        "title_en": "Iran War Live Updates: Trump Meets With Cabinet Over Whether to Intensify Iran Strikes",
-        "summary": [
-            "گزارش می‌گوید ترامپ در کاخ سفید با اعضای کابینه درباره این‌که آیا حملات علیه ایران باید تشدید شود یا نه، گفت‌وگو کرده است؛ این بحث‌ها چند روز پیش از برنامه‌ریزی برای دیدار با نخست‌وزیر اسرائیل، بنیامین نتانیاهو، انجام شده است.",
-            "در سطح منطقه‌ای، ایران و آمریکا هم‌چنان «حمله‌ها را با حمله پاسخ می‌دهند» و تبادل ضربات ادامه دارد؛ متن به زمان‌بندی و ماهیت این حملات اشاره مستقیم می‌کند اما جزئیات بیشتر ارائه نمی‌دهد.",
-            "نزدیکی زمانی این نشست به دیدار با نتانیاهو نشان می‌دهد که تصمیم‌گیری واشنگتن احتمالاً تحت فشار هماهنگی سیاسی-امنیتی با اسرائیل برای مدیریت شدت درگیری دنبال می‌شود."
-        ],
-        "impact": "این روند می‌تواند به افزایش ریسک تشدید عملیات علیه ایران منجر شود، چون تصمیم‌گیری واشینگتن هم‌زمان با آستانه هماهنگی با تل‌آویو و تداوم تبادل ضربات شکل می‌گیرد.",
-        "tag": "مداخله_نظامی",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil",
-        "clean_url": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil",
-        "image": "http://www.bing.com/th?id=ONUT.Ddg0Lf5mniyx6eqTV_fIoQ&pid=News",
-        "timestamp": 1784858760.0,
-        "id": "f33aff8d74"
-    },
-    {
-        "title_fa": "ترامپ «حمله عظیم» علیه ایران را بررسی می‌کند؛ پاکستان برای ازسرگیری مذاکرات صلح میان آمریکا و ایران تلاش می‌کند",
-        "title_en": "Trump considers ‘massive attack’ on Iran; Pakistan reportedly seeks to restart stalled peace talks",
-        "summary": [
-            "ترامپ به Axios گفته «در حال بررسی یک حمله عظیم» علیه ایران است و می‌گوید تصمیم نزدیک است؛ او تأکید کرده این حملات از همه نمونه‌های قبلی در جریان جنگ تا اینجا بزرگ‌تر خواهد بود و ایران «هنوز درد کافی» دریافت نکرده است.",
-            "با وجود تداوم حملات آمریکا علیه اهداف ایرانی طی دو هفته اخیر (طبق گزارش، چندین شب پیاپی)، همزمان ایران و آمریکا در آستانه یک گره‌ کور جدید قرار می‌گیرند؛ در واکنش، مقامات ایرانی همچنان لحن مقابله‌جویانه دارند.",
-            "هم‌زمان، پاکستان طبق گزارش Reuters از سه منبع پاکستانی در تلاش است راهی برای ازسرگیری مذاکرات متوقف‌شده صلح میان آمریکا و ایران پیدا کند؛ این تلاش پس از پیگیری‌ای که چین آغاز کرده، جدی‌تر شده و همچنین وزیر کشور ایران، Eskandar Momeni، برای دومین بار طی ۱۰ روز به اسلام‌آباد رفته و با رهبران و فرمانده دفاعی پاکستان (Asim Munir) رایزنی کرده است."
-        ],
-        "impact": "احتمال تصمیم‌گیری نزدیک برای «حمله عظیم» و هم‌زمان تلاش میانجی‌گری پاکستان می‌تواند هم مسیر تشدید را بازتر کند و هم احتمال یک خروج اضطراری (off-ramp) از چرخه حملات را افزایش دهد، اما فعلاً ریسک جنگی بالاست.",
-        "tag": "تحلیل",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
-        "clean_url": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
-        "image": "http://www.bing.com/th?id=ONUT.E18Wve5EPNme-e8jiD6xEw&pid=News",
-        "timestamp": 1784854440.0,
-        "id": "1111a4588c"
     }
 ]

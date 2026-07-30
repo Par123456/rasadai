@@ -1,5 +1,77 @@
 [
     {
+        "id": "cdfbef3152",
+        "title_fa": "سنا مهار اختیارات ترامپ در جنگ با ایران را رد کرد",
+        "title_en": "US Senate rejects bid to rein in Trump’s authority over Iran war",
+        "summary": [
+            "سنای آمریکا با رد یک طرح محدودکننده، دست ترامپ را برای تصمیم‌گیری درباره جنگ و عملیات علیه ایران بازتر نگه داشت.",
+            "این رأی یعنی اهرم‌های کنگره برای کند کردن روندهای نظامی عملاً ضعیف شده و ریسکِ تصمیم‌های سریع‌تر از سوی کاخ سفید بالا می‌رود."
+        ],
+        "impact": "اختیار بیشتر دولت آمریکا در جنگ با ایران می‌تواند سرعت عملیات و شدت تنش را افزایش دهد.",
+        "tag": "دیپلماسی",
+        "urgency": 6,
+        "sentiment": -0.4,
+        "source": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcHlZVG11bzlmcEpRNUQxNVNzR0RuQlRrWW1lWjNEb0F1XzdjekZsdFlKNFNSMW0tNnRpcHQyUXVYbjUzNGpIUEs1ZnZxXzk3eVRjZzZ2SHFrcGsyLVpxdkVOVlV2VUpIMzlQXzhkX19FZW1pRlBPZnJXXzVmblVfaDROaWJEZ243ZXc?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcHlZVG11bzlmcEpRNUQxNVNzR0RuQlRrWW1lWjNEb0F1XzdjekZsdFlKNFNSMW0tNnRpcHQyUXVYbjUzNGpIUEs1ZnZxXzk3eVRjZzZ2SHFrcGsyLVpxdkVOVlV2VUpIMzlQXzhkX19FZW1pRlBPZnJXXzVmblVfaDROaWJEZ243ZXc",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+        "timestamp": 1785439780.0
+    },
+    {
+        "id": "36a7ea447d",
+        "title_fa": "ترامپ می‌خواهد تحریم ایران با تعرفه گره بخورد",
+        "title_en": "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
+        "summary": [
+            "ترامپ می‌گوید لایحه تحریم علیه ایران باید با تعرفه‌های تجاری همراه شود، حتی اگر تجارت ایران و آمریکا «ناچیز» باشد.",
+            "این موضع یعنی فشار صرفاً محدود به بخش پول و نفت نیست؛ هدف، وادار کردن بازیگرهای منطقه‌ای و شرکت‌های خارجی به هزینه‌دار کردن کار با ایران از مسیر تعرفه و مقررات تجاری است."
+        ],
+        "impact": "احتمال طراحی بسته تحریمی-تعرفه‌ای تازه بالا می‌رود و ریسک تجاری ایران و شرکت‌های مرتبط بیشتر می‌شود.",
+        "tag": "تحریم",
+        "urgency": 6,
+        "sentiment": -0.35,
+        "source": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xbnVYQ25VOU5kWXhoSlF5VTFjcEJrT0xEcFI5cHpPSUxqOG5WMnNpOGJ0NmR0cGgzM2lEbHBGcTZhNWdlQWF6bUFxcTBRazA5cElMVFVfZzY4Yk55LTdFdF9MZ1lxYlVxeW02VDJzSThyTUJ6Y091RV9B0gF_QVVfeXFMUFYxaW93MVVqcHhJVTVRSWxwaU9ickpzalAtWVJhWW9iQklwa2J6S1RSYjgxcTJBZklDOG5PQi1WS2tzbW1UR2Z6Z25kSlh6MVRfeFJpQjY0LWN0dDRid1FiYzZFZ0FaN1VJeFdKc2stSW5BRnlfWE5XNG5RdjdsSQ?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xbnVYQ25VOU5kWXhoSlF5VTFjcEJrT0xEcFI5cHpPSUxqOG5WMnNpOGJ0NmR0cGgzM2lEbHBGcTZhNWdlQWF6bUFxcTBRazA5cElMVFVfZzY4Yk55LTdFdF9MZ1lxYlVxeW02VDJzSThyTUJ6Y091RV9B0gF_QVVfeXFMUFYxaW93MVVqcHhJVTVRSWxwaU9ickpzalAtWVJhWW9iQklwa2J6S1RSYjgxcTJBZklDOG5PQi1WS2tzbW1UR2Z6Z25kSlh6MVRfeFJpQjY0LWN0dDRid1FiYzZFZ0FaN1VJeFdKc2stSW5BRnlfWE5XNG5RdjdsSQ",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+        "timestamp": 1785439261.0
+    },
+    {
+        "id": "b201a29280",
+        "title_fa": "آمریکا و ایران؛ اهداف جنگی از بیخ عوض شده",
+        "title_en": "For the US and Iran, war aims have changed beyond recognition",
+        "summary": [
+            "این خبر می‌گوید هر دو طرف بعد از سال‌ها فشار و درگیری نیابتی، دیگر دنبال «شکست کامل» نیستند؛ هدف‌ها کوچک‌تر و قابل‌تحقق‌تر شده‌اند.",
+            "وقتی میدان مستقیم به بن‌بست می‌خورد، جنگ تبدیل می‌شود به بازی زمان، فرسایش، نفوذ و معامله‌های پنهان؛ یعنی پیروزی هم دیگر تعریف کلاسیک ندارد."
+        ],
+        "impact": "مهم‌ترین اثر این تغییر هدف‌هاست: احتمال برخورد مستقیم کمتر می‌شود، اما رقابتِ فرسایشی و نیابتی بالا می‌ماند.",
+        "tag": "دیپلماسی",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "The Christian Science Monitor",
+        "url": "https://www.csmonitor.com/Perspectives/Essays/2026/0730/For-the-US-and-Iran-war-aims-have-changed-beyond-recognition",
+        "clean_url": "https://www.csmonitor.com/Perspectives/Essays/2026/0730/For-the-US-and-Iran-war-aims-have-changed-beyond-recognition",
+        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785433192.0
+    },
+    {
+        "id": "365297b855",
+        "title_fa": "اعزام ضربات تازه آمریکا؛ پاسخ «قدرت‌مند» در جنگ ایران",
+        "title_en": "Iran war: US carries out new strikes in 'powerful response'",
+        "summary": [
+            "آمریکا با چند موج حمله جدید، دنبال تثبیت بازدارندگی است؛ یعنی پیام بدهد هر حرکت طرف مقابل با هزینه فوری جواب می‌گیرد.",
+            "واژه «پاسخ قدرتمند» معمولاً یعنی هدف‌ها بیشتر از عملیات محدودِ نمادین، روی اختلال عملیاتی تنظیم می‌شود؛ نه صرفاً نمایش رسانه‌ای."
+        ],
+        "impact": "این حملات می‌تواند چرخه پاسخ‌به‌پاسخ را تندتر کند و ریسک درگیری مستقیم یا گسترده‌تر شدن حملات نیابتی را بالا ببرد.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.4,
+        "source": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd3RTX3FXNXA4MndBVko0Mk8tMWRBMWNieURSZU1zMnVOX3E5cWtIaVZMQWgtb0x0RXF5eDNEa0E5YnNOWUdBRkZVbXRKanJlQzVvYkZKNXJEWDU1QmpvekthWE9tcC1hWWtDSXBJeW5rLTg0djZIWTFEVGN3cWJsWWFISGp5OWVnQjFVWko2Ml80MmhFU1VTTEJR?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "clean_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd3RTX3FXNXA4MndBVko0Mk8tMWRBMWNieURSZU1zMnVOX3E5cWtIaVZMQWgtb0x0RXF5eDNEa0E5YnNOWUdBRkZVbXRKanJlQzVvYkZKNXJEWDU1QmpvekthWE9tcC1hWWtDSXBJeW5rLTg0djZIWTFEVGN3cWJsWWFISGp5OWVnQjFVWko2Ml80MmhFU1VTTEJR",
+        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+        "timestamp": 1785431102.0
+    },
+    {
         "id": "14804422cb",
         "title_fa": "زمزمه نزدیکی اسرائیل و اوکراین زیر سایه تهدید ایران و روسیه",
         "title_en": "Israel, Ukraine may join together amid Iranian and Russian threats",
@@ -5615,81 +5687,5 @@
         "image": "http://www.bing.com/th?id=ONUT.-dNfLv2kVqmaS7sHWDJPcQ&pid=News",
         "timestamp": 1784824288.0,
         "id": "6bde923178"
-    },
-    {
-        "title_fa": "گزارش: اعزام فرماندهان و تجهیزات موشکی-پهپادی ایران به حوثی‌ها پیش از حملات به کشتی‌های دریای سرخ",
-        "title_en": "Iran flew commanders, missile gear to Houthi rebels in Yemen: report",
-        "summary": [
-            "به گزارش‌ها (به نقل از منابع برای Reuters) ایران پیش از حملات شبانه به دو کشتی در دریای سرخ، افراد وابسته به سپاه و تجهیزات موشکی و پهپادی را به یمن فرستاده است تا به حوثی‌ها در تشدید حملات علیه مسیرهای کشتیرانی کمک شود.",
-            "حملات حوثی‌ها باعث شده چند کشتی مسیر خود را تغییر دهند و گذرگاه حساس باب‌المندب (مرتبط با دریای سرخ) با تهدید جدی روبه‌رو شود؛ حتی نگرانی از تلاش برای بستن کامل این گذرگاه مطرح است.",
-            "هم‌زمان، افزایش قیمت نفت پس از حمله روز چهارشنبه ثبت شد (برنت از مرز ۱۰۰ دلار عبور کرد) و این یعنی ناامنی دریاییِ ناشی از ائتلاف نیابتی، مستقیم بر هزینه انرژی و ریسک جهانی تجارت اثر گذاشته است."
-        ],
-        "impact": "اگر گزارش‌ها دقیق باشد، این الگوی «پشتیبانی مستقیم از نیروی نیابتی» هم فشار امنیتی بر کریدورهای حیاتی خاورمیانه را تشدید می‌کند و هم با اثر قیمتی بر نفت، هزینه‌های اقتصادی برای بازیگران منطقه‌ای و بازار جهانی را بالا می‌برد.",
-        "tag": "نیابتی",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "New York Post",
-        "url": "https://nypost.com/2026/07/23/world-news/iran-flew-commanders-missile-gear-to-houthi-rebels-in-yemen-report/",
-        "clean_url": "https://nypost.com/2026/07/23/world-news/iran-flew-commanders-missile-gear-to-houthi-rebels-in-yemen-report",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784822940.0,
-        "id": "c65748cbe6"
-    },
-    {
-        "title_fa": "بحران سیاسی در آمریکا بر سر حمایت از جنگ علیه ایران",
-        "title_en": "Trump defends Iran war after House, Senate split on supporting conflict",
-        "summary": [
-            "خبر منسوب به Detroit News می‌گوید ترامپ از «جنگ علیه ایران» دفاع کرده است؛ اما متن ارسالی عملاً جز عنوان، اطلاعات محتوایی ندارد و هیچ جزئیاتی درباره اقدامات، تاریخ یا تصمیم‌های مشخص منتشر نشده است.",
-            "عنوان نشان می‌دهد اختلافی در کنگره شکل گرفته: در مجلس نمایندگان و سنای آمریکا بر سر «حمایت از درگیری» دو برداشت متفاوت وجود دارد، و همین شکاف می‌تواند بر سرعت و شدت سیاست‌های اجرایی اثر بگذارد.",
-            "با توجه به کمبود داده در متن ارائه‌شده، نمی‌توان ارتباطی مستند با تحرکات منطقه‌ای، سیاست‌های تحریمی یا رخدادهای نظامی مشخص برقرار کرد و هر نتیجه‌گیری فراتر از این عنوان، غیرواقعی است."
-        ],
-        "impact": "این وضعیت بیشتر یک شاخص از ناپایداری تصمیم‌گیری در آمریکا درباره مسیر جنگ علیه ایران است، نه یک گزارش قابل راستی‌آزمایی از رخداد یا تشدید مشخص.",
-        "tag": "دیپلماسی",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The Detroit News",
-        "url": "https://www.detroitnews.com/story/news/world/2026/07/23/iran-war-powers-vote-trump-hegseth--live/91020556007/",
-        "clean_url": "https://www.detroitnews.com/story/news/world/2026/07/23/iran-war-powers-vote-trump-hegseth--live/91020556007",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784822280.0,
-        "id": "127a67fdb8"
-    },
-    {
-        "title_fa": "رد پیشنهاد آتش‌بس آمریکا؛ استمرار حملات پس از شکست میانجی‌گری عراق",
-        "title_en": "Iran War Live Updates: Strikes Persist After Iran Is Said to Reject U.S. Proposal",
-        "summary": [
-            "طبق گفته مقامات ایرانی و عراقی، ایران پیشنهاد آتش‌بس ترامپ را رد کرد؛ پیشنهاد از مسیر میانجی‌گری نخست‌وزیر عراق به تهران منتقل شد و نتیجه آن شکست مذاکرات بود.",
-            "همزمان، گزارش‌ها نشان می‌دهد حملات/اقدامات نظامی همچنان ادامه داشته است؛ یعنی حتی پس از تلاش دیپلماتیک، روند درگیری متوقف نشده است.",
-            "این رخداد به معنای تشدید چرخه امنیتی و کاهش امکان کاهش تنش از کانال‌های منطقه‌ای است، چون تنها مسیر میانجی‌گری هم با رد تهران بی‌اثر شده است."
-        ],
-        "impact": "رد آتش‌بس و تداوم حملات، احتمال کشیده‌شدن درگیری به فاز پرهزینه‌تر و سخت‌تر را بالا می‌برد و پنجره‌های کنترل بحران را محدود می‌کند.",
-        "tag": "دیپلماسی",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil/heres-the-latest",
-        "clean_url": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil/heres-the-latest",
-        "image": "http://www.bing.com/th?id=ONUT.Ddg0Lf5mniyx6eqTV_fIoQ&pid=News",
-        "timestamp": 1784821800.0,
-        "id": "ef11b5a01e"
-    },
-    {
-        "title_fa": "آغاز دور جدید حملات آمریکا علیه ایران و دفاع ترامپ از جنگ",
-        "title_en": "US launches latest round of strikes on Iran; Trump defends war",
-        "summary": [
-            "طبق تیتر مندرج در دیترویت فری پرس، آمریکا یک دور تازه حملات علیه ایران را آغاز کرده است و ترامپ همان را به‌عنوان اقدام قابل‌دفاع توجیه می‌کند.",
-            "خود متن ارائه‌شده عملاً گزارشی از جزئیات (زمان، مکان، اهداف، میزان خسارت یا تلفات) نمی‌دهد و فقط به اصل «شروع حملات جدید» و «دفاع سیاسی از جنگ» اشاره می‌کند.",
-            "با توجه به نبود اطلاعات عملیاتی در متن، تنها می‌توان نتیجه گرفت که تشدید فشار نظامی مستقیم در دستور کار آمریکا قرار گرفته و تلاش برای تثبیت روایت جنگ در داخل آمریکا هم همزمان دنبال می‌شود."
-        ],
-        "impact": "این اقدام در صورت تداوم، ریسک بی‌ثباتی و افزایش چرخه تنش را بالا می‌برد و هزینه‌های امنیتی-اقتصادی را برای ایران تشدید می‌کند، بدون اینکه از متن حاضر بتوان جزئیات شدت پیامدها را تأیید کرد.",
-        "tag": "نظامی",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "Detroit Free Press",
-        "url": "https://www.freep.com/story/news/world/2026/07/23/iran-war-powers-vote-trump-hegseth--live/91020556007/",
-        "clean_url": "https://www.freep.com/story/news/world/2026/07/23/iran-war-powers-vote-trump-hegseth--live/91020556007",
-        "image": "http://www.bing.com/th?id=ONUT.JDckSs4cdfBNJIL9kaZA1A&pid=News",
-        "timestamp": 1784811000.0,
-        "id": "3ff58e7a05"
     }
 ]

@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 from gnews import GNews
 from ddgs import DDGS
 from dateutil import parser
+import hashlib
 
 # --- CONFIGURATION ---
 CONFIG = {
@@ -339,40 +340,65 @@ class IranNewsRadar:
         # Fallback to the original Google URL if everything fails
         return url
 
-    def scrape_article_text(self, final_url, fallback_snippet):
-        """Extracts main content using Trafilatura with a BeautifulSoup fallback."""
+    def _generate_news_id(self, clean_url):
+        """Generates a short unique ID for deep-linking."""
+        return hashlib.md5(clean_url.encode('utf-8')).hexdigest()[:10]
+
+    def _get_fallback_image(self, text_or_tag):
+        """Returns topic-relevant high-res image if no photo exists."""
+        t = str(text_or_tag).lower()
+        if any(w in t for w in ['ship', 'navy', 'sea', 'strait', 'hormuz', 'دریایی', 'کشتی', 'خلیج']):
+            return 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80'
+        elif any(w in t for w in ['missile', 'strike', 'war', 'army', 'military', 'نظامی', 'موشک', 'پهپاد', 'حمله']):
+            return 'https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80'
+        elif any(w in t for w in ['nuclear', 'atomic', 'iaea', 'هسته‌ای', 'غنی‌سازی']):
+            return 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80'
+        elif any(w in t for w in ['currency', 'dollar', 'economy', 'تومان', 'دلار', 'تحریم', 'ارز']):
+            return 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80'
+        return 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'
+
+    def scrape_article_data(self, final_url, fallback_snippet, raw_image=None):
+        """Extracts article text AND high-res open-graph photo."""
         if not final_url or final_url.lower().endswith('.pdf'):
-            return fallback_snippet
+            return fallback_snippet, self._get_fallback_image(fallback_snippet)
+
+        extracted_text = fallback_snippet
+        extracted_image = raw_image
 
         try:
-            # 1. Primary Method: Trafilatura (Best for removing ads, navs, and boilerplate)
             downloaded = trafilatura.fetch_url(final_url)
             if downloaded:
-                extracted_text = trafilatura.extract(
-                    downloaded, 
-                    include_links=False, 
-                    include_comments=False,
-                    output_format='txt'
-                )
-                if extracted_text and len(extracted_text.strip()) > 120:
-                    clean_text = re.sub(r'\s+', ' ', extracted_text).strip()
-                    return clean_text[:2500]
+                # Extract both text and og:image metadata
+                bare_data = trafilatura.bare_extraction(downloaded)
+                if bare_data:
+                    if bare_data.get('text') and len(bare_data['text'].strip()) > 100:
+                        extracted_text = re.sub(r'\s+', ' ', bare_data['text']).strip()[:2500]
+                    if not extracted_image and bare_data.get('image'):
+                        extracted_image = bare_data['image']
 
-            # 2. Fallback Method: BeautifulSoup
-            resp = self.scraper.get(final_url, timeout=12)
-            soup = BeautifulSoup(resp.text, 'html.parser')
-            for tag in soup(["script", "style", "nav", "footer", "header", "form", "iframe"]):
-                tag.extract()
-            
-            article_body = soup.find('div', class_=re.compile(r'(article|story|body|content|entry)'))
-            text = article_body.get_text(separator=' ').strip() if article_body else " ".join([p.get_text().strip() for p in soup.find_all('p')])
-            clean_text = re.sub(r'\s+', ' ', text)
-            
-            return clean_text[:2500] if len(clean_text) > 100 else fallback_snippet
+            # If trafilatura missed the text, use soup fallback
+            if extracted_text == fallback_snippet:
+                resp = self.scraper.get(final_url, timeout=12)
+                soup = BeautifulSoup(resp.text, 'html.parser')
+                for tag in soup(["script", "style", "nav", "footer", "header", "iframe"]): tag.extract()
+                body = soup.find('div', class_=re.compile(r'(article|story|body|content)'))
+                text = body.get_text(separator=' ').strip() if body else " ".join([p.get_text().strip() for p in soup.find_all('p')])
+                clean = re.sub(r'\s+', ' ', text)
+                if len(clean) > 100: extracted_text = clean[:2500]
+
+                # Og:image soup fallback
+                if not extracted_image:
+                    og_img = soup.find("meta", property="og:image") or soup.find("meta", name="twitter:image")
+                    if og_img: extracted_image = og_img.get("content")
 
         except Exception as e:
             logger.warning(f"Extraction failed for {final_url}: {e}")
-            return fallback_snippet
+
+        # Ensure valid photo URL or use topic fallback
+        if not extracted_image or not isinstance(extracted_image, str) or extracted_image.startswith('data:'):
+            extracted_image = self._get_fallback_image(extracted_text)
+
+        return extracted_text, extracted_image
 
     def analyze_with_ai(self, headline, full_text, source_name):
         if not self.api_key: return None
@@ -509,26 +535,21 @@ Risk Level: {previous_summary.get('risk_level')}
         return self.analyze_daily_summary_with_ai(news_block, previous_block)
 
     def process_item(self, entry):
-        # We extract the title and strip publisher names (e.g. " - BBC News") for cleaner Bing searching
         raw_title = entry.get('title', '').rsplit(' - ', 1)[0].strip()
         publisher = entry.get('publisher', {}).get('title', 'Unknown')
         
-        # Pass the raw_title to the resolver to enable the Bing workaround
         final_url = self._resolve_final_url(entry.get('url'), raw_title)
         clean_final_url = self._clean_url(final_url)
 
         if not os.environ.get('MANUAL_URL'):
-            if clean_final_url in self.seen_urls:
-                return None
-            if self._is_duplicate_fuzzy(raw_title, self.existing_news):
-                return None
+            if clean_final_url in self.seen_urls: return None
+            if self._is_duplicate_fuzzy(raw_title, self.existing_news): return None
 
         logger.info(f"Processing: {publisher} | {raw_title[:20]}...")
-        
         snippet = entry.get('description', raw_title)
         
-        # Now final_url should be a direct website link, allowing scrape_article_text to actually work!
-        text = self.scrape_article_text(final_url, snippet)
+        # Extract text and photo
+        text, photo_url = self.scrape_article_data(final_url, snippet, raw_image=entry.get('image'))
         
         ai = self.analyze_with_ai(raw_title, text, publisher)
         if not ai: return None
@@ -539,7 +560,10 @@ Risk Level: {previous_summary.get('risk_level')}
         try: ts = parser.parse(entry.get('published date')).timestamp()
         except: ts = time.time()
 
+        news_id = self._generate_news_id(clean_final_url)
+
         return {
+            "id": news_id,  # DEEP-LINK UNIQUE ID
             "title_fa": ai.get('title_fa', raw_title),
             "title_en": raw_title,
             "summary": ai.get('summary', [snippet]),
@@ -550,7 +574,7 @@ Risk Level: {previous_summary.get('risk_level')}
             "source": publisher,
             "url": final_url, 
             "clean_url": clean_final_url, 
-            "image": entry.get('image'),
+            "image": photo_url,  # GUARANTEED HIGH-RES PHOTO
             "timestamp": ts
         }
 

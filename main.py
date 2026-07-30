@@ -6,6 +6,8 @@ import cloudscraper
 import html
 import re
 import random
+import tempfile 
+import trafilatura
 import concurrent.futures
 import feedparser
 from urllib.parse import quote, unquote, urlparse, urlunparse
@@ -93,14 +95,34 @@ class IranNewsRadar:
             return url
 
     def _normalize_text(self, text):
-        if not text: return ""
-        return re.sub(r'\W+', '', text).lower()
+        if not text: 
+            return ""
+        # 1. Unify Persian/Arabic letter variants (ی/ي, ک/ك)
+        text = text.replace('ي', 'ی').replace('ك', 'ک')
+        # 2. Convert ZWNJ (\u200c) to standard space to treat split words uniformly
+        text = text.replace('\u200c', ' ')
+        # 3. Lowercase and remove all punctuation/special characters
+        clean = re.sub(r'[^\w\s]', '', text.lower())
+        # 4. Collapse whitespace
+        return re.sub(r'\s+', '', clean)
 
     def _get_tokens(self, text):
-        stop_words = {'a', 'an', 'the', 'and', 'or', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'was', 'news', 'report', 'breaking'}
-        if not text: return set()
+        if not text: 
+            return set()
+        
+        # Stopwords: English + Persian
+        stop_words = {
+            # English
+            'a', 'an', 'the', 'and', 'or', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are', 'was', 'news', 'report', 'breaking',
+            # Persian
+            'از', 'به', 'در', 'که', 'و', 'این', 'آن', 'را', 'برای', 'با', 'است', 'شد', 'شده', 'می', 'بر', 'یک', 'خود', 'تا', 'کرد', 'برای', 'نیز'
+        }
+        
+        # Normalize characters and handle ZWNJ
+        text = text.replace('ي', 'ی').replace('ك', 'ک').replace('\u200c', ' ')
         clean = re.sub(r'[^\w\s]', '', text.lower())
         words = set(clean.split())
+        
         return words - stop_words
 
     def _is_duplicate_fuzzy(self, new_title, comparison_pool):
@@ -316,20 +338,39 @@ class IranNewsRadar:
         return url
 
     def scrape_article_text(self, final_url, fallback_snippet):
+        """Extracts main content using Trafilatura with a BeautifulSoup fallback."""
+        if not final_url or final_url.lower().endswith('.pdf'):
+            return fallback_snippet
+
         try:
-            if final_url.lower().endswith('.pdf'): return fallback_snippet
-            resp = self.scraper.get(final_url, timeout=15)
+            # 1. Primary Method: Trafilatura (Best for removing ads, navs, and boilerplate)
+            downloaded = trafilatura.fetch_url(final_url)
+            if downloaded:
+                extracted_text = trafilatura.extract(
+                    downloaded, 
+                    include_links=False, 
+                    include_comments=False,
+                    output_format='txt'
+                )
+                if extracted_text and len(extracted_text.strip()) > 120:
+                    clean_text = re.sub(r'\s+', ' ', extracted_text).strip()
+                    return clean_text[:2500]
+
+            # 2. Fallback Method: BeautifulSoup
+            resp = self.scraper.get(final_url, timeout=12)
             soup = BeautifulSoup(resp.text, 'html.parser')
-            for tag in soup(["script", "style", "nav", "footer", "header", "form", "iframe"]): tag.extract()
-            article_body = soup.find('div', class_=re.compile(r'(article|story|body|content|entry)'))
-            if article_body:
-                text = article_body.get_text(separator=' ').strip()
-            else:
-                text = " ".join([p.get_text().strip() for p in soup.find_all('p')])
+            for tag in soup(["script", "style", "nav", "footer", "header", "form", "iframe"]):
+                tag.extract()
             
+            article_body = soup.find('div', class_=re.compile(r'(article|story|body|content|entry)'))
+            text = article_body.get_text(separator=' ').strip() if article_body else " ".join([p.get_text().strip() for p in soup.find_all('p')])
             clean_text = re.sub(r'\s+', ' ', text)
+            
             return clean_text[:2500] if len(clean_text) > 100 else fallback_snippet
-        except: return fallback_snippet
+
+        except Exception as e:
+            logger.warning(f"Extraction failed for {final_url}: {e}")
+            return fallback_snippet
 
     def analyze_with_ai(self, headline, full_text, source_name):
         if not self.api_key: return None
@@ -341,47 +382,37 @@ class IranNewsRadar:
             regime_instruction = "CRITICAL: The source is Iranian State Media. Expose propaganda. "
 
         system_prompt = (
-            "You are a Hardline Strategic Analyst aligned with the Iranian nationalist pro-Pahlavi opposition. "
-            "Your tone is firm, uncompromising, and analytically sharp. No diplomatic softness.\n\n"
+            "تو یک تحلیل‌گر ارشد و تیزبین ژئوپلیتیک، مسلط به ادبیات کانال‌های تحلیلی تلگرام فارسی (مانند تحلیل‌گران مستقل و اپوزیسیون ایرانی) هستی.\n"
+            "وظیفه تو تبدیل اخبار خام به تحلیل‌های کوتاه، ضربتی، کاملاً انسانی و بدون «بوی هوش مصنوعی» است.\n\n"
 
-            "LANGUAGE & TITLE RULES:\n"
-            "- NEVER use honorifics or religious/political prefixes (e.g., Ayatollah, Hojatoleslam, General, Martyr, etc.).\n"
-            "- Refer to officials only by name and position when necessary.\n"
-            "- Do NOT use legitimizing language that implies moral authority.\n\n"
+            "🔴 قوانین حیاتی برای انسانی‌سازی (مهم - حتماً رعایت شود):\n"
+            "۱. **ممنوعیت مطلق عبارت‌های کلیشه‌ای رباتیک:**\n"
+            "   استفاده از این عبارات مطلقاً ممنوع است: ('به نظر می‌رسد'، 'نشان‌دهنده این است که'، 'لازم به ذکر است'، 'در نهایت'، 'پیامدهای عمیق'، 'ابعاد جدیدی از'، 'در این راستا'، 'شایان ذکر است').\n"
+            "۲. **تنوع در ساختار جملات:**\n"
+            "   جملات نباید همه با یک فرمول شروع شوند. گاهی با یک فعل حاد، گاهی با یک آمار، و گاهی با یک ارزیابی مستقیم شروع کن.\n"
+            "۳. **تعداد نقطه‌نظرات شناور:**\n"
+            "   بخش summary می‌تواند بین ۲ تا ۴ مورد باشد. اگر خبر کوتاه است ۲ نکته عمیق کافیست، برای خبرهای مهم ۴ نکته بنویس. خودت را به ۳ نقطه اجباری محدود نکن.\n"
+            "۴. **حذف القاب رسمی و حاکمیتی:**\n"
+            "   از القاب مانند (آیت‌الله، سردار، شهید، حجت‌الاسلام، عمومی) استفاده نکن. فقط نام و سمت.\n"
+            "۵. **تغییر لحن بر اساس اهمیت (Urgency):**\n"
+            "   - اگر خبر نظامی/فوریت بالاست (۸ تا ۱۰): لحن ضربتی، کوتاه و صریح باشد.\n"
+            "   - اگر خبر اقتصادی/سیاسی است (۴ تا ۷): لحن تحلیلی و افشاگرانه باشد.\n\n"
 
-            "STRICT URGENCY SCORE (1-10):\n"
-            "- 9-10: War escalation, direct military confrontation with Israel/USA, death of senior officials, nationwide unrest.\n"
-            "- 7-8: Major sanctions, systemic repression laws, severe currency collapse, confirmed strikes on regime assets.\n"
-            "- 4-6: Strategic diplomatic developments, regional proxy activity, economic instability signals.\n"
-            "- 1-3: Routine political statements, low-impact commentary, minor diplomatic meetings.\n\n"
+            "قواعد امتیازبندی فوریت (Urgency Score 1-10):\n"
+            "- 9-10: درگیری مستقیم نظامی، کشته شدن مقامات ارشد، ضربه به تاسیسات اتمی/نظامی.\n"
+            "- 7-8: تحریم‌های خفه کننده جدید، سقوط شدید ارزی، اعتراضات سراسری، حملات نیابتی سنگین.\n"
+            "- 4-6: تحرکات دیپلماتیک مهم، تنش‌های لفظی مسئولان، مانورهای منطقه‌ای.\n"
+            "- 1-3: اظهارات routine، دیدارهای تشریفاتی.\n\n"
 
-            "MANDATORY ANALYTICAL FRAMEWORK:\n"
-            "1. SANCTIONS / FOREIGN PRESSURE:\n"
-            "   - Analyze structural weakening effects on regime stability.\n"
-            "   - Evaluate internal economic and political consequences.\n\n"
-
-            "2. RUSSIA / CHINA / NORTH KOREA:\n"
-            "   - If mentioned in the article, frame them as strategic enablers of regime survival.\n"
-            "   - Do NOT insert them if not explicitly referenced.\n\n"
-
-            "3. INTERNAL PROTESTS / ECONOMY:\n"
-            "   - Highlight systemic mismanagement and governance failure.\n"
-            "   - Emphasize public dissatisfaction trends if supported by facts.\n\n"
-
-            "4. REALISM ENFORCEMENT:\n"
-            "   - Do NOT fabricate connections.\n"
-            "   - Do NOT exaggerate beyond available evidence.\n"
-            "   - Stay strictly anchored to verifiable content in the article.\n\n"
-
-            "5. ZERO GENERIC RHETORIC:\n"
-            "   - No repetitive ideological slogans.\n"
-            "   - Each summary must focus specifically on the reported event.\n\n"
-
-            "6. OUTPUT LANGUAGE:\n"
-            "   - Entire output must be in Persian (Farsi).\n\n"
-
-            "JSON STRUCTURE:\n"
-            "{title_fa, summary[3 bullet points], impact(1 sentence), tag(1 word), urgency(integer 1-10), sentiment(-1.0 to 1.0)}"
+            "فرمت خروجی باید دکارتی و دقیقاً ساختار JSON زیر باشد:\n"
+            "{\n"
+            '  "title_fa": "تیتر جذاب، غیرتکراری و بدون کلمات خنثی (حداکثر ۱۰ کلمه)",\n'
+            '  "summary": ["نکته تحلیلی ۱ بدون کلمات اضافه", "نکته تحلیلی ۲ با تمرکز بر واقعیت پشت خبر"],\n'
+            '  "impact": "تأثیر عملیاتی یا اقتصادی خبر در یک جمله کوتاه و ضربتی",\n'
+            '  "tag": "کلمه کلیدی اصلی (مثلاً: نظامی، ارز، تحریم، نیابتی)",\n'
+            '  "urgency": عدد بین 1 تا 10,\n'
+            '  "sentiment": عدد بین -1.0 تا 1.0\n'
+            "}"
         )
 
         current_text = full_text
@@ -746,13 +777,24 @@ PREVIOUS SUMMARY:
             except Exception as e:
                 logger.error(f"TG Send Error: {e}")
 
-    def save_news(self, new_items):
-        """Merges new items with old items and saves to file safely."""
+    def _atomic_json_dump(self, file_path, data):
+        """Safely writes JSON to a temp file first, then atomically replaces target file."""
+        dir_name = os.path.dirname(file_path) or '.'
         try:
-            # Combine
+            with tempfile.NamedTemporaryFile('w', dir=dir_name, delete=False, encoding='utf-8') as tf:
+                json.dump(data, tf, indent=4, ensure_ascii=False)
+                temp_name = tf.name
+            os.replace(temp_name, file_path)  # Safe atomic swap
+        except Exception as e:
+            logger.error(f"Atomic dump failed for {file_path}: {e}")
+            if 'temp_name' in locals() and os.path.exists(temp_name):
+                os.remove(temp_name)
+
+    def save_news(self, new_items):
+        """Merges new items with old items and saves safely."""
+        try:
             all_news = new_items + self.existing_news
             
-            # Remove strict duplicates based on URL
             seen_u = set()
             unique_news = []
             for item in all_news:
@@ -761,14 +803,11 @@ PREVIOUS SUMMARY:
                     seen_u.add(u)
                     unique_news.append(item)
             
-            # Sort by timestamp desc
             unique_news.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
-            
-            # Trim history
             final_list = unique_news[:CONFIG['HISTORY_SIZE']]
             
-            with open(CONFIG['FILES']['NEWS'], 'w', encoding='utf-8') as f: 
-                json.dump(final_list, f, indent=4, ensure_ascii=False)
+            # --- USE ATOMIC DUMP HERE ---
+            self._atomic_json_dump(CONFIG['FILES']['NEWS'], final_list)
             
             logger.info(">>> news.json updated successfully.")
             return final_list
@@ -779,11 +818,9 @@ PREVIOUS SUMMARY:
     def save_daily_summary(self, summary):
         if not summary:
             return
-
         try:
-            with open(CONFIG['FILES']['DAILY_SUMMARY'], 'w', encoding='utf-8') as f:
-                json.dump(summary, f, indent=4, ensure_ascii=False)
-
+            # --- USE ATOMIC DUMP HERE ---
+            self._atomic_json_dump(CONFIG['FILES']['DAILY_SUMMARY'], summary)
             logger.info(">>> daily_summary.json updated successfully.")
         except Exception as e:
             logger.error(f"Failed to save daily summary: {e}")

@@ -895,6 +895,133 @@ PREVIOUS SUMMARY:
         except Exception as e:
             logger.error(f"Failed to save daily summary: {e}")
 
+    def generate_scheduled_bulletin(self):
+        """Generates structured edition briefs at 08:00, 14:00, and 20:00 Tehran time."""
+        now_utc = datetime.now(timezone.utc)
+        tehran_time = now_utc.astimezone(timezone(timedelta(hours=3, minutes=30)))
+        hour = tehran_time.hour
+
+        # Determine Edition
+        if 6 <= hour < 12:
+            edition_key = "morning"
+            edition_title = "بولتـن صبحگاهی"
+        elif 12 <= hour < 18:
+            edition_key = "midday"
+            edition_title = "بولتـن نیمروزی"
+        else:
+            edition_key = "evening"
+            edition_title = "بولتـن شبانگاهی (جمع‌بندی روز)"
+
+        # Pick top 5 urgent items
+        top_items = sorted(self.existing_news, key=lambda x: x.get('urgency', 0), reverse=True)[:5]
+        if not top_items: return None
+
+        news_text = "\n".join([f"- {item.get('title_fa')}: {' '.join(item.get('summary', []))}" for item in top_items])
+
+        system_prompt = f"""
+تو سردبیر ارشد بخش اخبار فوری هستی. برای "{edition_title}" یک خلاصه خبر ۳ دقیقه‌ای روان، ضربتی و بسیار جذاب به فارسی بنویس.
+خروجی باید JSON زیر باشد:
+{{
+  "edition": "{edition_key}",
+  "title": "{edition_title}",
+  "time": "{tehran_time.strftime('%H:%M')}",
+  "date": "{tehran_time.strftime('%Y/%m/%d')}",
+  "bullets": ["نکته ۱", "نکته ۲", "نکته ۳", "نکته ۴"],
+  "bottom_line": "نتیجه‌گیری در یک جمله کوتاه"
+}}
+"""
+        try:
+            resp = self.scraper.post(
+                "https://gen.pollinations.ai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+                json={
+                    "model": "openai",
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": news_text}
+                    ],
+                    "temperature": 0.2
+                }, timeout=45
+            )
+            if resp.status_code == 200:
+                raw = resp.json()['choices'][0]['message']['content']
+                clean = re.sub(r'```json\s*|```', '', raw).strip()
+                data = json.loads(clean)
+                
+                # Save to bulletins.json
+                self._atomic_json_dump('bulletins.json', data)
+                logger.info(f">>> Scheduled Bulletin ({edition_title}) generated successfully.")
+                return data
+        except Exception as e:
+            logger.error(f"Bulletin Generation Error: {e}")
+        return None
+    
+    def generate_special_topic_report(self):
+        """Finds the most talked-about topic of the day and writes a 1-page synthesized report."""
+        if len(self.existing_news) < 5: return None
+
+        # 1. Group news items by tag
+        tag_clusters = {}
+        for item in self.existing_news[:30]:
+            tag = item.get('tag', 'عمومی')
+            if tag not in tag_clusters: tag_clusters[tag] = []
+            tag_clusters[tag].append(item)
+
+        # 2. Pick cluster with the most items
+        top_tag = max(tag_clusters, key=lambda k: len(tag_clusters[k]))
+        cluster_items = tag_clusters[top_tag]
+
+        if len(cluster_items) < 2: return None
+
+        # Build context from clustered items
+        cluster_context = "\n---\n".join([
+            f"منبع: {i.get('source')}\nتیتر: {i.get('title_fa')}\nتحلیل: {i.get('impact')}\nخلاصه: {' '.join(i.get('summary', []))}"
+            for i in cluster_items[:6]
+        ])
+
+        system_prompt = """
+تو تیم تحریریه پرونده‌های ویژه خبری هستی. بر اساس گزارش‌های ورودی که همگی درباره یک موضوع پرخبر امروز هستند، یک «پرونده ویژه اختصاصی» به فارسی روان، جذاب و تحلیل‌گرایانه بنویس.
+
+خروجی باید JSON زیر باشد:
+{
+  "topic_tag": "موضوع پرونده",
+  "headline": "تیتر اصلی و جذاب پرونده ویژه",
+  "lead_paragraph": "مقدمه و اصل ماجرا در دو جمله بسیار روان",
+  "key_findings": [
+    "یافته و زاویه دید ۱",
+    "یافته و زاویه دید ۲",
+    "یافته و زاویه دید ۳"
+  ],
+  "regime_vs_reality": "مقایسه ادعای رسانه‌های حکومتی با واقعیت میدانی در یک پاراگراف",
+  "strategic_outlook": "پیش‌بینی ادامه روند این پرونده در هفته آینده"
+}
+"""
+        try:
+            resp = self.scraper.post(
+                "https://gen.pollinations.ai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+                json={
+                    "model": "openai",
+                    "messages": [
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": f"موضوع پرخبر: {top_tag}\n\nگزارش‌های هم‌زمان:\n{cluster_context}"}
+                    ],
+                    "temperature": 0.25
+                }, timeout=60
+            )
+            if resp.status_code == 200:
+                raw = resp.json()['choices'][0]['message']['content']
+                clean = re.sub(r'```json\s*|```', '', raw).strip()
+                data = json.loads(clean)
+                
+                # Save to special_reports.json
+                self._atomic_json_dump('special_reports.json', data)
+                logger.info(f">>> Special Report on ({top_tag}) generated successfully.")
+                return data
+        except Exception as e:
+            logger.error(f"Special Report Error: {e}")
+        return None
+
     def run(self):
         logger.info(">>> Radar Started...")
         
@@ -987,6 +1114,10 @@ PREVIOUS SUMMARY:
         daily_summary = self.generate_daily_summary()
         if daily_summary:
             self.save_daily_summary(daily_summary)
+
+        # Inside run() at the end:
+        self.generate_scheduled_bulletin()
+        self.generate_special_topic_report()
 
 if __name__ == "__main__":
     IranNewsRadar().run()

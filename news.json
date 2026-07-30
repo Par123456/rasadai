@@ -389,6 +389,24 @@
         "id": "562def4889"
     },
     {
+        "id": "0bea061673",
+        "title_fa": "چرا ایران نمی‌تواند جنگِ بی‌پایان را دوام بیاورد",
+        "title_en": "Why Iran Cannot Fight a Forever War",
+        "summary": [
+            "به هم زدن مسیرهای انرژی و بالا بردن هزینه برای آمریکا و متحدان، توان واقعی ایران را نشان می‌دهد؛ اما «جنگ دائمی» نیازمند پایدار بودن منابع، تولید و زنجیره پشتیبانی است.",
+            "مسئله این نیست که ایران قدرت ایجاد اختلال دارد یا نه؛ مشکل، نگه‌داشتن یک وضعیت دائمیِ پرهزینه بدون فرسایش اقتصادی، لجستیکی و سیاسی است."
+        ],
+        "impact": "بحث «ماندگاری جنگ» را از میدانِ توان ضربه، به میدانِ محدودیت‌های فرسایشی می‌برد و احتمال معامله/تغییر الگوی درگیری را پررنگ‌تر می‌کند.",
+        "tag": "ژئوپلیتیک",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "TIME",
+        "url": "https://time.com/article/2026/07/30/iran-america-hormuz-forever-war/",
+        "clean_url": "https://time.com/article/2026/07/30/iran-america-hormuz-forever-war",
+        "image": "http://www.bing.com/th?id=ONUT.RI0Ai-UA0kKsfYbUnk2rVQ&pid=News",
+        "timestamp": 1785387600.0
+    },
+    {
         "title_fa": "از سرگیری حملات آمریکا علیه ایران؛ نگرانی از گسترش جنگ",
         "title_en": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening",
         "summary": [
@@ -406,6 +424,24 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785381900.0,
         "id": "0a22023f1b"
+    },
+    {
+        "id": "f8f8ee9c54",
+        "title_fa": "ترامپ وعده ضربه سخت به ایران بعد از حمله بالستیک",
+        "title_en": "Trump retaliates after Iran attack as expert warns regime is growing more dangerous",
+        "summary": [
+            "CENTCOM می‌گوید همه موشک‌های بالستیک به نیروهای آمریکا در اردن رهگیری شدند و تلفات گزارش نشده؛ اما همین «موفقیت نسبی دفاعی» کافی است تا ترامپ وارد فاز تلافی سخت شود.",
+            "وعده «زدن ضربه سنگین» یعنی واشنگتن می‌خواهد هزینه حمله را از میدان درگیری به سطح تصمیم‌گیری و توان ایران منتقل کند، نه فقط در همان لحظه پاسخ بدهد."
+        ],
+        "impact": "احتمال افزایش عملیات‌های تلافی‌جویانه آمریکا علیه اهداف مرتبط با ایران بالا می‌رود و ریسک دور جدید تشدید در منطقه بیشتر می‌شود.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Fox News on MSN",
+        "url": "https://www.msn.com/en-us/news/other/trump-retaliates-after-iran-attack-as-expert-warns-regime-is-growing-more-dangerous/ar-AA293qZR",
+        "clean_url": "https://www.msn.com/en-us/news/other/trump-retaliates-after-iran-attack-as-expert-warns-regime-is-growing-more-dangerous/ar-AA293qZR",
+        "image": "http://www.bing.com/th?id=ONUT.kQjLa-VTGBoGWonXJSZeuw&pid=News",
+        "timestamp": 1785380429.0
     },
     {
         "title_fa": "حمله هوایی آمریکا به ایران پس از گزارش تهدید جدید ترامپ",
@@ -5649,43 +5685,5 @@
         "image": "https://static01.nyt.com/images/2026/07/24/multimedia/24DC-TRUMP-ECON-01-ghwp/24DC-TRUMP-ECON-01-ghwp-facebookJumbo.jpg",
         "timestamp": 1784837160.0,
         "id": "246f2198fc"
-    },
-    {
-        "title_fa": "لیست تلفات پنتاگون در جنگ علیه ایران: حذف چهار نام با وجود اعلام رسمی انتقال پیکرها",
-        "title_en": "Pentagon list of service members killed in Iran war removes most recent four",
-        "summary": [
-            "پنتاگون در پایگاه Defense Casualty Analysis System همچنان تعداد کشته‌های عملیات Epic Fury را ۱۴ نفر نشان می‌دهد، اما «Names of Fallen» تنها ۱۳ نام را نمایش می‌دهد؛ در حالی که چهار سرباز در یک بیانیه پنتاگون درباره انتقال رسمی پیکرها به آمریکا، نام‌شان ذکر شده بود.",
-            "بر اساس گزارش نیویورک‌تایمز، وب‌سایت پنتاگون در روز چهارشنبه تعداد کشته‌های اعلامی را ۱۸ نفر نشان داده و سپس در پنجشنبه با حذف سه نفرِ کشته‌شده جمعه تا یکشنبه کاهش داده است؛ همچنین چهارمین نفر که در جریان انهدام کنترل‌شده یک پهپاد ایرانی در پایگاه اربیل کشته شده بود هم از فهرست کنار گذاشته شده است.",
-            "سه مقام نظامی به‌تایمز گفته‌اند دلیل یکی از تغییرات این بوده که مرگ چهار نفر مربوط به آخر هفته بعد از اعلام آتش‌بس توسط ترامپ در آوریل دانسته شده، اما سخنگوی پنتاگون این ادعا را رد کرده و گفته کاهش رقم ناشی از «اختلالات موقت داده» است که به‌زودی اصلاح می‌شود."
-        ],
-        "impact": "این تغییرات و تناقض‌های عددی در فهرست‌های تلفات، اعتبار مدیریت اطلاعات تلفات را زیر سؤال می‌برد و می‌تواند هم بر تصمیم‌گیری سیاسی داخلی ترامپ و هم بر ادراک عمومی از شدت واقعی جنگ اثر بگذارد.",
-        "tag": "تلفات",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/jul/23/pentagon-service-members-killed-iran",
-        "clean_url": "https://www.theguardian.com/us-news/2026/jul/23/pentagon-service-members-killed-iran",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784829300.0,
-        "id": "29964201fd"
-    },
-    {
-        "title_fa": "اوج‌گیری درگیری‌ها: یازدهمین شب حملات آمریکا علیه ایران همزمان با تشدید تنش بر سر مسیرهای کشتیرانی",
-        "title_en": "US military launches new strikes on Iran as clashes escalate over shipping routes",
-        "summary": [
-            "نیروی نظامی آمریکا اعلام کرد که وارد سیزدهمین شب حملات علیه ایران شده؛ همزمان با بالا رفتن سطح درگیری‌ها بر سر مسیرهای کشتیرانی.",
-            "این تشدید درگیری‌ها در متن با حملات گزارش‌شده از سوی نیروهای حوثیِ مورد حمایت ایران در یمن پیوند خورده، اما جزئیاتِ دقیقِ اهداف و پیامدهای هر حمله در گزارش ارائه نشده است.",
-            "ترکیب حملات شبانه و تنش‌های دریایی یعنی ریسک گسترش دامنه بحران را افزایش می‌دهد و می‌تواند فشار مستقیم بر محاسبات امنیتی و لجستیکی ایران در منطقه وارد کند، با این حال شواهد مشخص از اثرات اقتصادی داخلی در همین خبر ذکر نشده است."
-        ],
-        "impact": "این روند یعنی بحران از سطح تهدید و درگیری نیابتی به فاز پرریسک‌ترِ تقابل نظامی مستقیم نزدیک‌تر می‌شود و احتمال تداوم و گسترش حملات بالا می‌رود.",
-        "tag": "نظامی",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "Associated Press News on MSN",
-        "url": "https://www.msn.com/en-us/news/other/us-military-says-it-s-launching-new-strikes-on-iran-as-clashes-escalate-over-shipping-routes/ar-AA28v3uG",
-        "clean_url": "https://www.msn.com/en-us/news/other/us-military-says-it-s-launching-new-strikes-on-iran-as-clashes-escalate-over-shipping-routes/ar-AA28v3uG",
-        "image": "http://www.bing.com/th?id=ONUT.-dNfLv2kVqmaS7sHWDJPcQ&pid=News",
-        "timestamp": 1784824288.0,
-        "id": "6bde923178"
     }
 ]

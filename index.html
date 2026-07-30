@@ -110,7 +110,7 @@
             <div class="flex items-center gap-3">
                 <a href="#" onclick="showHomeView()" class="bg-fox-navy text-white font-fox font-black px-3.5 py-1.5 text-2xl md:text-4xl tracking-tighter rounded-sm flex items-center gap-2 shadow-inner">
                     <span>RASAD</span>
-                    <span class="bg-fox-red px-2 py-0.5 text-xs font-mono uppercase tracking-normal">COMMAND</span>
+                    <span class="bg-fox-red px-2 py-0.5 text-xs font-mono uppercase tracking-normal">NEWS</span>
                 </a>
                 <div class="hidden lg:block border-r border-gray-300 pr-3">
                     <h1 class="text-xs font-bold text-fox-navy leading-none">سامانه هوشمند رصد اخبار و امنیت ملی</h1>
@@ -642,47 +642,95 @@ async function loadData() {
     }
 }
 
+/* FOX NEWS "BIG TOP" LEAD + SECONDARY GRID ENGINE */
 function renderHeroLead() {
     const heroContainer = document.getElementById('hero-lead-container');
     if (!newsData.length || !heroContainer) return;
 
-    const hero = [...newsData].sort((a, b) => b.urgency - a.urgency)[0];
-    const tagConfig = getTagConfig(hero.tag);
-    const imgURL = hero.image || 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80';
+    // Sort by urgency to pick top 4 lead stories
+    const sorted = [...newsData].sort((a, b) => b.urgency - a.urgency);
+    const mainLead = sorted[0];
+    const secondaryLeads = sorted.slice(1, 4);
 
-    heroContainer.innerHTML = `
-        <div class="flex flex-col gap-3">
-            <div class="flex justify-between items-center border-b border-gray-200 pb-2">
-                <span class="fox-kicker flex items-center gap-1.5"><i class="fas ${tagConfig.icon}"></i> ${tagConfig.kicker}</span>
-                <span class="text-xs font-mono font-bold text-fox-red bg-red-100 px-2 py-0.5 rounded-sm">ویژه</span>
-            </div>
+    const mainTagConfig = getTagConfig(mainLead.tag);
+    const mainImg = mainLead.image || 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80';
 
-            <h2 class="text-xl md:text-2xl font-black text-fox-navy leading-snug hover:text-fox-red transition-colors">
-                <a href="?id=${hero.id || ''}" onclick="event.preventDefault(); renderSingleArticlePage(hero);">${hero.title_fa}</a>
-            </h2>
+    // 1. Main Lead Big Top HTML
+    let html = `
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-5 border-b border-gray-200 pb-5 mb-5">
+            <!-- Main Hero Image (7 Cols) -->
+            <div class="md:col-span-7 relative h-64 md:h-80 rounded-sm overflow-hidden border border-gray-200 group">
+                <img src="${mainImg}" alt="Hero Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+                
+                <div class="absolute top-3 right-3 bg-fox-red text-white text-[10px] font-black px-2.5 py-1 rounded-sm shadow uppercase tracking-wider">
+                    <i class="fas fa-bolt"></i> خبر اصلی / فوریت بالا
+                </div>
 
-            <div class="relative w-full h-64 md:h-80 rounded-sm overflow-hidden border border-gray-200 my-1 group">
-                <img src="${imgURL}" alt="Hero Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                <div class="absolute bottom-3 right-3 left-3 text-white text-xs leading-relaxed font-medium backdrop-blur-sm bg-black/40 p-3 rounded-sm border border-white/10">
+                <div class="absolute bottom-3 right-3 left-3 text-white text-xs leading-relaxed backdrop-blur-md bg-black/50 p-3 rounded-sm border border-white/10">
                     <p class="font-bold text-amber-300 mb-1"><i class="fas fa-bullseye"></i> اثرگذاری راهبردی:</p>
-                    <p>${hero.impact || '---'}</p>
+                    <p>${mainLead.impact || '---'}</p>
                 </div>
             </div>
 
-            <div class="flex items-center justify-between text-xs text-gray-500 pt-1">
-                <span>منبع: <strong class="text-fox-navy">${hero.source}</strong></span>
-                <div class="flex items-center gap-2">
-                    <button onclick="copyDeepLink('${hero.id || ''}')" class="px-2.5 py-1 bg-gray-100 hover:bg-gray-200 text-fox-navy font-bold rounded-sm border border-gray-300" title="کپی لینک اختصاصی">
-                        <i class="fas fa-link"></i>
-                    </button>
-                    <button onclick="speakText('${hero.title_fa}. ${hero.impact}')" class="px-3 py-1 bg-fox-navy text-white hover:bg-fox-red transition-colors rounded-sm flex items-center gap-1.5 font-bold">
-                        <i class="fas fa-volume-up"></i> صوتی
-                    </button>
+            <!-- Main Hero Info (5 Cols) -->
+            <div class="md:col-span-5 flex flex-col justify-between space-y-3">
+                <div>
+                    <span class="fox-kicker flex items-center gap-1.5 mb-1">
+                        <i class="fas ${mainTagConfig.icon}"></i> ${mainTagConfig.kicker}
+                    </span>
+                    <h2 class="text-xl md:text-2xl font-black text-fox-navy leading-snug hover:text-fox-red transition-colors">
+                        <a href="?id=${mainLead.id || ''}" onclick="event.preventDefault(); renderSingleArticlePage(mainLead);">${mainLead.title_fa}</a>
+                    </h2>
+                    <p class="text-xs text-gray-500 font-mono dir-ltr text-left mt-2 opacity-80 line-clamp-2">${mainLead.title_en}</p>
+                </div>
+
+                <div class="flex items-center justify-between text-xs text-gray-500 pt-2 border-t border-gray-100">
+                    <span>منبع: <strong class="text-fox-navy">${mainLead.source}</strong></span>
+                    <div class="flex items-center gap-2">
+                        <button onclick="copyDeepLink('${mainLead.id || ''}')" class="px-2.5 py-1 bg-gray-100 hover:bg-gray-200 text-fox-navy font-bold rounded-sm border border-gray-300" title="کپی لینک اختصاصی">
+                            <i class="fas fa-link"></i>
+                        </button>
+                        <button onclick="speakText('${mainLead.title_fa}. ${mainLead.impact}')" class="px-3 py-1 bg-fox-navy text-white hover:bg-fox-red transition-colors rounded-sm flex items-center gap-1.5 font-bold">
+                            <i class="fas fa-volume-up"></i> صوتی
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- 2. Fox Secondary 3-Across Lead Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
     `;
+
+    secondaryLeads.forEach(sec => {
+        const secConfig = getTagConfig(sec.tag);
+        const secImg = sec.image || 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=600&q=80';
+
+        html += `
+            <div class="bg-fox-graybg p-3 rounded-sm border border-gray-200 flex flex-col justify-between space-y-2">
+                <div class="relative h-28 w-full rounded-sm overflow-hidden border border-gray-200">
+                    <img src="${secImg}" alt="Thumbnail" class="w-full h-full object-cover">
+                    <span class="absolute top-1.5 right-1.5 bg-fox-navy text-white text-[9px] font-bold px-1.5 py-0.5 rounded-sm">
+                        ${sec.tag}
+                    </span>
+                </div>
+                <div>
+                    <span class="fox-kicker text-[10px] block mb-1">${secConfig.kicker}</span>
+                    <h3 class="text-xs font-bold text-fox-navy hover:text-fox-red transition-colors leading-tight line-clamp-2">
+                        <a href="?id=${sec.id || ''}" onclick="event.preventDefault(); renderSingleArticlePage(sec);">${sec.title_fa}</a>
+                    </h3>
+                </div>
+                <div class="flex justify-between items-center text-[10px] text-gray-500 pt-1 border-t border-gray-200">
+                    <span>${sec.source}</span>
+                    <span>${timeAgo(sec.timestamp * 1000)}</span>
+                </div>
+            </div>
+        `;
+    });
+
+    html += `</div>`;
+    heroContainer.innerHTML = html;
 }
 
 function renderCategoryChips() {
@@ -763,6 +811,7 @@ function renderFeed() {
         html += `
         <article class="fox-card p-4 md:p-5 rounded-sm shadow-sm relative border-r-4 ${tagConfig.border} mb-4">
             <div class="flex flex-col sm:flex-row gap-4">
+                <!-- Photo Thumbnail -->
                 <div class="w-full sm:w-48 h-32 flex-shrink-0 rounded-sm overflow-hidden border border-gray-200">
                     <img src="${imgURL}" alt="Photo" class="w-full h-full object-cover">
                 </div>
@@ -813,7 +862,7 @@ function renderFeed() {
         `;
     });
 
-    // APPEND "LOAD MORE" BUTTON FOR LARGE DATASETS (300 ITEMS)
+    // Fox News Style "Load More" Pagination Button
     if (totalItems > itemsToShow) {
         const remaining = totalItems - itemsToShow;
         html += `
@@ -852,8 +901,21 @@ function updateTension(data) {
 }
 
 function updateStats(data) {
-    document.getElementById('stat-total').innerText = data.length;
-    document.getElementById('stat-critical').innerText = data.filter(n => n.urgency >= 7 || n.tag === 'نظامی' || n.tag === 'تشدید').length;
+    const nowSec = Math.floor(Date.now() / 1000);
+    const twentyFourHoursAgo = nowSec - (24 * 3600); // 86400 seconds
+
+    // Filter items published within the last 24 hours
+    const items24h = data.filter(n => (n.timestamp || 0) >= twentyFourHoursAgo);
+
+    // If timestamps in JSON are historical/mock, show items from last 24h or relative top recent
+    const totalCount = items24h.length;
+    const criticalCount = items24h.filter(n => (n.urgency >= 7) || ['نظامی', 'تشدید'].includes(n.tag)).length;
+
+    const totalEl = document.getElementById('stat-total');
+    const criticalEl = document.getElementById('stat-critical');
+
+    if (totalEl) totalEl.innerText = totalCount;
+    if (criticalEl) criticalEl.innerText = criticalCount;
 }
 
 function filterFeed(tag, btn) {

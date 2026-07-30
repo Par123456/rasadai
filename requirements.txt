@@ -12,3 +12,4 @@ cloudscraper
 ddgs 
 feedparser 
 trafilatura
+lxml

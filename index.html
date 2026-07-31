@@ -2,7 +2,7 @@
 <html lang="fa" dir="rtl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>رصد نیوز | مرکز فرماندهی و پایش هوشمند اخبار</title>
     
     <!-- Fonts -->
@@ -13,7 +13,9 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
+        // REPLACE tailwind.config inside <head>
         tailwind.config = {
+            darkMode: 'class', // Enables class-based dark mode globally
             theme: {
                 extend: {
                     fontFamily: {
@@ -40,6 +42,35 @@
 
     <style>
         body { background-color: #F4F5F7; color: #111827; }
+
+        @media (max-width: 768px) {
+            /* Prevent content from hiding behind mobile bottom bar */
+            body {
+                padding-bottom: 70px !important;
+            }
+
+            /* Support iOS Safe Area notch at bottom */
+            .pb-safe {
+                padding-bottom: env(safe-area-inset-bottom, 8px);
+            }
+        }
+
+        .overflow-x-auto {
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* Touch-friendly target minimums for buttons on mobile */
+        @media (max-width: 640px) {
+            button, a {
+                min-height: 38px;
+            }
+            
+            /* Horizontal scroll container gradient mask indicators for mobile */
+            .mobile-scroll-mask {
+                mask-image: linear-gradient(to left, transparent, black 12px, black calc(100% - 12px), transparent);
+                -webkit-mask-image: linear-gradient(to left, transparent, black 12px, black calc(100% - 12px), transparent);
+            }
+        }
         
         @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(50%); } }
         .animate-ticker { animation: ticker-scroll 50s linear infinite; }
@@ -76,6 +107,101 @@
         ::-webkit-scrollbar-thumb:hover { background: #C20017; }
         .scrollbar-hide::-webkit-scrollbar { display: none; }
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+        /* Global Dark Mode Overrides */
+        html.dark body {
+            background-color: #0b0f19 !important;
+            color: #f3f4f6 !important;
+        }
+
+        /* Cards & Containers */
+        html.dark .bg-white,
+        html.dark .rasad-card {
+            background-color: #111827 !important;
+            border-color: #1f293d !important;
+            color: #f3f4f6 !important;
+        }
+
+        /* Light Gray Backgrounds (Inputs, Sub-boxes, Secondary Cards) */
+        html.dark .bg-rasad-graybg,
+        html.dark .bg-gray-100,
+        html.dark .bg-gray-50 {
+            background-color: #1f293d !important;
+            border-color: #374151 !important;
+            color: #e5e7eb !important;
+        }
+
+        /* Borders & Dividers */
+        html.dark .border-gray-200,
+        html.dark .border-gray-300,
+        html.dark .border-gray-100,
+        html.dark .border-rasad-border {
+            border-color: #1f293d !important;
+        }
+
+        /* Text Colors */
+        html.dark .text-rasad-navy,
+        html.dark .text-rasad-text,
+        html.dark .text-gray-800,
+        html.dark .text-gray-700 {
+            color: #f3f4f6 !important;
+        }
+
+        html.dark .text-rasad-subtext,
+        html.dark .text-gray-600,
+        html.dark .text-gray-500 {
+            color: #9ca3af !important;
+        }
+
+        /* Form Inputs & Select Dropdowns */
+        html.dark input,
+        html.dark select {
+            background-color: #1f293d !important;
+            color: #ffffff !important;
+            border-color: #374151 !important;
+        }
+
+        /* Modals & Mobile Drawers */
+        html.dark #daily-summary-modal > div,
+        html.dark #mobile-drawer > div {
+            background-color: #111827 !important;
+            color: #f3f4f6 !important;
+            border-color: #374151 !important;
+        }
+
+        /* Dark Mode fixes for Red Callout Boxes ("ادعای حاکمیت در برابر واقعیت میدانی" & "آسیب‌پذیری‌ها") */
+        html.dark .bg-red-50 {
+            background-color: #2a1215 !important;
+            border-color: #5c1d24 !important;
+        }
+
+        html.dark .bg-red-50 p,
+        html.dark .bg-red-50 li,
+        html.dark .bg-red-50 span {
+            color: #fca5a5 !important; /* Soft high-contrast light red text */
+        }
+
+        html.dark .bg-red-50 .font-bold,
+        html.dark .bg-red-50 .text-rasad-red {
+            color: #f87171 !important; /* Bright red title text */
+        }
+
+        /* Dark Mode fixes for Blue Callout Boxes ("چشم‌انداز پیش‌رو" & "بازار") */
+        html.dark .bg-blue-50 {
+            background-color: #0f1f38 !important;
+            border-color: #1e3a66 !important;
+        }
+
+        html.dark .bg-blue-50 p,
+        html.dark .bg-blue-50 li,
+        html.dark .bg-blue-50 span {
+            color: #bfdbfe !important; /* Soft high-contrast light blue text */
+        }
+
+        html.dark .bg-blue-50 .font-bold,
+        html.dark .bg-blue-50 .text-rasad-navy {
+            color: #60a5fa !important; /* Bright blue title text */
+        }
     </style>
 </head>
 
@@ -92,6 +218,11 @@
                 <a href="#" onclick="switchTab('dashboard')" class="hover:text-amber-400 transition-colors">رصد اقتصادی</a>
                 <a href="#" onclick="openDailySummaryModal()" class="hover:text-amber-400 transition-colors text-yellow-300 font-bold"><i class="fas fa-file-alt"></i> بولتن ویژه راهبردی</a>
                 <a href="https://itsyebekhe.github.io/MTProtoNexus/" target="_blank" class="hover:text-amber-400 transition-colors">پروکسی تلگرام</a>
+                <div class="hidden sm:flex items-center gap-2 px-2 py-0.5 bg-white/10 rounded text-[10px]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+                    <span class="text-gray-300">اتصال GitHub:</span>
+                    <span id="github-sync-status" class="text-green-300 font-bold">بروز (main)</span>
+                </div>
             </div>
             <div class="flex items-center gap-4 text-gray-300">
                 <span>تهران: <strong id="clock-teh" class="text-white font-bold">--:--</strong></span>
@@ -105,11 +236,12 @@
 
     <!-- ═══════════════ MAIN BRANDING HEADER ═══════════════ -->
     <header class="bg-white border-b-4 border-rasad-navy shadow-md sticky top-0 z-40">
-        <div class="max-w-[1450px] mx-auto px-4 py-3 flex justify-between items-center gap-4">
-            <div class="flex items-center gap-3">
-                <a href="#" onclick="showHomeView()" class="bg-rasad-navy text-white font-brand font-black px-3.5 py-1.5 text-2xl md:text-4xl tracking-tighter rounded-sm flex items-center gap-2 shadow-inner">
+        <div class="max-w-[1450px] mx-auto px-3 sm:px-4 py-2.5 flex justify-between items-center gap-2">
+            <!-- Logo -->
+            <div class="flex items-center gap-2">
+                <a href="#" onclick="showHomeView()" class="bg-rasad-navy text-white font-brand font-black px-2.5 py-1 text-xl sm:text-2xl md:text-4xl tracking-tighter rounded-sm flex items-center gap-1.5 shadow-inner">
                     <span>RASAD</span>
-                    <span class="bg-rasad-red px-2 py-0.5 text-xs font-mono uppercase tracking-normal">NEWS / رصد</span>
+                    <span class="bg-rasad-red px-1.5 py-0.5 text-[10px] sm:text-xs font-mono uppercase tracking-normal">NEWS / رصد</span>
                 </a>
                 <div class="hidden lg:block border-r border-gray-300 pr-3">
                     <h1 class="text-xs font-bold text-rasad-navy leading-none">سامانه هوشمند رصد اخبار و امنیت ملی</h1>
@@ -117,22 +249,28 @@
                 </div>
             </div>
 
-            <div class="flex items-center gap-2 md:gap-3">
-                <button onclick="openDailySummaryModal()" class="bg-rasad-navy hover:bg-rasad-darknavy text-white text-xs font-bold px-3.5 py-2 rounded-sm transition-all flex items-center gap-2 shadow-sm border border-rasad-navy">
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-1.5 sm:gap-3">
+                <button onclick="openDailySummaryModal()" class="bg-rasad-navy hover:bg-rasad-darknavy text-white text-[11px] sm:text-xs font-bold px-2.5 sm:px-3.5 py-2 rounded-sm transition-all flex items-center gap-1.5 shadow-sm border border-rasad-navy">
                     <i class="fas fa-shield-alt text-amber-400"></i>
-                    <span class="hidden sm:inline">بولتن ارزیابی روزانه</span>
+                    <span class="hidden xs:inline">بولتن ارزیابی</span>
                 </button>
 
-                <button onclick="switchTab('dashboard')" class="bg-rasad-red hover:bg-rasad-brightred text-white text-xs font-bold px-3.5 py-2 rounded-sm transition-all flex items-center gap-2 shadow-sm">
+                <button onclick="switchTab('dashboard')" class="bg-rasad-red hover:bg-rasad-brightred text-white text-[11px] sm:text-xs font-bold px-2.5 sm:px-3.5 py-2 rounded-sm transition-all flex items-center gap-1.5 shadow-sm">
                     <i class="fas fa-broadcast-tower text-[11px] animate-pulse"></i>
                     <span>وضعیت زنده</span>
+                </button>
+
+                <button onclick="toggleDarkMode()" class="px-3 py-2 bg-rasad-darknavy text-white rounded-sm text-xs hover:bg-rasad-navy transition-colors flex items-center gap-1.5" title="حالت تاریک عملیاتی">
+                    <i class="fas fa-moon"></i>
                 </button>
             </div>
         </div>
 
+        <!-- Mobile Scrollable Navigation -->
         <nav class="bg-rasad-navy text-white text-xs md:text-sm font-bold shadow-inner">
-            <div class="max-w-[1450px] mx-auto px-4 flex items-center justify-between overflow-x-auto scrollbar-hide">
-                <div class="flex items-center space-x-reverse space-x-1 md:space-x-3 py-1">
+            <div class="max-w-[1450px] mx-auto px-2 sm:px-4 flex items-center justify-between overflow-x-auto scrollbar-hide mobile-scroll-mask">
+                <div class="flex items-center space-x-reverse space-x-1 py-1 px-1">
                     <button onclick="showHomeView(); filterFeed('all', this)" id="desk-tab-news" class="px-3 py-2 text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">صفحه اصلی</button>
                     <button onclick="showHomeView(); filterFeed('نظامی', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">نظامی و دفاعی</button>
                     <button onclick="showHomeView(); filterFeed('نیابتی', this)" class="px-3 py-2 text-gray-200 hover:text-white hover:bg-white/10 rounded transition-colors whitespace-nowrap">تحرکات نیابتی</button>
@@ -165,11 +303,11 @@
 
     <!-- MARKET TICKER -->
     <div class="bg-rasad-darknavy text-white text-xs border-b border-gray-800">
-        <div class="max-w-[1450px] mx-auto px-4 flex items-center h-9">
-            <div class="bg-rasad-red text-white font-bold px-3 py-1 text-[11px] flex items-center gap-1.5 flex-shrink-0">
-                <i class="fas fa-chart-line"></i> بازار و اقتصاد
+        <div class="max-w-[1450px] mx-auto px-2 sm:px-4 flex items-center h-9">
+            <div class="bg-rasad-red text-white font-bold px-2.5 sm:px-3 py-1 text-[10px] sm:text-[11px] flex items-center gap-1 flex-shrink-0">
+                <i class="fas fa-chart-line"></i> <span class="hidden xs:inline">بازار و اقتصاد</span>
             </div>
-            <div class="flex items-center gap-6 px-4 overflow-x-auto scrollbar-hide font-mono text-xs w-full">
+            <div class="flex items-center gap-4 sm:gap-6 px-3 overflow-x-auto scrollbar-hide font-mono text-[11px] sm:text-xs w-full whitespace-nowrap">
                 <div>USD/TMN: <span id="price-usd" class="font-bold text-green-400">در حال دریافت...</span></div>
                 <div class="text-gray-700">|</div>
                 <div>BTC/USD: <span id="price-btc" class="font-bold text-yellow-400">...</span></div>
@@ -303,6 +441,36 @@
                     </button>
                 </div>
 
+                <!-- ═══════════════ REGIONAL RADAR TARGET BOX ═══════════════ -->
+                <div class="bg-rasad-navy text-white p-4 rounded-sm border-t-4 border-rasad-red shadow-md">
+                    <div class="flex justify-between items-center border-b border-white/10 pb-2 mb-3">
+                        <span class="rasad-kicker text-amber-400 flex items-center gap-1.5 text-xs">
+                            <i class="fas fa-radar animate-spin text-rasad-red"></i> پایش جغرافیایی کانون‌های بحران
+                        </span>
+                        <span class="text-[9px] font-mono bg-rasad-red px-1.5 py-0.5 rounded text-white">LIVE RADAR</span>
+                    </div>
+
+                    <!-- Interactive Tactical Map Grid -->
+                    <div class="grid grid-cols-2 gap-2 text-[11px] font-bold">
+                        <button onclick="showHomeView(); handleSearch('هرمز')" class="p-2.5 bg-white/5 hover:bg-rasad-red/30 border border-white/10 rounded-sm flex items-center justify-between transition-all text-right">
+                            <span>🔴 تنگه هرمز</span>
+                            <i class="fas fa-crosshairs text-rasad-red text-[10px]"></i>
+                        </button>
+                        <button onclick="showHomeView(); handleSearch('سرخ')" class="p-2.5 bg-white/5 hover:bg-rasad-red/30 border border-white/10 rounded-sm flex items-center justify-between transition-all text-right">
+                            <span>🟠 دریای سرخ</span>
+                            <i class="fas fa-ship text-blue-400 text-[10px]"></i>
+                        </button>
+                        <button onclick="showHomeView(); handleSearch('لبنان')" class="p-2.5 bg-white/5 hover:bg-rasad-red/30 border border-white/10 rounded-sm flex items-center justify-between transition-all text-right">
+                            <span>🟡 مرز شمال</span>
+                            <i class="fas fa-satellite text-amber-400 text-[10px]"></i>
+                        </button>
+                        <button onclick="showHomeView(); handleSearch('هسته‌ای')" class="p-2.5 bg-white/5 hover:bg-rasad-red/30 border border-white/10 rounded-sm flex items-center justify-between transition-all text-right">
+                            <span>⚛️ سایت‌های هسته‌ای</span>
+                            <i class="fas fa-radiation text-green-400 text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
                 <!-- 3. URGENCY THREAT GAUGE PANEL -->
                 <div class="bg-white p-5 rounded-sm border border-rasad-border shadow-sm">
                     <div class="flex items-center justify-between border-b border-gray-200 pb-3 mb-3">
@@ -420,28 +588,31 @@ let currentSearch = '';
 let currentSort = 'newest';
 let itemsToShow = 10;
 
+// REPLACE the existing GITHUB_USER, FALLBACKS, and smartFetch function inside <script>
 const GITHUB_USER = 'itsyebekhe';
 const GITHUB_REPO = 'rasadai';
-const FALLBACKS = [
-    `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/`,
-    `https://github.com/${GITHUB_USER}/${GITHUB_REPO}/raw/main/`
-];
+const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/`;
+const GITHUB_CDN_BASE = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${GITHUB_REPO}@main/`;
 
 async function smartFetch(filename) {
+    const cacheBuster = `t=${Date.now()}`;
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 8000);
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
+
+    // 1. Primary Direct Fetch: Raw GitHub
     try {
-        const response = await fetch(`${filename}?t=${Date.now()}`, { signal: controller.signal });
+        const response = await fetch(`${GITHUB_RAW_BASE}${filename}?${cacheBuster}`, { signal: controller.signal });
         clearTimeout(timeoutId);
         if (response.ok) return response;
     } catch (e) {}
     clearTimeout(timeoutId);
 
-    for (const base of FALLBACKS) {
-        try {
-            const response = await fetch(`${base}${filename}`);
-            if (response.ok) return response;
-        } catch (e) {}
+    // 2. Secondary Direct Fetch: GitHub CDN (jsDelivr) as fallback
+    try {
+        const response = await fetch(`${GITHUB_CDN_BASE}${filename}?${cacheBuster}`);
+        if (response.ok) return response;
+    } catch (e) {
+        console.error(`Error loading ${filename} from GitHub sources:`, e);
     }
 }
 
@@ -765,6 +936,7 @@ function openArticleById(id) {
     }
 }
 
+// REPLACE renderHeroLead function inside <script>
 function renderHeroLead() {
     const heroContainer = document.getElementById('hero-lead-container');
     if (!newsData.length || !heroContainer) return;
@@ -777,33 +949,33 @@ function renderHeroLead() {
     const mainImg = mainLead.image || 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80';
 
     let html = `
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-5 border-b border-gray-200 pb-5 mb-5">
-            <a href="?id=${mainLead.id || ''}" onclick="event.preventDefault(); openArticleById('${mainLead.id || ''}');" class="md:col-span-7 relative h-64 md:h-80 rounded-sm overflow-hidden border border-gray-200 group block cursor-pointer">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-5 border-b border-gray-200 pb-5 mb-5">
+            <a href="?id=${mainLead.id || ''}" onclick="event.preventDefault(); openArticleById('${mainLead.id || ''}');" class="md:col-span-7 relative h-52 sm:h-64 md:h-80 rounded-sm overflow-hidden border border-gray-200 group block cursor-pointer">
                 <img src="${mainImg}" alt="Hero Image" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"></div>
                 
-                <div class="absolute top-3 right-3 bg-rasad-red text-white text-[10px] font-black px-2.5 py-1 rounded-sm shadow uppercase tracking-wider">
+                <div class="absolute top-2.5 right-2.5 bg-rasad-red text-white text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded-sm shadow uppercase tracking-wider">
                     <i class="fas fa-bolt"></i> خبر اصلی / فوریت بالا
                 </div>
 
-                <div class="absolute bottom-3 right-3 left-3 text-white text-xs leading-relaxed font-medium backdrop-blur-md bg-black/50 p-3 rounded-sm border border-white/10">
-                    <p class="font-bold text-amber-300 mb-1"><i class="fas fa-bullseye"></i> اثرگذاری راهبردی:</p>
-                    <p>${mainLead.impact || '---'}</p>
+                <div class="absolute bottom-2.5 right-2.5 left-2.5 text-white text-[11px] sm:text-xs leading-relaxed font-medium backdrop-blur-md bg-black/60 p-2.5 sm:p-3 rounded-sm border border-white/10">
+                    <p class="font-bold text-amber-300 mb-0.5"><i class="fas fa-bullseye"></i> اثرگذاری راهبردی:</p>
+                    <p class="line-clamp-2 sm:line-clamp-none">${mainLead.impact || '---'}</p>
                 </div>
             </a>
 
             <div class="md:col-span-5 flex flex-col justify-between space-y-3">
                 <div>
-                    <span class="rasad-kicker flex items-center gap-1.5 mb-1">
+                    <span class="rasad-kicker flex items-center gap-1.5 mb-1 text-[11px]">
                         <i class="fas ${mainTagConfig.icon}"></i> ${mainTagConfig.kicker}
                     </span>
-                    <h2 class="text-xl md:text-2xl font-black text-rasad-navy leading-snug hover:text-rasad-red transition-colors cursor-pointer">
+                    <h2 class="text-lg sm:text-xl md:text-2xl font-black text-rasad-navy leading-snug hover:text-rasad-red transition-colors cursor-pointer">
                         <a href="?id=${mainLead.id || ''}" onclick="event.preventDefault(); openArticleById('${mainLead.id || ''}');">${mainLead.title_fa}</a>
                     </h2>
-                    <p class="text-xs text-gray-500 font-mono dir-ltr text-left mt-2 opacity-80 line-clamp-2">${mainLead.title_en}</p>
+                    <p class="text-[11px] sm:text-xs text-gray-500 font-mono dir-ltr text-left mt-1.5 opacity-80 line-clamp-2">${mainLead.title_en}</p>
                 </div>
 
-                <div class="flex items-center justify-between text-xs text-gray-500 pt-2 border-t border-gray-100">
+                <div class="flex items-center justify-between text-[11px] sm:text-xs text-gray-500 pt-2 border-t border-gray-100">
                     <span>منبع: <strong class="text-rasad-navy">${mainLead.source}</strong></span>
                     <div class="flex items-center gap-2">
                         <button onclick="copyDeepLink('${mainLead.id || ''}')" class="px-2.5 py-1 bg-gray-100 hover:bg-gray-200 text-rasad-navy font-bold rounded-sm border border-gray-300" title="کپی لینک اختصاصی">
@@ -817,7 +989,7 @@ function renderHeroLead() {
             </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
     `;
 
     secondaryLeads.forEach(sec => {
@@ -825,22 +997,24 @@ function renderHeroLead() {
         const secImg = sec.image || 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=600&q=80';
 
         html += `
-            <div class="bg-rasad-graybg p-3 rounded-sm border border-gray-200 flex flex-col justify-between space-y-2">
-                <a href="?id=${sec.id || ''}" onclick="event.preventDefault(); openArticleById('${sec.id || ''}');" class="relative h-28 w-full rounded-sm overflow-hidden border border-gray-200 block cursor-pointer group">
+            <div class="bg-rasad-graybg p-3 rounded-sm border border-gray-200 flex flex-row sm:flex-col justify-between gap-3 space-y-0 sm:space-y-2">
+                <a href="?id=${sec.id || ''}" onclick="event.preventDefault(); openArticleById('${sec.id || ''}');" class="relative h-20 w-24 sm:w-full sm:h-28 flex-shrink-0 rounded-sm overflow-hidden border border-gray-200 block cursor-pointer group">
                     <img src="${secImg}" alt="Thumbnail" class="w-full h-full object-cover group-hover:scale-105 transition-transform">
-                    <span class="absolute top-1.5 right-1.5 bg-rasad-navy text-white text-[9px] font-bold px-1.5 py-0.5 rounded-sm">
+                    <span class="absolute top-1 right-1 bg-rasad-navy text-white text-[8px] sm:text-[9px] font-bold px-1.5 py-0.5 rounded-sm">
                         ${sec.tag}
                     </span>
                 </a>
-                <div>
-                    <span class="rasad-kicker text-[10px] block mb-1">${secConfig.kicker}</span>
-                    <h3 class="text-xs font-bold text-rasad-navy hover:text-rasad-red transition-colors leading-tight line-clamp-2 cursor-pointer">
-                        <a href="?id=${sec.id || ''}" onclick="event.preventDefault(); openArticleById('${sec.id || ''}');">${sec.title_fa}</a>
-                    </h3>
-                </div>
-                <div class="flex justify-between items-center text-[10px] text-gray-500 pt-1 border-t border-gray-200">
-                    <span>${sec.source}</span>
-                    <span>${timeAgo(sec.timestamp * 1000)}</span>
+                <div class="flex-grow flex flex-col justify-between">
+                    <div>
+                        <span class="rasad-kicker text-[9px] sm:text-[10px] block mb-0.5">${secConfig.kicker}</span>
+                        <h3 class="text-xs font-bold text-rasad-navy hover:text-rasad-red transition-colors leading-tight line-clamp-2 cursor-pointer">
+                            <a href="?id=${sec.id || ''}" onclick="event.preventDefault(); openArticleById('${sec.id || ''}');">${sec.title_fa}</a>
+                        </h3>
+                    </div>
+                    <div class="flex justify-between items-center text-[10px] text-gray-500 pt-1 mt-1 border-t border-gray-200">
+                        <span>${sec.source}</span>
+                        <span>${timeAgo(sec.timestamp * 1000)}</span>
+                    </div>
                 </div>
             </div>
         `;
@@ -937,8 +1111,8 @@ function renderFeed() {
                     <ul class="space-y-1">
                         ${related.map(r => `
                             <li class="text-[11px] text-rasad-red hover:underline font-bold flex items-center gap-1.5">
-                                <span class="w-1 h-1 bg-rasad-red rounded-full"></span>
-                                <a href="?id=${r.id}" onclick="event.preventDefault(); openArticleById('${r.id}');">${r.title_fa}</a>
+                                <span class="w-1 h-1 bg-rasad-red rounded-full flex-shrink-0"></span>
+                                <a href="?id=${r.id}" onclick="event.preventDefault(); openArticleById('${r.id}');" class="line-clamp-1">${r.title_fa}</a>
                             </li>
                         `).join('')}
                     </ul>
@@ -947,59 +1121,59 @@ function renderFeed() {
         }
 
         html += `
-        <article class="rasad-card p-4 md:p-5 rounded-sm shadow-sm relative border-r-4 ${tagConfig.border} mb-4">
-            <div class="flex flex-col sm:flex-row gap-4">
-                <div class="w-full sm:w-48 h-32 flex-shrink-0 rounded-sm overflow-hidden border border-gray-200">
+        <article class="rasad-card p-3 sm:p-5 rounded-sm shadow-sm relative border-r-4 ${tagConfig.border} mb-3 sm:mb-4">
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <div class="w-full sm:w-48 h-44 sm:h-32 flex-shrink-0 rounded-sm overflow-hidden border border-gray-200">
                     <img src="${imgURL}" alt="Photo" class="w-full h-full object-cover">
                 </div>
 
                 <div class="flex-grow flex flex-col justify-between">
                     <div>
-                        <div class="flex justify-between items-start gap-4 mb-1.5">
-                            <div class="flex items-center gap-2">
-                                <span class="rasad-kicker flex items-center gap-1"><i class="fas ${tagConfig.icon}"></i> ${tagConfig.kicker}</span>
-                                <span class="text-[10px] font-bold px-2 py-0.5 rounded-sm border ${tagConfig.badgeBg}">${item.tag}</span>
+                        <div class="flex justify-between items-start gap-2 mb-1.5 flex-wrap xs:flex-nowrap">
+                            <div class="flex items-center gap-1.5">
+                                <span class="rasad-kicker flex items-center gap-1 text-[10px] sm:text-xs"><i class="fas ${tagConfig.icon}"></i> ${tagConfig.kicker}</span>
+                                <span class="text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded-sm border ${tagConfig.badgeBg}">${item.tag}</span>
                             </div>
-                            <div class="text-[11px] text-gray-400 font-mono flex items-center gap-2">
+                            <div class="text-[10px] sm:text-[11px] text-gray-400 font-mono flex items-center gap-1.5">
                                 <span>${timeAgo(item.timestamp * 1000)}</span>
                                 <span>•</span>
-                                <span>${readTimeMinutes} دقیقه مطالعه</span>
+                                <span>${readTimeMinutes} دقیقه</span>
                             </div>
                         </div>
 
-                        <h3 class="text-base font-bold text-rasad-text leading-snug hover:text-rasad-red transition-colors mb-1">
+                        <h3 class="text-sm sm:text-base font-bold text-rasad-text leading-snug hover:text-rasad-red transition-colors mb-1">
                             <a href="?id=${item.id || ''}" onclick="event.preventDefault(); openArticleById('${item.id || ''}');">${item.title_fa}</a>
                         </h3>
 
-                        <p class="text-[11px] text-gray-500 dir-ltr text-left font-mono opacity-80 line-clamp-1">${item.title_en}</p>
+                        <p class="text-[10px] sm:text-[11px] text-gray-500 dir-ltr text-left font-mono opacity-80 line-clamp-1">${item.title_en}</p>
                     </div>
 
                     ${relatedHTML}
 
                     <div class="mt-3 pt-2 border-t border-gray-100 flex items-center justify-between text-xs text-gray-600">
-                        <span class="font-bold text-rasad-navy"><i class="fas fa-university"></i> ${item.source}</span>
+                        <span class="font-bold text-rasad-navy text-[11px] sm:text-xs"><i class="fas fa-university"></i> ${item.source}</span>
                         
                         <div class="flex items-center gap-3">
-                            <button onclick="copyDeepLink('${item.id || ''}')" class="text-gray-400 hover:text-rasad-navy font-bold text-xs" title="کپی لینک اختصاصی">
+                            <button onclick="copyDeepLink('${item.id || ''}')" class="text-gray-400 hover:text-rasad-navy font-bold text-xs p-1" title="کپی لینک اختصاصی">
                                 <i class="fas fa-link"></i>
                             </button>
-                            <button onclick="speakText('${item.title_fa}')" class="text-gray-400 hover:text-rasad-red font-bold text-xs" title="شنیدن صوتی">
+                            <button onclick="speakText('${item.title_fa}')" class="text-gray-400 hover:text-rasad-red font-bold text-xs p-1" title="شنیدن صوتی">
                                 <i class="fas fa-volume-up"></i>
                             </button>
-                            <button onclick="toggleAnalysis(${index})" class="text-rasad-navy hover:text-rasad-red font-bold text-xs flex items-center gap-1">
-                                <i class="fas fa-brain"></i> تحلیل هوشمند <i class="fas fa-chevron-down text-[10px]"></i>
+                            <button onclick="toggleAnalysis(${index})" class="text-rasad-navy hover:text-rasad-red font-bold text-[11px] sm:text-xs flex items-center gap-1">
+                                <i class="fas fa-brain"></i> <span class="hidden xs:inline">تحلیل هوشمند</span> <i class="fas fa-chevron-down text-[10px]"></i>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="analysis-${index}" class="hidden bg-rasad-graybg p-4 rounded-sm border border-gray-200 mt-3 text-xs text-rasad-text">
+            <div id="analysis-${index}" class="hidden bg-rasad-graybg p-3 sm:p-4 rounded-sm border border-gray-200 mt-3 text-xs text-rasad-text">
                 <p class="font-bold text-rasad-navy mb-1.5"><i class="fas fa-bullseye"></i> اثرگذاری راهبردی:</p>
-                <p class="mb-3 leading-relaxed text-gray-700">${item.impact || '---'}</p>
+                <p class="mb-3 leading-relaxed text-gray-700 text-[11px] sm:text-xs">${item.impact || '---'}</p>
                 
                 <p class="font-bold text-rasad-navy mb-1"><i class="fas fa-list-ul"></i> نکات کلیدی:</p>
-                <ul class="list-disc pr-4 space-y-1 text-gray-600">${summaryHTML}</ul>
+                <ul class="list-disc pr-4 space-y-1 text-gray-600 text-[11px] sm:text-xs">${summaryHTML}</ul>
             </div>
         </article>
         `;
@@ -1077,6 +1251,11 @@ function updateStats(data) {
 
     if (totalEl) totalEl.innerText = totalCount;
     if (criticalEl) criticalEl.innerText = criticalCount;
+    const syncBadge = document.getElementById('github-sync-status');
+    if (syncBadge) {
+        const now = new Date();
+        syncBadge.innerText = `بروز شده (${now.getHours()}:${now.getMinutes().toString().padStart(2, '0')})`;
+    }
 }
 
 function filterFeed(tag, btn) {
@@ -1104,6 +1283,80 @@ function timeAgo(ms) {
     return Math.floor(diff/86400) + " روز پیش";
 }
 
+// ADD inside <script> section
+function toggleMobileDrawer() {
+    const drawer = document.getElementById('mobile-drawer');
+    if (drawer) {
+        drawer.classList.toggle('hidden');
+    }
+}
+
+function switchMobileTab(tab) {
+    // Reset active tabs on bottom nav bar
+    document.querySelectorAll('[id^="mob-nav-"]').forEach(btn => {
+        btn.classList.remove('text-rasad-red');
+        btn.classList.add('text-gray-400');
+    });
+
+    const activeBtn = document.getElementById(`mob-nav-${tab}`);
+    if (activeBtn) {
+        activeBtn.classList.remove('text-gray-400');
+        activeBtn.classList.add('text-rasad-red');
+    }
+
+    // Scroll smoothly to relevant mobile views
+    if (tab === 'feed') {
+        showHomeView();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (tab === 'threat') {
+        showHomeView();
+        const threatElem = document.getElementById('tension-fill');
+        if (threatElem) {
+            threatElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    } else if (tab === 'bulletin') {
+        showHomeView();
+        const bulletinElem = document.getElementById('bulletin-widget-content');
+        if (bulletinElem) {
+            bulletinElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+}
+
+// 1. Dark Mode Toggle
+function toggleDarkMode() {
+    const isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('rasad_theme', isDark ? 'dark' : 'light');
+}
+
+// Auto-restore user's Dark Mode preference on startup
+(function initTheme() {
+    const savedTheme = localStorage.getItem('rasad_theme');
+    if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    }
+})();
+
+// 2. Power-User Keyboard Shortcuts
+document.addEventListener('keydown', (e) => {
+    // Press '/' to quick search
+    if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+        e.preventDefault();
+        const searchInput = document.querySelector('input[type="text"]');
+        if (searchInput) searchInput.focus();
+    }
+    // Press 'R' or 'r' to reload GitHub data
+    if ((e.key === 'r' || e.key === 'R') && document.activeElement.tagName !== 'INPUT') {
+        loadData();
+    }
+    // Press 'Escape' to close modals or drawers
+    if (e.key === 'Escape') {
+        closeDailySummaryModal();
+        const drawer = document.getElementById('mobile-drawer');
+        if (drawer) drawer.classList.add('hidden');
+    }
+});
+
 /* INITIALIZATION */
 loadData();
 loadSpecialReport();
@@ -1112,6 +1365,106 @@ async function initDailySummary() { try { const res = await smartFetch('daily_su
 initDailySummary();
 setInterval(loadData, 30000);
 </script>
+
+<!-- ═══════════════ MOBILE BOTTOM APP BAR ═══════════════ -->
+<div class="fixed bottom-0 inset-x-0 bg-rasad-darknavy border-t-2 border-rasad-red text-white z-50 md:hidden shadow-2xl pb-safe">
+    <div class="grid grid-cols-5 h-14 items-center text-center text-[10px]">
+        
+        <button onclick="switchMobileTab('feed')" id="mob-nav-feed" class="flex flex-col items-center justify-center h-full text-rasad-red font-bold transition-colors">
+            <i class="fas fa-newspaper text-base mb-0.5"></i>
+            <span>اخبار</span>
+        </button>
+
+        <button onclick="switchMobileTab('threat')" id="mob-nav-threat" class="flex flex-col items-center justify-center h-full text-gray-400 hover:text-white transition-colors">
+            <div class="relative">
+                <i class="fas fa-shield-alt text-base mb-0.5"></i>
+                <span class="absolute -top-1 -right-2 w-2 h-2 rounded-full bg-rasad-red animate-ping"></span>
+            </div>
+            <span>شاخص امنیتی</span>
+        </button>
+
+        <button onclick="openDailySummaryModal()" class="flex flex-col items-center justify-center h-full text-amber-400 font-bold">
+            <div class="w-9 h-9 bg-rasad-red text-white rounded-full flex items-center justify-center shadow-lg border border-amber-300 -mt-4">
+                <i class="fas fa-file-alt text-base"></i>
+            </div>
+            <span class="text-[9px] mt-0.5">بولتن</span>
+        </button>
+
+        <button onclick="switchMobileTab('bulletin')" id="mob-nav-bulletin" class="flex flex-col items-center justify-center h-full text-gray-400 hover:text-white transition-colors">
+            <i class="fas fa-history text-base mb-0.5"></i>
+            <span>سرخط‌ها</span>
+        </button>
+
+        <button onclick="toggleMobileDrawer()" id="mob-nav-tools" class="flex flex-col items-center justify-center h-full text-gray-400 hover:text-white transition-colors">
+            <i class="fas fa-satellite text-base mb-0.5"></i>
+            <span>ابزارها</span>
+        </button>
+
+    </div>
+</div>
+
+<!-- ═══════════════ MOBILE INTEL & TOOLS BOTTOM DRAWER ═══════════════ -->
+<div id="mobile-drawer" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 md:hidden hidden transition-opacity duration-300">
+    <div class="absolute bottom-0 inset-x-0 bg-white rounded-t-xl max-h-[85vh] overflow-y-auto p-5 shadow-2xl space-y-5 border-t-4 border-rasad-navy">
+        
+        <!-- Drawer Header Handle -->
+        <div class="flex justify-between items-center border-b border-gray-200 pb-3">
+            <div class="w-12 h-1 bg-gray-300 rounded-full mx-auto absolute left-1/2 -translate-x-1/2 top-2"></div>
+            <h3 class="rasad-kicker flex items-center gap-2 text-sm">
+                <i class="fas fa-satellite text-rasad-navy"></i> ابزارهای پایش و کانون‌های تنش
+            </h3>
+            <button onclick="toggleMobileDrawer()" class="text-gray-400 hover:text-rasad-red text-lg p-1"><i class="fas fa-times"></i></button>
+        </div>
+
+        <!-- 1. Regional Flashpoints on Mobile -->
+        <div>
+            <h4 class="font-bold text-xs text-rasad-navy mb-2 flex items-center gap-1.5">
+                <i class="fas fa-map-marker-alt text-rasad-red"></i> کانون‌های تنش منطقه‌ای
+            </h4>
+            <div class="space-y-2 text-xs">
+                <div class="flex justify-between items-center p-2.5 bg-rasad-graybg rounded-sm border border-gray-200">
+                    <span class="font-bold text-rasad-navy">تنگه هرمز و خلیج فارس</span>
+                    <span class="px-2 py-0.5 bg-red-100 text-rasad-red font-bold text-[10px] rounded-sm">هشدار بالا</span>
+                </div>
+                <div class="flex justify-between items-center p-2.5 bg-rasad-graybg rounded-sm border border-gray-200">
+                    <span class="font-bold text-rasad-navy">شبه‌جزیره سینا و مصر</span>
+                    <span class="px-2 py-0.5 bg-orange-100 text-orange-700 font-bold text-[10px] rounded-sm">تحرکات پهپادی</span>
+                </div>
+                <div class="flex justify-between items-center p-2.5 bg-rasad-graybg rounded-sm border border-gray-200">
+                    <span class="font-bold text-rasad-navy">مرزهای لبنان و اسرائیل</span>
+                    <span class="px-2 py-0.5 bg-red-100 text-rasad-red font-bold text-[10px] rounded-sm">درگیری فعال</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Satellite Tools Grid on Mobile -->
+        <div>
+            <h4 class="font-bold text-xs text-rasad-navy mb-2 flex items-center gap-1.5">
+                <i class="fas fa-globe text-rasad-navy"></i> سامانه رادارهای رصد زنده
+            </h4>
+            <div class="grid grid-cols-2 gap-2 text-xs">
+                <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" class="p-3 bg-rasad-graybg rounded-sm border border-gray-200 flex items-center gap-2 font-bold text-rasad-navy">
+                    <i class="fas fa-fire text-rasad-red"></i> <span>حرارتی ناسا</span>
+                </a>
+                <a href="https://www.flightradar24.com/" target="_blank" class="p-3 bg-rasad-graybg rounded-sm border border-gray-200 flex items-center gap-2 font-bold text-rasad-navy">
+                    <i class="fas fa-plane text-blue-600"></i> <span>رادار پرواز</span>
+                </a>
+                <a href="https://www.marinetraffic.com/" target="_blank" class="p-3 bg-rasad-graybg rounded-sm border border-gray-200 flex items-center gap-2 font-bold text-rasad-navy">
+                    <i class="fas fa-ship text-teal-600"></i> <span>ترافیک دریایی</span>
+                </a>
+                <a href="https://netblocks.org/" target="_blank" class="p-3 bg-rasad-graybg rounded-sm border border-gray-200 flex items-center gap-2 font-bold text-rasad-navy">
+                    <i class="fas fa-network-wired text-purple-600"></i> <span>پایش اینترنت</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Proxy Telegram shortcut -->
+        <a href="https://itsyebekhe.github.io/MTProtoNexus/" target="_blank" class="block w-full text-center bg-blue-600 text-white font-bold py-3 rounded-sm text-xs shadow-md">
+            <i class="fab fa-telegram-plane ml-1"></i> اتصال به پروکسی فعال تلگرام
+        </a>
+
+    </div>
+</div>
 
 </body>
 </html>

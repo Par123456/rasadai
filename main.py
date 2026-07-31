@@ -25,6 +25,10 @@ CONFIG = {
         'Iran (Israel OR Gaza OR Hezbollah OR Houthis) (attack OR strike OR missile OR drone)',
         'Iran (nuclear OR IAEA OR enrichment OR sanctions)',
         'Iran (dollar OR rial OR currency OR IRGC OR economy)',
+        '(Trump OR "Donald Trump") (Iran OR "regime change" OR sanctions OR nuclear OR Israel)',
+        '(Netanyahu OR "Benjamin Netanyahu") (Iran OR strike OR nuclear OR Hezbollah OR IRGC)',
+        '("Reza Pahlavi" OR "شاهزاده رضا پهلوی" OR "Pahlavi") (Iran OR opposition OR transition OR speech)',
+        '("IRGC" OR "Qhalibaf" OR "Qaani" OR "سپاه پاسداران") (Iran OR missile OR proxies OR threat)'
     ],
     'TARGET_SOURCES': [
         'iranintl.com', 'bbc.com/persian', 'radiofarda.com', 'independentpersian.com',
@@ -441,24 +445,32 @@ class IranNewsRadar:
     def get_combined_news(self):
         all_entries = []
         futs = []
-        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
+            # 1. Main News Queries
             futs.append(ex.submit(self.fetch_gnews))
             futs.append(ex.submit(self.fetch_bing_rss, CONFIG['SEARCH_QUERY']))
-            for q in CONFIG.get('SEARCH_QUERIES', [CONFIG['SEARCH_QUERY']]):
+            
+            # 2. Iterate through all specialized queries including key figures
+            for q in CONFIG.get('SEARCH_QUERIES', []):
                 futs.append(ex.submit(self.fetch_duckduckgo, q, 'wt-wt', 6))
-            for domain in CONFIG.get('PRIORITY_SITES', [])[:5]:
-                if any(x in domain for x in ['bbc', 'radiofarda', 'dw', 'iranintl', 'independent']):
-                    q = f"site:{domain} ایران"
-                else:
-                    q = f"site:{domain} Iran"
-                futs.append(ex.submit(self.fetch_duckduckgo, q, 'wt-wt', 5))
+            
+            # 3. Dedicated Figure Site Searches
+            figure_sites = [
+                'site:independentpersian.com شاهزاده رضا پهلوی OR ترامپ OR نتانیاهو',
+                'site:iranintl.com ترامپ OR نتانیاهو OR پهلوی OR سپاه',
+                'site:radiofarda.com رضا پهلوی OR ترامپ OR نتانیاهو'
+            ]
+            for f_q in figure_sites:
+                futs.append(ex.submit(self.fetch_duckduckgo, f_q, 'wt-wt', 4))
+
             for fut in concurrent.futures.as_completed(futs):
                 try:
                     batch = fut.result() or []
                     all_entries.extend(batch)
                 except Exception as e:
                     logger.warning(f"Search worker failed: {e}")
-        logger.info(f"Raw search hits: {len(all_entries)}")
+
+        logger.info(f"Raw search hits (including key figures): {len(all_entries)}")
         return all_entries
 
     # ───────────────────────── URL resolve ─────────────────────────
@@ -592,7 +604,12 @@ class IranNewsRadar:
 
         system_prompt = (
             "تو یک تحلیل‌گر ارشد و تیزبین ژئوپلیتیک، مسلط به ادبیات کانال‌های تحلیلی تلگرام فارسی (مانند تحلیل‌گران مستقل و اپوزیسیون ایرانی) هستی.\n"
-            "وظیفه تو تبدیل اخبار خام به تحلیل‌های کوتاه، ضربتی، کاملاً انسانی، به فارسی روان و بدون «بوی هوش مصنوعی» است.\n\n"
+            "وظیفه تو تبدیل اخبار خام و سخنرانی‌های چهره‌های کلیدی به تحلیل‌های کوتاه، ضربتی، کاملاً انسانی، به فارسی روان است.\n\n"
+            "🎯 **دستورالعمل ویژه پوشش سخنرانی‌ها و مواضع چهره‌های اصلی (مهم):**\n"
+            " - **دونالد ترامپ:** موضع وی در قبال ایران، تحریم‌ها، فشار حداکثری یا اقدامات نظامی را شفاف، صریح و بدون سانسور ترجمه و تحلیل کن.\n"
+            " - **بنیامین نتانیاهو:** هشدارها، طرح‌های ضربتی علیه تاسیسات هسته‌ای یا سپاه را مستقیماً پوشش بده.\n"
+            " - **شاهزاده رضا پهلوی (اپوزیسیون):** فراخوان‌ها، پیام‌ها به ملت ایران، و طرح‌های گذار از جمهوری اسلامی را با لحن محترمانه، روان و پوشش کامل خبری منعکس کن.\n"
+            " - **فرماندهان سپاه (سلامی، قاآنی و...):** ادعاها و تهدیدهای آنان را افشا کرده و واقعیت پشت خط کلامی (جنگ روانی) را تحلیل کن.\n\n"
             "🔴 قوانین حیاتی نگارش و انسانی‌سازی (مهم - حتماً رعایت شود):\n"
             "۱. **روانی، شفافیت و سادگی زبان (مهم):**\n"
             " - از کلمات قلم‌به‌سلم، پیچیده و عجیب دانشگاهی (مثل: 'گره مشخص'، 'تعمیم روایت'، 'شکل‌گیری محاسبات') مطلقاً استفاده نکن.\n"

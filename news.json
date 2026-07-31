@@ -1,5 +1,43 @@
 [
     {
+        "id": "b47bed3681",
+        "title_fa": "شبکه شرط‌بندی فارسی، مسیر دور زدن تحریم ۴ میلیارد دلاری",
+        "title_en": "SPECIAL REPORT-Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge",
+        "summary": [
+            "یک صرافی غیرمجاز با آدرس دفتر در دبی (Shelbit) به‌عنوان هاب انتقال رمزارز، پول را برای عملیات دور زدن تحریم به بازارهای جهانی می‌چرخاند؛ بر اساس گزارش تحقیقاتی، حداقل ۴ میلیارد دلار از می ۲۰۲۴ پردازش شده است.",
+            "گستردگی شبکه شرط‌بندی فارسی (بیش از ۲ هزار سایت) فقط «کلاهبرداری» نیست؛ این شبکه به سیستم پرداخت آنلاین ایران دسترسی دارد و عملاً از نظارت نزدیک بانک مرکزی هم عبور می‌کند یا آن را دور می‌زند.",
+            "دو اینفلوئنسر فارسی‌زبان با ارتباطات سطح‌بالای حکومتی، به‌عنوان ویترین این جریان معرفی شده‌اند؛ یعنی دور زدن تحریم، با پرزرق‌وبرق‌سازی رسانه‌ای و چسبیدن به حلقه‌های قدرت جلو می‌رود.",
+            "پیوند داده‌های پرونده به افراد و حتی محکومیت‌های قبلی (محکومیت ۲۰۲۳ برای پرونده شرط‌بندی) نشان می‌دهد این مدل فعالیت، چرخه‌ای و تکرارشونده است؛ نه یک اتفاق مقطعی."
+        ],
+        "impact": "این افشاگری یعنی بخشی از پول‌های ایران از یک زنجیره «پرداخت داخلی → ویترین شرط‌بندی → صرافی دبی → رمزارز جهانی» عبور می‌کند و کانال‌های نظارتی عملاً قابل دورزدن‌اند.",
+        "tag": "تحریم-رمزارز",
+        "urgency": 7,
+        "sentiment": -0.78,
+        "source": "devdiscourse",
+        "url": "https://www.devdiscourse.com/article/politics/3957730-special-report-illicit-iranian-gambling-network-helped-pull-off-a-4-billion-sanctions-dodge",
+        "clean_url": "https://www.devdiscourse.com/article/politics/3957730-special-report-illicit-iranian-gambling-network-helped-pull-off-a-4-billion-sanctions-dodge",
+        "image": "https://www.devdiscourse.com/img?imageUrl=https://devdiscourse.blob.core.windows.net/aiimagegallery/29_07_2024_10_19_48_5921959.png&width=920&format=jpeg",
+        "timestamp": 1785488520.0
+    },
+    {
+        "id": "8f7c57bd2c",
+        "title_fa": "شبکه قمار غیرقانونی ایران، کانال فرار ۴ میلیاردی",
+        "title_en": "Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge",
+        "summary": [
+            "یک شبکه بزرگ قمار غیرقانونی، میلیون‌ها دلار پول رمزارز را از طریق یک دفتر در دبی جابه‌جا می‌کند تا بخشی از عملیات دورزدن تحریم‌ها پیش برود.",
+            "این افشا نشان می‌دهد دورزدن تحریم فقط با مسیرهای کلاسیک تجاری نیست؛ پول از سرگرمی/قمار و شبکه‌های مالی خاکستری تغذیه می‌شود و بعد در قالب کریپتو شسته و منتقل می‌گردد."
+        ],
+        "impact": "تمرکز دوباره روی نقش صرافی‌ها، دفترهای تجاری و شرکت‌های واسط در دبی می‌تواند اجرای تحریم‌ها را سخت‌تر و پرریسک‌تر کند.",
+        "tag": "تحریم",
+        "urgency": 7,
+        "sentiment": -0.55,
+        "source": "Reuters",
+        "url": "https://www.reuters.com/investigations/illicit-iranian-gambling-network-helped-pull-off-4-billion-sanctions-dodge-2026-07-31/",
+        "clean_url": "https://www.reuters.com/investigations/illicit-iranian-gambling-network-helped-pull-off-4-billion-sanctions-dodge-2026-07-31",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785488040.0
+    },
+    {
         "id": "7c89550ebc",
         "title_fa": "آمریکا ردپای حمله سایبری به آب مینه‌سوتا را می‌جوید",
         "title_en": "US Iran War Live Updates: US probes cyberattacks on Minnesota water systems for suspected Iran link",
@@ -5643,43 +5681,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784879670.0,
         "id": "6c8b4c4af4"
-    },
-    {
-        "title_fa": "وال‌استریت‌ژورنال: تردید ترامپ درباره دیپلماسی و حرکت به سمت فشار تلافی‌جویانه علیه تهران",
-        "title_en": "Trump is losing patience over an Iran war with no clear end in sight",
-        "summary": [
-            "یک مقام ارشد دولت آمریکا می‌گوید ترامپ نسبت به دیپلماسی درباره جنگ با ایران «بی‌صبر» شده و روند مذاکره را فاقد افق روشن می‌بیند.",
-            "به‌گفته همان منبع، رئیس‌جمهور در «حالت انتقام» علیه تهران قرار گرفته؛ یعنی رویکرد کنونی از کنترل بحران خارج شده و به فشار سیاسی/عملی بیشتر تمایل پیدا می‌کند.",
-            "در گزارش هیچ «پایان مشخص» یا چارچوب خروج دیپلماتیک ارائه نشده، پس ریسک طولانی‌شدن درگیری و سخت‌تر شدن مسیر مدیریت تنش بالا می‌رود."
-        ],
-        "impact": "این تحول یعنی احتمال کنار رفتن تدریجی دیپلماسی و افزایش فشار آمریکا می‌تواند چرخه تنش را طولانی‌تر و خطر برخورد مستقیم را بیشتر کند.",
-        "tag": "فشارخارجی",
-        "urgency": 7,
-        "sentiment": -0.4,
-        "source": "The Wall Street Journal on MSN",
-        "url": "https://www.msn.com/en-us/news/world/trump-is-losing-patience-over-an-iran-war-with-no-clear-end-in-sight/ar-AA28z12t",
-        "clean_url": "https://www.msn.com/en-us/news/world/trump-is-losing-patience-over-an-iran-war-with-no-clear-end-in-sight/ar-AA28z12t",
-        "image": "http://www.bing.com/th?id=ONUT.IrAbUm48CXi4DuNQAYGRfg&pid=News",
-        "timestamp": 1784879520.0,
-        "id": "9cc0cd7295"
-    },
-    {
-        "title_fa": "برنت بالای ۱۰۰ دلار؛ تنش با ایران هزینه انرژی را بالا برد",
-        "title_en": "Brent Crude Oil Prices Top $100 as Conflict With Iran Drags On",
-        "summary": [
-            "قیمت نفت برنت از مرز ۱۰۰ دلار عبور کرد و علت مستقیم آن «ادامه تنش» با ایران عنوان شده است؛ یعنی بازار، ریسک درگیری را در قیمت لحاظ می‌کند.",
-            "این اتفاق نشان می‌دهد شوک‌های ژئوپلیتیک می‌تواند سریع به اقتصاد جهانی و هزینه انرژی سرایت کند و فشار مالی غیرمستقیم بر همه کشورها ایجاد کند.",
-            "برای جمهوری اسلامی، همین روند می‌تواند به معنای تشدید بی‌ثباتی اقتصادی و افزایش هزینه‌های عملیاتی در زنجیره تامین انرژی باشد، اما در متن به اقدام مشخص اقتصادی یا سیاسی دیگری از سوی رژیم اشاره نشده است."
-        ],
-        "impact": "رشد قیمت نفت ناشی از تنش با ایران می‌تواند به بی‌ثباتی اقتصادی دامن بزند، چون هزینه انرژی بالا می‌رود و فشار تورمی/هزینه‌ای در اقتصادهای وابسته افزایش می‌یابد.",
-        "tag": "اقتصادی",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "The New York Times",
-        "url": "https://www.msn.com/en-us/money/markets/oils-flirting-with-100-but-the-energy-shock-may-be-bigger-than-it-looks/ar-AA28zdiL",
-        "clean_url": "https://www.msn.com/en-us/money/markets/oils-flirting-with-100-but-the-energy-shock-may-be-bigger-than-it-looks/ar-AA28zdiL",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784879033.0,
-        "id": "dfb58d3b72"
     }
 ]

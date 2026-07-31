@@ -19,6 +19,24 @@
         "timestamp": 1785526920.0
     },
     {
+        "id": "506918ed56",
+        "title_fa": "ترامپ می‌گوید حمله سایبری آب مینه‌سوتا کار خودشان است",
+        "title_en": "Trump Claims Minnesota Is Behind Cyberattack on Its Own Water Systems, Not Iran",
+        "summary": [
+            "ترامپ ادعا می‌کند حمله سایبری به سامانه‌های آب مینه‌سوتا «از ایران نیست» و منشأ آن را داخلی می‌داند؛ یعنی روایتِ «تهدید خارجی» را از پرونده حذف می‌کند.",
+            "در همان حال، اشاره رسانه‌ای به تضعیف ظرفیت دولت فدرال برای مقابله با تهدیدهاست: کاهش جدی نیروی سازمان‌های امنیتی (به‌همراه پروژه‌هایی مثل DOGE) می‌تواند باعث شود تشخیص منبع حمله دیرتر، ضعیف‌تر یا مبهم‌تر شود؛ بنابراین نتیجه‌گیری‌های سیاسی سریع، بدون پشتوانه فنی، خطرناک است."
+        ],
+        "impact": "اگر روایت «داخلی بودن حمله» غالب شود، هم پاسخ اضطراری کندتر می‌ماند و هم موضوع، از امنیت ملی به جنگ روایت‌های سیاسی تبدیل می‌شود.",
+        "tag": "سایبری",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "Gizmodo",
+        "url": "https://gizmodo.com/trump-claims-minnesota-is-behind-cyberattack-on-its-own-water-systems-not-iran-2000793470",
+        "clean_url": "https://gizmodo.com/trump-claims-minnesota-is-behind-cyberattack-on-its-own-water-systems-not-iran-2000793470",
+        "image": "http://www.bing.com/th?id=ONUT.H0Kqt9CEVh84-sx5hAljYg&pid=News",
+        "timestamp": 1785501000.0
+    },
+    {
         "id": "b47bed3681",
         "title_fa": "شبکه شرط‌بندی فارسی، مسیر دور زدن تحریم ۴ میلیارد دلاری",
         "title_en": "SPECIAL REPORT-Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge",
@@ -55,6 +73,24 @@
         "clean_url": "https://www.reuters.com/investigations/illicit-iranian-gambling-network-helped-pull-off-4-billion-sanctions-dodge-2026-07-31",
         "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785488040.0
+    },
+    {
+        "id": "dd79293cf0",
+        "title_fa": "۳ جمهوری‌خواه برای مهار اختیارات جنگی ترامپ شکستن صف",
+        "title_en": "3 Republicans break ranks in attempt to limit Trump's Iran war powers",
+        "summary": [
+            "۳ نماینده جمهوری‌خواه با رأیی عمدتاً نمادین، تلاش کردند اختیارات ترامپ برای اقدام نظامی علیه ایران محدود شود.",
+            "این حرکت هرچند اثر حقوقی گسترده‌ای ندارد، اما پیام سیاسی مهمی دارد: تنش‌ها آن‌قدر بالاست که حتی داخل حزب ترامپ هم شکاف دیده می‌شود و فضای «جنگ بدون ترمز» قابل کنترل نیست."
+        ],
+        "impact": "این رأی نمادین می‌تواند هزینه سیاسی حمله را بالا ببرد و ترامپ را به احتیاط بیشتر یا اتکا به مسیرهای دیگر برای اقدام سوق دهد.",
+        "tag": "سیاسی",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "TIME on MSN",
+        "url": "https://www.msn.com/en-us/news/politics/3-republicans-break-ranks-in-attempt-to-limit-trump-s-iran-war-powers/ar-AA299kNx",
+        "clean_url": "https://www.msn.com/en-us/news/politics/3-republicans-break-ranks-in-attempt-to-limit-trump-s-iran-war-powers/ar-AA299kNx",
+        "image": "http://www.bing.com/th?id=ONUT.iekeEskIKRtZFjNxt8PTdg&pid=News",
+        "timestamp": 1785486373.0
     },
     {
         "id": "ae25993d6d",
@@ -109,6 +145,26 @@
         "clean_url": "https://www.counterpunch.org/2026/07/31/washingtons-nuclear-double-standard-in-west-asia",
         "image": "https://www.counterpunch.org/wp-content/uploads/2025/06/Screenshot-2025-06-24-at-4.35.56-PM-953x630.png",
         "timestamp": 1785477420.0
+    },
+    {
+        "id": "8d2fb56b7e",
+        "title_fa": "خطای بزرگ ترامپ: نفهمیدن اولویت‌های تهران در جنگ",
+        "title_en": "This May Be Trump’s Biggest Error in the Iran War",
+        "summary": [
+            "این گزارش می‌گوید «بزرگ‌ترین اشتباه» دولت ترامپ در جنگ علیه ایران، نخواندن منطق تهران است: اینکه آمریکا چطور فکر می‌کند و تهران تا چه حد حاضر است هزینه و تنبیه را تحمل کند.",
+            "نمونه روشنش حمله بالستیک ایران به نیروهای آمریکا در اردن است؛ اقدامی که واشنگتن آن را «غافلگیرکننده» دانست، چون انتظار داشت آمریکا با فشار بیشتر، واکنش شتاب‌زده بگیرد—اما تهران بعد از توقف ۱۳ روز حملات آمریکا، فوراً فاز را تشدید کرد.",
+            "هم‌زمان، حملات مشترک آمریکا و عربستان علیه نیروهای نیابتی در عراق و اعلام علنی نخستین ضربه‌های نظامی ریاض دیده شد؛ این یعنی جنگ از سطح پیام و تهدید لفظی به میدان عملیاتی کشیده می‌شود و احتمال درگیر شدن بازیگران دیگر بالا می‌رود.",
+            "گزارش نتیجه می‌گیرد چرخه سوءبرداشت دو طرف ادامه دارد: یکی جنگ را با الگوی «انتقام-واکنش» می‌سنجد و دیگری آن را با منطق «بازدارندگی-خنثی‌سازی تهدید» پیش می‌برد."
+        ],
+        "impact": "اگر آمریکا اولویت‌های واقعی تهران را درست نفهمد، هر توقف یا تغییر فاز حملات می‌تواند با تشدید ناگهانی از سوی ایران پاسخ بگیرد و دام جنگ گسترده‌تر شود.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.35,
+        "source": "The Atlantic",
+        "url": "https://www.theatlantic.com/national-security/2026/07/iran-war-trump-misunderstandings/688117/",
+        "clean_url": "https://www.theatlantic.com/national-security/2026/07/iran-war-trump-misunderstandings/688117",
+        "image": "http://www.bing.com/th?id=ONUT.tJ4xQi-arKfJLNvE5bzHQQ&pid=News",
+        "timestamp": 1785473940.0
     },
     {
         "id": "523ee803ae",
@@ -5620,62 +5676,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784893440.0,
         "id": "eaf96300b8"
-    },
-    {
-        "title_fa": "تهدید ترامپ به تشدید جدی علیه ایران همزمان با ورود جنگ به ماه چهارم",
-        "title_en": "Trump threatens a major escalation in Iran as the war rounds its 4th month",
-        "summary": [
-            "طبق گزارش NPR، ترامپ از تشدید «مهم» علیه ایران حرف زده و آن را به ادامه‌دار شدن جنگ و ورود آن به ماه چهارم گره زده است.",
-            "این پیام، به‌عنوان فشار خارجیِ بالقوه، می‌تواند محاسبات تهران را درباره ریسک‌پذیری عملیاتی تغییر دهد و سطح تنش را در کوتاه‌مدت بالا ببرد.",
-            "NPR بدون ارائه جزئیات مشخص درباره نوع اقدام یا زمان‌بندی، محتوای اصلی خبر را همان تهدید به تشدید در چارچوب فشار سیاسی-امنیتی معرفی می‌کند."
-        ],
-        "impact": "تهدید به تشدید، گرایش به افزایش ریسک در تصمیم‌های امنیتی و عملیاتی ایران و بازیگران درگیر را بالا می‌برد، حتی اگر هنوز شکل و ابعاد اقدام مشخص نشده باشد.",
-        "tag": "تهدید_نظامی",
-        "urgency": 7,
-        "sentiment": -0.6,
-        "source": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5maEJ4V2VxQkM2UzVGeFhRMHZ2SlI5dFY4d3E4R3R6UjE0REdWM1NFcEhyV0s4NVFYYmltNWRrV1ItbGoyYlpaVFdxRExVQ2dHT3M4RHVyTVoyVVBfQlpudXo0cG5PRlJuZGdhaHlTaw?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5maEJ4V2VxQkM2UzVGeFhRMHZ2SlI5dFY4d3E4R3R6UjE0REdWM1NFcEhyV0s4NVFYYmltNWRrV1ItbGoyYlpaVFdxRExVQ2dHT3M4RHVyTVoyVVBfQlpudXo0cG5PRlJuZGdhaHlTaw",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784892608.0,
-        "id": "f315d6f795"
-    },
-    {
-        "title_fa": "نیروی بازدارندگیِ بازسازی‌شونده: ایران پایگاه‌های موشکیِ آسیب‌دیده را سریع‌تر از انتظار ترمیم می‌کند",
-        "title_en": "Iran repairing missile bases, sites bombed by US, Israel faster than previously anticipated - WSJ",
-        "summary": [
-            "طبق گزارش WSJ که در The Jerusalem Post بازتاب یافته، ایران در حال تعمیر و بازسازی پایگاه‌ها و سایت‌های موشکی است که پیش‌تر هدف بمباران‌های آمریکا و اسرائیل قرار گرفته بودند.",
-            "این روند «سریع‌تر از انتظار قبلی» توصیف شده و نشان می‌دهد بازیابی عملیاتی پس از ضربه‌های خارجی، برای تهران قابلیت مدیریت و تدارک دارد، نه یک فرسایش پایدار و طولانی‌مدت.",
-            "در چارچوب فشار خارجی، این خبر ضعف ساختاری مورد انتظار از ضربات را محدود می‌کند: هرچند آسیب وارد شده، اما سرعت ترمیم یعنی رژیم می‌تواند بخشی از ظرفیت بازدارندگی خود را در زمان کوتاه‌تر دوباره فعال کند."
-        ],
-        "impact": "اگر ترمیم سریع ادامه پیدا کند، توان عملیاتی ایران برای تهدید موشکی در کوتاه‌مدت بیشتر از سناریوهای بدبینانه باقی می‌ماند و اثر بازدارنده ضربات قبلی کاهش نسبی می‌یابد.",
-        "tag": "بازسازی-موشکی",
-        "urgency": 7,
-        "sentiment": -0.35,
-        "source": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiMlh3ellPWkhXWWNTbGltTnV0amVUNTJTT2ZOY044R1pZYWdraldHV2xWWkpVa3BjOGY3b2NvcC1OSkR6b2ZPZkxpMEZGT2tlLVQ1WWFQWlJzdENZOFE3b2FreFJJbFhJSEE?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiMlh3ellPWkhXWWNTbGltTnV0amVUNTJTT2ZOY044R1pZYWdraldHV2xWWkpVa3BjOGY3b2NvcC1OSkR6b2ZPZkxpMEZGT2tlLVQ1WWFQWlJzdENZOFE3b2FreFJJbFhJSEE",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784892346.0,
-        "id": "8b1d637e6f"
-    },
-    {
-        "title_fa": "ترامپ با مشاوران ارشد درباره تشدید «جدی» علیه ایران رایزنی می‌کند",
-        "title_en": "Trump Meets With Top Advisers as He Weighs a Major Escalation in Iran",
-        "summary": [
-            "ترامپ ادعا کرده جنگ آمریکا-اسرائیل در ایران یک «گشت‌وگذار کوتاه» است، اما تداوم آن نزدیک به پنج ماه و بی‌پایانی نشان می‌دهد کنترل سیاسی و عملیاتی پایان‌بندی‌اش از دست رفته است.",
-            "روند موجود به‌عنوان مقدمه‌ای برای «تشدید عمده» مطرح شده و این یعنی احتمال افزایش فشار نظامی یا گسترش دامنه درگیری بالاتر از سطح فعلی است.",
-            "وجود یک چارچوب روشن برای خروج یا کاهش درگیری در گزارش دیده نمی‌شود و همین خلأ، ریسک طولانی‌شدن بحران و تشدید واکنش‌های منطقه‌ای را بالا می‌برد."
-        ],
-        "impact": "همین که واشنگتن از «تشدید عمده» حرف می‌زند، نشان می‌دهد مسیر کنونی وارد فاز پرخطرتر می‌شود و احتمال طولانی‌شدن جنگ افزایش یافته است.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/24/us/politics/trump-escalation-iran.html",
-        "clean_url": "https://www.nytimes.com/2026/07/24/us/politics/trump-escalation-iran.html",
-        "image": "http://www.bing.com/th?id=ONUT.fTeF21k-vQJXXRhL2A-UVA&pid=News",
-        "timestamp": 1784891760.0,
-        "id": "cc10187a27"
     }
 ]

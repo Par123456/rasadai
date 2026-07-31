@@ -376,21 +376,28 @@
                 </div>
 
                 <!-- 3. SEARCH & FILTER TOOLBAR -->
-                <div class="bg-white p-4 rounded-sm border border-rasad-border shadow-sm flex flex-col sm:flex-row justify-between gap-3 items-center">
-                    <div class="relative w-full sm:w-2/3">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-sm border border-rasad-border shadow-sm flex flex-col sm:flex-row justify-between gap-3 items-center">
+                    <div class="relative w-full sm:w-1/2">
                         <i class="fas fa-search absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
                         <input type="text" 
-                               placeholder="جستجو در آرشیو گزارش‌ها..." 
-                               oninput="handleSearch(this.value)"
-                               class="w-full bg-rasad-graybg border border-gray-300 rounded-sm py-2 pr-9 pl-4 text-xs text-rasad-text focus:outline-none focus:border-rasad-navy transition-colors">
+                            placeholder="جستجو در متن یا موضوع اخبار..." 
+                            oninput="handleSearch(this.value)"
+                            class="w-full bg-rasad-graybg dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-sm py-2 pr-9 pl-4 text-xs text-rasad-text dark:text-white focus:outline-none focus:border-rasad-navy transition-colors">
                     </div>
                     
-                    <div class="flex gap-2 w-full sm:w-auto justify-end">
-                        <select onchange="handleSort(this.value)" class="bg-rasad-graybg border border-gray-300 rounded-sm py-2 px-3 text-xs text-rasad-text focus:outline-none focus:border-rasad-navy">
+                    <div class="flex gap-2 w-full sm:w-auto justify-end flex-wrap sm:flex-nowrap">
+                        <!-- Source Filter Dropdown -->
+                        <select id="source-filter" onchange="filterBySource(this.value)" class="bg-rasad-graybg dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-sm py-2 px-2.5 text-xs text-rasad-text dark:text-white focus:outline-none focus:border-rasad-navy">
+                            <option value="all">همه منابع خبری</option>
+                        </select>
+
+                        <!-- Sort Dropdown -->
+                        <select onchange="handleSort(this.value)" class="bg-rasad-graybg dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-sm py-2 px-2.5 text-xs text-rasad-text dark:text-white focus:outline-none focus:border-rasad-navy">
                             <option value="newest">جدیدترین اخبار</option>
                             <option value="oldest">قدیمی‌ترین</option>
                             <option value="urgency">ترتیب بر اساس فوریت</option>
                         </select>
+
                         <button onclick="loadData()" class="px-3 py-2 bg-rasad-navy hover:bg-rasad-darknavy text-white rounded-sm text-xs transition-colors" title="بروزرسانی">
                             <i class="fas fa-sync-alt"></i>
                         </button>
@@ -923,6 +930,7 @@ async function loadData() {
         updateTicker();
         updateTension(data);
         updateStats(data);
+        populateSourceDropdown();
     } catch (e) {} finally {
         if (loader) loader.classList.add('opacity-0');
     }
@@ -1056,24 +1064,31 @@ function renderCategoryChips() {
 
 function renderFeed() {
     const container = document.getElementById('feed-container');
-    renderCategoryChips();
+    if (!container) return;
 
-    let filtered = currentFilter === 'all' 
-        ? newsData 
-        : newsData.filter(n => n.tag && n.tag.trim() === currentFilter);
+    // 1. Combine category & source filters instantly
+    let filtered = newsData.filter(n => {
+        const matchesCategory = (currentFilter === 'all') || (n.tag && n.tag.trim() === currentFilter);
+        const matchesSource = (currentSourceFilter === 'all') || (n.source === currentSourceFilter);
+        return matchesCategory && matchesSource;
+    });
 
-    if (currentSearch) {
+    // 2. Combine optional text search if user typed anything
+    if (currentSearch && currentSearch.trim() !== '') {
+        const searchLower = currentSearch.toLowerCase().trim();
         filtered = filtered.filter(n => 
-            (n.title_fa && n.title_fa.toLowerCase().includes(currentSearch)) ||
-            (n.title_en && n.title_en.toLowerCase().includes(currentSearch)) ||
-            (n.summary && n.summary.toString().toLowerCase().includes(currentSearch))
+            (n.title_fa && n.title_fa.toLowerCase().includes(searchLower)) ||
+            (n.title_en && n.title_en.toLowerCase().includes(searchLower)) ||
+            (n.summary && n.summary.toString().toLowerCase().includes(searchLower)) ||
+            (n.source && n.source.toLowerCase().includes(searchLower))
         );
     }
 
+    // 3. Instant Sort
     filtered.sort((a, b) => {
-        if (currentSort === 'newest') return b.timestamp - a.timestamp;
-        if (currentSort === 'oldest') return a.timestamp - b.timestamp;
-        if (currentSort === 'urgency') return b.urgency - a.urgency;
+        if (currentSort === 'newest') return (b.timestamp || 0) - (a.timestamp || 0);
+        if (currentSort === 'oldest') return (a.timestamp || 0) - (b.timestamp || 0);
+        if (currentSort === 'urgency') return (b.urgency || 0) - (a.urgency || 0);
         return 0;
     });
 
@@ -1198,8 +1213,17 @@ function toggleAnalysis(index) { document.getElementById(`analysis-${index}`).cl
 
 function updateTicker() {
     const ticker = document.getElementById('ticker-content');
+    if (!ticker || !newsData.length) return;
+
     let html = '';
-    newsData.slice(0, 10).forEach(n => { html += `<span class="px-6 border-l border-gray-200"><strong class="text-rasad-red">🔴</strong> ${n.title_fa}</span>`; });
+    newsData.slice(0, 12).forEach(n => {
+        html += `
+            <a href="?id=${n.id || ''}" onclick="event.preventDefault(); openArticleById('${n.id || ''}');" class="px-6 border-l border-gray-200 hover:text-rasad-red transition-colors cursor-pointer inline-flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-rasad-red animate-ping flex-shrink-0"></span>
+                <span class="font-bold text-rasad-navy dark:text-gray-200 hover:underline">${n.title_fa}</span>
+            </a>
+        `;
+    });
     ticker.innerHTML = html + html;
 }
 
@@ -1260,8 +1284,25 @@ function updateStats(data) {
 
 function filterFeed(tag, btn) {
     currentFilter = tag;
-    document.querySelectorAll('.chip').forEach(c => c.classList.remove('chip-active'));
-    if(btn) btn.classList.add('chip-active');
+    itemsToShow = 10; // Reset pagination instantly for new filter
+
+    // Update active highlight on category chips
+    document.querySelectorAll('#category-chips button').forEach(c => {
+        c.classList.remove('chip-active');
+    });
+
+    if (btn) {
+        btn.classList.add('chip-active');
+    } else {
+        // If triggered from top navigation header, highlight matching chip
+        const chips = document.querySelectorAll('#category-chips button');
+        chips.forEach(chip => {
+            if ((tag === 'all' && chip.innerText.includes('همه اخبار')) || chip.innerText.includes(tag)) {
+                chip.classList.add('chip-active');
+            }
+        });
+    }
+
     renderFeed();
 }
 
@@ -1272,7 +1313,74 @@ function switchTab(tab) {
     document.getElementById('view-single-article').classList.add('hidden');
     document.getElementById('view-news').classList.toggle('hidden', tab !== 'news');
     document.getElementById('view-dashboard').classList.toggle('hidden', tab !== 'dashboard');
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    
+    if (tab === 'dashboard') {
+        renderDashboardView();
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderDashboardView() {
+    const dash = document.getElementById('view-dashboard');
+    if (!dash) return;
+
+    // Calculate source metrics
+    const sources = {};
+    newsData.forEach(n => {
+        const s = n.source || 'نامشخص';
+        sources[s] = (sources[s] || 0) + 1;
+    });
+
+    const sourcesHTML = Object.entries(sources).map(([src, count]) => `
+        <div class="p-3 bg-rasad-graybg dark:bg-gray-800 rounded-sm border border-gray-200 dark:border-gray-700 flex justify-between items-center">
+            <span class="font-bold text-rasad-navy dark:text-gray-200 text-xs">${src}</span>
+            <span class="px-2 py-0.5 bg-rasad-navy text-white text-[10px] font-mono rounded-sm">${count} خبر</span>
+        </div>
+    `).join('');
+
+    dash.innerHTML = `
+        <div class="space-y-6">
+            <!-- Dashboard Header -->
+            <div class="bg-rasad-darknavy text-white p-6 rounded-sm border-t-4 border-rasad-red shadow-md flex justify-between items-center flex-wrap gap-4">
+                <div>
+                    <span class="rasad-kicker text-amber-400"><i class="fas fa-broadcast-tower animate-pulse"></i> اتاق وضعیت و پایش آنلاین</span>
+                    <h2 class="text-xl font-black mt-1">پایش زنده وضعیت امنیت ملی و بازارها</h2>
+                </div>
+                <button onclick="switchTab('news')" class="px-4 py-2 bg-rasad-red text-white text-xs font-bold rounded-sm hover:bg-rasad-brightred transition-colors flex items-center gap-2">
+                    <i class="fas fa-arrow-right"></i> بازگشت به پخش اخبار
+                </button>
+            </div>
+
+            <!-- Operational Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white dark:bg-gray-800 p-5 rounded-sm border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <h3 class="rasad-kicker mb-2"><i class="fas fa-layer-group"></i> کل گزارش‌ها</h3>
+                    <span class="text-3xl font-black font-brand text-rasad-navy dark:text-white">${newsData.length}</span>
+                    <p class="text-xs text-gray-500 mt-1">پردازش شده در شبکه رصد</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 p-5 rounded-sm border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <h3 class="rasad-kicker text-rasad-red mb-2"><i class="fas fa-bolt"></i> اخبار فوری و اضطراری</h3>
+                    <span class="text-3xl font-black font-brand text-rasad-red">${newsData.filter(n => n.urgency >= 7).length}</span>
+                    <p class="text-xs text-gray-500 mt-1">نیازمند اقدام فوری</p>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 p-5 rounded-sm border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <h3 class="rasad-kicker text-amber-600 mb-2"><i class="fas fa-university"></i> منابع فعال خبری</h3>
+                    <span class="text-3xl font-black font-brand text-amber-600">${Object.keys(sources).length}</span>
+                    <p class="text-xs text-gray-500 mt-1">خبرگزاری متصل</p>
+                </div>
+            </div>
+
+            <!-- Distribution by News Sources -->
+            <div class="bg-white dark:bg-gray-800 p-5 rounded-sm border border-gray-200 dark:border-gray-700 shadow-sm">
+                <h3 class="rasad-kicker mb-4 flex items-center gap-2"><i class="fas fa-newspaper"></i> تفکیک اخبار بر اساس خبرگزاری و منبع</h3>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    ${sourcesHTML}
+                </div>
+            </div>
+        </div>
+    `;
 }
 
 function timeAgo(ms) {
@@ -1355,6 +1463,35 @@ document.addEventListener('keydown', (e) => {
         const drawer = document.getElementById('mobile-drawer');
         if (drawer) drawer.classList.add('hidden');
     }
+});
+
+let currentSourceFilter = 'all';
+
+function populateSourceDropdown() {
+    const dropdown = document.getElementById('source-filter');
+    if (!dropdown || !newsData.length) return;
+
+    const sources = Array.from(new Set(newsData.map(n => n.source).filter(Boolean)));
+    let html = `<option value="all">همه منابع (${newsData.length})</option>`;
+    
+    sources.forEach(src => {
+        const count = newsData.filter(n => n.source === src).length;
+        html += `<option value="${src}">${src} (${count})</option>`;
+    });
+
+    dropdown.innerHTML = html;
+}
+
+function filterBySource(source) {
+    currentSourceFilter = source;
+    itemsToShow = 10; // Reset pagination instantly for source selection
+    renderFeed();
+}
+
+let filtered = newsData.filter(n => {
+    const matchesCategory = currentFilter === 'all' || (n.tag && n.tag.trim() === currentFilter);
+    const matchesSource = currentSourceFilter === 'all' || n.source === currentSourceFilter;
+    return matchesCategory && matchesSource;
 });
 
 /* INITIALIZATION */

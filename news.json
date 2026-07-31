@@ -38,6 +38,24 @@
         "timestamp": 1785488040.0
     },
     {
+        "id": "d98b14fa5d",
+        "title_fa": "بی‌نشانی از گفت‌وگو؛ آمریکا نگران تشدید فشار ایران است",
+        "title_en": "Few signs of talks between US and Iran as Trump hears from different corners on path forward",
+        "summary": [
+            "با وجود ادعای ترامپ درباره «درخواست معامله» از سوی ایران، برخی مقام‌های آمریکا معتقدند تهران فعلاً دنبال امتیازگیری از مسیر تنگه هرمز است، نه نشستن پای میز مذاکره.",
+            "دوگانه‌گویی داخل آمریکا (گفتنِ یک روایت از طرف ترامپ و نگرانیِ مقام‌های دیگر از طرف برخی خطوط امنیتی/دیپلماتیک) یعنی تیم واشنگتن هنوز راه‌حل واحد ندارد؛ همین بلاتکلیفی می‌تواند ریسک سوءمحاسبه را بالا ببرد."
+        ],
+        "impact": "اگر نشانه‌های واقعی از مذاکره کم بماند، احتمال فشارهای اقتصادی-نظامی و درگیری غیرمستقیم در مسیر تنگه هرمز بیشتر می‌شود.",
+        "tag": "مذاکره",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "CNN on MSN",
+        "url": "https://www.msn.com/en-us/news/world/few-signs-of-talks-between-us-and-iran-as-trump-hears-from-different-corners-on-path-forward/ar-AA298JSW",
+        "clean_url": "https://www.msn.com/en-us/news/world/few-signs-of-talks-between-us-and-iran-as-trump-hears-from-different-corners-on-path-forward/ar-AA298JSW",
+        "image": "http://www.bing.com/th?id=ONUT.Fv3WXR8bcLygtU2HO2c1XQ&pid=News",
+        "timestamp": 1785483861.0
+    },
+    {
         "id": "523ee803ae",
         "title_fa": "ادعای ایران: دو کشتی در هرمز، حمله پهپادی به پایگاه کویت",
         "title_en": "Live Updates: Iran claims strikes on 2 ships in Strait of Hormuz and drone attack on U.S. base in Kuwait",
@@ -5661,24 +5679,5 @@
         "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784886920.0,
         "id": "b3eb52aef1"
-    },
-    {
-        "title_fa": "تاکید ترامپ بر «ایران باید بهایش را بدهد»؛ اما شرط پایان عملیات نامشخص و منطق بازدارندگی روی تصمیم شخصی می‌چرخد",
-        "title_en": "Trump says Iran will pay — what it takes to end the war remains unclear",
-        "summary": [
-            "وزارت/دولت ترامپ اعلام می‌کند هدف فوری از «ضربات تازه» تحت عملیات علیه توان هسته‌ای، موشکی، نیروی دریایی و شبکه نیابتی ایران، «ایران را وادار به پرداخت» است؛ هم‌زمان تلاش اصلی به سمت «بازگشایی تنگه هرمز» می‌رود در حالی‌که مذاکره برای یک توافق دائمی هنوز نتیجه نداده است.",
-            "یک مقام آمریکایی می‌گوید ترامپ فعلاً فقط روی گرفتن «بهای تخطی از چارچوب/پیمان (MOU)» و «اقدامات تروریستی» در تنگه هرمز و همچنین «مرگ سربازان آمریکایی» متمرکز است؛ اما هیچ شرط روشن و قابل راستی‌آزمایی برای توقف حملات ارائه نمی‌شود و پایان کار به «تصمیم ترامپ» گره خورده است.",
-            "ترامپ تهدید کرده دامنه عملیات را به سایت‌های هسته‌ای، پل‌ها، نیروگاه‌ها و زیرساخت‌های دیگر گسترش دهد؛ در بازه زمانی عملیات «Epic Fury» (از ۲۸ فوریه)، کاخ سفید مدعی شده اهداف نظامی اولیه در آوریل محقق شده، اما با وجود آن، ایران همچنان توان بستن تنگه هرمز، حمله به کشتیرانی تجاری و هدف‌گیری نیروهای آمریکایی و متحدان را حفظ کرده است."
-        ],
-        "impact": "ابهام شرط توقف حملات و تهدید به گسترش به زیرساخت‌ها یعنی خطر طولانی‌شدن و تشدید درگیری منطقه‌ای بالا می‌رود، بدون اینکه مسیر سیاسیِ خروج مشخص باشد.",
-        "tag": "اقتصادی",
-        "urgency": 9,
-        "sentiment": -0.4,
-        "source": "AOL",
-        "url": "https://www.aol.com/articles/trump-says-iran-pay-takes-162104000.html",
-        "clean_url": "https://www.aol.com/articles/trump-says-iran-pay-takes-162104000.html",
-        "image": "http://www.bing.com/th?id=ONUT.vydAS85j-S9MoIoE7l8urQ&pid=News",
-        "timestamp": 1784884860.0,
-        "id": "64aadd6525"
     }
 ]

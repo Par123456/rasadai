@@ -45,7 +45,8 @@ CONFIG = {
     'FILES': {
         'NEWS': 'news.json',
         'MARKET': 'market.json',
-        'DAILY_SUMMARY': 'daily_summary.json'
+        'DAILY_SUMMARY': 'daily_summary.json',
+        'SCHEDULE_STATE': 'schedule_state.json'
     },
     'TELEGRAM': {
         'BOT_TOKEN': os.environ.get('TG_BOT_TOKEN'),
@@ -123,6 +124,36 @@ class IranNewsRadar:
         self.gnews_en = GNews(language='en', country='US', period='4h', max_results=5)
 
     # ───────────────────────── helpers ─────────────────────────
+
+    def _get_tehran_time(self):
+        try:
+            from zoneinfo import ZoneInfo
+            return datetime.now(ZoneInfo("Asia/Tehran"))
+        except ImportError:
+            return datetime.now(timezone(timedelta(hours=3, minutes=30)))
+
+    def _is_schedule_already_sent(self, slot_key):
+        path = CONFIG['FILES']['SCHEDULE_STATE']
+        if not os.path.exists(path):
+            return False
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data.get(slot_key, False)
+        except Exception:
+            return False
+
+    def _mark_schedule_as_sent(self, slot_key):
+        path = CONFIG['FILES']['SCHEDULE_STATE']
+        data = {}
+        if os.path.exists(path):
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+            except Exception:
+                data = {}
+        data[slot_key] = True
+        self._atomic_json_dump(path, data)
 
     def _load_previous_daily_summary(self):
         path = CONFIG['FILES']['DAILY_SUMMARY']
@@ -233,7 +264,6 @@ class IranNewsRadar:
         return hashlib.md5((clean_url or str(time.time())).encode('utf-8')).hexdigest()[:10]
 
     def _is_valid_image_url(self, url):
-        """Reject Google placeholders, data URIs, empty, non-http links."""
         if not url or not isinstance(url, str):
             return False
         u = url.strip()
@@ -451,7 +481,6 @@ class IranNewsRadar:
     # ───────────────────────── content grab ─────────────────────────
 
     def scrape_article_data(self, final_url, fallback_snippet, raw_image=None):
-        """Extract text + a REAL photo (never Google placeholder thumbs)."""
         if not final_url or final_url.lower().endswith('.pdf'):
             return fallback_snippet, self._get_fallback_image(fallback_snippet)
 
@@ -796,7 +825,101 @@ STRICT OUTPUT JSON:
             "timestamp": ts
         }
 
-    # ───────────────────────── telegram ─────────────────────────
+    # ───────────────────────── telegram senders ─────────────────────────
+
+    def send_daily_summary_to_telegram(self, summary):
+        """Format and send Daily Summary to Telegram."""
+        token = CONFIG['TELEGRAM']['BOT_TOKEN']
+        chat_id = CONFIG['TELEGRAM']['CHANNEL_ID']
+        if not token or not chat_id or not summary:
+            return
+
+        def esc(s):
+            return html.escape(str(s or ''), quote=False)
+
+        tehran_now = self._get_tehran_time()
+        time_str = tehran_now.strftime("%H:%M")
+        date_str = tehran_now.strftime("%Y/%m/%d")
+
+        themes_list = "".join([f"• {esc(t)}\n" for t in summary.get('themes', [])])
+        
+        forecast = summary.get('forecast', {})
+        most_likely = esc(forecast.get('most_likely_scenario', ''))
+        flashpoint = esc(forecast.get('flashpoint_indicator', ''))
+
+        msg = (
+            f"📊 <b>ارزیابی استراتژیک و جمع‌بندی روزانه</b>\n"
+            f"⏱ <b>زمان:</b> {time_str} — {date_str} (تهران)\n\n"
+            f"📌 <b>چکیده مدیریتی:</b>\n{esc(summary.get('executive_tldr'))}\n\n"
+            f"🎯 <b>محورهای اصلی روز:</b>\n{themes_list}\n"
+            f"🧠 <b>تحلیل استراتژیک:</b>\n{esc(summary.get('strategic_assessment'))}\n\n"
+            f"🔮 <b>پیش‌بینی سناریوی محتمل (۳ تا ۷ روز آینده):</b>\n{most_likely}\n\n"
+            f"⚠️ <b>ماشه‌چکان (Flashpoint):</b>\n{flashpoint}\n\n"
+            f"📈 <b>وضعیت بازار و ریسک:</b>\n"
+            f"• سطح ریسک: <b>{summary.get('risk_level', '?')}/10</b> ({esc(summary.get('change_from_previous', ''))})\n"
+            f"• چشم‌انداز ارز: {esc(summary.get('currency_outlook', ''))}\n\n"
+            f"🔗 <a href=\"https://itsyebekhe.github.io/rasadai/\">مشاهده کامل در داشبورد زنده</a> | 🆔 @RasadAIOfficial"
+        )
+
+        api_url = f"https://api.telegram.org/bot{token}/sendMessage"
+        payload = {
+            "chat_id": chat_id,
+            "text": msg,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True
+        }
+
+        try:
+            resp = self.scraper.post(api_url, json=payload, timeout=30)
+            if resp.status_code == 200:
+                logger.info(">>> Daily Summary successfully sent to Telegram.")
+            else:
+                logger.error(f"Failed to send Daily Summary to TG: {resp.status_code} | {resp.text}")
+        except Exception as e:
+            logger.error(f"Daily Summary TG error: {e}")
+
+    def send_bulletin_to_telegram(self, bulletin):
+        """Format and send Scheduled Bulletin (23:00) to Telegram."""
+        token = CONFIG['TELEGRAM']['BOT_TOKEN']
+        chat_id = CONFIG['TELEGRAM']['CHANNEL_ID']
+        if not token or not chat_id or not bulletin:
+            return
+
+        def esc(s):
+            return html.escape(str(s or ''), quote=False)
+
+        title = esc(bulletin.get('title', 'بولتن خبری'))
+        date_str = esc(bulletin.get('date', ''))
+        time_str = esc(bulletin.get('time', '23:00'))
+
+        bullets = "".join([f"🔹 {esc(b)}\n\n" for b in bulletin.get('bullets', [])])
+        bottom_line = esc(bulletin.get('bottom_line', ''))
+
+        msg = (
+            f"🗞 <b>{title}</b>\n"
+            f"⏱ <b>زمان:</b> {time_str} — {date_str} (تهران)\n"
+            f"───────────────────\n\n"
+            f"{bullets}"
+            f"💡 <b>جمع‌بندی نهایی:</b>\n{bottom_line}\n\n"
+            f"📊 <a href=\"https://itsyebekhe.github.io/rasadai/\">مشاهده جزییات بیشتر در داشبورد</a> | 🆔 @RasadAIOfficial"
+        )
+
+        api_url = f"https://api.telegram.org/bot{token}/sendMessage"
+        payload = {
+            "chat_id": chat_id,
+            "text": msg,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True
+        }
+
+        try:
+            resp = self.scraper.post(api_url, json=payload, timeout=30)
+            if resp.status_code == 200:
+                logger.info(">>> Scheduled Bulletin successfully sent to Telegram.")
+            else:
+                logger.error(f"Failed to send Bulletin to TG: {resp.status_code} | {resp.text}")
+        except Exception as e:
+            logger.error(f"Bulletin TG error: {e}")
 
     def send_digest_to_telegram(self, items):
         """Send digest via Telegram Rich Messages with real photo blocks."""
@@ -813,18 +936,13 @@ STRICT OUTPUT JSON:
         def esc(s):
             return html.escape(str(s or ''), quote=False)
 
-        try:
-            from zoneinfo import ZoneInfo
-            ir_tz = ZoneInfo("Asia/Tehran")
-        except ImportError:
-            ir_tz = timezone(timedelta(hours=3, minutes=30))
-        now_ir = datetime.now(ir_tz)
+        now_ir = self._get_tehran_time()
         ir_time_str = to_farsi_num(now_ir.strftime("%H:%M"))
         ir_date_str = to_farsi_num(now_ir.strftime("%Y/%m/%d"))
 
         base_site = "https://itsyebekhe.github.io/rasadai/"
 
-        # ── Collect valid images (max 8 for collage / slideshow) ──
+        # ── Collect valid images ──
         photo_urls = []
         for item in items:
             img = item.get('image')
@@ -854,8 +972,6 @@ STRICT OUTPUT JSON:
             market_html = ""
 
         # ── Media block(s) ──
-        # Single photo → <figure><img>…</figure>
-        # Multiple → <tg-collage> or <tg-slideshow>
         media_html = ""
         if len(photo_urls) == 1:
             media_html = (
@@ -893,7 +1009,7 @@ STRICT OUTPUT JSON:
             )
         headlines_html = "<ul>\n" + "\n".join(headlines_li) + "\n</ul>\n"
 
-        # ── Per-item analysis (details blocks) ──
+        # ── Per-item analysis ──
         details_parts = []
         all_tags = set()
         for i, item in enumerate(items[:6], 1):
@@ -912,7 +1028,6 @@ STRICT OUTPUT JSON:
             tag = str(item.get('tag', 'General')).replace(' ', '_')
             all_tags.add(f"#{esc(tag)}")
 
-            # Optional per-item thumbnail if valid and not already used as main
             item_img = item.get('image')
             item_media = ""
             if self._is_valid_image_url(item_img) and item_img not in photo_urls[:1]:
@@ -960,8 +1075,6 @@ STRICT OUTPUT JSON:
 
         tags_html = f"<p>{' '.join(sorted(all_tags))}</p>\n" if all_tags else ""
 
-        # ── Assemble full rich HTML ──
-        # Media MUST be its own block (not inside <p>)
         full_html = (
             f"<h1>🚨 رصد اخبار مهم ایران</h1>\n"
             f"<p>⏱ <b>زمان بروزرسانی:</b> {ir_time_str} — {ir_date_str} (تهران)</p>\n"
@@ -980,7 +1093,6 @@ STRICT OUTPUT JSON:
             f"</footer>\n"
         )
 
-        # Stay under rich message limit (32768 chars)
         if len(full_html) > 30000:
             full_html = full_html[:30000]
 
@@ -1009,7 +1121,6 @@ STRICT OUTPUT JSON:
 
             logger.error(f"sendRichMessage failed: {resp.status_code} | {resp.text[:500]}")
 
-            # Fallback: classic sendPhoto + short caption if rich API unavailable
             photo_api = f"https://api.telegram.org/bot{token}/sendPhoto"
             caption_lines = [
                 "🚨 <b>رادار اخبار مهم ایران</b>",
@@ -1062,7 +1173,6 @@ STRICT OUTPUT JSON:
                 u = self._clean_url(item.get('url'))
                 if u and u not in seen_u:
                     seen_u.add(u)
-                    # sanitize image on save too
                     item['image'] = self._pick_image(
                         item.get('image'),
                         fallback_text=item.get('title_en') or item.get('title_fa') or ''
@@ -1087,8 +1197,7 @@ STRICT OUTPUT JSON:
             logger.error(f"Failed to save daily summary: {e}")
 
     def generate_scheduled_bulletin(self):
-        now_utc = datetime.now(timezone.utc)
-        tehran_time = now_utc.astimezone(timezone(timedelta(hours=3, minutes=30)))
+        tehran_time = self._get_tehran_time()
         hour = tehran_time.hour
         if 6 <= hour < 12:
             edition_key, edition_title = "morning", "بولتـن صبحگاهی"
@@ -1294,18 +1403,59 @@ STRICT OUTPUT JSON:
                     telegram_items.append(item)
 
             if telegram_items:
-                logger.info(f"Sending {len(telegram_items)} items to Telegram.")
+                logger.info(f"Sending {len(telegram_items)} urgent items to Telegram.")
                 self.send_digest_to_telegram(telegram_items)
             else:
-                logger.info("New items saved, but urgency too low for Telegram.")
+                logger.info("New items saved, but urgency too low for Telegram digest.")
         else:
             logger.info(">>> No valid new items found.")
 
+        # ───────────────────────── SCHEDULED DISPATCHES (WINDOW-BASED) ─────────────────────────
+        tehran_now = self._get_tehran_time()
+        curr_hour = tehran_now.hour
+        today_date_str = tehran_now.strftime("%Y-%m-%d")
+
+        # Always generate daily summary to keep daily_summary.json fresh
         daily_summary = self.generate_daily_summary()
         if daily_summary:
             self.save_daily_summary(daily_summary)
 
-        self.generate_scheduled_bulletin()
+        # ── 1. Daily Summary Windows (08:00, 14:00, 20:00) ──
+        summary_slot = None
+
+        if 6 <= curr_hour < 12:
+            summary_slot = f"summary_08_{today_date_str}"
+        elif 12 <= curr_hour < 18:
+            summary_slot = f"summary_14_{today_date_str}"
+        elif 18 <= curr_hour < 22:
+            summary_slot = f"summary_20_{today_date_str}"
+
+        if summary_slot and daily_summary:
+            if not self._is_schedule_already_sent(summary_slot):
+                logger.info(f"Triggering scheduled Daily Summary for slot: {summary_slot}")
+                self.send_daily_summary_to_telegram(daily_summary)
+                self._mark_schedule_as_sent(summary_slot)
+            else:
+                logger.info(f"Daily Summary slot [{summary_slot}] was already sent today.")
+
+        # ── 2. Night Bulletin Window (Target 23:00 -> Window 22:00 to 02:00) ──
+        bulletin_date_str = today_date_str
+        # If run happens late night past midnight (e.g., 01:00 AM), it belongs to last night's 23:00 bulletin
+        if 0 <= curr_hour < 2:
+            yesterday = tehran_now - timedelta(days=1)
+            bulletin_date_str = yesterday.strftime("%Y-%m-%d")
+
+        if curr_hour >= 22 or curr_hour < 2:
+            bulletin_slot = f"bulletin_23_{bulletin_date_str}"
+            if not self._is_schedule_already_sent(bulletin_slot):
+                scheduled_bulletin = self.generate_scheduled_bulletin()
+                if scheduled_bulletin:
+                    logger.info(f"Triggering 23:00 Bulletin for slot: {bulletin_slot}")
+                    self.send_bulletin_to_telegram(scheduled_bulletin)
+                    self._mark_schedule_as_sent(bulletin_slot)
+            else:
+                logger.info(f"23:00 Bulletin slot [{bulletin_slot}] was already sent.")
+
         self.generate_special_topic_report()
 
         logger.info(

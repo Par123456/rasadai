@@ -845,11 +845,12 @@ STRICT OUTPUT JSON:
     # ───────────────────────── telegram senders ─────────────────────────
 
     def send_daily_summary_to_telegram(self, summary):
-        """Format and send Daily Summary to Telegram."""
+        """Format and send Daily Summary using Telegram Rich Messages with RTL support."""
         token = CONFIG['TELEGRAM']['BOT_TOKEN']
         chat_id = CONFIG['TELEGRAM']['CHANNEL_ID']
         if not token or not chat_id or not summary:
-            return
+            logger.warning("TG credentials or summary missing. Skipping TG dispatch.")
+            return False
 
         def esc(s):
             return html.escape(str(s or ''), quote=False)
@@ -858,49 +859,104 @@ STRICT OUTPUT JSON:
         time_str = tehran_now.strftime("%H:%M")
         date_str = tehran_now.strftime("%Y/%m/%d")
 
-        themes_list = "".join([f"• {esc(t)}\n" for t in summary.get('themes', [])])
+        base_site = "https://itsyebekhe.github.io/rasadai/"
+        themes_li = "".join([f"<li>🔹 {esc(t)}</li>\n" for t in summary.get('themes', [])])
         
         forecast = summary.get('forecast', {})
         most_likely = esc(forecast.get('most_likely_scenario', ''))
         flashpoint = esc(forecast.get('flashpoint_indicator', ''))
 
-        msg = (
-            f"📊 <b>ارزیابی استراتژیک و جمع‌بندی روزانه</b>\n"
-            f"⏱ <b>زمان:</b> {time_str} — {date_str} (تهران)\n\n"
-            f"📌 <b>چکیده مدیریتی:</b>\n{esc(summary.get('executive_tldr'))}\n\n"
-            f"🎯 <b>محورهای اصلی روز:</b>\n{themes_list}\n"
-            f"🧠 <b>تحلیل استراتژیک:</b>\n{esc(summary.get('strategic_assessment'))}\n\n"
-            f"🔮 <b>پیش‌بینی سناریوی محتمل (۳ تا ۷ روز آینده):</b>\n{most_likely}\n\n"
-            f"⚠️ <b>ماشه‌چکان (Flashpoint):</b>\n{flashpoint}\n\n"
-            f"📈 <b>وضعیت بازار و ریسک:</b>\n"
-            f"• سطح ریسک: <b>{summary.get('risk_level', '?')}/10</b> ({esc(summary.get('change_from_previous', ''))})\n"
-            f"• چشم‌انداز ارز: {esc(summary.get('currency_outlook', ''))}\n\n"
-            f"🔗 <a href=\"https://itsyebekhe.github.io/rasadai/\">مشاهده کامل در داشبورد زنده</a> | 🆔 @RasadAIOfficial"
+        vulns = summary.get('regime_vulnerabilities', {})
+        vuln_text = esc(vulns.get('regime_internal_friction') or vulns.get('infrastructure_vulnerability') or '')
+
+        rich_html = (
+            f"<h1>📊 ارزیابی استراتژیک و جمع‌بندی روزانه</h1>\n"
+            f"<p>⏱ <b>زمان صدور:</b> {time_str} — {date_str} (تهران)</p>\n"
+            f"<hr/>\n"
+            f"<details open>\n"
+            f"<summary>📌 <b>چکیده مدیریتی</b></summary>\n"
+            f"<p>{esc(summary.get('executive_tldr'))}</p>\n"
+            f"</details>\n"
+            f"<h2>🎯 محورهای کلیدی ارزیابی</h2>\n"
+            f"<ul>\n{themes_li}</ul>\n"
+            f"<hr/>\n"
+            f"<h2>🧠 تحلیل استراتژیک و موازنه قدرت</h2>\n"
+            f"<p>{esc(summary.get('strategic_assessment'))}</p>\n"
+            f"<h2>🔮 پیش‌بینی سناریوی محتمل (۳ تا ۷ روز آینده)</h2>\n"
+            f"<p>{most_likely}</p>\n"
+            f"<h2>⚠️ شاخص ماشه‌چکان (Flashpoint)</h2>\n"
+            f"<p>{flashpoint}</p>\n"
+            f"<hr/>\n"
+            f"<h2>📈 ارزیابی ریسک و اقتصاد</h2>\n"
+            f"<ul>\n"
+            f"<li>🚨 <b>سطح ریسک:</b> {summary.get('risk_level', '?')}/10 ({esc(summary.get('change_from_previous', ''))})</li>\n"
+            f"<li>💵 <b>چشم‌انداز بازار و ارز:</b> {esc(summary.get('currency_outlook', ''))}</li>\n"
+            f"<li>💥 <b>آسیب‌پذیری حاکمیتی:</b> {vuln_text}</li>\n"
+            f"</ul>\n"
+            f"<footer>\n"
+            f"<p>📊 <a href=\"{base_site}\">مشاهده کامل در داشبورد زنده رصد</a> | 🆔 @RasadAIOfficial</p>\n"
+            f"</footer>\n"
         )
 
-        api_url = f"https://api.telegram.org/bot{token}/sendMessage"
+        inline_keyboard = {
+            "inline_keyboard": [[
+                {"text": "📊 بولتن و داشبورد زنده", "url": base_site},
+                {"text": "🛡 پروکسی‌های فعال", "url": "https://itsyebekhe.github.io/MTProtoNexus/"}
+            ]]
+        }
+
+        # 1. Primary Attempt: Send Rich Message
+        rich_api = f"https://api.telegram.org/bot{token}/sendRichMessage"
         payload = {
             "chat_id": chat_id,
-            "text": msg,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": True
+            "rich_message": {
+                "html": rich_html,
+                "is_rtl": True,
+            },
+            "reply_markup": inline_keyboard,
         }
 
         try:
-            resp = self.scraper.post(api_url, json=payload, timeout=30)
+            resp = self.scraper.post(rich_api, json=payload, timeout=30)
             if resp.status_code == 200:
-                logger.info(">>> Daily Summary successfully sent to Telegram.")
-            else:
-                logger.error(f"Failed to send Daily Summary to TG: {resp.status_code} | {resp.text}")
+                logger.info(">>> Daily Summary successfully sent as Rich Message.")
+                return True
+            logger.warning(f"sendRichMessage for Daily Summary failed ({resp.status_code}), falling back to sendMessage.")
         except Exception as e:
-            logger.error(f"Daily Summary TG error: {e}")
+            logger.warning(f"Daily Summary Rich Message exception: {e}, falling back.")
+
+        # 2. Fallback: Standard Telegram HTML sendMessage
+        fallback_text = (
+            f"📊 <b>ارزیابی استراتژیک و جمع‌بندی روزانه</b>\n"
+            f"⏱ <b>زمان:</b> {time_str} — {date_str} (تهران)\n\n"
+            f"📌 <b>چکیده مدیریتی:</b>\n{esc(summary.get('executive_tldr'))}\n\n"
+            f"🧠 <b>تحلیل استراتژیک:</b>\n{esc(summary.get('strategic_assessment'))}\n\n"
+            f"🔮 <b>پیش‌بینی سناریو:</b>\n{most_likely}\n\n"
+            f"📈 <b>سطح ریسک:</b> <b>{summary.get('risk_level', '?')}/10</b>\n\n"
+            f"🔗 <a href=\"{base_site}\">مشاهده کامل در داشبورد زنده</a> | 🆔 @RasadAIOfficial"
+        )
+
+        standard_api = f"https://api.telegram.org/bot{token}/sendMessage"
+        try:
+            resp = self.scraper.post(standard_api, json={
+                "chat_id": chat_id,
+                "text": fallback_text,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+                "reply_markup": inline_keyboard
+            }, timeout=30)
+            return resp.status_code == 200
+        except Exception as e:
+            logger.error(f"Daily Summary standard fallback error: {e}")
+            return False
 
     def send_bulletin_to_telegram(self, bulletin):
-        """Format and send Scheduled Bulletin (23:00) to Telegram."""
+        """Format and send Scheduled Bulletin using Telegram Rich Messages with RTL support."""
         token = CONFIG['TELEGRAM']['BOT_TOKEN']
         chat_id = CONFIG['TELEGRAM']['CHANNEL_ID']
         if not token or not chat_id or not bulletin:
-            return
+            logger.warning("TG credentials or bulletin missing. Skipping TG dispatch.")
+            return False
 
         def esc(s):
             return html.escape(str(s or ''), quote=False)
@@ -908,35 +964,78 @@ STRICT OUTPUT JSON:
         title = esc(bulletin.get('title', 'بولتن خبری'))
         date_str = esc(bulletin.get('date', ''))
         time_str = esc(bulletin.get('time', '23:00'))
+        base_site = "https://itsyebekhe.github.io/rasadai/"
 
-        bullets = "".join([f"🔹 {esc(b)}\n\n" for b in bulletin.get('bullets', [])])
+        bullets_li = "".join([f"<li>🔹 {esc(b)}</li>\n" for b in bulletin.get('bullets', [])])
         bottom_line = esc(bulletin.get('bottom_line', ''))
 
-        msg = (
-            f"🗞 <b>{title}</b>\n"
-            f"⏱ <b>زمان:</b> {time_str} — {date_str} (تهران)\n"
-            f"───────────────────\n\n"
-            f"{bullets}"
-            f"💡 <b>جمع‌بندی نهایی:</b>\n{bottom_line}\n\n"
-            f"📊 <a href=\"https://itsyebekhe.github.io/rasadai/\">مشاهده جزییات بیشتر در داشبورد</a> | 🆔 @RasadAIOfficial"
+        rich_html = (
+            f"<h1>🗞 {title}</h1>\n"
+            f"<p>⏱ <b>زمان صدور:</b> {time_str} — {date_str} (تهران)</p>\n"
+            f"<hr/>\n"
+            f"<h2>📌 سرخط مهم‌ترین نکات بولتن</h2>\n"
+            f"<ul>\n{bullets_li}</ul>\n"
+            f"<hr/>\n"
+            f"<details open>\n"
+            f"<summary>💡 <b>جمع‌بندی نهایی و ارزیابی</b></summary>\n"
+            f"<p>{bottom_line}</p>\n"
+            f"</details>\n"
+            f"<footer>\n"
+            f"<p>📊 <a href=\"{base_site}\">مشاهده جزییات کامل در داشبورد زنده</a> | 🆔 @RasadAIOfficial</p>\n"
+            f"</footer>\n"
         )
 
-        api_url = f"https://api.telegram.org/bot{token}/sendMessage"
+        inline_keyboard = {
+            "inline_keyboard": [[
+                {"text": "📊 مطالعه بولتن در داشبورد", "url": base_site},
+                {"text": "🛡 پروکسی‌های فعال", "url": "https://itsyebekhe.github.io/MTProtoNexus/"}
+            ]]
+        }
+
+        # 1. Primary Attempt: Send Rich Message
+        rich_api = f"https://api.telegram.org/bot{token}/sendRichMessage"
         payload = {
             "chat_id": chat_id,
-            "text": msg,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": True
+            "rich_message": {
+                "html": rich_html,
+                "is_rtl": True,
+            },
+            "reply_markup": inline_keyboard,
         }
 
         try:
-            resp = self.scraper.post(api_url, json=payload, timeout=30)
+            resp = self.scraper.post(rich_api, json=payload, timeout=30)
             if resp.status_code == 200:
-                logger.info(">>> Scheduled Bulletin successfully sent to Telegram.")
-            else:
-                logger.error(f"Failed to send Bulletin to TG: {resp.status_code} | {resp.text}")
+                logger.info(">>> Scheduled Bulletin successfully sent as Rich Message.")
+                return True
+            logger.warning(f"sendRichMessage for Bulletin failed ({resp.status_code}), falling back to sendMessage.")
         except Exception as e:
-            logger.error(f"Bulletin TG error: {e}")
+            logger.warning(f"Bulletin Rich Message exception: {e}, falling back.")
+
+        # 2. Fallback: Standard Telegram HTML sendMessage
+        bullets_text = "".join([f"🔹 {esc(b)}\n\n" for b in bulletin.get('bullets', [])])
+        fallback_text = (
+            f"🗞 <b>{title}</b>\n"
+            f"⏱ <b>زمان:</b> {time_str} — {date_str} (تهران)\n"
+            f"───────────────────\n\n"
+            f"{bullets_text}"
+            f"💡 <b>جمع‌بندی نهایی:</b>\n{bottom_line}\n\n"
+            f"📊 <a href=\"{base_site}\">مشاهده جزییات بیشتر در داشبورد</a> | 🆔 @RasadAIOfficial"
+        )
+
+        standard_api = f"https://api.telegram.org/bot{token}/sendMessage"
+        try:
+            resp = self.scraper.post(standard_api, json={
+                "chat_id": chat_id,
+                "text": fallback_text,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+                "reply_markup": inline_keyboard
+            }, timeout=30)
+            return resp.status_code == 200
+        except Exception as e:
+            logger.error(f"Bulletin standard fallback error: {e}")
+            return False
 
     def send_digest_to_telegram(self, items):
         """Send digest via Telegram Rich Messages with real photo blocks."""
@@ -1427,19 +1526,21 @@ STRICT OUTPUT JSON:
         else:
             logger.info(">>> No valid new items found.")
 
-        # ───────────────────────── SCHEDULED DISPATCHES (WINDOW-BASED) ─────────────────────────
+        # ───────────────────────── SCHEDULED DISPATCHES (CONFIRMED DELIVERY) ─────────────────────────
         tehran_now = self._get_tehran_time()
         curr_hour = tehran_now.hour
         today_date_str = tehran_now.strftime("%Y-%m-%d")
 
-        # Always generate daily summary to keep daily_summary.json fresh
+        # 1. Generate & Save Daily Summary
         daily_summary = self.generate_daily_summary()
         if daily_summary:
-            self.save_daily_summary(daily_summary)
+            # Check previous sent status from disk if exists
+            prev_sum = self._load_previous_daily_summary()
+            if prev_sum and prev_sum.get('last_sent_slot'):
+                daily_summary['last_sent_slot'] = prev_sum.get('last_sent_slot')
 
-        # ── 1. Daily Summary Windows (08:00, 14:00, 20:00) ──
+        # Determine Summary Window
         summary_slot = None
-
         if 6 <= curr_hour < 12:
             summary_slot = f"summary_08_{today_date_str}"
         elif 12 <= curr_hour < 18:
@@ -1448,16 +1549,25 @@ STRICT OUTPUT JSON:
             summary_slot = f"summary_20_{today_date_str}"
 
         if summary_slot and daily_summary:
-            if not self._is_schedule_already_sent(summary_slot):
-                logger.info(f"Triggering scheduled Daily Summary for slot: {summary_slot}")
-                self.send_daily_summary_to_telegram(daily_summary)
-                self._mark_schedule_as_sent(summary_slot)
-            else:
-                logger.info(f"Daily Summary slot [{summary_slot}] was already sent today.")
+            is_sent_in_state = self._is_schedule_already_sent(summary_slot)
+            is_sent_in_json = (daily_summary.get('last_sent_slot') == summary_slot)
 
-        # ── 2. Night Bulletin Window (Target 23:00 -> Window 22:00 to 02:00) ──
+            if not (is_sent_in_state or is_sent_in_json):
+                logger.info(f"Triggering scheduled Daily Summary for slot: {summary_slot}")
+                sent_ok = self.send_daily_summary_to_telegram(daily_summary)
+                if sent_ok:
+                    daily_summary['last_sent_slot'] = summary_slot
+                    daily_summary['sent_at'] = tehran_now.strftime("%Y-%m-%d %H:%M:%S")
+                    self._mark_schedule_as_sent(summary_slot)
+            else:
+                logger.info(f"Daily Summary slot [{summary_slot}] was already confirmed sent.")
+
+        # Always save updated daily summary with sent tracking
+        if daily_summary:
+            self.save_daily_summary(daily_summary)
+
+        # 2. Night Bulletin Window (Target 23:00 -> Window 22:00 to 02:00)
         bulletin_date_str = today_date_str
-        # If run happens late night past midnight (e.g., 01:00 AM), it belongs to last night's 23:00 bulletin
         if 0 <= curr_hour < 2:
             yesterday = tehran_now - timedelta(days=1)
             bulletin_date_str = yesterday.strftime("%Y-%m-%d")
@@ -1468,10 +1578,14 @@ STRICT OUTPUT JSON:
                 scheduled_bulletin = self.generate_scheduled_bulletin()
                 if scheduled_bulletin:
                     logger.info(f"Triggering 23:00 Bulletin for slot: {bulletin_slot}")
-                    self.send_bulletin_to_telegram(scheduled_bulletin)
-                    self._mark_schedule_as_sent(bulletin_slot)
+                    sent_ok = self.send_bulletin_to_telegram(scheduled_bulletin)
+                    if sent_ok:
+                        scheduled_bulletin['telegram_sent'] = True
+                        scheduled_bulletin['sent_slot'] = bulletin_slot
+                        self._atomic_json_dump('bulletins.json', scheduled_bulletin)
+                        self._mark_schedule_as_sent(bulletin_slot)
             else:
-                logger.info(f"23:00 Bulletin slot [{bulletin_slot}] was already sent.")
+                logger.info(f"23:00 Bulletin slot [{bulletin_slot}] was already confirmed sent.")
 
         self.generate_special_topic_report()
 

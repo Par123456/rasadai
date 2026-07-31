@@ -1,5 +1,23 @@
 [
     {
+        "id": "7c89550ebc",
+        "title_fa": "آمریکا ردپای حمله سایبری به آب مینه‌سوتا را می‌جوید",
+        "title_en": "US Iran War Live Updates: US probes cyberattacks on Minnesota water systems for suspected Iran link",
+        "summary": [
+            "گزارش‌ها می‌گوید آمریکا در حال بررسی حمله‌های سایبری به سامانه‌های آب مینه‌سوتاست و دنبال ارتباط احتمالی با ایران است؛ یعنی از یک پرونده فنی، سرنخ سیاسی می‌سازد.",
+            "هدف این نوع حمله‌ها معمولاً «اختلال عملیاتی» است نه صرفاً هک نمایشی: تهدید آب شهری از نظر روانی و امنیتی فوری‌تر از خیلی از عرصه‌هاست و می‌تواند بحران رسانه‌ای بسازد."
+        ],
+        "impact": "ریسک اختلال در زیرساخت حیاتی و بالا رفتن تنش امنیتی واشنگتن-تهران را تشدید می‌کند.",
+        "tag": "سایبری",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Firstpost",
+        "url": "https://www.firstpost.com/world/us-iran-war-live-updates-saudi-arabia-egypt-donald-trump-liveblog-14035015.html",
+        "clean_url": "https://www.firstpost.com/world/us-iran-war-live-updates-saudi-arabia-egypt-donald-trump-liveblog-14035015.html",
+        "image": "http://www.bing.com/th?id=ONUT.NuoZ6r2h0zg9FRJdlbBDxQ&pid=News",
+        "timestamp": 1785456240.0
+    },
+    {
         "id": "cdfbef3152",
         "title_fa": "سنا مهار اختیارات ترامپ در جنگ با ایران را رد کرد",
         "title_en": "US Senate rejects bid to rein in Trump’s authority over Iran war",
@@ -14,7 +32,7 @@
         "source": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcHlZVG11bzlmcEpRNUQxNVNzR0RuQlRrWW1lWjNEb0F1XzdjekZsdFlKNFNSMW0tNnRpcHQyUXVYbjUzNGpIUEs1ZnZxXzk3eVRjZzZ2SHFrcGsyLVpxdkVOVlV2VUpIMzlQXzhkX19FZW1pRlBPZnJXXzVmblVfaDROaWJEZ243ZXc?oc=5&hl=en-US&gl=US&ceid=US:en",
         "clean_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcHlZVG11bzlmcEpRNUQxNVNzR0RuQlRrWW1lWjNEb0F1XzdjekZsdFlKNFNSMW0tNnRpcHQyUXVYbjUzNGpIUEs1ZnZxXzk3eVRjZzZ2SHFrcGsyLVpxdkVOVlV2VUpIMzlQXzhkX19FZW1pRlBPZnJXXzVmblVfaDROaWJEZ243ZXc",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785439780.0
     },
     {
@@ -32,7 +50,7 @@
         "source": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xbnVYQ25VOU5kWXhoSlF5VTFjcEJrT0xEcFI5cHpPSUxqOG5WMnNpOGJ0NmR0cGgzM2lEbHBGcTZhNWdlQWF6bUFxcTBRazA5cElMVFVfZzY4Yk55LTdFdF9MZ1lxYlVxeW02VDJzSThyTUJ6Y091RV9B0gF_QVVfeXFMUFYxaW93MVVqcHhJVTVRSWxwaU9ickpzalAtWVJhWW9iQklwa2J6S1RSYjgxcTJBZklDOG5PQi1WS2tzbW1UR2Z6Z25kSlh6MVRfeFJpQjY0LWN0dDRid1FiYzZFZ0FaN1VJeFdKc2stSW5BRnlfWE5XNG5RdjdsSQ?oc=5&hl=en-US&gl=US&ceid=US:en",
         "clean_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xbnVYQ25VOU5kWXhoSlF5VTFjcEJrT0xEcFI5cHpPSUxqOG5WMnNpOGJ0NmR0cGgzM2lEbHBGcTZhNWdlQWF6bUFxcTBRazA5cElMVFVfZzY4Yk55LTdFdF9MZ1lxYlVxeW02VDJzSThyTUJ6Y091RV9B0gF_QVVfeXFMUFYxaW93MVVqcHhJVTVRSWxwaU9ickpzalAtWVJhWW9iQklwa2J6S1RSYjgxcTJBZklDOG5PQi1WS2tzbW1UR2Z6Z25kSlh6MVRfeFJpQjY0LWN0dDRid1FiYzZFZ0FaN1VJeFdKc2stSW5BRnlfWE5XNG5RdjdsSQ",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785439261.0
     },
     {
@@ -68,8 +86,27 @@
         "source": "DW.com",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd3RTX3FXNXA4MndBVko0Mk8tMWRBMWNieURSZU1zMnVOX3E5cWtIaVZMQWgtb0x0RXF5eDNEa0E5YnNOWUdBRkZVbXRKanJlQzVvYkZKNXJEWDU1QmpvekthWE9tcC1hWWtDSXBJeW5rLTg0djZIWTFEVGN3cWJsWWFISGp5OWVnQjFVWko2Ml80MmhFU1VTTEJR?oc=5&hl=en-US&gl=US&ceid=US:en",
         "clean_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd3RTX3FXNXA4MndBVko0Mk8tMWRBMWNieURSZU1zMnVOX3E5cWtIaVZMQWgtb0x0RXF5eDNEa0E5YnNOWUdBRkZVbXRKanJlQzVvYkZKNXJEWDU1QmpvekthWE9tcC1hWWtDSXBJeW5rLTg0djZIWTFEVGN3cWJsWWFISGp5OWVnQjFVWko2Ml80MmhFU1VTTEJR",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300-rw",
+        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785431102.0
+    },
+    {
+        "id": "7cc6d9b78c",
+        "title_fa": "ابهام واشنگتن، مارپیچ تشدید؛ خطر تکرار فروپاشی آتش‌بس",
+        "title_en": "The Ambiguity Spiral in Iran",
+        "summary": [
+            "این گزارش می‌گوید سیاست آمریکا در قبال جنگ با ایران از اول با پیام‌های دوپهلو جلو رفته؛ تهدیدهای آخرالزمانی کنار توافق آتش‌بس و عقب‌نشینی‌های سریع می‌آید و طرف مقابل را سردرگم نمی‌کند، بلکه به سمت «جنگِ هستی‌مانند» هل می‌دهد.",
+            "وقتی خطوط قرمز و هدف نهایی روشن نباشد، مثل ماجرای تنگه هرمز، هر تفاهمی شکننده می‌شود؛ چون ایران و آمریکا از یک «نقطه توقف» مشترک حرف نمی‌زنند و با اولین لرزش دوباره اصطکاک بالا می‌گیرد.",
+            "نتیجه عملی این می‌شود که آتش‌بس‌ها زودتر از آنچه باید دوام می‌آورند؛ چون هر بار برداشت تهران و واشنگتن از «قصد واقعی» و «هزینه‌ای که طرف مقابل می‌پذیرد» فرق می‌کند."
+        ],
+        "impact": "ابهامِ آمریکا احتمال شکست آتش‌بس‌های بعدی و تداوم خطر در تنگه هرمز و جنگ نیابتی را بالا می‌برد.",
+        "tag": "دیپلماسی-هشدار",
+        "urgency": 6,
+        "sentiment": -0.25,
+        "source": "Foreign Affairs",
+        "url": "https://www.foreignaffairs.com/united-states/ambiguity-spiral-iran",
+        "clean_url": "https://www.foreignaffairs.com/united-states/ambiguity-spiral-iran",
+        "image": "https://cdn-live.foreignaffairs.com/sites/default/files/styles/social_share/public/images/2026/07/30/2026-07-30T103635Z_958657427_RC27OMAWQQQD_RTRMADP_3_IRAN-CRISIS.JPG?itok=XcKqeVUA",
+        "timestamp": 1785430800.0
     },
     {
         "id": "14804422cb",
@@ -86,7 +123,7 @@
         "source": "The Jerusalem Post",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XbVJaR1lVN1hLd2NRemVqejJXekVWUEV6YkE2SHFjMnpwc1dJdThrRENwOU41UHhVLUs0b210QjFqYUpjLTdEZjJXLWh1STl0NC1xOEh5NUdhNDl2dHJv?oc=5&hl=en-US&gl=US&ceid=US:en",
         "clean_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XbVJaR1lVN1hLd2NRemVqejJXekVWUEV6YkE2SHFjMnpwc1dJdThrRENwOU41UHhVLUs0b210QjFqYUpjLTdEZjJXLWh1STl0NC1xOEh5NUdhNDl2dHJv",
-        "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785429126.0
     },
     {
@@ -106,6 +143,24 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1785427215.0,
         "id": "64844af7d8"
+    },
+    {
+        "id": "dcf098cac7",
+        "title_fa": "جنگ ایران-آمریکا، زنجیر کشورهای بیشتری را می‌کشد",
+        "title_en": "Iran War Is Entangling a Growing List of Mideast Nations",
+        "summary": [
+            "با کم‌رنگ شدن امید به ازسرگیری مذاکرات، چرخه حمله و مقابله دوباره فعال شد؛ دو شب پیاپی درگیری مستقیم میان ایران و آمریکا مثل «سیگنال خطر» برای کل منطقه عمل می‌کند.",
+            "خبر فقط درباره ایران نیست؛ وقتی حملات تکرار می‌شود، کشورها ناچارند در محاسبه امنیتی‌شان تجدیدنظر کنند و همین باعث «گیر افتادن» بازیگران بیشتر در منازعه می‌شود: از پایگاه‌ها و کریدورهای دریایی تا سیاست‌های داخلی و امنیتی."
+        ],
+        "impact": "هر موج حمله، هزینه محاسبات امنیتی دیگر کشورها را بالا می‌برد و ریسک درگیری نیابتی/غیرمستقیم را بیشتر می‌کند.",
+        "tag": "منطقه‌ای",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/2026/07/30/world/middleeast/us-iran-war-expansion.html",
+        "clean_url": "https://www.nytimes.com/2026/07/30/world/middleeast/us-iran-war-expansion.html",
+        "image": "http://www.bing.com/th?id=ONUT.DYu76CvSFyhSDKDdHXW2-Q&pid=News",
+        "timestamp": 1785425100.0
     },
     {
         "id": "59a981f819",
@@ -5626,62 +5681,5 @@
         "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784879033.0,
         "id": "dfb58d3b72"
-    },
-    {
-        "title_fa": "قانونی‌بودن توسل به زور میان‌دولتی در تنش‌های ۲۰۲۶ اسرائیل/ایالات متحده با ایران: چه کشورهایی گفتند و چه نگفتند",
-        "title_en": "The Legality of the Use of Interstate Force during the 2026 Israel/US-Iran Hostilities: What States Said and did not Say",
-        "summary": [
-            "این متن یک جمع‌بندی حقوقی/دیپلماتیک از موضع کشورها درباره «قانونی‌بودن توسل به زور میان‌دولتی» در چارچوب درگیری‌های ۲۰۲۶ اسرائیل/ایالات متحده با ایران ارائه می‌دهد و صرفاً بر شکافِ میان آنچه گفته شده و آنچه عمداً بیان نشده تمرکز دارد.",
-            "بخش «آنچه کشورها نگفتند» نشان می‌دهد برخی بازیگران برای اجتناب از تعهد صریح، از ادعای حقوقی مشخص یا موضع‌گیری شفاف درباره مشروعیت/عدم مشروعیت عملیات‌های درگیرانه خودداری کرده‌اند؛ این سکوت می‌تواند نشانه‌ی ملاحظات سیاسی و هزینه‌گریزی باشد.",
-            "با توجه به اینکه منبع صرفاً در سطح تحلیلِ حقوقی و اظهارات/عدم‌اظهارات است، این گزارش به جای توصیف مستقیم اقدامات میدانی، بیشتر به الگوی مشروعیت‌سازی یا ابهام‌نگه‌داری در گفتمان بین‌المللی می‌پردازد."
-        ],
-        "impact": "اثر فوری این نوع جمع‌بندی، شکل‌دهی به روایت حقوقی و فضای سیاسی برای تداوم یا تحدید گزینه‌های طرف‌های درگیر است، نه ارائه یک تصویر مستقیم از تغییرات میدانی.",
-        "tag": "حقوقی",
-        "urgency": 4,
-        "sentiment": -0.1,
-        "source": "EJIL: Talk!",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVlJ5SkhfQ0UyU2ZDVHpRalRNTGttRjZ0S1htVGgza1N5YzRHTEZ4UHhnbXd3Tk9OdDlIQmg1dXplM09LbDZQSXZKVWFRa0xpbkhjcXV3OENUUVQ0UTB3ZXhUZGZ3QXpsanIxbFRqXzQ4M2VIRVNyREFBWDJ6X0tUX3FyeTdfVXdFNmtTQ2FwWWlQWkd6OW80RkpaWjNVTmhiU0ladzNFNFdmd1ZVU21Td2N1NDcxTWJFR2VOUEYxTTJGNE9UOFlZRHA1SUt1cmsxMHU5MDRTeUhPVVFKblE?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVlJ5SkhfQ0UyU2ZDVHpRalRNTGttRjZ0S1htVGgza1N5YzRHTEZ4UHhnbXd3Tk9OdDlIQmg1dXplM09LbDZQSXZKVWFRa0xpbkhjcXV3OENUUVQ0UTB3ZXhUZGZ3QXpsanIxbFRqXzQ4M2VIRVNyREFBWDJ6X0tUX3FyeTdfVXdFNmtTQ2FwWWlQWkd6OW80RkpaWjNVTmhiU0ladzNFNFdmd1ZVU21Td2N1NDcxTWJFR2VOUEYxTTJGNE9UOFlZRHA1SUt1cmsxMHU5MDRTeUhPVVFKblE",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784876954.0,
-        "id": "7472bba901"
-    },
-    {
-        "title_fa": "استخدام دارایی‌های یخ‌خورده ایران برای جبران خسارت‌های جنگی؛ فشار مالی مستقیم، نه ژست سیاسی",
-        "title_en": "US to use frozen Iranian assets to fund war damages",
-        "summary": [
-            "خبر بی‌بی‌سی می‌گوید آمریکا تصمیم دارد از دارایی‌های یخ‌خورده ایران برای پرداخت هزینه‌های «خسارت‌های جنگی» استفاده کند؛ یعنی اهرم مالی از حالت تعلیق خارج می‌شود و به ابزار پرداخت تبدیل می‌گردد.",
-            "این اقدام، از منظر «فشار خارجی»، مستقیماً ظرفیت نقدینگی/مدیریت مالی دولت را محدود می‌کند و می‌تواند فشار بر بودجه و برنامه‌های کوتاه‌مدت اقتصادی را بالا ببرد، بدون اینکه لازم باشد ابتدا توافق سیاسی جدیدی حاصل شود.",
-            "جزئیات درباره واکنش تهران یا زمان‌بندی/میزان برداشت ارائه نشده، بنابراین صرفاً می‌توان گفت این تصمیم یک سازوکار تشدیدکننده فشار ساختاری است که می‌تواند نارضایتی داخلی را با تشدید تنگناهای اقتصادی افزایش دهد."
-        ],
-        "impact": "برداشت/استفاده از دارایی‌های یخ‌خورده به‌عنوان ابزار جبران خسارت، فشار مالی پایدارتر بر رژیم ایجاد می‌کند و هزینه حکمرانی را بالا می‌برد.",
-        "tag": "اقتصادی",
-        "urgency": 7,
-        "sentiment": -0.6,
-        "source": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjUnVoSV82cTc3bXdyQWsybzFVMXl1SDZCaDUwU0NNaUw4TE85cnBGai1ycUxyUTlBM1c1YXpvNXA1bFczV2M3R2pJZjBYMTZ1Vm54LUNZb3BhQQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjUnVoSV82cTc3bXdyQWsybzFVMXl1SDZCaDUwU0NNaUw4TE85cnBGai1ycUxyUTlBM1c1YXpvNXA1bFczV2M3R2pJZjBYMTZ1Vm54LUNZb3BhQQ",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784872780.0,
-        "id": "84dd238be7"
-    },
-    {
-        "title_fa": "فشار «جبهه جنگ‌طلب» جمهوری‌خواهان به ترامپ برای حمله بزرگ‌تر به ایران؛ هم‌زمان با تداوم حملات هوایی و جهش نفت",
-        "title_en": "GOP hawks urge Trump to go big as he weighs ‘massive attack’ on Iran",
-        "summary": [
-            "حامیان تهاجمی در حزب جمهوری‌خواه از ترامپ می‌خواهند «کار را تمام کند» و ادامه مذاکره را بی‌فایده می‌دانند؛ راجر ویکر گفت در تماس‌های متعدد از رئیس‌جمهور خواسته فشار نظامی را ادامه دهد و هدف را باز نگه داشتن تنگه هرمز «روی شروط آمریکا» اعلام کرده است.",
-            "ترامپ در گفت‌وگو با Axios از بررسی «حمله‌ای عظیم» سخن گفته و گفته «نزدیک تصمیم‌گیری» است؛ در عین حال اشاره شده مذاکرات با ایران کاملاً متوقف مانده است.",
-            "هم‌زمان گزارش می‌شود حملات هوایی آمریکا علیه ایران ۱۳ روز پیاپی ادامه داشته و طبق اعلام Centcom اهدافی مانند توان دریایی، انبارهای موشک و پهپاد، سامانه‌های دیده‌بانی ساحلی، پدافند هوایی، آشیانه‌های جنگی، لجستیک نظامی، مراکز فرماندهی، شبکه‌های ارتباطی و زیرساخت‌های پشتیبانی هدف قرار گرفته‌اند؛ همچنین قیمت نفت به ۱۰۰ دلار رسید و فعالیت نیروهای همسو با ایران در یمن (حوثی‌ها) کشتی‌های تجاری در دریای سرخ را هدف گرفته‌اند."
-        ],
-        "impact": "این گزارش نشانه تشدید جدی درگیری و خطر گسترش آن از «عملیات تاکتیکی» به «حمله بزرگ‌تر» است و با جهش قیمت نفت، هزینه‌های اقتصادی و ریسک اختلال در کریدور حیاتی تنگه هرمز را بالا می‌برد.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.8,
-        "source": "Yahoo",
-        "url": "https://www.yahoo.com/news/politics/articles/gop-hawks-urge-trump-big-100000982.html",
-        "clean_url": "https://www.yahoo.com/news/politics/articles/gop-hawks-urge-trump-big-100000982.html",
-        "image": "http://www.bing.com/th?id=ONUT.5l3igUHElAbtktxvSaYFRQ&pid=News",
-        "timestamp": 1784862000.0,
-        "id": "927b871def"
     }
 ]

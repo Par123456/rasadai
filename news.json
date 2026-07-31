@@ -74,6 +74,24 @@
         "timestamp": 1785483861.0
     },
     {
+        "id": "1cda68ecd1",
+        "title_fa": "قرارداد اتمی آمریکا و عربستان؛ استاندارد دوگانه",
+        "title_en": "Washington's Nuclear Double Standard in West Asia",
+        "summary": [
+            "آمریکا «همکاری صلح‌آمیز هسته‌ای» با عربستان را امضا می‌کند، اما همزمان روی سخت‌گیری و محدودسازی هسته‌ای برای رقبایش سیاست می‌گذارد؛ این یعنی یک خط‌کش واحد برای همه وجود ندارد.",
+            "وقتی کشوری با ظرفیت و نفوذ منطقه‌ای وارد چنین چارچوبی می‌شود، بازیگران دیگر منطقه هم خود را مجبور به بازتعریف محاسبات امنیتی می‌بینند؛ نتیجه‌اش مسابقه تسلیحاتی یا فشار امنیتیِ دائمی است."
+        ],
+        "impact": "این قرارداد هم تنش منطقه‌ای را بالا می‌برد و هم روایت آمریکا درباره «امنیت هسته‌ای» را سیاسی‌تر می‌کند.",
+        "tag": "هسته‌ای",
+        "urgency": 6,
+        "sentiment": -0.35,
+        "source": "CounterPunch",
+        "url": "https://www.counterpunch.org/2026/07/31/washingtons-nuclear-double-standard-in-west-asia/",
+        "clean_url": "https://www.counterpunch.org/2026/07/31/washingtons-nuclear-double-standard-in-west-asia",
+        "image": "https://www.counterpunch.org/wp-content/uploads/2025/06/Screenshot-2025-06-24-at-4.35.56-PM-953x630.png",
+        "timestamp": 1785477420.0
+    },
+    {
         "id": "523ee803ae",
         "title_fa": "ادعای ایران: دو کشتی در هرمز، حمله پهپادی به پایگاه کویت",
         "title_en": "Live Updates: Iran claims strikes on 2 ships in Strait of Hormuz and drone attack on U.S. base in Kuwait",
@@ -90,6 +108,26 @@
         "clean_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base",
         "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/07/31/d12fb420-21ff-4c9f-a279-d192e95fab03/thumbnail/1200x630/67c5f688bf97466cdbc73c5b805b1a84/gettyimages-2287657615.jpg",
         "timestamp": 1785471480.0
+    },
+    {
+        "id": "e2321fafa9",
+        "title_fa": "احتمال چرخش وزیر دفاع علیه کاهش حفاظت غیرنظامیان",
+        "title_en": "A Tragedy in Iran Might Persuade Hegseth to Change Course",
+        "summary": [
+            "پس‌لرزه دستور کار «عملیات سخت‌گیرانه» در پنتاگون: هگست برای بالا بردن لحن جنگی، بخش‌هایی از تیم‌های کاهش تلفات غیرنظامی را کوچک کرد و حالا پنتاگون دنبال برگشت بخشی از آن نقش‌هاست.",
+            "خبر مهم اینجاست که این چرخش، بعد از موج انتقادات و یک گزارش بازرس پنتاگون مطرح شده؛ گزارشی که می‌گوید کاهش جدی حمایت‌های مربوط به جلوگیری از آسیب به غیرنظامیان شاید با قوانین حمایت از غیرنظامیان در تضاد بوده است.",
+            "حادثه حمله هوایی اوایل جنگ با ایران (حدود ۱۷۰ کشته، بیشترشان کودک) در کنار «بازبینی راهبردی» داخلی، فشار سیاسی را بالا برده و دموکرات‌ها خواستار برگشت فوری مسیر شده‌اند.",
+            "اگر امضا نهایی هگست انجام شود، پنتاگون ممکن است به شکل نیمه‌برگشتی به چارچوب‌های سخت‌گیرانه‌تر در کنترل آسیب غیرنظامیان برگردد؛ تغییری که هم روی تاکتیک‌ها اثر می‌گذارد و هم روی مشروعیت سیاسی تصمیمات جنگی."
+        ],
+        "impact": "بازگشت بخشی از تیم‌های جلوگیری از تلفات غیرنظامی می‌تواند ریسک حملات پرخسارت را کم کند، اما در عین حال روند تصمیم‌گیری و سرعت عملیات را سخت‌تر می‌سازد.",
+        "tag": "نظامی",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "The Atlantic",
+        "url": "https://www.theatlantic.com/national-security/2026/07/hegseth-pentagon-civilian-protections-iran/688110/",
+        "clean_url": "https://www.theatlantic.com/national-security/2026/07/hegseth-pentagon-civilian-protections-iran/688110",
+        "image": "http://www.bing.com/th?id=ONUT.lJmBUGTcU3GJXlcvL196xA&pid=News",
+        "timestamp": 1785470400.0
     },
     {
         "id": "4e8d18865d",
@@ -5639,43 +5677,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784891636.0,
         "id": "b2b62baa40"
-    },
-    {
-        "title_fa": "ایران: دستور فاصله ۵۰۰ متری از محل اسکان «پنهانی» نیروهای آمریکا",
-        "title_en": "Iran urges residents in region to stay 500 meters from US troops’ ‘covert accommodation’",
-        "summary": [
-            "بر اساس گزارش آناتولی، ایران به ساکنان منطقه‌ها توصیه کرده حداقل ۵۰۰ متر از محل اسکان «پنهانی» نیروهای آمریکا دور بمانند؛ ادعایی که نشان می‌دهد تهران در روایت‌سازی امنیتی علیه حضور آمریکا فعال است.",
-            "این اقدام را باید بیشتر نشانه مدیریت ریسک و کنترل ادراک عمومی در برابر پیامدهای احتمالی درگیری دانست تا یک اقدام عملیاتی شفاف؛ چون «محل پنهانی» بدون جزئیات قابل راستی‌آزمایی، مبنای تصمیم‌سازی محلی قرار گرفته است.",
-            "در سطح داخلی، چنین توصیه‌های امنیتی معمولاً به کاهش حاشیه امن جامعه کمک نمی‌کند و اگر نگرانی‌ها درباره حضور خارجی و احتمال حادثه بالا برود، می‌تواند نارضایتی عمومی را تقویت کند؛ اما در گزارش، داده‌ای درباره اعتراض یا وضعیت اقتصاد ارائه نشده است."
-        ],
-        "impact": "این توصیه امنیتی، سطح تنش ادراکی را بالا می‌برد و احتمال تشدید حادثه یا سوءبرداشت محلی را افزایش می‌دهد، بدون آنکه نشانه‌ای از کاهش تنش در متن وجود داشته باشد.",
-        "tag": "امنیتی",
-        "urgency": 6,
-        "sentiment": -0.4,
-        "source": "Anadolu Ajansı",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeGxUaGVSZ2p5NXY0dElUU1kwZW5pSU9OVDZhNEdpQ0ZoR3ZnTE50TjBiVXpIVHotMTVfNVVtd2V1dmdkT0FkaGFSVVlNM2k0RE03U2cxSkxsdHhFVFp2RTdWS2IxYjJnaC13MVdPM2ZkTFVSSFlMYUVfRjlfdDlzNjdMUFNKM0pTZlFwMHFJbUE3dXl0STlvbUpSVUd0dWc4ekxraGhJTEZkLWtzam1xZVhnRzh5UFFSbDRCemFBblQ3STdOOGpMclNVMWxxNFlxejBGMQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeGxUaGVSZ2p5NXY0dElUU1kwZW5pSU9OVDZhNEdpQ0ZoR3ZnTE50TjBiVXpIVHotMTVfNVVtd2V1dmdkT0FkaGFSVVlNM2k0RE03U2cxSkxsdHhFVFp2RTdWS2IxYjJnaC13MVdPM2ZkTFVSSFlMYUVfRjlfdDlzNjdMUFNKM0pTZlFwMHFJbUE3dXl0STlvbUpSVUd0dWc4ekxraGhJTEZkLWtzam1xZVhnRzh5UFFSbDRCemFBblQ3STdOOGpMclNVMWxxNFlxejBGMQ",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784889150.0,
-        "id": "c851b40037"
-    },
-    {
-        "title_fa": "بررسی اهرم فشار: احتمال تشدید عملیات و رد پیشنهاد آتش‌بس توسط ایران",
-        "title_en": "Trump Weighs ‘Massive Attack’ as Iran Rejects Cease-Fire Proposal",
-        "summary": [
-            "طبق گزارش مجله Time، ترامپ «حمله گسترده» را به‌عنوان گزینه در نظر دارد، هم‌زمان با این‌که ایران پیشنهاد آتش‌بس را رد کرده است؛ این یعنی شکاف سیاسی مستقیماً به سمت فاز نظامی‌تر شدن می‌رود.",
-            "در سطح «تحریم/فشار خارجی»، تصمیم درباره «حمله گسترده» معمولاً به کاهش زمان محاسبه سیاسی رژیم منجر می‌شود: هرچه احتمال عملیات بیشتر شود، فرصت برای چانه‌زنی و مدیریت پیامدهای اقتصادی کمتر می‌شود و ریسک بی‌ثباتی داخلی بالا می‌رود (در چارچوب همین گزارش، جزئیات اقتصادی مشخص ارائه نشده است).",
-            "از نظر «واقع‌گرایی»، خبر به‌طور مشخص از روسیه، چین یا کره‌شمالی چیزی نمی‌گوید؛ بنابراین نمی‌توان ارتباط‌های بیرونی ساخت. همچنین فقط «رد آتش‌بس» و «بررسی حمله گسترده» گزارش شده و هیچ ادعای اثبات‌شده درباره اقدام نظامی فوری یا ضربه مشخص ارائه نشده است."
-        ],
-        "impact": "رد آتش‌بس و مطرح شدن «حمله گسترده» ریسک تشدید مستقیم تنش را بالا می‌برد و احتمال ورود به چرخه اقدام-پاسخ را افزایش می‌دهد.",
-        "tag": "تشدید",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "Time Magazine",
-        "url": "https://www.msn.com/en-us/news/world/trump-weighs-massive-attack-as-iran-rejects-cease-fire-proposal/ar-AA28BxUH",
-        "clean_url": "https://www.msn.com/en-us/news/world/trump-weighs-massive-attack-as-iran-rejects-cease-fire-proposal/ar-AA28BxUH",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784888100.0,
-        "id": "36696914a8"
     }
 ]

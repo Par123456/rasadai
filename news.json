@@ -1,5 +1,24 @@
 [
     {
+        "id": "25d6c3660b",
+        "title_fa": "ترامپ: اسرائیل از طرح غزه خوشنود؛ ترتیب خروج و خلع‌سلاح مبهم",
+        "title_en": "Middle East crisis live: Trump says 'Israel is very happy' with Gaza peace plan but doesn't say if withdrawal or Hamas disarmament comes first",
+        "summary": [
+            "ترامپ می‌گوید اسرائیل از طرح «صلح غزه» راضی است، اما روشن نمی‌کند تصمیم‌های کلیدی مثل اینکه «اول خروج نیروهای اسرائیلی است یا اول خلع‌سلاح و تحویل سلاح» چگونه زمان‌بندی می‌شود.",
+            "غازی حمد از حماس می‌گوید تحویل سلاح به دولت/اداره جدید غزه ممکن است، اما شرط آن «خروج نیروهای اسرائیلی» است؛ همچنین ورود NCAG و «نیروی بین‌المللی» برای رسیدگی به نظم امنیتی و همچنین برچیدن گروه‌های مسلح مورد حمایت اسرائیل را مطرح می‌کند.",
+            "همزمان، گزارش‌ها از بازنگری احتمالی پنتاگون درباره کاهش نیروهای یک برنامه برای جلوگیری از تلفات غیرنظامیان خبر می‌دهد؛ یعنی جنگ علیه ایران و نمونه‌هایی مثل حمله به مدرسه دخترانه در میناب فشار حقوقی و سیاسی را بالا برده است."
+        ],
+        "impact": "ابهام ترامپ درباره ترتیب خروج/خلع‌سلاح، و شرط‌گذاری حماس درباره خروج نیروها، روند توافق غزه را به میدان جنگِ زمان‌بندی و قواعد امنیتی می‌کشد.",
+        "tag": "غزه",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/jul/31/us-iran-war-live-updates-trump-claims-gaza-hamas-deal-middle-east-crisis-latest-news",
+        "clean_url": "https://www.theguardian.com/world/live/2026/jul/31/us-iran-war-live-updates-trump-claims-gaza-hamas-deal-middle-east-crisis-latest-news",
+        "image": "https://i.guim.co.uk/img/media/4d6ae08cd990b7b3648e594492ee1bfaad798ac0/0_337_4163_3330/master/4163.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=9ff073c2aad92b313399ea601506392a",
+        "timestamp": 1785526920.0
+    },
+    {
         "id": "b47bed3681",
         "title_fa": "شبکه شرط‌بندی فارسی، مسیر دور زدن تحریم ۴ میلیارد دلاری",
         "title_en": "SPECIAL REPORT-Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge",
@@ -5658,24 +5677,5 @@
         "image": "http://www.bing.com/th?id=ONUT.fTeF21k-vQJXXRhL2A-UVA&pid=News",
         "timestamp": 1784891760.0,
         "id": "cc10187a27"
-    },
-    {
-        "title_fa": "آغاز حملات جدید آمریکا و تهدید «حمله گسترده»؛ ایران دامنه جنگ را بیشتر کرده است",
-        "title_en": "U.S. launches new strikes and Trump threatens ‘massive attack’ as Iran widens war",
-        "summary": [
-            "طبق NBC News، آمریکا «حملات جدید» را آغاز کرده و همزمان ترامپ از «حمله گسترده» به‌عنوان پاسخ احتمالی در چارچوب تشدید تنش‌ها حرف زده است.",
-            "این گزارش وضعیت را به‌عنوان «گسترش جنگ» از سوی ایران توصیف می‌کند؛ یعنی تهران اقداماتی انجام داده که به تشدید درگیری و واکنش آمریکا منجر شده است.",
-            "پیامد فوری این پله‌کان امنیتی، بالا رفتن احتمال چرخه پاسخ‌به‌پاسخ است؛ جایی که هر حرکت ایران می‌تواند به حملات بیشتر آمریکا و تهدیدهای جدی‌تر تبدیل شود."
-        ],
-        "impact": "این روند، خطر تبدیل درگیری محدود به تقابل گسترده‌تر را بالا می‌برد و توان محاسبه‌پذیری راهبردی رژیم را کاهش می‌دهد.",
-        "tag": "تشدید-نظامی",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVBPQ0I2WkRxUFdZWkNFUDlOb2tPRWtFX05MUXp3ODhwLXpyQV96MmxLZFNEWlk0VkRSNGl0YmVQRE54MFpYX2hhbHZ2UVhydjBzLVdRNm5PZ1cwdW41V1A4MWpueHE2ajNhOXRkNGI3U18yY2s1V3EwWERXeDlNblBZVHJLS2dyeG5mTEVNZXVySVdnbVF4Ym5DemhyRHl1VGFFU2JUMGc?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVBPQ0I2WkRxUFdZWkNFUDlOb2tPRWtFX05MUXp3ODhwLXpyQV96MmxLZFNEWlk0VkRSNGl0YmVQRE54MFpYX2hhbHZ2UVhydjBzLVdRNm5PZ1cwdW41V1A4MWpueHE2ajNhOXRkNGI3U18yY2s1V3EwWERXeDlNblBZVHJLS2dyeG5mTEVNZXVySVdnbVF4Ym5DemhyRHl1VGFFU2JUMGc",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784891636.0,
-        "id": "b2b62baa40"
     }
 ]

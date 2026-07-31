@@ -38,6 +38,24 @@
         "timestamp": 1785488040.0
     },
     {
+        "id": "ae25993d6d",
+        "title_fa": "ترامپ بین پیام‌های متضاد؛ راه خروج از جنگ ایران",
+        "title_en": "Trump gets conflicting messages as he seeks an exit ramp from the Iran war",
+        "summary": [
+            "حتی وقتی ترامپ از «نزدیک شدن ایران به معامله» حرف می‌زند، بخشی از مقام‌های آمریکایی می‌گویند تهران بازی را به سمت فشار روی تنگه هرمز می‌برد، نه عقب‌نشینی.",
+            "اختلاف پیام‌ها یعنی داخل آمریکا دو روایت همزمان در جریان است: یکی دنبال خروج کم‌هزینه، دیگری بر این باور که ایران هنوز اهرم را در دست دارد و زمان را برای سناریوی فشار نگه می‌دارد."
+        ],
+        "impact": "ابهام در واشنگتن می‌تواند برنامه خروج را کند یا مبهم کند و ریسک درگیری در محدوده تنگه هرمز را بالا ببرد.",
+        "tag": "دیپلماسی",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "CNN on MSN",
+        "url": "https://www.msn.com/en-us/news/world/trump-gets-conflicting-messages-as-he-seeks-an-exit-ramp-from-the-iran-war/ar-AA298JSW",
+        "clean_url": "https://www.msn.com/en-us/news/world/trump-gets-conflicting-messages-as-he-seeks-an-exit-ramp-from-the-iran-war/ar-AA298JSW",
+        "image": "http://www.bing.com/th?id=ONUT.Fv3WXR8bcLygtU2HO2c1XQ&pid=News",
+        "timestamp": 1785484997.0
+    },
+    {
         "id": "d98b14fa5d",
         "title_fa": "بی‌نشانی از گفت‌وگو؛ آمریکا نگران تشدید فشار ایران است",
         "title_en": "Few signs of talks between US and Iran as Trump hears from different corners on path forward",
@@ -72,6 +90,43 @@
         "clean_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base",
         "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/07/31/d12fb420-21ff-4c9f-a279-d192e95fab03/thumbnail/1200x630/67c5f688bf97466cdbc73c5b805b1a84/gettyimages-2287657615.jpg",
         "timestamp": 1785471480.0
+    },
+    {
+        "id": "4e8d18865d",
+        "title_fa": "بحث واشنگتن-تل‌آویو برای «محاصره زمینی» ایران",
+        "title_en": "Iran Land Blockade BREAKING: Trump-Netanyahu PLAN to Cut Off Iran, U.S.-Israel Eye For NEW Move",
+        "summary": [
+            "گزارش می‌گوید آمریکا و اسرائیل بعد از ناکامی عملیات‌های نظامی و فشارهای دریایی، سراغ ایده محاصره زمینی رفته‌اند؛ یعنی تنگ‌کردن گذرگاه‌ها و محدود کردن تجارت با اصرار به ۷ همسایه ایران.",
+            "اما کارِ بستن کامل مرزهای زمینی سخت است؛ ایران هم مرزهای وسیع دارد، هم شبکه‌های قاچاق جاافتاده و هم وزن سیاسی-اقتصادی بازیگرهایی مثل چین و روسیه که می‌توانند گلوگاه‌ها را دور بزنند.",
+            "اگر این سناریو جدی شود، بیشتر از اینکه «خفه‌کردن کامل» اثر بگذارد، نقش فشار روانی و ایجاد هزینه برای مسیرهای زمینی را بازی می‌کند؛ همان چیزی که به‌راحتی می‌تواند به تنش مرزی و بی‌ثباتی منطقه‌ای دامن بزند."
+        ],
+        "impact": "محاصره زمینی اگر اجرایی شود، فشار لجستیکی و تجاری را بالا می‌برد و ریسک درگیری‌های پراکنده و جنگ روایت‌ها را بیشتر می‌کند.",
+        "tag": "محاصره زمینی",
+        "urgency": 7,
+        "sentiment": -0.35,
+        "source": "Oneindia",
+        "url": "https://www.oneindia.com/videos/iran-land-blockade-breaking-trumpnetanyahu-plan-to-cut-off-iran-u-s-israel-eye-for-new-move-4319126.html",
+        "clean_url": "https://www.oneindia.com/videos/iran-land-blockade-breaking-trumpnetanyahu-plan-to-cut-off-iran-u-s-israel-eye-for-new-move-4319126.html",
+        "image": "https://imagesvs.oneindia.com/img/videos/2026/07/590910677-iran-land-blockade-breaking-trump-netanyahu-plan-to-cut-off-iran-u.s.-israel-eye-for-new-move.jpg",
+        "timestamp": 1785467400.0
+    },
+    {
+        "id": "2826363c92",
+        "title_fa": "گفت‌وگوی آمریکا و اسرائیل درباره «محاصره زمینی» ایران",
+        "title_en": "Israel and US consider Iran land blockade",
+        "summary": [
+            "طبق گزارش‌ها، آمریکا و اسرائیل درباره بستن یا سخت‌کردن گذرگاه‌های مرزی برای قطع رفت‌وآمد کالاهای ایران صحبت کرده‌اند تا فشار اقتصادی جای حملات را بگیرد.",
+            "ایده عملیاتی این است: شریک‌های منطقه‌ای مجبور شوند مرزها را شُل نکنند یا کامل ببندند؛ اما چون ایران با چند کشور همسایه طولانی مرزی دارد، موفقیتش بدون همکاری همسایه‌ها سخت و پرهزینه می‌شود."
+        ],
+        "impact": "اگر چنین طرحی جلو برود، با کم‌شدن مسیرهای واردات و صادرات، هزینه اقتصادی ایران بالا می‌رود و فشار برای همراه‌سازی همسایه‌ها به یک محور جدید تبدیل می‌شود.",
+        "tag": "محاصره زمینی",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/israel-us-consider-iran-land-093000609.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/israel-us-consider-iran-land-093000609.html",
+        "image": "https://s.yimg.com/lo/mysterio/api/70c627269af9b668e73c601151a411b313f7ba956d2aa5c55691ac9457d2c170/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_258%2F14891df9281c09645dabbd9f7479e817",
+        "timestamp": 1785465060.0
     },
     {
         "id": "d1e0ef04f2",
@@ -5622,62 +5677,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784888100.0,
         "id": "36696914a8"
-    },
-    {
-        "title_fa": "تداوم حملات آمریکا زیر تهدید ترامپ؛ «تنبیه نظامی بزرگ» برای ایران و حوثی‌ها",
-        "title_en": "U.S. carries out more strikes as Trump threatens Iran, Houthis with \"major military punishment\"",
-        "summary": [
-            "بر اساس گزارش CBS News، آمریکا در ادامه روند حملات، «چند حمله دیگر» را اجرا کرده و همزمان ترامپ تهدید کرده است که پاسخ نظامی «تنبیه بزرگ» علیه ایران و حوثی‌ها در دستور کار قرار می‌گیرد.",
-            "این تصمیم با چارچوب فشار مستقیم خارجی مطرح شده و می‌تواند هم قابلیت‌های عملیاتی شبکه‌های نیابتی را محدود کند و هم ریسک تشدید تنش در منطقه را بالا ببرد.",
-            "در سطح سیاسی-اقتصادی، تهدیدهای علنی ترامپ همراه با افزایش حملات، پیام روشن به بازیگران داخلی و حامیانشان است و می‌تواند بر تصمیم‌گیری فرماندهی رژیم اثر بگذارد، هرچند در متن گزارش به پیامدهای اقتصادی مشخص اشاره نشده است."
-        ],
-        "impact": "تداوم حملات آمریکا همراه با تهدید علنی، احتمال درگیری گسترده‌تر و افزایش هزینه عملیاتی برای ایران و حوثی‌ها را بالا می‌برد.",
-        "tag": "تنش_منطقه‌ای",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "CBS News",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/",
-        "clean_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784887920.0,
-        "id": "8fa09f4c14"
-    },
-    {
-        "title_fa": "سناتای آمریکا تحریم‌های ایران را به لایحه روسیه اضافه کرد",
-        "title_en": "Senate adding Iran sanctions to Russia bill",
-        "summary": [
-            "طبق گزارش E&E News (POLITICO)، سنای آمریکا تصمیم دارد بسته تحریمی جدید درباره ایران را به لایحه تحریم‌های مرتبط با روسیه الحاق کند؛ یعنی فشار خارجی در قالب یک مسیر قانون‌گذاری موازی دنبال می‌شود.",
-            "این اقدام، از نظر ساختاری می‌تواند هزینه دسترسی رژیم به شبکه‌های مالی/تجاری را افزایش دهد و اهرم فشار را برای جریان‌های اقتصادی داخلی که به کانال‌های دورزدن تحریم متکی‌اند تنگ‌تر کند.",
-            "خبر مشخصاً از نوع و جزئیات تحریم‌ها صحبت نمی‌کند، اما خودِ ادغام تحریم ایران در یک لایحه جریان‌دارِ روسیه نشان می‌دهد سیاست تحریمی در حال یکپارچه‌سازی و تشدید است و احتمالاً اثر آن در تصمیم‌های بنگاه‌ها و طرف‌های خارجیِ درگیر با ایران ملموس خواهد شد."
-        ],
-        "impact": "الحاق تحریم ایران به لایحه روسیه، فشار خارجی را قانونی‌تر و کم‌گریزتر می‌کند و می‌تواند به تضعیف پایداری اقتصادی و سیاسی رژیم منجر شود.",
-        "tag": "اقتصادی",
-        "urgency": 7,
-        "sentiment": 0.25,
-        "source": "E&E News by POLITICO",
-        "url": "https://www.msn.com/en-us/news/politics/thune-says-iran-sanctions-to-be-added-to-russia-sanctions-bill/ar-AA28ytt2",
-        "clean_url": "https://www.msn.com/en-us/news/politics/thune-says-iran-sanctions-to-be-added-to-russia-sanctions-bill/ar-AA28ytt2",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784887740.0,
-        "id": "8cb91ab977"
-    },
-    {
-        "title_fa": "راه خروج تنها در مهار جنگ: ارزیابی فشار خارجی در روایت واشنگتن‌پست",
-        "title_en": "There’s only one way out of Trump’s reckless war",
-        "summary": [
-            "واشنگتن‌پست با محور قرار دادن «جنگ پرریسک ترامپ» بحث می‌کند که خروج از بحران، بدون تغییر مسیر راهبردی ممکن نیست؛ یعنی ادامه منطق فعلی جنگ‌محور عملاً بن‌بست تولید می‌کند.",
-            "این چارچوب، از منظر فشار خارجی قابل فهم است: هرچه جنگ پرهزینه‌تر و پرریسک‌تر باشد، هزینه‌های مالی و سیاسی برای رژیم‌ها و کارگزارانشان بالاتر می‌رود و فضای مانور سیاسی کاهش پیدا می‌کند—اما متن شما جزئیات تحریم/اقدام مشخص ارائه نمی‌دهد.",
-            "در غیاب اطلاعات دقیق از خبر (مانند مکان، زمان، نوع اقدام نظامی یا سازوکار تصمیم)، نمی‌توان به درستی درباره پیامدهای داخلی اقتصاد ایران یا سطح ناآرامی‌ها حکم قطعی داد و باید از بزرگ‌نمایی خودداری کرد."
-        ],
-        "impact": "این گزارش بیشتر یک نسخه سیاستی کلی برای خروج از بحران جنگی است و اثر واقعی آن به اقدامات مشخص، زمان‌بندی و ابزارهای اجرایی بستگی دارد.",
-        "tag": "تحلیل",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "The Washington Post",
-        "url": "https://www.washingtonpost.com/ripple/2026/07/23/iran-united-states-trump-hormuz-war-nuclear/",
-        "clean_url": "https://www.washingtonpost.com/ripple/2026/07/23/iran-united-states-trump-hormuz-war-nuclear",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784886920.0,
-        "id": "b3eb52aef1"
     }
 ]

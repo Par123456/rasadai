@@ -38,6 +38,43 @@
         "timestamp": 1785488040.0
     },
     {
+        "id": "523ee803ae",
+        "title_fa": "ادعای ایران: دو کشتی در هرمز، حمله پهپادی به پایگاه کویت",
+        "title_en": "Live Updates: Iran claims strikes on 2 ships in Strait of Hormuz and drone attack on U.S. base in Kuwait",
+        "summary": [
+            "سپاه می‌گوید دو نفتکش را در تنگه هرمز با پوشش «همراهی هوایی آمریکا» هدف گرفته و چهار کشتی دیگر را برگردانده؛ یعنی تهران روی کنترل مسیر تجاری حساب باز کرده، نه صرفاً نمایش.",
+            "ایران همچنین از حمله پهپادی به تأسیسات آمریکا در پایگاه احمد الجابر کویت خبر داده، اما فرماندهی مرکزی آمریکا فعلاً واکنش رسمی نداده؛ فاصله بین «ادعا» و «تأیید» می‌تواند به افزایش ریسک خطای محاسباتی در ناوگان منجر شود."
+        ],
+        "impact": "افزایش تنش در هرمز و کویت، هزینه بیمه و ریسک کشتیرانی را بالا می‌برد و هر دو طرف را به پاسخ سریع‌تر هل می‌دهد.",
+        "tag": "نیابتی-نظامی",
+        "urgency": 9,
+        "sentiment": -0.6,
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
+        "clean_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/07/31/d12fb420-21ff-4c9f-a279-d192e95fab03/thumbnail/1200x630/67c5f688bf97466cdbc73c5b805b1a84/gettyimages-2287657615.jpg",
+        "timestamp": 1785471480.0
+    },
+    {
+        "id": "d1e0ef04f2",
+        "title_fa": "تشدید حملات آمریکا به زیرساخت؛ اقتصاد ایران زیر فشار",
+        "title_en": "Trump’s infrastructure strikes leave Iran’s economy battered",
+        "summary": [
+            "حمله به زیرساخت و تهدیدِ ادامه‌دار، فشار اقتصادی را مستقیم‌تر از تحریم بالا می‌برد؛ یعنی ضربه فقط مالی نیست، عملیاتی و روزمره است.",
+            "تهران روی «فرسایش زمان» حساب کرده: سرمایه، تعمیرپذیری و تاب‌آوری شبکه‌ها در برابر تداوم شوک‌ها تست می‌شود، نه فقط درآمدها.",
+            "محرک سیاسی این سناریو روشن است: اگر مذاکره شکست بخورد، ریسک گسترش هدف‌ها بالا می‌رود و هزینه پیش‌بینی‌پذیری برای اقتصاد را بیشتر می‌کند."
+        ],
+        "impact": "هر موج حمله به زیرساخت، هم هزینه تعمیر را بالا می‌برد هم تولید و خدمات را کند کرده و رشد اقتصادی را می‌خواباند.",
+        "tag": "نظامی-اقتصادی",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/07/31/trumps-infrastructure-strikes-leave-irans-economy-battered/",
+        "clean_url": "https://www.washingtonpost.com/world/2026/07/31/trumps-infrastructure-strikes-leave-irans-economy-battered",
+        "image": "http://www.bing.com/th?id=ONUT.8xx6Xh4weJiZkv8hglWqCg&pid=News",
+        "timestamp": 1785463200.0
+    },
+    {
         "id": "7c89550ebc",
         "title_fa": "آمریکا ردپای حمله سایبری به آب مینه‌سوتا را می‌جوید",
         "title_en": "US Iran War Live Updates: US probes cyberattacks on Minnesota water systems for suspected Iran link",
@@ -5643,43 +5680,5 @@
         "image": "http://www.bing.com/th?id=ONUT.vydAS85j-S9MoIoE7l8urQ&pid=News",
         "timestamp": 1784884860.0,
         "id": "64aadd6525"
-    },
-    {
-        "title_fa": "ایران حملات پهپادی به پایگاه‌های آمریکا در منطقه را هدف گرفت و آمریکا هم سایت‌های نظامی را زد",
-        "title_en": "Iran targets American strongholds around the Gulf while US hits military sites",
-        "summary": [
-            "بر اساس گزارش، پهپادهای حامل مواد انفجاری به یک شهر در شمال عراق حمله کردند که میزبان نیروهای آمریکا است؛ همزمان آژیرها در بحرین نیز به صدا درآمد.",
-            "در ادامهِ این چرخه حمله/پاسخ، گزارش می‌گوید آمریکا به سایت‌های نظامی حمله کرده است؛ یعنی هر دو طرف وارد فاز عملیاتیِ ضربه متقابل شده‌اند، نه صرفاً تهدید لفظی.",
-            "تمرکز عملیاتی ایران روی «سنگرهای آمریکایی» در حاشیه خلیج، نشان می‌دهد محاسبه بازدارندگی از سمت تهران به استفاده از شبکه‌های دوربرد و ضربه‌زدن به نقاط استقرار نیروهای آمریکا متکی است."
-        ],
-        "impact": "این وضعیت سطح تنش عملیاتی میان تهران و واشنگتن را بالا می‌برد و احتمال تداوم چرخه حملات و اشتباه محاسباتی در اطراف خلیج را بیشتر می‌کند.",
-        "tag": "نظامی",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "Los Angeles Times on MSN",
-        "url": "https://www.msn.com/en-us/news/other/drones-target-iraqi-city-where-us-forces-are-based-as-iran-fighting-escalates/ar-AA28C6fO",
-        "clean_url": "https://www.msn.com/en-us/news/other/drones-target-iraqi-city-where-us-forces-are-based-as-iran-fighting-escalates/ar-AA28C6fO",
-        "image": "http://www.bing.com/th?id=ONUT.ae1ApsOcyi6Tmdhl2ZLrMA&pid=News",
-        "timestamp": 1784882957.0,
-        "id": "942c7f1e18"
-    },
-    {
-        "title_fa": "ترامپ درباره «حمله گسترده» به ایران در حال بررسی؛ تهران بریتانیا را «همدست آمریکا» خواند",
-        "title_en": "Trump considering a ‘massive attack’ on Iran as Tehran labels UK ‘accomplice’ to America",
-        "summary": [
-            "CNBC گزارش می‌کند که ترامپ در حال بررسی یک «حمله گسترده» علیه ایران است؛ یعنی سناریویی که اگر از حالت بررسی به اقدام برسد، مستقیماً وارد فاز رویارویی نظامی خواهد شد.",
-            "هم‌زمان، تهران بریتانیا را «accomplice» (همدست) آمریکا معرفی کرده که نشان می‌دهد اختلافات و خط قرمزهای سیاسی پیرامون مشارکت/همکاری‌های غرب تشدید شده است.",
-            "این خبر از منظر فشار خارجی، اگر به عملیات منتهی شود، می‌تواند ساختار محاسباتی رژیم را در حوزه امنیتی و پیامدهای اقتصادی/روانی (ریسک و نااطمینانی) به هم بزند؛ اما تا وقتی جزئیات اقدام منتشر نشده، هنوز شواهد قطعی درباره زمان و ابعاد عملیات ارائه نشده است."
-        ],
-        "impact": "برداشت کلیدی این است که حرکت از «بررسی» به «اجرا» می‌تواند به سرعت ریسک جنگ و فروپاشی کنترل در حوزه امنیتی را بالا ببرد، در حالی که برچسب‌زنی تهران علیه لندن نیز شکاف‌های دیپلماتیک را تشدید می‌کند.",
-        "tag": "تنش_نظامی",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "CNBC",
-        "url": "https://www.msn.com/en-us/news/other/trump-considering-a-massive-attack-on-iran-as-tehran-labels-uk-accomplice-to-america/ar-AA28AoSn",
-        "clean_url": "https://www.msn.com/en-us/news/other/trump-considering-a-massive-attack-on-iran-as-tehran-labels-uk-accomplice-to-america/ar-AA28AoSn",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784879670.0,
-        "id": "6c8b4c4af4"
     }
 ]

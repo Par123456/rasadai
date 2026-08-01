@@ -1,5 +1,24 @@
 [
     {
+        "id": "582cf2f227",
+        "title_fa": "ترامپ تهدید به حمله بیشتر به ایران؛ کویت هم واکنش داد",
+        "title_en": "Trump threatens more strikes on Iran; Iran accuses US over escalating tensions in Middle East",
+        "summary": [
+            "ترامپ آشکارا روی گزینه «حمله‌های بیشتر» مانور می‌دهد و هم‌زمان فشار برای بازگشایی مسیر حیاتی تنگه هرمز را در مرکز ادبیات تهدیداتش می‌گذارد؛ یعنی تهدید نظامی را به اهرم اقتصادی-تجاری وصل می‌کند.",
+            "ایران همزمان آمریکا را عامل تشدید تنش در خاورمیانه معرفی می‌کند تا هزینه سیاسی تهدیدات واشنگتن را به گردن طرف مقابل بیندازد؛ اما این دو روایت عملاً در یک نقطه مشترک می‌چرخند: افزایش ریسک امنیتی و عملیاتی در آب‌ها و آسمان منطقه.",
+            "خبر کویت از «پاسخ به یک دور جدید پهپاد» نشان می‌دهد ماجرا فقط لفظ نیست و فضای امنیتی منطقه وارد چرخه واکنش‌های سریع شده؛ هر حمله/رهگیری می‌تواند زنجیره بعدی را فعال کند."
+        ],
+        "impact": "ریسک تشدید نظامی و اختلال در کشتیرانی تنگه هرمز بالا می‌رود و احتمال درگیری‌های محدودِ پهپادی/رهگیری بیشتر می‌شود.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "The New Indian Express on MSN",
+        "url": "https://www.msn.com/en-in/news/other/trump-threatens-more-strikes-on-iran-iran-accuses-us-over-escalating-tensions-in-middle-east/ar-AA29bPFe",
+        "clean_url": "https://www.msn.com/en-in/news/other/trump-threatens-more-strikes-on-iran-iran-accuses-us-over-escalating-tensions-in-middle-east/ar-AA29bPFe",
+        "image": "http://www.bing.com/th?id=ONUT.FJEPbyzwZVFhe44avsE_Lg&pid=News",
+        "timestamp": 1785552670.0
+    },
+    {
         "id": "d0cb835cc7",
         "title_fa": "تفاوت ترامپ و نتانیاهو دوباره روی «طرح خلع سلاح غزه»",
         "title_en": "Trump and Netanyahu May Be at Odds Again Over Gaza Plan",
@@ -5654,24 +5673,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784911004.0,
         "id": "9eef6eb9f7"
-    },
-    {
-        "title_fa": "هشدار ترامپ به چین و روسیه: ورود به جنگ ایران خط قرمز آمریکا",
-        "title_en": "Trump warns China, Russia against involvement in Iran war",
-        "summary": [
-            "بر اساس گزارش رویترز، ترامپ به چین و روسیه هشدار داده که در جنگ مربوط به ایران وارد نشوند؛ پیام اصلی این است که آمریکا هرگونه نقش‌آفرینی خارجی در این سناریو را تهدید مستقیم تلقی می‌کند.",
-            "این نوع هشدار، ابزار فشار خارجی است و هدفش کاهش کانال‌های کمک و مانع‌تراشی در مسیر پشتیبانی بیرونی برای رژیم است، چون حتی «درگیری غیرمستقیم» می‌تواند پرریسک و پرهزینه شود.",
-            "متن خبر به جزئیات درباره تحرکات عملی یا تحریم جدید اشاره نمی‌کند، اما خودِ تهدید به محدودسازی مشارکت قدرت‌های بزرگ، می‌تواند عدم‌قطعیت سیاسی و اقتصادی را بالا ببرد و توان برنامه‌ریزی رژیم را محدود کند."
-        ],
-        "impact": "این هشدار به‌تنهایی الزاماً به معنای تشدید فوری نظامی نیست، اما ریسک محاسبات رژیم و شرکایش را بالا می‌برد و فشار خارجی را به شکل بازدارندگی تقویت می‌کند.",
-        "tag": "تحریم-بازدارندگی",
-        "urgency": 5,
-        "sentiment": -0.2,
-        "source": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFNIbkVHRDFha2pQZ0ZQeGpKUnNPRnJyTGZYVmdRMlpuOW1hXy1kT2UtenhSSVNnd01lLWJXNFZVWVdrWVAtSlFtQmItekowMnFEUUhwbWNzUmh3NE9kMGE4LURxTGtUaF95dlp3T25yQm9FUlY0UUlUczNfNE9vUmIzUm5OUE1Fd2VWSVNud0V1ZVRtZFZxbm12SVBDSDJpMzZn?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFNIbkVHRDFha2pQZ0ZQeGpKUnNPRnJyTGZYVmdRMlpuOW1hXy1kT2UtenhSSVNnd01lLWJXNFZVWVdrWVAtSlFtQmItekowMnFEUUhwbWNzUmh3NE9kMGE4LURxTGtUaF95dlp3T25yQm9FUlY0UUlUczNfNE9vUmIzUm5OUE1Fd2VWSVNud0V1ZVRtZFZxbm12SVBDSDJpMzZn",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784909421.0,
-        "id": "7a68ab3307"
     }
 ]

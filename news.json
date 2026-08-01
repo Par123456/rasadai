@@ -1,5 +1,61 @@
 [
     {
+        "id": "f59686287e",
+        "title_fa": "روبیو: ایران «هرگز» با ترامپ روبه‌رو نشده",
+        "title_en": "Iranian regime has 'never faced a president' like Trump, Rubio says",
+        "summary": [
+            "روبیو با مقایسه مستقیم ترامپ و «رژیم ایران» می‌گوید برخورد واشنگتن با تهران در حال ورود به فاز جدید فشار است؛ از جنس تهدید حساب‌شده نه صرفاً تهدید لفظی.",
+            "همزمان با این لفاظی، خبر عملیاتی هم می‌آید: تصاویر رسمی از اعزام/آمادگی بالگرد CH-47 در منطقه و همچنین هشدارهای سفارت‌های آمریکا (اردن و اسرائیل) و مأموریت آمریکا در امارات برای خروج یا کاهش ریسک، یعنی واشنگتن آماده سناریوهای تشدید درگیری است."
+        ],
+        "impact": "این ترکیبِ پیام سیاسی تند و نشانه‌های آمادگی نظامی، احتمال حملات متقابل و بالا رفتن سطح تهدید برای نیروها و کشتیرانی را بیشتر می‌کند.",
+        "tag": "نظامی",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/us-iran-war-trump-rubio-august-1-2026",
+        "clean_url": "https://www.foxnews.com/live-news/us-iran-war-trump-rubio-august-1-2026",
+        "image": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/08/37313301a0a9f54709aee1705f5e112a.jpg",
+        "timestamp": 1785617820.0
+    },
+    {
+        "id": "499beb8c20",
+        "title_fa": "ترامپ هشدار حملات تازه؛ کویت موشک‌های ایران را رهگیری کرد",
+        "title_en": "Iran war latest: Trump warns of fresh strikes",
+        "summary": [
+            "ترامپ به‌طور علنی از «حملات تازه» علیه ایران حرف می‌زند و پیامش روشن است: گزینه نظامی را روی میز نگه داشته تا ایران را عقب‌تر بیاورد.",
+            "در همان زمان، گزارش شده کویت موشک‌هایی را که از سمت تهران آمده بودند رهگیری کرده؛ یعنی این هشدار صرفاً لفظی نیست و ریسک درگیری مستقیم در خلیج فارس بالا می‌ماند.",
+            "ارتش ایران هم آمریکا را متهم کرده «مسیر تشدید تنش» را جلو می‌برد؛ جدال لفظی اما در کنار رهگیری موشک، بیشتر شبیه جنگ روانی برای مدیریت ترس و محاسبه طرف مقابل است تا یک کاهش تنش واقعی."
+        ],
+        "impact": "احتمال حمله محدود یا پاسخ سریع بالا می‌رود و ریسک اشتباه محاسباتی در مسیرهای موشکی/پدافندی منطقه بیشتر می‌شود.",
+        "tag": "نظامی",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "The Independent on MSN",
+        "url": "https://www.msn.com/en-us/news/world/iran-war-latest-trump-warns-of-fresh-strikes/ar-AA29bSsS",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-war-latest-trump-warns-of-fresh-strikes/ar-AA29bSsS",
+        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785593504.0
+    },
+    {
+        "id": "ea5bb3f8a7",
+        "title_fa": "هشدار آمریکا در خاورمیانه؛ ترامپ از ضربه «خیلی سنگین» می‌گوید",
+        "title_en": "US warns citizens across the Middle East as Trump and Iran issue new threats",
+        "summary": [
+            "واشنگتن می‌گوید آماده اجرای حملات جدید علیه ایران از همین آخرهفته است، اما دامنه و اهداف هنوز مشخص نیست و ممکن است حمله لغو شود؛ ترامپ هم تهدید را با جمله «خیلی سخت می‌زنیم» علنی کرد.",
+            "همزمان آمریکا برای شهروندانش در کل منطقه هشدار تازه سفر داده و هم‌زمان خبرهای میدانی می‌گوید: تهدیدهای تازه تهران برای کشور‌های میزبان پایگاه‌های آمریکا و گزارش حمله پهپادی ایران به کویت در بامداد شنبه.",
+            "در غزه، اسرائیل طی کمتر از ۴۸ ساعت از اعلام «امکان پیشرفت» در مذاکرات آمریکا-اسرائیل/حماس، به یک بیمارستان ضربه زده و دهانه بزرگ ایجاد کرده؛ نتیجه: هر توافق احتمالی زیر فشار تشدید خشونت، مبهم‌تر می‌شود."
+        ],
+        "impact": "احتمال اجرای حملات فوری علیه ایران و گسترش ناامنی برای نیروها و شهروندان آمریکایی، ریسک درگیری منطقه‌ای را همین هفته بالا می‌برد.",
+        "tag": "نظامی",
+        "urgency": 10,
+        "sentiment": -0.85,
+        "source": "CNN International",
+        "url": "https://edition.cnn.com/2026/08/01/world/live-news/iran-war-trump?post-id=cmsahjwkx00003b6t2awsxp7o",
+        "clean_url": "https://edition.cnn.com/2026/08/01/world/live-news/iran-war-trump",
+        "image": "http://www.bing.com/th?id=ONUT.spdcWfiifvgBROTBv9GPsQ&pid=News",
+        "timestamp": 1785593220.0
+    },
+    {
         "id": "b6eeee2c73",
         "title_fa": "کودلو: جنگ ایران تعیین‌کننده نتیجه میان‌دوره‌ای است",
         "title_en": "Larry Kudlow Claims Iran War Strategy Will Be The Defining Factor In Upcoming Midterms",
@@ -71,6 +127,26 @@
         "clean_url": "https://www.msn.com/en-us/news/world/trump-iran-latest-us-president-warns-of-fresh-strikes/ar-AA296yRD",
         "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA296AX4.img?w=1200&h=800&m=4&q=81",
         "timestamp": 1785574593.0
+    },
+    {
+        "id": "89d9de8761",
+        "title_fa": "نگرانی متحدان از «شکست راهبردی» جنگ ایران آمریکا",
+        "title_en": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
+        "summary": [
+            "متحدان آمریکا از شش‌ماهه شدن جنگ علیه ایران می‌ترسند چون برتری نظامی واشنگتن نتوانسته ایران را به شکل پایدار تغییر دهد؛ همین ناتوانی را فرصتی برای روسیه و چین می‌بینند.",
+            "به‌گفته گزارش، اهداف ترامپ برآورده نشده و آمریکا برای نقش جهانیِ خودش با کمبود تسلیحات کلیدی روبه‌روست؛ هم‌زمان ایران هم در ظاهر عقب نمانده و برنامه هسته‌ای/موشکی «تخریب کامل» نشده، فقط آسیب دیده است.",
+            "کنترل عملی ایران بر تنگه هرمز باعث می‌شود هم حمل‌ونقل و هم زیرساخت انرژی متحدان تحت فشار بماند و موشک/پهپادهای ایران تهدید پایگاه‌های آمریکا در منطقه را ادامه دهد؛ در کنار تلفات نیروهای آمریکایی، این جنگ را از نظر حیثیتی و دیپلماتیک هزینه‌دار کرده است.",
+            "در واشنگتن، تحلیلگران می‌گویند با جابه‌جایی مدام هدف‌ها، اعتبار آمریکا هم در میدان و هم در مذاکره فرسوده می‌شود و تصویر «غیرقابل پیش‌بینی بودن» به ابزار بی‌نظمی جهانی تقویت شده است."
+        ],
+        "impact": "اگر این برداشت متحدان غالب شود، هم انسجام ائتلاف برای فشار بیشتر کم می‌شود و هم ریسک افزایش شکاف سیاسی-نظامی بین آمریکا و شرکایش بالا می‌رود.",
+        "tag": "ایران-راهبردی",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/2026/08/01/world/middleeast/us-iran-war-strategy.html",
+        "clean_url": "https://www.nytimes.com/2026/08/01/world/middleeast/us-iran-war-strategy.html",
+        "image": "http://www.bing.com/th?id=ONUT.bEscPZVdFe3coUUX5p1OnQ&pid=News",
+        "timestamp": 1785573960.0
     },
     {
         "id": "76dd1a9a8f",
@@ -5592,81 +5668,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784932243.0,
         "id": "da239dbeb2"
-    },
-    {
-        "title_fa": "پیک‌اَکس مَونتین؛ سایت زیرزمینی هسته‌ای ایران و تهدید ترامپ، اهرم فشار علیه رژیم",
-        "title_en": "What Is Pickaxe Mountain, Iran’s Underground Nuclear Site That Trump Is Threatening?",
-        "summary": [
-            "تایم به سایت زیرزمینی هسته‌ای «پیک‌اَکس مَونتین» به‌عنوان یکی از نقاط کلیدی برنامه هسته‌ای ایران می‌پردازد و آن را در کانون تهدیدات ترامپ قرار می‌دهد.",
-            "این نوع تهدید سیاسی-امنیتی، عملاً بر ایجاد فشار خارجی و افزایش هزینه‌های محاسباتی رژیم در حوزه برنامه هسته‌ای تمرکز دارد، نه صرفاً یک پیام تبلیغاتی.",
-            "چنین برجسته‌سازیِ یک سایت مشخص، ریسک تشدید تنش و سخت‌تر شدن گزینه‌های رژیم برای مدیریت بین‌المللی پرونده هسته‌ای را بالا می‌برد و فضای تصمیم‌گیری را محدودتر می‌کند."
-        ],
-        "impact": "اگر تهدیدها به اقدام عملی نزدیک شوند، رژیم با افزایش فشار خارجی و ریسک‌های امنیتی/دیپلماتیک مستقیم‌تر از قبل روبه‌رو می‌شود.",
-        "tag": "هسته‌ای",
-        "urgency": 6,
-        "sentiment": -0.55,
-        "source": "Time Magazine",
-        "url": "https://www.msn.com/en-us/news/world/what-is-pickaxe-mountain-iran-s-underground-nuclear-site-that-trump-is-threatening/ar-AA28CWpe",
-        "clean_url": "https://www.msn.com/en-us/news/world/what-is-pickaxe-mountain-iran-s-underground-nuclear-site-that-trump-is-threatening/ar-AA28CWpe",
-        "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784928449.0,
-        "id": "2848a8c135"
-    },
-    {
-        "title_fa": "یمـن در آستانه جنگ دوباره؛ سایه درگیری ایران‌محور بر تصمیم‌های صنعا و ریاض",
-        "title_en": "Yemen teeters towards renewed war in shadow of Iran conflict",
-        "summary": [
-            "خبر روی این محور می‌چرخد که یمن به سمت ازسرگیری جنگ می‌لغزد، اما «سایه» درگیری‌های مرتبط با ایران در پس‌زمینه، عامل تعیین‌کننده تشدید تنش معرفی می‌شود.",
-            "کانون تحلیل در Reuters نشان می‌دهد که رقابت‌های منطقه‌ای و دینامیک‌های پیرامون ایران، فضای محاسبات بازیگران یمنی را برای بازگشت به جنگ آماده‌تر می‌کند؛ نه فقط عوامل داخلی یمن.",
-            "نتیجه عملی این وضعیت: هر حرکت جدید در یمن به‌عنوان اهرم در رقابت‌های منطقه‌ای تعبیر می‌شود و احتمال درگیری دوباره را بالا می‌برد."
-        ],
-        "impact": "بازگشت یمن به جنگ، هزینه‌های امنیتی و سیاسی کل منطقه را افزایش می‌دهد و ابزار رقابت‌های ایران و رقبایش را در یک جبهه فعال‌تر می‌کند.",
-        "tag": "نیابتی",
-        "urgency": 5,
-        "sentiment": -0.4,
-        "source": "Reuters",
-        "url": "https://www.reuters.com/world/middle-east/yemen-teeters-towards-renewed-war-shadow-iran-conflict-2026-07-24/",
-        "clean_url": "https://www.reuters.com/world/middle-east/yemen-teeters-towards-renewed-war-shadow-iran-conflict-2026-07-24",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784927754.0,
-        "id": "da38040ded"
-    },
-    {
-        "title_fa": "ترکیب فوری ترامپ با مشاوران ارشد درباره تشدید «جدی» تنش ایران",
-        "title_en": "Live - Trump convenes top advisers to discuss major Iran escalation",
-        "summary": [
-            "خبرگزاری ایران اینترنشنال اعلام می‌کند ترامپ جلسه‌ای فوری با مشاوران ارشد خود تشکیل داده تا درباره «تشدید جدی» تنش با ایران تصمیم‌گیری کنند.",
-            "خروجی این اقدام، در چارچوب فشار خارجی/تشدید سیاست امنیتی آمریکا قابل تفسیر است، چون تمرکز جلسه روی «اسکالیشن» است نه مدیریت صرفاً نمادین بحران.",
-            "متن گزارش جزئیات عملیاتی (نوع اقدام، زمان‌بندی یا هدف مشخص) ارائه نمی‌دهد، اما خودِ تشکیل نشست سطح‌بالا نشان‌دهنده حرکت به سمت گزینه‌های سخت‌تر در سیاست آمریکا است."
-        ],
-        "impact": "این نوع تصمیم‌گیری در سطح عالی آمریکا می‌تواند مسیر فشار سیاسی-امنیتی را تندتر کند و ریسک محاسبات غلط بین طرفین را بالا ببرد.",
-        "tag": "دیپلماسی",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "ایران اینترنشنال",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ITXpwOFFlSzhORVBRNG1JNWU2YXQwRkR6RzFSbmFodVE5bzJYRFhYcEMxTElRYl9zSkh5dXIxWTlzMk1YSHBIeHJTemQxUmc3cWFJYktyMWliZnN4WXc?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ITXpwOFFlSzhORVBRNG1JNWU2YXQwRkR6RzFSbmFodVE5bzJYRFhYcEMxTElRYl9zSkh5dXIxWTlzMk1YSHBIeHJTemQxUmc3cWFJYktyMWliZnN4WXc",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784919148.0,
-        "id": "3b381fc126"
-    },
-    {
-        "title_fa": "عُمان در گفت‌وگو با تهران برای هرمز؛ همزمان ادامه درگیری‌ها میان ایران و آمریکا",
-        "title_en": "Oman talking with Tehran on Hormuz as US and Iran continue strikes",
-        "summary": [
-            "طبق گزارش الجزیره، عمان میان تهران و طرف ایرانی-آمریکایی در سطح گفت‌وگو درباره وضعیت تنگه هرمز فعال شده است تا کانال کاهش تنش را باز نگه دارد.",
-            "این تلاش دیپلماتیک همزمان با ادامه «حملات» میان ایران و آمریکا مطرح شده و نشان می‌دهد گفت‌وگوهای منطقه‌ای نتوانسته فوری روند برخورد را متوقف کند.",
-            "در نتیجه، پیام عملی گزارش این است که خطر اختلال در مسیرهای انرژی و کشتیرانی (به‌ویژه از طریق هرمز) همچنان بالاست و مدیریت بحران، بدون توقف درگیری، تنها نقش کنترل‌گرایانه دارد."
-        ],
-        "impact": "ادامه درگیری همزمان با میانجی‌گری عمان احتمال تشدید اختلال اقتصادی و امنیتی در تنگه هرمز را بالا نگه می‌دارد، حتی اگر روند مذاکره برای کاهش تنش جریان داشته باشد.",
-        "tag": "نظامی",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "Al Jazeera",
-        "url": "https://www.msn.com/en-us/news/world/oman-talking-with-tehran-on-hormuz-as-us-and-iran-continue-strikes/ar-AA28Cm6L",
-        "clean_url": "https://www.msn.com/en-us/news/world/oman-talking-with-tehran-on-hormuz-as-us-and-iran-continue-strikes/ar-AA28Cm6L",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784917819.0,
-        "id": "75192e5545"
     }
 ]

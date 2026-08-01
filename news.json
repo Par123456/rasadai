@@ -74,6 +74,45 @@
         "timestamp": 1785526920.0
     },
     {
+        "id": "8ca2784c30",
+        "title_fa": "قدرت‌نمایی «قهرمان‌مآب‌ها» افت کرد؛ سیاست جهانی چیز دیگری شد",
+        "title_en": "Global politics is being driven in disturbing directions by more than just strongmen",
+        "summary": [
+            "ABC می‌گوید طی یک دهه گذشته همه چیز با روایت «قدرت‌گیرها» مثل ترامپ، شی، پوتین و اردوغان توضیح داده می‌شد، اما حالا اثرگذاری واقعی‌شان سریعاً کم‌رنگ شده است.",
+            "نمونه‌اش ترامپ است: اعلام‌های پر سر و صدا درباره «توافق تاریخی» برای خلع‌سلاح کامل گروه‌های مسلح در غزه، حتی در رسانه‌های بین‌المللی هم بلافاصله با واکنش روشن از طرف اسرائیل و حماس همراه نشد و اعتبارش در بازارها و محافل دیپلماتیک لرزش جدی ایجاد نکرد.",
+            "این گزارش تاکید می‌کند عامل «قهرمان‌مآب‌ها» دیگر تنها موتور سیاست جهان نیست؛ ترکیب جدیدی از متغیرها (همزمانی جنگ‌ها، شکنندگی توافق‌ها و بی‌اعتمادی به اعلام‌های یک‌طرفه) نقش پررنگ‌تر گرفته است."
+        ],
+        "impact": "کاهش اثرگذاری اعلام‌های تندمدارها یعنی حتی خبرهای بزرگ بدون پشتوانه امضای طرف‌ها، به تصمیم‌های واقعی تبدیل نمی‌شوند.",
+        "tag": "دیپلماسی",
+        "urgency": 4,
+        "sentiment": -0.25,
+        "source": "ABC (Australian Broadcasting Corporation)",
+        "url": "https://www.abc.net.au/news/2026-08-01/global-politics-driven-strongmen-disturbing-directions/106982606",
+        "clean_url": "https://www.abc.net.au/news/2026-08-01/global-politics-driven-strongmen-disturbing-directions/106982606",
+        "image": "https://live-production.wcms.abc-cdn.net.au/2a76d076432b47b912f8f1d915899186?impolicy=wcms_watermark_news&cropH=2107&cropW=3745&xPos=0&yPos=72&width=862&height=485&imformat=generic",
+        "timestamp": 1785524460.0
+    },
+    {
+        "id": "ba0c20cd1a",
+        "title_fa": "از نطنز تا مسقط: پرونده هسته‌ای و کشمکش آمریکا",
+        "title_en": "US-Iran tensions: What is Iran's nuclear programme? Know history of Tehran's enemity with America",
+        "summary": [
+            "برد سازمان اتمی برای اولین‌بار بعد از ۲۰ سال، ایران را به نقض تعهدات عدم‌اشاعه متهم کرد؛ یعنی پرونده دوباره از حالت «فنی» به «سیاسی-امنیتی» پرتاب شده است.",
+            "هم‌زمان گزارش‌هایی می‌چرخد که اسرائیل برای حمله قریب‌الوقوع آماده می‌شود و ترامپ هم گفته نیروهای آمریکا را از منطقه—به‌خصوص نزدیک ایران—جابجا می‌کند؛ این یعنی هم فشار دیپلماتیک بالا رفته هم احتمال سناریوی ضربه/بی‌ثباتی.",
+            "گفت‌وگوهای هسته‌ای دور ششم در مسقط در جریان است؛ طرف آمریکایی با استیو ویتکاف و طرف ایرانی با عباس عراقچی هدایت می‌شود، اما ترامپ خط قرمز را تکرار کرده: «ایران اجازه سلاح هسته‌ای ندارد».",
+            "پس‌زمینه برنامه هسته‌ای در همین روایت تاریخی می‌نشیند: آغاز با حمایت آمریکا در دهه ۵۰ (اتم برای صلح)، ورود به NPT در ۱۹۷۰ و سپس قطع همکاری جدی با آژانس بعد از ۱۹۷۹؛ ماجرای ناتز و افشای تاسیسات غنی‌سازی در ۲۰۰۲ هم نقطه عطف در این تقابل است."
+        ],
+        "impact": "افزایش فشار آژانس و هم‌زمانی با تهدیدهای حمله، ریسک تشدید تنش و گره خوردن مذاکرات با سناریوی نظامی را بالا می‌برد.",
+        "tag": "هسته‌ای",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "WION",
+        "url": "https://www.wionews.com/world/us-iran-nuclear-talks-what-is-irans-nuclear-programme-and-history-of-its-enemity-with-america-8954883",
+        "clean_url": "https://www.wionews.com/world/us-iran-nuclear-talks-what-is-irans-nuclear-programme-and-history-of-its-enemity-with-america-8954883",
+        "image": "https://cdn1.wionews.com/prod/wion/lazy-loader.webp",
+        "timestamp": 1785521460.0
+    },
+    {
         "id": "34a7f7c000",
         "title_fa": "ترامپ دستور حمله تازه به ایران؛ احتمال شروع تا آخر همین هفته",
         "title_en": "Trump orders fresh attack against Iran as war enters sixth month",
@@ -5634,43 +5673,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784909421.0,
         "id": "7a68ab3307"
-    },
-    {
-        "title_fa": "آماده‌سازی رأی سنای آمریکا برای تحریم‌های روسیه در هفته آینده",
-        "title_en": "Senate preparing to vote on Russia sanctions next week",
-        "summary": [
-            "Axios گزارش می‌کند که سنای آمریکا در هفته آینده برای رأی‌گیری درباره تحریم‌های جدید علیه روسیه آماده می‌شود؛ این یعنی فشار خارجیِ تازه در مسیر تنگ‌کردن دسترسی تهران و مسکو به منابع مالی/تجاری حساس می‌تواند تقویت شود.",
-            "از منظر دوام رژیم، هر گام جدی در چارچوب تحریم‌های روسیه می‌تواند هزینه‌های مبادله، انتقال فناوری و کانال‌های مالی مورد استفاده بازیگران همسو را بالا ببرد و شکاف‌های اجرایی میان شبکه‌های دورزدن را بیشتر کند.",
-            "چون متن فقط «آمادگی برای رأی‌گیری» را مطرح می‌کند، تمرکز باید روی اثر ساختاری احتمالی باشد: تشدید فشار خارجی معمولاً ابتدا به شکل بی‌ثباتی اقتصادی و محدود شدن فرصت‌های تامین درآمد/ارز خود را نشان می‌دهد، نه صرفاً یک تغییر فوری سیاسی."
-        ],
-        "impact": "تصویب یا نزدیک شدن به تصویب تحریم‌های روسیه می‌تواند کانال‌های همگرایی مالی و تجاری را پرهزینه‌تر کند و به صورت غیرمستقیم بر توان رژیم ایران برای مدیریت اقتصاد و دورزدن فشارها اثر بگذارد.",
-        "tag": "اقتصادی",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHa2s2M2VQS0hhc2RqSHVlWU1tVFNsT2NxZE9LSGF0bzJvT3NMcW9RR1F4MF9NSHJyTEROamVCVHdXWVF3d2V1VGZ3UVdSb3VuTGlQOVNtN1paOUlQRmNDdFVhVW9NMGhMU1NpZ1FHZlhLTHZ5?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHa2s2M2VQS0hhc2RqSHVlWU1tVFNsT2NxZE9LSGF0bzJvT3NMcW9RR1F4MF9NSHJyTEROamVCVHdXWVF3d2V1VGZ3UVdSb3VuTGlQOVNtN1paOUlQRmNDdFVhVW9NMGhMU1NpZ1FHZlhLTHZ5",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784908835.0,
-        "id": "15e797aecb"
-    },
-    {
-        "title_fa": "افزایش ریسک جنگ در خلیج فارس؛ حملات جنگنده‌های بحرین و کویت علیه ایران در «اقدام تلافی‌جویانه» نادر",
-        "title_en": "Bahrain, Kuwait warplanes struck Iran in rare Gulf retaliation",
-        "summary": [
-            "ژورنال مطرح می‌کند که جنگنده‌های بحرین و کویت اوایل ماه جاری به ایران حمله کرده‌اند؛ واقعه‌ای که به‌عنوان «تلافی‌جویانه» و «نادر» توصیف شده و نشانه‌ای از تغییر رفتار امنیتی در خلیج فارس است.",
-            "این اقدام نتیجه «محاسبه اعراب» نسبت به یک جنگ طولانی دانسته می‌شود؛ یعنی بازیگرهای منطقه‌ای در حال ارزیابی هزینه-فایده ورود بیشتر به بحران هستند و به جای محدود ماندن به نقش واسطه/پشتیبان، وارد فاز کنش نظامی شده‌اند.",
-            "خبر به‌طور مشخص هشدار می‌دهد که این ضربه‌ها می‌تواند به کشیده شدن حتی عمیق‌تر کشورهای عربی به درگیری منجر شود؛ تمرکز مقاله روی تشدید ریسک فرسایشی و احتمال افزایش دامنه عملیات است."
-        ],
-        "impact": "این حمله تلافی‌جویانه، چرخه عمل-واکنش در خلیج فارس را فعال‌تر می‌کند و احتمال درگیری گسترده‌تر را بالا می‌برد.",
-        "tag": "خلیج_فارس",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "The Wall Street Journal on MSN",
-        "url": "https://www.msn.com/en-us/news/world/bahrain-kuwait-warplanes-struck-iran-in-rare-gulf-retaliation/ar-AA28CD8C",
-        "clean_url": "https://www.msn.com/en-us/news/world/bahrain-kuwait-warplanes-struck-iran-in-rare-gulf-retaliation/ar-AA28CD8C",
-        "image": "http://www.bing.com/th?id=ONUT.Jc1GUyEIzeRpgWpJvmABDA&pid=News",
-        "timestamp": 1784900040.0,
-        "id": "81bbf5aa47"
     }
 ]

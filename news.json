@@ -18,6 +18,43 @@
         "timestamp": 1785542700.0
     },
     {
+        "id": "5e054c4412",
+        "title_fa": "ترامپ: از همین آخرهفته ضربه سنگین به ایران",
+        "title_en": "US plans fresh strikes on Iran as soon as this weekend, officials say",
+        "summary": [
+            "سی‌ان‌ان می‌گوید آمریکا برنامه «حمله‌های تازه» علیه ایران را برای همین آخرهفته در دستور دارد؛ اما دامنه و هدف‌ها هنوز مشخص نیست و حتی احتمال لغو هم مطرح شده است.",
+            "کویت نیز از رهگیری حملات پهپادی در صبح شنبه خبر داده و گفته انفجارها مربوط به رهگیری است؛ هدف دقیق اعلام نشده، ولی این هم‌زمانی، فضای آماده‌باش منطقه را بالا می‌برد.",
+            "یک تانکر در نزدیکی تنگه هرمز با «پرتاب ناشناس» هدف گرفته شده و خبری از تلفات نیست؛ با این حال، روشن نبودن عامل حمله نشان می‌دهد زنجیره تنش‌ها می‌تواند بهانه/سیگنال برای تشدید حملات باشد."
+        ],
+        "impact": "ریسک درگیری مستقیم و گسترش حملات در محور خلیج فارس بالا می‌رود و کشورهای میزبان مثل کویت در معرض موج رهگیری و اخلال عملیاتی قرار می‌گیرند.",
+        "tag": "نظامی",
+        "urgency": 9,
+        "sentiment": -0.85,
+        "source": "CNN",
+        "url": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump",
+        "clean_url": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-07-31t155857z-972215172-rc23pmaz37ju-rtrmadp-3-usa-trump.jpg?c=16x9&q=w_800,c_fill",
+        "timestamp": 1785534000.0
+    },
+    {
+        "id": "dffe57a5d9",
+        "title_fa": "حمله نامشخص به تانکر نزدیک عمان و از کار افتادن کشتی",
+        "title_en": "US Iran War Live Updates: Unknown projectile strikes tanker near Oman, leaving vessel disabled",
+        "summary": [
+            "گزارش می‌گوید یک تانکر در نزدیکی عمان با یک «پروژکتیل نامشخص» هدف قرار گرفته و در نتیجه کشتی از حرکت/عملیات افتاده است.",
+            "در چنین سناریویی معمولاً فضای جنگ نیابتی و جنگ روانی فعال می‌شود: هر حادثه‌ای در تنگه و مسیرهای نفتی، سریع تبدیل به پرونده سیاسی بین واشنگتن و تهران می‌شود و می‌تواند بهانه برای تشدید امنیت دریایی یا فشارهای جدید را فراهم کند."
+        ],
+        "impact": "اختلال یک کشتیِ نفتی نزدیک عمان می‌تواند زنجیره‌ای از نگرانی‌های امنیت کشتیرانی و بالا رفتن ریسک حمل‌ونقل نفت را فعال کند.",
+        "tag": "نظامی-دریایی",
+        "urgency": 9,
+        "sentiment": -0.75,
+        "source": "Firstpost",
+        "url": "https://www.firstpost.com/world/us-iran-war-live-updates-trump-iran-airstrikes-middle-east-conflict-live-west-asia-war-liveblog-14035257.html",
+        "clean_url": "https://www.firstpost.com/world/us-iran-war-live-updates-trump-iran-airstrikes-middle-east-conflict-live-west-asia-war-liveblog-14035257.html",
+        "image": "http://www.bing.com/th?id=ONUT.PXqLRtgLuJTsDa5Pqv20nQ&pid=News",
+        "timestamp": 1785527820.0
+    },
+    {
         "id": "25d6c3660b",
         "title_fa": "ترامپ: اسرائیل از طرح غزه خوشنود؛ ترتیب خروج و خلع‌سلاح مبهم",
         "title_en": "Middle East crisis live: Trump says 'Israel is very happy' with Gaza peace plan but doesn't say if withdrawal or Hamas disarmament comes first",
@@ -53,6 +90,24 @@
         "clean_url": "https://www.msn.com/en-us/news/world/trump-orders-fresh-attack-against-iran-as-war-enters-sixth-month/ar-AA299Zeg",
         "image": "http://www.bing.com/th?id=ONUT.YqDVggI72znGNjSSmdKK3Q&pid=News",
         "timestamp": 1785513420.0
+    },
+    {
+        "id": "f42614bde8",
+        "title_fa": "تناقض جنگ‌خواه‌ها: ترامپ می‌گوید همه‌چیز ایران نابود شد",
+        "title_en": "The Incoherence of the Iran Hawks",
+        "summary": [
+            "ترامپ در صحبت‌های خبری درباره جنگ با ایران، ایران را هم‌زمان «قهرمان و مقاوم» خواند و همان لحظه مدعی شد نیروی دریایی، ۲۰۰ هواپیما، پدافند، رادار و رهبرانش «همه از بین رفته‌اند». این یعنی ستایشِ روحیه در کنار تصویرِ فروپاشی کامل توان نظامی.",
+            "این «دوگانه‌گویی» فقط یک حرف تبلیغاتی نیست؛ در ادبیات جنگ‌طلبان نزدیک به ترامپ هم الگو دارد. آن‌ها از یک‌سو می‌گویند حملات و فشارها نتیجه داده، از سوی دیگر با همان منطقِ تناقض‌آلود، می‌خواهند ادامه جنگ/فشار را توجیه کنند: اگر توان عملیاتی واقعاً نابود شده، تداوم جنگ با چه پشتوانه‌ای معنا پیدا می‌کند؟"
+        ],
+        "impact": "این تناقض‌ها می‌تواند هم در تصمیم‌گیری داخلی آمریکا و هم در اعتمادپذیری پیام‌های بازدارندگی، شکاف ایجاد کند.",
+        "tag": "سیاسی",
+        "urgency": 4,
+        "sentiment": -0.25,
+        "source": "The Atlantic",
+        "url": "https://www.theatlantic.com/ideas/2026/07/trump-iran-war-strategy-military-remarks/688144/",
+        "clean_url": "https://www.theatlantic.com/ideas/2026/07/trump-iran-war-strategy-military-remarks/688144",
+        "image": "http://www.bing.com/th?id=ONUT.haw2ZbzC_uA_fP80ihG5QA&pid=News",
+        "timestamp": 1785507780.0
     },
     {
         "id": "506918ed56",
@@ -5617,62 +5672,5 @@
         "image": "http://www.bing.com/th?id=ONUT.Jc1GUyEIzeRpgWpJvmABDA&pid=News",
         "timestamp": 1784900040.0,
         "id": "81bbf5aa47"
-    },
-    {
-        "title_fa": "چرا آمریکا و ایران همزمان می‌جنگند و مذاکره می‌کنند؟ (تحلیل CSIS)",
-        "title_en": "Why the United States and Iran Keep Fighting While They Negotiate",
-        "summary": [
-            "این گزارش از «چرخه جنگ و آرامش» بین آمریکا و ایران می‌گوید و استدلال می‌کند که هر شلیک، به‌جای پایان مذاکره، بخشی از همان منطق پیشبرد منافع از مسیر خشونت است؛ یعنی «گفت‌وگو-جنگ» هم‌زمان جریان دارد.",
-            "نویسنده توضیح می‌دهد نگاه رایج به مذاکره (توقف کامل درگیری برای رسیدن به توافق دائمی) از نظر ساختاری شکننده است، چون بخش زیادی از زمان صرف پیش‌شرط‌ها و حتی خودِ «مذاکره درباره مذاکره» می‌شود و هر توقفِ ناپایدار می‌تواند با از سرگیری تیراندازی کل روند را برگرداند.",
-            "طبق چارچوب «گفت‌وگو-جنگ»، دو طرف نه‌تنها عقب نمی‌نشینند، بلکه از درگیری محدود/مقطعی به‌عنوان اهرم سیاسی استفاده می‌کنند (نمونه‌های ذکرشده: حمله به نفتکش‌ها، هدف قرار دادن تأسیسات بندری ایران و شلیک موشکی ایران به همسایگان در خلیج)."
-        ],
-        "impact": "این مدل یعنی کاهش ریسک توقف واقعی درگیری و تداوم رفتار مبتنی بر اهرم‌سازی، که احتمالاً صلح را ممکن می‌کند اما از مسیر توافقِ شکننده به‌دست می‌آید نه از طریق توقف کامل جنگ.",
-        "tag": "مذاکره-جنگ",
-        "urgency": 4,
-        "sentiment": 0.0,
-        "source": "Center for Strategic and International Studies",
-        "url": "https://www.csis.org/analysis/why-united-states-and-iran-keep-fighting-while-they-negotiate",
-        "clean_url": "https://www.csis.org/analysis/why-united-states-and-iran-keep-fighting-while-they-negotiate",
-        "image": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2026-07/GettyImages-2266041069_cropped.jpg?VersionId=2zx4gs2HH3QSWy5WwdW07xaIFul8Tctm",
-        "timestamp": 1784899800.0,
-        "id": "0658680d76"
-    },
-    {
-        "title_fa": "تحریم شش فرد دیگر به دلیل نقض حقوق بشر توسط شورای اتحادیه اروپا",
-        "title_en": "Iran: Council sanctions an additional six individuals over serious human rights violations",
-        "summary": [
-            "شورای اتحادیه اروپا شش فرد جدید را به‌خاطر «نقض‌های جدی حقوق بشر» مشمول تحریم قرار داد و این تصمیم در چارچوب تشدید فشار حقوقی و مالی علیه شبکه‌های مرتبط با سرکوب تنظیم شده است.",
-            "این اقدام به‌طور مستقیم «کارایی عملیاتی» افراد تحریم‌شده را محدود می‌کند: دسترسی‌های مالی/اقتصادی و امکان تحرک تجاری و شخصی آنان تحت سیاست‌های اروپایی کاهش می‌یابد.",
-            "از منظر ثبات سیاسی داخل ایران، چنین تحریم‌هایی معمولاً به‌تنهایی رژیم را ساقط نمی‌کنند، اما هزینه‌های حکمرانی سرکوبگرانه را برای حلقه‌های اجرایی بالا می‌برند و می‌تواند نارضایتی داخلی را از مسیر پیامدهای اقتصادی غیرمستقیم تشدید کند."
-        ],
-        "impact": "این تحریم‌ها ابزار دیگری برای افزایش هزینه‌های مالی و محدودیت‌های دسترسی برای عاملان نقض حقوق بشر است، اما اثر آن بیشتر «فرسایشی» و نه فوری و قطعی برای تغییر رفتار حکومت خواهد بود.",
-        "tag": "اقتصادی",
-        "urgency": 4,
-        "sentiment": -0.35,
-        "source": "consilium.europa.eu",
-        "url": "https://www.consilium.europa.eu/cs/press/press-releases/2026/07/24/iran-council-sanctions-an-additional-six-individuals-over-serious-human-rights-violations/",
-        "clean_url": "https://www.consilium.europa.eu/cs/press/press-releases/2026/07/24/iran-council-sanctions-an-additional-six-individuals-over-serious-human-rights-violations",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784896393.0,
-        "id": "09e6fadb3b"
-    },
-    {
-        "title_fa": "کاهش ذخایر رهگیرهای آمریکا، همزمان با تداوم حملات پهپادی ایران به پایگاه‌های آمریکایی در منطقه",
-        "title_en": "Iran keeps targeting American bases as U.S. interceptor stockpiles dwindle",
-        "summary": [
-            "ایران ادعا کرد در روز جمعه چند حمله پهپادی جدید علیه تاسیسات نظامی آمریکا در بحرین، اردن و کویت انجام داده و در شمال عراق نیز انفجارهایی نزدیک پایگاهی که نیروهای آمریکایی دارد گزارش شده است؛ تصاویر نیز از رهگیری‌های نمایشی پهپادها حکایت دارد.",
-            "اقدام آمریکا تحت عنوان مقابله با حملات علیه کشتی‌ها در و پیرامون تنگه هرمز ادامه داشته و گفته شده واشنگتن ۱۳ شب پیاپی عملیات ضربتی علیه ایران انجام داده است؛ در همین چارچوب، «استفاده مداوم و پرشتاب» از رهگیرهای پیشرفته آمریکا به‌عنوان روندی «غیرقابل‌دوام» مطرح شده است.",
-            "در داخل دولت آمریکا تنش سیاسی دیده می‌شود: ترامپ می‌گوید به گفته‌های شی و پوتین درباره عدم کمک به ایران اعتماد دارد، در حالی که پیت هگست گفت چین و روسیه در «سطح‌های مختلف» تسهیل‌کننده اقدامات ایران هستند؛ همچنین ترامپ از پاسخ درباره جنگ‌جرمانه بودن تهدید به تخریب پل‌ها و نیروگاه‌های برق در ایران طفره رفت."
-        ],
-        "impact": "با توجه به فرسایش ذخایر رهگیرها و ادامه حملات متقابل، احتمال لغزش به چرخه‌ای پرهزینه‌تر و پرریسک‌تر برای آمریکا در منطقه افزایش می‌یابد.",
-        "tag": "نظامی",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "Yahoo",
-        "url": "https://www.yahoo.com/news/politics/articles/iran-keeps-targeting-u-bases-104120476.html?bcmt=1",
-        "clean_url": "https://www.yahoo.com/news/politics/articles/iran-keeps-targeting-u-bases-104120476.html",
-        "image": "http://www.bing.com/th?id=ONUT.q_4k_MqTL87Wq81wm8x1qg&pid=News",
-        "timestamp": 1784894520.0,
-        "id": "0ef541ca7c"
     }
 ]

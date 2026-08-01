@@ -1,5 +1,23 @@
 [
     {
+        "id": "d0cb835cc7",
+        "title_fa": "تفاوت ترامپ و نتانیاهو دوباره روی «طرح خلع سلاح غزه»",
+        "title_en": "Trump and Netanyahu May Be at Odds Again Over Gaza Plan",
+        "summary": [
+            "ترامپ طرح جدید خلع‌سلاح حماس را «قابل اجرا» دانست و گفت اسرائیل از آن راضی است، با این حال یک روز بعد خودِ او هم روی پیچیدگی ماجرا و بالا و پایین شدن روند تاکید کرد.",
+            "طرح در عمل پشت یک مکانیزم چندملیتی پیش رفت (قاصر: قطر، مصر، ترکیه) اما تل‌آویو می‌تواند با ورود نتانیاهو به موضوع، در اجرای توافق دست‌انداز ایجاد کند؛ چون شرط اسرائیل برای عقب‌نشینی کامل، واگذاری واقعی سلاح‌هاست."
+        ],
+        "impact": "اگر نتانیاهو با طرح ترامپ زاویه بگیرد، امکان کند شدن یا شکست روند خلع‌سلاح و عقب‌نشینی در غزه بالا می‌رود.",
+        "tag": "دیپلماسی، غزه، حماس",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/2026/07/31/us/politics/trump-hamas-gaza-israel-netanyahu.html",
+        "clean_url": "https://www.nytimes.com/2026/07/31/us/politics/trump-hamas-gaza-israel-netanyahu.html",
+        "image": "https://static01.nyt.com/images/2026/07/31/multimedia/31dc-gaza-topart-vhgb/31dc-gaza-topart-vhgb-facebookJumbo.jpg",
+        "timestamp": 1785542700.0
+    },
+    {
         "id": "25d6c3660b",
         "title_fa": "ترامپ: اسرائیل از طرح غزه خوشنود؛ ترتیب خروج و خلع‌سلاح مبهم",
         "title_en": "Middle East crisis live: Trump says 'Israel is very happy' with Gaza peace plan but doesn't say if withdrawal or Hamas disarmament comes first",
@@ -17,6 +35,24 @@
         "clean_url": "https://www.theguardian.com/world/live/2026/jul/31/us-iran-war-live-updates-trump-claims-gaza-hamas-deal-middle-east-crisis-latest-news",
         "image": "https://i.guim.co.uk/img/media/4d6ae08cd990b7b3648e594492ee1bfaad798ac0/0_337_4163_3330/master/4163.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=9ff073c2aad92b313399ea601506392a",
         "timestamp": 1785526920.0
+    },
+    {
+        "id": "34a7f7c000",
+        "title_fa": "ترامپ دستور حمله تازه به ایران؛ احتمال شروع تا آخر همین هفته",
+        "title_en": "Trump orders fresh attack against Iran as war enters sixth month",
+        "summary": [
+            "گزارش می‌گوید ترامپ دستور یک عملیات جدید علیه ایران را داده و تیم‌های آمریکایی منتظر ورود به فاز اجرایی هستند.",
+            "طبق گفته مقام‌های آمریکایی، حملات می‌تواند از همین آخر هفته آغاز شود؛ یعنی زمان‌بندی از حالت «تهدید لفظی» خارج شده و وارد برنامه عملیاتی شده است."
+        ],
+        "impact": "ریسک یک چرخه تازه از حملات مستقیم آمریکا علیه اهداف ایران بالا می‌رود و احتمال پاسخ متقابل منطقه‌ای هم بیشتر می‌شود.",
+        "tag": "نظامی",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "The Wall Street Journal on MSN",
+        "url": "https://www.msn.com/en-us/news/world/trump-orders-fresh-attack-against-iran-as-war-enters-sixth-month/ar-AA299Zeg",
+        "clean_url": "https://www.msn.com/en-us/news/world/trump-orders-fresh-attack-against-iran-as-war-enters-sixth-month/ar-AA299Zeg",
+        "image": "http://www.bing.com/th?id=ONUT.YqDVggI72znGNjSSmdKK3Q&pid=News",
+        "timestamp": 1785513420.0
     },
     {
         "id": "506918ed56",
@@ -5638,43 +5674,5 @@
         "image": "http://www.bing.com/th?id=ONUT.q_4k_MqTL87Wq81wm8x1qg&pid=News",
         "timestamp": 1784894520.0,
         "id": "0ef541ca7c"
-    },
-    {
-        "title_fa": "افزایش درگیری‌های مستقیم آمریکا و ایران؛ شوک به بازار جهانی انرژی",
-        "title_en": "U.S.-Iran strikes escalate as the ongoing war rattles global energy markets",
-        "summary": [
-            "طبق گزارش NPR، حملات جدید آمریکا علیه ایران و ادامه حملات ایران علیه پایگاه‌های آمریکا در خلیج و اردن، سطح درگیری را بالا برده است.",
-            "این تشدید، «رipple»‌هایی در بازار جهانی انرژی ایجاد کرده؛ یعنی ریسک اختلال در عرضه و افزایش بی‌ثباتی قیمت‌ها به‌عنوان پیامد فوری مطرح می‌شود.",
-            "ادامه الگوی حمله-پاسخ در منطقه، می‌تواند بی‌ثباتی ژئوپلیتیک انرژی را پایدارتر کند و هزینه عدم‌قطعیت را برای اقتصاد جهانی افزایش دهد."
-        ],
-        "impact": "با بالا رفتن احتمال اختلال در جریان انرژی، بازارهای جهانی سریع‌تر از قبل وارد فاز قیمت‌گذاری بر پایه ریسک می‌شوند و بی‌ثباتی اقتصادی تشدید خواهد شد.",
-        "tag": "energy",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "NPR",
-        "url": "https://www.npr.org/2026/07/24/nx-s1-5904556/u-s-iran-strikes-escalate-as-the-ongoing-war-rattles-global-energy-markets",
-        "clean_url": "https://www.npr.org/2026/07/24/nx-s1-5904556/u-s-iran-strikes-escalate-as-the-ongoing-war-rattles-global-energy-markets",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784893440.0,
-        "id": "6bed3f5315"
-    },
-    {
-        "title_fa": "پهپادها شهر شمالی عراق را هدف گرفتند؛ همزمان با تشدید درگیری آمریکا و ایران",
-        "title_en": "Drones target northern Iraqi city where US forces are based as US-Iran fighting escalates",
-        "summary": [
-            "بر اساس گزارش واشنگتن پست، پهپادها یک شهر در شمال عراق را هدف قرار داده‌اند که نیروهای آمریکا در آن مستقر هستند.",
-            "این اقدام در چارچوب «تشدید» درگیری میان آمریکا و ایران رخ داده و می‌تواند نشان‌دهنده افزایش سطح عملیات فراتر از آتش‌بس یا کنترل‌شده بودن تنش باشد.",
-            "چون محل حمله مشخصاً با حضور نیروهای آمریکا گره خورده، ریسک تبدیل شدن درگیری به برخورد مستقیم‌تر در منطقه بالا می‌رود."
-        ],
-        "impact": "هدف گرفتن محل استقرار نیروهای آمریکا در عراق، تهدید فوری برای امنیت نیروها و احتمال تلافی‌جویی مستقیم را افزایش می‌دهد و مسیر تشدید را هموارتر می‌کند.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Washington Post",
-        "url": "https://www.msn.com/en-us/news/other/explosions-are-heard-near-a-us-base-in-northern-iraq-after-us-strikes-iran/ar-AA28zaiR",
-        "clean_url": "https://www.msn.com/en-us/news/other/explosions-are-heard-near-a-us-base-in-northern-iraq-after-us-strikes-iran/ar-AA28zaiR",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784893440.0,
-        "id": "eaf96300b8"
     }
 ]

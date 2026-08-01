@@ -1,5 +1,23 @@
 [
     {
+        "id": "c7d0ac9001",
+        "title_fa": "ساختار چندقدرتی ایران آتش‌بس با آمریکا را سخت می‌کند",
+        "title_en": "Iran's overlapping power centers make ending the war more complicated",
+        "summary": [
+            "نفوذ هم‌زمان چند «مرکز قدرت» در ایران، اجرای هر آتش‌بس با آمریکا را از حالت یک تصمیم ساده خارج می‌کند؛ از سطح عالی تا ساختارهای امنیتی و نظامی.",
+            "حتی اگر واشنگتن و ایران روی آتش‌بس توافق کنند، هماهنگی برای توقف واقعی در میدان، به خاطر رقابت یا تفاوت مأموریت‌ها میان این مراکز پیچیده می‌شود."
+        ],
+        "impact": "هر آتش‌بس احتمالی، شکننده و پرریسک‌تر از چیزی است که صرفاً با اعلام سیاسی قابل تضمین باشد.",
+        "tag": "دیپلماسی-امنیتی",
+        "urgency": 5,
+        "sentiment": -0.2,
+        "source": "CNBC",
+        "url": "https://www.msn.com/en-us/news/world/irans-overlapping-power-centers-make-ending-the-war-more-complicated/ar-AA29bh50",
+        "clean_url": "https://www.msn.com/en-us/news/world/irans-overlapping-power-centers-make-ending-the-war-more-complicated/ar-AA29bh50",
+        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785567162.0
+    },
+    {
         "id": "582cf2f227",
         "title_fa": "ترامپ تهدید به حمله بیشتر به ایران؛ کویت هم واکنش داد",
         "title_en": "Trump threatens more strikes on Iran; Iran accuses US over escalating tensions in Middle East",
@@ -5654,24 +5672,5 @@
         "image": "http://www.bing.com/th?id=ONUT.OHxdzc9STYF5zkgjO7CDkA&pid=News",
         "timestamp": 1784911113.0,
         "id": "e22a0debdc"
-    },
-    {
-        "title_fa": "بازگشت ترس از جنگ در گرمای تابستانی اسرائیل؛ تعطیلی مدارس و موج‌سواری در سایه نگرانی امنیتی",
-        "title_en": "In Israel’s scorching summer, school’s out and surf’s up – and fears of war are returning",
-        "summary": [
-            "گزارش JTA روی فضای روزمره اسرائیل تمرکز دارد: تعطیلی مدارس و فعالیت‌های تفریحی (مثل موج‌سواری) همزمان با بازگشت نگرانی‌ها نسبت به جنگ.",
-            "نکته مرکزی این خبر «بازگشت ترس» از درگیری است، اما هیچ جزئیات فنی درباره نوع تهدید، زمان‌بندی یا اقدام مشخص نظامی ارائه نمی‌شود.",
-            "با توجه به نبود اطلاعات درباره طرف مقابل، برنامه‌های رژیم ایران، یا شواهد مستقیم از ضربه/حمله، نمی‌توان بر اساس همین متن نتیجه‌گیری دقیق درباره مسیر تشدید گرفت."
-        ],
-        "impact": "این خبر بیشتر نشان‌دهنده فضای روانی-امنیتی است تا یک سیگنال قابل راستی‌آزمایی از اقدامات نظامی مشخص، بنابراین اثر آن فعلاً محدود به افزایش نگرانی عمومی است.",
-        "tag": "امنیت",
-        "urgency": 4,
-        "sentiment": -0.2,
-        "source": "Jewish Telegraphic Agency",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3BMMG85Q001NVBxSzVDWmpjSTdzaFhRNWZqRDBKeEtUdEtPb0wtaXFWcWViT0hGaDFZSEw2R0RkQnNoeWZjTEJKdWItMm5BQmF3OURrVHp6OE44LWNiTDgzd2JoM0xmZ3hSaVJveC1QemV2Sl9jN0swdWlzbkxxSC1uN28wYVNESUdHRnNtdGYzWUdGZVVsMjhrb2tVeFFSR3BrMzFkaWgyY0k4VlM4MkNzS3BhSVZjT3Z4Ylh3?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT3BMMG85Q001NVBxSzVDWmpjSTdzaFhRNWZqRDBKeEtUdEtPb0wtaXFWcWViT0hGaDFZSEw2R0RkQnNoeWZjTEJKdWItMm5BQmF3OURrVHp6OE44LWNiTDgzd2JoM0xmZ3hSaVJveC1QemV2Sl9jN0swdWlzbkxxSC1uN28wYVNESUdHRnNtdGYzWUdGZVVsMjhrb2tVeFFSR3BrMzFkaWgyY0k4VlM4MkNzS3BhSVZjT3Z4Ylh3",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784911004.0,
-        "id": "9eef6eb9f7"
     }
 ]

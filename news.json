@@ -1,5 +1,59 @@
 [
     {
+        "id": "b6eeee2c73",
+        "title_fa": "کودلو: جنگ ایران تعیین‌کننده نتیجه میان‌دوره‌ای است",
+        "title_en": "Larry Kudlow Claims Iran War Strategy Will Be The Defining Factor In Upcoming Midterms",
+        "summary": [
+            "لار ی کودلو در فاکس‌بیزنس می‌گوید این انتخابات میان‌دوره‌ای بیش از اقتصاد و مالیات، با «سرنوشت جنگ با ایران» سنجیده می‌شود؛ محور حرفش هم بازشدن تنگه هرمز و خنثی‌کردن توان هسته‌ای تهران است.",
+            "کودلو همزمان به نظرسنجی‌های رایج حمله می‌کند و ادعا دارد افکار عمومی واقعیِ رأی‌دهندگان ثبت‌شده به نفع جمهوری‌خواهان است؛ برای اثبات، به یک نظرسنجی ۲۲ ژوئیه برای Tea Party Patriots Action استناد می‌کند که در آن ۷۲٪ مخالف هرگونه اقدام ایران علیه کشتیرانی هرمز و ۶۲٪ موافق «تمام‌کردن کار» برای جلوگیری از رسیدن ایران به توان هسته‌ای‌اند."
+        ],
+        "impact": "این قاب‌بندی فشار بر دولت را تبدیل می‌کند به یک «امتحان جنگی»؛ یعنی هر نتیجه عملی درباره ایران می‌تواند مستقیماً به سرمایه سیاسی ترامپ در رأی‌گیری‌ها وصل شود.",
+        "tag": "سیاسی",
+        "urgency": 5,
+        "sentiment": 0.4,
+        "source": "AOL",
+        "url": "https://www.aol.com/articles/larry-kudlow-claims-iran-war-125243000.html",
+        "clean_url": "https://www.aol.com/articles/larry-kudlow-claims-iran-war-125243000.html",
+        "image": "https://hermes.media.static.aol.com/media/2026/08/01/3e76c2f2-8baf-3d98-b5fb-a4c96d55661b/1ee58afa-08b3-4722-ae03-ccf772b2a2b4.jpg",
+        "timestamp": 1785589380.0
+    },
+    {
+        "id": "801396c15b",
+        "title_fa": "ترامپ مرگ خامنه‌ای را اعلام کرد؛ «بزرگ‌ترین فرصت» از نگاه او",
+        "title_en": "Trump says Iran's supreme leader is dead",
+        "summary": [
+            "ترامپ در پست خود مدعی شد رهبر ایران در یک «حمله بزرگ» کشته شده؛ حمله‌ای که آن را به اسرائیل و آمریکا نسبت داده است.",
+            "این جمله فقط ادعای خبری نیست: ترامپ هم‌زمان پیام سیاسی می‌دهد که اکنون «فرصت بی‌نظیر» برای مردم ایران ایجاد شده، یعنی تلاش برای اثرگذاری روی معادله داخلی و کاهش انسجام تبلیغاتی حکومت."
+        ],
+        "impact": "ادعای مرگ مقام ارشد، می‌تواند موج جنگ روانی بسازد و تصمیم‌گیری داخلی و روایت بین‌المللی را موقتاً به هم بریزد.",
+        "tag": "جنگ روانی",
+        "urgency": 8,
+        "sentiment": -0.4,
+        "source": "MSN",
+        "url": "https://www.msn.com/en-us/news/world/israeli-officials-say-supreme-leader-ayatollah-ali-khamenei-is-dead-no-word-from-us-or-iran/ar-AA1XhlAl",
+        "clean_url": "https://www.msn.com/en-us/news/world/israeli-officials-say-supreme-leader-ayatollah-ali-khamenei-is-dead-no-word-from-us-or-iran/ar-AA1XhlAl",
+        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785587640.0
+    },
+    {
+        "id": "76dd1a9a8f",
+        "title_fa": "ترامپ: ایران را «خیلی سخت» می‌زنیم؛ هشدار خروج از منطقه",
+        "title_en": "Iran-US War LIVE updates: Trump says will hit Iran ‘very hard’; US embassy urges Americans to consider leaving Middle East",
+        "summary": [
+            "ترامپ صریحاً اعلام کرده که در صورت تداوم درگیری‌ها، حمله به ایران را «خیلی سخت» انجام می‌دهد؛ لحن این خبر یعنی فشار صرفاً سیاسی نیست.",
+            "همزمان سفارت آمریکا به شهروندانش توصیه کرده از خاورمیانه خارج شوند/فکر ترک منطقه را داشته باشند؛ این یعنی آمریکا خودِ افزایش ریسک را جدی‌تر از حرف‌های دیپلماتیک می‌بیند."
+        ],
+        "impact": "ریسک حملات مستقیم یا تشدید ضربات علیه نیروهای همسو با ایران بالا می‌رود و بازار انرژی هم آماده شوک‌های جدیدتر است.",
+        "tag": "نظامی",
+        "urgency": 9,
+        "sentiment": -0.8,
+        "source": "The Financial Express",
+        "url": "https://www.financialexpress.com/world-news/iran-us-war-live-updates-trump-homrmuz-oil-price-today-middle-east-attack/4306096/",
+        "clean_url": "https://www.financialexpress.com/world-news/iran-us-war-live-updates-trump-homrmuz-oil-price-today-middle-east-attack/4306096",
+        "image": "http://www.bing.com/th?id=ONUT.u89Nb30XlrurPSLedNKPMA&pid=News",
+        "timestamp": 1785572160.0
+    },
+    {
         "id": "c7d0ac9001",
         "title_fa": "ساختار چندقدرتی ایران آتش‌بس با آمریکا را سخت می‌کند",
         "title_en": "Iran's overlapping power centers make ending the war more complicated",
@@ -5615,62 +5669,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784913000.0,
         "id": "02adf0e6f1"
-    },
-    {
-        "title_fa": "ایران: نیروی دریایی در 2026",
-        "title_en": "Iran: The Navy In 2026",
-        "summary": [
-            "طبق StrategyPage، نیروی دریایی ایران حدود 90 فروند شناور دارد، اما همه آن‌ها عملیاتی نیستند و بخشی از ناوگان به دلیل تخریب یا آسیب‌های شدید، در روندی روزافزون به سمت ازکارافتادگی می‌روند.",
-            "نوشته تصریح می‌کند که هر روز ناوهای بیشتری با «تخریب» یا «آسیب‌های فلج‌کننده» مواجه می‌شوند؛ یعنی توان عملیاتی بالفعل رو به کاهش است و نه فقط تعداد اسکورت‌ها و ناوها.",
-            "متن درباره اینکه «قبل از جنگ» نیروی دریایی از چه مزیتی برخوردار بوده ادامه می‌دهد، اما در داده ارائه‌شده به جز این اشاره، جزئیات کافی برای نتیجه‌گیری دقیق‌تر وجود ندارد."
-        ],
-        "impact": "کاهش پیوسته شناورهای عملیاتی، توان بازدارندگی و مدیریت ریسک عملیاتی ایران در دریا را فرسایش می‌دهد و فشار عملی بر قابلیت دفاع/حضور دریایی وارد می‌کند.",
-        "tag": "نظامی",
-        "urgency": 5,
-        "sentiment": -0.6,
-        "source": "StrategyPage",
-        "url": "https://www.strategypage.com/qnd/iran/articles/2026072565254.aspx",
-        "clean_url": "https://www.strategypage.com/qnd/iran/articles/2026072565254.aspx",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784912400.0,
-        "id": "159d680d8a"
-    },
-    {
-        "title_fa": "افت تعداد کشته‌های جنگ ایران در پنتاگون؛ اختلاف‌حسابداری و خشم قانونگذاران از «بازتعریف» عملیات",
-        "title_en": "Pentagon lowers count of Iran war dead, sparking questions and outrage",
-        "summary": [
-            "پایگاه عمومی پنتاگون برای ثبت تلفات جنگ ایران بیش از یک روز به‌روزرسانی نشده و طی روزهای اخیر هم‌زمان با تغییر ناگهانی شمار «زخمی و کشته»، مقام‌های وزارت دفاع آن را «خرابی فنی/خطای فنی» نسبت داده‌اند؛ این تناقض‌ها می‌تواند واقعیت تلفات را کمتر از مقدار واقعی نشان دهد.",
-            "بر اساس گزارش، این اختلال در ردیابی تلفات ممکن است با اعلام‌های قبلی دولت درباره پایان «Operation Epic Fury» در ماه می مرتبط باشد؛ حالا حملات هوایی علیه ایران از تاریخ مذکور با برچسب «overseas operations» نام‌گذاری می‌شود و این عنوان مبهم، شمارش تلفات را در سیستم‌های پیگیری دشوار یا نامشخص می‌کند.",
-            "قانونگذاران نسبت به «کتمان» و تلاش برای دور زدن سقف ۶۰ روزه اقدام نظامی بدون مجوز کنگره با تغییر نام/طبقه‌بندی جنگ اعتراض کرده‌اند؛ در عین حال، مسئله شفافیت تلفات به‌عنوان معیار اصلی هزینه واقعی جنگ مطرح شده است."
-        ],
-        "impact": "این وضعیت با تضعیف اعتبار گزارش‌دهی تلفات و ایجاد ابهام حقوقی/سیاسی درباره ادامه جنگ، هزینه سیاسی در واشنگتن را افزایش می‌دهد و می‌تواند به تشدید اختلافات داخلی و فشار برای پاسخ‌گویی منجر شود.",
-        "tag": "دیپلماسی",
-        "urgency": 7,
-        "sentiment": -0.6,
-        "source": "Yahoo",
-        "url": "https://www.yahoo.com/news/politics/articles/pentagon-lowers-count-iran-war-005533684.html",
-        "clean_url": "https://www.yahoo.com/news/politics/articles/pentagon-lowers-count-iran-war-005533684.html",
-        "image": "http://www.bing.com/th?id=ONUT.rf8uJfvIHUe9CW92M4g_QQ&pid=News",
-        "timestamp": 1784912400.0,
-        "id": "4c3808327b"
-    },
-    {
-        "title_fa": "حملات موشکی آمریکا به ایران؛ مسیر کاهش تنش نامشخص",
-        "title_en": "US missiles hit Iran as path towards de-escalation uncertain",
-        "summary": [
-            "طبق گزارش رویترز، آمریکا در روز جمعه با موشک به چند هدف در ایران حمله کرد؛ جزئیات اهداف به متن ارسالی محدود است، اما اصل «درگیری نظامی مستقیم» تایید می‌شود.",
-            "رئیس‌جمهور ترامپ در ادامه بر «اقدام نظامی بزرگ» تاکید کرد و هم‌زمان تاکید گزارش می‌گوید که راه کاهش تنش نامشخص است؛ یعنی پیامد سیاسی-نظامی فوری قابل پیش‌بینی نیست.",
-            "خبر با تمرکز بر وضعیت «کاهش تنش» نوشته شده، اما در متن ارائه‌شده نشانه‌ای از توافق عملی، کانال ارتباطی یا عقب‌نشینی اعلام‌شده وجود ندارد؛ بنابراین ریسک ادامه چرخه حملات باقی می‌ماند."
-        ],
-        "impact": "حمله مستقیم موشکی آمریکا به خاک ایران، سطح درگیری را بالا می‌برد و بدون چارچوب روشن برای توقف یا مهار، احتمال تشدید و پاسخ متقابل را افزایش می‌دهد.",
-        "tag": "تشدید",
-        "urgency": 10,
-        "sentiment": -0.8,
-        "source": "Reuters on MSN",
-        "url": "https://www.msn.com/en-us/politics/international-relations/us-missiles-hit-iran-as-path-towards-de-escalation-uncertain/ar-AA28DB3X",
-        "clean_url": "https://www.msn.com/en-us/politics/international-relations/us-missiles-hit-iran-as-path-towards-de-escalation-uncertain/ar-AA28DB3X",
-        "image": "http://www.bing.com/th?id=ONUT.OHxdzc9STYF5zkgjO7CDkA&pid=News",
-        "timestamp": 1784911113.0,
-        "id": "e22a0debdc"
     }
 ]

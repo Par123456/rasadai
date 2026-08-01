@@ -18,6 +18,24 @@
         "timestamp": 1785617820.0
     },
     {
+        "id": "4e7be669fa",
+        "title_fa": "هشدار فوری سفارت آمریکا در اردن؛ احتمال ضربه تازه به ایران",
+        "title_en": "US-Israel-Iran war latest live news: Is Trump preparing fresh strikes on Iran this weekend? US embassy issues urgent security alert in Middle East",
+        "summary": [
+            "سفارت آمریکا در اردن یک هشدار امنیتی تازه داده که عملاً به موج تنش میان آمریکا، اسرائیل و ایران سوخت می‌دهد و فضای منطقه را از حالت معمول خارج می‌کند.",
+            "هم‌زمان با بحث‌های رسانه‌ای درباره «اقدام احتمالی این آخر هفته»، این نوع هشدارها معمولاً نشانه آمادگی برای سناریوهای تلافی/بازدارندگی است؛ یعنی تمرکز روی زمان‌بندی عملیات و افزایش سطح مراقبت می‌افتد."
+        ],
+        "impact": "این هشدار می‌تواند به افزایش تدابیر امنیتی، محدودیت‌ها و بالا رفتن ریسک درگیری‌های نیابتی یا پاسخ‌های سریع منجر شود.",
+        "tag": "امنیتی",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "The Sunday Guardian Live on MSN",
+        "url": "https://www.msn.com/en-in/news/news/us-israel-iran-war-latest-live-news-is-trump-preparing-fresh-strikes-on-iran-this-weekend-us-embassy-issues-urgent-security-alert-in-middle-east/ar-AA29dxFf",
+        "clean_url": "https://www.msn.com/en-in/news/news/us-israel-iran-war-latest-live-news-is-trump-preparing-fresh-strikes-on-iran-this-weekend-us-embassy-issues-urgent-security-alert-in-middle-east/ar-AA29dxFf",
+        "image": "http://www.bing.com/th?id=ONUT.MWwMhQMA3OLoymeKLPboWw&pid=News",
+        "timestamp": 1785597780.0
+    },
+    {
         "id": "499beb8c20",
         "title_fa": "ترامپ هشدار حملات تازه؛ کویت موشک‌های ایران را رهگیری کرد",
         "title_en": "Iran war latest: Trump warns of fresh strikes",
@@ -108,6 +126,24 @@
         "clean_url": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html",
         "image": "http://www.bing.com/th?id=ONUT.2c3aoq-MRijaGgDMjO2H8Q&pid=News",
         "timestamp": 1785580920.0
+    },
+    {
+        "id": "3365a76b74",
+        "title_fa": "پهپادهای ایران جنگ را به کویت می‌کشد",
+        "title_en": "Iran stokes the Middle East war with drone attacks on Kuwait",
+        "summary": [
+            "گزارش می‌گوید حملات پهپادی ایران به کویت، آتش جنگ را وارد فاز جدید کرده و تهران عملاً دامنه درگیری را گسترده‌تر می‌کند.",
+            "هم‌زمان منطقه برای موج تازه تشدید آماده می‌شود؛ چون ترامپ از «حمله‌های جدید» حرف زده و همین تهدید، طرف‌های درگیر را به واکنش سریع‌تر وادار می‌کند."
+        ],
+        "impact": "ریسک برخورد مستقیم‌تر بازیگران منطقه‌ای و افزایش حملات تلافی‌جویانه بالا می‌رود.",
+        "tag": "نیابتی",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "The Wall Street Journal on MSN",
+        "url": "https://www.msn.com/en-us/news/world/iran-stokes-the-middle-east-war-with-drone-attacks-on-kuwait/ar-AA29cTpd",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-stokes-the-middle-east-war-with-drone-attacks-on-kuwait/ar-AA29cTpd",
+        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785580320.0
     },
     {
         "id": "3b12fe3d2d",
@@ -5630,43 +5666,5 @@
         "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784936580.0,
         "id": "caa76718b0"
-    },
-    {
-        "title_fa": "ادعای ارتش آمریکا: شلیک به یک فروند کشتی در حین تلاش برای عبور از محاصره بنادر ایران",
-        "title_en": "U.S. military says it fired on another vessel trying to breach its blockade of Iranian ports",
-        "summary": [
-            "نیروهای نظامی آمریکا اعلام کردند به یک کشتی که «تلاش می‌کرد از محاصره بنادر ایران عبور کند» شلیک کرده‌اند؛ یعنی این اقدام در چارچوب ادامه کنترل دریایی واشنگتن قرار می‌گیرد.",
-            "این گزارش نشان می‌دهد محاصره و مداخله دریایی آمریکا صرفاً تهدید سیاسی نیست و با برخورد مستقیم میدانی همراه شده است، که ریسک خطای محاسباتی و تشدید تنش را بالا می‌برد.",
-            "به‌دلیل اینکه متن فقط به «شلیک» و «تلاش برای نقض محاصره» اشاره دارد، جزئیات درباره هویت کشتی یا نتیجه عملیات ارائه نشده و نمی‌توان فراتر از همین چارچوب، درباره ابعاد اقتصادی یا نظامی پیامدها حکم قطعی داد."
-        ],
-        "impact": "این رخداد، سطح درگیری مستقیم در آب‌های مرتبط با بنادر ایران را بالا می‌برد و می‌تواند به چرخه پاسخ‌گویی و تشدید تنش دریایی منجر شود.",
-        "tag": "آمریکا-دریایی",
-        "urgency": 8,
-        "sentiment": -0.4,
-        "source": "PBS",
-        "url": "https://www.msn.com/en-us/news/other/saudi-arabia-strikes-the-port-city-of-hodeida-in-yemen-coalition-says/ar-AA28zaiR",
-        "clean_url": "https://www.msn.com/en-us/news/other/saudi-arabia-strikes-the-port-city-of-hodeida-in-yemen-coalition-says/ar-AA28zaiR",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784933859.0,
-        "id": "0ac5bedcaf"
-    },
-    {
-        "title_fa": "ترامپ در حال بررسی تشدید حملات علیه ایران با گسترش دامنه درگیری",
-        "title_en": "Trump weighs harder Iran strikes as conflict widens",
-        "summary": [
-            "طبق گزارش Al-Monitor، ترامپ گزینه‌های «حملات سخت‌تر» علیه ایران را در پی گسترش دامنه درگیری بررسی می‌کند؛ یعنی افزایش فشار نظامی به عنوان اهرم سیاست خارجی در دستور کار قرار گرفته است.",
-            "گسترش درگیری نشان می‌دهد ریسک تبدیل شدن یک بحران منطقه‌ای به اقدام مستقیم علیه زیرساخت‌ها و توان عملیاتی ایران بالا می‌رود؛ این وضعیت برای محاسبات امنیتی رژیم، عدم‌قطعیت و هزینه‌سازی می‌آورد.",
-            "محرک تصمیم ترامپ «گسترش جنگ» است نه یک توافق سیاسی؛ بنابراین تمرکز بر ضربه‌زدن عملیاتی و ایجاد بازدارندگی از مسیر افزایش شدت اقدامات محتمل‌تر از راهکارهای مذاکره‌محور است."
-        ],
-        "impact": "تشدید احتمالی حملات می‌تواند هم‌زمان ریسک شوک امنیتی و فشار مستقیم بر ظرفیت‌های اقتصادی-عملیاتی ایران را بالا ببرد و شکاف‌های حکمرانی را برجسته‌تر کند.",
-        "tag": "تحریم-فشار",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "Al-Monitor",
-        "url": "https://www.barrons.com/news/trump-weighs-harder-iran-strikes-as-conflict-widens-26d12a7b?refsec=topics_afp-news",
-        "clean_url": "https://www.barrons.com/news/trump-weighs-harder-iran-strikes-as-conflict-widens-26d12a7b",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784932243.0,
-        "id": "da239dbeb2"
     }
 ]

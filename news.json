@@ -54,6 +54,25 @@
         "timestamp": 1785580920.0
     },
     {
+        "id": "3b12fe3d2d",
+        "title_fa": "ترامپ هشدار حملات تازه؛ کویت موشک‌های تهران را رهگیری کرد",
+        "title_en": "Trump-Iran latest: US president warns of fresh strikes",
+        "summary": [
+            "ترامپ با لحن مستقیم از «اقدام‌های تازه» علیه ایران حرف زده؛ یعنی بحث فقط تهدید لفظی نیست و پنجره عملیات در ذهن واشینگتن باز مانده است.",
+            "هم‌زمان گزارش شده کویت چند موشک را از سمت تهران رهگیری کرده؛ این یعنی ریسک درگیری مستقیم منطقه‌ای بالاست و هر شلیک می‌تواند بهانه پاسخ سریع آمریکا شود.",
+            "ارتش ایران هم بلافاصله آمریکا را متهم کرده در «مسیر تشدید تنش» حرکت می‌کند؛ حمله احتمالیِ واشینگتن را به عنوان ادامه همان فشار-تنش معرفی می‌کند تا هزینه سیاسی تهدیدهای ترامپ را پخش کند."
+        ],
+        "impact": "اگر شلیک‌ها/رهگیری‌ها ادامه پیدا کند، واشینگتن احتمالاً به جای عقب‌نشینی، سریع‌تر دنبال ضربه محدود یا بازدارنده خواهد رفت.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "The Independent",
+        "url": "https://www.msn.com/en-us/news/world/trump-iran-latest-us-president-warns-of-fresh-strikes/ar-AA296yRD",
+        "clean_url": "https://www.msn.com/en-us/news/world/trump-iran-latest-us-president-warns-of-fresh-strikes/ar-AA296yRD",
+        "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA296AX4.img?w=1200&h=800&m=4&q=81",
+        "timestamp": 1785574593.0
+    },
+    {
         "id": "76dd1a9a8f",
         "title_fa": "ترامپ: ایران را «خیلی سخت» می‌زنیم؛ هشدار خروج از منطقه",
         "title_en": "Iran-US War LIVE updates: Trump says will hit Iran ‘very hard’; US embassy urges Americans to consider leaving Middle East",
@@ -5649,24 +5668,5 @@
         "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784917819.0,
         "id": "75192e5545"
-    },
-    {
-        "title_fa": "گزارش اطلاعاتی آمریکا: رهبر جدید ایران گرایش بیشتری به سلاح هسته‌ای دارد",
-        "title_en": "Iran’s New Leader Is More Open to Pursuing a Nuclear Weapon, U.S. Intelligence Says",
-        "summary": [
-            "به‌گفته اطلاعات آمریکا، رهبر جدید ایران نسبت به رهبران پیشین، انعطاف بیشتری برای دنبال‌کردن سلاح هسته‌ای نشان می‌دهد؛ یعنی خط سیاسی هسته‌ای رژیم به‌سمت «احتمال‌پذیری بالاتر» حرکت کرده است.",
-            "چنین ارزیابی اطلاعاتی معمولاً به معنی افزایش ریسک اقدام‌های بعدی و سخت‌تر شدن مهار رژیم در کانال‌های دیپلماتیک است، چون تصمیم‌گیری درون حاکمیت ایران به‌طور مستقیم روی زمان‌بندی و مسیر هسته‌ای اثر می‌گذارد.",
-            "برای اقتصاد و ثبات داخلی پیامد مستقیم دارد: هرچه احتمال پیشروی هسته‌ای بیشتر شود، احتمال تشدید فشار خارجی و محدودیت‌های مالی-تجاری افزایش پیدا می‌کند و اتلاف منابع در داخل را تشدید می‌کند."
-        ],
-        "impact": "ارزیابی آمریکا مبنی بر بازتر شدن رهبر جدید نسبت به سلاح هسته‌ای، ریسک بحران راهبردی و تشدید فشار خارجی علیه رژیم را بالا می‌برد.",
-        "tag": "هسته‌ای",
-        "urgency": 8,
-        "sentiment": -0.8,
-        "source": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hN04wV21PX1FVc3MzcUpxNUE3WDNpb2JycUFBMnhXTDFrbzlFdTZ2Slh3WEhPdjcwcXd3clJkbTJPcVBVRVRrZE04QnpfT2Mzc0tuZnhOS2ttMVVPQlNEWUlHNG9RY3dnZ1BCWVhwT1RhOXhtSDBOWGQ3TQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hN04wV21PX1FVc3MzcUpxNUE3WDNpb2JycUFBMnhXTDFrbzlFdTZ2Slh3WEhPdjcwcXd3clJkbTJPcVBVRVRrZE04QnpfT2Mzc0tuZnhOS2ttMVVPQlNEWUlHNG9RY3dnZ1BCWVhwT1RhOXhtSDBOWGQ3TQ",
-        "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784917130.0,
-        "id": "bc6048f29e"
     }
 ]

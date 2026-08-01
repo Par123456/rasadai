@@ -36,6 +36,24 @@
         "timestamp": 1785587640.0
     },
     {
+        "id": "a48ddc45cf",
+        "title_fa": "ترک‌ودوام آتش‌بس؛ ایران با نیابتی‌ها هزینه حمله ترامپ را بالا برد",
+        "title_en": "As Cease-Fire Teetered, Iran Plotted a Wider War With Aid of Its Proxies",
+        "summary": [
+            "در اوج یک آتش‌بس کوتاه، ایران به شکل پنهانی برنامه‌ای چید تا اگر نیروهای آمریکا دوباره حمله کنند، جنگ برای ترامپ پرهزینه‌تر شود.",
+            "این طرح با اتکا به شبکه نیابتی‌ها طراحی شده؛ یعنی پیام اصلی این نیست «دفاع مستقیم»، بلکه «مقابله غیرمستقیم» و کشاندن فشار جنگ به بیرون از میدان محدود حمله."
+        ],
+        "impact": "ریسک محاسبه‌محور آمریکا بالاتر می‌رود چون پاسخ ایران فقط در برابر حمله‌های مستقیم نیست و هزینه را از مسیر نیابتی‌ها افزایش می‌دهد.",
+        "tag": "نیابتی",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "The New York Times",
+        "url": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html",
+        "clean_url": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html",
+        "image": "http://www.bing.com/th?id=ONUT.2c3aoq-MRijaGgDMjO2H8Q&pid=News",
+        "timestamp": 1785580920.0
+    },
+    {
         "id": "76dd1a9a8f",
         "title_fa": "ترامپ: ایران را «خیلی سخت» می‌زنیم؛ هشدار خروج از منطقه",
         "title_en": "Iran-US War LIVE updates: Trump says will hit Iran ‘very hard’; US embassy urges Americans to consider leaving Middle East",
@@ -5650,24 +5668,5 @@
         "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784917130.0,
         "id": "bc6048f29e"
-    },
-    {
-        "title_fa": "گسترش حملات آمریکا علیه ایران همزمان با هشدار ترامپ به تهران و حوثی‌ها درباره حملات دریای سرخ",
-        "title_en": "US expands Iran attacks as Trump warns Tehran and Houthis over Red Sea strikes",
-        "summary": [
-            "طبق گزارش گاردین، آمریکا دامنه حملات خود علیه ایران را گسترش داده است و این تصمیم هم‌زمان با موضع‌گیری ترامپ درباره حملات در دریای سرخ مطرح می‌شود.",
-            "ترامپ هم به تهران و هم به حوثی‌ها بابت ادامه حملات در دریای سرخ هشدار داده و این پیام‌گذاری در راستای مهار یا بازدارندگی فعال تلقی می‌شود، نه صرفاً یک بیانیه دیپلماتیک.",
-            "هم‌پوشانی زمانِ گسترش عملیات آمریکا با هشدار سیاسی نشان می‌دهد واشنگتن در حال تبدیل فشار کلامی به اقدام عملی است تا هزینه راهبردی برای بازیگران منطقه‌ای بالا ببرد."
-        ],
-        "impact": "این روند می‌تواند چرخه درگیری‌های منطقه‌ای را تشدید کند و احتمال پاسخ متقابل و انتقال بحران از سطح نیابتی به سطح وسیع‌تر را بالا ببرد.",
-        "tag": "نظامی",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdDhfQzhEVFVaYzlrRmoyc3lUMXlTS1pLNXc1RVNxc3lFNU9CclhqMEs2Q3BBSFI1VW5CRFRMVC1WclEydlc3WFBDa1J2RTBkcEg4MGpTYms0Q0FxZ0oyaG5hRDNsRkg0V3RaN3k5OHVMYXYyZlNydm9EVjRMN1hTYThmbDVzUzAxRml2c2F1X0ZNcW1HRVdFMERnclYwNDc5bFZsX1BNdDFoU0NoTzQyNFExWFZ5TGMycThsQ0JpSUhsUQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdDhfQzhEVFVaYzlrRmoyc3lUMXlTS1pLNXc1RVNxc3lFNU9CclhqMEs2Q3BBSFI1VW5CRFRMVC1WclEydlc3WFBDa1J2RTBkcEg4MGpTYms0Q0FxZ0oyaG5hRDNsRkg0V3RaN3k5OHVMYXYyZlNydm9EVjRMN1hTYThmbDVzUzAxRml2c2F1X0ZNcW1HRVdFMERnclYwNDc5bFZsX1BNdDFoU0NoTzQyNFExWFZ5TGMycThsQ0JpSUhsUQ",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784913000.0,
-        "id": "02adf0e6f1"
     }
 ]

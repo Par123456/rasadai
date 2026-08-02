@@ -1,5 +1,23 @@
 [
     {
+        "id": "8724c712b6",
+        "title_fa": "تهران تهدید می‌کند زیرساخت انرژی خلیج را می‌زند",
+        "title_en": "US-Iran War Live Updates: Tehran warns of strikes on Gulf energy sites; Kuwait destroys hostile drones",
+        "summary": [
+            "تهران به‌طور مستقیم هشدار داده اگر آمریکا حملات تازه بزند، به «زیرساخت انرژی خلیج» حمله خواهد کرد؛ یعنی سناریوی بازدارندگی را روی مسیر درآمد نفتی اجرا می‌کند، نه فقط پایگاه‌ها.",
+            "کویت اعلام کرده پهپادهای «دشمن» را منهدم کرده؛ هم‌زمان با خبرهای نزدیک عمان درباره رخداد کشتی‌ها، نگرانی از زنجیره حملات و اختلال امنیت کریدورهای نفتی جدی‌تر می‌شود."
+        ],
+        "impact": "ریسک امنیتی برای تردد نفتکش‌ها و بیمه و هزینه‌های انرژی در خلیج فارس بالا می‌رود.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.7,
+        "source": "Live Mint",
+        "url": "https://www.msn.com/en-in/news/world/us-iran-war-live-updates-tehran-warns-of-strikes-on-gulf-energy-sites-kuwait-destroys-hostile-drones/ar-AA29dVv1",
+        "clean_url": "https://www.msn.com/en-in/news/world/us-iran-war-live-updates-tehran-warns-of-strikes-on-gulf-energy-sites-kuwait-destroys-hostile-drones/ar-AA29dVv1",
+        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785690600.0
+    },
+    {
         "id": "6f1fac4eff",
         "title_fa": "ترامپ حمله تازه به ایران را مشروط به معامله سریع عقب انداخت",
         "title_en": "Trump says US will hold off on fresh Iran attack in hope of quick deal",
@@ -5642,24 +5660,5 @@
         "image": "http://www.bing.com/th?id=ONUT.C66FYcFD5YjCXrNeCAZQAg&pid=News",
         "timestamp": 1784965200.0,
         "id": "7cac57a66e"
-    },
-    {
-        "title_fa": "ادعای حوثی‌های مورد حمایت ایران درباره حمله موشکی به عربستان؛ گسترش جنگ منطقه‌ای",
-        "title_en": "Iran-backed Houthis claim missile attack on Saudi Arabia as Middle East war widens",
-        "summary": [
-            "حوثی‌ها (پشتیبانی‌شده از ایران) اعلام کرده‌اند که یک حمله موشکی علیه عربستان انجام داده‌اند، در حالی که «جنگ منطقه‌ای» در حال گسترده شدن توصیف می‌شود.",
-            "گستره‌ی درگیری‌ها در گزارش، نشانه‌ای از تشدید رقابت موشکی/تلافی‌جویانه میان محورهای درگیر و افزایش ریسک خطای محاسباتی در منطقه است.",
-            "این نوع ادعاها، حتی بدون تأیید جزئیات در متن، به‌عنوان محرک بالقوه برای پاسخ‌گویی عربستان و تشدید چرخه تنش عمل می‌کند."
-        ],
-        "impact": "ادعای حمله موشکی به عربستان می‌تواند به سرعت زمینه‌ی تشدید مستقیم درگیری‌ها و فشار امنیتی بیشتر بر رژیم‌های منطقه را فراهم کند.",
-        "tag": "منطقه",
-        "urgency": 7,
-        "sentiment": -0.4,
-        "source": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONGtzUUVWZzk5bHlYMW50bFg3QW94RFZwbXN6ZEY4eVVTVG5pdlRjd2F1V3gySEd3NVZVbHpFbVExQ2ZjMVBVcS1WMUduM3lSNWkxRzVJWGt3Q0huTW51SmdYQTYtY3RJYXVLUnpKUkZLb3c0aHpYQk9SSUNVLXhzQnY4TTFYOE1vbVQwS0h3clplUkpKenY0WVJpUkU?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONGtzUUVWZzk5bHlYMW50bFg3QW94RFZwbXN6ZEY4eVVTVG5pdlRjd2F1V3gySEd3NVZVbHpFbVExQ2ZjMVBVcS1WMUduM3lSNWkxRzVJWGt3Q0huTW51SmdYQTYtY3RJYXVLUnpKUkZLb3c0aHpYQk9SSUNVLXhzQnY4TTFYOE1vbVQwS0h3clplUkpKenY0WVJpUkU",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784959980.0,
-        "id": "78010a9be9"
     }
 ]

@@ -1,5 +1,63 @@
 [
     {
+        "id": "95797a4b44",
+        "title_fa": "شرط ایران برای توقف درگیری: کنترل تنگه هرمز",
+        "title_en": "Iran’s demands leave Trump with few good options",
+        "summary": [
+            "ایران روشن کرده بهای پایان حملات، «کنترل تنگه هرمز» است؛ معامله‌ای که از نظر سیاسی برای کاخ سفید به‌وضوح پرهزینه و ناخوشایند می‌ماند.",
+            "همزمان چرخه حمله-پاسخ ادامه دارد و فشار روی ترامپ را بیشتر می‌کند: بین تشدید نظامی، عقب‌نشینی تحمیلی یا پذیرش یک امتیاز غیرقابل‌هضم سیاسی گیر می‌افتد."
+        ],
+        "impact": "اختلاف اصلی بر سر هرمز باعث می‌شود ترامپ برای خروج از بن‌بست، یا باید ریسک نظامی را بپذیرد یا با هزینه سیاسی عقب بنشیند.",
+        "tag": "تنش",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Politico",
+        "url": "https://www.politico.com/news/2026/08/02/irans-demands-leave-trump-few-good-options-01020961",
+        "clean_url": "https://www.politico.com/news/2026/08/02/irans-demands-leave-trump-few-good-options-01020961",
+        "image": "http://www.bing.com/th?id=ONUT.INpJAjXBAAsK2R8Mo4B20w&pid=News",
+        "timestamp": 1785643260.0
+    },
+    {
+        "id": "3b8abf5100",
+        "title_fa": "ترامپ حمله به ایران را خواباند؛ شرطش «توافق فوری» است",
+        "title_en": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
+        "summary": [
+            "ترامپ می‌گوید آمریکا و اسرائیل برای توقف حملات جدید به ایران توافق کرده‌اند، اما این توقف را به رسیدن سریع «معامله» گره می‌زند.",
+            "او وعده می‌دهد «باز شدن کامل و فوری تنگه هرمز» و «پایان تهدید هسته‌ای ایران» بخشی از همان معامله است؛ یعنی اهرم اصلی، گره‌زدن عملیات نظامی به امتیازهای کلیدی اقتصادی و امنیتی است.",
+            "ایران ادعای درخواست تهران برای توقف حملات را رد کرده و می‌گوید نیروهای مسلح در حالت آماده‌باش شدید هستند؛ اختلاف روایت، می‌تواند جنگ روانی را به فاز جدید ببرد.",
+            "در عمل، هم مسیر انرژی (هرمز) و هم تجارت دریایی به‌خاطر بسته‌بودن/اختلال‌ها تحت فشار است؛ خبر ترامپ بیشتر «توقف حمله جدید» را نشان می‌دهد تا پایان بحران."
+        ],
+        "impact": "تا زمان توافق، حمله مستقیم جدید کم می‌شود، اما بازی «فشار نظامی برای گرفتن امتیاز هرمز و پرونده هسته‌ای» ادامه دارد.",
+        "tag": "نظامی-دیپلماتیک",
+        "urgency": 8,
+        "sentiment": -0.2,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/why-trump-halted-iran-attacks-094310359.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/why-trump-halted-iran-attacks-094310359.html",
+        "image": "http://www.bing.com/th?id=ONUT.V8Cb_OkrPIxyKUMScJ9v3Q&pid=News",
+        "timestamp": 1785638640.0
+    },
+    {
+        "id": "f79a47ef3e",
+        "title_fa": "ترامپ حمله به ایران را لغو کرد؛ اما آماده‌باش ماند",
+        "title_en": "Trump says he's cancelling strikes on Iran as 'perimeters of a deal' agreed",
+        "summary": [
+            "ترامپ اعلام کرد حمله تازه به ایران را «لغو» کرده چون «حریم‌های یک توافق» بین تهران و چند کشور نامشخص منطقه‌ای با آمریکا بسته شده؛ همزمان شرط گذاشت: لغو حمله به «توانایی سریع برای رسیدن به یک معامله» وابسته است.",
+            "با وجود لغو حمله، از زبان خود ترامپ روشن است که نیروهای آمریکایی «قفل و آماده» هستند؛ یعنی این عقب‌نشینی بیشتر یک کارت مذاکره است تا توقف واقعی تهدید.",
+            "هم‌زمان، اسرائیل هم به این تعهد پیوست؛ از آن طرف خبرگزاری نیمه‌رسمی ایران ادعاهای ترامپ درباره درخواست توقف را «دروغ جدید» خواند و گفت نیروهای ایران در بالاترین سطح آمادگی‌اند.",
+            "هشدار رسمی وزارت خارجه آمریکا به مسافران و ساکنان درباره احتمال لغو پرواز، بسته‌شدن دوره‌ای آسمان و اختلال سفر، با اعلام لغو حمله تناقض نرم دارد: تهدید عملیاتی همچنان روی میز است."
+        ],
+        "impact": "ریسک درگیری فوری کمی عقب می‌رود، ولی به‌خاطر «آمادگی کامل» و شرط مذاکره، بحران می‌تواند سریع دوباره فعال شود.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.35,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-says-hes-cancelling-strikes-093149371.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/trump-says-hes-cancelling-strikes-093149371.html",
+        "image": "http://www.bing.com/th?id=ONUT.gGiHivtSJtjG2wnq378NFg&pid=News",
+        "timestamp": 1785637860.0
+    },
+    {
         "id": "1b15a3f76a",
         "title_fa": "ترامپ حمله برنامه‌ریزی‌شده به ایران را لغو کرد",
         "title_en": "Trump says he’s canceling planned attacks on Iran",
@@ -5607,62 +5665,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784954424.0,
         "id": "586308307f"
-    },
-    {
-        "title_fa": "همزمان با حمله به تانکر و شتاب ناوگان، تهران «هشدار موشکی/پهپادی» آمریکا را رد می‌کند و آمریکا از تداوم ضربه‌های هدفمند خبر می‌دهد",
-        "title_en": "Iran-US War LIVE: Iran’s envoy hails Indian crew’s swift rescue after tanker attack; Trump says Tehran has ‘very few drones left’",
-        "summary": [
-            "بر اساس گزارش، تنش‌های ایران و آمریکا بالا گرفته: ایران «تهدیدهای ضربه» از سوی آمریکا را رد می‌کند و هم‌زمان حملات در یمن و عملیات‌های آمریکا علیه اهداف ایرانی، خطر گسترش درگیری منطقه‌ای را تقویت کرده است.",
-            "در همین چارچوب، خبر «رزمایش/اقدام امدادی» مطرح می‌شود: فرستاده ایران از نجات سریع خدمه یک کشتی توسط نیروهای هندی پس از حمله به یک تانکر استقبال کرده؛ این بخش نشان می‌دهد که محور بحران، فقط سیاسی نیست و پیامدهای عملیاتی فوری در تجارت دریایی هم دارد.",
-            "از سوی دیگر، دونالد ترامپ ادعا کرده تهران «تعداد بسیار کمی پهپاد باقی مانده» دارد؛ چنین اظهارنظرهایی معمولاً برای مهار روحیه و ایجاد برتری روانی در کنار عملیات نظامی دنبال می‌شود، اما گزارش رسمی جزئیاتی برای صحت‌سنجی عددی ارائه نمی‌کند."
-        ],
-        "impact": "این ترکیب از عملیات‌های نظامی، حملات بر مسیرهای کشتیرانی و ادعاهای رقابتی درباره توان پهپادی، ریسک جهش به درگیری تمام‌عیار را افزایش می‌دهد و بازار نفت را در معرض شوک مستقیم قرار می‌دهد.",
-        "tag": "تنش_نظامی",
-        "urgency": 9,
-        "sentiment": -0.7,
-        "source": "The Financial Express",
-        "url": "https://www.financialexpress.com/world-news/iran-us-war-live-updates-trump-hormuz-blockade-oil-price-today-red-sea-attack-peace-deal/4299917/",
-        "clean_url": "https://www.financialexpress.com/world-news/iran-us-war-live-updates-trump-hormuz-blockade-oil-price-today-red-sea-attack-peace-deal/4299917",
-        "image": "http://www.bing.com/th?id=ONUT.w-5HDtOm9tOLrBrlwl3LnA&pid=News",
-        "timestamp": 1784949720.0,
-        "id": "a04c964181"
-    },
-    {
-        "title_fa": "حوثی‌ها وعده تلافی بعد از حملات عربستان به یمن و گسترش جنگ در خاورمیانه",
-        "title_en": "Houthis vow retaliation after Saudi Arabia strikes Yemen in widening of Middle East war",
-        "summary": [
-            "طبق گزارش گاردین، حوثی‌ها پس از حملات عربستان به یمن اعلام کردند که دست به «تلافی» خواهند زد؛ یعنی چرخه درگیری وارد فاز تلافی‌محور می‌شود.",
-            "این رخداد به‌عنوان «گسترش» جنگ در خاورمیانه توصیف شده است که می‌تواند ریسک سرایت درگیری به جبهه‌های منطقه‌ای دیگر را بالا ببرد.",
-            "اقدام نظامی عربستان و پاسخ‌گیری حوثی‌ها، بدون اشاره به آتش‌بس یا مسیر سیاسی، بیشتر نشان‌دهنده تشدید رقابت امنیتی و عملیاتی است تا مدیریت بحران."
-        ],
-        "impact": "این روند احتمال تشدید حملات متقابل و افزایش بی‌ثباتی منطقه را بالا می‌برد و هزینه‌های امنیتی برای بازیگران ذی‌نفع را بیشتر می‌کند.",
-        "tag": "منطقه",
-        "urgency": 7,
-        "sentiment": -0.6,
-        "source": "The Guardian",
-        "url": "https://www.msn.com/en-us/news/world/houthis-vow-retaliation-for-saudi-strikes-as-conflict-deepens/ar-AA28DY23",
-        "clean_url": "https://www.msn.com/en-us/news/world/houthis-vow-retaliation-for-saudi-strikes-as-conflict-deepens/ar-AA28DY23",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784949540.0,
-        "id": "883684b96a"
-    },
-    {
-        "title_fa": "اطلاعات آمریکا: مجتبی خامنه‌ای نسبت به پدرش متمایل‌تر به دنبال‌کردن سلاح هسته‌ای است",
-        "title_en": "US intel said to find Mojtaba Khamenei ‘far more’ inclined than father to seek nukes",
-        "summary": [
-            "گزارش تایمز اسرائیل می‌گوید اطلاعات آمریکا به این جمع‌بندی رسیده که مجتبی خامنه‌ای «بسیار بیشتر» از پدرش به سمت پیگیری مسیر هسته‌ای متمایل است.",
-            "این ادعا، در سطح تصمیم‌سازی داخلی ایران، نشانه‌ای از تغییر یا تشدید وزن یک جریان نزدیک به رهبری در موضوع حساس هسته‌ای تلقی می‌شود؛ بدون اینکه جزئیات اجرایی در متن ذکر شده باشد.",
-            "چنین ارزیابی‌ای معمولاً مبنای افزایش فشار خارجی و سخت‌تر شدن محاسبات بازدارندگی می‌شود، چون «جهت‌گیری احتمالی» یک کنشگر کلیدی می‌تواند ریسک و زمان‌بندی ادراک‌شده را بالا ببرد."
-        ],
-        "impact": "اگر این ارزیابی اطلاعاتی معتبر باشد، احتمال تشدید فشار و اقدامات کنترلی علیه برنامه هسته‌ای و افزایش تنش‌های امنیتی منطقه‌ای بالا می‌رود.",
-        "tag": "هسته‌ای",
-        "urgency": 8,
-        "sentiment": -0.3,
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMG1FMDdrNk0yRV9iUFhhaGpoRzFrYmNrODZiUUx0Q2ZUeEg1dWxodTFlcHNXajRKMlR4SmdWUjZLdFlGSWo3TDlvempRQngtQjNNbHpvY3M5Q2o3LWdGSVRCd3NVODdVUW1aMlFFZV9NaXFjUDJnc0djY085Rmk0dHZDRWZPN0U5emZ3azR3dG1zbUpoRWlQbHZVWXFKYW9QdnRzMlNFUUxMY2tTNWJGZEhMONIBuAFBVV95cUxQZjdvTUJUTEdqSjBUQ2d6QTVRU0hETE9ObmVvZVNwTExVWEExRzBNOTBjQVZUUDNvMnVlWHdJUmVVRFBETlZ5WmMtSXR1Q3A4QkZib0Y1YVY0eU1GLUtyalZId0VZcVZ5UXZmck41VDgtZWdyRmdqUFZ6ZlhpRVdieU94bzNLZ0lfSV9nSGJUbnZuVVlZSXBtV1pPd2tvV29EelRzeG1GbWhrdW90OFRLUDJRT29hbGdU?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMG1FMDdrNk0yRV9iUFhhaGpoRzFrYmNrODZiUUx0Q2ZUeEg1dWxodTFlcHNXajRKMlR4SmdWUjZLdFlGSWo3TDlvempRQngtQjNNbHpvY3M5Q2o3LWdGSVRCd3NVODdVUW1aMlFFZV9NaXFjUDJnc0djY085Rmk0dHZDRWZPN0U5emZ3azR3dG1zbUpoRWlQbHZVWXFKYW9QdnRzMlNFUUxMY2tTNWJGZEhMONIBuAFBVV95cUxQZjdvTUJUTEdqSjBUQ2d6QTVRU0hETE9ObmVvZVNwTExVWEExRzBNOTBjQVZUUDNvMnVlWHdJUmVVRFBETlZ5WmMtSXR1Q3A4QkZib0Y1YVY0eU1GLUtyalZId0VZcVZ5UXZmck41VDgtZWdyRmdqUFZ6ZlhpRVdieU94bzNLZ0lfSV9nSGJUbnZuVVlZSXBtV1pPd2tvV29EelRzeG1GbWhrdW90OFRLUDJRT29hbGdU",
-        "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784948835.0,
-        "id": "0df25af939"
     }
 ]

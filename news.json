@@ -36,6 +36,25 @@
         "timestamp": 1785669000.0
     },
     {
+        "id": "22869fdf7d",
+        "title_fa": "ترامپ اعلان توقف حملات می‌دهد، اما حملات چند ساعت بعد",
+        "title_en": "Trump frequently announces he's halting strikes in Iran. But they keep happening",
+        "summary": [
+            "ترامپ دوباره گفته حملات جدید علیه ایران را فعلاً متوقف می‌کند، اما در همان الگو: تهدیدِ سنگینِ ضربتی اول، سپس عقب‌نشینیِ لفظی و اعلام آتش‌بس در ادامه؛ نتیجه عملی اما برعکس است.",
+            "در این جنگِ پنج‌ماهه، اعلام‌های توقف معمولاً «با حملات دوباره در روزهای بعد یا حتی ساعات بعد» نقض شده؛ یعنی این پیام‌ها بیشتر ابزار فشار و مدیریت زمان‌اند تا کنترل واقعی میدانی.",
+            "محور جدیدِ وعده‌ها هم گفت‌وگو برای «کاهش جنگ» و فعال‌کردن دوباره تردد بار از تنگه هرمز است؛ اما تداوم حملات نشان می‌دهد اولویت عملی هنوز فشار امنیتی/اقتصادی می‌ماند."
+        ],
+        "impact": "این رفت‌وبرگشت پیام تهدید و توقف، ریسک ناامنی و جهش قیمت نفت و کالاهای پایه را زنده نگه می‌دارد و برنامه‌ریزی حمل‌ونقل دریایی را مختل می‌کند.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Newsday",
+        "url": "https://www.newsday.com/news/nation/trump-iran-war-us-canceled-strikes-f46551",
+        "clean_url": "https://www.newsday.com/news/nation/trump-iran-war-us-canceled-strikes-f46551",
+        "image": "http://www.bing.com/th?id=ONUT.w8lIT9S5nnXy8hHaODeggw&pid=News",
+        "timestamp": 1785661740.0
+    },
+    {
         "id": "b9a3b83be7",
         "title_fa": "ترامپ ضربه نظامی لغو کرد؛ ایران و اسرائیل در آماده‌باش",
         "title_en": "As Trump cites progress on deal to end war, Iran and Israel remain on alert",
@@ -5641,24 +5660,5 @@
         "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784967278.0,
         "id": "0c31c35b7c"
-    },
-    {
-        "title_fa": "باقی‌مانده آتش‌بس آمریکا و ایران؛ برتری‌طلبی تبلیغاتی در برابر فرسایش یک توافق",
-        "title_en": "What’s Left of the Cease-Fire Agreement Between the U.S. and Iran?",
-        "summary": [
-            "طبق گزارش نیویورک‌تایمز، آتش‌بس میان آمریکا و ایران که ماه گذشته برای «باز کردن تنگه هرمز» شکل گرفته بود، متعاقباً قطع شد و دونالد ترامپ آن را با ادعای پیروزی تبلیغ کرد.",
-            "قطع آتش‌بس عملاً نشان می‌دهد که توافقِ محدود و کارکردیِ پیشین نتوانسته دوام بیاورد؛ نتیجه آن افزایش ریسک عملیات‌پذیری منطقه‌ای و شکنندگی کانال‌های مدیریت بحران است.",
-            "چارچوبی که مقاله توصیف می‌کند بیشتر یک سناریوی «معامله‌محورِ کوتاه‌مدت» است تا یک سازوکار پایدار؛ یعنی خروج آمریکا از توافق، اهرم فشار و مدیریت تنش را از بین می‌برد."
-        ],
-        "impact": "قطع آتش‌بس برای باز کردن تنگه هرمز، احتمال تکرار چرخه تنش و حادثه‌محوری در معابر حیاتی را بالا می‌برد، چون سازوکار توقف درگیری از میان رفته است.",
-        "tag": "دیپلماسی",
-        "urgency": 7,
-        "sentiment": -0.2,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/25/world/middleeast/us-iran-cease-fire-deal-violations.html",
-        "clean_url": "https://www.nytimes.com/2026/07/25/world/middleeast/us-iran-cease-fire-deal-violations.html",
-        "image": "http://www.bing.com/th?id=ONUT.C66FYcFD5YjCXrNeCAZQAg&pid=News",
-        "timestamp": 1784965200.0,
-        "id": "7cac57a66e"
     }
 ]

@@ -1,5 +1,41 @@
 [
     {
+        "id": "6f1fac4eff",
+        "title_fa": "ترامپ حمله تازه به ایران را مشروط به معامله سریع عقب انداخت",
+        "title_en": "Trump says US will hold off on fresh Iran attack in hope of quick deal",
+        "summary": [
+            "ترامپ می‌گوید آمریکا تا وقتی بتوان «سریع» به توافق رسید، از حمله جدید به ایران عقب می‌نشیند؛ یعنی جنگ‌گزینی تبدیل به اهرم مذاکره شده، نه راه‌حل دائمی.",
+            "ملاک اعلام‌شده او دو محور است: توقف جاه‌طلبی هسته‌ای ایران و باز شدن مسیر برای ازسرگیری تعاملات؛ پس اگر روند توافق کند شود، فشار نظامی می‌تواند دوباره روی میز برگردد."
+        ],
+        "impact": "فعلاً ریسک یک حمله تازه کم می‌شود، اما زمان‌بر نبودن توافق برای واشنگتن شرط اصلی است و هر تأخیر می‌تواند تهدید را فعال کند.",
+        "tag": "ایران",
+        "urgency": 6,
+        "sentiment": 0.1,
+        "source": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/iran-threatens-strike-other-nations-energy-fields-if-us-launches-fresh-attacks-2026-08-01/",
+        "clean_url": "https://www.reuters.com/world/asia-pacific/iran-threatens-strike-other-nations-energy-fields-if-us-launches-fresh-attacks-2026-08-01",
+        "image": "http://www.bing.com/th?id=ONUT.IGTSdUXXZ_ZbC_wNmbDNMw&pid=News",
+        "timestamp": 1785669000.0
+    },
+    {
+        "id": "b9a3b83be7",
+        "title_fa": "ترامپ ضربه نظامی لغو کرد؛ ایران و اسرائیل در آماده‌باش",
+        "title_en": "As Trump cites progress on deal to end war, Iran and Israel remain on alert",
+        "summary": [
+            "ترامپ می‌گوید بعد از روشن شدن چارچوب یک توافق برای پایان جنگ، حمله برنامه‌ریزی‌شده آمریکا به ایران را لغو کرده است؛ یعنی تهدید نظامی به ابزار معامله تبدیل شده.",
+            "در متن توافقی که به گفته او مطرح شده، «باز شدن مسیر حیاتی تنگه هرمز» هم دیده می‌شود؛ همین بند می‌تواند هم اهرم فشار اصلی باشد و هم دلیل باقی ماندن تهران و تل‌آویو در حالت آماده‌باش."
+        ],
+        "impact": "لغو حمله باعث افت فشار لحظه‌ای می‌شود، اما چون توافق هنوز قطعی نیست، ریسک درگیری کنترل‌نشده در منطقه بالا می‌ماند.",
+        "tag": "نظامی",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "The Washington Post on MSN",
+        "url": "https://www.msn.com/en-us/politics/international-relations/as-trump-cites-progress-on-deal-to-end-war-iran-and-israel-remain-on-alert/ar-AA29fGA1",
+        "clean_url": "https://www.msn.com/en-us/politics/international-relations/as-trump-cites-progress-on-deal-to-end-war-iran-and-israel-remain-on-alert/ar-AA29fGA1",
+        "image": "http://www.bing.com/th?id=ONUT.Ar_ZCI0HzWK3AoY0xIXF2A&pid=News",
+        "timestamp": 1785660183.0
+    },
+    {
         "id": "95797a4b44",
         "title_fa": "شرط ایران برای توقف درگیری: کنترل تنگه هرمز",
         "title_en": "Iran’s demands leave Trump with few good options",
@@ -5626,43 +5662,5 @@
         "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784959740.0,
         "id": "5389542dee"
-    },
-    {
-        "title_fa": "چرخش ترامپ به سمت دیپلماسی در میانه تشدید جنگ با ایران",
-        "title_en": "Trump swings back toward diplomacy in escalating war with Iran",
-        "summary": [
-            "واشنگتن‌پست از «تشدید جنگ با ایران» سخن می‌گوید و همزمان اعلام می‌کند ترامپ در این روند به سمت دیپلماسی برمی‌گردد؛ یعنی هدف‌گذاری از مسیر صرفاً فشار نظامی به سمت کانال‌های مذاکره تغییر پیدا کرده است.",
-            "این روایت، نشانه‌ای از تلاش برای مدیریت هزینه‌ها و ریسک تشدید بیشتر در شرایطی است که تنش‌ها بالاست، اما متن منجر به اعلام جزئیات توافق یا شروط مشخص نمی‌شود.",
-            "از منظر فشار خارجی، چرخش تاکتیکی به دیپلماسی می‌تواند موقتاً شدت بحران را کنترل کند، ولی خودِ «تشدید جنگ» نشان می‌دهد که اهرم‌های فشار همچنان فعال‌اند و رژیم می‌تواند از عدم قطعیت زمانی برای ادامه سیاست‌های امنیتی خود استفاده کند."
-        ],
-        "impact": "این تغییر لحن از فشار صرف به دیپلماسی، احتمال کنترل کوتاه‌مدت ریسک را بالا می‌برد اما چون تشدید جنگ هنوز جاری است، پیامد امنیتی-سیاسی آن همچنان می‌تواند ناپایدار بماند.",
-        "tag": "دیپلماسی",
-        "urgency": 8,
-        "sentiment": -0.2,
-        "source": "The Washington Post",
-        "url": "https://www.msn.com/en-us/news/world/trump-swings-back-toward-diplomacy-in-escalating-war-with-iran/ar-AA28DCYY",
-        "clean_url": "https://www.msn.com/en-us/news/world/trump-swings-back-toward-diplomacy-in-escalating-war-with-iran/ar-AA28DCYY",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784957716.0,
-        "id": "bbb3d12f17"
-    },
-    {
-        "title_fa": "حوثی‌ها از حمله به عربستان می‌گویند؛ هم‌زمان ترامپ «سخت‌تر شدن» ضربات علیه ایران را بررسی می‌کند",
-        "title_en": "Houthis say hit Saudi Arabia as Trump weighs harder Iran strikes",
-        "summary": [
-            "حوثی‌ها ادعا کرده‌اند که به عربستان ضربه زده‌اند؛ در سطح میدانی یعنی تشدید ریسک بی‌ثباتی و چرخه تلافی در مرزهای جنوبی و مسیرهای انرژی.",
-            "هم‌زمان گزارش می‌گوید ترامپ در حال بررسی گزینه‌هایی برای اعمال فشار/اقدام سخت‌تر در قبال ضربات علیه ایران است؛ پیام سیاسی آن، افزایش احتمال درگیری‌های نیابتی-منطقه‌ای است.",
-            "ترکیب «ادعای حمله» با «احتمال تشدید فشار» نشان می‌دهد سناریوی پیش‌روی بحران، بیشتر از مسیر تصمیمات کاخ سفید و محاسبات بازدارندگی پیش می‌رود تا از مسیر توقف مناقشه."
-        ],
-        "impact": "این رویداد احتمال تشدید تنش منطقه‌ای و بی‌ثباتی پیوسته میان بازیگران محور اعتراضات و فشار بر ایران را بالا می‌برد.",
-        "tag": "نیابتی",
-        "urgency": 7,
-        "sentiment": -0.3,
-        "source": "Al-Monitor",
-        "url": "https://www.msn.com/en-in/news/world/trump-weighs-harder-iran-strikes-as-conflict-widens/ar-AA28DGBi",
-        "clean_url": "https://www.msn.com/en-in/news/world/trump-weighs-harder-iran-strikes-as-conflict-widens/ar-AA28DGBi",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784957440.0,
-        "id": "efbe8a1aed"
     }
 ]

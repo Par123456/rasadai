@@ -36,6 +36,24 @@
         "timestamp": 1785660183.0
     },
     {
+        "id": "62060b8506",
+        "title_fa": "روایت قربانیان: بمب EFP ایران در بغداد آغازگر جنگ عدالت",
+        "title_en": "Iran's war on Americans began decades ago. These families still carry the scars",
+        "summary": [
+            "یک نظامی آمریکایی می‌گوید پس از اصابت EFP که به‌گفته او از سوی ایران تامین شده، در بغداد «سه بار مرده» و عملاً از همان نقطه وارد چرخه‌ای طولانی از آسیب و پیگیری شده است.",
+            "این گزارش با تکیه بر خانواده‌های قربانی، فشار افکار عمومی و سیاسی را به نفع پرونده‌سازی حقوقی و امنیتی علیه شبکه‌های مرتبط با تامین تسلیحاتِ نیابتی می‌چرخاند؛ یعنی جنگ روایت‌ها از عملیات نظامی جدا نیست."
+        ],
+        "impact": "این نوع روایت، هزینه سیاسی و رسانه‌ای برای تهران را بالا می‌برد و سوخت پرونده‌های حقوقی/امنیتی علیه تامین‌کنندگان ادعایی فراهم می‌کند.",
+        "tag": "نیابتی",
+        "urgency": 5,
+        "sentiment": -0.7,
+        "source": "Fox News on MSN",
+        "url": "https://www.msn.com/en-us/news/world/iran-s-war-on-americans-began-decades-ago-these-families-still-carry-the-scars/ar-AA29evdL",
+        "clean_url": "https://www.msn.com/en-us/news/world/iran-s-war-on-americans-began-decades-ago-these-families-still-carry-the-scars/ar-AA29evdL",
+        "image": "http://www.bing.com/th?id=ONUT.t5sOB_wBcEKd-_x4GwTozg&pid=News",
+        "timestamp": 1785646813.0
+    },
+    {
         "id": "95797a4b44",
         "title_fa": "شرط ایران برای توقف درگیری: کنترل تنگه هرمز",
         "title_en": "Iran’s demands leave Trump with few good options",
@@ -5643,24 +5661,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784959980.0,
         "id": "78010a9be9"
-    },
-    {
-        "title_fa": "گسترش جنگ آمریکا و ایران به خارج از میدان نبرد؛ حملات دریای سرخ یک جبهه جدید می‌گشاید",
-        "title_en": "US-Iran conflict expands beyond battlefield as Red Sea attacks open new front",
-        "summary": [
-            "طبق گزارش تایمز آو ایندیا، تنش میان آمریکا و ایران از چارچوب مستقیم نبرد خارج شده و حملات در دریای سرخ «جبهه‌ای جدید» ایجاد کرده است.",
-            "این تحول نشان می‌دهد درگیری به یک بحران منطقه‌ای چندمحوره تبدیل شده و فقط محدود به زمین‌های درگیری مستقیم نیست.",
-            "گزارش مشخص نمی‌کند جزئیات فنی حملات، طرف‌های درگیر یا سطح درگیری‌ها در دریای سرخ دقیقاً چه بوده، اما نتیجه‌گیری روشن است: دامنه عملیات فراتر رفته است."
-        ],
-        "impact": "گشایش جبهه دریای سرخ ریسک تشدید، اختلال در مسیرهای کشتیرانی و در نتیجه فشار مستقیم‌تر اقتصادی-امنیتی بر هر دو طرف را بالا می‌برد.",
-        "tag": "تشدید",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdXlrVUxNbTFqSzJkVElJandrREVnbVpveHlBYXJKX3FBSWQ0Zkl2N3lqWmoyZC15M3pxTkFrZjVna0hMUHpyT3hyOWtLb2tmdklyeXJ5X1EzcmZNZVVTV3Rtc0VoRjlDSjA1VXI5TWc3WHVSUFczQXdMVmJ4V3FFV0ZJOXJxVWhaejNKblNFb3Y5SU8zRGZ1ZE5lc284XzZja0RMYmZFTHpmcmtGUXdwZ1UwbVFOSkEwaE1aTjhpMnRBUTNLSkM3M0JkVEI2U3JibEFUd1F3U1lzckJKR256Q3NQRkZjRlhpRXhpOThR0gHzAUFVX3lxTE9KMFlmVnZkal9kci03UDgwY3VBRmE0T28tR3p2WENISEpWcHF2RzNwNEloR2tXYWgzcmtRNVdTQ1p5eUVsUUhZYTBidzdTVHBJakY3WEJSMzRBcS1YWGxpeTRmeUNfa0dyX0FuOFRlNkJTci14NVNaeWhTT28tRzZLeG42M2gtQjlCZHBBVVc0NlVtcGVpYVdpMjItMlJqMGpRS1Z0dzhWaTAzRmlkWjdzRDZrNWV2TG5xWGtRbWNtd1V4cVlMX1NkWUo5eUNxQUNtcFBhV2tDQWVYeFh3aVNMOV93bzRWSG1yWWNXdTJia3hzTQ?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdXlrVUxNbTFqSzJkVElJandrREVnbVpveHlBYXJKX3FBSWQ0Zkl2N3lqWmoyZC15M3pxTkFrZjVna0hMUHpyT3hyOWtLb2tmdklyeXJ5X1EzcmZNZVVTV3Rtc0VoRjlDSjA1VXI5TWc3WHVSUFczQXdMVmJ4V3FFV0ZJOXJxVWhaejNKblNFb3Y5SU8zRGZ1ZE5lc284XzZja0RMYmZFTHpmcmtGUXdwZ1UwbVFOSkEwaE1aTjhpMnRBUTNLSkM3M0JkVEI2U3JibEFUd1F3U1lzckJKR256Q3NQRkZjRlhpRXhpOThR0gHzAUFVX3lxTE9KMFlmVnZkal9kci03UDgwY3VBRmE0T28tR3p2WENISEpWcHF2RzNwNEloR2tXYWgzcmtRNVdTQ1p5eUVsUUhZYTBidzdTVHBJakY3WEJSMzRBcS1YWGxpeTRmeUNfa0dyX0FuOFRlNkJTci14NVNaeWhTT28tRzZLeG42M2gtQjlCZHBBVVc0NlVtcGVpYVdpMjItMlJqMGpRS1Z0dzhWaTAzRmlkWjdzRDZrNWV2TG5xWGtRbWNtd1V4cVlMX1NkWUo5eUNxQUNtcFBhV2tDQWVYeFh3aVNMOV93bzRWSG1yWWNXdTJia3hzTQ",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784959740.0,
-        "id": "5389542dee"
     }
 ]

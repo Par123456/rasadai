@@ -18,6 +18,24 @@
         "timestamp": 1785643260.0
     },
     {
+        "id": "0adbf3a872",
+        "title_fa": "ترامپ حمله برنامه‌ریزی‌شده علیه ایران را لغو کرد",
+        "title_en": "Trump cancels planned attack on Iran, saying he reached an agreement over the 'perimeters of a deal'",
+        "summary": [
+            "ترامپ می‌گوید حمله‌ای که قرار بوده انجام شود را لغو کرده چون «درباره مرزهای یک توافق» به توافق رسیده‌اند.",
+            "او توضیح می‌دهد ایران و هم‌پیمان‌های منطقه‌ای‌اش از آمریکا خواسته‌اند حملات را عقب بیندازد؛ یعنی کل ماجرا از زاویه واشینگتن «قابل معامله» تعریف شده است، نه صرفاً ترس از پاسخ نظامی."
+        ],
+        "impact": "فعلاً مسیر عملیات نظامی آمریکا علیه ایران متوقف می‌شود، اما سیگنال فشار برای گرفتن امتیاز در قالب «توافق» باقی می‌ماند.",
+        "tag": "نظامی-دیپلماتیک",
+        "urgency": 8,
+        "sentiment": -0.2,
+        "source": "CNBC on MSN",
+        "url": "https://www.msn.com/en-us/news/other/trump-cancels-planned-attack-on-iran-saying-he-reached-an-agreement-over-the-perimeters-of-a-deal/ar-AA29eOfe",
+        "clean_url": "https://www.msn.com/en-us/news/other/trump-cancels-planned-attack-on-iran-saying-he-reached-an-agreement-over-the-perimeters-of-a-deal/ar-AA29eOfe",
+        "image": "http://www.bing.com/th?id=ONUT.4stB42Xrn2iYMJJV4Eup0A&pid=News",
+        "timestamp": 1785640715.0
+    },
+    {
         "id": "3b8abf5100",
         "title_fa": "ترامپ حمله به ایران را خواباند؛ شرطش «توافق فوری» است",
         "title_en": "Why has Trump halted Iran attacks, and what is the deal he is hinting at?",
@@ -5646,24 +5664,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784957440.0,
         "id": "efbe8a1aed"
-    },
-    {
-        "title_fa": "فیلم انفجار ساختگی/قدیمی به‌عنوان «حمله اخیر آمریکا به سایت هسته‌ای ایران» بازنشر شده است",
-        "title_en": "Months-old explosion footage falsely shared as recent US strikes on Iran nuclear site",
-        "summary": [
-            "AFP Fact Check اعلام می‌کند که ویدئوی انفجارِ موردبحث، مربوط به چند ماه پیش است و به رخداد «اخیر» یا «اقدام جدید آمریکا» ربط داده نشده است.",
-            "ادعای بازنشرکنندگان مبنی بر اینکه این تصاویر نشان‌دهنده ضربات تازه آمریکا به یک سایت هسته‌ای ایران است، بر اساس زمان‌مندی قدیمیِ فیلم، نادرست توصیف شده است.",
-            "این نوع تحریف رسانه‌ای می‌تواند به بی‌اعتمادی عمومی، تشدید فضای روانی و اختلال در ارزیابی واقعی رویدادها بینجامد، بدون آنکه مبنای قابل‌اثبات برای وقوع «حمله اخیر» فراهم کند."
-        ],
-        "impact": "به دلیل نادرستی روایت «حمله اخیر»، هرگونه نتیجه‌گیری امنیتی یا سیاسی بر پایه این ویدئو از نظر اطلاعاتی بی‌اعتبار است.",
-        "tag": "دیفاماشن",
-        "urgency": 3,
-        "sentiment": -0.4,
-        "source": "AFP Fact Check",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JX3ZyRi1XMzVIQm12S0ktOG9CaDlrVWNHUjEzZnQ0d0MzSFQyZXkteGRyNFhZb1VVNGpqTE1fUnRKMWVFWWFQekFTeHNoYi1KUTJ1MTU1cVU?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JX3ZyRi1XMzVIQm12S0ktOG9CaDlrVWNHUjEzZnQ0d0MzSFQyZXkteGRyNFhZb1VVNGpqTE1fUnRKMWVFWWFQekFTeHNoYi1KUTJ1MTU1cVU",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784954424.0,
-        "id": "586308307f"
     }
 ]

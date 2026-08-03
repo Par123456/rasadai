@@ -18,6 +18,44 @@
         "timestamp": 1785690600.0
     },
     {
+        "id": "d150755428",
+        "title_fa": "ترامپ حملات علیه ایران را لغو کرد؛ زمزمه مذاکرات از سر گرفت",
+        "title_en": "Trump says he canceled Iran strikes at request of Gulf allies, is pursuing talks",
+        "summary": [
+            "ترامپ می‌گوید برنامه حملات آمریکا به ایران را آخر هفته لغو کرده چون عربستان، امارات و قطر از او خواسته‌اند به جای ضربه نظامی، مذاکره با تهران را دنبال کند.",
+            "همزمان تأکید می‌کند مذاکرات «از فردا بعدازظهر» شروع می‌شود و سناریوی توافق را زنجیره‌ای می‌بیند: اول «توافق بر سر هرمز»، بعد توافق هسته‌ای/منـع گسترش توان هسته‌ای ایران.",
+            "در لایه منطقه‌ای، مقام‌های ایرانی می‌گویند با عمان برای از سرگیری مسیر عبور از تنگه هرمز نزدیک به نهایی کردن توافق‌اند؛ یعنی مذاکره فقط سیاسی نیست و روی کریدور حیاتی کشتیرانی قفل می‌خورد.",
+            "این حرکت پس از فروپاشی آتش‌بس تابستانه و تشدید دوباره درگیری‌هاست؛ واشینگتن دوباره به سمت محاصره دریایی و ضربات گسترده رفته بود و حالا برای کنترل هزینه انسانی و توقف چرخه حملات برگشته سر میز گفت‌وگو."
+        ],
+        "impact": "لغو حملات و شروع مذاکره می‌تواند ریسک درگیری مستقیم در خلیج فارس را موقتاً پایین بیاورد، اما چون تکیه‌اش به «توافق هرمز» است، بازار و امنیت کشتیرانی همچنان تا روشن شدن نتیجه، متلاطم می‌ماند.",
+        "tag": "مذاکرات",
+        "urgency": 7,
+        "sentiment": 0.2,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/as-trump-cites-progress-on-deal-to-end-war-iran-and-israel-remain-on-alert-124904828.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/as-trump-cites-progress-on-deal-to-end-war-iran-and-israel-remain-on-alert-124904828.html",
+        "image": "http://www.bing.com/th?id=ONUT.i1aIg6AX1nLoCiscv33MEQ&pid=News",
+        "timestamp": 1785690060.0
+    },
+    {
+        "id": "43e020ed37",
+        "title_fa": "ترامپ مذاکره با ایران را از دوشنبه کلید زد",
+        "title_en": "Trump says new round of Iran talks will begin Monday",
+        "summary": [
+            "ترامپ اعلام کرد دور جدید گفت‌وگوها با تهران دوشنبه عصر شروع می‌شود و همزمان از «تعویق حمله» برای دادن فرصت به دیپلماسی خبر داد.",
+            "او گفته بود آمریکا برنامه‌ای برای یک حمله «بزرگ‌ترین از جنگ جهانی دوم» آماده کرده، اما تحت فشار متحدانش (به‌ویژه عربستان، امارات و قطر) عقب نشست؛ استدلالش این بود که طرف‌ها تصور می‌کنند «امکان معامله» وجود دارد."
+        ],
+        "impact": "فعلاً ریسک ضربه نظامی کاهش می‌یابد اما بازی فشار-مذاکره ترامپ با پیام «حمله آماده است، مذاکره اول» ادامه پیدا می‌کند.",
+        "tag": "دیپلماتیک-فشار",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-says-round-iran-talks-234808180.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/trump-says-round-iran-talks-234808180.html",
+        "image": "http://www.bing.com/th?id=ONUT.lqXiwEAf0hxQwCuIw0ZUkw&pid=News",
+        "timestamp": 1785689280.0
+    },
+    {
         "id": "0b35684855",
         "title_fa": "ترامپ از «توافق» روی تنگه هرمز خبر داد",
         "title_en": "Iran war latest: Trump claims 'there's a deal' on Strait of Hormuz, ahead of further 'negotiations' later today",
@@ -5621,43 +5659,5 @@
         "image": "https://e3.365dm.com/26/07/1600x900/skynews-trump-white-house-dinner_7306278.jpg?20260725043035",
         "timestamp": 1784968920.0,
         "id": "8909bdcf3c"
-    },
-    {
-        "title_fa": "ارزیابی اطلاعاتی آمریکا: رهبر جدید ایران راه هسته‌ای را بازتر می‌بیند",
-        "title_en": "US intel sees Iran’s new leader as more open to nuclear path",
-        "summary": [
-            "گزارش «The Arab Weekly» مدعی است که اطلاعات آمریکا، رهبر جدید ایران را نسبت به مسیر هسته‌ای «بازتر» ارزیابی می‌کند؛ یعنی فاصله کمتر برای پیشروی در پرونده هسته‌ای نسبت به گذشته دیده شده است.",
-            "این برداشت اطلاعاتی خودبه‌خود به معنای آغاز فوری اقدام نیست، اما پیام آن روشن است: ارزیابی واشینگتن از محاسبات تصمیم‌گیری در تهران تغییر کرده و حساسیت بیشتری به روندهای هسته‌ای شکل می‌گیرد.",
-            "در چارچوب فشار خارجی، چنین سیگنال‌هایی معمولاً به تشدید ریسک‌های سیاسی و افزایش هزینه‌های دیپلماتیک/تحریمی برای رژیم منجر می‌شوند؛ مخصوصاً اگر ادعا با شواهد فنی یا رفتاری هم‌زمان شود."
-        ],
-        "impact": "این ارزیابی می‌تواند زمینه‌ساز فشار سیاسی و امنیتی بیشتر علیه رژیم و سخت‌تر شدن مسیر کاهش تنش پیرامون پرونده هسته‌ای شود.",
-        "tag": "هسته‌ای",
-        "urgency": 6,
-        "sentiment": -0.35,
-        "source": "The Arab Weekly",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3ZYczg4Q05MZHpWQzNrdTVod01lLW5hTjFfc0FjVlFxbU0tbDg0NFQ3Uk1obVQ4WFVON2RWTDVVZ2VoX3QydTJKTlk0dEx2Q0xSQ1hDSkpydVFaMFBiUW40Ym0tSEZDT0ZyWVBpZW4zMUR6aC1qTzk0SWJZR1gyM3kzb0Fidw?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3ZYczg4Q05MZHpWQzNrdTVod01lLW5hTjFfc0FjVlFxbU0tbDg0NFQ3Uk1obVQ4WFVON2RWTDVVZ2VoX3QydTJKTlk0dEx2Q0xSQ1hDSkpydVFaMFBiUW40Ym0tSEZDT0ZyWVBpZW4zMUR6aC1qTzk0SWJZR1gyM3kzb0Fidw",
-        "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784967944.0,
-        "id": "1764d24e15"
-    },
-    {
-        "title_fa": "تقریباً نیمی از کاربران اینترنت ایران از قطعی‌های مرتبط با درگیری‌ها خشمگین‌اند (نظرسنجی ISPA)",
-        "title_en": "Nearly half of Iranian internet users angry over conflict outage, ISPA poll finds",
-        "summary": [
-            "نظرسنجی ISPA نشان می‌دهد نزدیک به نصف کاربران اینترنت ایران از قطعی ارتباطات در بازه‌های مرتبط با «درگیری» ناراضی و عصبانی هستند؛ یعنی اختلال، به‌طور مستقیم به تجربه روزمره مردم آسیب زده است.",
-            "گستردگی نارضایتی (حدود ۵۰٪) بیانگر یک پیام سیاسی-اجتماعی است: دولت و نهادهای مرتبط با حکمرانی شبکه، نتوانسته‌اند اعتماد عمومی و ثبات ارتباطات را حفظ کنند.",
-            "این سطح از خشم عمومی می‌تواند فشار داخلی بر تصمیم‌گیران ایجاد کند، چون قطعی‌های مکرر هزینه اجتماعی و اقتصادی برای کاربران و کسب‌وکارها دارد و نارضایتی را از حاشیه به مرکز می‌برد."
-        ],
-        "impact": "این گزارش، ناپایداری شبکه و پاسخ‌گویی ضعیف حکمرانی ارتباطات را به یک عامل مستقیم نارضایتی عمومی تبدیل می‌کند و زمینه فشار سیاسی داخلی را تشدید می‌نماید.",
-        "tag": "اقتصادی",
-        "urgency": 6,
-        "sentiment": -0.6,
-        "source": "ایران اینترنشنال",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11elBSNWtkTF9jWEtZOXg3UnFrZE9meUdJdGFRTGZPSEtVeS1fQTYzQ0I1OVlfTkV0MUZ0ZmE0SDhHUlU1eGxCbkx0ZzJEZFZqZVE?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE11elBSNWtkTF9jWEtZOXg3UnFrZE9meUdJdGFRTGZPSEtVeS1fQTYzQ0I1OVlfTkV0MUZ0ZmE0SDhHUlU1eGxCbkx0ZzJEZFZqZVE",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784967326.0,
-        "id": "395b2c6e58"
     }
 ]

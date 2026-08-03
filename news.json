@@ -1,5 +1,117 @@
 [
     {
+        "id": "8bb3c7cdcd",
+        "title_fa": "ترامپ: مذاکرات با ایران از دوشنبه ازسرگرفته می‌شود",
+        "title_en": "Trump says negotiations with Iran to resume Monday",
+        "summary": [
+            "ترامپ اعلام کرد گفت‌وگوهای ایران برای پایان جنگ از دوشنبه دوباره شروع می‌شود؛ یعنی توقف کوتاه در مسیر تنشِ جاری.",
+            "او صراحتاً یادآور شد حدود یک ماه بعد از فروپاشی گفت‌وگوهای رسمی، دوباره موضوع مذاکره را فعال کرده؛ همزمان با افزایش احتمال فشار و چانه‌زنی تا رسیدن به توافق."
+        ],
+        "impact": "ازسرگیری مذاکره می‌تواند چند روز تنش را کنترل کند، اما طبق روایت ترامپ با هدف مهار جنگ و اعمال فشار همزمان همراه است.",
+        "tag": "دیپلماتیک",
+        "urgency": 6,
+        "sentiment": 0.2,
+        "source": "UPI",
+        "url": "https://www.msn.com/en-us/news/world/trump-says-negotiations-with-iran-to-resume-monday/ar-AA29gKEY",
+        "clean_url": "https://www.msn.com/en-us/news/world/trump-says-negotiations-with-iran-to-resume-monday/ar-AA29gKEY",
+        "image": "https://cdnph.upi.com/sv/ph/og/upi/4681785720175/2026/1/176c7d2201bf9c35e4eb2cfce558cff4/v1.5/Trump-says-negotiations-with-Iran-to-resume-Monday.jpg",
+        "timestamp": 1785724774.0
+    },
+    {
+        "id": "b6e78bcc7c",
+        "title_fa": "توافق هسته‌ای آمریکا-عربستان؛ استاندارد دوگانهِ واشنگتن لو رفت",
+        "title_en": "Opinion Saudi nuclear deal bares Washington's double standards",
+        "summary": [
+            "حاشیه‌نویسی «The Indian Express» می‌گوید توافق «123» میان آمریکا و عربستان از الگوی همیشگی واشنگتن برای انتقال فناوری هسته‌ای به متحدان فاصله دارد و همین تفاوت، تبعیض را برجسته می‌کند.",
+            "مقایسه با توافق ۲۰۰۹ آمریکا با امارات نشان می‌دهد واشنگتن در گذشته سقف‌های سخت‌گیرانه‌تری را مبنا قرار داده؛ اما در معامله جدید با ریاض، روایتِ «محدودیت و مهار» مثل قبل محکم اجرا نمی‌شود.",
+            "نتیجه عملی این دوگانگی، تضعیف اعتبار آمریکا به‌عنوان داور امنیت هسته‌ای است: متحدان ممکن است از این سیگنال بخوانند که شدت نظارت واشنگتن قابل مذاکره است."
+        ],
+        "impact": "این افشاگری می‌تواند روی اجماع منطقه‌ای برای مهار اشاعه اثر منفی بگذارد و فضای رقابت هسته‌ای در خلیج فارس را پرتنش‌تر کند.",
+        "tag": "هسته‌ای",
+        "urgency": 4,
+        "sentiment": -0.35,
+        "source": "The Indian Express",
+        "url": "https://indianexpress.com/article/opinion/columns/us-saudi-123-nuclear-deal-middle-east-tension-10815035/",
+        "clean_url": "https://indianexpress.com/article/opinion/columns/us-saudi-123-nuclear-deal-middle-east-tension-10815035",
+        "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+        "timestamp": 1785718260.0
+    },
+    {
+        "id": "8eea96008d",
+        "title_fa": "میانجی‌گری پاکستان و قطر برای بازگرداندن گفتگو با آمریکا",
+        "title_en": "US-Israel-Iran war latest news: Pakistan and Qatar to send emissaries for US-Iran talks following recent military escalations",
+        "summary": [
+            "پاکستان و قطر بعد از بالا گرفتن تنش‌های نظامی، برای احیای مذاکرات نیمه‌تمام آمریکا و ایران وارد نقش میانجی شده‌اند و نماینده‌های سطح‌بالا می‌فرستند.",
+            "این حرکت یعنی طرف‌ها دنبال «ترمز اضطراری» هستند: همزمان با فشار و نمایش قدرت، یک کانال ارتباطی برای جلوگیری از سرریز بحران به درگیری مستقیم فعال می‌شود."
+        ],
+        "impact": "احتمال کاهش ریسک درگیری فوری بالاست، اما اگر جنگ روانی ادامه پیدا کند، این کانال‌ها بیشتر نقش وقت‌کشی خواهند داشت.",
+        "tag": "دیپلماسی",
+        "urgency": 6,
+        "sentiment": 0.2,
+        "source": "The Sunday Guardian Live",
+        "url": "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-pakistan-and-qatar-to-send-emissaries-for-us-iran-talks-following-recent-military-escalations/ar-AA29hybi",
+        "clean_url": "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-pakistan-and-qatar-to-send-emissaries-for-us-iran-talks-following-recent-military-escalations/ar-AA29hybi",
+        "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA29gYul.img?w=1200&h=900&m=4&q=100",
+        "timestamp": 1785705060.0
+    },
+    {
+        "id": "8f0c7fc45c",
+        "title_fa": "ایران: بدون پایان حملات آمریکا، هرمز باز نمی‌شود",
+        "title_en": "US-Iran War Live Updates: Iran says no Hormuz reopening without end to US strikes",
+        "summary": [
+            "سخنگوی وزارت خارجه ایران تأکید کرد «میانجی جدیدی» وارد بازی نشده و پاکستان محور مذاکره با آمریکا است؛ قطر هم فقط در موارد ضروری کمک می‌کند و نقش تازه‌ای برای چین قائل نیستند.",
+            "ایران می‌گوید با عمان روی مسیر موقت امن برای کشتیرانی از تنگه هرمز کار می‌کند، اما «صرفِ توافق» تنگه را باز نمی‌کند؛ شرط باز شدن، توقف حملات آمریکا علیه ایران است.",
+            "در همین فضا، ترکیه نتانیاهو را به تضعیف روند صلح متهم کرد و ادامه حملات مرگبار به غزه را نشانه بی‌میلی به حل‌وفصل فلسطینی‌ها دانست.",
+            "ترامپ پس از اشاره به حمله قریب‌الوقوع، از تشدید نظامی عقب نشست؛ اما تهران این عقب‌نشینی‌های مقطعی را در چارچوب همان الگوی رفت‌وبرگشت فشار و مذاکره در جنگ پنج‌ماهه می‌بیند."
+        ],
+        "impact": "پیام ایران برای هرمز عملاً دست آمریکا و متحدانش را در بازگشایی سیاسی/کشتیرانی تنگ می‌کند و ریسک تداوم تنش را بالا نگه می‌دارد.",
+        "tag": "هرمز",
+        "urgency": 8,
+        "sentiment": -0.35,
+        "source": "CNBCTV18",
+        "url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-trump-confirms-saudi-call-as-us-pauses-iran-strike-nuclear-talks-strait-of-hormuz-liveblog-19958939.htm",
+        "clean_url": "https://www.cnbctv18.com/world/us-iran-war-live-updates-trump-confirms-saudi-call-as-us-pauses-iran-strike-nuclear-talks-strait-of-hormuz-liveblog-19958939.htm",
+        "image": "http://www.bing.com/th?id=ONUT.3TZahvB1J6mgk-Fl9zhRLA&pid=News",
+        "timestamp": 1785696060.0
+    },
+    {
+        "id": "77055b93b6",
+        "title_fa": "ایران دامنه حملات را گسترش داد؛ فشار به کریدورهای دریایی آمریکا",
+        "title_en": "Iran intensifies attacks, threatening American dominance over vital regional shipping routes",
+        "summary": [
+            "طبق گزارش‌ها، تهران از حالت صرفاً واکنشی خارج شده و با ضربات پیش‌دستانه در حال تعیین ریتم درگیری است؛ هدف این است که آمریکا پاسخ را «به زبان ایران» بدهد نه به میل واشنگتن.",
+            "گسترش جنگ از اردن تا دریای سرخ، همراه با دستکاری مسیرهای حیاتی کشتیرانی، هزینه عملیاتی آمریکا را بالا می‌برد و هم‌زمان دولت‌های عرب را علیه تشدید ناگهانی درگیر می‌کند.",
+            "با اینکه ترامپ از لغو یک حمله برنامه‌ریزی‌شده با درخواست متحدان منطقه‌ای خبر داده، روند مذاکرات شکننده است؛ چون توافق ماه ژوئن برای توقف درگیری و بازگشایی مسیرها ظاهراً نتوانسته دوام بیاورد."
+        ],
+        "impact": "فشار هم‌زمان نظامی و امنیتی روی مسیرهای دریایی می‌تواند هزینه حمل‌ونقل منطقه را بالا ببرد و واشنگتن را مجبور به واکنش پرهزینه‌تر کند.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.6,
+        "source": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/world/iran-intensifies-attacks-threatening-american-dominance-over-vital-regional-shipping-routes-article-13992165.html",
+        "clean_url": "https://www.moneycontrol.com/world/iran-intensifies-attacks-threatening-american-dominance-over-vital-regional-shipping-routes-article-13992165.html",
+        "image": "http://www.bing.com/th?id=ONUT.Z5a7YnmKzRiplw9vhJuV2w&pid=News",
+        "timestamp": 1785690780.0
+    },
+    {
+        "id": "a760e8793b",
+        "title_fa": "ترامپ کرشمه «موفقیت جنگ»؛ واقعیتِ میدانی چیز دیگر است",
+        "title_en": "Fact-checking Trump's claims about how the Iran war is going",
+        "summary": [
+            "هم‌زمان با فروریختن آتش‌بس، آمریکا حملات تازه علیه ایران را شروع کرده؛ تبلیغ «موفقیت جنگ» با جدول زمانی واقعیت هم‌خوان نیست.",
+            "مدعای ترامپ بیشتر حالت جنگ روانی دارد: وقتی عملیات ادامه دارد و کنترل اوضاع از دست می‌رود، «موفقیت» بیشتر یک روایت سیاسی برای توجیه فشار حداکثری است تا گزارش عملیاتی."
+        ],
+        "impact": "گزارش PBS روایت ترامپ را زیر سؤال می‌برد و هزینه سیاسیِ ادعاهای موفقیت‌نمای جنگ را بالا می‌برد.",
+        "tag": "رسانه‌ای",
+        "urgency": 6,
+        "sentiment": -0.4,
+        "source": "Public Broadcasting Service (PBS)",
+        "url": "https://www.pbs.org/newshour/world/fact-checking-trumps-claims-about-how-the-iran-war-is-going",
+        "clean_url": "https://www.pbs.org/newshour/world/fact-checking-trumps-claims-about-how-the-iran-war-is-going",
+        "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/08/2026-07-31T061146Z_355163413_RC2ROMAOX291_RTRMADP_3_IRAN-CRISIS-OMAN-HORMUZ-1024x668.jpg",
+        "timestamp": 1785690720.0
+    },
+    {
         "id": "8724c712b6",
         "title_fa": "تهران تهدید می‌کند زیرساخت انرژی خلیج را می‌زند",
         "title_en": "US-Iran War Live Updates: Tehran warns of strikes on Gulf energy sites; Kuwait destroys hostile drones",
@@ -54,6 +166,24 @@
         "clean_url": "https://www.yahoo.com/news/politics/articles/trump-says-round-iran-talks-234808180.html",
         "image": "http://www.bing.com/th?id=ONUT.lqXiwEAf0hxQwCuIw0ZUkw&pid=News",
         "timestamp": 1785689280.0
+    },
+    {
+        "id": "cc08c052ee",
+        "title_fa": "ترامپ: مذاکرات ایران دوشنبه، بی‌مهلت برای توافق",
+        "title_en": "Trump says Iran talks to take place on Monday, sets no deadline for deal",
+        "summary": [
+            "ترامپ خبر داده مذاکرات با ایران روز دوشنبه برگزار می‌شود، اما از تعیین یک زمان‌بندی قطعی برای رسیدن به توافق طفره رفته است؛ یعنی فشار را به «فرآیند مذاکره» گره می‌زند نه «مهلت نهایی».",
+            "نداشتن ددلاین، می‌تواند نشانه این باشد که واشنگتن فعلاً دنبال یک معامله بزرگِ فوری نیست یا می‌خواهد اهرم فشار تحریمی را نگه دارد تا چانه‌زنی در عمل کش‌دارتر شود."
+        ],
+        "impact": "از دوشنبه مذاکره جدی می‌شود، اما نبود ددلاین یعنی ریسک طولانی شدن بن‌بست و ادامه فشار اقتصادی بیشتر است.",
+        "tag": "دیپلماسی",
+        "urgency": 5,
+        "sentiment": 0.1,
+        "source": "Reuters on MSN",
+        "url": "https://www.msn.com/en-us/news/other/trump-says-iran-talks-to-take-place-on-monday-sets-no-deadline-for-deal/ar-AA29fCVx",
+        "clean_url": "https://www.msn.com/en-us/news/other/trump-says-iran-talks-to-take-place-on-monday-sets-no-deadline-for-deal/ar-AA29fCVx",
+        "image": "http://www.bing.com/th?id=ONUT.cY0f3-KKueVrCtgabsxS_A&pid=News",
+        "timestamp": 1785687762.0
     },
     {
         "id": "0b35684855",
@@ -5526,138 +5656,5 @@
         "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784977769.0,
         "id": "a57c52295e"
-    },
-    {
-        "title_fa": "هم‌زمان با افزایش سیگنال‌های «حمله گسترده» آمریکا، کارشناسان نسبت به ناتوان‌سازی ایران بدبین‌اند",
-        "title_en": "As signals of a ‘massive’ US attack mount, experts skeptical it will break Iran",
-        "summary": [
-            "این گزارش به افزایش سیگنال‌ها درباره احتمال «حمله گسترده» آمریکا اشاره می‌کند، اما تأکید دارد که بسیاری از کارشناسان معتقدند چنین اقدامی لزوماً به فروپاشی یا «شکستن» رژیم ایران منجر نخواهد شد.",
-            "ارزیابی کارشناسان بر این محور است که توان بازدارندگی، انسجام نسبی نهادهای امنیتی-نظامی و ظرفیت تحمل ضربه، می‌تواند مانع از اثر فوری و قطعی عملیات نظامی شود؛ یعنی شکاف مورد انتظار در داخل ممکن است به‌سرعت رخ ندهد.",
-            "این نگاه همچنین نشان می‌دهد که تمرکز صرف بر یک شوک نظامی، بدون راهبرد سیاسی-عملی مشخص برای پیامدهای پس از ضربه، احتمالاً به نتیجه راهبردی مورد ادعا نمی‌رسد."
-        ],
-        "impact": "پیام اصلی گزارش این است که حتی در سناریوی تشدید حمله آمریکا، احتمال دستیابی به هدف «شکستن» رژیم به‌صورت سریع و قطعی پایین ارزیابی می‌شود.",
-        "tag": "تحلیل",
-        "urgency": 8,
-        "sentiment": -0.2,
-        "source": "The Hill",
-        "url": "https://www.msn.com/en-us/news/world/as-signals-of-a-massive-us-attack-mount-experts-skeptical-it-will-break-iran/ar-AA28F2t0",
-        "clean_url": "https://www.msn.com/en-us/news/world/as-signals-of-a-massive-us-attack-mount-experts-skeptical-it-will-break-iran/ar-AA28F2t0",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784973600.0,
-        "id": "24cf13895b"
-    },
-    {
-        "title_fa": "اعمال تحریم‌های تازه آمریکا علیه شبکه تامین مالی زنجانی",
-        "title_en": "US hits network of Iranian financier Zanjani with more sanctions",
-        "summary": [
-            "طبق گزارش whbl.com، آمریکا یک شبکه مالی مرتبط با «زنجانی» را هدف تحریم‌های جدید قرار داده است؛ یعنی فشار مستقیم روی کانال‌های تامین پول و نقل‌وانتقال‌های احتمالی برای فعالیت‌های برون‌مرزی/اقتصادی.",
-            "این نوع اقدام در چارچوب فشار خارجی، به‌صورت ساختاری توان عملیاتی شبکه‌های مالی را محدود می‌کند: ریسک مسدودی دارایی، اختلال در پرداخت‌ها و سخت‌تر شدن دسترسی به واسطه‌های بانکی و تجاری.",
-            "از نظر اثر داخلی، چون چنین شبکه‌هایی معمولاً به مدیریت نقدینگی و دور زدن محدودیت‌ها وابسته‌اند، افزایش هزینه و ریسک مالی می‌تواند نارضایتی و بی‌ثباتی اقتصادی را تشدید کند—به‌خصوص در شرایطی که خودِ اقتصاد ایران از پیش با تنگناهای تامین مالی روبه‌رو است."
-        ],
-        "impact": "تحریم تازه علیه شبکه زنجانی بیشتر از اینکه یک پیام سیاسی باشد، مسیرهای مالی را برای فعالیت‌های مرتبط با او پرهزینه‌تر و کم‌اثرتر می‌کند و فشار اقتصادی را افزایش می‌دهد.",
-        "tag": "اقتصادی",
-        "urgency": 7,
-        "sentiment": -0.55,
-        "source": "whbl.com",
-        "url": "https://www.msn.com/en-us/money/markets/us-hits-network-of-iranian-financier-zanjani-with-more-sanctions/ar-AA28D03L",
-        "clean_url": "https://www.msn.com/en-us/money/markets/us-hits-network-of-iranian-financier-zanjani-with-more-sanctions/ar-AA28D03L",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784973247.0,
-        "id": "f37f3a7700"
-    },
-    {
-        "title_fa": "چرا جنگ ایران و اسرائیل نتوانست خاورمیانه را دوپاره کند؟",
-        "title_en": "Why Didn’t the Iran–Israel War Divide the Middle East?",
-        "summary": [
-            "این متن، به‌صورت تحلیلی/پرسشی می‌کوشد توضیح دهد چرا یک درگیری ایران–اسرائیل به یک شکاف منطقه‌ای گسترده‌تر تبدیل نشد، اما جزئیات رویدادهای مشخص، فهرست کشورها یا اقدامات دیپلماتیک در خودِ داده‌ی ارائه‌شده نیامده است.",
-            "چون محتوای مقاله در اختیار نیست، نمی‌شود درباره اینکه کدام بازیگران عملاً موضع گرفتند، کدام‌ها از درگیر شدن مستقیم اجتناب کردند، یا چه مکانیسم‌هایی مانع «دو قطبی شدن» منطقه شد، اظهار دقیقی داشت.",
-            "در نتیجه، بر مبنای همین ورودی، فقط می‌توان گفت محور نوشته «عدم وقوعِ شکاف منطقه‌ای» است؛ اما ارزیابی قابل اتکا از اثرات اقتصادی/تحریمی، نقش روسیه/چین/کره‌شمالی، یا روندهای اعتراض داخلی بدون متن کامل ممکن نیست."
-        ],
-        "impact": "در نبود جزئیات مقاله، اثر واقعی این رویکرد صرفاً در سطح تبیینِ «چرا شکاف رخ نداد» باقی می‌ماند و نمی‌توان پیامد عملی یا سنجه امنیتی/اقتصادی مشخص استخراج کرد.",
-        "tag": "تحلیل",
-        "urgency": 4,
-        "sentiment": 0.0,
-        "source": "Modern Diplomacy",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHJsWHhOLXhRUkwyYmRPeU9GWlp1NDdNOXBTWmF5VXpRblVpMkFYQklLUUxWUHVGNWRseTZGMGRLWms0MHJmNFZIZlJmclNFTTBFMHdiaU1JX1ZKU0EycUtnYXJqTkx1LXp0RzR0T0FEaHczZjJUdmdIUnZKMU9EZW8yR3l5d0ROaDBzcW80bUNINnl6NFE?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVHJsWHhOLXhRUkwyYmRPeU9GWlp1NDdNOXBTWmF5VXpRblVpMkFYQklLUUxWUHVGNWRseTZGMGRLWms0MHJmNFZIZlJmclNFTTBFMHdiaU1JX1ZKU0EycUtnYXJqTkx1LXp0RzR0T0FEaHczZjJUdmdIUnZKMU9EZW8yR3l5d0ROaDBzcW80bUNINnl6NFE",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784972275.0,
-        "id": "0779c5d910"
-    },
-    {
-        "title_fa": "به‌روزرسانی NBC News درباره «جنگ ایران»: گزارش زنده بدون جزئیات رویدادی",
-        "title_en": "Iran War: Latest News, Live Coverage and Video",
-        "summary": [
-            "NBC News تحت عنوان «Iran War: Latest News, Live Coverage and Video» یک صفحه پوشش زنده منتشر کرده، اما متن ارائه‌شده هیچ رویداد مشخص، تاریخ، مکان یا جزئیات قابل راستی‌آزمایی ندارد.",
-            "در محتوای ارسالی فقط عنوان و اشاره به «پوشش زنده و ویدئو» آمده و هیچ اطلاعاتی درباره تحریم‌ها، حملات، مذاکرات، یا واکنش‌های داخلی ارائه نشده است.",
-            "بنابراین نمی‌توان درباره شدت فشار خارجی، نقش بازیگران خارجی (در صورت وجود)، روند اعتراضات داخلی یا وضعیت اقتصاد نتیجه‌گیری کرد؛ داده کافی در اختیار نیست."
-        ],
-        "impact": "با توجه به نبود جزئیات در متن ارسالی، این به‌روزرسانی فعلاً فقط نشان‌دهنده وجود «پوشش زنده» است و اثر راهبردی قابل سنجش از آن استخراج نمی‌شود.",
-        "tag": "بی‌اطلاعی",
-        "urgency": 3,
-        "sentiment": -0.1,
-        "source": "NBC News",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
-        "clean_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784971518.0,
-        "id": "bfbed85e70"
-    },
-    {
-        "title_fa": "تشدید جنگ با ایران می‌تواند مشارکت رأی‌دهندگان جمهوری‌خواه را در ایالت‌های تعیین‌کننده میانی کاهش دهد",
-        "title_en": "Iran war threatens to blunt GOP turnout in midterm battlegrounds",
-        "summary": [
-            "گزارش «The Hill» می‌گوید تشدید جنگ با ایران، طبق نظرسنجی‌های جدید، احتمالاً به کاهش مشارکت رأی‌دهندگان جمهوری‌خواه در انتخابات میان‌دوره‌ای منجر می‌شود؛ به‌خصوص در حوزه‌هایی که نتیجه به رقابت نزدیک وابسته است.",
-            "بر اساس متن، پایگاه «MAGA» به‌تدریج نسبت به روند جنگ دل‌سردتر شده و این تغییر نگرش می‌تواند به افت انگیزه رأی‌دادن ترجمه شود.",
-            "تمرکز گزارش روی اثر سیاسی در آمریکا است: «جنگ با ایران» نه فقط یک موضوع سیاست خارجی، بلکه عاملی تلقی می‌شود که می‌تواند انرژی انتخاباتی اردوگاه ترامپ را در نبردهای میانی تضعیف کند."
-        ],
-        "impact": "این روند نشان می‌دهد تشدید جنگ با ایران می‌تواند هزینه سیاسی داخلی برای جریان حامی ترامپ در آستانه میان‌دوره‌ای ایجاد کند و مشارکت را پایین بیاورد.",
-        "tag": "ایران",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "The Hill on MSN",
-        "url": "https://www.msn.com/en-us/news/other/iran-war-threatens-to-blunt-gop-turnout-in-midterm-battlegrounds/ar-AA28FZpn",
-        "clean_url": "https://www.msn.com/en-us/news/other/iran-war-threatens-to-blunt-gop-turnout-in-midterm-battlegrounds/ar-AA28FZpn",
-        "image": "http://www.bing.com/th?id=ONUT.2MYeWLTS5njF09ArpY7Q8A&pid=News",
-        "timestamp": 1784970000.0,
-        "id": "1193a526cc"
-    },
-    {
-        "title_fa": "کاهش حملات شبانه آمریکا علیه جنوب ایران؛ همزمان تنش دریای سرخ بالا می‌ماند",
-        "title_en": "Iran War Live Updates: U.S. Strikes Abate, Even as Trump Considers Escalation",
-        "summary": [
-            "بر اساس گزارش، نیروهای آمریکا برای اولین‌بار در حدود دو هفته گذشته اعلام نکردند که حملات جدیدی را در شب انجام داده‌اند؛ یعنی روند فشار نظامی مستقیم موقتاً افت کرده است.",
-            "با وجود این وقفه، سطح تنش همچنان بالا توصیف می‌شود و در کنار موضوع ایران، جنگ نیابتی در منطقه از مسیر دیگری ادامه دارد: نیروهای ائتلاف به رهبری عربستان هدف‌های حوثی را در دریای سرخ هدف قرار دادند.",
-            "در همین چارچوب، گزارش اشاره می‌کند که ترامپ در حال بررسی تشدید است؛ یعنی کاهش حملات لحظه‌ای، به معنای پایان سناریوی تشدید نیست و احتمال بازگشت فشار نظامی وجود دارد."
-        ],
-        "impact": "وقفه در حملات جدید آمریکا فشار فوری را کم می‌کند، اما تصمیم‌گیری برای «تشدید» و استمرار عملیات علیه حوثی نشان می‌دهد ریسک چرخه جدید درگیری هنوز بالاست.",
-        "tag": "تشدید",
-        "urgency": 9,
-        "sentiment": -0.6,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil",
-        "clean_url": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784969760.0,
-        "id": "96b919c1da"
-    },
-    {
-        "title_fa": "آخرین تحولات جنگی ایران: ادعای آماده‌بودن برای استفاده از «چیزی» که گفته می‌شود در اختیار ندارند",
-        "title_en": "Iran war latest: 'They would use it if they had it'",
-        "summary": [
-            "Sky News در قالب «گزارش آخرین وضعیت جنگ» یک گزاره خبری نقل می‌کند که مضمونش این است: اگر آن توان/دارایی را در اختیار داشتند، از آن استفاده می‌کردند؛ یعنی تمرکز روی بازدارندگی و توان واقعی طرف مقابل است، نه یک اقدام مشخص.",
-            "جزئیات فنی یا اعلامیه رسمی درباره نوع توان (موشکی/هسته‌ای/دیگر) و زمان/مکان استفاده در متن ارائه‌شده قابل مشاهده نیست؛ بنابراین نمی‌توان به شکل مستند از یک اقدام بالفعل یا تخریب/حمله صحبت کرد.",
-            "با توجه به فقدان اطلاعات دقیق در متن، این گزارش بیشتر در چارچوب ارزیابی تهدید و قدرت‌نمایی رسانه‌ای قرار می‌گیرد تا تأیید یک رخداد عملیاتی."
-        ],
-        "impact": "این نوع روایت بیشتر بر تصویر توان و بازدارندگی اثر می‌گذارد و تا زمانی که جزئیات قابل راستی‌آزمایی منتشر نشود، نشانه مستقیم از تشدید عملی جنگ نیست.",
-        "tag": "تشدید",
-        "urgency": 4,
-        "sentiment": -0.1,
-        "source": "Sky News",
-        "url": "https://news.sky.com/story/iran-war-latest-us-trump-attack-13509565",
-        "clean_url": "https://news.sky.com/story/iran-war-latest-us-trump-attack-13509565",
-        "image": "https://e3.365dm.com/26/07/1600x900/skynews-trump-white-house-dinner_7306278.jpg?20260725043035",
-        "timestamp": 1784968920.0,
-        "id": "8909bdcf3c"
     }
 ]

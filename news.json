@@ -1,5 +1,23 @@
 [
     {
+        "id": "97a4592f6a",
+        "title_fa": "ترامپ: آخرین شانس ایران برای جلوگیری از سر بریدن",
+        "title_en": "Trump warns he's giving Iran 'last chance' to avoid 'decapitation'",
+        "summary": [
+            "ترامپ ایران را با ادبیات «آخرین فرصت» تهدید کرد و به‌طور مستقیم از سناریوی «decapitation» حرف زد؛ یعنی هدف گرفتن ستون‌های فرماندهی و مدیریت نظام.",
+            "ایران همزمان ادعای مذاکره جدید را رد کرد و این‌گونه روایت شد که توقف «حمله بزرگ» بیشتر اهرم فشار برای تغییر رفتار ایران است تا آغاز گفت‌وگوی واقعی."
+        ],
+        "impact": "تهدید آشکارِ ضربه به رأس مدیریت ایران، فضای تصمیم‌گیری تهران و بازیگران نیابتی را تحت فشار فوری قرار می‌دهد.",
+        "tag": "تهدید نظامی",
+        "urgency": 9,
+        "sentiment": -0.85,
+        "source": "USA TODAY on MSN",
+        "url": "https://www.msn.com/en-us/news/other/trump-warns-he-s-giving-iran-last-chance-to-avoid-decapitation/ar-AA29iJOt",
+        "clean_url": "https://www.msn.com/en-us/news/other/trump-warns-he-s-giving-iran-last-chance-to-avoid-decapitation/ar-AA29iJOt",
+        "image": "http://www.bing.com/th?id=ONUT.0zIO5Pnl9IBJDjdMU8EDyQ&pid=News",
+        "timestamp": 1785762503.0
+    },
+    {
         "id": "719b786f96",
         "title_fa": "فشار جمهوری‌خواهان به دادستانی برای پرونده جک اسمیت",
         "title_en": "Get off Jack Smith's back | Letters to the editor",
@@ -5637,24 +5655,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784996471.0,
         "id": "b046884c81"
-    },
-    {
-        "title_fa": "تقابل درون‌حکومتی؛ سخت‌گیرها خواهان گسترش درگیری‌اند",
-        "title_en": "Iran’s leaders at war with each other as hardliners push for wider conflict",
-        "summary": [
-            "گزارش نیویورک‌پست می‌گوید رهبران ایران بر سر مسیر درگیری‌ها دچار جنگ قدرت داخلی شده‌اند و «سخت‌گیرها» می‌خواهند دامنه درگیری وسیع‌تر شود.",
-            "مضمون اصلی مطلب، رقابت جناحی در بالاترین سطح تصمیم‌گیری است؛ یعنی اختلاف بر سر میزان تشدید تنش، نه صرفاً تاکتیک‌های محدود.",
-            "این وضعیت به عنوان نشانه‌ای از بی‌ثباتی سیاست خارجی درون رژیم بازنمایی می‌شود، چون فشار برای گسترش تعارض می‌تواند تصمیم‌گیری را از کنترل مؤثر خارج کند."
-        ],
-        "impact": "اگر اختلاف درونی به تصمیم‌های عملی برای تشدید تبدیل شود، ریسک سرریز شدن درگیری و تشدید تنش منطقه‌ای بالا می‌رود.",
-        "tag": "intra-regime",
-        "urgency": 5,
-        "sentiment": -0.4,
-        "source": "New York Post",
-        "url": "https://www.msn.com/en-us/politics/international-relations/iran-s-leaders-at-war-with-each-other-as-hardliners-push-for-wider-conflict/ar-AA28FU6G",
-        "clean_url": "https://www.msn.com/en-us/politics/international-relations/iran-s-leaders-at-war-with-each-other-as-hardliners-push-for-wider-conflict/ar-AA28FU6G",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784996400.0,
-        "id": "377482c5b8"
     }
 ]

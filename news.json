@@ -1,5 +1,45 @@
 [
     {
+        "id": "fd6f4ce715",
+        "title_fa": "ترامپ حملات را می‌خواباند؛ مذاکرات با ایران «فعلاً» برگشت",
+        "title_en": "With Iran, Trump Says Fighting Is Off and Talks Are On—For Now, Again",
+        "summary": [
+            "ترامپ بعد از لغو برخی حملات برنامه‌ریزی‌شده گفت طبق درخواست ایران و چند کشور منطقه‌ای، حمله‌ها در چارچوب توافق موقت تا زمان شکل‌گیری «دیل» متوقف می‌ماند.",
+            "او چارچوب پیشنهادی را این‌طور چید: بازگشایی فوری و کامل تنگه هرمز + توقف تهدید هسته‌ای ایران؛ اما هیچ جدول زمانی مشخصی برای رسیدن به توافق اعلام نکرد.",
+            "ترامپ همزمان تهدید را هم قطع نکرد: «آماده و مسلح» علیه ایران در حدی که ادعا می‌کند بی‌سابقه است؛ یعنی توقف حمله بیشتر شبیه اهرم مذاکره است تا حل قطعی بحران.",
+            "سوابق قبلی نشان می‌دهد این توقف‌ها ممکن است چند روز بعد با برگشت آمریکا به گزینه نظامی تغییر کند؛ مخصوصاً با فرسایشی شدن جنگ و هزینه‌های داخلی برای دولت آمریکا."
+        ],
+        "impact": "اکنون ریسک فوری حملات کاهش یافته، اما به خاطر شرط «توانایی سریع برای معامله» و هشدارهای نظامی، احتمال شوک برگشت حمله در کوتاه‌مدت همچنان بالاست.",
+        "tag": "مذاکره",
+        "urgency": 8,
+        "sentiment": -0.2,
+        "source": "TIME",
+        "url": "https://time.com/article/2026/08/03/us-iran-war-talks-on-off-fighting-pause-history-timeline/",
+        "clean_url": "https://time.com/article/2026/08/03/us-iran-war-talks-on-off-fighting-pause-history-timeline",
+        "image": "http://www.bing.com/th?id=ONUT.3mtFNyHaRO13USge9esQwg&pid=News",
+        "timestamp": 1785731400.0
+    },
+    {
+        "id": "f88446230f",
+        "title_fa": "ایران مذاکرات مستقیم با آمریکا را امروز رد کرد",
+        "title_en": "Iran denies Trump claim that U.S-Iran negotiations begin today",
+        "summary": [
+            "ایران اعلام کرد برنامه‌ای برای گفت‌وگوی مستقیم با واشنگتن ندارد؛ در حالی که ترامپ گفته بود مذاکرات از امروز آغاز می‌شود.",
+            "ایران می‌گوید مذاکره‌اش فقط با عمان است؛ عمان طی هفته گذشته درباره یک مسیر موقت تازه برای عبور از تنگه هرمز «بحث‌های سازنده» داشته است.",
+            "همزمان، تهران درباره حمله ادعایی اوکراین به یک کشتی تجاری ایرانی در دریای خزر گفت «اقدامات لازم» را انجام می‌دهد و روی «عمدی بودن» تاکید می‌کند.",
+            "این دو محور کنار هم پیام یکسان می‌دهد: فشار رسانه‌ای ترامپ درباره شروع مذاکرات، در عمل با محور کنترل تنش در هرمز و مدیریت پرونده خزر پاسخ داده می‌شود."
+        ],
+        "impact": "فعلاً کانال مذاکره مستقیم آمریکا-ایران روشن نیست و تنش هرمز و پرونده خزر می‌تواند مسیر تصمیم‌سازی را تندتر کند.",
+        "tag": "دیپلماسی",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/iran-denies-trump-claim-u-111708718.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/iran-denies-trump-claim-u-111708718.html",
+        "image": "http://www.bing.com/th?id=ONUT.dvpPRfBlY6qZ18bKs5m4ZA&pid=News",
+        "timestamp": 1785730620.0
+    },
+    {
         "id": "8bb3c7cdcd",
         "title_fa": "ترامپ: مذاکرات با ایران از دوشنبه ازسرگرفته می‌شود",
         "title_en": "Trump says negotiations with Iran to resume Monday",
@@ -16,6 +56,45 @@
         "clean_url": "https://www.msn.com/en-us/news/world/trump-says-negotiations-with-iran-to-resume-monday/ar-AA29gKEY",
         "image": "https://cdnph.upi.com/sv/ph/og/upi/4681785720175/2026/1/176c7d2201bf9c35e4eb2cfce558cff4/v1.5/Trump-says-negotiations-with-Iran-to-resume-Monday.jpg",
         "timestamp": 1785724774.0
+    },
+    {
+        "id": "877017e970",
+        "title_fa": "ترامپ می‌برد جنگ تاکتیکی؛ اما خطرِ جنگِ اصلی",
+        "title_en": "Trump is winning every battle in Iran—and risking the war that matters",
+        "summary": [
+            "فاکس نیوز می‌گوید آمریکا در «بخش سخت» دستاورد واقعی داشته: ضربه به فرماندهی، پرتابگرها، زیرساخت‌های پهپاد، پدافند، تاسیسات ساحلی و مراکز لجستیک سپاه.",
+            "اما هشدار می‌دهد شکست تاکتیکی لزوماً به پیروزی استراتژیک نمی‌رسد؛ چون ایران زیر فشار، نیروها را پخش کرده، سایت‌های زیرزمینی را مقاوم کرده، پرتابگرهای متحرک آورده و با وجود بمباران مستمر همچنان موشک و پهپاد شلیک می‌کند.",
+            "تمرکز جنگ از «تخریب توان نظامی و هسته‌ای» به «اثر سیاسی و اعتبار آمریکا» در داخل و خارج منتقل شده و اگر راهبرد سیاسی هم‌قدِ قدرت نظامی روشن نشود، همین جنگ می‌تواند طولانی‌تر و پرریسک‌تر شود."
+        ],
+        "impact": "پیام این روایت این است که حتی با موفقیت عملیات‌ها، نبودِ هدف سیاسی روشن می‌تواند جنگ را از کنترل خارج کند.",
+        "tag": "نظامی",
+        "urgency": 8,
+        "sentiment": -0.2,
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/opinion/trump-winning-every-battle-iran-risking-war-matters",
+        "clean_url": "https://www.foxnews.com/opinion/trump-winning-every-battle-iran-risking-war-matters",
+        "image": "http://www.bing.com/th?id=ONUT.ZObrZqT7irvWxifu721yvg&pid=News",
+        "timestamp": 1785722400.0
+    },
+    {
+        "id": "6388f9f8f9",
+        "title_fa": "تناقض وزارت خارجه با ترامپ؛ مذاکره‌ای با آمریکا نیست",
+        "title_en": "Iran's foreign ministry contradicts Trump and says no negotiations taking place with US",
+        "summary": [
+            "وزارت خارجه ایران اعلام کرد فعلاً مذاکره با آمریکا در جریان نیست و گفت گفت‌وگوها با عمان برای مدیریت عبور از تنگه هرمز پیش می‌رود.",
+            "این موضع با حرف ترامپ که وعده آغاز مذاکرات جدید با ایران از دوشنبه را داده بود، مستقیم در تضاد است؛ یعنی یا اختلاف در روایت‌ها جدی است یا مذاکرات آمریکا-ایران عملاً فعلاً پیش نمی‌رود.",
+            "همزمان ایران از نزدیک شدن به توافق با عمان برای مسیر جدید عبور گفته؛ در فضایی که انفجار نزدیک یک تانکر، دوباره ریسک بی‌ثباتی در مسیر انرژی را بالا نشان داده است.",
+            "افت ۴.۷٪ قیمت نفت پس از اعلام مذاکرات ترامپ، نشان می‌دهد بازار «سیگنال مذاکره» را جدی گرفته؛ ولی تکذیب رسمی ایران می‌تواند این آرامش کوتاه‌مدت را شکننده کند."
+        ],
+        "impact": "خبر اختلاف روایت میان تهران و واشنگتن درباره مذاکره، احتمال ادامه بازی با کانال‌های غیرمستقیم (عمان) را بالا می‌برد و نوسان بازار نفت را تشدید می‌کند.",
+        "tag": "دیپلماسی",
+        "urgency": 6,
+        "sentiment": -0.2,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/irans-foreign-ministry-contradicts-trump-082951747.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/irans-foreign-ministry-contradicts-trump-082951747.html",
+        "image": "http://www.bing.com/th?id=ONUT.Y-TQTxskC0Tw3supKJauGg&pid=News",
+        "timestamp": 1785720600.0
     },
     {
         "id": "b6e78bcc7c",
@@ -37,6 +116,24 @@
         "timestamp": 1785718260.0
     },
     {
+        "id": "787a244eb1",
+        "title_fa": "ترامپ: مذاکرات ایران و آمریکا دوشنبه بعد از توقف حملات",
+        "title_en": "Trump says new Iran talks will start Monday after calling off attacks",
+        "summary": [
+            "ترامپ گفت آمریکا و ایران دوشنبه بعدازظهر وارد دور تازه گفت‌وگو می‌شوند؛ زمان‌بندی را به‌صورت مستقیم به توقف «حملات شدید» گره زده است.",
+            "پیام پشت خبر روشن است: فشار نظامی به‌عنوان اهرم، اما هدف فوری «رسیدن به توافق درباره تنگه هرمز» است؛ یعنی محور معامله، مسیر انرژی و امنیت کشتیرانی خواهد بود نه صرفاً مسائل هسته‌ای."
+        ],
+        "impact": "احتمال کاهش تنش کوتاه‌مدت در آب‌های حساس را بالا می‌برد، ولی همچنان جنگ روانی به‌نفع معامله ادامه خواهد داشت.",
+        "tag": "دیپلماسی-تحریم/فشار",
+        "urgency": 7,
+        "sentiment": 0.2,
+        "source": "NBC News on MSN",
+        "url": "https://www.msn.com/en-us/news/world/trump-says-new-iran-talks-will-start-monday-after-calling-off-attacks/ar-AA29holj",
+        "clean_url": "https://www.msn.com/en-us/news/world/trump-says-new-iran-talks-will-start-monday-after-calling-off-attacks/ar-AA29holj",
+        "image": "http://www.bing.com/th?id=ONUT.2tUuK7K9Z6lKkJFdtqu8Ow&pid=News",
+        "timestamp": 1785715548.0
+    },
+    {
         "id": "8eea96008d",
         "title_fa": "میانجی‌گری پاکستان و قطر برای بازگرداندن گفتگو با آمریکا",
         "title_en": "US-Israel-Iran war latest news: Pakistan and Qatar to send emissaries for US-Iran talks following recent military escalations",
@@ -53,6 +150,25 @@
         "clean_url": "https://www.msn.com/en-in/news/world/us-israel-iran-war-latest-news-pakistan-and-qatar-to-send-emissaries-for-us-iran-talks-following-recent-military-escalations/ar-AA29hybi",
         "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA29gYul.img?w=1200&h=900&m=4&q=100",
         "timestamp": 1785705060.0
+    },
+    {
+        "id": "d791ef5bde",
+        "title_fa": "ترامپ مذاکره می‌گوید؛ ایران می‌گوید مذاکره‌ای نیست",
+        "title_en": "Trump's on-again, off-again war with Iran: Every major threat, every U-turn and what he expects from today's talks",
+        "summary": [
+            "ترامپ اعلام کرده مذاکرات تازه با ایران از «فردا بعدازظهر» آغاز می‌شود و قرار است درباره آینده تنگه هرمز و در نهایت برنامه هسته‌ای ایران صحبت شود؛ اما هیچ جزئیاتی از محل و طرف‌های مذاکره نداده است.",
+            "تهران همان ساعت خبر را خط زده: وزارت خارجه می‌گوید فعلاً با آمریکا مذاکره‌ای ندارند و تنها گفت‌وگوهایشان با عمان برای تضمین عبور امن از تنگه هرمز است؛ پس اختلاف، از همان شروع روی «میز مذاکره» است نه صرفاً محتوای آن.",
+            "ترامپ در ادامه روایت تهدید-تغییر موضع، به ادعای «تعویق حمله بزرگ از سوی ایران و چند کشور» اشاره کرده که رسانه‌های ایران تکذیبش کرده‌اند؛ همین چرخه تهدید نظامی، توقف ناگهانی و بعد برگشت به دیپلماسی، کل منازعه را از ماه‌های قبل شکل داده است."
+        ],
+        "impact": "این رفت‌وبرگشت تهدید و مذاکره، ریسک نااطمینانی امنیتی در تنگه هرمز را بالا نگه می‌دارد و مسیر واقعی گفت‌وگوها را مبهم می‌کند.",
+        "tag": "مذاکره",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/world/trump-s-on-again-off-again-war-with-iran-every-major-threat-every-u-turn-and-what-he-expects-from-today-s-talks-article-13992565.html",
+        "clean_url": "https://www.moneycontrol.com/world/trump-s-on-again-off-again-war-with-iran-every-major-threat-every-u-turn-and-what-he-expects-from-today-s-talks-article-13992565.html",
+        "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260803122705_Trump-iran-New-6.jpg",
+        "timestamp": 1785704340.0
     },
     {
         "id": "8f0c7fc45c",
@@ -5542,119 +5658,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784985142.0,
         "id": "ed52fd42e5"
-    },
-    {
-        "title_fa": "ایران آمریکا را عامل اختلاف تنگه هرمز معرفی می‌کند؛ همزمان طرفین از ادامه گفت‌وگوها خبر می‌دهند",
-        "title_en": "Iran blames US for Hormuz dispute as both sides confirm ongoing talks",
-        "summary": [
-            "طبق گزارش الجزیره، ایران آمریکا را مسئول اختلاف تنگه هرمز می‌داند، اما همزمان اعلام می‌شود که مذاکرات میان دو طرف همچنان ادامه دارد.",
-            "تأکید هم‌زمان بر «اتهام» علیه آمریکا و «تداوم گفت‌وگوها» نشان می‌دهد تهران در پی مدیریت ریسک تقابل مستقیم است، نه قطع کامل کانال‌های ارتباطی.",
-            "از منظر فشار خارجی، این چارچوب یعنی آمریکا همچنان به‌عنوان عامل بحران‌زا در روایت رسمی ایران برجسته می‌شود، در حالی که کانال مذاکره برای کاهش هزینه‌های فوری تنش فعال می‌ماند."
-        ],
-        "impact": "ادامه مذاکرات در کنار نسبت‌دادن اختلاف به آمریکا، احتمال تشدید فوری بحران را پایین می‌آورد اما منازعه بر سر هرمز همچنان به‌عنوان اهرم سیاسی و امنیتی باقی می‌ماند.",
-        "tag": "نظامی",
-        "urgency": 4,
-        "sentiment": 0.1,
-        "source": "Al Jazeera",
-        "url": "https://www.msn.com/en-us/news/world/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks/ar-AA28FwKF",
-        "clean_url": "https://www.msn.com/en-us/news/world/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks/ar-AA28FwKF",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784983963.0,
-        "id": "2eead65b03"
-    },
-    {
-        "title_fa": "ثبت اولین شب بدون حملات آمریکا پس از دو هفته؛ تنش‌ها همچنان ادامه دارد",
-        "title_en": "Iran marks first night without US strikes in two weeks as tensions persist",
-        "summary": [
-            "بر اساس گزارش The Hill، ایران «اولین شب بدون حملات آمریکا» را پس از دو هفته پشت سر می‌گذارد، اما پیام اصلی این است که توقف، پایدار نشده و تنش‌ها همچنان در سطح عملیاتی ادامه دارند.",
-            "این وضعیت نشان می‌دهد که الگوی فشار ایالات متحده به‌صورت مقطعی فعال شده و صرفاً به یک شب کاهش شدت محدود است؛ در نتیجه ریسک بازگشت موج حملات باقی می‌ماند.",
-            "چون متن روی ادامه «تداوم تنش» تاکید دارد، مبنای تصمیم‌های تهران و واشنگتن احتمالا مبتنی بر محاسبه هزینه-فایده در هر مرحله است، نه یک توافق یا آرام‌سازی واقعی."
-        ],
-        "impact": "قطع یک شب حملات، نشانه فروکش‌کردن بحران نیست و احتمال بازگشت مجدد حملات با توجه به تداوم تنش‌ها بالاست.",
-        "tag": "تنش_منطقه‌ای",
-        "urgency": 6,
-        "sentiment": -0.2,
-        "source": "The Hill",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hMXVnSDRCd2Q5VTdweGd0TlFaQWtYQTFtcHhMNmpDYmp0ZmNRWjRCNWVMRmhmSGhJTVBwMWtsQ0FnS21sZkRlR2VNWHFMeWVldDRUcm12UGpTQk5xMU9NOWlyV1VnRzg4LWZVTjNiMTY1SEdmalN4bGhPc9IBgAFBVV95cUxOOVF5S1pRbkcxWmhUaUtrR0hpdms1Tk9udHBPVU93aHB2cnNJSjNsSmNfMWZOLUd6YjRMakUxblhTZDFZeG9YaEJpQ0xfa2ZMeGV5YWFieUQwMC01aHBVSnduY09GeDJGaFByNjVuVHk5YjRnX2Vyekl3Y29NMkExMg?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hMXVnSDRCd2Q5VTdweGd0TlFaQWtYQTFtcHhMNmpDYmp0ZmNRWjRCNWVMRmhmSGhJTVBwMWtsQ0FnS21sZkRlR2VNWHFMeWVldDRUcm12UGpTQk5xMU9NOWlyV1VnRzg4LWZVTjNiMTY1SEdmalN4bGhPc9IBgAFBVV95cUxOOVF5S1pRbkcxWmhUaUtrR0hpdms1Tk9udHBPVU93aHB2cnNJSjNsSmNfMWZOLUd6YjRMakUxblhTZDFZeG9YaEJpQ0xfa2ZMeGV5YWFieUQwMC01aHBVSnduY09GeDJGaFByNjVuVHk5YjRnX2Vyekl3Y29NMkExMg",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784983920.0,
-        "id": "8fd396789b"
-    },
-    {
-        "title_fa": "افت قیمت نفت در انتظار روشن شدن وضعیت پس از توقف حملات ایران و اسرائیل",
-        "title_en": "Oil Falls as Investors Await Clarity After Iran-Israel Halt Attacks",
-        "summary": [
-            "طبق EnergyNow.com، قیمت نفت به دلیل کاهش ریسک و انتظار بازار برای «شفافیت» پس از اعلام توقف حملات بین ایران و اسرائیل افت کرده است؛ یعنی معامله‌گران فعلاً روی عقب‌نشینی تنش یا چرخه بعدی آن شرط‌بندی می‌کنند.",
-            "این خبر بیشتر ماهیت «ادراک بازار» دارد تا اعلام یک تغییر ساختاری در عرضه یا تحریم‌ها: افت نفت ناشی از موقعیت کوتاه‌مدت سرمایه‌گذاران و عدم قطعیت ادامه‌دار است، نه یک داده اقتصادی/فنی جدید درباره تولید یا صادرات.",
-            "تا زمانی که مشخص نشود توقف حملات پایدار است یا صرفاً موقت، نوسان قیمت نفت محتمل می‌ماند؛ این به معنای باقی ماندن فشار روانی بر ریسک ژئوپلیتیک پیرامون برنامه‌های امنیتی و اختلال احتمالی زنجیره انرژی است."
-        ],
-        "impact": "کاهش قیمت نفت نشان می‌دهد بازار فعلاً از احتمال تشدید فوری تنش فاصله گرفته، اما چون «شفافیت» کامل وجود ندارد، ریسک نوسان و برگشت قیمت با هر خبر جدید باقی می‌ماند.",
-        "tag": "اقتصادی",
-        "urgency": 4,
-        "sentiment": 0.2,
-        "source": "EnergyNow.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmZQTG5MYW5mNnVRTlZMenMzal82djYwWkszRHRUVlpWNkNvTThoRVk4ZjlpWVM2R2ZJM2UycUg2MFRiUS1ndnlqZ1dIVkN0V3NmM3owV2R4QjlDS2NNbGtiZmdIOTZHVUtpc0g1bjZ3Nk10SUc0R1pnLUgtS1pnYkJkVEkwZ0VUcnAyaUpCLTZ1dEFYQkFIWHNtSFJpR28?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmZQTG5MYW5mNnVRTlZMenMzal82djYwWkszRHRUVlpWNkNvTThoRVk4ZjlpWVM2R2ZJM2UycUg2MFRiUS1ndnlqZ1dIVkN0V3NmM3owV2R4QjlDS2NNbGtiZmdIOTZHVUtpc0g1bjZ3Nk10SUc0R1pnLUgtS1pnYkJkVEkwZ0VUcnAyaUpCLTZ1dEFYQkFIWHNtSFJpR28",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784983708.0,
-        "id": "c9acb48e21"
-    },
-    {
-        "title_fa": "گزارش ایران از عدم وقوع حمله جدید آمریکا؛ وقفه‌ای کوتاه در چرخه تنش",
-        "title_en": "Iran reports no U.S. strikes overnight as tensions remain high",
-        "summary": [
-            "طبق گزارش‌ها، ایران می‌گوید طی شب گذشته تا شنبه هیچ حمله جدید ایالات متحده رخ نداده و این موضوع ظاهراً «وقفه»‌ای در نزدیک به دو هفته حملات آمریکا به شمار می‌آید.",
-            "هم‌زمان، سطح تنش همچنان بالا توصیف می‌شود؛ یعنی نبودِ حمله شبانه به معنای کاهش ریسک نیست، بلکه می‌تواند نشانه تغییر فاز در عملیات/زمان‌بندی باشد.",
-            "در پس‌زمینه خبر، به حملات پهپادی منتسب به ایران علیه چند پایگاه و مرکز نظامی آمریکایی در بحرین و اردن به‌عنوان «پاسخ» به حملات اخیر آمریکا اشاره شده است؛ چرخه اقدام متقابل همچنان فعال است."
-        ],
-        "impact": "وقفه کوتاه‌مدت در حمله شبانه می‌تواند نشان‌دهنده موقت‌بودن تشدید باشد، اما تداوم تنش و سابقه دو هفته‌ای حملات احتمال ادامه نوسان خطر را بالا نگه می‌دارد.",
-        "tag": "امنیت",
-        "urgency": 9,
-        "sentiment": -0.3,
-        "source": "NBC News",
-        "url": "https://www.bostonglobe.com/2026/07/25/world/iran-reports-no-new-us-strikes-tensions-remain-high/",
-        "clean_url": "https://www.bostonglobe.com/2026/07/25/world/iran-reports-no-new-us-strikes-tensions-remain-high",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784980250.0,
-        "id": "62beec537e"
-    },
-    {
-        "title_fa": "حوثی‌های مورد حمایت ایران موشک و پهپاد به عربستان شلیک کردند؛ پاسخ به حملات هوایی سعودی در حدیده",
-        "title_en": "Iran-backed Houthis fire missiles at Saudi Arabia in response to airstrikes in Yemen",
-        "summary": [
-            "حوثی‌ها اعلام کردند به‌دنبال حملات هوایی سعودی به شهر راهبردی حدیده در یمن، موشک و پهپاد به عربستان شلیک کرده‌اند و این اقدام را به‌عنوان «تشدید» در چارچوب درگیری‌های جاری معرفی می‌کنند.",
-            "این رخداد نشان می‌دهد محور جنگ نیابتی در دریای سرخ همچنان فعال است و از عملیات‌های هوایی در یمن، به حمله مستقیم علیه خاک یا اهداف عربستان کشیده می‌شود.",
-            "با توجه به اینکه روایت خبر بر واکنش موشکی/پهپادی به حملات سعودی در حدیده متمرکز است، نتیجه فوری آن افزایش ریسک امنیتی منطقه و تداوم چرخه حمله-پاسخ میان طرف‌های درگیر است، نه یک روند سیاسی."
-        ],
-        "impact": "تشدید درگیری میان یمن و عربستان از مسیر حوثی‌ها، هزینه امنیتی و عملیاتی را برای کل منطقه دریای سرخ بالا می‌برد و احتمال گسترش بیشتر تنش را افزایش می‌دهد.",
-        "tag": "نیابتی",
-        "urgency": 6,
-        "sentiment": -0.4,
-        "source": "Associated Press News on MSN",
-        "url": "https://www.msn.com/en-us/news/world/iran-backed-houthis-fire-missiles-at-saudi-arabia-in-response-to-airstrikes-in-yemen/ar-AA28Ev54",
-        "clean_url": "https://www.msn.com/en-us/news/world/iran-backed-houthis-fire-missiles-at-saudi-arabia-in-response-to-airstrikes-in-yemen/ar-AA28Ev54",
-        "image": "http://www.bing.com/th?id=ONUT.f2WbscHeEzPBuXohxRL1IA&pid=News",
-        "timestamp": 1784978051.0,
-        "id": "7eea58ae5e"
-    },
-    {
-        "title_fa": "اقدام نیروهای آمریکا علیه یک نفتکش بعد از تلاش برای انسداد؛ اعلام CENTCOM",
-        "title_en": "US forces disable tanker after blockade attempts, CENTCOM says",
-        "summary": [
-            "بر اساس گزارش NewsNation، CENTCOM اعلام کرده نیروهای آمریکا یک نفتکش را پس از تلاش‌های آن برای انسداد/محاصره غیرفعال کرده‌اند و این اقدام را واکنشی مستقیم به تلاش برای ایجاد انسداد در مسیرها معرفی کرده است.",
-            "این رویداد نشان‌دهنده تشدید کنترل امنیتی مسیرهای دریایی توسط آمریکا است و می‌تواند هزینه ریسک‌پذیری برای بازیگران همسو با رژیم ایران را بالا ببرد؛ با این حال، جزئیات درباره هویت کشتی یا ارتباط سازمانی آن در متن خبری ارائه نشده است.",
-            "از منظر فشار خارجی، چنین درگیری‌های عملیاتی می‌تواند زنجیره اختلال در حمل‌ونقل، بیمه و هزینه‌های لجستیک منطقه‌ای ایجاد کند؛ اما چون خبر صرفاً به «غیرفعال‌سازی نفتکش» اشاره می‌کند، اثر اقتصادی مستقیم بر ایران بدون داده تکمیلی قابل نتیجه‌گیری نیست."
-        ],
-        "impact": "این اقدام، دسترسی به مسیرهای دریایی را سخت‌تر و احتمال تنش‌های بیشتر در منطقه را بالاتر می‌برد، اما تا زمان انتشار جزئیات بیشتر، اثر مشخص بر اقتصاد ایران قابل سنجش نیست.",
-        "tag": "نظامی",
-        "urgency": 7,
-        "sentiment": -0.2,
-        "source": "NewsNation",
-        "url": "https://www.msn.com/en-us/news/world/explosions-heard-near-us-base-in-iraq-after-us-strikes-iran/ar-AA28BnI7",
-        "clean_url": "https://www.msn.com/en-us/news/world/explosions-heard-near-us-base-in-iraq-after-us-strikes-iran/ar-AA28BnI7",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784977769.0,
-        "id": "a57c52295e"
     }
 ]

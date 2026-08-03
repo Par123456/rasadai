@@ -1,5 +1,99 @@
 [
     {
+        "id": "719b786f96",
+        "title_fa": "فشار جمهوری‌خواهان به دادستانی برای پرونده جک اسمیت",
+        "title_en": "Get off Jack Smith's back | Letters to the editor",
+        "summary": [
+            "رپولیکن‌های واشنگتن تحت فشار می‌خواهند جک اسمیت، بازرس ویژه سابق، به اتهام «دروغ‌گویی زیر سوگند» یا perjury متهم شود؛ محور استدلالشان این است که او به یک سوال «نیمه‌حقیقت» گفته است.",
+            "نویسنده نامه تاکید می‌کند مشکل اصلی از نگاه او کیفیت پرسش‌گری تیم مقابل است: سوال‌کننده «طبق استاندارد دادگاه» پیش‌برده و پاسخ باید دقیقاً به همان سوال مستقیم محدود می‌شده، نه بیشتر."
+        ],
+        "impact": "این فشار سیاسی می‌تواند پرونده‌های قضایی اسمیت را وارد فاز تازه‌ای کند و هزینه‌های حقوقی-رسانه‌ای برای او بسازد.",
+        "tag": "سیاسی-حقوقی",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "Sun Sentinel",
+        "url": "https://www.sun-sentinel.com/2026/08/03/get-off-jack-smiths-back-letters-to-the-editor/",
+        "clean_url": "https://www.sun-sentinel.com/2026/08/03/get-off-jack-smiths-back-letters-to-the-editor",
+        "image": "https://www.sun-sentinel.com/wp-content/uploads/2026/07/Jack_Smith_Justice_Department_86_68.jpg?w=4391&h=2927",
+        "timestamp": 1785751200.0
+    },
+    {
+        "id": "3d342a6278",
+        "title_fa": "ترامپ برای فشار بر ایران سراغ ایده‌های غیرمتعارف رفت",
+        "title_en": "Trump Admin Now Crowdsourcing for “Creative” Ideas on Iran",
+        "summary": [
+            "خبر از این حکایت دارد که کاخ و پنتاگون بعد از شکست فشارهای نظامی، تیم‌های اطلاعاتی و تحلیلگران را برای «روش‌های جدیدِ خلاقانه و غیرمتعارف» علیه ایران درگیر کرده‌اند؛ یعنی گزینه‌های کلاسیک دیگر کار نمی‌کند.",
+            "در میان سناریوهای مطرح، حمله به برخی سایت‌های زیرزمینی مرتبط با تجهیزات/مواد هسته‌ای مثل «Pickaxe Mountain» دیده می‌شود؛ اما عمق استقرارها احتمالاً بدون نیروی زمینی ممکن نیست و خود ترامپ دنبال درگیر شدن زمینی نیست.",
+            "تناقض اصلی: ترامپ همزمان می‌خواهد نشانِ «فشار حداکثری» بدهد و از جنگ فرسایشی فاصله بگیرد، برای همین از بمباران بیشتر به‌عنوان ابزار فشار استفاده می‌کند؛ ابزارهایی که طبق ارزیابی‌های سازمان‌های اطلاعاتی، موضع مذاکره‌ای ایران را تکان نمی‌دهد.",
+            "با ورود جنگ به ماه ششم و تلفات آمریکایی، تیم کاخ با محدودیت‌های سیاسی-عملیاتی و فشار افکار عمومی درباره شفافیت تلفات روبه‌روست؛ از همین‌جا درخواست «ایده‌های جدید» معنا پیدا می‌کند."
+        ],
+        "impact": "احتمال سناریوهای پیچیده‌ترِ خرابکاری/حملات هدفمند با ریسک بالا بالا می‌رود، بی‌آنکه به تغییر واقعی موضع مذاکره‌ای ایران منجر شود.",
+        "tag": "نظامی",
+        "urgency": 7,
+        "sentiment": -0.35,
+        "source": "The New Republic",
+        "url": "https://newrepublic.com/post/213863/defense-department-trump-crowdsourcing-creative-ways-punish-iran",
+        "clean_url": "https://newrepublic.com/post/213863/defense-department-trump-crowdsourcing-creative-ways-punish-iran",
+        "image": "http://www.bing.com/th?id=ONUT.Q5eiyW5hCYjNodxt7SJqRQ&pid=News",
+        "timestamp": 1785744540.0
+    },
+    {
+        "id": "be70a59322",
+        "title_fa": "لغو حمله ترامپ، نفت را ۵٪ ریخت",
+        "title_en": "Oil prices drop 5% to three-week low after Trump cancels attack on Iran",
+        "summary": [
+            "قیمت نفت بیش از ۵ دلار در هر بشکه افت کرد و تا کف سه‌هفته اخیر پایین آمد؛ بازار این حرکت را «کاهش ریسک درگیری با ایران» می‌خواند.",
+            "ترامپ حمله تازه را متوقف کرده تا شاید یک معامله سریع بسته شود، اما تهران همزمان گفته برنامه‌ای برای مذاکره ندارد؛ یعنی اهرم فشار هم‌چنان می‌تواند پابرجا بماند."
+        ],
+        "impact": "کاهش ریسک نظامی کوتاه‌مدت باعث ریزش فوری نفت شد، اما نبودِ مذاکره از سوی ایران می‌تواند نوسان را دوباره بالا ببرد.",
+        "tag": "نفت",
+        "urgency": 6,
+        "sentiment": 0.2,
+        "source": "Reuters",
+        "url": "https://www.reuters.com/business/energy/oil-tumbles-trump-cancels-attack-iran-reach-nuclear-deal-2026-08-03/",
+        "clean_url": "https://www.reuters.com/business/energy/oil-tumbles-trump-cancels-attack-iran-reach-nuclear-deal-2026-08-03",
+        "image": "http://www.bing.com/th?id=ONUT.zXk7EgfrcRDil54lH4gulw&pid=News",
+        "timestamp": 1785744060.0
+    },
+    {
+        "id": "de3891e089",
+        "title_fa": "پنتاگون از سربازان «ایده خلاق» برای فشار به ایران می‌خواهد",
+        "title_en": "Pentagon asks soldiers for ‘creative’ ideas to punish Iran",
+        "summary": [
+            "پنتاگون از طریق ایمیل به تحلیلگران و نیروهای اطلاعاتی سنتکام خواسته «راه‌های جدید و غیرمعمول» برای «فشار و مجازات» ایران ارائه کنند؛ یعنی آمریکا دنبال گزینه‌های جایگزینِ سناریوهای کلاسیک است.",
+            "این درخواست در خلأِ بن‌بست راهبردی شکل گرفته: جنگی که نتوانسته تهران را به پذیرش خواسته‌های ترامپ وادار کند و همزمان ابزارهای باقی‌مانده یا اثرگذاری محدودی دارند یا ریسک‌هایی دارند که رئیس‌جمهور کمتر حاضر به پذیرششان بوده است.",
+            "حتی قدرت بالای جنگ‌افزارهای متعارف هم برای هدف گرفتن سایت‌های هسته‌ای/حساس زیرزمینی ایران «مؤثر از آب درنمی‌آید»؛ نتیجه‌اش تکیه بر ایده‌های نامتعارف و احتمالاً مبهم‌تر شدن عملیات است.",
+            "این حرکت هم‌زمان با الگوی «اعلام حمله سنگین و لغو در لحظه آخر» بعد از عملیاتی که با اسرائیل مطرح شد، نشانه می‌دهد واشنگتن در کنترل خروجی‌ها به سقف توان برنامه‌ریزی رسیده است."
+        ],
+        "impact": "آمریکا با «جمع‌سپاری ایده» در حال تغییر بسته فشار علیه ایران است و احتمالاً به سمت روش‌های غیرمتعارف‌ترِ افزایش ریسک حرکت می‌کند.",
+        "tag": "نظامی",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/pentagon-asks-soldiers-creative-ideas-134226485.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/pentagon-asks-soldiers-creative-ideas-134226485.html",
+        "image": "http://www.bing.com/th?id=ONUT.Pwsbu8gAqHSVVzPjVsrx-g&pid=News",
+        "timestamp": 1785739320.0
+    },
+    {
+        "id": "692d0d1be5",
+        "title_fa": "ترامپ تحت فشار: فقط «تسلیم بی‌قیدوشرط» از ایران",
+        "title_en": "Trump Must Demand Unconditional Surrender From Iran",
+        "summary": [
+            "این متن می‌گوید جنگ با ایران وارد ششمین ماه شده و حتی حامیان سرسخت ترامپ نسبت به مسیر و هزینه‌های عملیات تردید پیدا کرده‌اند؛ یعنی روایت «حل دیپلماتیک» دیگر جواب نمی‌دهد.",
+            "استدلال اصلی این است که مذاکره با تهران «کسب زمان» است؛ پس پیشنهاد می‌دهد ترامپ فوراً به جای مذاکره، هدف را تسلیم بی‌قیدوشرط ایران تعیین کند؛ تغییری صریح از فشار برای توافق به فشار برای شکست کامل."
+        ],
+        "impact": "اگر این لحن در فضای سیاسی آمریکا غالب شود، راهبرد فشار حداکثری از «مذاکره برای محدودسازی» به «اصرار بر فروپاشی/شکست کامل» سوق پیدا می‌کند.",
+        "tag": "ایران",
+        "urgency": 7,
+        "sentiment": -0.6,
+        "source": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/trump-must-demand-unconditional-surrender-132240636.html",
+        "clean_url": "https://www.yahoo.com/news/politics/articles/trump-must-demand-unconditional-surrender-132240636.html",
+        "image": "http://www.bing.com/th?id=ONUT.IejUjA-QYSLi_o4yjsP76A&pid=News",
+        "timestamp": 1785738180.0
+    },
+    {
         "id": "fd6f4ce715",
         "title_fa": "ترامپ حملات را می‌خواباند؛ مذاکرات با ایران «فعلاً» برگشت",
         "title_en": "With Iran, Trump Says Fighting Is Off and Talks Are On—For Now, Again",
@@ -38,6 +132,24 @@
         "clean_url": "https://www.yahoo.com/news/politics/articles/iran-denies-trump-claim-u-111708718.html",
         "image": "http://www.bing.com/th?id=ONUT.dvpPRfBlY6qZ18bKs5m4ZA&pid=News",
         "timestamp": 1785730620.0
+    },
+    {
+        "id": "a3345b1b9c",
+        "title_fa": "ترامپ حمله سنگین را مکث کرد؛ دیپلماسی دوباره روی میز",
+        "title_en": "Iran’s missile attack was a surprise. It should not have been.",
+        "summary": [
+            "واشنگتن‌پست می‌گوید ایران در حمله موشکی اخیر «غافلگیرکننده» بود، اما از نظر آمریکا «نباید» این‌قدر غافلگیر می‌شد؛ یعنی هشدارها و نشانه‌ها برای چنین حرکتی وجود داشته است.",
+            "همزمان با همین حمله، ضربه‌های بزرگ نظامی که چند روز پیش «اعلام/تبلیغ» شده بودند، متوقف شده و سیاست «فشار + فرصت دیپلماسی» دوباره فعال شده است؛ بدون اینکه قطعیت یا پایان ریسک داده شود."
+        ],
+        "impact": "فضای میدانی موقتاً آرام‌تر می‌شود، اما پیام اصلی واشنگتن این است که آماده تشدید است اگر دیپلماسی جواب ندهد.",
+        "tag": "نظامی-دیپلماسی",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "The Washington Post",
+        "url": "https://www.washingtonpost.com/opinions/2026/08/03/why-iran-surprise-missile-attack-should-not-have-been-surprise/",
+        "clean_url": "https://www.washingtonpost.com/opinions/2026/08/03/why-iran-surprise-missile-attack-should-not-have-been-surprise",
+        "image": "http://www.bing.com/th?id=ONUT.AzIodF2gluX0QqnnHjxJcg&pid=News",
+        "timestamp": 1785726000.0
     },
     {
         "id": "8bb3c7cdcd",
@@ -5544,119 +5656,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784996400.0,
         "id": "377482c5b8"
-    },
-    {
-        "title_fa": "ترامپ از تشدید بزرگ علیه ایران عقب می‌نشیند؛ نگرانی اصلی کمبود مهمات پدافند هوایی در منطقه است",
-        "title_en": "Trump Holds Off on Major Escalation Against Iran as Advisers Raise Concerns",
-        "summary": [
-            "طبق گزارش، ترامپ فعلاً تصمیم به تشدید عمده علیه ایران را به تعویق انداخته است؛ دلیل محوری، نگرانی مشاوران از پیامدهای نظامی و تسریعی است که می‌تواند کنترل اوضاع را از دست خارج کند.",
-            "مهم‌ترین ریسک مطرح‌شده این است که گسترش درگیری‌ها می‌تواند «ذخیره کاهش‌یافته» مهمات پدافند هوایی در خاورمیانه را سریع‌تر تخلیه کند؛ یعنی حتی توان واکنش دفاعی منطقه ممکن است تحت فشار عملیات‌های بیشتر دچار فرسایش شود.",
-            "این یعنی محدودیت‌های اجرایی و لجستیکی در سطح منطقه‌ای، خود به عامل بازدارنده برای حرکت به سمت سناریوی تشدید تبدیل شده و بر شدت و زمان‌بندی هر گزینه نظامی اثر می‌گذارد."
-        ],
-        "impact": "تعویق «تشدید بزرگ» نشان می‌دهد گزینه‌های فشار مستقیم، با محدودیت‌های فوری در توان دفاع هوایی منطقه و هزینه لجستیکی مواجه‌اند و از همین مسیر ممکن است برنامه‌های ضدایران از نظر زمانی کندتر شوند.",
-        "tag": "تحلیل",
-        "urgency": 5,
-        "sentiment": 0.1,
-        "source": "The New York Times",
-        "url": "https://www.nytimes.com/2026/07/25/us/politics/trump-iran-military.html",
-        "clean_url": "https://www.nytimes.com/2026/07/25/us/politics/trump-iran-military.html",
-        "image": "http://www.bing.com/th?id=ONUT.APl7rPJVWzM7JTY1bCUlYw&pid=News",
-        "timestamp": 1784996340.0,
-        "id": "af15932a9a"
-    },
-    {
-        "title_fa": "مسئولیت جنایت جنگی در جنگ آمریکا-ایران؛ دوگانگی نقد قانونی",
-        "title_en": "Who should be accountable for war crimes during the U.S.-Iran conflict?",
-        "summary": [
-            "نویسنده با اشاره به تهدید آمریکا برای هدف گرفتن زیرساخت‌های غیرنظامی می‌گوید تا کنون چنین بمبارانی انجام نشده، اما در مقاله آمده که هدف قرار دادن تاسیسات حیاتی غیرنظامی مثل تصفیه‌خانه‌های آب می‌تواند «جنایت جنگی» محسوب شود.",
-            "هم‌زمان یادآوری می‌کند که ایران علیه کویت نیز حمله داشته (طبق متن درباره شلیک به کشورهایی که پایگاه‌های آمریکا دارند) و می‌پرسد چرا همان چارچوب «جنایت جنگی» برای حمله ایران به زیرساخت‌های کویت هم به کار نرفته است.",
-            "این نامه‌نویس عملاً اتهام «انتخابی/دوگانه» بودن معیارهای حقوقی را مطرح می‌کند: چرا «پژوهشگران حقوقی» و رسانه، نسبت به یک نوع هدف‌گیری (در برابر آمریکا) حساسیت دارند اما در برابر مشابه آن از سوی ایران، همان شدت انتقاد را نمی‌بینیم."
-        ],
-        "impact": "این بحث حقوقی، مشروعیت روایت‌ها را می‌کاهد و فضای جنگ را با منطق دوگانهِ «چه کسی هدف قرار گرفتن غیرنظامی را جنایت می‌داند» تیره‌تر می‌کند.",
-        "tag": "حقوقی",
-        "urgency": 4,
-        "sentiment": -0.4,
-        "source": "San Diego Union-Tribune",
-        "url": "https://www.sandiegouniontribune.com/2026/07/25/who-should-be-accountable-for-war-crimes-during-the-u-s-iran-conflict/",
-        "clean_url": "https://www.sandiegouniontribune.com/2026/07/25/who-should-be-accountable-for-war-crimes-during-the-u-s-iran-conflict",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784995630.0,
-        "id": "32f574bf18"
-    },
-    {
-        "title_fa": "حوثی‌ها موشک و پهپاد به عربستان شلیک کردند؛ واکنش به حملات علیه الحدیده",
-        "title_en": "Yemen’s Houthis fire missiles, drones at Saudi Arabia in response to strikes on Hodeida",
-        "summary": [
-            "طبق گزارش NBC News، نیروهای حوثی در واکنش به «حملات بر الحدیده» موشک و پهپاد به سمت عربستان شلیک کردند.",
-            "این رویداد نشان می‌دهد که جنگ یمن همچنان به شکل مستقیم به عمق سرزمین‌های منطقه‌ای (عربستان) سرایت می‌کند و چرخه تلافی‌جویانه فعال است.",
-            "تمرکز اقدام گزارش‌شده روی دو متغیر عملیاتی است: استفاده از پهپاد و موشک در حمله، و مبنای سیاسی-امنیتی آن یعنی انتقام از «حملات بر الحدیده»."
-        ],
-        "impact": "این حمله، ریسک بی‌ثباتی منطقه‌ای و تشدید درگیری‌های نیابتی را بالا می‌برد، چون هر موج پاسخ می‌تواند موج بعدی را سریع‌تر و شدیدتر کند.",
-        "tag": "نیابتی",
-        "urgency": 5,
-        "sentiment": -0.4,
-        "source": "NBC News",
-        "url": "https://www.msn.com/en-us/news/world/houthis-fire-missiles-and-drones-at-saudi-arabia-in-response-to-strikes-on-a-yemeni-city/ar-AA28Ev54",
-        "clean_url": "https://www.msn.com/en-us/news/world/houthis-fire-missiles-and-drones-at-saudi-arabia-in-response-to-strikes-on-a-yemeni-city/ar-AA28Ev54",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784988392.0,
-        "id": "418205785c"
-    },
-    {
-        "title_fa": "هشدار ترامپ درباره آمادگی آمریکا برای تشدید جنگ با ایران",
-        "title_en": "'We're locked and loaded': Trump warns US is ready to escalate Iran war",
-        "summary": [
-            "ترامپ اعلام کرده که آمریکا «آمادهٔ تشدید» است؛ پیام مستقیمِ فشار و تهدید نظامی به تهران برای افزایش ریسک در محاسبات امنیتی رژیم است.",
-            "این نوع اظهارات معمولاً اهرم عملیاتِ روانی و مهار دیپلماتیک را بالا می‌برد و می‌تواند باعث محاسبه‌گری سخت‌تر در داخل و افزایش هزینه تصمیم‌گیری برای رژیم شود، اما متن منبع شواهد عملیاتی تازه (حمله/تحرک مشخص) ارائه نمی‌دهد.",
-            "چنین لحن هشداردهنده‌ای، حتی بدون جزئیات، می‌تواند نااطمینانی راهبردی ایجاد کند و هزینه‌های اقتصادی و امنیتی را بالا ببرد؛ در این گزارش، علت یا اثر اقتصادی مشخص یا گزارش اقدام میدانی ذکر نشده است."
-        ],
-        "impact": "این خبر بیشتر یک سیگنال تهدید و آماده‌باش است تا یک رویداد میدانی، و هدفش افزایش فشار و محدودکردن فضای مانور رژیم در آستانه تشدید تنش است.",
-        "tag": "نظامی",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "National News Desk",
-        "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNWlh1cTdXVDRUVnJpVVg0VEZ6eXVHcVZWTFU3M1lqX3RiRlBtUXhOZ3BMV3IxSC1jeWpsNlA5cDRaV2pUOXp4emN4R3lUdmUwUlJFemFEUmdlQjdzd190Tkltb3F5Q2dzX0tMYzBId01XQUluRkJzUFJUX09lbGZBZWJnSUF1bVd2OEJINkNwTnNUSS04aEk5RjFBczctdk9hV3h1RkhPUW9xMHM3Uk9FWXlFUzdfT0lwdGVQRDVxWmpUNHc3S2ZWRzJiY0paTEhMODUzek4xX293VFBDaU05TnBDWERvY21sck5UZlVkZXE0cFUwQXFtZ1NLblJYWjJ5MU5TeEZMeHlJeVBBcXhyQTFPV3JobnNhaDV6a0UwOVJ3Tl9nZ3huaXZyWS1Pcl9SaU5FXzh4al9LRW1admJ0bi15UVQteng5RXlHRFlLRHg3WEFpdFI5NE5ieVBDZG1HXzdNYnNfUF84RUYzMzMtcC00MldLVEdlbXhrZlhVNHNjZ0I2MS0wdTZ5TnlsM0xwZXpLeUNtckxoaUgyc0s0cEFVQkN6dw?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNWlh1cTdXVDRUVnJpVVg0VEZ6eXVHcVZWTFU3M1lqX3RiRlBtUXhOZ3BMV3IxSC1jeWpsNlA5cDRaV2pUOXp4emN4R3lUdmUwUlJFemFEUmdlQjdzd190Tkltb3F5Q2dzX0tMYzBId01XQUluRkJzUFJUX09lbGZBZWJnSUF1bVd2OEJINkNwTnNUSS04aEk5RjFBczctdk9hV3h1RkhPUW9xMHM3Uk9FWXlFUzdfT0lwdGVQRDVxWmpUNHc3S2ZWRzJiY0paTEhMODUzek4xX293VFBDaU05TnBDWERvY21sck5UZlVkZXE0cFUwQXFtZ1NLblJYWjJ5MU5TeEZMeHlJeVBBcXhyQTFPV3JobnNhaDV6a0UwOVJ3Tl9nZ3huaXZyWS1Pcl9SaU5FXzh4al9LRW1admJ0bi15UVQteng5RXlHRFlLRHg3WEFpdFI5NE5ieVBDZG1HXzdNYnNfUF84RUYzMzMtcC00MldLVEdlbXhrZlhVNHNjZ0I2MS0wdTZ5TnlsM0xwZXpLeUNtckxoaUgyc0s0cEFVQkN6dw",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784987422.0,
-        "id": "43648efe9d"
-    },
-    {
-        "title_fa": "حوثی‌ها به سایت‌های نفتی عربستان شلیک کردند؛ آمریکا برای اولین‌بار در دو هفته به ایران حمله مستقیم نکرد",
-        "title_en": "Houthis fire on Saudi oil sites; no US strike on Iran for first time in two weeks",
-        "summary": [
-            "بر اساس گزارش رویترز، حوثی‌ها به سایت‌های نفتی عربستان شلیک کردند و همین نشان می‌دهد که فشار نظامی از مسیر یمن همچنان به اقتصاد انرژی منطقه ضربه می‌زند.",
-            "در همان روز، موشک‌های آمریکا به «اهدافی در ایران» اصابت کرد، اما نکته کلیدی این است که «برای اولین‌بار در دو هفته» حمله مستقیم آمریکا به ایران انجام نشده؛ یعنی روند عملیات می‌تواند مقطعی/تحت کنترل سیاسی باشد.",
-            "ترامپ وعده «مجازات نظامی بزرگ» علیه تهران و متحدانش (حوثی‌ها) را داده، ولی در متن اشاره شده که همچنان امکان اقدام یا تغییر مسیر در آینده باز گذاشته می‌شود؛ این ابهام می‌تواند به تشدید یا عقب‌نشینی عملیاتی منجر شود."
-        ],
-        "impact": "ترکیب حملات پراکنده آمریکا به ایران و تداوم ضربه‌های یمن به دارایی‌های نفتی عربستان، ریسک بی‌ثباتی اقتصادی-امنیتی را بالا می‌برد و مسیر فشار را نامنظم‌تر اما ماندگارتر می‌کند.",
-        "tag": "منطقه",
-        "urgency": 7,
-        "sentiment": -0.4,
-        "source": "Reuters",
-        "url": "https://www.reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/",
-        "clean_url": "https://www.reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24",
-        "image": "http://www.bing.com/th?id=ONUT.Ld2pcsqpTJN2G2AofapmDg&pid=News",
-        "timestamp": 1784986380.0,
-        "id": "3447caa433"
-    },
-    {
-        "title_fa": "«ایران زمان خرید»: اسرائیل برای حمله نمایشی آمریکا آماده شد اما رخ نداد",
-        "title_en": "'Iran bought time': Israel braced for dramatic US strike that never came",
-        "summary": [
-            "ی‌نت خبر می‌دهد اسرائیل برای یک حمله احتمالیِ ایالات متحده آماده شده بود؛ اما آن «اقدام نمایشی/دراماتیک» در نهایت انجام نشد.",
-            "چارچوب رویداد بر این ادعا می‌چرخد که ایران با اقدامات خود «زمان خریده» است؛ یعنی فاصله ایجادشده بین هشدار و اقدام، به سود برنامه‌ریزی و بقا عمل کرده است.",
-            "پیام راهبردی گزارش این است که شکاف بین آمادگی نظامی/تهدید سیاسی و اجرای واقعی می‌تواند به توازن قدرت کوتاه‌مدت به نفع رژیم ایران تغییر موقت بدهد."
-        ],
-        "impact": "عدم‌وقوع ضربه مورد انتظار آمریکا، مستقیماً توان رژیم برای ادامه روندهای خود را افزایش می‌دهد و اعتبار بازدارندگیِ تهدیدهای بیرونی را زیر سؤال می‌برد.",
-        "tag": "تشدید",
-        "urgency": 8,
-        "sentiment": -0.2,
-        "source": "Ynetnews",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QVEI1WlZfUmpLalBHTnhYUjhpUG5UNEhkNmRYdkJ5aFc2ZGtjZDBJdFQ4Y2VLQlJNQVMwYk40RnRzRWtZYjlwTHVPRXRvbjJNS0NnZmtR?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5QVEI1WlZfUmpLalBHTnhYUjhpUG5UNEhkNmRYdkJ5aFc2ZGtjZDBJdFQ4Y2VLQlJNQVMwYk40RnRzRWtZYjlwTHVPRXRvbjJNS0NnZmtR",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784985142.0,
-        "id": "ed52fd42e5"
     }
 ]

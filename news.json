@@ -18,6 +18,24 @@
         "timestamp": 1785690600.0
     },
     {
+        "id": "0b35684855",
+        "title_fa": "ترامپ از «توافق» روی تنگه هرمز خبر داد",
+        "title_en": "Iran war latest: Trump claims 'there's a deal' on Strait of Hormuz, ahead of further 'negotiations' later today",
+        "summary": [
+            "ترامپ می‌گوید «توافقی» درباره تنگه هرمز وجود دارد و امروز هم مذاکره‌های تازه ادامه پیدا می‌کند؛ یعنی محور حرف‌هایش کاهش فوری تنش دریایی است.",
+            "این ادعا بیش از هر چیز به کارکرد اهرم فشار می‌خورد: هم پیام به تهران برای آرام‌سازی مسیرها، هم سیگنال به متحدان برای همراهی با دستور کار واشنگتن در بحبوحه بالا گرفتن ریسک کشتیرانی."
+        ],
+        "impact": "احتمالاً در کوتاه‌مدت ریسک ذهنی برای کشتیرانی در هرمز پایین می‌آید، اما «توافق» بدون جزئیات می‌تواند فقط سکوی مذاکره و فشار باشد.",
+        "tag": "دیپلماسی",
+        "urgency": 6,
+        "sentiment": 0.2,
+        "source": "Sky News",
+        "url": "https://news.sky.com/story/iran-war-latest-trump-claims-theres-a-deal-strait-of-hormuz-ahead-of-further-negotiations-later-today-13509565",
+        "clean_url": "https://news.sky.com/story/iran-war-latest-trump-claims-theres-a-deal-strait-of-hormuz-ahead-of-further-negotiations-later-today-13509565",
+        "image": "https://e3.365dm.com/26/08/1600x900/skynews-donald-trump-speaks-to-media_7312495.jpg?20260803011002",
+        "timestamp": 1785670020.0
+    },
+    {
         "id": "6f1fac4eff",
         "title_fa": "ترامپ حمله تازه به ایران را مشروط به معامله سریع عقب انداخت",
         "title_en": "Trump says US will hold off on fresh Iran attack in hope of quick deal",
@@ -5641,24 +5659,5 @@
         "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
         "timestamp": 1784967326.0,
         "id": "395b2c6e58"
-    },
-    {
-        "title_fa": "پنتاگون: نقص فنی وب‌سایت علت اختلاف در آمار تلفات جنگ ایران",
-        "title_en": "Pentagon says website issue caused discrepancy in Iran conflict death toll",
-        "summary": [
-            "پنتاگون اعلام کرده اختلاف در تعداد تلفات مرتبط با درگیری ایران ناشی از «مشکل وب‌سایت» بوده و نه تغییر در واقعیت میدانی یا تصمیم سیاسی.",
-            "این توضیح، اعتبار داده‌های منتشرشده قبلی را زیر سؤال نمی‌برد به‌صورت قطعی، اما نشان می‌دهد بخشی از شکاف اطلاع‌رسانی در سطح عملیات/گزارش‌گیری می‌تواند کاملاً فنی باشد.",
-            "برای تحلیل رژیم و رقبا، این خبر بیشتر پیامد امنیتی-اطلاعاتی دارد: روایت‌های رسانه‌ای و سیاسی درباره تلفات، می‌تواند با خطای سیستم گزارش‌دهی جابه‌جا شود و در فضای جنگ، جنگ روایت‌ها به همان اندازه مهم است."
-        ],
-        "impact": "اثر اصلی این رویداد، اصلاح/توضیح اختلاف آماری و محدود شدن اتکای تحلیل‌ها به اعداد بدون بررسی منبع و سازوکار انتشار است.",
-        "tag": "اطلاعات",
-        "urgency": 3,
-        "sentiment": -0.2,
-        "source": "WRTV",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa0ZpVF9DR1ZzTGxNSXZ2TlA4SVh4a2VIY29aZ292NFFoSkFlQjZxVGpBd3prbGpyaTBtYUMwSlkzOHBVa243azktS25yanZ2bzhXOE5rREJnczJKb05ONmpuZEhUcVdWYkpqZ1U3Rk9kWFlkbWNjbnFMTDNhSGtpZndOV0U3b2I5WEVXX0tnQTJ1UEpybVRsZkRUZUdYTlB3cDR0YU94T3ZWdERnaEwxNmRR?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa0ZpVF9DR1ZzTGxNSXZ2TlA4SVh4a2VIY29aZ292NFFoSkFlQjZxVGpBd3prbGpyaTBtYUMwSlkzOHBVa243azktS25yanZ2bzhXOE5rREJnczJKb05ONmpuZEhUcVdWYkpqZ1U3Rk9kWFlkbWNjbnFMTDNhSGtpZndOV0U3b2I5WEVXX0tnQTJ1UEpybVRsZkRUZUdYTlB3cDR0YU94T3ZWdERnaEwxNmRR",
-        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784967278.0,
-        "id": "0c31c35b7c"
     }
 ]

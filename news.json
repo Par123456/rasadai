@@ -1,5 +1,43 @@
 [
     {
+        "id": "b4e622dc9b",
+        "title_fa": "هشدار: ترامپ در ایران «اعتبارش را از دست می‌دهد»",
+        "title_en": "Trump's former chief of staff warns he's losing credibility on Iran",
+        "summary": [
+            "نیوزویک با تکیه به هشدار رئیس‌سابق دفتر ترامپ می‌گوید رئیس‌جمهور آمریکا از آوریل چند بار تهدید به حمله را عقب انداخته؛ همین عقب‌نشینی‌ها پای اعتبار او روی ایران را سست می‌کند.",
+            "طبق گزارش، ترامپ دست‌کم پنج بار برنامه حملات هوایی علیه ایران را لغو کرده تا «فضا برای مذاکره» باز بماند؛ منتقدان این را یعنی فشارِ نظامی تبدیل به اهرم دائمی نشده، بلکه هر بار جای خود را به مذاکره داده است."
+        ],
+        "impact": "این روایت از «کاهش اعتبار تهدید» می‌تواند هم محاسبات ایران و هم شرکای آمریکا را در پرونده فشار و مذاکره تغییر دهد.",
+        "tag": "ایران",
+        "urgency": 4,
+        "sentiment": -0.2,
+        "source": "Newsweek on MSN",
+        "url": "https://www.msn.com/en-us/news/politics/trump-s-former-chief-of-staff-warns-he-s-losing-credibility-on-iran/ar-AA29kC0H",
+        "clean_url": "https://www.msn.com/en-us/news/politics/trump-s-former-chief-of-staff-warns-he-s-losing-credibility-on-iran/ar-AA29kC0H",
+        "image": "http://www.bing.com/th?id=ONUT.P-8eJcb1qhbYjMkjIQ1woQ&pid=News",
+        "timestamp": 1785768472.0
+    },
+    {
+        "id": "c351d1539f",
+        "title_fa": "قدرت فشار روی تنگه هرمز، سلاح مؤثرتر از بمب؟",
+        "title_en": "Iran Found a ‘More Powerful Weapon Than a Nuclear Bomb’—And It’s Working",
+        "summary": [
+            "Newsweek می‌گوید موفقیت نسبی ایران در جنگ شش‌ماهه اخیر، نشان داده «بمب هسته‌ای» الزاماً مؤثرترین ابزار جمهوری اسلامی نیست؛ اهرم واقعی، فشار اقتصادی روی تنگه هرمز است.",
+            "این گزارش نتیجه می‌گیرد که ایده بستن/تهدید به بستن تنگه هرمز از دهه ۱۹۸۰ به‌عنوان ابزار دکترین نظامی ایران جا افتاده و در دوره تنش با آمریکا دوباره نقش محوری گرفته است.",
+            "به‌زعم منبع آمریکایی (Joshua Tallis)، توان ایران در تحمیل «درد اقتصادی» به اقتصاد جهانی می‌تواند از خودِ بمب اتم هم کارآمدتر باشد، چون تجارت انرژی را مستقیم و سریع مختل می‌کند.",
+            "در همین چارچوب، اشاره می‌شود ترامپ چند دور از «حمله‌های وعده‌داده‌شده» را لغو کرده و همین برگشت‌های عملیاتی، ظنِ بیشتر به کارایی اهرم هرمز و بی‌اثر شدن تهدید اتمی‌محور در میدان را تقویت می‌کند."
+        ],
+        "impact": "ایران با اهرم تنگه هرمز می‌تواند هزینه را به اقتصاد جهانی منتقل کند و فشار روی دولت آمریکا را برای پرهیز از عملیات پرریسک بالا ببرد.",
+        "tag": "تنگه هرمز",
+        "urgency": 7,
+        "sentiment": -0.2,
+        "source": "Newsweek",
+        "url": "https://www.newsweek.com/iran-found-a-more-powerful-weapon-than-a-nuclear-bomb-and-its-working-12277526",
+        "clean_url": "https://www.newsweek.com/iran-found-a-more-powerful-weapon-than-a-nuclear-bomb-and-its-working-12277526",
+        "image": "http://www.bing.com/th?id=ONUT.CFjrkfqdZtlQM6uEiZ9Qtw&pid=News",
+        "timestamp": 1785767520.0
+    },
+    {
         "id": "97a4592f6a",
         "title_fa": "ترامپ: آخرین شانس ایران برای جلوگیری از سر بریدن",
         "title_en": "Trump warns he's giving Iran 'last chance' to avoid 'decapitation'",
@@ -5617,43 +5655,5 @@
         "image": "http://www.bing.com/th?id=ONUT.JGkGEZO_x8XJBPYDl5XE0A&pid=News",
         "timestamp": 1784999450.0,
         "id": "63d1c5a762"
-    },
-    {
-        "title_fa": "تعلیق حملات شبانه آمریکا علیه ایران همزمان با تشدید درگیری حوثی‌ها و عربستان و هشدارهای تلافی تهران",
-        "title_en": "US-Iran war LIVE updates: US halts nightly strikes on Iran as Houthis and Saudis clash amid escalating conflict",
-        "summary": [
-            "گزارش شده آمریکا پس از حدود دو هفته، حملات شبانه علیه ایران را متوقف کرده؛ هم‌زمان درگیری میان حوثی‌های مورد حمایت ایران و عربستان تشدید شده و حوثی‌ها ادعا کرده‌اند موشک و پهپاد به تاسیسات مرتبط با آرامکو در جیزان و ینبع در دریای سرخ زده‌اند (تأیید فوری از سوی عربستان یا آرامکو منتشر نشده).",
-            "ایران حمله اوکراین به یک کشتی تجاری ایرانی در دریای خزر را شدیداً محکوم کرده و اعلام کرده تلافی در چارچوب حقوق بین‌الملل را در نظر می‌گیرد؛ بر اساس گزارش، انفجار روی کشتی یک نفر را کشته و یک نفر را زخمی کرده است.",
-            "سپاه پاسداران به بریتانیا هشدار داده در صورت گسترش حمایت از آمریکا در جنگ، ممکن است هدف قرار بگیرد؛ این هشدار همچنین در چارچوب این منطق است که هر کشوری که درگیری را پشتیبانی کند، در معرض تبدیل شدن به هدف قرار می‌گیرد."
-        ],
-        "impact": "تعلیق حملات شبانه آمریکا و هم‌زمانی آن با تشدید جبهه‌های منطقه‌ای، نشان می‌دهد جنگ فرسایشی و گسترش دامنه درگیری به جای یک خطِ ثابت، در حال تعیین محاسبات تهران و واشینگتن است.",
-        "tag": "نظامی",
-        "urgency": 8,
-        "sentiment": -0.6,
-        "source": "Mint",
-        "url": "https://www.livemint.com/news/world/us-iran-war-news-latest-live-updates-donald-trump-abbas-araghchi-strait-of-hormuz-peace-talks-qatar-bahrain-kuwait-11785023471415.html",
-        "clean_url": "https://www.livemint.com/news/world/us-iran-war-news-latest-live-updates-donald-trump-abbas-araghchi-strait-of-hormuz-peace-talks-qatar-bahrain-kuwait-11785023471415.html",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784998800.0,
-        "id": "e9e0385fc4"
-    },
-    {
-        "title_fa": "ایران بهبود پیوسته موشک‌های بالستیک برای دور زدن پدافند هوایی؛ گزارش WSJ",
-        "title_en": "Iran continuously honing its ballistic missiles to better avoid air defenses – WSJ",
-        "summary": [
-            "طبق گزارش WSJ (به نقل از ادعاهای اطلاعاتی)، ایران روند «اصلاح مستمر» موشک‌های بالستیک را دنبال می‌کند تا احتمال شناسایی/رهگیری توسط سامانه‌های پدافند هوایی کاهش یابد؛ محور پیام این است که برنامه دفاعی-تهاجمی به‌جای توقف، در حال بهینه‌سازی است.",
-            "این نوع تغییرات معمولاً به معنی افزایش قابلیت عملیاتی و بهتر شدن «مسیر نفوذ» است؛ یعنی حتی اگر تعداد پرتاب‌ها تغییر نکند، کارایی تهدید در برابر دفاع لایه‌لایه افزایش پیدا می‌کند.",
-            "در غیاب جزئیات رسمی از سوی منابع ایرانی، تمرکز رسانه بر «گریز از پدافند» نشان می‌دهد که خطر برای زیرساخت‌های منطقه‌ای و هر هدف هوایی/ضدهوایی، نه یک تهدید ثابت، بلکه یک تهدید در حال پیشرفت است."
-        ],
-        "impact": "بهبود مداوم برای دور زدن پدافند یعنی احتمال افزایش کارایی حملات بالقوه و فشار مستقیم‌تر بر برنامه‌های دفاعی طرف‌های منطقه‌ای.",
-        "tag": "نظامی",
-        "urgency": 8,
-        "sentiment": -0.7,
-        "source": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOGxxSGh0Sl9vTG1Lc1p0S2JteVpPYUt3RXBwR2pqYmNjODJTQ2Q5R1RRekJYcERNN3F6Wk5zTXlERG9GaEswX2JtdzZmZlJQWjNMZFN0VFZvTTFhOFN4MkNvcTRvcGczbmdSTno0YXZkZF9ZbGp1bWR1dFo5TGZfLW5McS13ZEgxNUI1aExNUGZRd1IwTTRlZXVqenJnZzZyRFlzOGUxNTd4bE1Ud2ZNUE4wblBSQlBCVmdhSDZrVEEteDhp?oc=5&hl=en-US&gl=US&ceid=US:en",
-        "clean_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOGxxSGh0Sl9vTG1Lc1p0S2JteVpPYUt3RXBwR2pqYmNjODJTQ2Q5R1RRekJYcERNN3F6Wk5zTXlERG9GaEswX2JtdzZmZlJQWjNMZFN0VFZvTTFhOFN4MkNvcTRvcGczbmdSTno0YXZkZF9ZbGp1bWR1dFo5TGZfLW5McS13ZEgxNUI1aExNUGZRd1IwTTRlZXVqenJnZzZyRFlzOGUxNTd4bE1Ud2ZNUE4wblBSQlBCVmdhSDZrVEEteDhp",
-        "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=1200&q=80",
-        "timestamp": 1784996471.0,
-        "id": "b046884c81"
     }
 ]

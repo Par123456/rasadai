@@ -43,6 +43,104 @@
     <style>
         body { background-color: #F4F5F7; color: #111827; }
 
+        /* ═══════════════ NEW COOL ANIMATIONS & EFFECTS ═══════════════ */
+        
+        /* Glowing Pulse Effect for Critical Elements */
+        @keyframes glow-pulse {
+            0%, 100% { box-shadow: 0 0 5px rgba(194, 0, 23, 0.5), 0 0 10px rgba(194, 0, 23, 0.3); }
+            50% { box-shadow: 0 0 20px rgba(194, 0, 23, 0.8), 0 0 30px rgba(194, 0, 23, 0.5); }
+        }
+        .glow-critical { animation: glow-pulse 2s ease-in-out infinite; }
+
+        /* Radar Sweep Animation */
+        @keyframes radar-sweep {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .radar-sweep { animation: radar-sweep 3s linear infinite; }
+
+        /* Floating Particles for Dark Mode */
+        .particle {
+            position: fixed;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* Gradient Text Effect */
+        .gradient-text {
+            background: linear-gradient(135deg, #C20017, #003366, #E5001C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Card Hover Lift Effect */
+        .hover-lift {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Shimmer Loading Effect */
+        @keyframes shimmer {
+            0% { background-position: -1000px 0; }
+            100% { background-position: 1000px 0; }
+        }
+        .shimmer {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 1000px 100%;
+            animation: shimmer 2s infinite;
+        }
+
+        /* Progress Bar Animation */
+        @keyframes progress-bar {
+            0% { width: 0%; }
+            100% { width: 100%; }
+        }
+
+        /* Notification Slide In */
+        @keyframes slide-in-right {
+            0% { transform: translateX(100%); opacity: 0; }
+            100% { transform: translateX(0); opacity: 1; }
+        }
+        .notification-slide { animation: slide-in-right 0.5s ease-out; }
+
+        /* Typing Effect */
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        .typing-effect {
+            overflow: hidden;
+            white-space: nowrap;
+            border-left: 2px solid #C20017;
+            animation: typing 3s steps(40, end);
+        }
+
+        /* Heat Map Pulse */
+        @keyframes heat-pulse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.1); }
+        }
+        .heat-pulse { animation: heat-pulse 2s ease-in-out infinite; }
+
+        /* Countdown Timer Style */
+        .countdown-digit {
+            font-family: 'Roboto Condensed', monospace;
+            background: linear-gradient(180deg, #1a1a1a, #333);
+            color: #00ff00;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-weight: 900;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.5);
+        }
+
         @media (max-width: 768px) {
             /* Prevent content from hiding behind mobile bottom bar */
             body {
@@ -202,13 +300,56 @@
         html.dark .bg-blue-50 .text-rasad-navy {
             color: #60a5fa !important; /* Bright blue title text */
         }
+
+        /* Reading Progress Bar */
+        #reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #C20017, #E5001C);
+            z-index: 100;
+            transition: width 0.1s ease;
+        }
+
+        /* Notification Container */
+        #notification-container {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            z-index: 9999;
+            max-width: 350px;
+        }
+
+        /* Weather Widget Style */
+        .weather-widget {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        /* Interactive Heatmap */
+        .heatmap-container {
+            position: relative;
+            background: #0f172a;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .heatmap-point {
+            position: absolute;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(239, 68, 68, 0.8) 0%, transparent 70%);
+        }
     </style>
 </head>
 
 <body class="font-sans antialiased text-rasad-text selection:bg-rasad-red selection:text-white">
 
     <!-- ═══════════════ TOP NETWORK RAIL ═══════════════ -->
-    <div class="bg-rasad-darknavy text-white text-[11px] font-mono border-b border-white/10 hidden md:block">
+    <div id="reading-progress" class="w-0"></div>
+    
+    <div class="bg-rasad-darknavy text-white text-[11px] font-mono border-b border-white/10 hidden md:block glow-critical">
         <div class="max-w-[1450px] mx-auto px-4 flex justify-between items-center h-8">
             <div class="flex items-center gap-6">
                 <span class="font-bold text-rasad-red flex items-center gap-1.5">
@@ -349,7 +490,7 @@
             <section class="lg:col-span-8 space-y-6">
                 
                 <!-- 1. "BIG TOP" HERO LEAD STORY -->
-                <div id="hero-lead-container" class="bg-white rounded-sm border-2 border-rasad-red p-5 shadow-md relative overflow-hidden">
+                <div id="hero-lead-container" class="bg-white rounded-sm border-2 border-rasad-red p-5 shadow-md relative overflow-hidden hover-lift glow-critical">
                     <div class="animate-pulse space-y-3">
                         <div class="h-4 w-32 bg-gray-200"></div>
                         <div class="h-8 w-3/4 bg-gray-300"></div>
@@ -358,10 +499,10 @@
                 </div>
 
                 <!-- 2. SPECIAL REPORT BANNER (USES special_reports.json) -->
-                <div id="special-report-container" class="bg-white rounded-sm border-2 border-rasad-navy p-5 shadow-md relative overflow-hidden">
+                <div id="special-report-container" class="bg-white rounded-sm border-2 border-rasad-navy p-5 shadow-md relative overflow-hidden hover-lift">
                     <div class="flex justify-between items-center border-b border-gray-200 pb-3 mb-3">
-                        <span class="rasad-kicker flex items-center gap-1.5 text-rasad-navy">
-                            <i class="fas fa-layer-group text-rasad-red"></i> پرونده ویژه / گزارش اختصاصی رصد
+                        <span class="rasad-kicker flex items-center gap-1.5 text-rasad-navy gradient-text">
+                            <i class="fas fa-layer-group text-rasad-red radar-sweep"></i> پرونده ویژه / گزارش اختصاصی رصد
                         </span>
                         <span id="special-tag-badge" class="text-xs font-mono font-bold px-2.5 py-0.5 bg-rasad-navy text-white rounded-sm">
                             اختصاصی
@@ -479,10 +620,10 @@
                 </div>
 
                 <!-- 3. URGENCY THREAT GAUGE PANEL -->
-                <div class="bg-white p-5 rounded-sm border border-rasad-border shadow-sm">
+                <div class="bg-white p-5 rounded-sm border border-rasad-border shadow-sm hover-lift">
                     <div class="flex items-center justify-between border-b border-gray-200 pb-3 mb-3">
-                        <span class="rasad-kicker flex items-center gap-1.5"><i class="fas fa-shield-alt"></i> شاخص فوریت امنیتی</span>
-                        <span id="tension-percent" class="text-2xl font-black font-brand text-rasad-red">0%</span>
+                        <span class="rasad-kicker flex items-center gap-1.5 gradient-text"><i class="fas fa-shield-alt"></i> شاخص فوریت امنیتی</span>
+                        <span id="tension-percent" class="text-2xl font-black font-brand text-rasad-red glow-critical px-3 py-1 bg-red-50 rounded-full">0%</span>
                     </div>
 
                     <div class="space-y-3">
@@ -504,9 +645,9 @@
                 </div>
 
                 <!-- 4. GEOPOLITICAL REGIONAL FLASHPOINTS -->
-                <div class="bg-white p-4 rounded-sm border border-rasad-border shadow-sm">
-                    <h3 class="rasad-kicker border-b border-gray-200 pb-2 mb-3 flex items-center gap-2">
-                        <i class="fas fa-map-marker-alt"></i> کانون‌های تنش منطقه‌ای
+                <div class="bg-white p-4 rounded-sm border border-rasad-border shadow-sm hover-lift">
+                    <h3 class="rasad-kicker border-b border-gray-200 pb-2 mb-3 flex items-center gap-2 gradient-text">
+                        <i class="fas fa-map-marker-alt text-rasad-red radar-sweep"></i> کانون‌های تنش منطقه‌ای
                     </h3>
 
                     <div class="space-y-2 text-xs">
@@ -1501,6 +1642,126 @@ loadScheduledBulletin();
 async function initDailySummary() { try { const res = await smartFetch('daily_summary.json'); if (res) dailySummaryData = await res.json(); } catch(e){} }
 initDailySummary();
 setInterval(loadData, 30000);
+
+// ═══════════════ NEW COOL FEATURES ═══════════════
+
+// Reading Progress Bar
+window.addEventListener('scroll', () => {
+    const progressBar = document.getElementById('reading-progress');
+    if (!progressBar) return;
+    
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    progressBar.style.width = scrolled + '%';
+});
+
+// Floating Particles for Dark Mode
+function createParticles() {
+    if (!document.documentElement.classList.contains('dark')) return;
+    
+    for (let i = 0; i < 20; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.style.left = Math.random() * 100 + 'vw';
+        particle.style.top = Math.random() * 100 + 'vh';
+        particle.style.animation = `heat-pulse ${2 + Math.random() * 3}s ease-in-out infinite`;
+        particle.style.animationDelay = Math.random() * 2 + 's';
+        document.body.appendChild(particle);
+    }
+}
+
+// Re-run particles when dark mode toggles
+const originalToggleDarkMode = toggleDarkMode;
+toggleDarkMode = function() {
+    originalToggleDarkMode();
+    setTimeout(() => {
+        document.querySelectorAll('.particle').forEach(p => p.remove());
+        createParticles();
+    }, 100);
+};
+
+// Initialize particles on load if dark mode is active
+if (document.documentElement.classList.contains('dark')) {
+    createParticles();
+}
+
+// Notification System
+function showNotification(message, type = 'info') {
+    let container = document.getElementById('notification-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'notification-container';
+        document.body.appendChild(container);
+    }
+    
+    const colors = {
+        info: 'bg-rasad-navy',
+        success: 'bg-green-600',
+        warning: 'bg-amber-500',
+        error: 'bg-rasad-red'
+    };
+    
+    const icons = {
+        info: 'fa-info-circle',
+        success: 'fa-check-circle',
+        warning: 'fa-exclamation-triangle',
+        error: 'fa-times-circle'
+    };
+    
+    const notification = document.createElement('div');
+    notification.className = `notification-slide ${colors[type]} text-white p-4 rounded-sm shadow-lg mb-3 flex items-center gap-3`;
+    notification.innerHTML = `
+        <i class="fas ${icons[type]}"></i>
+        <span class="text-xs font-bold">${message}</span>
+        <button onclick="this.parentElement.remove()" class="mr-auto hover:text-gray-300">
+            <i class="fas fa-times"></i>
+        </button>
+    `;
+    
+    container.appendChild(notification);
+    
+    // Auto remove after 5 seconds
+    setTimeout(() => {
+        if (notification.parentElement) {
+            notification.style.opacity = '0';
+            notification.style.transform = 'translateX(100%)';
+            setTimeout(() => notification.remove(), 500);
+        }
+    }, 5000);
+}
+
+// Show welcome notification on first load
+setTimeout(() => {
+    showNotification('به سامانه رصد نیوز خوش آمدید', 'success');
+}, 1500);
+
+// Enhanced Tension Gauge with Animation
+const originalUpdateTension = updateTension;
+updateTension = function(data) {
+    originalUpdateTension(data);
+    
+    const percentEl = document.getElementById('tension-percent');
+    if (percentEl && data && data.length) {
+        // Add pulse animation when tension is high
+        const pct = parseInt(percentEl.innerText);
+        if (pct >= 75) {
+            percentEl.classList.add('glow-critical');
+            showNotification('⚠️ سطح تنش در وضعیت بحرانی', 'warning');
+        } else {
+            percentEl.classList.remove('glow-critical');
+        }
+    }
+};
+
+// Add shimmer effect to loading states
+document.querySelectorAll('.animate-pulse').forEach(el => {
+    el.classList.add('shimmer');
+});
+
+// Keyboard Shortcuts Info
+console.log('%c راد نیوز - میانبرهای صفحه کلید ', 'background: #C20017; color: white; font-size: 14px; font-weight: bold; padding: 5px;');
+console.log('%c / : جستجوی سریع | R : بارگذاری مجدد | ESC : بستن مودال‌ها ', 'color: #003366; font-size: 12px; font-weight: bold;');
 </script>
 
 <!-- ═══════════════ MOBILE BOTTOM APP BAR ═══════════════ -->
